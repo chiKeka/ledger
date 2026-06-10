@@ -91,7 +91,7 @@
    "frameworks": [
     "Infrastructure Stack Model"
    ],
-   "update_test": "[tightened 2026-06-10 grounding audit] Countable textual test: among African data-centre/compute announcements >USD 100M or >20MW between 2025-06 and 2027-06-30, confirmed if ZERO name an AU/Continental AI Strategy instrument as a primary stated rationale in announcement materials; disconfirmed if one or more do; partial if an AU instrument appears as secondary rationale in two or more.",
+   "update_test": "[precedence fix 2026-06-10, Bugbot PR41] Among African data-centre/compute announcements >USD 100M or >20MW between 2025-06 and 2027-06-30: DISCONFIRMED if any names an AU/Continental AI Strategy instrument as a primary stated rationale. Otherwise PARTIAL if AU instruments appear as secondary rationale in two or more announcements. Otherwise CONFIRMED (zero primary AND fewer than two secondary). Exactly one outcome is possible for any evidence set; precedence order: disconfirmed > partial > confirmed.",
    "resolve_by": "2027-06-30",
    "status": "open",
    "evidence": [],
@@ -137,9 +137,13 @@
    ],
    "update_test": "Company announcement, press coverage, or industry tracker confirming power-on/service; silence past July 31 resolves no",
    "resolve_by": "2026-07-31",
-   "status": "open",
+   "status": "resolved",
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-10T12:12:10Z",
+    "outcome": "confirmed",
+    "note": "Kasi Cloud Datacenters formally commissioned its Lekki LOS1 campus on 2026-05-19, with the 5.5MW first phase publicly announced as operational/open. Sources: DCD (https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/) headlined 'Kasi opens first phase'; company press release on GlobeNewswire (https://www.globenewswire.com/news-release/2026/05/19/3297917/0/en/Kasi-Cloud-Datacenters-Commissions-West-Africa-s-First-Hyperscale-Ready-AI-Capable-Data-Centre-Campus-in-Lagos.html); TechAfrica News (https://techafricanews.com/2026/05/28/kasi-cloud-datacenters-flags-off-west-africas-first-ai-ready-hyperscale-data-centre-in-lagos/); Vanguard (https://www.vanguardngr.com/2026/05/kasi-cloud-has-nigerias-first-ai-data-centre-landed/). Dated milestone publicly confirmed within window."
+   }
   },
   {
    "id": "claim-20260610-010",
@@ -160,7 +164,14 @@
    "update_test": "Council formal adoption recorded in the EU register; political agreement alone does not count",
    "resolve_by": "2026-07-31",
    "status": "open",
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-10",
+     "direction": "supports",
+     "note": "EU Council published the provisionally agreed Digital Omnibus on AI compromise text 2026-05-13 as Council document 9247/26 (endorsing 9034/26). Multiple law firm trackers (Latham & Watkins, Gibson Dunn, White & Case) expect formal Council adoption before 2026-08-02 to avoid Annex III lapse. Evidence supports the directional claim; formal Council vote NOT YET recorded in EU register, so claim stays open and unresolved per its strict update test ('Council formal adoption recorded; political agreement alone does not count').",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -227,6 +238,159 @@
    ],
    "update_test": "Company announcements, press coverage, and industry trackers: confirmed on any 6+ month phase slip or <50% of announced capacity in service at any listed project; disconfirmed if all listed projects hit phases within 6 months and exceed half capacity",
    "resolve_by": "2027-03-31",
+   "status": "open",
+   "evidence": [
+    {
+     "date": "2026-06-10",
+     "direction": "against",
+     "note": "Kasi Cloud Lekki 5.5MW first phase commissioned 2026-05-19, on its announced Q2-2026 schedule — first named project hit its phase target without slip. One project on time does not disconfirm the umbrella claim (Uganda AI factory + Kenya hyperscale builds still untested through 2027-03-31), but this is one of three test legs falling against the slip hypothesis.",
+     "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
+    }
+   ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-014",
+   "date": "2026-06-10",
+   "claim": "Through end-2027, cumulative powered MW capacity across the named 2026 African AI data-centre projects (Kasi Cloud Lekki 100MW campus, Tetracore Ogun 20MW gas-powered DC, Uganda announced AI factory, Microsoft-G42 Kenya 1GW geothermal) will be less than 25% of cumulative announced MW capacity.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Named projects: Kasi Cloud Lekki 100MW (5.5MW live as of 2026-05-19); Tetracore Ogun 20MW gas-powered DC announced March 2026 with Huawei/Inspirive; Uganda AI factory (Mar 2026 announcement); Microsoft-G42 Kenya $1B geothermal data centre (2024 announcement). DCD and Africa DC Association tracker exist today.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "End-2027 cumulative powered MW (per DCD industry tracker + Africa Data Centres Association annual report) divided by cumulative announced MW for the four named projects: confirmed if <25%, disconfirmed if >=25%, partial if data missing for >=2 of 4 projects.",
+   "resolve_by": "2027-12-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-015",
+   "date": "2026-06-10",
+   "claim": "Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Existing anchors: EU Intergenerational Fairness Strategy (March 2026, aspirational); ICJ Advisory Opinion 32 (intergenerational-equity binding standard, 2026); EU Commissioner for Intergenerational Fairness (named office); US Indigenous Data Sovereignty Network 2026 Seventh Generation statement (non-binding). Question: does the binding form spread beyond EU + ICJ?",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.2,
+   "frameworks": [
+    "Consent Horizon"
+   ],
+   "update_test": "Count of binding policy texts (laws, regulations, gazetted directives) outside EU and ICJ that explicitly invoke intergenerational equity, future generations, or seventh-generation language while regulating AI infrastructure or data centres: confirmed if >=3 from distinct jurisdictions, disconfirmed if <=2, partial if 3+ exist but at least one is purely declarative.",
+   "resolve_by": "2027-12-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-016",
+   "date": "2026-06-10",
+   "claim": "By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "EU Digital Omnibus on AI: Council document 9247/26 published 2026-05-13, defers Annex III high-risk obligations 16 months and Annex I obligations 12 months. Active non-EU AI rulemaking exists in UK (AI Action Plan), US (state-level patchwork), Canada (AIDA), Singapore (Model AI Governance Framework), Korea (AI Framework Act), Brazil (PL 2338).",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Public regulatory document, ministerial statement, or formal consultation response from at least two jurisdictions outside the EU explicitly referencing the 2026 EU omnibus as justification or precedent for their own deferral or softening of AI obligations: confirmed if >=2 such citations identifiable in primary sources, disconfirmed otherwise.",
+   "resolve_by": "2027-12-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-017",
+   "date": "2026-06-10",
+   "claim": "The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EU AI Office publishes guidance on artificialintelligenceact.eu and digital-strategy.ec.europa.eu. The May 2026 omnibus (Council document 9247/26) defers Annex III HRAIS obligations 16 months. The AI Office routinely issues interpretive notes around new package adoptions.",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "European Commission AI Office publication on digital-strategy.ec.europa.eu or EU register dated on or before 2026-08-09 that explicitly addresses how the Digital Omnibus deferrals apply: confirmed if at least one such document is identifiable, disconfirmed if none exists by 2026-08-09 EOD CET.",
+   "resolve_by": "2026-08-09",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-018",
+   "date": "2026-06-10",
+   "claim": "At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Ogun 20MW gas DC, Uganda announced AI factory, Microsoft-G42 Kenya geothermal DC) will publicly announce a delay, scope reduction, or financing gap by 2026-08-09.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Named projects all exist with public commitments today. Schneider Electric and Africa DC Association have publicly flagged electricity supply as the binding constraint (Businessday NG, June 2026). DCD and TechCabal tracker activity is reliable.",
+   "withdrawal": null,
+   "confidence": 0.35,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "frameworks": [],
+   "update_test": "Any company announcement, press coverage, or industry tracker note before 2026-08-09 indicating slip, scope cut, or financing gap at any of the four named projects: confirmed if >=1 such item identifiable, disconfirmed otherwise. A celebratory progress announcement does not count.",
+   "resolve_by": "2026-08-09",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-019",
+   "date": "2026-06-10",
+   "claim": "The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Federal Reserve Board publishes FOMC meeting schedule; July 28-29 2026 is on the official calendar. Decision is published 2026-07-29 at 14:00 ET in the Federal Reserve press release.",
+   "withdrawal": null,
+   "confidence": 0.88,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.85,
+   "frameworks": [],
+   "update_test": "Federal Reserve press release on or about 2026-07-29 reporting the FOMC decision on the federal funds rate target range: confirmed if the upper bound of the target range is equal to or lower than the upper bound set at the prior (June 2026) meeting, disconfirmed if raised.",
+   "resolve_by": "2026-07-30",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-020",
+   "date": "2026-06-10",
+   "claim": "At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Alphabet, Amazon, Apple, Meta, Microsoft all report Q2 calendar earnings in the last two weeks of July 2026. Press releases on each firm's investor relations site and SEC EDGAR filings. Q1 2026 cycle showed all five posting YoY revenue gains; Q2 2026 not yet reported as of 2026-06-10.",
+   "withdrawal": null,
+   "confidence": 0.22,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.25,
+   "frameworks": [],
+   "update_test": "Reading each of the five firms' Q2-2026 calendar earnings press releases as published between 2026-07-15 and 2026-08-09: confirmed if any of the five reports a YoY decline in either reported revenue or adjusted (non-GAAP) EPS on a single-metric basis, disconfirmed if all five report YoY gains in both metrics.",
+   "resolve_by": "2026-08-09",
    "status": "open",
    "evidence": [],
    "resolution": null
