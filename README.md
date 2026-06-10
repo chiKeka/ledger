@@ -2,7 +2,9 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 0✓ · 0✗ · 0◐ · 10 open · first resolutions due July 2026**
+**Record: 1✓ · 0✗ · 0◐ · 16 open · Brier 0.160 (coin-flip = 0.250), skill vs coin-flip +0.090**
+
+**Latest: ✓ "Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31" — said 60%, resolved confirmed (2026-06-10)**
 
 _Updated 2026-06-10 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
@@ -17,20 +19,28 @@ _Updated 2026-06-10 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-008"></a>At least one of the Big Five US tech firms will cut or flatten its AI capex guidance year-over-year by the end of Q1 2027 reporting, absent clear aggregate AI productivity gains in the 2026 statistical releases <br><sub>Wachter w35290 implies the bet must show or unwind on a short fuse, but Big Five have absorbed flat productivity before without guiding down; 0.55 reflects genuine uncertainty between balance-sheet discipline and arms-race lock-in.</sub> | **55%** | twin | 2027-04-30 |
 | <a id="claim-20260610-007"></a>The AU's governance-first Continental AI Strategy phase (2025-26) will not pull material physical-layer compute investment into existence by phase close: major African data-centre/compute projects announced through mid-2027 will cite commercial or hyperscaler logic, not AU policy instruments, as the decisive investment rationale <br><sub>Historical base rate: policy-first frameworks rarely cited as decisive in African DC siting; commercial logic dominated every 2025-26 announcement in corpus (Kasi, MTN-Genova, Equinix, MS-G42). ADAPT pilots are the live disconfirmation risk.</sub> | **70%** | twin | 2027-06-30 |
 | <a id="claim-20260610-012"></a>Through 2027-06-30, governance and public-sector roles will show no measurable surge of elite talent inflows: published civil-service application volumes (UK Civil Service Fast Stream, US federal USAJOBS annual reporting) and major govtech hiring indices all stay below +25% versus their 2025 baselines <br><sub>Strictly harder than the withdrawn 003 (no escape clause): if a renewal trigger emerges AND reallocation follows, this now fails. Dropped from 0.80 to 0.72 accordingly.</sub> | **72%** | bruno | 2027-06-30 |
+| <a id="claim-20260610-014"></a>Through end-2027, cumulative powered MW capacity across the named 2026 African AI data-centre projects (Kasi Cloud Lekki 100MW campus, Tetracore Ogun 20MW gas-powered DC, Uganda announced AI factory, Microsoft-G42 Kenya 1GW geothermal) will be less than 25% of cumulative announced MW capacity. | **62%** | twin | 2027-12-31 |
+| <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
+| <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 3 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 6 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260610-009"></a>Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31 | **60%** | 50% | worldview |  2026-07-31 |
+| <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | **55%** | 50% | worldview |  2026-07-31 |
+| <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
+| <a id="claim-20260610-018"></a>At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Ogun 20MW gas DC, Uganda announced AI factory, Microsoft-G42 Kenya geothermal DC) will publicly announce a delay, scope reduction, or financing gap by 2026-08-09. | **35%** | 30% | worldview |  2026-08-09 |
+| <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
 | <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | **75%** | 70% | worldview |  2026-08-15 |
 
 </details>
 
 ## Resolved
 
-_Nothing resolved yet. The earliest claims come due in July 2026. The board does not get to forget._
+| | Claim | Said | Outcome | Evidence |
+|---|---|---|---|---|
+| ✓ | <a id="claim-20260610-009"></a>Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31 | 60% | confirmed (2026-06-10) | Kasi Cloud Datacenters formally commissioned its Lekki LOS1 campus on 2026-05-19, with the 5.5MW first phase publicly announced as operational/open. Sources: DCD (https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/) headlined 'Kasi opens first phase'; company press release on GlobeNewswire (https://www.globenewswire.com/news-release/2026/05/19/3297917/0/en/Kasi-Cloud-Datacenters-Commissions-West-Africa-s-First-Hyperscale-Ready-AI-Capable-Data-Centre-Campus-in-Lagos.html); TechAfrica News (https://techafricanews.com/2026/05/28/kasi-cloud-datacenters-flags-off-west-africas-first-ai-ready-hyperscale-data-centre-in-lagos/); Vanguard (https://www.vanguardngr.com/2026/05/kasi-cloud-has-nigerias-first-ai-data-centre-landed/). Dated milestone publicly confirmed within window. |
 
 ## Calibration record
 
