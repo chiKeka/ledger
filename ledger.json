@@ -1,0 +1,235 @@
+{
+ "updated": "2026-06-10",
+ "claims": [
+  {
+   "id": "claim-20260610-001",
+   "date": "2026-06-10",
+   "claim": "Aggregate productivity statistics will show no clear AI-driven gains through end-2026 while firm-level performance concentration keeps growing",
+   "committed_by": "bruno",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "BLS/OECD productivity statistics and PwC/NBER firm-level concentration measures exist and publish on known schedules",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Productivity stats lag adoption by construction; concentration evidence (PwC/NBER signals) already strong. Risk: late-2026 statistical revision.",
+   "base_rate": null,
+   "frameworks": [
+    "Institutional Adaptation Lag",
+    "Agent Gradient Model"
+   ],
+   "update_test": "[tightened 2026-06-10 grounding audit] Two conjuncts, scored explicitly: (A) BLS annual US nonfarm labor productivity growth for 2026 stays at or below 2.2% AND no BLS/OECD release attributes a stated uptick to AI; (B) at least one published 2026/early-2027 firm-level study (PwC, NBER, or equivalent) reports widening AI-performance concentration. Both hold = confirmed; exactly one = partial; neither = disconfirmed. Resolve on the 2026 annual releases, by 2027-03-31.",
+   "resolve_by": "2027-03-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-002",
+   "date": "2026-06-10",
+   "claim": "At least two more African states beyond South Africa will formally designate data centres as critical infrastructure by end-2026",
+   "committed_by": "bruno",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "South Africa's designation is gazetted fact; Kenya and Nigeria have active policy processes on record",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "SA precedent set, Kenya/Nigeria discussing; designation requires formal gazette action which moves slower than discourse.",
+   "base_rate": null,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "Official gazette/policy designations counted; signals corpus already tracks SA precedent",
+   "resolve_by": "2026-12-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-004",
+   "date": "2026-06-10",
+   "claim": "The EU AI Act simplification/omnibus turn will reduce enforceable obligations for frontier deployers relative to the 2024 text by end-2026",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "The EU AI Act omnibus is a live legislative process with a published May 7 political agreement",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Omnibus/simplification signals from three independent scans; deregulatory momentum visible since May.",
+   "base_rate": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Final omnibus text vs 2024 obligations: count of softened or delayed frontier-relevant articles",
+   "resolve_by": "2026-12-31",
+   "status": "open",
+   "evidence": [
+    {
+     "date": "2026-06-10",
+     "direction": "supports",
+     "note": "May 7 2026 Council+Parliament political agreement on AI Omnibus: Annex III HRAIS obligations deferred Aug 2026 → Dec 2027; Annex I deferred Aug 2027 → Aug 2028.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    }
+   ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-007",
+   "date": "2026-06-10",
+   "claim": "The AU's governance-first Continental AI Strategy phase (2025-26) will not pull material physical-layer compute investment into existence by phase close: major African data-centre/compute projects announced through mid-2027 will cite commercial or hyperscaler logic, not AU policy instruments, as the decisive investment rationale",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "The AU Continental AI Strategy is adopted policy; the comparison set is real announced DC investments with stated rationales",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Historical base rate: policy-first frameworks rarely cited as decisive in African DC siting; commercial logic dominated every 2025-26 announcement in corpus (Kasi, MTN-Genova, Equinix, MS-G42). ADAPT pilots are the live disconfirmation risk.",
+   "base_rate": null,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "[tightened 2026-06-10 grounding audit] Countable textual test: among African data-centre/compute announcements >USD 100M or >20MW between 2025-06 and 2027-06-30, confirmed if ZERO name an AU/Continental AI Strategy instrument as a primary stated rationale in announcement materials; disconfirmed if one or more do; partial if an AU instrument appears as secondary rationale in two or more.",
+   "resolve_by": "2027-06-30",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-008",
+   "date": "2026-06-10",
+   "claim": "At least one of the Big Five US tech firms will cut or flatten its AI capex guidance year-over-year by the end of Q1 2027 reporting, absent clear aggregate AI productivity gains in the 2026 statistical releases",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Big Five capex guidance is published quarterly in earnings filings; NBER w35290 quantifies the current curve",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Wachter w35290 implies the bet must show or unwind on a short fuse, but Big Five have absorbed flat productivity before without guiding down; 0.55 reflects genuine uncertainty between balance-sheet discipline and arms-race lock-in.",
+   "base_rate": null,
+   "frameworks": [
+    "Agent Gradient Model"
+   ],
+   "update_test": "[tightened 2026-06-10 grounding audit] Conditional branches made explicit: IF BLS 2026 annual productivity growth >= 2.5% (condition 'clear aggregate gains' met) the claim resolves UNRESOLVABLE. Otherwise: confirmed if any Big Five FY2027 AI capex guidance is cut or flat year-over-year in earnings filings through 2027-04-30; disconfirmed if all five raise guidance.",
+   "resolve_by": "2027-04-30",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-009",
+   "date": "2026-06-10",
+   "claim": "Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Kasi Cloud is a real company with a publicly announced Q2 2026 partial-online milestone",
+   "withdrawal": null,
+   "confidence": 0.6,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [
+    "Absorption Stack Model"
+   ],
+   "update_test": "Company announcement, press coverage, or industry tracker confirming power-on/service; silence past July 31 resolves no",
+   "resolve_by": "2026-07-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-010",
+   "date": "2026-06-10",
+   "claim": "The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Formal Council adoption is a scheduled, public EU legislative step following the recorded May 7 agreement",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Council formal adoption recorded in the EU register; political agreement alone does not count",
+   "resolve_by": "2026-07-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-011",
+   "date": "2026-06-10",
+   "claim": "At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Q2 earnings calls are dated public events with published transcripts",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.7,
+   "frameworks": [
+    "Innovation Energy Cycle"
+   ],
+   "update_test": "Earnings transcripts by 2026-08-15: any explicit upward revision of FY capex guidance tied to AI/data centres",
+   "resolve_by": "2026-08-15",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-012",
+   "date": "2026-06-10",
+   "claim": "Through 2027-06-30, governance and public-sector roles will show no measurable surge of elite talent inflows: published civil-service application volumes (UK Civil Service Fast Stream, US federal USAJOBS annual reporting) and major govtech hiring indices all stay below +25% versus their 2025 baselines",
+   "committed_by": "bruno",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Published application-volume and hiring datasets that exist and report annually; 2025 baselines are already on record",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Strictly harder than the withdrawn 003 (no escape clause): if a renewal trigger emerges AND reallocation follows, this now fails. Dropped from 0.80 to 0.72 accordingly.",
+   "base_rate": null,
+   "frameworks": [
+    "Reallocation Threshold",
+    "Governance Cycle Renewal Gap"
+   ],
+   "update_test": "Confirmed if no listed dataset shows a +25% rise vs 2025 by 2027-06-30; disconfirmed if any does; partial if data discontinued for some but no observed surge elsewhere",
+   "resolve_by": "2027-06-30",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260610-013",
+   "date": "2026-06-10",
+   "claim": "At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki 100MW campus, Uganda's announced AI factory, Kenya hyperscale builds) will, by 2027-03-31, either delay its next announced phase by six or more months or have brought less than half of its announced capacity into service",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Named, announced projects with public capacity figures and phase timelines on record",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Observable version is stricter than the withdrawn mechanism-claim's 0.80: a project can stall for absorption reasons without tripping the 6-month/50% thresholds. Dropped to 0.70.",
+   "base_rate": null,
+   "frameworks": [
+    "Absorption Stack Model",
+    "Cultural Adoption Filter"
+   ],
+   "update_test": "Company announcements, press coverage, and industry trackers: confirmed on any 6+ month phase slip or <50% of announced capacity in service at any listed project; disconfirmed if all listed projects hit phases within 6 months and exceed half capacity",
+   "resolve_by": "2027-03-31",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  }
+ ]
+}
