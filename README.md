@@ -6,7 +6,7 @@ Falsifiable claims about AI, infrastructure, and institutions. The probability i
 
 **Latest: ✓ "Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31" — said 60%, resolved confirmed (2026-06-10)**
 
-_Updated 2026-06-10 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
