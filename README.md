@@ -4,6 +4,8 @@ Falsifiable claims about AI, infrastructure, and institutions. The probability i
 
 **Record: 0✓ · 0✗ · 0◐ · 17 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · first valid resolutions due July 2026**
 
+**Latest: ! "At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Og" — voided 2026-06-11, outcome pre-dated registration; never scored**
+
 _Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
