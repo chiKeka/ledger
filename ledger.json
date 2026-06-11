@@ -170,6 +170,12 @@
      "direction": "supports",
      "note": "EU Council published the provisionally agreed Digital Omnibus on AI compromise text 2026-05-13 as Council document 9247/26 (endorsing 9034/26). Multiple law firm trackers (Latham & Watkins, Gibson Dunn, White & Case) expect formal Council adoption before 2026-08-02 to avoid Annex III lapse. Evidence supports the directional claim; formal Council vote NOT YET recorded in EU register, so claim stays open and unresolved per its strict update test ('Council formal adoption recorded; political agreement alone does not count').",
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-06-11",
+     "direction": "supports",
+     "note": "EU Commission press release IP_26_1024 (2026-05-07 provisional Council-Parliament agreement); Council document 9247/26 published 2026-05-13 with the agreed Digital Omnibus text. Multiple legal trackers (Gibson Dunn, White & Case, Latham & Watkins, DLA Piper) explicitly expect formal Council adoption before 2026-08-02 to avoid Annex III HRAIS lapse — directional pressure is overwhelming. Update test still strict ('formal Council adoption recorded in EU register; political agreement does not count') — claim stays open pending formal vote.",
+     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024"
     }
    ],
    "resolution": null
@@ -245,6 +251,12 @@
      "direction": "against",
      "note": "Kasi Cloud Lekki 5.5MW first phase commissioned 2026-05-19, on its announced Q2-2026 schedule — first named project hit its phase target without slip. One project on time does not disconfirm the umbrella claim (Uganda AI factory + Kenya hyperscale builds still untested through 2027-03-31), but this is one of three test legs falling against the slip hypothesis.",
      "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
+    },
+    {
+     "date": "2026-06-11",
+     "direction": "supports",
+     "note": "Microsoft-G42 Kenya geothermal hyperscale DC formally suspended by Pres. Ruto 2026-05-08 over 1GW power requirement vs Kenya's 3GW total installed capacity — explicit slip/scope cut at one of the three listed project legs (Kenya hyperscale builds). Combined with Kasi commissioning the other direction, the umbrella claim is now leaning confirmed via the Kenya leg.",
+     "source_url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/"
     }
    ],
    "resolution": null
@@ -351,9 +363,13 @@
    "frameworks": [],
    "update_test": "Any company announcement, press coverage, or industry tracker note before 2026-08-09 indicating slip, scope cut, or financing gap at any of the four named projects: confirmed if >=1 such item identifiable, disconfirmed otherwise. A celebratory progress announcement does not count.",
    "resolve_by": "2026-08-09",
-   "status": "open",
+   "status": "resolved",
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-11T12:13:51Z",
+    "outcome": "confirmed",
+    "note": "RESOLVED CONFIRMED on the Kenya leg. Kenya President William Ruto publicly suspended the Microsoft-G42 Olkaria/KenGen 1GW geothermal data centre 2026-05-08, citing power capacity (1GW vs Kenya's ~3GW installed). Multiple primary sources: thinkgeoenergy.com, datacenterdynamics.com (DCD), Tom's Hardware, techweez.com, iafrica.com. The update test is unambiguous: 'Any company announcement, press coverage, or industry tracker note before 2026-08-09 indicating slip, scope cut, or financing gap.' Government suspension of a flagship B project IS a slip and scope cut. Twin confidence was 0.35 — uncalibrated against pre-registration news that had already been public for a month at claim-registration time. Calibration lesson: pre-register search depth was insufficient. Evidence URL: https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/"
+   }
   },
   {
    "id": "claim-20260610-019",
@@ -372,7 +388,14 @@
    "update_test": "Federal Reserve press release on or about 2026-07-29 reporting the FOMC decision on the federal funds rate target range: confirmed if the upper bound of the target range is equal to or lower than the upper bound set at the prior (June 2026) meeting, disconfirmed if raised.",
    "resolve_by": "2026-07-30",
    "status": "open",
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-11",
+     "direction": "supports",
+     "note": "Prediction markets (Polymarket, Kalshi) price 97-98% probability of Fed holding rates at the June 16-17 meeting prior to the July 28-29 meeting; markets price no rate moves rest of 2026; FOMC has held three consecutive meetings (April 29 was 8-4 hold with most dissents since 1992); Kevin Warsh installed as Chair 2026-05-15 inheriting divided committee, recent May CPI 4.2% YoY reduces cut odds. All directionally supportive of HOLD-or-CUT (the claim direction) at July 28-29; no scenario raises rates is currently priced.",
+     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    }
+   ],
    "resolution": null
   },
   {

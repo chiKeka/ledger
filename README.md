@@ -2,9 +2,9 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 1✓ · 0✗ · 0◐ · 16 open · Brier 0.160 (coin-flip = 0.250), skill vs coin-flip +0.090**
+**Record: 2✓ · 0✗ · 0◐ · 15 open · Brier 0.291 (coin-flip = 0.250), skill vs coin-flip -0.041**
 
-**Latest: ✓ "Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31" — said 60%, resolved confirmed (2026-06-10)**
+**Latest: ✓ "At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Og" — said 35%, resolved confirmed (2026-06-11)**
 
 _Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
@@ -23,14 +23,13 @@ _Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 6 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 5 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | **55%** | 50% | worldview |  2026-07-31 |
 | <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
-| <a id="claim-20260610-018"></a>At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Ogun 20MW gas DC, Uganda announced AI factory, Microsoft-G42 Kenya geothermal DC) will publicly announce a delay, scope reduction, or financing gap by 2026-08-09. | **35%** | 30% | worldview |  2026-08-09 |
 | <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
 | <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | **75%** | 70% | worldview |  2026-08-15 |
 
@@ -40,6 +39,7 @@ _Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260610-018"></a>At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Ogun 20MW gas DC, Uganda announced AI factory, Microsoft-G42 Kenya geothermal DC) will publicly announce a delay, scope reduction, or financing gap by 2026-08-09. | 35% | confirmed (2026-06-11) | RESOLVED CONFIRMED on the Kenya leg. Kenya President William Ruto publicly suspended the Microsoft-G42 Olkaria/KenGen 1GW geothermal data centre 2026-05-08, citing power capacity (1GW vs Kenya's ~3GW installed). Multiple primary sources: thinkgeoenergy.com, datacenterdynamics.com (DCD), Tom's Hardware, techweez.com, iafrica.com. The update test is unambiguous: 'Any company announcement, press coverage, or industry tracker note before 2026-08-09 indicating slip, scope cut, or financing gap.' Government suspension of a flagship B project IS a slip and scope cut. Twin confidence was 0.35 — uncalibrated against pre-registration news that had already been public for a month at claim-registration time. Calibration lesson: pre-register search depth was insufficient. Evidence URL: https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/ |
 | ✓ | <a id="claim-20260610-009"></a>Kasi Cloud publicly confirms its 5.5MW Lekki phase as live/in-service by 2026-07-31 | 60% | confirmed (2026-06-10) | Kasi Cloud Datacenters formally commissioned its Lekki LOS1 campus on 2026-05-19, with the 5.5MW first phase publicly announced as operational/open. Sources: DCD (https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/) headlined 'Kasi opens first phase'; company press release on GlobeNewswire (https://www.globenewswire.com/news-release/2026/05/19/3297917/0/en/Kasi-Cloud-Datacenters-Commissions-West-Africa-s-First-Hyperscale-Ready-AI-Capable-Data-Centre-Campus-in-Lagos.html); TechAfrica News (https://techafricanews.com/2026/05/28/kasi-cloud-datacenters-flags-off-west-africas-first-ai-ready-hyperscale-data-centre-in-lagos/); Vanguard (https://www.vanguardngr.com/2026/05/kasi-cloud-has-nigerias-first-ai-data-centre-landed/). Dated milestone publicly confirmed within window. |
 
 ## Calibration record
