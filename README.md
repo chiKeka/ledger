@@ -46,7 +46,7 @@ _Updated 2026-06-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 ## Calibration record
 
-_Corrections activate at 10 scored resolutions (currently 0). Until then the estimator runs uncorrected, and says so._
+_Corrections activate at 10 scored resolutions (currently 2). Until then the estimator runs uncorrected, and says so._
 
 ## How this works
 
@@ -54,5 +54,6 @@ _Corrections activate at 10 scored resolutions (currently 0). Until then the est
 - Probabilities are locked at registration. Resolution requires the stated test to be met; partial and unresolvable are honest outcomes, because stretched wins would corrupt the only thing this page is for. Every claim must be grounded in something that exists today - hypothetical constructs stay out, and a claim that slips through gets withdrawn in the open, never deleted.
 - Brier score is the mean squared gap between stated probability and outcome: 0.000 is prophecy, 0.250 is coin-flipping. Skill is measured against the naive base rate recorded with each claim, because raw accuracy cannot distinguish judgment from easy questions.
 - Forecasts are tagged by frame: **worldview** means the topic lives inside my analytical frameworks, **world** means it does not - market events, votes, dated milestones picked precisely because my frameworks have nothing to say about them. The calibration record is split by frame, because being calibrated at home and being calibrated are different claims.
+- Claims can be linked: a fast **probe** takes a reading on a slow structural position, a **sharpens** link restates a vaguer claim measurably, an **opposes** link marks positions that cannot both fully hold, **shares-system** marks claims reading the same underlying system. Links are structure, never score - every claim is still resolved alone against its own locked probability.
 - A daily loop scans new signals against open claims and logs evidence; disconfirming evidence outranks news in my morning brief by design. A weekly loop settles accounts, and once enough resolutions accumulate, the system computes its own calibration corrections and applies them to future estimates.
 - The machine-readable version of everything on this page is in [ledger.json](ledger.json).
