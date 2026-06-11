@@ -417,6 +417,46 @@
    "status": "open",
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260611-001",
+   "date": "2026-06-11",
+   "claim": "The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meeting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "FOMC June 16-17 2026 meeting on the official Federal Reserve calendar; Kevin Warsh seated as Chair 2026-05-15; April 29 hold was 8-4 dissents.",
+   "withdrawal": null,
+   "confidence": 0.92,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.92,
+   "frameworks": [],
+   "update_test": "Federal Reserve press release on or about 2026-06-17 ~14:00 ET reporting the FOMC decision: confirmed if upper bound of target range == upper bound at 2026-04-29 (3.75%); disconfirmed otherwise.",
+   "resolve_by": "2026-06-18",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260611-002",
+   "date": "2026-06-11",
+   "claim": "The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ECB Governing Council monetary policy meeting on the public ECB calendar for 2026-07-23. April 30 hold set DF 2.00%/MRO 2.15%/MLF 2.40%. Eurozone HICP still above target; some commentary suggests hikes priced for 2026 — directional pressure is hold-or-hike, not cut.",
+   "withdrawal": null,
+   "confidence": 0.85,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.85,
+   "frameworks": [],
+   "update_test": "ECB monetary policy statement published 2026-07-23 ~14:15 CET: confirmed if Deposit Facility Rate >= 2.00% (current level set at the April 30 2026 meeting); disconfirmed if any of the three key rates is set below its current level (DF 2.00%, MRO 2.15%, MLF 2.40%).",
+   "resolve_by": "2026-07-24",
+   "status": "open",
+   "evidence": [],
+   "resolution": null
   }
  ]
 }
