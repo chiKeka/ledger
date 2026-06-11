@@ -24,6 +24,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -50,6 +51,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-014",
@@ -83,6 +85,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [
     {
@@ -116,6 +119,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -142,6 +146,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -172,6 +177,7 @@
     "reason": "Outcome pre-dated registration: Kasi Cloud publicly commissioned the Lekki LOS1 first phase on 2026-05-19, twenty-two days before this claim was registered on 2026-06-10. A question answered before it was asked is not a forecast. Pre-registration evidence search is now mandatory for every new claim."
    },
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-013",
@@ -209,6 +215,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-004",
@@ -255,6 +262,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-008",
@@ -289,6 +297,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -316,6 +325,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [
     {
@@ -355,6 +365,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-013",
@@ -388,6 +399,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -414,6 +426,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-004",
@@ -445,6 +458,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-004",
@@ -480,6 +494,7 @@
     "reason": "Outcome pre-dated registration: the Microsoft-G42 Olkaria suspension that confirmed this claim was public on 2026-05-08, a month before registration on 2026-06-10. The resolution postmortem flagged the calibration failure; the record now also refuses the win. Pre-registration evidence search is now mandatory for every new claim."
    },
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-013",
@@ -515,6 +530,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [
+    {
+     "date": "2026-06-11T19:40:17Z",
+     "target": "evidence[0]",
+     "note": "CORRECTION 2026-06-11: the evidence entry of 2026-06-10 stated Kevin Warsh was installed as Chair 2026-05-15. The official Federal Reserve press release records his oath of office on 2026-05-22 (Senate confirmation 2026-05-13). The correction does not change the direction of the evidence."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -546,6 +568,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [
     {
      "id": "claim-20260610-008",
@@ -577,6 +600,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -601,6 +625,7 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
+   "corrections": [],
    "related_to": [],
    "evidence": [],
    "resolution": null
