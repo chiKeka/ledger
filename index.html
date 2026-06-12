@@ -9,7 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#080908;--ivory:#E9E4D8;--graphite:#8D8B84;--brass:#C39A52;--cobalt:#6B8DFF;--oxide:#C75A52;--verdigris:#5FA386;--surface:#111210;--surface2:#151613;--line:rgba(233,228,216,.14);--line2:rgba(233,228,216,.07);--mono:'IBM Plex Mono',ui-monospace,monospace;--disp:'Fraunces',Georgia,serif;--body:-apple-system,system-ui,'Segoe UI',Roboto,sans-serif}
-@media (prefers-color-scheme: light){:root{--ink:#E9E4D8;--ivory:#161511;--graphite:#6E6B62;--brass:#8A6526;--cobalt:#2C52C7;--oxide:#9C382F;--verdigris:#2E6A54;--surface:#EFEAE0;--surface2:#F3EFE6;--line:rgba(8,9,8,.22);--line2:rgba(8,9,8,.09)}}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--ink:#E9E4D8;--ivory:#161511;--graphite:#6E6B62;--brass:#8A6526;--cobalt:#2C52C7;--oxide:#9C382F;--verdigris:#2E6A54;--surface:#EFEAE0;--surface2:#F3EFE6;--line:rgba(8,9,8,.22);--line2:rgba(8,9,8,.09)}}
+:root[data-theme="light"]{--ink:#E9E4D8;--ivory:#161511;--graphite:#6E6B62;--brass:#8A6526;--cobalt:#2C52C7;--oxide:#9C382F;--verdigris:#2E6A54;--surface:#EFEAE0;--surface2:#F3EFE6;--line:rgba(8,9,8,.22);--line2:rgba(8,9,8,.09)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--ink);color:var(--ivory);font:16px/1.65 var(--body);padding:0 22px 90px}
 main{max-width:1060px;margin:0 auto}
@@ -51,6 +52,8 @@ nav.toc a:hover{color:var(--ivory);border-color:var(--brass)}
 nav.toc.stuck{border-bottom:1px solid var(--line)}
 nav.toc .ttop{color:var(--brass);opacity:0;pointer-events:none;transition:opacity .25s}
 nav.toc.stuck .ttop{opacity:1;pointer-events:auto}
+.tbtn{background:none;border:none;color:var(--graphite);font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer;padding:0 0 3px;border-bottom:1px solid transparent}
+.tbtn:hover{color:var(--ivory);border-color:var(--brass)}
 .shead,footer{scroll-margin-top:64px}
 .shead{display:flex;align-items:baseline;gap:18px;border-bottom:1px solid var(--line);margin:64px 0 22px;padding-bottom:10px}
 .shead h2{font-family:var(--mono);font-weight:500;font-size:.82rem;letter-spacing:.3em;margin:0}
@@ -198,7 +201,7 @@ footer a{color:var(--brass);text-decoration:none}
 @media(max-width:880px){.obs{grid-template-columns:1fr;gap:20px}.cov{max-width:none}}
 @media(max-width:620px){.strip{grid-template-columns:repeat(2,1fr)}.strip>div:nth-child(2){border-right:none}.grid{grid-template-columns:1fr}.dwrap{padding:28px 20px 36px}.edue{margin-left:0;width:100%}body{padding:0 14px 70px}}
 </style>
-<script>document.documentElement.classList.add('js')</script></head><body><main>
+<script>document.documentElement.classList.add('js');try{var _t=localStorage.getItem('theme');if(_t)document.documentElement.setAttribute('data-theme',_t)}catch(e){}</script></head><body><main>
 <header class="obs" id="top">
 <div class="mast">
 <p class="kicker">A public instrument of record · est. 2026</p>
@@ -216,7 +219,7 @@ footer a{color:var(--brass);text-decoration:none}
 <div><b class="">·</b><span>Skill vs coin flip</span></div>
 </div>
 <a class="latest" href="#claim-20260610-018"><span class="lmark k-invalid">!</span><span class="lbody"><span class="lhead">LATEST · Nº 015 VOIDED 2026-06-11 · OUTCOME PRE-DATED REGISTRATION · THE RECORD DOES NOT KEEP WINS IT DID NOT EARN</span><span class="ltxt">At least one of the named 2026 African AI infrastructure projects (Kasi Cloud Lekki next phase above 5.5MW, Tetracore Ogun 20MW gas DC,…</span></span></a>
-<nav class="toc"><a class="ttop" href="#top">↑ Top</a><a href="#field">The Field</a><a href="#answers">The Answers</a><a href="#mirror">The Mirror</a><a href="#trace">The Trace</a><a href="#covenant">The Covenant</a></nav>
+<nav class="toc"><a class="ttop" href="#top">↑ Top</a><a href="#field">The Field</a><a href="#answers">The Answers</a><a href="#mirror">The Mirror</a><a href="#trace">The Trace</a><a href="#covenant">The Covenant</a><button id="theme" class="tbtn" type="button" aria-label="Toggle color scheme">◐</button></nav>
 
 <div class="shead" id="field"><h2>THE FIELD</h2><span class="ssub">Open claims</span><span class="scount">10 STRUCTURAL · 7 CALIBRATION</span></div>
 <div class="controls" id="ctl" hidden>
@@ -417,6 +420,16 @@ var toc=document.querySelector('nav.toc');
 if(toc){var sent=document.createElement('div');toc.parentNode.insertBefore(sent,toc);
 var tio=new IntersectionObserver(function(e){toc.classList.toggle('stuck',!e[0].isIntersecting)},{threshold:0});
 tio.observe(sent);}
+var tb=document.getElementById('theme');
+if(tb){
+function effTheme(){var a=document.documentElement.getAttribute('data-theme');if(a)return a;
+return (window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}
+function themeLab(){var d=effTheme()==='dark';tb.textContent=d?'\u25d0 Paper':'\u25d0 Ink';
+tb.setAttribute('aria-label',d?'Switch to light (paper) mode':'Switch to dark (ink) mode');}
+tb.addEventListener('click',function(){var n=effTheme()==='dark'?'light':'dark';
+document.documentElement.setAttribute('data-theme',n);
+try{localStorage.setItem('theme',n)}catch(e){}themeLab();});
+themeLab();}
 }else{
 document.querySelectorAll('.entry,.mirror,.spark').forEach(function(n){n.classList.add('inview')});
 document.querySelectorAll('nav.toc').forEach(function(n){n.classList.add('stuck')});
