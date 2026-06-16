@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-12",
+ "updated": "2026-06-16",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -26,7 +26,14 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-15",
+     "direction": "supports",
+     "note": "NBER w34836 Yotzov, Barrero et al. (Firm Data on AI, 2026): 6000-executive survey across US, UK, Germany, Australia. 69 percent of firms actively use AI. Nine-in-ten executives report no impact of AI on employment or productivity over the last 3 years. Adoption is real; conversion to measured output is not. Direct firm-level confirmation of the AI Solow paradox at end-Q2 2026, supporting the directional claim that aggregate productivity stats will not show clear AI-driven gains through end-2026.",
+     "source_url": "https://www.nber.org/papers/w34836"
+    }
+   ],
    "resolution": null
   },
   {
@@ -93,6 +100,18 @@
      "direction": "supports",
      "note": "May 7 2026 Council+Parliament political agreement on AI Omnibus: Annex III HRAIS obligations deferred Aug 2026 → Dec 2027; Annex I deferred Aug 2027 → Aug 2028.",
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "EU Commission Code of Practice on marking AI-generated content published 2026-06-10 and Scientific Panel/Advisory Forum appointed 2026-06-01. Omnibus simplification package (May 7 deal) reportedly progressing toward formal adoption before 2026-08-02 per Council/Commission press materials. The interpretive substrate is being installed in parallel with the perimeter shrinking - net direction on enforceable obligations for frontier deployers is still reduction by end-2026, but the per-obligation compliance cost rises. Signal: 2026-06-12-eu-ai-office-enforcement-substrate-bifurcation.md",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "supports",
+     "note": "EU AI Act omnibus deal confirms Annex III HRAIS obligations deferred from 2026-08-02 to 2027-12-02 (16-month deferral) and Annex I HRAIS from 2027-08-02 to 2028-08-02 (12-month deferral); SME-style simplifications extended to 750-employee/EUR150M firms. The omnibus is delivering the predicted reduction in enforceable obligations for frontier deployers.",
+     "source_url": "https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules"
     }
    ],
    "resolution": null
@@ -236,6 +255,24 @@
      "direction": "supports",
      "note": "EU Commission press release IP_26_1024 (2026-05-07 provisional Council-Parliament agreement); Council document 9247/26 published 2026-05-13 with the agreed Digital Omnibus text. Multiple legal trackers (Gibson Dunn, White & Case, Latham & Watkins, DLA Piper) explicitly expect formal Council adoption before 2026-08-02 to avoid Annex III HRAIS lapse — directional pressure is overwhelming. Update test still strict ('formal Council adoption recorded in EU register; political agreement does not count') — claim stays open pending formal vote.",
      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024"
+    },
+    {
+     "date": "2026-06-13",
+     "direction": "supports",
+     "note": "Council/Parliament/Commission reached provisional agreement on EU Digital Omnibus on AI 2026-05-07. Multiple legal trackers report formal Council adoption expected June 2026 with publication anticipated July - putting the path to formal adoption by 2026-07-31 squarely on track but not yet completed.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-06-15",
+     "direction": "supports",
+     "note": "IMCO and LIBE committees adopted the provisional Digital Omnibus AI agreement on 2026-06-02 (vote: 93 in favor, 4 against, 15 abstentions). Multiple trackers (Latham, Inside Privacy, NicFab, MediaLaws, Matheson) record plenary vote scheduled for June 2026 session with formal Council adoption tracked for June-July to avoid the 2026-08-02 Annex III HRAIS lapse. The committee adoption is the procedural gate before plenary; the claim's strict update test (formal Council adoption recorded in EU register) is now one procedural step closer.",
+     "source_url": "https://agenceurope.eu/en/bulletin/article/13879/32/provisional-agreement-on-digital-omnibus-gets-green-light-from-european-parliaments-competent-committees"
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "against",
+     "note": "Trilogue STALLED at the May 13 follow-up after April 28 failure; Cypriot Council Presidency (term ends June 30) racing to close before handing to Lithuania. Adoption-by-July-31 is no longer the default path and now depends on a clean Cypriot landing or a fast Lithuanian pickup. Lowers probability.",
+     "source_url": "https://www.modulos.ai/blog/ai-act-omnibus-trilogue-failed/"
     }
    ],
    "resolution": null
@@ -271,7 +308,14 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-14",
+     "direction": "supports",
+     "note": "Confirmed Big Five capex topology as of 2026-Q2: Microsoft 90B, Alphabet 80-190B (raised from 75-185B), Meta 15-135B, Amazon 00B FY2026 - 25B aggregate up 77% YoY. Alphabet has already raised guidance once intra-year (the relevant claim outcome). The Q2 earnings calls (Jul-Aug) are the actual resolution event - this is base-rate evidence for the next raise.",
+     "source_url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion"
+    }
+   ],
    "resolution": null
   },
   {
@@ -467,7 +511,20 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-14",
+     "direction": "supports",
+     "note": "EU Commission published the final voluntary Code of Practice on marking and labelling AI-generated content on 2026-06-10, operationalising Article 50 transparency obligations effective 2026-08-02; the Commission has committed to follow with formal Article 50 implementation guidelines. Confirms the AI Office's substrate-building tempo even as the omnibus defers HRAIS deadlines - same week opposite vector. Not yet the omnibus-deferral-explicit guidance the claim's update test requires.",
+     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1328"
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "supports",
+     "note": "European Commission published Code of Practice on marking and labelling AI-generated content on 2026-06-10 — Commission-level interpretive guidance ahead of HRAIS obligations. Not the AI Office itself, but the same interpretive direction; the AI Office sits inside the Commission's DG CNECT and typically pivots its FAQ updates onto Commission codes within weeks.",
+     "source_url": "https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines"
+    }
+   ],
    "resolution": null
   },
   {
@@ -627,6 +684,822 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260612-001",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T12:12:14Z",
+   "claim": "The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from the 2026-05 level) at its 2026-06-18 meeting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of England MPC meeting on the public BoE calendar for 2026-06-18. Bank Rate currently 3.75 percent since late 2025. April 2026 vote was 8-1 hold.",
+   "withdrawal": null,
+   "confidence": 0.9,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.85,
+   "frameworks": [],
+   "update_test": "Bank of England Monetary Policy Summary published 2026-06-18 at 12:00 BST: confirmed if the Bank Rate decision reported equals 3.75 percent (the prior-meeting level); disconfirmed if the rate is set above or below 3.75 percent.",
+   "resolve_by": "2026-06-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-12T12:12:14Z",
+    "auditor": "twin",
+    "note": "Searched for the 2026-06-18 BoE MPC decision; no decision is yet public as of 2026-06-12 (meeting has not occurred). Confirmed via BoE upcoming-MPC-dates page and consensus forecaster coverage from Finance Calendar, Mortgage One, HOA, Kael Tripton.",
+    "queries": [
+     "Bank of England MPC meeting June 2026 rate decision",
+     "bank of england june 18 2026 hold"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260612-002",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T12:12:25Z",
+   "claim": "The FOMC June 2026 Summary of Economic Projections will show the median 2026 year-end federal funds rate projection greater than or equal to 3.4 percent (the median value in the March 2026 SEP).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "FOMC June 16-17 2026 meeting on the official Federal Reserve calendar; Summary of Economic Projections released at 14:00 ET on 2026-06-17 in PDF and HTML on federalreserve.gov. March 2026 SEP median 2026 year-end fed funds rate was 3.4 percent (one cut implied from 3.50-3.75 current band).",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.6,
+   "frameworks": [],
+   "update_test": "FOMC Summary of Economic Projections PDF posted 2026-06-17 ~14:00 ET on federalreserve.gov: read the median 2026 year-end federal funds rate projection in the dot-plot table. Confirmed if the median 2026 year-end value is at or above 3.4 percent; disconfirmed if the median is below 3.4 percent.",
+   "resolve_by": "2026-06-18",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-12T12:12:25Z",
+    "auditor": "twin",
+    "note": "Searched for the June 2026 SEP; not yet released as of 2026-06-12. March 2026 SEP confirmed at 3.4 percent median 2026 year-end via FRED and J.P. Morgan Asset Management summaries. May 2026 CPI prints at 4.2 percent YoY and energy-driven inflation pressure increase the probability the median holds or rises rather than falls.",
+    "queries": [
+     "FOMC March 2026 Summary of Economic Projections median fed funds rate",
+     "FOMC June 2026 meeting decision rate"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260611-001",
+     "relation": "shares-system",
+     "note": "Both are reads on the June 17 FOMC meeting: 001 is the rate decision, 002 is the SEP dot-plot projection. Same Fed system, different observable instruments.",
+     "date": "2026-06-12T12:12:49Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260612-003",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T12:12:36Z",
+   "claim": "All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "AfCFTA Secretariat announced 2026-05-19 in Accra that the next ADAPT milestone is the creation of Country Implementation Forums in each of Kenya, Morocco, and Nigeria by the end of June. ADAPT partners include World Economic Forum, Tony Blair Institute, and IOTA Foundation - announcement-pattern partners with active comms.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "frameworks": [],
+   "update_test": "By 2026-07-15 EOD UTC, identifiable public announcement (government press release, AfCFTA Secretariat communique, or partner press release) confirming each of three Country Implementation Forums has been formally established. Confirmed if announcements exist for ALL three of Kenya, Morocco, Nigeria; disconfirmed if at least one of the three has no public establishment announcement by the deadline.",
+   "resolve_by": "2026-07-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-12T12:12:36Z",
+    "auditor": "twin",
+    "note": "Searched for AfCFTA ADAPT Country Implementation Forum announcements 2026-06-12; no public confirmation of establishment found for any of the three pilot countries. AfCFTA Secretariat May 19 launch and partner coverage describe CIF establishment as the next milestone, not yet completed.",
+    "queries": [
+     "AfCFTA ADAPT Country Implementation Forum Kenya Nigeria Morocco June 2026",
+     "AfCFTA ADAPT digital trade pilot Nigeria Kenya Morocco June 2026 launch"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-013",
+     "relation": "shares-system",
+     "note": "Both observe the operational execution of African continental infrastructure builds: 013 is the named AI infrastructure projects through 2027 Q1, 003 is the AfCFTA ADAPT CIF milestone by mid-2026 Q3. Same African DPI/AI substrate, different scope and timeframe.",
+     "date": "2026-06-12T12:12:49Z"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-06-13",
+     "direction": "supports",
+     "note": "AfCFTA Secretariat publicly named 2026-05-19 (Accra launch) and confirmed end-June Country Implementation Forum target for Kenya, Morocco, Nigeria. Pilot already running early phases: national forums, core-infrastructure integration, digital-currency/stablecoin regulatory testing. Trajectory supports the 2026-07-15 update test; forums not yet confirmed established as of 2026-06-13.",
+     "source_url": "https://www.ghanamma.com/2026/05/29/nigeria-kenya-and-morocco-to-pilot-afcfta-digital-trade-infrastructure/"
+    },
+    {
+     "date": "2026-06-14",
+     "direction": "against",
+     "note": "Today is 2026-06-14, 16 days before the 2026-07-15 deadline; no public announcement of Country Implementation Forum establishment from Kenya, Morocco, or Nigeria has surfaced in scans. AfCFTA Secretariat 2026-05-19 Accra communique remains the most recent operational milestone.",
+     "source_url": "https://idtechwire.com/kenya-morocco-and-nigeria-selected-for-adapt-african-digital-trade-pilots/"
+    }
+   ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260612-hs2-P1",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Backtest Target A (cost/schedule) PASS: a dynamic-deterministic model fit only on HS2 data <=2015-12-31 forecasts the DIRECTION and PERSISTENCE of cost escalation and schedule slip 2016-2024 within the pre-registered bands (>=6/9 years, +-50% cost, +-24mo schedule).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Cost escalation in megaprojects is overdetermined and near-monotonic; direction is the easy target. See experiments/hs2-backtest/preregistration.md sec 2-3.",
+   "withdrawal": null,
+   "confidence": 0.85,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Run the frozen-2015 model per preregistration.md; A-PASS iff >=6 of 9 years meet correct-sign + cost within +-50% + schedule within +-24mo of actual out-turn.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P2",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Backtest Target B (regime shifts) FAIL: the HS2 leg cancellations (eastern/Leeds ~2021; Manchester/Phase 2 Oct 2023) were NOT forecastable to >0.5 probability and within +-24 months from HS2 data restricted to <=2015-12-31.",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Cancellations were discrete political decisions, not endogenous program dynamics. See preregistration.md sec 2-3 (Target B).",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "B-PASS iff the <=2015 model assigns >0.5 to 'a leg cancelled by end-2024' AND ranks eastern leg riskier than Phase 1 AND dates first descope within +-24mo of 2021; P2 confirmed iff B-FAIL.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P3",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Boundary tally: the dominant drivers of the decision-relevant (Target B) HS2 outcomes classify MAJORITY OUTSIDE the 2015 system boundary (COVID fiscal shock, 2022 inflation/gilt regime, change of government/PM) rather than inside (geology, contractor, scope, contingency).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "The 2020-2024 cancellation drivers are national-political and macro, not traceable to 2015 risk registers. See preregistration.md sec 4.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Classify each Target-B outcome's dominant driver inside/outside per preregistration.md sec 4; P3 confirmed iff OUTSIDE > INSIDE among Target-B outcomes.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P4",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Net verdict of the HS2 backtest = 'short-horizon deterministic, long-horizon boundary-limited': the input-driven model nowcasts/short-forecasts well (A-PASS) but the decisive outcomes are exogenous to the 2015 boundary (B-FAIL, drivers OUTSIDE).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Composite of P1+P2+P3; the verdict logic is fixed in preregistration.md sec 5.",
+   "withdrawal": null,
+   "confidence": 0.68,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Apply preregistration.md sec-5 verdict table to the backtest results; P4 confirmed iff verdict == 'boundary-limited wins'.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C1",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Claim 2 (pure) FAILS: in a fragility-selected reference class of major rail/transport megaprojects, high-fragility LEGISLATED/CONTRACTED (committed) projects mostly COMPLETE-WITH-OVERRUN rather than cancel/descope (cancel+descope rate < 0.5 among committed-fragile).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Sunk-cost / too-big-to-cancel dynamic; Crossrail, Big Dig, Berlin airport, Stuttgart 21 overran badly and completed. See claim2-fungible-trigger.md.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Among reference-class cases coded high-fragility AND committed, compute (FULL-CANCELLATION + MAJOR-DESCOPE)/total; C1 confirmed iff < 0.5.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C2",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Commitment-scoped Claim 2 HOLDS: high-fragility PROPOSED/UNCOMMITTED segments descope-or-cancel at > 0.5, and committed-fragile at < 0.3, with descoping occurring across mild as well as severe trigger environments (trigger fungible for the uncommitted).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Low exit cost for unlegislated/uncontracted scope; HS2 Phase 2b, CA-HSR uncommitted segments, 1975 Channel Tunnel, Garden Bridge. See claim2-fungible-trigger.md.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Compute cancel/descope rate for uncommitted-fragile (expect >0.5) and committed-fragile (expect <0.3); check cancelled uncommitted cases span mild+severe triggers; C2 confirmed iff both rate thresholds met and trigger not confined to SEVERE.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C3",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Net: the governing variable is EXIT COST (commitment status), not fragility per se. Bruno wins Claim 2 scoped to the uncommitted segment (fragility forces descoping trigger-fungibly) but loses the pure form (fragility alone regardless of commitment). HS2 Phase 1 surviving the same trigger stack that killed Phase 2b is the within-case confirmation.",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Composite of C1+C2. See claim2-fungible-trigger.md scoring.",
+   "withdrawal": null,
+   "confidence": 0.6,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Confirmed iff C1 and C2 both confirm AND HS2 Phase 1 (committed) coded COMPLETED-WITH-OVERRUN while HS2 Phase 2b (uncommitted) coded CANCELLATION in the same trigger environment.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:19Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
+  },
+  {
+   "id": "claim-20260613-001",
+   "date": "2026-06-13",
+   "registered_at": "2026-06-13T12:09:38Z",
+   "claim": "The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of England MPC June 18 2026 scheduled meeting (Bank of England calendar) and the published voting record convention - the next MPC summary publishes the vote split inside the minutes on the meeting date",
+   "withdrawal": null,
+   "confidence": 0.82,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.78,
+   "frameworks": [],
+   "update_test": "BoE Monetary Policy Summary or Minutes for the meeting ending 2026-06-18 (published at 12:00 noon GMT on 2026-06-18) shows at least 7 of 9 MPC members voting to maintain Bank Rate at 3.75 percent",
+   "resolve_by": "2026-06-25",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-13T12:09:38Z",
+    "auditor": "twin",
+    "note": "Searched 'Bank of England MPC June 18 2026 vote split' on 2026-06-13; meeting has not occurred; previews (HomeOwners Alliance, MortgageOne) expect hold but vote split not disclosed in advance",
+    "queries": [
+     "Bank of England MPC June 18 2026 rate decision preview Bank Rate 3.75",
+     "BoE June 2026 vote split preview"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260612-001",
+     "relation": "probes",
+     "note": "Same BoE 2026-06-18 meeting; 613-001 sharpens 612-001 from binary hold/no-hold to vote-split granularity. Resolution evidence overlaps but reads different aspects.",
+     "date": "2026-06-13T12:10:03Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260613-002",
+   "date": "2026-06-13",
+   "registered_at": "2026-06-13T12:09:46Z",
+   "claim": "Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Nigeria National AI Strategy drafting process led by NITDA and the Federal Ministry of Communications Innovation and Digital Economy; multiple 2026 reports describe it as in draft and expected late-2025-to-early-2026 with a slipped target",
+   "withdrawal": null,
+   "confidence": 0.38,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.42,
+   "frameworks": [],
+   "update_test": "By 2026-08-12, a document titled 'Nigeria National AI Strategy' (or close variant) is publicly available on an official .gov.ng domain (NITDA, FMCIDE, or equivalent), dated 2026",
+   "resolve_by": "2026-08-12",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-13T12:09:46Z",
+    "auditor": "twin",
+    "note": "Searched 'Nigeria National AI Strategy publication 2026' on 2026-06-13; sources describe the strategy as still in draft and expected to be 'finalised between late 2025 and early 2026' with no evidence of formal publication as of the audit date",
+    "queries": [
+     "Nigeria National AI Strategy publication 2026",
+     "NITDA National AI Strategy site:gov.ng 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260613-003",
+   "date": "2026-06-13",
+   "registered_at": "2026-06-13T12:09:56Z",
+   "claim": "By 2026-08-12, at least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly publish a formal regulatory framework or pilot specification governing digital-currency or stablecoin settlements explicitly under the ADAPT initiative",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "AfCFTA ADAPT pilot launched 2026-05-19 Accra; the publicly-announced implementation roadmap explicitly names testing of 'regulatory frameworks including models for digital currencies and stablecoin settlements' as an early-phase milestone",
+   "withdrawal": null,
+   "confidence": 0.28,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "By 2026-08-12, a Kenyan, Moroccan, or Nigerian central bank, finance ministry, or AfCFTA Secretariat publishes a document on an official government or AfCFTA domain that names 'ADAPT' and specifies regulatory rules or pilot procedures for digital-currency or stablecoin settlements",
+   "resolve_by": "2026-08-12",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-13T12:09:56Z",
+    "auditor": "twin",
+    "note": "Searched 'AfCFTA ADAPT pilot Kenya Morocco Nigeria digital trade framework June 2026' on 2026-06-13; rollout is in the forum-establishment phase, no published regulatory framework on digital currencies or stablecoin settlements under ADAPT as of the audit date",
+    "queries": [
+     "AfCFTA ADAPT Kenya Morocco Nigeria stablecoin digital currency regulatory framework",
+     "AfCFTA ADAPT CBDC pilot 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260612-003",
+     "relation": "probes",
+     "note": "Same ADAPT pilot; 612-003 reads the forum-establishment milestone, 613-003 reads the deeper regulatory-framework layer (digital currencies and stablecoin settlements) named in the official roadmap.",
+     "date": "2026-06-13T12:10:03Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260614-001",
+   "date": "2026-06-14",
+   "registered_at": "2026-06-14T12:14:19Z",
+   "claim": "The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of Canada has held at 2.25 percent at five consecutive meetings since October 2025 (most recent hold 2026-04-29); next scheduled rate decision is 2026-07-15.",
+   "withdrawal": null,
+   "confidence": 0.9,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.75,
+   "frameworks": [],
+   "update_test": "Bank of Canada press release dated 2026-07-15 announcing the policy rate decision. Confirmed if the announced overnight rate target remains 2.25 percent; disconfirmed on any change (cut or hike) of 25bp or more.",
+   "resolve_by": "2026-07-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-14T12:14:19Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-14 for 'Bank of Canada rate decision July 29 2026 preview' and 'Bank of Canada interest rate June 2026'; the next decision is 2026-07-15 and has not yet occurred. No leaked decision is in public record.",
+    "queries": [
+     "Bank of Canada rate decision July 29 2026 preview",
+     "Bank of Canada interest rate schedule 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260614-002",
+   "date": "2026-06-14",
+   "registered_at": "2026-06-14T12:14:28Z",
+   "claim": "The Bank of Japan Policy Board will raise the short-term policy rate target by 25 basis points to 1.00 percent (from the current 0.75 percent) at its 2026-06-16/17 Monetary Policy Meeting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BoJ March 2026 statement left the short-term rate at 0.75 percent; Bloomberg 2026-06-04 reported the BoJ is mulling a June rate hike to 1 percent with another possible later in 2026.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "frameworks": [],
+   "update_test": "Bank of Japan policy statement issued 2026-06-17 by approximately 12:00 JST. Confirmed if the announced short-term policy interest rate target is 1.00 percent (or its equivalent 0.95-1.00 percent corridor language); disconfirmed if rate is held at 0.75 percent or any other figure.",
+   "resolve_by": "2026-06-17",
+   "status": "resolved",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-14T12:14:28Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-14 for 'Bank of Japan rate decision July 30 31 2026 schedule' and 'Bank of Japan current policy rate June 2026'. The 2026-06-16/17 BoJ meeting has not concluded; no decision is public yet.",
+    "queries": [
+     "Bank of Japan Monetary Policy Meeting July 2026 dates",
+     "Bank of Japan current policy rate June 2026 0.50 short-term"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": {
+    "date": "2026-06-16T12:12:08Z",
+    "outcome": "confirmed",
+    "note": "BoJ raised policy rate by 25bp to 1.00%, 7-1 vote (Asada dissented, reflationist stance), announced June 16 2026. Decision and vote split confirmed by Reuters/Investing.com and FXStreet coverage of the June 15-16 meeting. Source: https://www.investing.com/news/economy-news/bank-of-japan-set-to-raise-rates-to-31year-high-vow-further-increases-4743332"
+   }
+  },
+  {
+   "id": "claim-20260615-001",
+   "date": "2026-06-15",
+   "registered_at": "2026-06-15T12:15:12Z",
+   "claim": "US Bureau of Labor Statistics Consumer Price Index report for June 2026 (scheduled release 2026-07-14 at 08:30 ET) shows all-items CPI 12-month percentage change at or above 4.0 percent",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BLS CPI release for June 2026 is a scheduled, public macroeconomic data release on a fixed calendar (2026-07-14, 08:30 ET); recent May 2026 print available on bls.gov",
+   "withdrawal": null,
+   "confidence": 0.65,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [
+    "Innovation Energy Cycle"
+   ],
+   "update_test": "BLS CPI news release for 2026 M06 (June 2026 data) published on bls.gov on or about 2026-07-14: confirmed if the headline all-items 12-month percent change is 4.0 or higher; disconfirmed if it is below 4.0",
+   "resolve_by": "2026-07-20",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-15T12:15:12Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-15 for 'US BLS CPI June 2026 release date'; release scheduled 2026-07-14 08:30 ET per BLS release schedule and usinflationcalculator/cpiinflationcalculator trackers; June print not yet available. Searched 'CPI June 2026 released': latest available print is May 2026 (M05) at 4.2 percent on BLS news release. The June print has not been released; outcome is open.",
+    "queries": [
+     "US BLS CPI June 2026 release date July 11 schedule",
+     "CPI June 2026 released"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260615-002",
+   "date": "2026-06-15",
+   "registered_at": "2026-06-15T12:15:21Z",
+   "claim": "US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BEA advance Q2 GDP estimate is a scheduled public macroeconomic data release on a fixed calendar; Q1 2026 advance estimate was published on schedule",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [
+    "Innovation Energy Cycle"
+   ],
+   "update_test": "BEA news release for advance estimate of 2026 Q2 GDP published on bea.gov on or about 2026-07-30: confirmed if the annualized seasonally adjusted real GDP growth rate falls in the closed interval [1.0, 3.0] percent; disconfirmed if it falls below 1.0 or above 3.0",
+   "resolve_by": "2026-08-05",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-15T12:15:21Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-15 for BEA Q2 2026 advance GDP release schedule; not yet released, scheduled per standard BEA calendar at end of July 2026 (advance estimate typically posted last business day of month following quarter close). No advance Q2 2026 estimate is available on bea.gov.",
+    "queries": [
+     "BEA Q2 2026 advance GDP release schedule"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260616-001",
+   "date": "2026-06-16",
+   "registered_at": "2026-06-16T12:12:35Z",
+   "claim": "US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints core PCE year-over-year at or above 3.2 percent",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BEA Personal Income and Outlays monthly release scheduled 2026-06-25; April 2026 core PCE printed 3.3 percent year-over-year (FRED PCEPILFE)",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "BEA Personal Income and Outlays for May 2026, official table, core PCE (excl food and energy) year-over-year value at or above 3.2 percent",
+   "resolve_by": "2026-06-26",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-16T12:12:35Z",
+    "auditor": "twin",
+    "note": "Searched 'US PCE inflation report May 2026 release date core PCE BEA schedule' on 2026-06-16; release scheduled 2026-06-25, not yet out. April 2026 core PCE 3.3 percent confirmed via FRED and BEA April release. No advance May print is public.",
+    "queries": [
+     "US PCE inflation report May 2026 release date core PCE BEA schedule"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260616-002",
+   "date": "2026-06-16",
+   "registered_at": "2026-06-16T12:12:44Z",
+   "claim": "Eurostat euro area HICP flash estimate for June 2026 (scheduled release 2026-07-01) prints headline annual inflation at or below 3.1 percent",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Eurostat euro area HICP monthly flash; May 2026 headline was 3.2 percent (Eurostat release 2026-06-02). Statistical calendar at https://ec.europa.eu/eurostat/news/euro-indicators places the June flash on 2026-07-01 at 11:00 CET.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "frameworks": [],
+   "update_test": "Eurostat euro area HICP flash estimate for June 2026 (release 2026-07-01) headline annual rate at or below 3.1 percent",
+   "resolve_by": "2026-07-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-16T12:12:44Z",
+    "auditor": "twin",
+    "note": "Searched 'Eurozone June 2026 CPI flash estimate Eurostat release date headline inflation' on 2026-06-16; June 2026 flash release scheduled 2026-07-01, not out. May 2026 flash printed 3.2 percent.",
+    "queries": [
+     "Eurozone June 2026 CPI flash estimate Eurostat release date headline inflation"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260616-003",
+   "date": "2026-06-16",
+   "registered_at": "2026-06-16T12:12:53Z",
+   "claim": "South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "First draft published 2026-04-10 by DCDT; withdrawn by Minister Malatsi on 2026-04-26 after AI-hallucinated citations were found in the reference list; original consultation deadline was 2026-06-10",
+   "withdrawal": null,
+   "confidence": 0.3,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "frameworks": [
+    "Cultural Adoption Filter"
+   ],
+   "update_test": "A revised draft National AI Policy is published on an official Republic of South Africa government website (gov.za, dcdt.gov.za, or gazette) on or before 2026-08-15, identifiable by document title and version",
+   "resolve_by": "2026-08-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-16T12:12:53Z",
+    "auditor": "twin",
+    "note": "Searched 'South Africa national AI policy republished draft second consultation timeline 2026' on 2026-06-16; no revised draft published yet; legal-analysis sources indicate republication expected 'later in 2026/2027' with no committed date.",
+    "queries": [
+     "South Africa national AI policy republished draft second consultation timeline 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260613-002",
+     "relation": "shares-system",
+     "note": "Both probe African national-AI-strategy publication on official government sites within an overlapping summer 2026 window (Nigeria 2026-08-12, South Africa 2026-08-15); they share the institutional-capacity-vs-publication-discipline system but in different jurisdictions.",
+     "date": "2026-06-16T12:12:58Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
