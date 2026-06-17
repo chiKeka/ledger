@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 1✓ · 0✗ · 0◐ · 29 open · 9 invalidated (outcome pre-dated registration; visible below, never scored) · Brier 0.202 (coin-flip = 0.250), skill vs coin-flip +0.048**
+**Record: 2✓ · 0✗ · 0◐ · 28 open · 9 invalidated (outcome pre-dated registration; visible below, never scored) · Brier 0.104 (coin-flip = 0.250), skill vs coin-flip +0.146**
 
-**Latest: ✓ "The Bank of Japan Policy Board will raise the short-term policy rate target by 25 basis points to 1.00 percent (from the" — said 55%, resolved confirmed (2026-06-16)**
+**Latest: ✓ "The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meet" — said 92%, resolved confirmed (2026-06-17)**
 
-_Updated 2026-06-16 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-06-17 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,11 +23,10 @@ _Updated 2026-06-16 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 19 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 18 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260611-001"></a>The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meeting. | **92%** | 92% | world |  2026-06-18 |
 | <a id="claim-20260612-002"></a>The FOMC June 2026 Summary of Economic Projections will show the median 2026 year-end federal funds rate projection greater than or equal to 3.4 percent (the median value in the March 2026 SEP). | **72%** | 60% | world |  2026-06-18 |
 | <a id="claim-20260612-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from the 2026-05 level) at its 2026-06-18 meeting. | **90%** | 85% | world |  2026-06-19 |
 | <a id="claim-20260613-001"></a>The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent | **82%** | 78% | world |  2026-06-25 |
@@ -53,6 +52,7 @@ _Updated 2026-06-16 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260611-001"></a>The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meeting. | 92% | confirmed (2026-06-17) | FOMC June 17 2026 statement holds target federal funds range at 3.50-3.75 percent unchanged from April 29 (upper bound 3.75% == prior 3.75%). Warsh's first meeting as Chair; decision announced 14:00 ET. Evidence: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm (corroborated by Kiplinger/Reuters/Stocktitan live reports 2026-06-17) |
 | ✓ | <a id="claim-20260614-002"></a>The Bank of Japan Policy Board will raise the short-term policy rate target by 25 basis points to 1.00 percent (from the current 0.75 percent) at its 2026-06-16/17 Monetary Policy Meeting. | 55% | confirmed (2026-06-16) | BoJ raised policy rate by 25bp to 1.00%, 7-1 vote (Asada dissented, reflationist stance), announced June 16 2026. Decision and vote split confirmed by Reuters/Investing.com and FXStreet coverage of the June 15-16 meeting. Source: https://www.investing.com/news/economy-news/bank-of-japan-set-to-raise-rates-to-31year-high-vow-further-increases-4743332 |
 | ! | <a id="claim-20260612-hs2-C1"></a>Claim 2 (pure) FAILS: in a fragility-selected reference class of major rail/transport megaprojects, high-fragility LEGISLATED/CONTRACTED (committed) projects mostly COMPLETE-WITH-OVERRUN rather than cancel/descope (cancel+descope rate < 0.5 among committed-fragile). | 72% | **INVALIDATED** — confirmed pre-dated registration; never scored | Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient. \| source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12) |
 | ! | <a id="claim-20260612-hs2-C2"></a>Commitment-scoped Claim 2 HOLDS: high-fragility PROPOSED/UNCOMMITTED segments descope-or-cancel at > 0.5, and committed-fragile at < 0.3, with descoping occurring across mild as well as severe trigger environments (trigger fungible for the uncommitted). | 62% | **INVALIDATED** — confirmed pre-dated registration; never scored | Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted. \| source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12) |
@@ -66,7 +66,7 @@ _Updated 2026-06-16 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 ## Calibration record
 
-_Corrections activate at 10 scored resolutions (currently 1). Until then the estimator runs uncorrected, and says so._
+_Corrections activate at 10 scored resolutions (currently 2). Until then the estimator runs uncorrected, and says so._
 
 ## How this works
 

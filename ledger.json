@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-16",
+ "updated": "2026-06-17",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -654,13 +654,17 @@
    "frameworks": [],
    "update_test": "Federal Reserve press release on or about 2026-06-17 ~14:00 ET reporting the FOMC decision: confirmed if upper bound of target range == upper bound at 2026-04-29 (3.75%); disconfirmed otherwise.",
    "resolve_by": "2026-06-18",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-17T12:09:11Z",
+    "outcome": "confirmed",
+    "note": "FOMC June 17 2026 statement holds target federal funds range at 3.50-3.75 percent unchanged from April 29 (upper bound 3.75% == prior 3.75%). Warsh's first meeting as Chair; decision announced 14:00 ET. Evidence: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm (corroborated by Kiplinger/Reuters/Stocktitan live reports 2026-06-17)"
+   }
   },
   {
    "id": "claim-20260611-002",
@@ -718,7 +722,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-17",
+     "direction": "supports",
+     "note": "BoE MPC consensus pre-meeting (2026-06-17): widely expected to hold at 3.75% on June 18 despite rising inflation pressure; Bailey/Breeden public statements emphasize caution. Division within MPC (Pill/Greene/Mann signal hike-leaning) but consensus is hold. Not resolving until 2026-06-18 12:00 BST.",
+     "source_url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+    }
+   ],
    "resolution": null
   },
   {
@@ -759,7 +770,14 @@
      "date": "2026-06-12T12:12:49Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-17",
+     "direction": "supports",
+     "note": "FOMC June 17 2026 SEP released ~14:00 ET; consensus pre-release reporting expected median 2026 year-end rate to rise from March's 3.4% given May CPI at 4.2% YoY and removal of the lone projected cut. Specific median number not yet captured in scans - log evidence and wait for Sunday Reckoning to verify exact figure against test.",
+     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1172,7 +1190,14 @@
      "date": "2026-06-13T12:10:03Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-17",
+     "direction": "supports",
+     "note": "BoE consensus pre-2026-06-18: Pill and Greene have publicly signaled a vote for an immediate rate rise; Catherine Mann signaled openness to rise if energy crisis worsens. If 2-3 dissent for hike materializes, vote splits 7-2 or 6-3, both consistent with the claim's >=7 of 9 hold threshold only at exactly 7-2.",
+     "source_url": "https://www.kaeltripton.com/latest/bank-of-england-interest-rate-june-2026/"
+    }
+   ],
    "resolution": null
   },
   {
