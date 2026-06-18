@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-17",
+ "updated": "2026-06-18",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -273,6 +273,12 @@
      "direction": "against",
      "note": "Trilogue STALLED at the May 13 follow-up after April 28 failure; Cypriot Council Presidency (term ends June 30) racing to close before handing to Lithuania. Adoption-by-July-31 is no longer the default path and now depends on a clean Cypriot landing or a fast Lithuanian pickup. Lowers probability.",
      "source_url": "https://www.modulos.ai/blog/ai-act-omnibus-trilogue-failed/"
+    },
+    {
+     "date": "2026-06-18",
+     "direction": "supports",
+     "note": "EU Council presidency and European Parliament reached provisional agreement on AI Act Omnibus VII simplification package on 2026-05-07. Formal Council adoption expected in coming weeks (June-July), with publication anticipated before 2 August 2026. Bears toward formal adoption by 2026-07-31 deadline.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
     }
    ],
    "resolution": null
@@ -601,6 +607,12 @@
      "direction": "supports",
      "note": "Prediction markets (Polymarket, Kalshi) price 97-98% probability of Fed holding rates at the June 16-17 meeting prior to the July 28-29 meeting; markets price no rate moves rest of 2026; FOMC has held three consecutive meetings (April 29 was 8-4 hold with most dissents since 1992); Kevin Warsh installed as Chair 2026-05-15 inheriting divided committee, recent May CPI 4.2% YoY reduces cut odds. All directionally supportive of HOLD-or-CUT (the claim direction) at July 28-29; no scenario raises rates is currently priced.",
      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+     "date": "2026-06-18",
+     "direction": "against",
+     "note": "FOMC June 2026 dot plot raised median 2026 year-end fed funds rate to 3.8 pct from 3.4 pct in March; 9 of 18 participants now project at least one rate hike in 2026. Warsh's first press conference framed hawkish. Raises probability of a July 2026 hike, weakly against the 88 pct NOT-raise prior.",
+     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
     }
    ],
    "resolution": null
@@ -708,7 +720,7 @@
    "frameworks": [],
    "update_test": "Bank of England Monetary Policy Summary published 2026-06-18 at 12:00 BST: confirmed if the Bank Rate decision reported equals 3.75 percent (the prior-meeting level); disconfirmed if the rate is set above or below 3.75 percent.",
    "resolve_by": "2026-06-19",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-12T12:12:14Z",
@@ -730,7 +742,11 @@
      "source_url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-18T12:07:48Z",
+    "outcome": "confirmed",
+    "note": "Bank of England MPC announcement 2026-06-18 at 12:00 BST: Bank Rate held at 3.75 percent (unchanged from prior meeting). Vote split 7-2 with 2 members dissenting in favor of a 25bp rise. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+   }
   },
   {
    "id": "claim-20260612-002",
@@ -749,7 +765,7 @@
    "frameworks": [],
    "update_test": "FOMC Summary of Economic Projections PDF posted 2026-06-17 ~14:00 ET on federalreserve.gov: read the median 2026 year-end federal funds rate projection in the dot-plot table. Confirmed if the median 2026 year-end value is at or above 3.4 percent; disconfirmed if the median is below 3.4 percent.",
    "resolve_by": "2026-06-18",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-12T12:12:25Z",
@@ -778,7 +794,11 @@
      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-18T12:07:42Z",
+    "outcome": "confirmed",
+    "note": "FOMC June 2026 Summary of Economic Projections released 2026-06-17 at 14:00 ET: median 2026 year-end federal funds rate printed 3.8 percent (up from 3.4 percent in March 2026 SEP). 9 of 18 participants projected at least one rate hike in 2026, 8 expected no change, 1 expected a cut. Threshold ≥ 3.4 percent met. Source: federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+   }
   },
   {
    "id": "claim-20260612-003",
@@ -1169,7 +1189,7 @@
    "frameworks": [],
    "update_test": "BoE Monetary Policy Summary or Minutes for the meeting ending 2026-06-18 (published at 12:00 noon GMT on 2026-06-18) shows at least 7 of 9 MPC members voting to maintain Bank Rate at 3.75 percent",
    "resolve_by": "2026-06-25",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-13T12:09:38Z",
@@ -1198,7 +1218,11 @@
      "source_url": "https://www.kaeltripton.com/latest/bank-of-england-interest-rate-june-2026/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-18T12:07:50Z",
+    "outcome": "confirmed",
+    "note": "BoE MPC June 18 2026 vote: 7-2 to hold Bank Rate at 3.75 percent. 7 of 9 members voted hold, 2 dissented (Pill, Greene per pre-meeting signaling) in favor of a 25bp rise. Threshold ≥ 7 of 9 voting hold met. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+   }
   },
   {
    "id": "claim-20260613-002",
@@ -1231,7 +1255,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-18",
+     "direction": "supports",
+     "note": "Nigeria's National AI Strategy already exists as a formal document on official .gov.ng domain (NCAIR/NITDA): 2024-08-01 version at ncair.nitda.gov.ng/wp-content/uploads/2024/08/National-AI-Strategy_01082024-copy.pdf and a 2025-09-19 revised version at ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf. Public launch by Minister Bosun Tijani on 2026-04-20 at NAICI unveiling. INTERPRETIVE: claim text reads 'will publish' which suggests prospective formal release, but the artifact already meets the surface test of the update_test. Logging evidence; Sunday Reckoning to re-verify and possibly early-resolve.",
+     "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1525,6 +1556,289 @@
      "date": "2026-06-16T12:12:58Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260617-001",
+   "date": "2026-06-17",
+   "registered_at": "2026-06-17T12:14:30Z",
+   "claim": "The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BLS Employment Situation for June 2026 is on the BLS release calendar for 2026-07-03 at 8:30 ET. May 2026 print reported unemployment rate 4.3 percent with nonfarm payroll change +172,000 against a +88,000 consensus, indicating resilient labor market.",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.7,
+   "frameworks": [],
+   "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported headline unemployment rate (seasonally adjusted) is at or below 4.4 percent; disconfirmed if the reported headline unemployment rate is above 4.4 percent.",
+   "resolve_by": "2026-07-04",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-17T12:14:30Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-17 for the June 2026 BLS Employment Situation; release is scheduled for 2026-07-03 and the data are not yet public. May 2026 print (4.3 percent unemployment, +172k NFP) confirmed via Bloomberg and BLS empsit.htm 2026-06-05. Outcome not already known.",
+    "queries": [
+     "BLS May 2026 unemployment rate nonfarm payrolls report",
+     "BLS June 2026 Employment Situation"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260617-002",
+   "date": "2026-06-17",
+   "registered_at": "2026-06-17T12:14:36Z",
+   "claim": "The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BLS Employment Situation for June 2026 release scheduled 2026-07-03 at 8:30 ET. May 2026 print reported nonfarm payroll change +172,000 (well above +88,000 consensus). March-April 2026 revisions added 93,000 jobs combined upward. Labor market in moderate-resilient growth phase.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.7,
+   "frameworks": [],
+   "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported total nonfarm payroll change (seasonally adjusted, initial release figure, not later revisions) is at or above +100,000; disconfirmed if the figure is below +100,000.",
+   "resolve_by": "2026-07-04",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-17T12:14:36Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-17 for the June 2026 BLS Employment Situation; not yet released. May 2026 +172k confirmed via Bloomberg, UPI, bls.gov empsit.htm 2026-06-05. Outcome not already known.",
+    "queries": [
+     "BLS May 2026 unemployment rate nonfarm payrolls report"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260617-003",
+   "date": "2026-06-17",
+   "registered_at": "2026-06-17T12:14:44Z",
+   "claim": "By 2026-08-01, federal agencies will publicly publish or announce a designed voluntary frontier model engagement framework as directed by the Trump Executive Order on Promoting Advanced AI Innovation and Security (signed 2026-06-02).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Trump EO Promoting Advanced AI Innovation and Security signed 2026-06-02 (White House press release confirmed by multiple legal alerts: Latham/Watkins, Ropes & Gray, Crowell, Skadden, Freshfields). EO directs federal agencies to design a voluntary frontier-model engagement framework by 2026-08-01, with up to 30-day pre-release access window for participating developers.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-08-01 EOD UTC, identifiable public artifact (joint federal release, NIST/OSTP/DOC/DHS publication, formal whitehouse.gov announcement, or Federal Register notice) describing the designed voluntary frontier model engagement framework, including the participation procedure and the 30-day pre-release access mechanism. Confirmed if such an artifact exists by deadline; disconfirmed if no such artifact is published by 2026-08-01.",
+   "resolve_by": "2026-08-08",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-17T12:14:44Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-17 for federal voluntary frontier model engagement framework; no design publication yet found as of today. EO was signed 2026-06-02; design deadline 2026-08-01 is 45 days out. Legal alerts confirm design responsibility but do not yet describe a published framework. Outcome not already known.",
+    "queries": [
+     "Trump executive order June 2 2026 advanced AI frontier model voluntary engagement framework",
+     "AI governance policy news June 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260618-001",
+   "date": "2026-06-18",
+   "registered_at": "2026-06-18T12:11:38Z",
+   "claim": "Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent)",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of Japan calendar: Monetary Policy Meeting scheduled 2026-07-30 to 2026-07-31; Outlook Report published 2026-07-31. May 2026 meeting raised rate to 1.0 percent in 7-1 vote (resolved claim-20260614-002). BoJ held in 7 of 9 meetings since exiting NIRP; typical pattern is hike then 2-3 meeting pause; OIS pricing shows next hike to 1.25 not expected until Q4 2026",
+   "withdrawal": null,
+   "confidence": 0.74,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.7,
+   "frameworks": [
+    "Knowledge Gradient Model"
+   ],
+   "update_test": "Bank of Japan Monetary Policy Statement and Outlook Report published 2026-07-31 on boj.or.jp reports the target for the uncollateralized overnight call rate held at around 1.0 percent (i.e., no change from the May 2026 hike to 1.0 percent)",
+   "resolve_by": "2026-08-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-18T12:11:38Z",
+    "auditor": "twin",
+    "note": "Web searches confirmed no policy statement published yet for the July 30-31 meeting; next meeting per BoJ calendar is July 30-31 2026",
+    "queries": [
+     "Bank of Japan July 30 31 2026 monetary policy meeting outlook report",
+     "BoJ rate hike pause pattern 2026 next move OIS swap pricing"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260618-002",
+   "date": "2026-06-18",
+   "registered_at": "2026-06-18T12:11:49Z",
+   "claim": "UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent)",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ONS Consumer Prices Index, UK: May 2026 release confirmed CPI rose 2.8 percent in 12 months to May 2026, unchanged from April 2026. BoE June 2026 MPC June statement flagged that inflation is expected to rise as energy effects pass through; UK now in Iran-war energy-price shock window",
+   "withdrawal": null,
+   "confidence": 0.68,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [
+    "Macroeconomic Regime Model"
+   ],
+   "update_test": "ONS Consumer Prices Index release for June 2026 (scheduled approximately 2026-07-16 to 2026-07-22) shows the CPI 12-month rate (headline) at or above 2.8 percent (the May 2026 print)",
+   "resolve_by": "2026-07-25",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-18T12:11:49Z",
+    "auditor": "twin",
+    "note": "ONS June 2026 CPI release has not occurred; release window is mid-to-late July 2026 per ONS calendar",
+    "queries": [
+     "UK CPI June 2026 forecast inflation print release date July",
+     "Bank of England June 18 2026 inflation outlook"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260618-003",
+   "date": "2026-06-18",
+   "registered_at": "2026-06-18T12:11:55Z",
+   "claim": "ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion)",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ISM Services PMI is released on the third business day of each month. May 2026 print was above 50 (most recent expansion); services sector has stayed above 50 in 9 of the last 12 prints, with occasional dips. Hawkish Fed SEP (June 17) signals resilient services demand",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.65,
+   "frameworks": [
+    "Macroeconomic Regime Model"
+   ],
+   "update_test": "Institute for Supply Management Services PMI headline composite index for June 2026 (release scheduled approximately 2026-07-06 at 10:00 ET on ismworld.org) prints at or above 50.0",
+   "resolve_by": "2026-07-10",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-18T12:11:55Z",
+    "auditor": "twin",
+    "note": "ISM Services PMI for June 2026 has not been released; June 2026 data releases first week of July 2026",
+    "queries": [
+     "ISM Services PMI June 2026 release",
+     "US services PMI June 2026 expansion forecast"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260618-004",
+   "date": "2026-06-18",
+   "registered_at": "2026-06-18T12:12:09Z",
+   "claim": "Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "African Union Continental AI Strategy adopted July 2024 set a 5-year window for national strategy adoption. As of June 2026, 10 African states have published national AI strategies. Tunisia, Zambia, Ethiopia, and Cote d'Ivoire have all signaled drafts in development per Smart Africa updates 2026 Q1",
+   "withdrawal": null,
+   "confidence": 0.42,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.35,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "By 2026-08-15, identifiable PDF or formal page on an official African Union member-state government domain (.gov of any country other than the ten named) titled or substantively a national AI strategy or framework, dated 2026-06-18 or later",
+   "resolve_by": "2026-08-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-18T12:12:09Z",
+    "auditor": "twin",
+    "note": "Web search for African AI strategy 2026 confirms current set of published-strategy states; no new published strategy from outside this set has been confirmed as of 2026-06-18",
+    "queries": [
+     "African tech AI infrastructure news June 2026 Nigeria Kenya Ghana",
+     "AfricArXiv African academic AI governance research 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260618-005",
+   "date": "2026-06-18",
+   "registered_at": "2026-06-18T12:12:17Z",
+   "claim": "Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-08-30, the European Commission AI Office publishes at least one new formal guidance, FAQ update, implementing decision, or notice (other than the previously committed copyright guidance per claim-20260610-017) materially addressing obligations or expectations for GPAI model providers",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EU AI Act GPAI enforcement powers activate 2026-08-02 (one-year grace period ends). Article 65 RFI, evaluation, and fine powers all kick in that day. Enforcement-start dates are typically accompanied by guidance refreshes; claim-20260610-017 separately tracks the copyright-specific guidance",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.6,
+   "frameworks": [
+    "Cultural Adoption Filter"
+   ],
+   "update_test": "By 2026-08-30, at least one new document on the official ec.europa.eu domain (digital-strategy.ec.europa.eu, ai-act-service-desk.ec.europa.eu, or AI Office press release) dated between 2026-08-02 and 2026-08-30 that is not the copyright-specific guidance, materially addressing GPAI provider obligations",
+   "resolve_by": "2026-08-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-18T12:12:17Z",
+    "auditor": "twin",
+    "note": "AI Office has not published any post-Aug-2 guidance document yet; enforcement start is six weeks away",
+    "queries": [
+     "EU AI Office GPAI Code of Practice 2026 publication enforcement",
+     "EU AI Act August 2 2026 GPAI enforcement first action"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }

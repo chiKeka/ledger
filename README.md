@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 2✓ · 0✗ · 0◐ · 28 open · 9 invalidated (outcome pre-dated registration; visible below, never scored) · Brier 0.104 (coin-flip = 0.250), skill vs coin-flip +0.146**
+**Record: 5✓ · 0✗ · 0◐ · 33 open · 9 invalidated (outcome pre-dated registration; visible below, never scored) · Brier 0.066 (coin-flip = 0.250), skill vs coin-flip +0.184**
 
-**Latest: ✓ "The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meet" — said 92%, resolved confirmed (2026-06-17)**
+**Latest: ✓ "The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Ra" — said 82%, resolved confirmed (2026-06-18)**
 
-_Updated 2026-06-17 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-06-18 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,28 +23,33 @@ _Updated 2026-06-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 18 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 23 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260612-002"></a>The FOMC June 2026 Summary of Economic Projections will show the median 2026 year-end federal funds rate projection greater than or equal to 3.4 percent (the median value in the March 2026 SEP). | **72%** | 60% | world |  2026-06-18 |
-| <a id="claim-20260612-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from the 2026-05 level) at its 2026-06-18 meeting. | **90%** | 85% | world |  2026-06-19 |
-| <a id="claim-20260613-001"></a>The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent | **82%** | 78% | world |  2026-06-25 |
 | <a id="claim-20260616-001"></a>US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints core PCE year-over-year at or above 3.2 percent | **62%** | 55% | world |  2026-06-26 |
 | <a id="claim-20260616-002"></a>Eurostat euro area HICP flash estimate for June 2026 (scheduled release 2026-07-01) prints headline annual inflation at or below 3.1 percent | **45%** | 45% | world |  2026-07-02 |
+| <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | **70%** | 70% | world |  2026-07-04 |
+| <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | **72%** | 70% | world |  2026-07-04 |
+| <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | **70%** | 65% | world |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
 | <a id="claim-20260615-001"></a>US Bureau of Labor Statistics Consumer Price Index report for June 2026 (scheduled release 2026-07-14 at 08:30 ET) shows all-items CPI 12-month percentage change at or above 4.0 percent | **65%** | 55% | world |  2026-07-20 |
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
+| <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | **55%** | 50% | worldview |  2026-07-31 |
+| <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
 | <a id="claim-20260615-002"></a>US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive | **62%** | 50% | world |  2026-08-05 |
+| <a id="claim-20260617-003"></a>By 2026-08-01, federal agencies will publicly publish or announce a designed voluntary frontier model engagement framework as directed by the Trump Executive Order on Promoting Advanced AI Innovation and Security (signed 2026-06-02). | **55%** | 55% | worldview |  2026-08-08 |
 | <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
 | <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
 | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | **38%** | 42% | world |  2026-08-12 |
 | <a id="claim-20260613-003"></a>By 2026-08-12, at least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly publish a formal regulatory framework or pilot specification governing digital-currency or stablecoin settlements explicitly under the ADAPT initiative | **28%** | 30% | worldview |  2026-08-12 |
 | <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | **75%** | 70% | worldview |  2026-08-15 |
+| <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | **42%** | 35% | worldview |  2026-08-15 |
 | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | **30%** | 30% | worldview |  2026-08-16 |
+| <a id="claim-20260618-005"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-08-30, the European Commission AI Office publishes at least one new formal guidance, FAQ update, implementing decision, or notice (other than the previously committed copyright guidance per claim-20260610-017) materially addressing obligations or expectations for GPAI model providers | **72%** | 60% | worldview |  2026-08-30 |
 
 </details>
 
@@ -52,6 +57,9 @@ _Updated 2026-06-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260613-001"></a>The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent | 82% | confirmed (2026-06-18) | BoE MPC June 18 2026 vote: 7-2 to hold Bank Rate at 3.75 percent. 7 of 9 members voted hold, 2 dissented (Pill, Greene per pre-meeting signaling) in favor of a 25bp rise. Threshold ≥ 7 of 9 voting hold met. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate |
+| ✓ | <a id="claim-20260612-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from the 2026-05 level) at its 2026-06-18 meeting. | 90% | confirmed (2026-06-18) | Bank of England MPC announcement 2026-06-18 at 12:00 BST: Bank Rate held at 3.75 percent (unchanged from prior meeting). Vote split 7-2 with 2 members dissenting in favor of a 25bp rise. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate |
+| ✓ | <a id="claim-20260612-002"></a>The FOMC June 2026 Summary of Economic Projections will show the median 2026 year-end federal funds rate projection greater than or equal to 3.4 percent (the median value in the March 2026 SEP). | 72% | confirmed (2026-06-18) | FOMC June 2026 Summary of Economic Projections released 2026-06-17 at 14:00 ET: median 2026 year-end federal funds rate printed 3.8 percent (up from 3.4 percent in March 2026 SEP). 9 of 18 participants projected at least one rate hike in 2026, 8 expected no change, 1 expected a cut. Threshold ≥ 3.4 percent met. Source: federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm |
 | ✓ | <a id="claim-20260611-001"></a>The US Federal Reserve FOMC will hold (not raise, not cut) the federal funds rate target range at its 2026-06-16/17 meeting. | 92% | confirmed (2026-06-17) | FOMC June 17 2026 statement holds target federal funds range at 3.50-3.75 percent unchanged from April 29 (upper bound 3.75% == prior 3.75%). Warsh's first meeting as Chair; decision announced 14:00 ET. Evidence: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm (corroborated by Kiplinger/Reuters/Stocktitan live reports 2026-06-17) |
 | ✓ | <a id="claim-20260614-002"></a>The Bank of Japan Policy Board will raise the short-term policy rate target by 25 basis points to 1.00 percent (from the current 0.75 percent) at its 2026-06-16/17 Monetary Policy Meeting. | 55% | confirmed (2026-06-16) | BoJ raised policy rate by 25bp to 1.00%, 7-1 vote (Asada dissented, reflationist stance), announced June 16 2026. Decision and vote split confirmed by Reuters/Investing.com and FXStreet coverage of the June 15-16 meeting. Source: https://www.investing.com/news/economy-news/bank-of-japan-set-to-raise-rates-to-31year-high-vow-further-increases-4743332 |
 | ! | <a id="claim-20260612-hs2-C1"></a>Claim 2 (pure) FAILS: in a fragility-selected reference class of major rail/transport megaprojects, high-fragility LEGISLATED/CONTRACTED (committed) projects mostly COMPLETE-WITH-OVERRUN rather than cancel/descope (cancel+descope rate < 0.5 among committed-fragile). | 72% | **INVALIDATED** — confirmed pre-dated registration; never scored | Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient. \| source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12) |
@@ -66,7 +74,7 @@ _Updated 2026-06-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 ## Calibration record
 
-_Corrections activate at 10 scored resolutions (currently 2). Until then the estimator runs uncorrected, and says so._
+_Corrections activate at 10 scored resolutions (currently 5). Until then the estimator runs uncorrected, and says so._
 
 ## How this works
 
