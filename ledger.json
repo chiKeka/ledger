@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-18",
+ "updated": "2026-06-20",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -112,6 +112,12 @@
      "direction": "supports",
      "note": "EU AI Act omnibus deal confirms Annex III HRAIS obligations deferred from 2026-08-02 to 2027-12-02 (16-month deferral) and Annex I HRAIS from 2027-08-02 to 2028-08-02 (12-month deferral); SME-style simplifications extended to 750-employee/EUR150M firms. The omnibus is delivering the predicted reduction in enforceable obligations for frontier deployers.",
      "source_url": "https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules"
+    },
+    {
+     "date": "2026-06-19",
+     "direction": "supports",
+     "note": "Council, Parliament, Commission reached provisional political agreement on Digital AI Omnibus 7 May 2026; Council Member State representatives confirmed deal 13 May 2026. The omnibus deferred high-risk obligations to 2 Dec 2027 (Annex III) and 2 Aug 2028 (Annex I products) - reduces near-term enforceable compliance burden on frontier deployers. Formal vote expected June-July 2026, entry into force shortly after publication in OJ.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
     }
    ],
    "resolution": null
@@ -279,6 +285,12 @@
      "direction": "supports",
      "note": "EU Council presidency and European Parliament reached provisional agreement on AI Act Omnibus VII simplification package on 2026-05-07. Formal Council adoption expected in coming weeks (June-July), with publication anticipated before 2 August 2026. Bears toward formal adoption by 2026-07-31 deadline.",
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-06-19",
+     "direction": "supports",
+     "note": "Provisional Digital AI Omnibus deal reached 7 May 2026 (trilogue), Member State representatives confirmed 13 May 2026 in Council. Inside Privacy and Inside Global Tech reporting formal Parliament and Council adoption expected June-July 2026, ahead of 2 August 2026 trigger date for high-risk rules. Track milestone: formal OJ publication.",
+     "source_url": "https://www.insideglobaltech.com/2026/05/28/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/"
     }
    ],
    "resolution": null
@@ -855,324 +867,6 @@
    "resolution": null
   },
   {
-   "id": "claim-20260612-hs2-P1",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T15:48:11Z",
-   "claim": "Backtest Target A (cost/schedule) PASS: a dynamic-deterministic model fit only on HS2 data <=2015-12-31 forecasts the DIRECTION and PERSISTENCE of cost escalation and schedule slip 2016-2024 within the pre-registered bands (>=6/9 years, +-50% cost, +-24mo schedule).",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Cost escalation in megaprojects is overdetermined and near-monotonic; direction is the easy target. See experiments/hs2-backtest/preregistration.md sec 2-3.",
-   "withdrawal": null,
-   "confidence": 0.85,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "non-autonomous-state-space",
-    "predictability-horizon",
-    "system-boundary",
-    "reflexivity"
-   ],
-   "update_test": "Run the frozen-2015 model per preregistration.md; A-PASS iff >=6 of 9 years meet correct-sign + cost within +-50% + schedule within +-24mo of actual out-turn.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T16:21:48Z",
-    "outcome": "confirmed",
-    "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-P2",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T15:48:11Z",
-   "claim": "Backtest Target B (regime shifts) FAIL: the HS2 leg cancellations (eastern/Leeds ~2021; Manchester/Phase 2 Oct 2023) were NOT forecastable to >0.5 probability and within +-24 months from HS2 data restricted to <=2015-12-31.",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Cancellations were discrete political decisions, not endogenous program dynamics. See preregistration.md sec 2-3 (Target B).",
-   "withdrawal": null,
-   "confidence": 0.7,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "non-autonomous-state-space",
-    "predictability-horizon",
-    "system-boundary",
-    "reflexivity"
-   ],
-   "update_test": "B-PASS iff the <=2015 model assigns >0.5 to 'a leg cancelled by end-2024' AND ranks eastern leg riskier than Phase 1 AND dates first descope within +-24mo of 2021; P2 confirmed iff B-FAIL.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T16:21:48Z",
-    "outcome": "confirmed",
-    "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-P3",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T15:48:11Z",
-   "claim": "Boundary tally: the dominant drivers of the decision-relevant (Target B) HS2 outcomes classify MAJORITY OUTSIDE the 2015 system boundary (COVID fiscal shock, 2022 inflation/gilt regime, change of government/PM) rather than inside (geology, contractor, scope, contingency).",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "The 2020-2024 cancellation drivers are national-political and macro, not traceable to 2015 risk registers. See preregistration.md sec 4.",
-   "withdrawal": null,
-   "confidence": 0.72,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "non-autonomous-state-space",
-    "predictability-horizon",
-    "system-boundary",
-    "reflexivity"
-   ],
-   "update_test": "Classify each Target-B outcome's dominant driver inside/outside per preregistration.md sec 4; P3 confirmed iff OUTSIDE > INSIDE among Target-B outcomes.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T16:21:48Z",
-    "outcome": "confirmed",
-    "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-P4",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T15:48:11Z",
-   "claim": "Net verdict of the HS2 backtest = 'short-horizon deterministic, long-horizon boundary-limited': the input-driven model nowcasts/short-forecasts well (A-PASS) but the decisive outcomes are exogenous to the 2015 boundary (B-FAIL, drivers OUTSIDE).",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Composite of P1+P2+P3; the verdict logic is fixed in preregistration.md sec 5.",
-   "withdrawal": null,
-   "confidence": 0.68,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "non-autonomous-state-space",
-    "predictability-horizon",
-    "system-boundary",
-    "reflexivity"
-   ],
-   "update_test": "Apply preregistration.md sec-5 verdict table to the backtest results; P4 confirmed iff verdict == 'boundary-limited wins'.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T16:21:48Z",
-    "outcome": "confirmed",
-    "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-C1",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T16:45:26Z",
-   "claim": "Claim 2 (pure) FAILS: in a fragility-selected reference class of major rail/transport megaprojects, high-fragility LEGISLATED/CONTRACTED (committed) projects mostly COMPLETE-WITH-OVERRUN rather than cancel/descope (cancel+descope rate < 0.5 among committed-fragile).",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Sunk-cost / too-big-to-cancel dynamic; Crossrail, Big Dig, Berlin airport, Stuttgart 21 overran badly and completed. See claim2-fungible-trigger.md.",
-   "withdrawal": null,
-   "confidence": 0.72,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "reference-class-forecasting",
-    "fragility",
-    "sunk-cost-lock-in",
-    "exit-cost",
-    "fungible-trigger"
-   ],
-   "update_test": "Among reference-class cases coded high-fragility AND committed, compute (FULL-CANCELLATION + MAJOR-DESCOPE)/total; C1 confirmed iff < 0.5.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T17:13:51Z",
-    "outcome": "confirmed",
-    "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-C2",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T16:45:26Z",
-   "claim": "Commitment-scoped Claim 2 HOLDS: high-fragility PROPOSED/UNCOMMITTED segments descope-or-cancel at > 0.5, and committed-fragile at < 0.3, with descoping occurring across mild as well as severe trigger environments (trigger fungible for the uncommitted).",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Low exit cost for unlegislated/uncontracted scope; HS2 Phase 2b, CA-HSR uncommitted segments, 1975 Channel Tunnel, Garden Bridge. See claim2-fungible-trigger.md.",
-   "withdrawal": null,
-   "confidence": 0.62,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "reference-class-forecasting",
-    "fragility",
-    "sunk-cost-lock-in",
-    "exit-cost",
-    "fungible-trigger"
-   ],
-   "update_test": "Compute cancel/descope rate for uncommitted-fragile (expect >0.5) and committed-fragile (expect <0.3); check cancelled uncommitted cases span mild+severe triggers; C2 confirmed iff both rate thresholds met and trigger not confined to SEVERE.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:18Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T17:13:51Z",
-    "outcome": "confirmed",
-    "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
-   }
-  },
-  {
-   "id": "claim-20260612-hs2-C3",
-   "date": "2026-06-12",
-   "registered_at": "2026-06-12T16:45:26Z",
-   "claim": "Net: the governing variable is EXIT COST (commitment status), not fragility per se. Bruno wins Claim 2 scoped to the uncommitted segment (fragility forces descoping trigger-fungibly) but loses the pure form (fragility alone regardless of commitment). HS2 Phase 1 surviving the same trigger stack that killed Phase 2b is the within-case confirmation.",
-   "committed_by": "twin",
-   "tier": "experiment",
-   "frame": "out",
-   "grounding": "Composite of C1+C2. See claim2-fungible-trigger.md scoring.",
-   "withdrawal": null,
-   "confidence": 0.6,
-   "confidence_source": "twin-estimated",
-   "confidence_rationale": null,
-   "base_rate": null,
-   "frameworks": [
-    "reference-class-forecasting",
-    "fragility",
-    "sunk-cost-lock-in",
-    "exit-cost",
-    "fungible-trigger"
-   ],
-   "update_test": "Confirmed iff C1 and C2 both confirm AND HS2 Phase 1 (committed) coded COMPLETED-WITH-OVERRUN while HS2 Phase 2b (uncommitted) coded CANCELLATION in the same trigger environment.",
-   "resolve_by": "2026-12-31",
-   "status": "resolved",
-   "validity": {
-    "status": "invalid",
-    "date": "2026-06-12T21:26:19Z",
-    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
-   },
-   "prereg_audit": null,
-   "corrections": [],
-   "related_to": [],
-   "evidence": [
-    {
-     "date": "2026-06-12",
-     "direction": "supports",
-     "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure.",
-     "source_url": null
-    }
-   ],
-   "resolution": {
-    "date": "2026-06-12T17:13:51Z",
-    "outcome": "confirmed",
-    "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
-   }
-  },
-  {
    "id": "claim-20260613-001",
    "date": "2026-06-13",
    "registered_at": "2026-06-13T12:09:38Z",
@@ -1556,7 +1250,14 @@
      "date": "2026-06-16T12:12:58Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-19",
+     "direction": "against",
+     "note": "Broadcast Media Africa 27 May 2026: South Africa DCDT revised AI Policy timeline now targets revised expert review concluding October 2026, Cabinet submission November 2026, public-comment publication January 2027. This pushes the revised draft public release well past the 15 August 2026 deadline in claim. Withdrawn 26 April 2026 after AI-hallucinated citations; consultation deadline was 10 June 2026 with no announced acceleration.",
+     "source_url": "https://news.broadcastmediaafrica.com/2026/05/27/south-africas-national-ai-policy-new-draft-set-for-release-in-january-2027-following-expert-review/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1841,6 +1542,469 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260619-001",
+   "date": "2026-06-19",
+   "registered_at": "2026-06-19T12:10:47Z",
+   "claim": "ISM Manufacturing PMI for June 2026 (scheduled release 2026-07-01) prints at or above 50.0 (signaling expansion in the manufacturing sector).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Institute for Supply Management Manufacturing Business Survey Committee publishes monthly Manufacturing PMI; the June 2026 reading is scheduled for release on 2026-07-01. May 2026 reading was 54.0 (release 2026-06-01), the fifth consecutive month of expansion and the highest reading since May 2022.",
+   "withdrawal": null,
+   "confidence": 0.74,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "On 2026-07-01, the Institute for Supply Management official June 2026 Manufacturing PMI release prints a headline Manufacturing PMI of 50.0 or higher. Confirmed if the headline reading is at or above 50.0, disconfirmed if below 50.0.",
+   "resolve_by": "2026-07-03",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-19T12:10:47Z",
+    "auditor": "twin",
+    "note": "Searched Industry Today, PRNewswire, Trading Economics, ISM official site, Forex Factory 2026-06-19 - no June 2026 release found, scheduled for 2026-07-01",
+    "queries": [
+     "ISM Manufacturing PMI June 2026 release",
+     "ISM Manufacturing PMI May 2026 result"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260619-002",
+   "date": "2026-06-19",
+   "registered_at": "2026-06-19T12:10:55Z",
+   "claim": "China National Bureau of Statistics Manufacturing PMI for June 2026 (scheduled release 2026-06-30) prints at or above 50.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "China NBS publishes monthly Manufacturing PMI on the last calendar day of each month; the June 2026 reading is scheduled for release on 2026-06-30. May 2026 reading printed 50.0 exactly, down 0.3 points month-over-month, a 4-month low. The series has hovered at the expansion-contraction threshold through Q2 2026.",
+   "withdrawal": null,
+   "confidence": 0.46,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.48,
+   "frameworks": [],
+   "update_test": "On 2026-06-30, the China National Bureau of Statistics official June 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
+   "resolve_by": "2026-07-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-19T12:10:55Z",
+    "auditor": "twin",
+    "note": "Searched Trading Economics, Investing.com, Mysteel, NBS English site, FXStreet calendar 2026-06-19 - no June 2026 release found, scheduled for 2026-06-30",
+    "queries": [
+     "China NBS Manufacturing PMI June 2026",
+     "China NBS Manufacturing PMI May 2026 result"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260619-003",
+   "date": "2026-06-19",
+   "registered_at": "2026-06-19T12:11:11Z",
+   "claim": "US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Department of Labor publishes weekly initial unemployment insurance claims each Thursday. Week ending 2026-06-13 release printed 226,000 (down 4,000), four-week moving average 223,250. Series has held a 215-240K band through Q2 2026 despite continuing-claims drift higher (1.81M). Week ending 2026-06-20 release scheduled 2026-06-26.",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.65,
+   "frameworks": [],
+   "update_test": "On 2026-07-03 (one-day early due to Independence Day), the US Department of Labor weekly unemployment insurance claims release reports seasonally adjusted initial claims of fewer than 240,000 for the week ending 2026-06-27. Confirmed if printed value is below 240,000, disconfirmed if at or above 240,000.",
+   "resolve_by": "2026-07-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-19T12:11:11Z",
+    "auditor": "twin",
+    "note": "Searched FRED ICSA series, Quartz, Verified Investing, DOL ui/data.pdf 2026-06-19 - latest available is week ending 2026-06-13 (226K); the week ending 2026-06-27 release is scheduled 2026-07-03.",
+    "queries": [
+     "US initial jobless claims weekly report June 2026",
+     "DOL unemployment insurance claims latest"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260619-004",
+   "date": "2026-06-19",
+   "registered_at": "2026-06-19T12:11:26Z",
+   "claim": "At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "AfCFTA Secretariat announced 2026-05-19 in Accra that Country Implementation Forums in all three pilot countries are targeted for establishment by the end of June 2026. As of 2026-06-19, no public announcement of any specific Forum being established has surfaced in news searches; the 2026-05-19 Accra announcement remains the most recent ADAPT milestone in the public record.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "By 2026-06-30 23:59 UTC, an identifiable public announcement (Kenyan, Moroccan, or Nigerian government press release, AfCFTA Secretariat communique, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement) confirms the formal establishment of an ADAPT Country Implementation Forum in at least one of Kenya, Morocco, or Nigeria. Confirmed if any one country has such an announcement on or before the deadline; disconfirmed if none.",
+   "resolve_by": "2026-06-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-19T12:11:26Z",
+    "auditor": "twin",
+    "note": "Searched IOTA blog, Africa.com, Tech.africa, AfCFTA Secretariat news, Biometric Update, ID Tech Wire, Coinmonks, Financial Nigeria, Zawya, Bizcommunity, ENS Africa 2026-06-19 - all coverage refers to the 2026-05-19 selection and the by-end-June target; no Forum has been publicly established yet.",
+    "queries": [
+     "ADAPT Country Implementation Forum Kenya Morocco Nigeria established announcement",
+     "AfCFTA ADAPT Implementation Forum June 2026 launch"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260612-003",
+     "relation": "probes",
+     "note": "Probes the existing all-three-by-2026-07-15 claim with a sharper near-term any-one-by-2026-06-30 test - tracks whether the end-June milestone is hit publicly on at least the first leg",
+     "date": "2026-06-19T12:11:26Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "claim-20260612-hs2-P1",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Backtest Target A (cost/schedule) PASS: a dynamic-deterministic model fit only on HS2 data <=2015-12-31 forecasts the DIRECTION and PERSISTENCE of cost escalation and schedule slip 2016-2024 within the pre-registered bands (>=6/9 years, +-50% cost, +-24mo schedule).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Cost escalation in megaprojects is overdetermined and near-monotonic; direction is the easy target. See experiments/hs2-backtest/preregistration.md sec 2-3.",
+   "withdrawal": null,
+   "confidence": 0.85,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Run the frozen-2015 model per preregistration.md; A-PASS iff >=6 of 9 years meet correct-sign + cost within +-50% + schedule within +-24mo of actual out-turn.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "A-PASS: correct sign every year 2016-2022 and cost within +-50% for >=7/9 years; Phase 1 opening within +-24mo across the run. Overdetermined target, as expected. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P2",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Backtest Target B (regime shifts) FAIL: the HS2 leg cancellations (eastern/Leeds ~2021; Manchester/Phase 2 Oct 2023) were NOT forecastable to >0.5 probability and within +-24 months from HS2 data restricted to <=2015-12-31.",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Cancellations were discrete political decisions, not endogenous program dynamics. See preregistration.md sec 2-3 (Target B).",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "B-PASS iff the <=2015 model assigns >0.5 to 'a leg cancelled by end-2024' AND ranks eastern leg riskier than Phase 1 AND dates first descope within +-24mo of 2021; P2 confirmed iff B-FAIL.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "B-FAIL: blind forecaster reported P(cancellation by 2024)=0.45, below the pre-registered >0.5 bar, despite getting the at-risk leg (eastern) and timing (2022-23) right. Could not cross the threshold from inside the 2015 boundary. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P3",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Boundary tally: the dominant drivers of the decision-relevant (Target B) HS2 outcomes classify MAJORITY OUTSIDE the 2015 system boundary (COVID fiscal shock, 2022 inflation/gilt regime, change of government/PM) rather than inside (geology, contractor, scope, contingency).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "The 2020-2024 cancellation drivers are national-political and macro, not traceable to 2015 risk registers. See preregistration.md sec 4.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Classify each Target-B outcome's dominant driver inside/outside per preregistration.md sec 4; P3 confirmed iff OUTSIDE > INSIDE among Target-B outcomes.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "Both Target-B cancellations classify dominant-driver OUTSIDE: eastern leg (Nov 2021 IRP, political reprioritisation + post-COVID fiscal); Phase 2 (Oct 2023 Sunak, post-COVID demand collapse + 2022 gilt/inflation + political decision). Tally OUTSIDE>INSIDE. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-P4",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T15:48:11Z",
+   "claim": "Net verdict of the HS2 backtest = 'short-horizon deterministic, long-horizon boundary-limited': the input-driven model nowcasts/short-forecasts well (A-PASS) but the decisive outcomes are exogenous to the 2015 boundary (B-FAIL, drivers OUTSIDE).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Composite of P1+P2+P3; the verdict logic is fixed in preregistration.md sec 5.",
+   "withdrawal": null,
+   "confidence": 0.68,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "non-autonomous-state-space",
+    "predictability-horizon",
+    "system-boundary",
+    "reflexivity"
+   ],
+   "update_test": "Apply preregistration.md sec-5 verdict table to the backtest results; P4 confirmed iff verdict == 'boundary-limited wins'.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T16:21:48Z",
+    "outcome": "confirmed",
+    "note": "Verdict per preregistration sec-5 table = 'boundary-limited wins' (A-PASS + B-FAIL + drivers OUTSIDE). Robust: contamination vector (Sonnet pretraining knows the outcome) runs AGAINST this result yet B1a still landed at 0.45. | source: experiments/hs2-backtest/results.md (run 2026-06-12, blind Sonnet forecaster vs sealed scoring key)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C1",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Claim 2 (pure) FAILS: in a fragility-selected reference class of major rail/transport megaprojects, high-fragility LEGISLATED/CONTRACTED (committed) projects mostly COMPLETE-WITH-OVERRUN rather than cancel/descope (cancel+descope rate < 0.5 among committed-fragile).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Sunk-cost / too-big-to-cancel dynamic; Crossrail, Big Dig, Berlin airport, Stuttgart 21 overran badly and completed. See claim2-fungible-trigger.md.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Among reference-class cases coded high-fragility AND committed, compute (FULL-CANCELLATION + MAJOR-DESCOPE)/total; C1 confirmed iff < 0.5.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Committed-fragile cancel/descope rate = 9% (1/11; only Edinburgh). Big Dig +428%, Channel Tunnel investor wipeout, Berlin 14yr late all COMPLETED. Pure Claim 2 refuted: fragility alone insufficient. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C2",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Commitment-scoped Claim 2 HOLDS: high-fragility PROPOSED/UNCOMMITTED segments descope-or-cancel at > 0.5, and committed-fragile at < 0.3, with descoping occurring across mild as well as severe trigger environments (trigger fungible for the uncommitted).",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Low exit cost for unlegislated/uncontracted scope; HS2 Phase 2b, CA-HSR uncommitted segments, 1975 Channel Tunnel, Garden Bridge. See claim2-fungible-trigger.md.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Compute cancel/descope rate for uncommitted-fragile (expect >0.5) and committed-fragile (expect <0.3); check cancelled uncommitted cases span mild+severe triggers; C2 confirmed iff both rate thresholds met and trigger not confined to SEVERE.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:18Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Uncommitted-fragile = 100% (4/4) cancel/descope; committed = 9%. Garden Bridge cancelled under a MILD trigger while committed projects survived SEVERE ones - trigger fungible for uncommitted. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
+  },
+  {
+   "id": "claim-20260612-hs2-C3",
+   "date": "2026-06-12",
+   "registered_at": "2026-06-12T16:45:26Z",
+   "claim": "Net: the governing variable is EXIT COST (commitment status), not fragility per se. Bruno wins Claim 2 scoped to the uncommitted segment (fragility forces descoping trigger-fungibly) but loses the pure form (fragility alone regardless of commitment). HS2 Phase 1 surviving the same trigger stack that killed Phase 2b is the within-case confirmation.",
+   "committed_by": "twin",
+   "tier": "experiment",
+   "frame": "out",
+   "grounding": "Composite of C1+C2. See claim2-fungible-trigger.md scoring.",
+   "withdrawal": null,
+   "confidence": 0.6,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": null,
+   "frameworks": [
+    "reference-class-forecasting",
+    "fragility",
+    "sunk-cost-lock-in",
+    "exit-cost",
+    "fungible-trigger"
+   ],
+   "update_test": "Confirmed iff C1 and C2 both confirm AND HS2 Phase 1 (committed) coded COMPLETED-WITH-OVERRUN while HS2 Phase 2b (uncommitted) coded CANCELLATION in the same trigger environment.",
+   "resolve_by": "2026-12-31",
+   "status": "resolved",
+   "validity": {
+    "status": "invalid",
+    "date": "2026-06-12T21:26:19Z",
+    "reason": "Registered 2026-06-12 by direct JSONL edit, bypassing the CLI covenant: no pre-registration audit, and the outcomes (HS2 cancellation 2023; reference-class results) were publicly known before registration. A method-experiment retrodiction, not a live forecast. Visible forever; never scored."
+   },
+   "prereg_audit": null,
+   "corrections": [],
+   "related_to": [],
+   "evidence": [
+    {
+     "date": "2026-06-12",
+     "direction": "supports",
+     "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure.",
+     "source_url": null
+    }
+   ],
+   "resolution": {
+    "date": "2026-06-12T17:13:51Z",
+    "outcome": "confirmed",
+    "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
+   }
   }
  ]
 }
