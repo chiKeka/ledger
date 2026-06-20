@@ -2,7 +2,7 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 5✓ · 0✗ · 0◐ · 37 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.066 (coin-flip = 0.250), skill vs coin-flip +0.184**
+**Record: 5✓ · 0✗ · 0◐ · 42 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.066 (coin-flip = 0.250), skill vs coin-flip +0.184**
 
 **Latest: ✓ "The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Ra" — said 82%, resolved confirmed (2026-06-18)**
 
@@ -23,12 +23,14 @@ _Updated 2026-06-20 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 27 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
 | <a id="claim-20260616-001"></a>US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints core PCE year-over-year at or above 3.2 percent | **62%** | 55% | world |  2026-06-26 |
 | <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | **62%** | 55% | worldview |  2026-06-30 |
+| <a id="claim-20260620-003"></a>US Conference Board Consumer Confidence Index for June 2026 (release scheduled 2026-06-30 at 10:00 AM ET) prints at or below 99.0. | **55%** | 50% | world |  2026-06-30 |
+| <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | **45%** | 40% | world |  2026-07-01 |
 | <a id="claim-20260616-002"></a>Eurostat euro area HICP flash estimate for June 2026 (scheduled release 2026-07-01) prints headline annual inflation at or below 3.1 percent | **45%** | 45% | world |  2026-07-02 |
 | <a id="claim-20260619-002"></a>China National Bureau of Statistics Manufacturing PMI for June 2026 (scheduled release 2026-06-30) prints at or above 50.0. | **46%** | 48% | world |  2026-07-02 |
 | <a id="claim-20260619-001"></a>ISM Manufacturing PMI for June 2026 (scheduled release 2026-07-01) prints at or above 50.0 (signaling expansion in the manufacturing sector). | **74%** | 55% | world |  2026-07-03 |
@@ -38,6 +40,7 @@ _Updated 2026-06-20 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | **70%** | 65% | world |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
+| <a id="claim-20260620-005"></a>UK Office for National Statistics GDP monthly estimate for May 2026 (release scheduled 2026-07-16 at 7:00 AM BST) prints headline real GDP growth at or above 0.1 percent month-on-month. | **55%** | 50% | world |  2026-07-16 |
 | <a id="claim-20260615-001"></a>US Bureau of Labor Statistics Consumer Price Index report for June 2026 (scheduled release 2026-07-14 at 08:30 ET) shows all-items CPI 12-month percentage change at or above 4.0 percent | **65%** | 55% | world |  2026-07-20 |
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
 | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
@@ -45,6 +48,7 @@ _Updated 2026-06-20 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | **55%** | 50% | worldview |  2026-07-31 |
 | <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
 | <a id="claim-20260615-002"></a>US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive | **62%** | 50% | world |  2026-08-05 |
+| <a id="claim-20260620-002"></a>Between 2026-07-23 and 2026-08-07, at least one of the Big Five US tech firms (Alphabet, Amazon, Apple, Meta, Microsoft) cites 'sovereign AI', 'AI export controls', or 'foreign-national access restrictions' as a material business risk or strategic consideration on their Q2 2026 earnings call or accompanying 10-Q. | **78%** | 55% | worldview |  2026-08-07 |
 | <a id="claim-20260617-003"></a>By 2026-08-01, federal agencies will publicly publish or announce a designed voluntary frontier model engagement framework as directed by the Trump Executive Order on Promoting Advanced AI Innovation and Security (signed 2026-06-02). | **55%** | 55% | worldview |  2026-08-08 |
 | <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
 | <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
@@ -54,6 +58,7 @@ _Updated 2026-06-20 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | **42%** | 35% | worldview |  2026-08-15 |
 | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | **30%** | 30% | worldview |  2026-08-16 |
 | <a id="claim-20260618-005"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-08-30, the European Commission AI Office publishes at least one new formal guidance, FAQ update, implementing decision, or notice (other than the previously committed copyright guidance per claim-20260610-017) materially addressing obligations or expectations for GPAI model providers | **72%** | 60% | worldview |  2026-08-30 |
+| <a id="claim-20260620-001"></a>By 2026-08-31, the EUROPA consortium (led by Domyn) publishes a public training-start announcement or initial model card for its EU Frontier AI Grand Challenge open-source model on at least one official channel (Domyn corporate communications, European Commission digital strategy press, or EuroHPC JU). Triggered by either explicit statement of training-start date or release of an interim model artifact. | **45%** | 40% | worldview |  2026-08-31 |
 
 </details>
 

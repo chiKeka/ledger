@@ -32,6 +32,12 @@
      "direction": "supports",
      "note": "NBER w34836 Yotzov, Barrero et al. (Firm Data on AI, 2026): 6000-executive survey across US, UK, Germany, Australia. 69 percent of firms actively use AI. Nine-in-ten executives report no impact of AI on employment or productivity over the last 3 years. Adoption is real; conversion to measured output is not. Direct firm-level confirmation of the AI Solow paradox at end-Q2 2026, supporting the directional claim that aggregate productivity stats will not show clear AI-driven gains through end-2026.",
      "source_url": "https://www.nber.org/papers/w34836"
+    },
+    {
+     "date": "2026-06-20",
+     "direction": "supports",
+     "note": "NBER w34984 (Atlanta Fed CFO Survey, ~750 corporate executives, NBER series posted June 2026) reports labour productivity gains positive but concentrated in high-skill services and finance, with adoption heterogeneity. Companion paper w34836 reports ~1.5 hours/week median usage. Both point to firm-level concentration without aggregate breakthrough as of mid-2026 — consistent with the bruno claim direction.",
+     "source_url": "https://www.nber.org/papers/w34984"
     }
    ],
    "resolution": null
@@ -291,6 +297,12 @@
      "direction": "supports",
      "note": "Provisional Digital AI Omnibus deal reached 7 May 2026 (trilogue), Member State representatives confirmed 13 May 2026 in Council. Inside Privacy and Inside Global Tech reporting formal Parliament and Council adoption expected June-July 2026, ahead of 2 August 2026 trigger date for high-risk rules. Track milestone: formal OJ publication.",
      "source_url": "https://www.insideglobaltech.com/2026/05/28/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/"
+    },
+    {
+     "date": "2026-06-20",
+     "direction": "supports",
+     "note": "EU Parliament approved AI Act Digital Omnibus 2026-06-16; Council formal adoption expected July 2026 with publication in Official Journal before 2026-08-02. Renew Europe, Latham Watkins, Matheson coverage 2026-06-19 confirm trajectory remains on track for July adoption.",
+     "source_url": "https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines"
     }
    ],
    "resolution": null
@@ -463,7 +475,14 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-20",
+     "direction": "supports",
+     "note": "EUROPA consortium selection 2026-06-19 (Domyn-led, >400B parameter open-source EU frontier model, 24 languages) is a confirming data point for sovereign-stack convergence: an EU jurisdiction has now adopted operator + compute-allocation + dated milestone shape rather than a principles document. Follows Chile LATAM-GPT (2026-02-10) and IndiaAI BharatGen as the third major non-US sovereign-stack instantiation.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1683,6 +1702,181 @@
      "date": "2026-06-19T12:11:26Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260620-001",
+   "date": "2026-06-20",
+   "registered_at": "2026-06-20T13:19:26Z",
+   "claim": "By 2026-08-31, the EUROPA consortium (led by Domyn) publishes a public training-start announcement or initial model card for its EU Frontier AI Grand Challenge open-source model on at least one official channel (Domyn corporate communications, European Commission digital strategy press, or EuroHPC JU). Triggered by either explicit statement of training-start date or release of an interim model artifact.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EUROPA consortium and Domyn (Italian company) selected 2026-06-19 by European Commission as winner of Frontier AI Grande Challenge, receiving up to 2.5% of EuroHPC compute for one year. Official Commission press release published the same day.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "Public confirmation of training start OR initial model card / interim artifact released on Domyn site, ec.europa.eu/digital-strategy news, or EuroHPC JU site between 2026-06-19 and 2026-08-31.",
+   "resolve_by": "2026-08-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-20T13:19:26Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-20 for 'EUROPA consortium Domyn training start' and 'EUROPA Frontier AI model card' on the open web; no training-start announcement exists as of the brief. Only the 2026-06-19 selection news is public.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-015",
+     "relation": "probes",
+     "note": "EUROPA training-start milestone is a concrete operational test of the sovereign-stack convergence thesis: does the EU sovereign-stack initiative move from selection to artifact, or stall in the consortium phase?",
+     "date": "2026-06-20T13:20:09Z"
+    },
+    {
+     "id": "claim-20260610-007",
+     "relation": "probes",
+     "note": "EUROPA milestone (or lack thereof) probes the broader pattern in claim-20260610-007 of governance phases failing to pull material infrastructure. If EUROPA cannot get to training-start in 72 days from selection, AU continental strategy's slower clock is at material risk.",
+     "date": "2026-06-20T13:20:09Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260620-002",
+   "date": "2026-06-20",
+   "registered_at": "2026-06-20T13:19:37Z",
+   "claim": "Between 2026-07-23 and 2026-08-07, at least one of the Big Five US tech firms (Alphabet, Amazon, Apple, Meta, Microsoft) cites 'sovereign AI', 'AI export controls', or 'foreign-national access restrictions' as a material business risk or strategic consideration on their Q2 2026 earnings call or accompanying 10-Q.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "US Commerce Department BIS export-control directive 2026-06-12 forced Anthropic to disable Fable 5 and Mythos 5 for all customers worldwide. As of 2026-06-19, UK exemption request denied; EU Commission warned controls 'should not be discriminatory'; the EU launched EUROPA consortium selection same day citing sovereign-stack rationale. Big Five Q2 2026 earnings calls scheduled in standard late-July/early-August window.",
+   "withdrawal": null,
+   "confidence": 0.78,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "Read Q2 2026 earnings call transcripts and 10-Q risk-factor sections for any of Alphabet, Amazon, Apple, Meta, Microsoft (released between 2026-07-23 and 2026-08-07). Any usage of 'sovereign AI', 'AI export controls', 'foreign-national access', 'AI sovereignty', or equivalent in the context of business risk or competitive strategy resolves confirmed.",
+   "resolve_by": "2026-08-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-20T13:19:37Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-20 for Big Five Q2 2026 earnings preview commentary on AI export controls / sovereign AI; no Q2 earnings call has yet occurred (earliest is typically Alphabet ~July 23). Sovereign-AI language in prior Q1 calls has been minimal. Update test has not fired.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-015",
+     "relation": "probes",
+     "note": "Big Five sovereign-AI risk language in Q2 earnings is the corporate-incumbent reaction-function test of the sovereign-stack convergence thesis.",
+     "date": "2026-06-20T13:20:09Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260620-003",
+   "date": "2026-06-20",
+   "registered_at": "2026-06-20T13:19:45Z",
+   "claim": "US Conference Board Consumer Confidence Index for June 2026 (release scheduled 2026-06-30 at 10:00 AM ET) prints at or below 99.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Conference Board Consumer Confidence Index is a monthly survey-based indicator. Latest available May 2026 reading sits near the 98-100 range per Conference Board / TrendForce DataTrack 2026 series. June 2026 print scheduled 2026-06-30 at 10:00 AM ET.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "Read official Conference Board Consumer Confidence release dated 2026-06-30 at conference-board.org. Headline Index value at or below 99.0 resolves confirmed; above 99.0 resolves disconfirmed.",
+   "resolve_by": "2026-06-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-20T13:19:45Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-20 for advance June 2026 Conference Board CCI release; no early estimate or print exists yet (release window is 2026-06-30). No market consensus quoted on this print as of brief time.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260620-004",
+   "date": "2026-06-20",
+   "registered_at": "2026-06-20T13:19:53Z",
+   "claim": "ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ADP NER June 2026 print scheduled 2026-07-01 at 8:15 AM ET. Recent prints: May 2026 +122,000; April 2026 +109,000. Below 100,000 requires further private-payroll deceleration from current trend.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "Read official ADP NER release dated 2026-07-01 at adp.com / ADP Research Institute. Headline private-sector employment change below 100,000 resolves confirmed; at or above 100,000 resolves disconfirmed.",
+   "resolve_by": "2026-07-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-20T13:19:53Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-20 for advance June 2026 ADP NER print or preliminary estimate; only May 2026 official release is public (122k). No market consensus quoted on June ADP as of brief time.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260620-005",
+   "date": "2026-06-20",
+   "registered_at": "2026-06-20T13:20:01Z",
+   "claim": "UK Office for National Statistics GDP monthly estimate for May 2026 (release scheduled 2026-07-16 at 7:00 AM BST) prints headline real GDP growth at or above 0.1 percent month-on-month.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "UK ONS monthly GDP estimate for May 2026 scheduled for release 2026-07-16 at 7:00 AM BST per ONS release calendar / GOV.UK statistics announcement. Q1 2026 UK first quarterly estimate already published earlier in 2026 showing weak Q1 momentum; April-May rebound trajectory open.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "Read official ONS GDP monthly estimate release dated 2026-07-16. Headline monthly real GDP MoM growth at or above 0.1 percent resolves confirmed; below 0.1 percent (including negative) resolves disconfirmed.",
+   "resolve_by": "2026-07-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-20T13:20:01Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-20 for advance May 2026 UK ONS GDP estimate; only March 2026 monthly estimate and Q1 2026 first quarterly estimate are public. April 2026 monthly print not yet inputted into search results. No market consensus quoted on May print as of brief time.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }
