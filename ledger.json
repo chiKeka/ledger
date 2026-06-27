@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26",
+ "updated": "2026-06-27",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -44,6 +44,12 @@
      "direction": "against",
      "note": "NBER w34984 (Baslandze et al., June 2026): survey of ~750 corporate executives finds labor productivity gains POSITIVE, varying by sector, concentrated in high-skill services and finance, with effects expected to strengthen in 2026. Productivity paradox noted (perceived > measured). Claim is about AGGREGATE statistics through end-2026 - paper does not yet show aggregate BLS/BEA confirmation but signals firm-level positive trajectory consistent with disconfirmation if it propagates.",
      "source_url": "https://www.nber.org/papers/w34984"
+    },
+    {
+     "date": "2026-06-26",
+     "direction": "supports",
+     "note": "NBER firm-data work circulated mid-June 2026 (w34984 series) reports AI-attributable aggregate US employment decline expected at less than 0.4 percent for 2026, with offsetting growth in technical roles inside adopting firms - the firm-vs-aggregate divergence the claim names. Bears on conjunct B (firm-level concentration) more than conjunct A (BLS productivity); BLS 2026 annual print is the dispositive read and remains 2027.",
+     "source_url": "https://www.nber.org/system/files/working_papers/w34984/w34984.pdf"
     }
    ],
    "resolution": null
@@ -339,6 +345,18 @@
      "direction": "supports",
      "note": "Per European Commission digital strategy and AI Act enforcement page: in May 2026 a political agreement to simplify AI rules under the digital simplification (omnibus) package was reached. Political agreement is a precursor step; formal Council adoption by 2026-07-31 still requires Council legislative vote. Bearing supports trajectory; not yet decisive.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+     "date": "2026-06-26",
+     "direction": "supports",
+     "note": "European Parliament adopted AI Omnibus simplification text on 2026-06-16 with reported broad support; Council formal adoption pending, both co-legislators flagging intent to complete before 2026-08-02. Provisional progress toward the threshold; the update test still requires Council formal adoption recorded in the EU register.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-06-27",
+     "direction": "supports",
+     "note": "European Parliament formally endorsed the provisional Digital Omnibus on AI agreement on 2026-06-16; formal Council adoption remains anticipated in July 2026 ahead of 2026-08-02 Annex III deadline (per Gibson Dunn, Inside Privacy/Covington, Lexology, Global Policy Watch, DLA Piper trackers covering the Parliament endorsement). Update test still strict ('Council formal adoption recorded in EU register; political agreement alone does not count') — claim stays open pending the formal Council vote.",
+     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024"
     }
    ],
    "resolution": null
@@ -686,6 +704,12 @@
      "direction": "supports",
      "note": "FOMC June 17 2026 (Chair Warsh's first meeting) held the target range at 3.50-3.75 percent on a 12-0 vote and shifted the SEP median dot to 3.8 percent by year-end, signaling at least one 25bp HIKE before December but pushing that hike toward October per post-meeting Fed-funds futures pricing. The structural setup - hold-now, hike-later - bears toward a HOLD at the July 28-29 meeting, not a hike, even as the broader policy tone has turned hawkish.",
      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+     "date": "2026-06-27",
+     "direction": "against",
+     "note": "CME FedWatch as of 2026-06-23 prices a 64.6 pct probability of an FOMC HOLD at the 2026-07-28/29 meeting — meaning ~35 pct probability of a change. June Summary of Economic Projections (released 2026-06-17) shifted the median year-end 2026 dot HIGHER, with the dot plot now leaning toward at least one HIKE rather than a cut, a meaningful tone shift. The twin's 88 pct 'will NOT raise' looks aggressive against a 35 pct change probability now skewed hike-ward; bearing evidence pressures the high-confidence side of the claim, though the modal market outcome still maps to NOT-raise (i.e. 64.6 pct hold + ~5-10 pct cut > 75 pct of distribution is not-raise). Claim stays open.",
+     "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
     }
    ],
    "resolution": null
@@ -773,7 +797,14 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-27",
+     "direction": "supports",
+     "note": "ECB-Watch and rateprobability.com price ~93 pct probability of NO CHANGE at the 2026-07-23 Governing Council meeting, with the Deposit Facility expected to hold at 2.25 pct (the level set at the 2026-06-11 hike). Strong directional support for the claim that the ECB will NOT cut its three key rates at the July meeting.",
+     "source_url": "https://ecb-watch.eu/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1327,6 +1358,12 @@
      "direction": "against",
      "note": "Sources confirm Minister Solly Malatsi unveiled a redraft panel on 2026-05-26 after the April withdrawal over hallucinated citations, but no revised draft has been published on dcdt.gov.za, gov.za, or in the Government Gazette as of 2026-06-24. The drafting reset (panel composition, sourced bibliography, public consultation pipeline) is the slow path; with 52 days to the 2026-08-15 deadline and no draft yet on an official surface, momentum is bearing AGAINST a 2026-08-15 publication.",
      "source_url": "https://www.timeslive.co.za/news/sci-tech/2026-05-26-malatsi-unveils-panel-to-guide-ai-policy-redraft-after-hallucination/"
+    },
+    {
+     "date": "2026-06-27",
+     "direction": "against",
+     "note": "South Africa DCDT withdrew the draft National AI Policy on 2026-04-26 after AI-hallucinated citations scandal. As of 2026-06-27, the DCDT has provided no public timeline for a revised draft and the consultation must restart substantial portions. Eight weeks to the 2026-08-16 claim deadline with no revised draft in public circulation; trajectory bearing against.",
+     "source_url": "https://www.cnbcafrica.com/2026/south-africa-pulls-ai-policy-after-hallucinated-citations-expose-drafting-scandal"
     }
    ],
    "resolution": null
@@ -1474,7 +1511,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-06-27",
+     "direction": "against",
+     "note": "BoJ raised the policy rate by 25bp to 1.0 pct on 2026-06-16 (from 0.75 pct). Deputy Governor Ryozo Himino 2026-06-25 explicitly indicated the BoJ will continue raising rates while monitoring upside inflation risk, signaling another hike could be near-term; Reuters and EFG International note rate cycle peaks now expected 1.25-1.5 pct, with a Q4 2026 hike likely. The twin's 74 pct 'BoJ holds at 1.0 pct at the 2026-07-30/31 MPM' was reasonable at registration but the Himino lean shortens the tail toward an earlier hike — bearing against the high-confidence side.",
+     "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1791,6 +1835,12 @@
      "direction": "supports",
      "note": "AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) have begun national-level engagement: Kenya held discussions with cabinet secretary and principal secretary for trade; similar engagement underway in Nigeria; Morocco process started. Country Implementation Forums planned by end of June. No FORMAL public confirmation with named coordinator/chair yet. Trajectory supportive but interpretive; awaits formal confirmation.",
      "source_url": "https://dig.watch/updates/kenya-morocco-nigeria-digital-infrastructure"
+    },
+    {
+     "date": "2026-06-27",
+     "direction": "against",
+     "note": "Three days before the 2026-06-30 deadline, no public press release, government communique, AfCFTA Secretariat communique, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement confirms formal establishment of an ADAPT Country Implementation Forum in Kenya, Morocco, or Nigeria. Most recent public ADAPT artifact remains the 2026-05-19 Accra selection announcement (39 days old). AfCFTA chief Wamkele Mene's 2026-06-25 statement that 'Africa needs 700 data centres' for digital trade reaffirms the strategic frame but does not name a single established CIF. Trajectory now strongly against unambiguous-yes by 2026-06-30.",
+     "source_url": "https://punchng.com/africas-digital-trade-push-requires-700-data-centres-says-afcfta-chief/"
     }
    ],
    "resolution": null
@@ -2018,7 +2068,7 @@
    "frameworks": [],
    "update_test": "Read U Michigan Surveys of Consumers final June 2026 report at sca.isr.umich.edu/reports.html dated 2026-06-26. Confirmed if headline Index of Consumer Sentiment final value is at or above 48.0; disconfirmed if below 48.0.",
    "resolve_by": "2026-06-27",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-21T12:08:56Z",
@@ -2037,7 +2087,11 @@
      "source_url": "https://www.advisorperspectives.com/dshort/updates/2026/06/12/consumer-sentiment-improves-in-june-but-remains-bleak"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-06-27T12:08:36Z",
+    "outcome": "confirmed",
+    "note": "University of Michigan Surveys of Consumers final Index of Consumer Sentiment for June 2026 printed 49.5 (above the 48.0 threshold; up from May 44.8 record low and final preliminary 48.9). Year-ahead inflation expectations 4.6 pct (down from 4.8), long-run 3.3 pct (down from 3.4). Released 2026-06-26. Sources: https://www.indexbox.io/blog/us-consumer-sentiment-rises-in-june-2026-on-lower-gas-prices-but-remains-near-historic-lows/ ; https://qz.com/university-michigan-consumer-sentiment-june-2026-062626"
+   }
   },
   {
    "id": "claim-20260622-001",
@@ -2062,6 +2116,68 @@
     "date": "2026-06-22T12:14:38Z",
     "auditor": "twin",
     "note": "Searched 2026-06-22 for 'Case-Shiller April 2026 release', 'S&P Cotality 20-City April', 'home price index April 2026 release' on 2026-06-22. April 2026 reading has not been released; March 2026 reading is the latest public datapoint (+0.8 percent y/y per PR Newswire 2026-05-26).",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260627-001",
+   "date": "2026-06-27",
+   "registered_at": "2026-06-27T12:11:02Z",
+   "claim": "University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "U Michigan Surveys of Consumers final June 2026 release printed 49.5 (per IndexBox, Qz coverage 2026-06-26); Index of Consumer Expectations sub-index already at 50.7. Next scheduled release is the preliminary July 2026 report on or around 2026-07-18 (third Friday of month per sca.isr.umich.edu cadence). Easing gas prices and softening Iran-conflict overhang are tailwinds; high prices and elevated 4.6 pct one-year inflation expectation are headwinds.",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "Read U Michigan Surveys of Consumers preliminary July 2026 report at sca.isr.umich.edu/reports.html dated on or before 2026-07-18. Confirmed if headline Index of Consumer Sentiment preliminary value is at or above 50.0; disconfirmed if below 50.0.",
+   "resolve_by": "2026-07-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-27T12:11:02Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-27 sca.isr.umich.edu, FRED UMCSENT, Investing.com, Reuters, Trading Economics; only June 2026 final 49.5 is published. Preliminary July report not yet released. No liquid prediction market identified for the threshold.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260627-002",
+   "date": "2026-06-27",
+   "registered_at": "2026-06-27T12:11:10Z",
+   "claim": "US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-month change in headline total retail and food services sales (seasonally adjusted) BELOW 0.5 percent (i.e., a notable deceleration from May 2026's 0.9 percent MoM).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Census MARTS reported May 2026 Advance Retail and Food Services Sales at 763.7 billion USD, up 0.9 percent MoM SA (per Census release 2026-06-17, NRF press release). May print was an upside surprise vs trend; June reading is the next scheduled MARTS release on 2026-07-16.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "By 2026-07-17 23:59 UTC, US Census Bureau publishes the Advance Monthly Sales for Retail and Food Services for June 2026 on census.gov/retail. Confirmed if headline total retail and food services MoM SA percent change is less than 0.5 percent; disconfirmed if 0.5 percent or higher.",
+   "resolve_by": "2026-07-17",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-06-27T12:11:10Z",
+    "auditor": "twin",
+    "note": "Searched 2026-06-27 census.gov/retail/sales.html, FRED RSAFS, Investing.com, Trading Economics, NRF.com; June 2026 reading has not been released. May 2026 release dated 2026-06-17 (+0.9 percent MoM) is the latest public datapoint. No liquid prediction market identified for the threshold.",
     "queries": [],
     "outcome_already_known": false
    },

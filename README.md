@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 6✓ · 0✗ · 0◐ · 44 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.079 (coin-flip = 0.250), skill vs coin-flip +0.171**
+**Record: 7✓ · 0✗ · 0◐ · 45 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.088 (coin-flip = 0.250), skill vs coin-flip +0.162**
 
-**Latest: ✓ "US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints " — said 62%, resolved confirmed (2026-06-26)**
+**Latest: ✓ "University of Michigan Consumer Sentiment Index FINAL June 2026 release (scheduled 2026-06-26) prints at or above 48.0 (" — said 62%, resolved confirmed (2026-06-27)**
 
-_Updated 2026-06-26 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-06-27 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,11 +23,10 @@ _Updated 2026-06-26 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260621-002"></a>University of Michigan Consumer Sentiment Index FINAL June 2026 release (scheduled 2026-06-26) prints at or above 48.0 (headline sentiment index, final). | **62%** | 55% | world |  2026-06-27 |
 | <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | **62%** | 55% | worldview |  2026-06-30 |
 | <a id="claim-20260620-003"></a>US Conference Board Consumer Confidence Index for June 2026 (release scheduled 2026-06-30 at 10:00 AM ET) prints at or below 99.0. | **55%** | 50% | world |  2026-06-30 |
 | <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | **45%** | 40% | world |  2026-07-01 |
@@ -43,6 +42,8 @@ _Updated 2026-06-26 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
 | <a id="claim-20260620-005"></a>UK Office for National Statistics GDP monthly estimate for May 2026 (release scheduled 2026-07-16 at 7:00 AM BST) prints headline real GDP growth at or above 0.1 percent month-on-month. | **55%** | 50% | world |  2026-07-16 |
+| <a id="claim-20260627-002"></a>US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-month change in headline total retail and food services sales (seasonally adjusted) BELOW 0.5 percent (i.e., a notable deceleration from May 2026's 0.9 percent MoM). | **62%** | 55% | world |  2026-07-17 |
+| <a id="claim-20260627-001"></a>University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary). | **58%** | 50% | world |  2026-07-19 |
 | <a id="claim-20260615-001"></a>US Bureau of Labor Statistics Consumer Price Index report for June 2026 (scheduled release 2026-07-14 at 08:30 ET) shows all-items CPI 12-month percentage change at or above 4.0 percent | **65%** | 55% | world |  2026-07-20 |
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
 | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
@@ -68,6 +69,7 @@ _Updated 2026-06-26 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260621-002"></a>University of Michigan Consumer Sentiment Index FINAL June 2026 release (scheduled 2026-06-26) prints at or above 48.0 (headline sentiment index, final). | 62% | confirmed (2026-06-27) | University of Michigan Surveys of Consumers final Index of Consumer Sentiment for June 2026 printed 49.5 (above the 48.0 threshold; up from May 44.8 record low and final preliminary 48.9). Year-ahead inflation expectations 4.6 pct (down from 4.8), long-run 3.3 pct (down from 3.4). Released 2026-06-26. Sources: https://www.indexbox.io/blog/us-consumer-sentiment-rises-in-june-2026-on-lower-gas-prices-but-remains-near-historic-lows/ ; https://qz.com/university-michigan-consumer-sentiment-june-2026-062626 |
 | ✓ | <a id="claim-20260616-001"></a>US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints core PCE year-over-year at or above 3.2 percent | 62% | confirmed (2026-06-26) | BEA Personal Income and Outlays May 2026 (release 2026-06-25, BEA 26-31): core PCE price index excluding food and energy increased 3.4 percent year-over-year, at or above the 3.2 percent threshold. Source: https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026 |
 | ✓ | <a id="claim-20260613-001"></a>The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent | 82% | confirmed (2026-06-18) | BoE MPC June 18 2026 vote: 7-2 to hold Bank Rate at 3.75 percent. 7 of 9 members voted hold, 2 dissented (Pill, Greene per pre-meeting signaling) in favor of a 25bp rise. Threshold ≥ 7 of 9 voting hold met. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate |
 | ✓ | <a id="claim-20260612-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from the 2026-05 level) at its 2026-06-18 meeting. | 90% | confirmed (2026-06-18) | Bank of England MPC announcement 2026-06-18 at 12:00 BST: Bank Rate held at 3.75 percent (unchanged from prior meeting). Vote split 7-2 with 2 members dissenting in favor of a 25bp rise. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate |
@@ -79,7 +81,7 @@ _Updated 2026-06-26 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 ## Calibration record
 
-_Corrections activate at 10 scored resolutions (currently 6). Until then the estimator runs uncorrected, and says so._
+_Corrections activate at 10 scored resolutions (currently 7). Until then the estimator runs uncorrected, and says so._
 
 ## The workshop
 
