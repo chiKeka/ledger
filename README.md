@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 7✓ · 0✗ · 0◐ · 45 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.088 (coin-flip = 0.250), skill vs coin-flip +0.162**
+**Record: 10✓ · 2✗ · 0◐ · 40 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.168 (coin-flip = 0.250), skill vs coin-flip +0.082**
 
-**Latest: ✓ "University of Michigan Consumer Sentiment Index FINAL June 2026 release (scheduled 2026-06-26) prints at or above 48.0 (" — said 62%, resolved confirmed (2026-06-27)**
+**Latest: ✗ "S&P Cotality (formerly CoreLogic) Case-Shiller 20-City Composite Home Price Index for April 2026 (release scheduled 2026" — said 55%, resolved disconfirmed (2026-07-01)**
 
-_Updated 2026-06-27 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-01 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,17 +23,12 @@ _Updated 2026-06-27 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 30 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
 | <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | **62%** | 55% | worldview |  2026-06-30 |
-| <a id="claim-20260620-003"></a>US Conference Board Consumer Confidence Index for June 2026 (release scheduled 2026-06-30 at 10:00 AM ET) prints at or below 99.0. | **55%** | 50% | world |  2026-06-30 |
 | <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | **45%** | 40% | world |  2026-07-01 |
-| <a id="claim-20260621-001"></a>JOLTS May 2026 job openings (BLS release scheduled 2026-06-30 at 10:00 ET) prints below 7.5 million (headline total nonfarm job openings, seasonally adjusted). | **55%** | 50% | world |  2026-07-01 |
-| <a id="claim-20260622-001"></a>S&P Cotality (formerly CoreLogic) Case-Shiller 20-City Composite Home Price Index for April 2026 (release scheduled 2026-06-30 at 9:00 AM ET) prints year-over-year change at or below 0.5 percent (a sharper deceleration than March 2026's 0.8 percent reading). | **55%** | 40% | world |  2026-07-01 |
-| <a id="claim-20260616-002"></a>Eurostat euro area HICP flash estimate for June 2026 (scheduled release 2026-07-01) prints headline annual inflation at or below 3.1 percent | **45%** | 45% | world |  2026-07-02 |
-| <a id="claim-20260619-002"></a>China National Bureau of Statistics Manufacturing PMI for June 2026 (scheduled release 2026-06-30) prints at or above 50.0. | **46%** | 48% | world |  2026-07-02 |
 | <a id="claim-20260619-001"></a>ISM Manufacturing PMI for June 2026 (scheduled release 2026-07-01) prints at or above 50.0 (signaling expansion in the manufacturing sector). | **74%** | 55% | world |  2026-07-03 |
 | <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | **70%** | 70% | world |  2026-07-04 |
 | <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | **72%** | 70% | world |  2026-07-04 |
@@ -69,6 +64,11 @@ _Updated 2026-06-27 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260622-001"></a>S&P Cotality (formerly CoreLogic) Case-Shiller 20-City Composite Home Price Index for April 2026 (release scheduled 2026-06-30 at 9:00 AM ET) prints year-over-year change at or below 0.5 percent (a sharper deceleration than March 2026's 0.8 percent reading). | 55% | disconfirmed (2026-07-01) | S&P Cotality Case-Shiller 20-City Composite Home Price Index for April 2026 printed year-over-year change of 1.1 percent (annual gain), above the 0.5 percent threshold. Registered fact: https://press.spglobal.com/2026-06-30-S-P-Cotality-Case-Shiller-Index-Reports-Annual-Gain-in-April-2026 and https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20260630-1484142/1484142_cshomeprice-release-0630.pdf, released 2026-06-30. Twin said 55 percent for at-or-below 0.5 percent y/y; outcome disconfirmed. |
+| ✗ | <a id="claim-20260621-001"></a>JOLTS May 2026 job openings (BLS release scheduled 2026-06-30 at 10:00 ET) prints below 7.5 million (headline total nonfarm job openings, seasonally adjusted). | 55% | disconfirmed (2026-07-01) | BLS JOLTS May 2026 job openings printed 7.6 million (unchanged from April 2026), not below the 7.5 million threshold. Registered fact: https://www.bls.gov/news.release/pdf/jolts.pdf and https://www.bls.gov/news.release/jolts.htm, released 2026-06-30. Twin said 55 percent for below 7.5M; outcome disconfirmed. |
+| ✓ | <a id="claim-20260620-003"></a>US Conference Board Consumer Confidence Index for June 2026 (release scheduled 2026-06-30 at 10:00 AM ET) prints at or below 99.0. | 55% | confirmed (2026-07-01) | Conference Board US Consumer Confidence Index for June 2026 inched up 0.6 points to 91.2 from a downwardly revised 90.6 in May. 91.2 is at or below the 99.0 threshold. Registered fact: https://www.conference-board.org/topics/consumer-confidence/ and https://www.prnewswire.com/news-releases/us-consumer-confidence-inched-up-in-june-302814510.html, released 2026-06-30. Twin said 55 percent; outcome confirmed. |
+| ✓ | <a id="claim-20260616-002"></a>Eurostat euro area HICP flash estimate for June 2026 (scheduled release 2026-07-01) prints headline annual inflation at or below 3.1 percent | 45% | confirmed (2026-07-01) | Eurostat euro area HICP flash estimate for June 2026 printed headline annual inflation at 2.8 percent, down from 3.2 percent in May. 2.8 percent is at or below the 3.1 percent threshold. Registered fact: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap - Euro area annual inflation down to 2.8 percent, released 2026-07-01. Twin said 45 percent; outcome confirmed. |
+| ✓ | <a id="claim-20260619-002"></a>China National Bureau of Statistics Manufacturing PMI for June 2026 (scheduled release 2026-06-30) prints at or above 50.0. | 46% | confirmed (2026-07-01) | China NBS official June 2026 Manufacturing PMI printed 50.3 (up from 50.0 in May), beating expectations of 50.1 - third consecutive month above the 50 expansion threshold. Registered fact: https://www.globaltimes.cn/page/202606/1364771.shtml and NBS release 2026-06-30. Twin said 46 percent for at-or-above 50; outcome confirmed. |
 | ✓ | <a id="claim-20260621-002"></a>University of Michigan Consumer Sentiment Index FINAL June 2026 release (scheduled 2026-06-26) prints at or above 48.0 (headline sentiment index, final). | 62% | confirmed (2026-06-27) | University of Michigan Surveys of Consumers final Index of Consumer Sentiment for June 2026 printed 49.5 (above the 48.0 threshold; up from May 44.8 record low and final preliminary 48.9). Year-ahead inflation expectations 4.6 pct (down from 4.8), long-run 3.3 pct (down from 3.4). Released 2026-06-26. Sources: https://www.indexbox.io/blog/us-consumer-sentiment-rises-in-june-2026-on-lower-gas-prices-but-remains-near-historic-lows/ ; https://qz.com/university-michigan-consumer-sentiment-june-2026-062626 |
 | ✓ | <a id="claim-20260616-001"></a>US Bureau of Economic Analysis Personal Income and Outlays release for May 2026 (scheduled 2026-06-25, 8:30 EDT) prints core PCE year-over-year at or above 3.2 percent | 62% | confirmed (2026-06-26) | BEA Personal Income and Outlays May 2026 (release 2026-06-25, BEA 26-31): core PCE price index excluding food and energy increased 3.4 percent year-over-year, at or above the 3.2 percent threshold. Source: https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026 |
 | ✓ | <a id="claim-20260613-001"></a>The Bank of England Monetary Policy Committee June 18 2026 vote will show at least 7 of 9 members voting to hold Bank Rate at 3.75 percent | 82% | confirmed (2026-06-18) | BoE MPC June 18 2026 vote: 7-2 to hold Bank Rate at 3.75 percent. 7 of 9 members voted hold, 2 dissented (Pill, Greene per pre-meeting signaling) in favor of a 25bp rise. Threshold ≥ 7 of 9 voting hold met. Source: bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate |
@@ -81,7 +81,14 @@ _Updated 2026-06-27 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 ## Calibration record
 
-_Corrections activate at 10 scored resolutions (currently 7). Until then the estimator runs uncorrected, and says so._
+| Stated range | Forecasts | Actual hit rate |
+|---|---|---|
+| 40-49% | 2 | 100% |
+| 50-59% | 4 | 50% |
+| 60-69% | 2 | 100% |
+| 70-79% | 1 | 100% |
+| 80-89% | 1 | 100% |
+| 90-99% | 2 | 100% |
 
 ## The workshop
 
