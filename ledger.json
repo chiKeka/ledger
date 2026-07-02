@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01",
+ "updated": "2026-07-02",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1716,7 +1716,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-01, the Institute for Supply Management official June 2026 Manufacturing PMI release prints a headline Manufacturing PMI of 50.0 or higher. Confirmed if the headline reading is at or above 50.0, disconfirmed if below 50.0.",
    "resolve_by": "2026-07-03",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-19T12:10:47Z",
@@ -1731,7 +1731,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-02T12:06:40Z",
+    "outcome": "confirmed",
+    "note": "ISM Manufacturing PMI June 2026 released 2026-07-01 at 53.3% (above 50.0 expansion threshold, down 0.7pp from May's 54.0). Source: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-53-3-june-2026-ism-manufacturing-pmi-report-302814991.html"
+   }
   },
   {
    "id": "claim-20260619-002",
@@ -1903,6 +1907,12 @@
      "direction": "against",
      "note": "Day after 2026-06-30 deadline (running 2026-07-01 12:00 UTC): targeted search still returns no post-deadline announcement of formal AfCFTA ADAPT Country Implementation Forum establishment in Kenya, Morocco, or Nigeria. AfCFTA Council of Ministers in Lagos closed 2026-06-30 and the Digital Trade Forum runs Jul 1-3; latest coverage reiterates the May 2026 selection and by-end-June target language but names no established CIF. Trajectory strongly against unambiguous confirmation. Not resolving today: possible late-index of any Council-of-Ministers announcement in Digital Trade Forum sessions; Sunday Reckoning re-verifies.",
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "against",
+     "note": "Deadline 2026-06-30 passed. Two targeted searches (2026-07-02) surface only May 19 launch coverage and pipeline mentions of Country Implementation Forums; no press release, AfCFTA Secretariat communique, IOTA blog, TBI release, or WEF announcement confirming formal establishment in Kenya, Morocco, or Nigeria. Absence-of-announcement past deadline; interpretive - defer to Sunday Reckoning.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
     }
    ],
    "resolution": null
@@ -2048,7 +2058,7 @@
    "frameworks": [],
    "update_test": "Read official ADP NER release dated 2026-07-01 at adp.com / ADP Research Institute. Headline private-sector employment change below 100,000 resolves confirmed; at or above 100,000 resolves disconfirmed.",
    "resolve_by": "2026-07-01",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-20T13:19:53Z",
@@ -2067,7 +2077,11 @@
      "source_url": "https://adpemploymentreport.com/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-02T12:06:42Z",
+    "outcome": "confirmed",
+    "note": "ADP NER June 2026 released 2026-07-01: private-sector employment change +98,000 (below the 100,000 threshold). Source: https://mediacenter.adp.com/2026-07-01-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-98,000-Jobs-in-June-Annual-Pay-was-Up-4-4"
+   }
   },
   {
    "id": "claim-20260620-005",
@@ -2271,6 +2285,211 @@
    },
    "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260701-001",
+   "date": "2026-07-01",
+   "registered_at": "2026-07-01T12:16:00Z",
+   "claim": "By 2026-08-31, South Africa's Department of Communications and Digital Technologies publishes a revised or finalized draft National AI Policy that retains an AI Insurance Superfund provision (mandatory or opt-in pooled-liability instrument for AI deployers).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "South Africa Communications Minister Solly Malatsi unveiled a draft National AI Policy in mid-2026 that blends ubuntu philosophy with an AI Insurance Superfund proposal (per Daily Maverick 2026-04-14 and Diplo 2026 summary). Consultation window is open through mid-2026; a revised or finalized draft is expected by end-August.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "frameworks": [],
+   "update_test": "By 2026-08-31 23:59 UTC, an official DCDT publication (gazette, ministerial statement, or press release on dcdt.gov.za or gcis.gov.za) presents a revised or finalized National AI Policy document. Confirmed if that document contains a clause or annex describing an AI Insurance Superfund or an equivalent pooled-liability instrument for AI deployers, however named. Disconfirmed if the document omits or replaces the Superfund clause with a standard conformity-assessment regime, or if no revised or finalized document appears by the deadline.",
+   "resolve_by": "2026-08-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-01T12:16:00Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-01 for 'South Africa National AI Policy draft Superfund revised', 'DCDT Malatsi AI policy gazette July 2026', 'South Africa AI Insurance Superfund final'; only the earlier draft coverage (Daily Maverick 2026-04-14, Diplo 2026) is public. No revised or finalized version has been published as of registration.",
+    "queries": [
+     "South Africa AI Insurance Superfund final",
+     "DCDT National AI Policy gazette 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260616-003",
+     "relation": "sharpens",
+     "note": "Superfund-clause survival test is a sharper structural test of the SA National AI Policy draft (claim-20260616-003) than mere publication - the Superfund is the load-bearing novel mechanism; whether it survives consultation is the real signal about SA's regulatory model divergence.",
+     "date": "2026-07-01T12:17:12Z"
+    },
+    {
+     "id": "claim-20260610-016",
+     "relation": "opposes",
+     "note": "SA adopting a Superfund model rather than citing the EU AI Act omnibus cuts against the twin's 58 percent floor on non-EU jurisdictions citing the EU 2026 omnibus by end-2027.",
+     "date": "2026-07-01T12:17:12Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260701-002",
+   "date": "2026-07-01",
+   "registered_at": "2026-07-01T12:16:10Z",
+   "claim": "BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth at or above 2.5 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BLS releases quarterly Productivity and Costs report. Q1 2026 preliminary reading printed nonfarm business labor productivity y/y growth well below 2.5 percent; recent quarters have hovered near 1.7-2.1 percent y/y. Q2 2026 release is scheduled 2026-08-06 per BLS schedule. Threshold of 2.5 percent tests whether the CFO-survey optimism (NBER w34984, mean 3.0 percent expected AI-driven labor productivity growth for 2026) has begun to show up in aggregate BLS data.",
+   "withdrawal": null,
+   "confidence": 0.3,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "frameworks": [],
+   "update_test": "On 2026-08-06, BLS publishes Productivity and Costs Q2 2026 report at bls.gov/news.release/prod2.nr0.htm. Read the headline year-over-year nonfarm business sector labor productivity growth rate. Confirmed if that rate is at or above 2.5 percent; disconfirmed if below 2.5 percent.",
+   "resolve_by": "2026-08-06",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-01T12:16:10Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-01 for 'BLS Q2 2026 nonfarm productivity release', 'labor productivity 2026 Q2 preliminary'; Q2 2026 release has not occurred (scheduled 2026-08-06). Q1 2026 headline y/y productivity was 1.9 percent per BLS Q1 release.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-001",
+     "relation": "probes",
+     "note": "BLS Q2 2026 nonfarm productivity y/y at or above 2.5 percent would be the first aggregate reading confirming AI-driven productivity gains, disconfirming the bruno 72 percent floor on no-clear-gains through end-2026.",
+     "date": "2026-07-01T12:17:12Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260701-003",
+   "date": "2026-07-01",
+   "registered_at": "2026-07-01T12:16:22Z",
+   "claim": "By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "AfCFTA Digital Trade Forum runs Jul 1-3 2026 in Lagos, closing AfCFTA Week alongside the Council of Ministers meeting that concluded 2026-06-30. The by-end-June 2026 target for CIF establishment in the three pilot countries has been publicly missed (claim-20260619-004 evidence log has 10 against-entries as of 2026-07-01). The Digital Trade Forum is the next scheduled public window for AfCFTA leadership (Wamkele Mene) to announce a formal establishment. Probability estimate: moderate but below coin-flip - the political incentive is high but the record of missed CIF milestones cuts the other way.",
+   "withdrawal": null,
+   "confidence": 0.35,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.35,
+   "frameworks": [],
+   "update_test": "By 2026-07-10 23:59 UTC, an identifiable public announcement (AfCFTA Secretariat communique on au-afcfta.org, Kenyan / Moroccan / Nigerian government press release, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement) confirms the formal establishment of an ADAPT Country Implementation Forum in at least one of Kenya, Morocco, or Nigeria. Confirmed if any one country has such an announcement on or before the deadline; disconfirmed if none.",
+   "resolve_by": "2026-07-10",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-01T12:16:22Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-01 for post-Council-of-Ministers announcements of formally established ADAPT Country Implementation Forums in Kenya, Morocco, or Nigeria; the most recent public artifact remains the 2026-05-19 Accra selection announcement. No formal Forum has been publicly established as of registration.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260619-004",
+     "relation": "sharpens",
+     "note": "Ten-day forward test after the missed 2026-06-30 CIF deadline; asks whether the Digital Trade Forum window Jul 1-3 delivers the delayed CIF establishment announcement.",
+     "date": "2026-07-01T12:17:21Z"
+    },
+    {
+     "id": "claim-20260612-003",
+     "relation": "sharpens",
+     "note": "Sharper near-term test than the all-three-by-2026-07-15 claim; if any one CIF is confirmed by Jul 10, the mid-July all-three deadline is closer to reachable.",
+     "date": "2026-07-01T12:17:21Z"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-07-02",
+     "direction": "against",
+     "note": "Sister claim -004 deadline (2026-06-30) missed with no announcement located; -003 due 2026-07-10 remains open but early evidence points against. See -004 evidence entry.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    }
+   ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260701-004",
+   "date": "2026-07-01",
+   "registered_at": "2026-07-01T12:16:32Z",
+   "claim": "China National Bureau of Statistics Manufacturing PMI for July 2026 (scheduled release 2026-07-31) prints at or above 50.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "China NBS publishes monthly Manufacturing PMI on the last calendar day of each month; the July 2026 reading is scheduled for release 2026-07-31. June 2026 reading printed 50.3, up from 50.0 in May, boosted by strong high-tech manufacturing exports linked to AI demand. New orders 51.2 (up from 49.9), foreign orders 50.1 (up from 48.6). Employment sub-index remained subdued at 48.4. The series has hovered right at the 50 expansion-contraction threshold most of 2026. Raw confidence 55 percent, corrected to 50 percent per calibration 2026-07-01 bucket 50-59 correction -0.05.",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "On 2026-07-31, the China National Bureau of Statistics official July 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
+   "resolve_by": "2026-08-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-01T12:16:32Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-01 for 'China NBS Manufacturing PMI July 2026 release'; July 2026 reading has not occurred (scheduled 2026-07-31). June 2026 latest is 50.3. No liquid prediction market identified.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260701-005",
+   "date": "2026-07-01",
+   "registered_at": "2026-07-01T12:16:59Z",
+   "claim": "By 2026-08-31, Kasi Cloud publishes an official announcement (press release, LinkedIn post, or media interview by named executive) confirming a signed anchor-tenant contract or a published utilization figure for the Lekki 100MW AI campus.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Kasi Cloud announced a 100MW AI campus in Lekki (Lagos, Nigeria) with 5.5MW partial-online targeted for Q2 2026. Buildout announcements at this scale in Nigerian data centers typically precede tenant announcements by 3-9 months. The Absorption Stack Model predicts that the physical-layer-clear announcement (Q2 2026 5.5MW online) precedes cultural-layer-clear signal (named tenant load) by at least one quarter. Q3 2026 (Jul-Sep) is the earliest natural window for an anchor-tenant announcement.",
+   "withdrawal": null,
+   "confidence": 0.35,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.35,
+   "frameworks": [],
+   "update_test": "By 2026-08-31 23:59 UTC, an identifiable public source (Kasi Cloud press release, LinkedIn post by Kasi Cloud CEO or CTO, TechCabal / BusinessDay Nigeria / Techpoint interview, or a named-partner joint announcement) states either (a) a signed anchor-tenant contract with any customer for the Lekki campus or (b) a published utilization figure (percent of 5.5MW committed or of the 100MW planned). Confirmed if either (a) or (b) is public; disconfirmed if neither has surfaced by the deadline.",
+   "resolve_by": "2026-08-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-01T12:16:59Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-01 for 'Kasi Cloud Lekki tenant utilization', 'Kasi Cloud anchor customer Nigeria data center', 'Kasi Cloud Q2 2026 5.5MW online'; only the campus-announcement coverage from June 2026 is public. No tenant or utilization figure has been announced as of registration.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-013",
+     "relation": "probes",
+     "note": "Anchor-tenant or utilization figure for Kasi Cloud Lekki is the earliest observable signal that the campus is not merely built but is absorbing load - a positive resolution supports the twin 70 percent floor that at least one named 2026 African AI infrastructure project reaches material-utility milestones; a null-signal by end-August erodes it.",
+     "date": "2026-07-01T12:17:21Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
