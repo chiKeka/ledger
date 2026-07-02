@@ -2,9 +2,9 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 12✓ · 2✗ · 0◐ · 43 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.171 (coin-flip = 0.250), skill vs coin-flip +0.079**
+**Record: 13✓ · 2✗ · 0◐ · 42 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.173 (coin-flip = 0.250), skill vs coin-flip +0.077**
 
-**Latest: ✓ "ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employme" — said 45%, resolved confirmed (2026-07-02)**
+**Latest: ✓ "The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31" — said 55%, resolved confirmed (2026-07-02)**
 
 _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
@@ -23,7 +23,7 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
@@ -42,7 +42,6 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
 | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
-| <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | **55%** | 50% | worldview |  2026-07-31 |
 | <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
 | <a id="claim-20260701-004"></a>China National Bureau of Statistics Manufacturing PMI for July 2026 (scheduled release 2026-07-31) prints at or above 50.0. | **50%** | 55% | world |  2026-08-02 |
 | <a id="claim-20260615-002"></a>US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive | **62%** | 50% | world |  2026-08-05 |
@@ -67,6 +66,7 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | 55% | confirmed (2026-07-02) | Council of the EU gave final green light to the AI Act simplification/omnibus package on 2026-06-29 (Parliament endorsement 2026-06-16). Omnibus VII: extends high-risk stand-alone deadline to 2027-12-02 and embedded to 2028-08-02; adds new prohibitions (CSAM, non-consensual intimate content). Sources: https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ \| https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024 |
 | ✓ | <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | 45% | confirmed (2026-07-02) | ADP NER June 2026 released 2026-07-01: private-sector employment change +98,000 (below the 100,000 threshold). Source: https://mediacenter.adp.com/2026-07-01-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-98,000-Jobs-in-June-Annual-Pay-was-Up-4-4 |
 | ✓ | <a id="claim-20260619-001"></a>ISM Manufacturing PMI for June 2026 (scheduled release 2026-07-01) prints at or above 50.0 (signaling expansion in the manufacturing sector). | 74% | confirmed (2026-07-02) | ISM Manufacturing PMI June 2026 released 2026-07-01 at 53.3% (above 50.0 expansion threshold, down 0.7pp from May's 54.0). Source: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-53-3-june-2026-ism-manufacturing-pmi-report-302814991.html |
 | ✗ | <a id="claim-20260622-001"></a>S&P Cotality (formerly CoreLogic) Case-Shiller 20-City Composite Home Price Index for April 2026 (release scheduled 2026-06-30 at 9:00 AM ET) prints year-over-year change at or below 0.5 percent (a sharper deceleration than March 2026's 0.8 percent reading). | 55% | disconfirmed (2026-07-01) | S&P Cotality Case-Shiller 20-City Composite Home Price Index for April 2026 printed year-over-year change of 1.1 percent (annual gain), above the 0.5 percent threshold. Registered fact: https://press.spglobal.com/2026-06-30-S-P-Cotality-Case-Shiller-Index-Reports-Annual-Gain-in-April-2026 and https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20260630-1484142/1484142_cshomeprice-release-0630.pdf, released 2026-06-30. Twin said 55 percent for at-or-below 0.5 percent y/y; outcome disconfirmed. |
@@ -89,7 +89,7 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
 | 40-49% | 3 | 100% |
-| 50-59% | 4 | 50% |
+| 50-59% | 5 | 60% |
 | 60-69% | 2 | 100% |
 | 70-79% | 2 | 100% |
 | 80-89% | 1 | 100% |

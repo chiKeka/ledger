@@ -148,6 +148,12 @@
      "direction": "supports",
      "note": "EP-approved omnibus text (2026-06-16) defers Annex III high-risk standalone obligations from 2026-08-02 to 2027-12-02 (16 months) and Annex I product-regulated obligations from 2027-08-02 to 2028-08-02 (12 months); synthetic-content machine-readable marking postponed from 2026-08-02 to 2026-12-02. Multiple frontier-relevant articles softened or delayed before end-2026 deployment. Not yet final law — pending Council and OJ publication — but the count-of-softened-articles update test now reads supportive.",
      "source_url": "https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/"
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "supports",
+     "note": "Council formal adoption 2026-06-29 (Omnibus VII) enshrines the simplification turn in law. Extends high-risk deadlines (2027-12/2028-08) but does not directly touch GPAI/frontier obligations, which continue from 2026-08-02 as scheduled. Directional support for the mechanism named in the claim (regulatory turn favouring deployers), but the current text targets high-risk not frontier specifically - interpretive bearing on frontier deployer relief. Defer for structural resolution.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
     }
    ],
    "resolution": null
@@ -267,7 +273,7 @@
    ],
    "update_test": "Council formal adoption recorded in the EU register; political agreement alone does not count",
    "resolve_by": "2026-07-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [],
@@ -383,7 +389,11 @@
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-02T12:10:09Z",
+    "outcome": "confirmed",
+    "note": "Council of the EU gave final green light to the AI Act simplification/omnibus package on 2026-06-29 (Parliament endorsement 2026-06-16). Omnibus VII: extends high-risk stand-alone deadline to 2027-12-02 and embedded to 2028-08-02; adds new prohibitions (CSAM, non-consensual intimate content). Sources: https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024"
+   }
   },
   {
    "id": "claim-20260610-011",
@@ -638,6 +648,12 @@
      "direction": "supports",
      "note": "European Commission published Code of Practice on marking and labelling AI-generated content on 2026-06-10 — Commission-level interpretive guidance ahead of HRAIS obligations. Not the AI Office itself, but the same interpretive direction; the AI Office sits inside the Commission's DG CNECT and typically pivots its FAQ updates onto Commission codes within weeks.",
      "source_url": "https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines"
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "supports",
+     "note": "Omnibus VII adopted 2026-06-29 clarifies the regulatory perimeter and adds new prohibitions; guidance flow from the AI Office should now include implementation of the amended text. Not a direct fire of the update test (which requires GPAI transparency guidance), but the enabling context is now in force.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
     }
    ],
    "resolution": null
