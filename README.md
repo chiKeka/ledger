@@ -2,9 +2,9 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 13✓ · 3✗ · 0◐ · 43 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.186 (coin-flip = 0.250), skill vs coin-flip +0.064**
+**Record: 15✓ · 4✗ · 0◐ · 40 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.193 (coin-flip = 0.250), skill vs coin-flip +0.057**
 
-**Latest: ✗ "At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishm" — said 62%, resolved disconfirmed (2026-07-03)**
+**Latest: ✓ "US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03" — said 70%, resolved confirmed (2026-07-03)**
 
 _Updated 2026-07-03 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
@@ -23,13 +23,10 @@ _Updated 2026-07-03 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 30 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | **70%** | 70% | world |  2026-07-04 |
-| <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | **72%** | 70% | world |  2026-07-04 |
-| <a id="claim-20260619-003"></a>US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000. | **70%** | 65% | world |  2026-07-07 |
 | <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | **70%** | 65% | world |  2026-07-10 |
 | <a id="claim-20260701-003"></a>By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria). | **35%** | 35% | worldview |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
@@ -67,6 +64,9 @@ _Updated 2026-07-03 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260619-003"></a>US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000. | 70% | confirmed (2026-07-03) | DOL weekly initial unemployment insurance claims for the week ending 2026-06-27 (released 2026-07-02, one day early due to July 4 holiday): seasonally adjusted initial claims 215,000, down 1,000 from prior week's revised level. 215k < 240k confirms. Source: https://www.dol.gov/ui/data.pdf |
+| ✗ | <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | 72% | disconfirmed (2026-07-03) | BLS Employment Situation June 2026 (released 2026-07-02): total nonfarm payroll change +57,000 (seasonally adjusted, initial release). 57k < 100k disconfirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html |
+| ✓ | <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | 70% | confirmed (2026-07-03) | BLS Employment Situation June 2026 (released 2026-07-02, moved one day early due to July 4 holiday): headline unemployment rate 4.2 percent (seasonally adjusted). 4.2 <= 4.4 confirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html |
 | ✗ | <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | 62% | disconfirmed (2026-07-03) | Deadline 2026-06-30 passed with no public announcement of formal AfCFTA ADAPT Country Implementation Forum establishment in Kenya, Morocco, or Nigeria. Multiple targeted searches (2026-06-27 through 2026-07-03) surface only May 2026 selection coverage and pipeline mentions. AfCFTA Council of Ministers (Lagos, 2026-06-30) and Digital Trade Forum (Jul 1-3) closed the AfCFTA Week without publishing any CIF establishment. Institutional Adaptation Lag: announcement cycle-time exceeds delivery cycle-time. tech.africa/afcfta-adapt-kenya-morocco-nigeria and blog.iota.org/first-adapt-implementations retain only May 19 Accra content. |
 | ✓ | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | 55% | confirmed (2026-07-02) | Council of the EU gave final green light to the AI Act simplification/omnibus package on 2026-06-29 (Parliament endorsement 2026-06-16). Omnibus VII: extends high-risk stand-alone deadline to 2027-12-02 and embedded to 2028-08-02; adds new prohibitions (CSAM, non-consensual intimate content). Sources: https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ \| https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024 |
 | ✓ | <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | 45% | confirmed (2026-07-02) | ADP NER June 2026 released 2026-07-01: private-sector employment change +98,000 (below the 100,000 threshold). Source: https://mediacenter.adp.com/2026-07-01-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-98,000-Jobs-in-June-Annual-Pay-was-Up-4-4 |
@@ -93,7 +93,7 @@ _Updated 2026-07-03 · [how this works](#how-this-works) · by [@Chikeka](https:
 | 40-49% | 3 | 100% |
 | 50-59% | 5 | 60% |
 | 60-69% | 3 | 67% |
-| 70-79% | 2 | 100% |
+| 70-79% | 5 | 80% |
 | 80-89% | 1 | 100% |
 | 90-99% | 2 | 100% |
 

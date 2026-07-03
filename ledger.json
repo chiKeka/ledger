@@ -994,6 +994,12 @@
      "direction": "against",
      "note": "Today is 2026-06-14, 16 days before the 2026-07-15 deadline; no public announcement of Country Implementation Forum establishment from Kenya, Morocco, or Nigeria has surfaced in scans. AfCFTA Secretariat 2026-05-19 Accra communique remains the most recent operational milestone.",
      "source_url": "https://idtechwire.com/kenya-morocco-and-nigeria-selected-for-adapt-african-digital-trade-pilots/"
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "against",
+     "note": "AfCFTA ADAPT initiative announced Accra 2026-05-19 with Country Implementation Forums slated for end of June, but as of 2026-07-03 no clean dated public establishment announcement identified for any of Kenya, Morocco, or Nigeria. If the pattern holds through 2026-07-15 the claim disconfirms. Deadline 12 days out.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
    "resolution": null
@@ -1429,7 +1435,7 @@
    "frameworks": [],
    "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported headline unemployment rate (seasonally adjusted) is at or below 4.4 percent; disconfirmed if the reported headline unemployment rate is above 4.4 percent.",
    "resolve_by": "2026-07-04",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-17T12:14:30Z",
@@ -1444,7 +1450,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-03T12:07:07Z",
+    "outcome": "confirmed",
+    "note": "BLS Employment Situation June 2026 (released 2026-07-02, moved one day early due to July 4 holiday): headline unemployment rate 4.2 percent (seasonally adjusted). 4.2 <= 4.4 confirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+   }
   },
   {
    "id": "claim-20260617-002",
@@ -1463,7 +1473,7 @@
    "frameworks": [],
    "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported total nonfarm payroll change (seasonally adjusted, initial release figure, not later revisions) is at or above +100,000; disconfirmed if the figure is below +100,000.",
    "resolve_by": "2026-07-04",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-17T12:14:36Z",
@@ -1477,7 +1487,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-03T12:07:12Z",
+    "outcome": "disconfirmed",
+    "note": "BLS Employment Situation June 2026 (released 2026-07-02): total nonfarm payroll change +57,000 (seasonally adjusted, initial release). 57k < 100k disconfirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+   }
   },
   {
    "id": "claim-20260617-003",
@@ -1808,7 +1822,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-03 (one-day early due to Independence Day), the US Department of Labor weekly unemployment insurance claims release reports seasonally adjusted initial claims of fewer than 240,000 for the week ending 2026-06-27. Confirmed if printed value is below 240,000, disconfirmed if at or above 240,000.",
    "resolve_by": "2026-07-07",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-19T12:11:11Z",
@@ -1823,7 +1837,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-03T12:07:14Z",
+    "outcome": "confirmed",
+    "note": "DOL weekly initial unemployment insurance claims for the week ending 2026-06-27 (released 2026-07-02, one day early due to July 4 holiday): seasonally adjusted initial claims 215,000, down 1,000 from prior week's revised level. 215k < 240k confirms. Source: https://www.dol.gov/ui/data.pdf"
+   }
   },
   {
    "id": "claim-20260619-004",
@@ -2440,6 +2458,12 @@
      "direction": "against",
      "note": "Sister claim -004 deadline (2026-06-30) missed with no announcement located; -003 due 2026-07-10 remains open but early evidence points against. See -004 evidence entry.",
      "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "supports",
+     "note": "AfCFTA ADAPT initiative announced Accra 2026-05-19: Kenya, Morocco, Nigeria named as first three implementers. Sources describe Country Implementation Forum establishment as an early-phase milestone but coverage as of 2026-07-03 does not identify a dated formal establishment announcement for any of the three pilots. Ambiguous; wait for Sunday Reckoning.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
    "resolution": null
