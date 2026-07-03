@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 13✓ · 2✗ · 0◐ · 42 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.173 (coin-flip = 0.250), skill vs coin-flip +0.077**
+**Record: 13✓ · 3✗ · 0◐ · 43 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.186 (coin-flip = 0.250), skill vs coin-flip +0.064**
 
-**Latest: ✓ "The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31" — said 55%, resolved confirmed (2026-07-02)**
+**Latest: ✗ "At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishm" — said 62%, resolved disconfirmed (2026-07-03)**
 
-_Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-03 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,11 +23,10 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
 
-<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | **62%** | 55% | worldview |  2026-06-30 |
 | <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | **70%** | 70% | world |  2026-07-04 |
 | <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | **72%** | 70% | world |  2026-07-04 |
 | <a id="claim-20260619-003"></a>US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000. | **70%** | 65% | world |  2026-07-07 |
@@ -35,11 +34,13 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260701-003"></a>By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria). | **35%** | 35% | worldview |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
+| <a id="claim-20260702-001"></a>US BLS Consumer Price Index for June 2026 headline CPI-U 12-month percent change (release scheduled 2026-07-14 at 8:30 ET on bls.gov) prints at or below 4.0 percent. | **60%** | 50% | world |  2026-07-15 |
 | <a id="claim-20260620-005"></a>UK Office for National Statistics GDP monthly estimate for May 2026 (release scheduled 2026-07-16 at 7:00 AM BST) prints headline real GDP growth at or above 0.1 percent month-on-month. | **55%** | 50% | world |  2026-07-16 |
 | <a id="claim-20260627-002"></a>US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-month change in headline total retail and food services sales (seasonally adjusted) BELOW 0.5 percent (i.e., a notable deceleration from May 2026's 0.9 percent MoM). | **62%** | 55% | world |  2026-07-17 |
 | <a id="claim-20260627-001"></a>University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary). | **58%** | 50% | world |  2026-07-19 |
 | <a id="claim-20260615-001"></a>US Bureau of Labor Statistics Consumer Price Index report for June 2026 (scheduled release 2026-07-14 at 08:30 ET) shows all-items CPI 12-month percentage change at or above 4.0 percent | **65%** | 55% | world |  2026-07-20 |
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
+| <a id="claim-20260702-002"></a>US National Association of Realtors Existing-Home Sales for June 2026 (release scheduled 2026-07-23 at 10:00 ET) prints total existing-home sales seasonally-adjusted annualized rate (SAAR) at or above 4.0 million. | **60%** | 55% | world |  2026-07-24 |
 | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
@@ -66,6 +67,7 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260619-004"></a>At least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) publicly confirms the formal establishment of its national ADAPT Country Implementation Forum via an official government, AfCFTA Secretariat, or named-partner channel by 2026-06-30. | 62% | disconfirmed (2026-07-03) | Deadline 2026-06-30 passed with no public announcement of formal AfCFTA ADAPT Country Implementation Forum establishment in Kenya, Morocco, or Nigeria. Multiple targeted searches (2026-06-27 through 2026-07-03) surface only May 2026 selection coverage and pipeline mentions. AfCFTA Council of Ministers (Lagos, 2026-06-30) and Digital Trade Forum (Jul 1-3) closed the AfCFTA Week without publishing any CIF establishment. Institutional Adaptation Lag: announcement cycle-time exceeds delivery cycle-time. tech.africa/afcfta-adapt-kenya-morocco-nigeria and blog.iota.org/first-adapt-implementations retain only May 19 Accra content. |
 | ✓ | <a id="claim-20260610-010"></a>The EU AI Act omnibus simplification package receives formal Council adoption by 2026-07-31 | 55% | confirmed (2026-07-02) | Council of the EU gave final green light to the AI Act simplification/omnibus package on 2026-06-29 (Parliament endorsement 2026-06-16). Omnibus VII: extends high-risk stand-alone deadline to 2027-12-02 and embedded to 2028-08-02; adds new prohibitions (CSAM, non-consensual intimate content). Sources: https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ \| https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024 |
 | ✓ | <a id="claim-20260620-004"></a>ADP National Employment Report for June 2026 (release scheduled 2026-07-01 at 8:15 AM ET) prints private-sector employment change below 100,000 jobs. | 45% | confirmed (2026-07-02) | ADP NER June 2026 released 2026-07-01: private-sector employment change +98,000 (below the 100,000 threshold). Source: https://mediacenter.adp.com/2026-07-01-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-98,000-Jobs-in-June-Annual-Pay-was-Up-4-4 |
 | ✓ | <a id="claim-20260619-001"></a>ISM Manufacturing PMI for June 2026 (scheduled release 2026-07-01) prints at or above 50.0 (signaling expansion in the manufacturing sector). | 74% | confirmed (2026-07-02) | ISM Manufacturing PMI June 2026 released 2026-07-01 at 53.3% (above 50.0 expansion threshold, down 0.7pp from May's 54.0). Source: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-53-3-june-2026-ism-manufacturing-pmi-report-302814991.html |
@@ -90,7 +92,7 @@ _Updated 2026-07-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 |---|---|---|
 | 40-49% | 3 | 100% |
 | 50-59% | 5 | 60% |
-| 60-69% | 2 | 100% |
+| 60-69% | 3 | 67% |
 | 70-79% | 2 | 100% |
 | 80-89% | 1 | 100% |
 | 90-99% | 2 | 100% |
