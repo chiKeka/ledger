@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 15✓ · 4✗ · 0◐ · 47 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.193 (coin-flip = 0.250), skill vs coin-flip +0.057 · skill vs base rate +0.027 (n=19 carrying a recorded base rate)**
+**Record: 16✓ · 4✗ · 0◐ · 46 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.188 (coin-flip = 0.250), skill vs coin-flip +0.062 · skill vs base rate +0.027 (n=20 carrying a recorded base rate)**
 
-**Latest: ✓ "US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03" — said 70%, resolved confirmed (2026-07-03)**
+**Latest: ✓ "ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion)" — said 70%, resolved confirmed (2026-07-07)**
 
-_Updated 2026-07-05 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-07 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -25,11 +25,10 @@ _Updated 2026-07-05 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | **70%** | 65% | world |  2026-07-10 |
 | <a id="claim-20260701-003"></a>By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria). | **35%** | 35% | worldview |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
@@ -71,6 +70,7 @@ _Updated 2026-07-05 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | 70% | confirmed (2026-07-07) | ISM Services PMI June 2026 released 2026-07-06: headline composite index 54.0 percent, 24th consecutive month in expansion. Business Activity 55.4, New Orders 55.1, Employment 51.2. Registered fact; unambiguous fire. Source: ismworld.org and PRNewswire release 2026-07-06. |
 | ✓ | <a id="claim-20260619-003"></a>US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000. | 70% | confirmed (2026-07-03) | DOL weekly initial unemployment insurance claims for the week ending 2026-06-27 (released 2026-07-02, one day early due to July 4 holiday): seasonally adjusted initial claims 215,000, down 1,000 from prior week's revised level. 215k < 240k confirms. Source: https://www.dol.gov/ui/data.pdf |
 | ✗ | <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | 72% | disconfirmed (2026-07-03) | BLS Employment Situation June 2026 (released 2026-07-02): total nonfarm payroll change +57,000 (seasonally adjusted, initial release). 57k < 100k disconfirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html |
 | ✓ | <a id="claim-20260617-001"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a headline unemployment rate at or below 4.4 percent (i.e., not above the May 2026 print of 4.3 percent by more than 0.1 percentage point). | 70% | confirmed (2026-07-03) | BLS Employment Situation June 2026 (released 2026-07-02, moved one day early due to July 4 holiday): headline unemployment rate 4.2 percent (seasonally adjusted). 4.2 <= 4.4 confirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html |
@@ -100,7 +100,7 @@ _Updated 2026-07-05 · [how this works](#how-this-works) · by [@Chikeka](https:
 | 40-49% | 3 | 100% |
 | 50-59% | 5 | 60% |
 | 60-69% | 3 | 67% |
-| 70-79% | 5 | 80% |
+| 70-79% | 6 | 83% |
 | 80-89% | 1 | 100% |
 | 90-99% | 2 | 100% |
 
@@ -111,7 +111,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 2 | 50% | 0.293 | -0.043 | too few to read (n < 5) |
-| world (frame:out) | 17 | 82% | 0.182 | +0.068 | readable |
+| world (frame:out) | 18 | 83% | 0.177 | +0.073 | readable |
 
 ## The workshop
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05",
+ "updated": "2026-07-07",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1611,9 +1611,7 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
-   "frameworks": [
-    "Macroeconomic Regime Model"
-   ],
+   "frameworks": [],
    "update_test": "ONS Consumer Prices Index release for June 2026 (scheduled approximately 2026-07-16 to 2026-07-22) shows the CPI 12-month rate (headline) at or above 2.8 percent (the May 2026 print)",
    "resolve_by": "2026-07-25",
    "status": "open",
@@ -1628,7 +1626,22 @@
     ],
     "outcome_already_known": false
    },
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-07-06T10:31:56Z",
+     "target": "frameworks",
+     "note": "F-2026-07-05-009 reconciliation: 'Macroeconomic Regime Model' was a phantom framework name the twin invented at registration (2026-06-18 brief), never an entry in data/knowledge-graph/frameworks.jsonl. Ratified as a phantom at /prune 2026-07-05 (post-hoc credits purged from lessons.jsonl). This claim is out-of-frame (no worldview framework maps to it), so its honest registration-time attribution was []. Reconciled to [] to fix the read-time knowledge-graph join; claim text, probability (0.68), and dates untouched.",
+     "reconciled_frameworks": {
+      "from": [
+       "Macroeconomic Regime Model"
+      ],
+      "to": [],
+      "removed": [
+       "Macroeconomic Regime Model"
+      ]
+     }
+    }
+   ],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -1647,12 +1660,10 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.65,
-   "frameworks": [
-    "Macroeconomic Regime Model"
-   ],
+   "frameworks": [],
    "update_test": "Institute for Supply Management Services PMI headline composite index for June 2026 (release scheduled approximately 2026-07-06 at 10:00 ET on ismworld.org) prints at or above 50.0",
    "resolve_by": "2026-07-10",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-18T12:11:55Z",
@@ -1664,10 +1675,29 @@
     ],
     "outcome_already_known": false
    },
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-07-06T10:31:56Z",
+     "target": "frameworks",
+     "note": "F-2026-07-05-009 reconciliation: 'Macroeconomic Regime Model' was a phantom framework name the twin invented at registration (2026-06-18 brief), never an entry in data/knowledge-graph/frameworks.jsonl. Ratified as a phantom at /prune 2026-07-05 (post-hoc credits purged from lessons.jsonl). This claim is out-of-frame (no worldview framework maps to it), so its honest registration-time attribution was []. Reconciled to [] to fix the read-time knowledge-graph join; claim text, probability (0.70), and dates untouched.",
+     "reconciled_frameworks": {
+      "from": [
+       "Macroeconomic Regime Model"
+      ],
+      "to": [],
+      "removed": [
+       "Macroeconomic Regime Model"
+      ]
+     }
+    }
+   ],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-07T12:05:59Z",
+    "outcome": "confirmed",
+    "note": "ISM Services PMI June 2026 released 2026-07-06: headline composite index 54.0 percent, 24th consecutive month in expansion. Business Activity 55.4, New Orders 55.1, Employment 51.2. Registered fact; unambiguous fire. Source: ismworld.org and PRNewswire release 2026-07-06."
+   }
   },
   {
    "id": "claim-20260618-004",
@@ -2494,6 +2524,12 @@
      "date": "2026-07-04",
      "direction": "against",
      "note": "AfCFTA Digital Trade Forum ran Jul 1-3 in Lagos as the primary public window for a formal CIF establishment; no AfCFTA Secretariat communique on au-afcfta.org, no Kenyan/Moroccan/Nigerian government press release, and no IOTA/Tony Blair Institute/WEF post has surfaced a formal Country Implementation Forum establishment for any of the three pilots. Six days remain before the 2026-07-10 deadline. Evidence against but not yet disconfirming - a late release before deadline is still possible.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-06",
+     "direction": "against",
+     "note": "2026-07-06: Web searches (tech.africa, IOTA Foundation blog, Africa.com, tralac 1 July 2026 daily news, CNBC Africa) reporting on ADAPT status describe Country Implementation Forums as 'targeted for the end of June' and 'implementation activities underway' but produce NO identifiable public announcement (AfCFTA Secretariat communique, government press release, IOTA/TBI/WEF press release) confirming formal establishment of an ADAPT Country Implementation Forum in any of Kenya, Morocco, or Nigeria. Update test remains unmet 4 days before 2026-07-10 deadline. Interpretive - the July 2026 Digital Trade Forum in Lagos occurred but a forum ≠ a Country Implementation Forum in the ADAPT programmatic sense. Waiting for the Reckoning to re-verify.",
      "source_url": "https://blog.iota.org/first-adapt-implementations/"
     }
    ],
