@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07",
+ "updated": "2026-07-11",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -154,6 +154,12 @@
      "direction": "supports",
      "note": "Council formal adoption 2026-06-29 (Omnibus VII) enshrines the simplification turn in law. Extends high-risk deadlines (2027-12/2028-08) but does not directly touch GPAI/frontier obligations, which continue from 2026-08-02 as scheduled. Directional support for the mechanism named in the claim (regulatory turn favouring deployers), but the current text targets high-risk not frontier specifically - interpretive bearing on frontier deployer relief. Defer for structural resolution.",
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-07-11",
+     "direction": "supports",
+     "note": "EU AI Office confirms 2026-08-02 as the activation date for Commission enforcement powers over GPAI providers (Article 55 obligations remain from 2025-08-02). The May 2026 Digital Omnibus on AI provisional agreement reinforced the AI Office's central supervisory role but 'did not change the GPAI regime' — meaning the omnibus turn has kept the Article 55 obligations formally in place. Fresh reading: legal-compliance industry primers dated 2026-07 confirm the enforcement powers arrive as planned; this bears IN FAVOR of claim-20260610-004 continuing to hold that enforceable obligations for frontier deployers will NOT be materially reduced before end-2026 as originally scoped.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
     }
    ],
    "resolution": null
@@ -209,7 +215,14 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-09",
+     "direction": "against",
+     "note": "Meta announced 2026-07-08 a US-13B, 1-GW AI data centre in Sturgeon County Alberta (largest Meta build outside US); construction begins 2026, operational 2028-29. Bears AGAINST any Big Five year-over-year capex flattening scenario - single announcement is fresh material commitment. Sources: theglobeandmail.com, cnbc.com, sturgeoncounty.ca",
+     "source_url": "https://datacenters.atmeta.com/2026/07/hello-sturgeon-county/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -432,6 +445,12 @@
      "direction": "supports",
      "note": "Confirmed Big Five capex topology as of 2026-Q2: Microsoft 90B, Alphabet 80-190B (raised from 75-185B), Meta 15-135B, Amazon 00B FY2026 - 25B aggregate up 77% YoY. Alphabet has already raised guidance once intra-year (the relevant claim outcome). The Q2 earnings calls (Jul-Aug) are the actual resolution event - this is base-rate evidence for the next raise.",
      "source_url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion"
+    },
+    {
+     "date": "2026-07-09",
+     "direction": "supports",
+     "note": "Meta 2026-07-08 announced 13B USD Alberta Sturgeon County build - largest non-US Meta datacentre. Pre-Q2-earnings public commitment of this scale is a strong signal Meta at minimum reaffirms - and likely raises - the 125-145B USD 2026 capex range at its Q2 call. Sources: theglobeandmail.com, sturgeoncounty.ca",
+     "source_url": "https://www.sturgeoncounty.ca/news-release-meta-makes-historic-investment-in-alberta/"
     }
    ],
    "resolution": null
@@ -750,6 +769,12 @@
      "direction": "against",
      "note": "CME FedWatch as of 2026-06-23 prices a 64.6 pct probability of an FOMC HOLD at the 2026-07-28/29 meeting — meaning ~35 pct probability of a change. June Summary of Economic Projections (released 2026-06-17) shifted the median year-end 2026 dot HIGHER, with the dot plot now leaning toward at least one HIKE rather than a cut, a meaningful tone shift. The twin's 88 pct 'will NOT raise' looks aggressive against a 35 pct change probability now skewed hike-ward; bearing evidence pressures the high-confidence side of the claim, though the modal market outcome still maps to NOT-raise (i.e. 64.6 pct hold + ~5-10 pct cut > 75 pct of distribution is not-raise). Claim stays open.",
      "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    },
+    {
+     "date": "2026-07-10",
+     "direction": "supports",
+     "note": "As of 2026-07-10, market consensus and analyst commentary expect the FOMC to hold the federal funds rate at 3.50-3.75% at the 2026-07-28/29 meeting — the fifth consecutive hold under new Chair Kevin Warsh, with no SEP scheduled for July. Bearing evidence for 'no hike'; final resolution awaits decision.",
+     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
    ],
    "resolution": null
@@ -843,6 +868,12 @@
      "direction": "supports",
      "note": "ECB-Watch and rateprobability.com price ~93 pct probability of NO CHANGE at the 2026-07-23 Governing Council meeting, with the Deposit Facility expected to hold at 2.25 pct (the level set at the 2026-06-11 hike). Strong directional support for the claim that the ECB will NOT cut its three key rates at the July meeting.",
      "source_url": "https://ecb-watch.eu/"
+    },
+    {
+     "date": "2026-07-10",
+     "direction": "supports",
+     "note": "The ECB HIKED 25bp on 2026-06-11 (deposit facility 2.25%) as Iran-war-driven inflation rose. The 2026-07-23 meeting is now widely framed as a wait-and-see hold following that pivot — no cut on the table. Bearing evidence for the 'no cut on 2026-07-24 (dated 2026-07-24 in claim; ECB decision is actually 2026-07-23)' hypothesis; decision pending.",
+     "source_url": "https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation"
     }
    ],
    "resolution": null
@@ -1000,6 +1031,18 @@
      "direction": "against",
      "note": "AfCFTA ADAPT initiative announced Accra 2026-05-19 with Country Implementation Forums slated for end of June, but as of 2026-07-03 no clean dated public establishment announcement identified for any of Kenya, Morocco, or Nigeria. If the pattern holds through 2026-07-15 the claim disconfirms. Deadline 12 days out.",
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "against",
+     "note": "2026-07-07 search sweep: no public announcement of any of the three ADAPT Country Implementation Forums being established (Kenya, Morocco, Nigeria). Coverage through 2026-07-06 references the Accra 2026-05-19 launch and describes the pilot rollout, but no country has confirmed a CIF with formal structure. Deadline 2026-07-15 - 8 days remain. Bearing against.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-11",
+     "direction": "against",
+     "note": "Sister claim -003 (2026-07-10 CIF-in-at-least-one deadline) also carries against-evidence as of 2026-07-11: Lagos AfCFTA Digital Trade Forum 2026-07-01/02 published Eight Calls to Action without a formal CIF establishment. For the -003 claim to confirm ALL THREE Kenya/Morocco/Nigeria CIFs must be publicly established by 2026-07-15 EOD UTC. With zero establishment announcements found for any pilot as of 2026-07-11 (four days from deadline), the all-three-confirm outcome is now sharply against; Sunday Reckoning to resolve.",
+     "source_url": "https://www.newsghana.com.gh/afcfta-digital-trade-forum-closes-in-lagos-with-eight-calls-to-action-on-digital-market-implementation/"
     }
    ],
    "resolution": null
@@ -1171,7 +1214,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-10",
+     "direction": "supports",
+     "note": "C.D. Howe Institute Monetary Policy Council recommendation dated 2026-07-09: all 9 MPC members in attendance called for the Bank of Canada to hold at 2.25% at the 2026-07-15 announcement. Financial market implied odds also call for a hold. Consistent with the 2026-04-29 and 2026-06-10 holds at 2.25%. Bearing evidence — decision not yet made.",
+     "source_url": "https://cdhowe.org/publication/mpcjuly2026/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1544,6 +1594,12 @@
      "direction": "supports",
      "note": "Trump EO signed 2026-06-02 (Promoting Advanced AI Innovation and Security) directs federal agencies to establish the voluntary engagement process with 30-day pre-release access. As of 2026-06-23 no joint federal release, NIST/OSTP/DOC/DHS publication, formal whitehouse.gov announcement, or Federal Register notice describes the framework artifact itself - the EO is the order to build it, not the published framework. Bearing evidence.",
      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "against",
+     "note": "2026-07-07 search sweep for federal artifact describing the DESIGNED voluntary frontier-model engagement framework: only the 2026-06-02 EO itself and legal analyses (Latham/Watkins, Freshfields, AO Shearman, Ropes & Gray, Skadden, AI Governance Institute) surface - no NIST/OSTP/DOC/DHS publication, no Federal Register notice, no joint federal release describing the framework's participation procedure and 30-day access mechanism as designed. Contemporaneous OpenAI-government-equity discussions (Trump admin donated-equity talks and Sanders T Public Wealth Fund bill) are running in parallel but neither substitutes for the designed framework artifact. 25 days to deadline. Bearing against.",
+     "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
     }
    ],
    "resolution": null
@@ -1593,6 +1649,12 @@
      "direction": "against",
      "note": "BoJ Deputy Governor Himino (2026-06-25) and board member Tamura (June Summary of Opinions): rate 'should gradually move toward a neutral level of around 2 percent,' with 0.25bp hikes 'at intervals of a few months.' June Summary of Opinions shows broad support for continuing hikes if economy and prices evolve in line with outlook. The June 16 hike to 1.0 percent is part of a hiking cycle, not its terminus; July 30-31 hold is no longer the modal outcome on official communications. Update test still resolves 2026-08-01 on actual decision; rating downward.",
      "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+    },
+    {
+     "date": "2026-07-10",
+     "direction": "supports",
+     "note": "BoJ hiked to 1.0% at the June 2026 meeting. As of 2026-07-10, trader consensus and Reuters economist surveys point to no change at the 2026-07-30/31 meeting; next hike most likely Q4 2026. Bearing evidence for the 'hold at 1.0%' claim; decision pending.",
+     "source_url": "https://www.japantimes.co.jp/business/2026/06/11/economy/boj-preview-june-meeting-2026/"
     }
    ],
    "resolution": null
@@ -2076,7 +2138,14 @@
      "date": "2026-06-20T13:20:09Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-09",
+     "direction": "supports",
+     "note": "Meta announced 2026-07-08 an incremental 13B USD Alberta build ahead of Q2 2026 earnings call (late July/early Aug). A public pre-earnings commit of this scale supports the base case that at least one Big Five raises full-year AI capex guidance in the Q2 call cycle. Sources: theglobeandmail.com, cnbc.com",
+     "source_url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -2531,6 +2600,30 @@
      "direction": "against",
      "note": "2026-07-06: Web searches (tech.africa, IOTA Foundation blog, Africa.com, tralac 1 July 2026 daily news, CNBC Africa) reporting on ADAPT status describe Country Implementation Forums as 'targeted for the end of June' and 'implementation activities underway' but produce NO identifiable public announcement (AfCFTA Secretariat communique, government press release, IOTA/TBI/WEF press release) confirming formal establishment of an ADAPT Country Implementation Forum in any of Kenya, Morocco, or Nigeria. Update test remains unmet 4 days before 2026-07-10 deadline. Interpretive - the July 2026 Digital Trade Forum in Lagos occurred but a forum ≠ a Country Implementation Forum in the ADAPT programmatic sense. Waiting for the Reckoning to re-verify.",
      "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "against",
+     "note": "2026-07-07 search sweep (tech.africa, IOTA blog, thesun.ng, Africa.com, financialnigeria.com, zawya.com, bizcommunity, tralac): still no identifiable AfCFTA Secretariat communique or Kenya/Morocco/Nigeria government release confirming establishment of a first Country Implementation Forum with named chair/roster/ToR. Media coverage through 2026-07-06 continues to reference the Accra 2026-05-19 announcement and the missed end-June milestone. Three days remain until the 2026-07-10 deadline. Bearing against.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-09",
+     "direction": "against",
+     "note": "As of 2026-07-09, no AfCFTA Secretariat communique or Kenyan/Moroccan/Nigerian government press release confirming formal establishment of an ADAPT Country Implementation Forum found via targeted search. AfCFTA Digital Trade Forum Lagos 1-2 Jul (au-afcfta.org, fmino.gov.ng) referenced CIFs as mechanism but did not report national-level establishments. End-June milestone appears to have slipped without public confirmation - Reckoning territory as ambiguous. Source: newsghana.com.gh, techreviewafrica.com, tralac.org",
+     "source_url": "https://techreviewafrica.com/news/6152/afcfta-digital-trade-forum-opens-in-lagos-with-call-to-accelerate-continental-digital-market"
+    },
+    {
+     "date": "2026-07-10",
+     "direction": "against",
+     "note": "As of 2026-07-10T12:00Z (deadline 23:59 UTC same day), no AfCFTA Secretariat communique or Kenyan/Moroccan/Nigerian government press release announcing the formal establishment of an ADAPT Country Implementation Forum (CIF) has been located. Web searches through 2026-07-10 return only the 2026-05-19 pilot-country designation and the CIF establishment plan (by-end-June target already missed on sister claim -004). The AfCFTA Digital Trade Forum (Lagos, 2026-07-01/03) closed without a CIF-establishment announcement. With ~12 hours remaining to deadline and 40+ days of silence, the probability of an eleventh-hour formal announcement is very low; final resolution deferred to Sunday Reckoning per spec.",
+     "source_url": "https://blog.iota.org/first-adapt-implementations/"
+    },
+    {
+     "date": "2026-07-11",
+     "direction": "against",
+     "note": "AfCFTA Digital Trade Forum in Lagos 2026-07-01/02 concluded with Eight Calls to Action but NO formal establishment announcement for any Country Implementation Forum in Kenya, Morocco, or Nigeria. Targeted search across AfCFTA official channels (au-afcfta.org, @AfCFTA on X), IOTA Foundation blog, Tony Blair Institute press, WEF releases, and government press releases for the three pilot countries returns no 'Country Implementation Forum' establishment on or before 2026-07-10. Milestone missed by all three pilots on the -003 deadline; interpretive resolution deferred to Sunday Reckoning.",
+     "source_url": "https://x.com/AfCFTA/status/2074458555097227769"
     }
    ],
    "resolution": null
@@ -2977,6 +3070,68 @@
      "date": "2026-07-05T14:16:37Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260711-001",
+   "date": "2026-07-11",
+   "registered_at": "2026-07-11T12:11:28Z",
+   "claim": "By 2028-12-31, at least two of Google's four announced Africa Digital Exchange Ports (South Africa Eastern Cape hub plus three unannounced locations) become publicly operational (in-service, not merely announced or under construction), confirmed by Google Cloud service availability announcements or media coverage of operational status.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "On 2026-07-01 at the Google Cloud Summit in Johannesburg, Google announced four Africa Digital Exchange Ports as continental connectivity hubs. The first is in South Africa's Eastern Cape with direct connectivity to Australia via the Umoja subsea cable and a new route to India. The other three sites were named as planned but locations were not publicly disclosed at announcement.",
+   "withdrawal": null,
+   "confidence": 0.57,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Hyperscaler multi-region rollouts historically hit at least half of announced sites within 24-30 months of first-hub announcement (AWS, Azure, GCP regional expansions 2015-2024). Confidence marginally above base to reflect Google's stated commitment and existing Johannesburg region as anchor. calibration 2026-07-07.",
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "By 2028-12-31 23:59 UTC, publicly identifiable Google Cloud press releases, Google Cloud Africa blog posts, or reputable media coverage confirm at least two of the four announced Africa Digital Exchange Ports (South Africa Eastern Cape hub plus three additional locations) are in operational service (accepting traffic, not merely announced or under construction). Confirmed if two or more hubs reach operational status by the deadline; disconfirmed if only zero or one is operational.",
+   "resolve_by": "2028-12-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-11T12:11:28Z",
+    "auditor": "twin",
+    "note": "Search 2026-07-11 across Google press corner, Google Cloud Africa blog, TechAfrica News, and mainstream tech press: only the SA hub is announced; no operational-status confirmations for any of the four exist as of registration.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260711-002",
+   "date": "2026-07-11",
+   "registered_at": "2026-07-11T12:11:45Z",
+   "claim": "By 2027-08-02, the European Commission AI Office publicly records at least one first formal enforcement action under Article 55 of the EU AI Act against a named systemic-risk general-purpose AI model provider - defined as a published Commission Implementing Decision, a formal information request published as a decision, a compliance measure order, or an announced fine.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "The Commission's enforcement powers over GPAI providers under Article 55 activate on 2026-08-02 per the EU AI Act enforcement timetable. The AI Office has enumerated its available enforcement tools (fines up to 3 percent of turnover, formal information requests, compliance orders, market restrictions). Article 55 applies to providers whose models exceed the 10^25 FLOPs training threshold - a class that currently includes at least OpenAI, Anthropic, Google DeepMind, and Meta.",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "GDPR precedent: DPAs took 18-24 months from enforcement-power activation to first major action against a large tech provider. AI Office is smaller and building capacity. Twin priced below base to reflect the historical enforcement-lag pattern; the routine's rule 8b requires attribution here to be at registration or never, so leaving frameworks empty and letting the postmortem read it against base-rate direction. calibration 2026-07-07.",
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "By 2027-08-02 23:59 UTC, an identifiable public document (EU AI Office press release on digital-strategy.ec.europa.eu, Commission Implementing Decision published in the Official Journal of the European Union, or Commission press release) records at least one formal Article 55 enforcement action against a named GPAI provider. Confirmed if any such document exists on or before the deadline; disconfirmed if no formal Article 55 enforcement action has been publicly recorded by then.",
+   "resolve_by": "2027-08-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-11T12:11:45Z",
+    "auditor": "twin",
+    "note": "Search 2026-07-11 across EU AI Office public pages, Commission press corner, and EU AI Act tracking sites (artificialintelligenceact.eu, Jones Day, Cambridge commentary): no Article 55 enforcement action has been recorded; the enforcement window has not yet opened (activates 2026-08-02). Cannot already have fired.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }
