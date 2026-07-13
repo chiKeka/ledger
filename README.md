@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 16✓ · 4✗ · 0◐ · 48 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.188 (coin-flip = 0.250), skill vs coin-flip +0.062 · skill vs base rate +0.027 (n=20 carrying a recorded base rate)**
+**Record: 16✓ · 5✗ · 0◐ · 48 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.185 (coin-flip = 0.250), skill vs coin-flip +0.065 · skill vs base rate +0.026 (n=21 carrying a recorded base rate)**
 
-**Latest: ✓ "ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion)" — said 70%, resolved confirmed (2026-07-07)**
+**Latest: ✗ "By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release pub" — said 35%, resolved disconfirmed (2026-07-12)**
 
-_Updated 2026-07-11 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-13 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -23,15 +23,15 @@ _Updated 2026-07-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-014"></a>Through end-2027, cumulative powered MW capacity across the named 2026 African AI data-centre projects (Kasi Cloud Lekki 100MW campus, Tetracore Ogun 20MW gas-powered DC, Uganda announced AI factory, Microsoft-G42 Kenya 1GW geothermal) will be less than 25% of cumulative announced MW capacity. | **62%** | twin | 2027-12-31 |
 | <a id="claim-20260610-015"></a>Through 2027-12-31, at least three jurisdictions (national or supranational) outside the European Union and ICJ will adopt explicit intergenerational-equity language in BINDING (gazetted law, regulation, or directive — not strategy paper or white paper) AI or data-centre policy. | **32%** | twin | 2027-12-31 |
 | <a id="claim-20260610-016"></a>By 2027-12-31, at least two non-EU jurisdictions will publicly cite the EU AI Act 2026 omnibus simplification as precedent in their own deferral or softening of frontier-AI obligations. | **58%** | twin | 2027-12-31 |
+| <a id="claim-20260712-001"></a>By 2028-06-30, at least one additional hyperscaler (Google, Microsoft, AWS, or Oracle) publicly announces a second Canadian AI-optimised data-centre campus of at least 500MW nameplate in Alberta, citing the Meta Sturgeon County build (2026-07-08 groundbreaking) as a comparable in its site-selection rationale. <br><sub>Historical hyperscaler follow-on pattern (Meta→Microsoft/Google in Ohio; Google→Amazon/Microsoft in Iowa) suggests ~0.55 base rate for a second announcement within 24 months; the 'cite Meta as comparable' clause narrows the confirmable surface, but Alberta's gas-firmed 1GW template is distinctive enough that any Canadian follow-on will reference it. Calibration 2026-07-07 bucket 50-59 correction +0.017 → 0.57.</sub> | **57%** | twin | 2028-06-30 |
 | <a id="claim-20260711-001"></a>By 2028-12-31, at least two of Google's four announced Africa Digital Exchange Ports (South Africa Eastern Cape hub plus three unannounced locations) become publicly operational (in-service, not merely announced or under construction), confirmed by Google Cloud service availability announcements or media coverage of operational status. <br><sub>Hyperscaler multi-region rollouts historically hit at least half of announced sites within 24-30 months of first-hub announcement (AWS, Azure, GCP regional expansions 2015-2024). Confidence marginally above base to reflect Google's stated commitment and existing Johannesburg region as anchor. calibration 2026-07-07.</sub> | **57%** | twin | 2028-12-31 |
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260701-003"></a>By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria). | **35%** | 35% | worldview |  2026-07-10 |
 | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | **55%** | 45% | worldview |  2026-07-15 |
 | <a id="claim-20260614-001"></a>The Bank of Canada Governing Council will hold the policy rate at 2.25 percent (no change from its 2026-04-29 hold) at its 2026-07-15 rate decision. | **90%** | 75% | world |  2026-07-15 |
 | <a id="claim-20260702-001"></a>US BLS Consumer Price Index for June 2026 headline CPI-U 12-month percent change (release scheduled 2026-07-14 at 8:30 ET on bls.gov) prints at or below 4.0 percent. | **60%** | 50% | world |  2026-07-15 |
@@ -72,6 +72,7 @@ _Updated 2026-07-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260701-003"></a>By 2026-07-10, an official AfCFTA Secretariat communique or a Kenyan, Moroccan, or Nigerian government press release publicly confirms the formal establishment of an AfCFTA ADAPT Country Implementation Forum in at least one of the three pilot countries (Kenya, Morocco, Nigeria). | 35% | disconfirmed (2026-07-12) | Update test unmet at 2026-07-10 23:59 UTC deadline: no AfCFTA Secretariat communique, no Kenyan/Moroccan/Nigerian government press release, and no IOTA/TBI/WEF/AfCFTA-partner announcement located confirming formal establishment of an ADAPT Country Implementation Forum in Kenya, Morocco, or Nigeria. AfCFTA Digital Trade Forum (Lagos, 2026-07-01/03) closed with Eight Calls to Action and no CIF-establishment announcement; nine sequential against-evidence entries through 2026-07-12 confirm silence. Sources: au-afcfta.org, blog.iota.org/first-adapt-implementations, tech.africa, techreviewafrica.com, financialnigeria.com, tralac.org. |
 | ✓ | <a id="claim-20260618-003"></a>ISM Services PMI for June 2026 (release scheduled 2026-07-06) prints at or above 50.0 (signaling expansion) | 70% | confirmed (2026-07-07) | ISM Services PMI June 2026 released 2026-07-06: headline composite index 54.0 percent, 24th consecutive month in expansion. Business Activity 55.4, New Orders 55.1, Employment 51.2. Registered fact; unambiguous fire. Source: ismworld.org and PRNewswire release 2026-07-06. |
 | ✓ | <a id="claim-20260619-003"></a>US Department of Labor weekly initial jobless claims report for the week ending 2026-06-27 (scheduled release 2026-07-03) prints seasonally adjusted initial claims below 240,000. | 70% | confirmed (2026-07-03) | DOL weekly initial unemployment insurance claims for the week ending 2026-06-27 (released 2026-07-02, one day early due to July 4 holiday): seasonally adjusted initial claims 215,000, down 1,000 from prior week's revised level. 215k < 240k confirms. Source: https://www.dol.gov/ui/data.pdf |
 | ✗ | <a id="claim-20260617-002"></a>The US Bureau of Labor Statistics Employment Situation report for June 2026 (scheduled release 2026-07-03 at 8:30 ET) will report a change in total nonfarm payroll employment (seasonally adjusted) at or above +100,000 jobs. | 72% | disconfirmed (2026-07-03) | BLS Employment Situation June 2026 (released 2026-07-02): total nonfarm payroll change +57,000 (seasonally adjusted, initial release). 57k < 100k disconfirms. Source: https://www.bls.gov/news.release/empsit.nr0.htm ; secondary https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html |
@@ -99,6 +100,7 @@ _Updated 2026-07-11 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
+| 30-39% | 1 | 0% |
 | 40-49% | 3 | 100% |
 | 50-59% | 5 | 60% |
 | 60-69% | 3 | 67% |
@@ -112,7 +114,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
-| worldview (frame:in) | 2 | 50% | 0.293 | -0.043 | too few to read (n < 5) |
+| worldview (frame:in) | 3 | 33% | 0.236 | +0.014 | too few to read (n < 5) |
 | world (frame:out) | 18 | 83% | 0.177 | +0.073 | readable |
 
 ## The workshop

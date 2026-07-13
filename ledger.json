@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11",
+ "updated": "2026-07-13",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -213,7 +213,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-07-12T14:18:20Z",
+     "target": "prereg_audit",
+     "note": "RETRO PREREG AUDIT (per 2026-06-11 protocol, applied 2026-07-12): claim is a Q1-2027 window (resolve_by 2027-04-30), ~10 months in the future at registration timestamp 2026-06-10. Cut/flatten in Big Five AI capex guidance by end Q1 2027 could not have been publicly known at a June 2026 registration. Verified 2026-07-12: no Big Five capex cut announcement pre-dated registration; contra-evidence is that Q1 2026 saw major raises (per 2026-07-10 signal). NOT pre-dated; claim stays open."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -742,6 +748,11 @@
      "date": "2026-06-11T19:40:17Z",
      "target": "evidence[0]",
      "note": "CORRECTION 2026-06-11: the evidence entry of 2026-06-10 stated Kevin Warsh was installed as Chair 2026-05-15. The official Federal Reserve press release records his oath of office on 2026-05-22 (Senate confirmation 2026-05-13). The correction does not change the direction of the evidence."
+    },
+    {
+     "date": "2026-07-12T14:18:20Z",
+     "target": "prereg_audit",
+     "note": "RETRO PREREG AUDIT (per 2026-06-11 protocol, applied 2026-07-12): update test fires on the 2026-07-28/29 FOMC meeting, ~7 weeks in the future at registration timestamp 2026-06-10. Outcome could not have been publicly known at registration. Verified 2026-07-12: no FOMC action or leak pre-dated the registration date. NOT pre-dated; claim stays open, resolution due within 2 weeks of this run."
     }
    ],
    "related_to": [],
@@ -860,7 +871,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-07-12T14:18:20Z",
+     "target": "prereg_audit",
+     "note": "RETRO PREREG AUDIT (per 2026-06-11 protocol, applied 2026-07-12): update test fires on the 2026-07-23 ECB Governing Council meeting, ~6 weeks in the future at registration timestamp 2026-06-11. Outcome could not have been publicly known at registration. Verified 2026-07-12: no ECB pre-announcement or leak pre-dated the registration date. NOT pre-dated; claim stays open."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -874,6 +891,12 @@
      "direction": "supports",
      "note": "The ECB HIKED 25bp on 2026-06-11 (deposit facility 2.25%) as Iran-war-driven inflation rose. The 2026-07-23 meeting is now widely framed as a wait-and-see hold following that pivot — no cut on the table. Bearing evidence for the 'no cut on 2026-07-24 (dated 2026-07-24 in claim; ECB decision is actually 2026-07-23)' hypothesis; decision pending.",
      "source_url": "https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation"
+    },
+    {
+     "date": "2026-07-12",
+     "direction": "supports",
+     "note": "ECB Governing Council decision scheduled 2026-07-23 (13:45 CET rate announcement, 14:30 press conference per ECB calendar). No projection updates at July meeting. Market rate-probability shows heavy weighting toward hold across the three key rates; June 11 meeting held after the earlier tightening cycle.",
+     "source_url": "https://www.financecalendar.com/event/ecb-rate-decision-july-2026/"
     }
    ],
    "resolution": null
@@ -1043,6 +1066,12 @@
      "direction": "against",
      "note": "Sister claim -003 (2026-07-10 CIF-in-at-least-one deadline) also carries against-evidence as of 2026-07-11: Lagos AfCFTA Digital Trade Forum 2026-07-01/02 published Eight Calls to Action without a formal CIF establishment. For the -003 claim to confirm ALL THREE Kenya/Morocco/Nigeria CIFs must be publicly established by 2026-07-15 EOD UTC. With zero establishment announcements found for any pilot as of 2026-07-11 (four days from deadline), the all-three-confirm outcome is now sharply against; Sunday Reckoning to resolve.",
      "source_url": "https://www.newsghana.com.gh/afcfta-digital-trade-forum-closes-in-lagos-with-eight-calls-to-action-on-digital-market-implementation/"
+    },
+    {
+     "date": "2026-07-12",
+     "direction": "against",
+     "note": "By 2026-07-12 no publicly reportable confirmation of taskforce establishment by all three pilot countries. Same evidence as claim-20260701-003. Three days from deadline; unambiguous confirmation-by-all-three appears increasingly unlikely.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
    "resolution": null
@@ -1220,6 +1249,12 @@
      "direction": "supports",
      "note": "C.D. Howe Institute Monetary Policy Council recommendation dated 2026-07-09: all 9 MPC members in attendance called for the Bank of Canada to hold at 2.25% at the 2026-07-15 announcement. Financial market implied odds also call for a hold. Consistent with the 2026-04-29 and 2026-06-10 holds at 2.25%. Bearing evidence — decision not yet made.",
      "source_url": "https://cdhowe.org/publication/mpcjuly2026/"
+    },
+    {
+     "date": "2026-07-12",
+     "direction": "supports",
+     "note": "CD Howe Institute Monetary Policy Council unanimously voted 2026-06 to hold at 2.25 percent through July; market consensus and analyst surveys converge on hold at 2.25 percent for July 15 decision. No BoC signalling of a change through 2026-07-12.",
+     "source_url": "https://cdhowe.org/publication/mpcjune2026/"
     }
    ],
    "resolution": null
@@ -2552,7 +2587,7 @@
    "frameworks": [],
    "update_test": "By 2026-07-10 23:59 UTC, an identifiable public announcement (AfCFTA Secretariat communique on au-afcfta.org, Kenyan / Moroccan / Nigerian government press release, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement) confirms the formal establishment of an ADAPT Country Implementation Forum in at least one of Kenya, Morocco, or Nigeria. Confirmed if any one country has such an announcement on or before the deadline; disconfirmed if none.",
    "resolve_by": "2026-07-10",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-01T12:16:22Z",
@@ -2624,9 +2659,19 @@
      "direction": "against",
      "note": "AfCFTA Digital Trade Forum in Lagos 2026-07-01/02 concluded with Eight Calls to Action but NO formal establishment announcement for any Country Implementation Forum in Kenya, Morocco, or Nigeria. Targeted search across AfCFTA official channels (au-afcfta.org, @AfCFTA on X), IOTA Foundation blog, Tony Blair Institute press, WEF releases, and government press releases for the three pilot countries returns no 'Country Implementation Forum' establishment on or before 2026-07-10. Milestone missed by all three pilots on the -003 deadline; interpretive resolution deferred to Sunday Reckoning.",
      "source_url": "https://x.com/AfCFTA/status/2074458555097227769"
+    },
+    {
+     "date": "2026-07-12",
+     "direction": "against",
+     "note": "As of 2026-07-12, no official AfCFTA Secretariat communique or Kenyan/Moroccan/Nigerian government press release found confirming operational status of any ADAPT national taskforce. Deadline 2026-07-10 has passed; the same-week African tech press (tech.africa, biometricupdate.com, dig.watch, financialnigeria.com) references the country implementation forums as the next milestone but none reports formal operational confirmation. Continues the pattern already logged in 2026-07-02-afcfta-adapt-forum-deadline-miss.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-12T14:14:53Z",
+    "outcome": "disconfirmed",
+    "note": "Update test unmet at 2026-07-10 23:59 UTC deadline: no AfCFTA Secretariat communique, no Kenyan/Moroccan/Nigerian government press release, and no IOTA/TBI/WEF/AfCFTA-partner announcement located confirming formal establishment of an ADAPT Country Implementation Forum in Kenya, Morocco, or Nigeria. AfCFTA Digital Trade Forum (Lagos, 2026-07-01/03) closed with Eight Calls to Action and no CIF-establishment announcement; nine sequential against-evidence entries through 2026-07-12 confirm silence. Sources: au-afcfta.org, blog.iota.org/first-adapt-implementations, tech.africa, techreviewafrica.com, financialnigeria.com, tralac.org."
+   }
   },
   {
    "id": "claim-20260701-004",
@@ -2732,9 +2777,28 @@
     ],
     "outcome_already_known": false
    },
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-07-12T12:11:21Z",
+     "target": "evidence[0]",
+     "note": "Direction was mis-recorded as 'supports' — the update test resolves confirmed only if June headline CPI y/y ≤ 4.0 percent. May 2026 print was 4.2 percent and consensus for June 2026 is 4.1-4.3 percent, which points AGAINST the claim. Superseded by the following against-direction evidence entry."
+    }
+   ],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-12",
+     "direction": "supports",
+     "note": "Consensus economic forecasts through 2026-07-12 place US June 2026 headline CPI 12-month at 4.1-4.3 percent (May 2026 was 4.2 percent); the claim registers ≥4.0 percent at 60 percent. BLS release scheduled 2026-07-14 08:30 ET. Reserve resolution for the actual release.",
+     "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+     "date": "2026-07-12",
+     "direction": "against",
+     "note": "Supersedes evidence[0] (corrected). May 2026 CPI 12-month was 4.2 percent (SA basis); analyst consensus points to a June 2026 headline in the 4.1-4.3 percent range on release 2026-07-14, which would disconfirm the ≤4.0 percent test.",
+     "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3100,7 +3164,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-014",
+     "relation": "shares-system",
+     "note": "Both read the Africa AI-infrastructure buildout. -610-014 is a cumulative-MW test across a named 2026 African AI DC portfolio; -711-001 is a specific two-of-four Google Africa Digital Exchange Ports operationality test by 2028-12-31. Both probe whether announced Africa AI infrastructure clears the announcement → operational threshold.",
+     "date": "2026-07-12T14:19:05Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -3131,7 +3202,67 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260703-002",
+     "relation": "shares-system",
+     "note": "Both read the EU AI Office's Article 55 GPAI enforcement machinery. -703-002 is a fast instrument reading (any Article 55 GPAI announcement by 2026-08-30, one month after enforcement start); -711-002 is a longer-horizon test (a formal enforcement action against a NAMED systemic-risk provider by 2027-08-02). A NULL result on -703-002 forewarns -711-002; a bureaucratic-only artifact on -703-002 leaves -711-002 open.",
+     "date": "2026-07-12T14:19:04Z"
+    },
+    {
+     "id": "claim-20260610-017",
+     "relation": "shares-system",
+     "note": "Both test Article 55 EU AI Office activity. -610-017 asks whether the Office issues any interpretive material on GPAI open-source scope by end-2026; -711-002 asks whether the Office issues an enforcement decision by 2027-08-02. Distinct outcomes but shared institutional plumbing (same office, same article).",
+     "date": "2026-07-12T14:19:04Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260712-001",
+   "date": "2026-07-12",
+   "registered_at": "2026-07-12T14:17:01Z",
+   "claim": "By 2028-06-30, at least one additional hyperscaler (Google, Microsoft, AWS, or Oracle) publicly announces a second Canadian AI-optimised data-centre campus of at least 500MW nameplate in Alberta, citing the Meta Sturgeon County build (2026-07-08 groundbreaking) as a comparable in its site-selection rationale.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Meta announced 2026-07-08 groundbreaking on a C$13B / 1GW AI-optimised campus in Sturgeon County, Alberta (about.fb.com/news/2026/07 press release, matched to Pembina Pipeline gas plant coming online late 2030). This is the first Canadian hyperscaler AI campus and the largest single private capital allocation to any Alberta industrial project in a decade. The observable referent: subsequent hyperscaler site announcements naming Alberta and the Meta build as comparable.",
+   "withdrawal": null,
+   "confidence": 0.57,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Historical hyperscaler follow-on pattern (Meta→Microsoft/Google in Ohio; Google→Amazon/Microsoft in Iowa) suggests ~0.55 base rate for a second announcement within 24 months; the 'cite Meta as comparable' clause narrows the confirmable surface, but Alberta's gas-firmed 1GW template is distinctive enough that any Canadian follow-on will reference it. Calibration 2026-07-07 bucket 50-59 correction +0.017 → 0.57.",
+   "base_rate": null,
+   "frameworks": [
+    "Reallocation Threshold",
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "By 2028-06-30 EOD UTC, an identifiable public announcement (press release, S-1/10-K filing, provincial government joint announcement) from Google, Microsoft, AWS, or Oracle names a Canadian AI-optimised data-centre campus of at least 500MW nameplate located in Alberta, and the announcement or accompanying analyst-day narrative cites the Meta Sturgeon build as a comparable / anchor. Confirmed if any one of the four hyperscalers meets both conditions by deadline; disconfirmed if none.",
+   "resolve_by": "2028-06-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-12T14:17:01Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-12 for existing second-hyperscaler Alberta announcements (Google Cloud, AWS re:Invent, Microsoft Azure, Oracle Cloud site-selection press releases): none identified as of registration. The Meta announcement is 4 days old at registration; no second hyperscaler has made a comparable Alberta announcement.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260620-002",
+     "relation": "probes",
+     "note": "Q2-2026 Big Five capex guidance (short-horizon test) is a fast instrument reading on the slower-moving hyperscaler-follow-on question in Alberta; if hyperscaler AI capex compression begins in Q2, the follow-on to Meta Sturgeon is less likely.",
+     "date": "2026-07-12T14:18:36Z"
+    },
+    {
+     "id": "claim-20260610-008",
+     "relation": "shares-system",
+     "note": "Both read the same underlying hyperscaler AI capex allocation system: -008 asks whether the aggregate cuts, this claim asks where the marginal-dollar campus lands geographically. A capex cut regime disconfirms both structurally, but the geographic-anchor test survives a modest capex slowdown as long as Alberta remains a preferred site.",
+     "date": "2026-07-12T14:18:36Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
