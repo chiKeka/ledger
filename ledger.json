@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13",
+ "updated": "2026-07-14",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -50,6 +50,12 @@
      "direction": "supports",
      "note": "NBER firm-data work circulated mid-June 2026 (w34984 series) reports AI-attributable aggregate US employment decline expected at less than 0.4 percent for 2026, with offsetting growth in technical roles inside adopting firms - the firm-vs-aggregate divergence the claim names. Bears on conjunct B (firm-level concentration) more than conjunct A (BLS productivity); BLS 2026 annual print is the dispositive read and remains 2027.",
      "source_url": "https://www.nber.org/system/files/working_papers/w34984/w34984.pdf"
+    },
+    {
+     "date": "2026-07-14",
+     "direction": "supports",
+     "note": "NBER w34995 (Mind the Gap) reports US labor productivity +0.5-1.3pp associated with worker AI adoption in 2026 with strongly heterogeneous distribution (concentrated in high-skill services/finance); NBER w34984 reports 42% firms view AI as too immature and 36% workforce untrained (year-end 2025). Firm-level heterogeneity matches claim; aggregate productivity signal remains diffuse consistent with 'no clear AI-driven gains through end-2026' compound reading. Concordant, not resolving.",
+     "source_url": "https://www.nber.org/system/files/working_papers/w34995/w34995.pdf"
     }
    ],
    "resolution": null
@@ -897,6 +903,12 @@
      "direction": "supports",
      "note": "ECB Governing Council decision scheduled 2026-07-23 (13:45 CET rate announcement, 14:30 press conference per ECB calendar). No projection updates at July meeting. Market rate-probability shows heavy weighting toward hold across the three key rates; June 11 meeting held after the earlier tightening cycle.",
      "source_url": "https://www.financecalendar.com/event/ecb-rate-decision-july-2026/"
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "supports",
+     "note": "ECB-Watch tool as of 2026-07-13: 88 percent market-implied probability of no change at the 2026-07-23 Governing Council decision; Deposit Facility Rate 2.25 percent (current level from June hike). Non-projection meeting favours a deliberate pause. Not resolved (decision 10 days out).",
+     "source_url": "https://ecb-watch.eu/"
     }
    ],
    "resolution": null
@@ -1071,6 +1083,18 @@
      "date": "2026-07-12",
      "direction": "against",
      "note": "By 2026-07-12 no publicly reportable confirmation of taskforce establishment by all three pilot countries. Same evidence as claim-20260701-003. Three days from deadline; unambiguous confirmation-by-all-three appears increasingly unlikely.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "against",
+     "note": "As of 2026-07-13, targeted search returns no public AfCFTA Secretariat communique or Kenyan/Moroccan/Nigerian government press release confirming formal establishment of CIF in any of the three pilot countries. Original CIF establishment target (end-June 2026) publicly missed; AfCFTA Digital Trade Forum 2026-07-01/02 in Lagos closed without a formal establishment announcement. Two days remain to the 2026-07-15 test deadline. Not yet resolved but on track for disconfirmation.",
+     "source_url": "https://www.newsghana.com.gh/afcfta-digital-trade-forum-returns-to-lagos-in-july/"
+    },
+    {
+     "date": "2026-07-14",
+     "direction": "against",
+     "note": "Deadline is 2026-07-15 (tomorrow). Targeted searches for Kenya/Morocco/Nigeria AfCFTA ADAPT Country Implementation Forum establishment announcements find NO public confirmation from any of the three as of 2026-07-14 - only May 19 pilot naming and June-target coverage. Interpretive: absence could reflect quiet establishment, but the 'publicly confirm' test requires visible announcements. Leaning disconfirm; wait one day + Reckoning verification.",
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
@@ -1255,6 +1279,18 @@
      "direction": "supports",
      "note": "CD Howe Institute Monetary Policy Council unanimously voted 2026-06 to hold at 2.25 percent through July; market consensus and analyst surveys converge on hold at 2.25 percent for July 15 decision. No BoC signalling of a change through 2026-07-12.",
      "source_url": "https://cdhowe.org/publication/mpcjune2026/"
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "supports",
+     "note": "CD Howe Institute Monetary Policy Council 2026-07 report: all 9 MPC members in attendance call for BoC to hold overnight rate at 2.25 percent on the July 15 announcement; second consensus source (Globe and Mail preview) frames the July 15 decision as the sixth consecutive hold under a do-no-harm approach. Actual decision is 2 days out; not resolved.",
+     "source_url": "https://cdhowe.org/publication/mpcjuly2026/"
+    },
+    {
+     "date": "2026-07-14",
+     "direction": "supports",
+     "note": "BoC July 15 2026 decision is tomorrow; analyst consensus (Daily Hive, True North Mortgage, WOWA) uniformly expects a fifth consecutive hold at 2.25%; competing inflation/growth pressures argue 'do no harm'. Evidence supports pending confirmation.",
+     "source_url": "https://dailyhive.com/vancouver/bank-of-canada-rate-july-2026"
     }
    ],
    "resolution": null
@@ -1330,7 +1366,20 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-13",
+     "direction": "against",
+     "note": "Cleveland Fed Inflation Nowcasting model as of 2026-07-13 projects June 2026 CPI-U 12-month percent change at 3.96 percent — below the 4.0 percent claim test threshold (this claim's confirm condition is >=4.0). Nowcast is not the actual print; June CPI release is 2026-07-14. Not resolved.",
+     "source_url": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+    },
+    {
+     "date": "2026-07-14",
+     "direction": "against",
+     "note": "US CPI June 2026 releases today; consensus (FactSet 3.8%, Kiplinger 3.9%, Truflation 3.9%) forecasts headline y/y BELOW 4.0%, contra this claim's ≥4.0% test. Gasoline dropped ~17% MoM (post-Iran ceasefire, largest June decline in a decade). Actual print not yet indexed; if consensus lands, claim disconfirms; wait for Reckoning.",
+     "source_url": "https://insight.factset.com/consumer-price-index-cpi-for-june-2026-is-projected-to-rise-3.8-year-over-year"
+    }
+   ],
    "resolution": null
   },
   {
@@ -2469,7 +2518,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-13",
+     "direction": "against",
+     "note": "US retail sales MoM May 2026 print was 0.9 percent (upward surprise vs 0.5 percent expected, downward revision of April to 0.4 percent). Base rate for a June deceleration below 0.5 percent following a strong May print is moderate but not certain. Consensus forecast for June 2026 release (2026-07-16) not yet publicly aggregated as of 2026-07-13. Weakly against; not resolved.",
+     "source_url": "https://tradingeconomics.com/united-states/retail-sales"
+    }
+   ],
    "resolution": null
   },
   {
@@ -2745,7 +2801,14 @@
      "date": "2026-07-03T04:32:28Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-14",
+     "direction": "supports",
+     "note": "Signal 2026-07-14 (Nigeria Lekki/Ikeja AI datacentre construction ramp) reports Kasi Cloud CEO Johnson Agogbua quoted with 5.5MW Q2-2026 online for the 100MW Lekki campus; Businessday/Ecofin coverage confirms visible construction cranes. Lowers base rate for silent slippage past 2026-08-31 announcement deadline.",
+     "source_url": "https://businessday.ng/technology/article/nigeria-races-toward-ai-data-centre-ambitions-amid-energy-gaps/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -2797,6 +2860,18 @@
      "direction": "against",
      "note": "Supersedes evidence[0] (corrected). May 2026 CPI 12-month was 4.2 percent (SA basis); analyst consensus points to a June 2026 headline in the 4.1-4.3 percent range on release 2026-07-14, which would disconfirm the ≤4.0 percent test.",
      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "supports",
+     "note": "Cleveland Fed Inflation Nowcasting model as of 2026-07-13 projects June 2026 CPI-U 12-month percent change at 3.96 percent — below the 4.0 percent claim test threshold. Nowcast is not the actual print; June CPI release is 2026-07-14. Not resolved.",
+     "source_url": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+    },
+    {
+     "date": "2026-07-14",
+     "direction": "supports",
+     "note": "US CPI June 2026 releases today (2026-07-14) at 8:30 ET; consensus (FactSet, Kiplinger, Truflation, Morningstar) forecasts headline y/y 3.8-3.9%, down from May's 4.2%; primary driver ~17% gas-price plunge post-Iran ceasefire. If print lands as consensus, ≤4.0% claim confirms. Actual print not yet indexed at brief run time; wait for Reckoning.",
+     "source_url": "https://insight.factset.com/consumer-price-index-cpi-for-june-2026-is-projected-to-rise-3.8-year-over-year"
     }
    ],
    "resolution": null
@@ -3263,6 +3338,68 @@
      "date": "2026-07-12T14:18:36Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260714-001",
+   "date": "2026-07-14",
+   "registered_at": "2026-07-14T12:17:13Z",
+   "claim": "US Bureau of Labor Statistics Employment Situation for July 2026 (scheduled release 2026-08-01 at 8:30 ET, bls.gov) prints headline seasonally-adjusted civilian unemployment rate at or above 4.2 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The BLS Employment Situation is a scheduled monthly release; the July 2026 report has not been published. Recent U-3 prints have trended between 4.0 and 4.2 percent through H1-2026; June 2026 print was at 4.1 percent.",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "On 2026-08-01, the BLS Employment Situation news release for July 2026 published on bls.gov reports the headline U-3 unemployment rate (seasonally adjusted). Confirmed if the reported rate is 4.2 percent or higher; disconfirmed if below 4.2 percent.",
+   "resolve_by": "2026-08-08",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-14T12:17:13Z",
+    "auditor": "twin",
+    "note": "Search 2026-07-14: bls.gov calendar confirms Employment Situation July 2026 release date 2026-08-01. No July 2026 unemployment rate has been published; June 2026 print at 4.1%. Consensus forecasts unavailable at this date. calibration 2026-07-12: 40-49 bucket correction +0.126 applied to raw 0.45 estimate.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260714-002",
+   "date": "2026-07-14",
+   "registered_at": "2026-07-14T12:17:21Z",
+   "claim": "US Bureau of Economic Analysis Personal Consumption Expenditures Price Index for June 2026 (scheduled release 2026-07-31 at 8:30 ET, bea.gov) prints headline PCE 12-month percent change at or above 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The BEA Personal Income and Outlays monthly release is on a fixed schedule; June 2026 report has not been published as of 2026-07-14. Recent headline PCE y/y prints have hovered between 2.6 and 3.1 percent in H1-2026.",
+   "withdrawal": null,
+   "confidence": 0.57,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "On 2026-07-31, the BEA Personal Income and Outlays release for June 2026 published on bea.gov reports the headline PCE price index 12-month percent change (not core). Confirmed if 3.0 percent or higher; disconfirmed if below 3.0 percent.",
+   "resolve_by": "2026-08-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-14T12:17:21Z",
+    "auditor": "twin",
+    "note": "Search 2026-07-14: BEA calendar confirms Personal Income and Outlays June 2026 release date 2026-07-31. No June 2026 PCE has been published. Consensus expectations tentative; not decisive as of registration. calibration 2026-07-12: 50-59 bucket correction +0.017 applied to raw 0.55 estimate.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }
