@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14",
+ "updated": "2026-07-15",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1096,6 +1096,12 @@
      "direction": "against",
      "note": "Deadline is 2026-07-15 (tomorrow). Targeted searches for Kenya/Morocco/Nigeria AfCFTA ADAPT Country Implementation Forum establishment announcements find NO public confirmation from any of the three as of 2026-07-14 - only May 19 pilot naming and June-target coverage. Interpretive: absence could reflect quiet establishment, but the 'publicly confirm' test requires visible announcements. Leaning disconfirm; wait one day + Reckoning verification.",
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "against",
+     "note": "As of 2026-07-15 12:00 UTC (~12h before EOD deadline), targeted searches for AfCFTA ADAPT Country Implementation Forum establishment announcements from Kenya, Morocco, or Nigeria return no public confirmation of formal establishment for any of the three. Search hits are still the 2026-05-19 Accra pilot naming, the missed end-June CIF target, and the 2026-07-01/02 Lagos Digital Trade Forum which closed without a formal CIF establishment announcement. The overwhelmingly likely outcome at EOD UTC is zero-of-three announced, disconfirming the all-three test. Bearing strongly against; deadline mid-brief-day so deferring formal resolution to Sunday Reckoning per unambiguous-only rule.",
+     "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
    "resolution": null
@@ -1253,7 +1259,7 @@
    "frameworks": [],
    "update_test": "Bank of Canada press release dated 2026-07-15 announcing the policy rate decision. Confirmed if the announced overnight rate target remains 2.25 percent; disconfirmed on any change (cut or hike) of 25bp or more.",
    "resolve_by": "2026-07-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-14T12:14:19Z",
@@ -1293,7 +1299,11 @@
      "source_url": "https://dailyhive.com/vancouver/bank-of-canada-rate-july-2026"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-15T12:08:16Z",
+    "outcome": "confirmed",
+    "note": "Bank of Canada policy rate announcement 2026-07-15 09:45 ET: policy rate held at 2.25 percent, sixth consecutive hold since October 2025. Source: bankofcanada.ca/2026/07/interest-rate-announcement-and-monetary-policy-report-july-15-2026/, cross-confirmed by BNN Bloomberg and Medicine Hat News coverage. Twin priced 90%; market implied ~92%. Correct call at the hair-past-market price."
+   }
   },
   {
    "id": "claim-20260614-002",
@@ -1352,7 +1362,7 @@
    ],
    "update_test": "BLS CPI news release for 2026 M06 (June 2026 data) published on bls.gov on or about 2026-07-14: confirmed if the headline all-items 12-month percent change is 4.0 or higher; disconfirmed if it is below 4.0",
    "resolve_by": "2026-07-20",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-15T12:15:12Z",
@@ -1380,7 +1390,11 @@
      "source_url": "https://insight.factset.com/consumer-price-index-cpi-for-june-2026-is-projected-to-rise-3.8-year-over-year"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-15T12:08:19Z",
+    "outcome": "disconfirmed",
+    "note": "US BLS CPI News Release for June 2026 (bls.gov, 2026-07-14 08:30 ET): headline all-items CPI-U 12-month change 3.5% — BELOW the 4.0% test threshold. The ≥4.0% test is unambiguously disconfirmed. Twin priced 65% (bucket-corrected from raw 62). Framework 'Innovation Energy Cycle' attributed at registration with directional bet up; framework misfired here — the direction that pushed the number above base rate was wrong. Postmortem carries the framework disconfirmation."
+   }
   },
   {
    "id": "claim-20260615-002",
@@ -2828,7 +2842,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-14, the BLS Consumer Price Index News Release for June 2026 published on bls.gov reports the headline All items CPI-U 12-month percent change (not seasonally adjusted). Confirmed if the reported y/y print is at or below 4.0 percent; disconfirmed if above 4.0 percent.",
    "resolve_by": "2026-07-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-02T12:13:17Z",
@@ -2874,7 +2888,11 @@
      "source_url": "https://insight.factset.com/consumer-price-index-cpi-for-june-2026-is-projected-to-rise-3.8-year-over-year"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-15T12:08:09Z",
+    "outcome": "confirmed",
+    "note": "US BLS Consumer Price Index News Release for June 2026 published on bls.gov on 2026-07-14 08:30 ET: headline all-items CPI-U 12-month percent change 3.5%. This is 0.5 pp below the 4.0% test threshold, so the ≤4.0% test is unambiguously confirmed. Source: bls.gov/news.release/cpi.htm, cross-confirmed by CNBC and Advisor Perspectives coverage of the same release. Twin priced 60% (bucket-corrected raw); calibration 2026-07-12 60-69 bucket."
+   }
   },
   {
    "id": "claim-20260702-002",
