@@ -3420,6 +3420,107 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260715-001",
+   "date": "2026-07-15",
+   "registered_at": "2026-07-15T12:12:40Z",
+   "claim": "The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from its 2026-06 hold) at its rate decision scheduled for 2026-07-30.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BoE MPC voted by a 7-2 majority on 2026-06-17 to maintain Bank Rate at 3.75 percent; next scheduled decision 2026-07-30; June hold was fifth consecutive under a wait-and-see posture with two dissenters preferring an immediate cut.",
+   "withdrawal": null,
+   "confidence": 0.69,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 60-69 correction +0.011 applied to raw 0.68 gives 0.69; capped below the 0.72 market implied — twin is slightly less confident than the market that dissent stays contained. calibration 2026-07-12.",
+   "base_rate": 0.6,
+   "frameworks": [],
+   "update_test": "BoE MPC statement dated 2026-07-30 on bankofengland.co.uk. Confirmed if the reported Bank Rate remains 3.75 percent; disconfirmed if the committee changes the rate by 25bp or more in either direction.",
+   "resolve_by": "2026-07-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-15T12:12:40Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-15 for BoE MPC July 30 2026 preview; June hold was 7-2, market implied roughly 70-75% hold, HomeOwners Alliance and Reuters previews leaning toward hold with rising dissent for a cut. No leaked decision in public record.",
+    "queries": [
+     "Bank of England MPC August 7 2026 rate decision preview expectations base rate hold"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260715-002",
+   "date": "2026-07-15",
+   "registered_at": "2026-07-15T12:12:50Z",
+   "claim": "The Reserve Bank of India Monetary Policy Committee will hold the policy repo rate at 5.25 percent at its August 4-6 2026 meeting (decision announced 2026-08-06).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "RBI MPC kept repo rate unchanged at 5.25 percent at its June 2026 61st meeting under a neutral stance; next scheduled meeting August 4-6 2026; market commentary flags a possible cut if inflation stays inside the 2-6 percent band and crude oil price stabilises post West Asia ceasefire.",
+   "withdrawal": null,
+   "confidence": 0.57,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 50-59 correction +0.017 applied to raw 0.55 gives 0.57. Twin barely above base, reflecting genuine two-sided uncertainty on the cut. calibration 2026-07-12.",
+   "base_rate": 0.55,
+   "frameworks": [],
+   "update_test": "RBI Monetary Policy Statement dated 2026-08-06 on rbi.org.in. Confirmed if the announced policy repo rate remains 5.25 percent; disconfirmed if changed by 25bp or more in either direction.",
+   "resolve_by": "2026-08-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-15T12:12:50Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-15 for RBI August 2026 preview; June hold at 5.25% under neutral stance is confirmed; market split on a possible 25bp cut. No leaked decision in public record.",
+    "queries": [
+     "Reserve Bank of India RBI MPC August 6 2026 repo rate decision preview"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260715-003",
+   "date": "2026-07-15",
+   "registered_at": "2026-07-15T12:13:20Z",
+   "claim": "Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-09-13, the European Commission AI Office publicly records at least one formal enforcement action (opening decision, information request, formal notice, or fine) against a named GPAI provider under Article 55/56 of the AI Act.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EU AI Act GPAI provider enforcement powers enter application on 2026-08-02 with the Commission taking the lead role (not national authorities). Commission published guidelines and a July 2026 Cybersecurity and AI action plan. No enforcement notices exist as of 2026-07-15.",
+   "withdrawal": null,
+   "confidence": 0.14,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Institutional Adaptation Lag (Bruno-active framework): formally-announced enforcement calendars routinely slip past their operational start dates because delivery lags the press cycle. Six-week window after enforcement start is very tight for a first formal action - direction down applied from base 0.25 to 0.14, an 11pp discount. Bucket 10-19 not in calibration data yet; raw estimate stands. calibration 2026-07-12.",
+   "base_rate": 0.25,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-09-13 23:59 UTC, an identifiable public record — European Commission press release, AI Office public statement, EU Official Journal notice, or Commission decision document listed on digital-strategy.ec.europa.eu — describing at least one enforcement action against a named GPAI provider (Anthropic, OpenAI, Google DeepMind, Meta AI, xAI, Mistral, or any Article 55/56 designated provider). Confirmed if at least one such document exists by the deadline; disconfirmed otherwise.",
+   "resolve_by": "2026-09-13",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-15T12:13:20Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-15 for EU AI Act GPAI enforcement guidance and enforcement actions; found the pre-enforcement guidelines and July 2026 Cybersecurity and AI action plan but no enforcement action against any named GPAI provider yet.",
+    "queries": [
+     "EU AI Act GPAI enforcement guidance July 14 2026 European Commission AI Office"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
