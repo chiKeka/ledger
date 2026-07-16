@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15",
+ "updated": "2026-07-16",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -194,7 +194,14 @@
    "prereg_audit": null,
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-16",
+     "direction": "supports",
+     "note": "Geneva Big Four week 2026-07-06 to 2026-07-10 (UN Global Dialogue on AI Governance, WSIS Forum, AI for Good Global Summit, AI for Good Global Commission launch) delivered representation and digital-skills commitments for Africa but produced NO shared-compute facility, GPU allocation programme, or multilateral compute-access mechanism. Direct bearing on the twin-committed claim: governance-first phase does not pull material physical-layer investment. Research ICT Africa's read: representation without extraction rights is the familiar shape - the same trap South Africa saw at COP.",
+     "source_url": "https://researchictafrica.net/2026/07/02/understanding-the-ai-governance-dialogue-and-what-it-means-for-africans/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -532,6 +539,12 @@
      "direction": "supports",
      "note": "Microsoft-G42 Kenya geothermal hyperscale DC formally suspended by Pres. Ruto 2026-05-08 over 1GW power requirement vs Kenya's 3GW total installed capacity — explicit slip/scope cut at one of the three listed project legs (Kenya hyperscale builds). Combined with Kasi commissioning the other direction, the umbrella claim is now leaning confirmed via the Kenya leg.",
      "source_url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/"
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "supports",
+     "note": "Nigeria first dedicated AI datacentres in Lekki and Ikeja: Equinix + MTN and partners committing close to $1B (Commonwealth Union coverage 2026-07). Africa Data Center Construction Market projection published 2026-07-15 names Nigeria and Kenya as rapidly emerging hyperscale hubs at 24.26 percent CAGR 2025-2031. This is supports-trajectory evidence, not the update-test fire: the update test requires operational status of a named 2026 project; commitment numbers are not build numbers. Kasi Cloud Lekki 100MW remains the specific named referent for the update test.",
+     "source_url": "https://www.commonwealthunion.com/african-energy-week-2026-highlights-nigerias-ai-infrastructure-drive/"
     }
    ],
    "resolution": null
@@ -1027,7 +1040,7 @@
    "frameworks": [],
    "update_test": "By 2026-07-15 EOD UTC, identifiable public announcement (government press release, AfCFTA Secretariat communique, or partner press release) confirming each of three Country Implementation Forums has been formally established. Confirmed if announcements exist for ALL three of Kenya, Morocco, Nigeria; disconfirmed if at least one of the three has no public establishment announcement by the deadline.",
    "resolve_by": "2026-07-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-12T12:12:36Z",
@@ -1104,7 +1117,11 @@
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-16T12:10:28Z",
+    "outcome": "disconfirmed",
+    "note": "AfCFTA ADAPT CIF establishment deadline 2026-07-15 EOD UTC passed with no identifiable public announcement of formal Country Implementation Forum establishment for any of Kenya, Morocco, or Nigeria. Targeted searches on 2026-07-16 return only May 19 2026 Accra launch coverage and Digital Watch Observatory / IOTA blog references to CIF creation as the 'next milestone' - no government press release, no AfCFTA Secretariat communique confirming establishment. Update test 'confirmed if announcements exist for ALL three' fails: zero of three. Signal 2026-07-11-afcfta-lagos-eight-calls-no-cif-establishment.md documented the July 2 Lagos forum's 'eight calls' language, also with no establishment announcement. Sources: Ghanamma May 19 launch https://www.ghanamma.com/2026/05/29/nigeria-kenya-and-morocco-to-pilot-afcfta-digital-trade-infrastructure/ ; Digital Watch Observatory https://dig.watch/updates/kenya-morocco-nigeria-digital-infrastructure ; IOTA Foundation blog https://blog.iota.org/first-adapt-implementations/"
+   }
   },
   {
    "id": "claim-20260613-001",
@@ -2347,7 +2364,7 @@
    "frameworks": [],
    "update_test": "Read official ONS GDP monthly estimate release dated 2026-07-16. Headline monthly real GDP MoM growth at or above 0.1 percent resolves confirmed; below 0.1 percent (including negative) resolves disconfirmed.",
    "resolve_by": "2026-07-16",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-20T13:20:01Z",
@@ -2359,7 +2376,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-16T12:10:18Z",
+    "outcome": "confirmed",
+    "note": "UK ONS GDP monthly estimate for May 2026 released 2026-07-16 07:00 BST: headline real GDP MoM growth 0.1 percent (recovering from -0.1 percent in April). Update test 'at or above 0.1 percent MoM' met exactly. Sources: ONS release https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/may2026 ; Statista tracker https://www.statista.com/statistics/941233/monthly-gdp-growth-uk/"
+   }
   },
   {
    "id": "claim-20260621-001",
@@ -3451,7 +3472,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-16",
+     "direction": "supports",
+     "note": "BoE June 2026 MPC minutes (meeting ending 2026-06-17) recorded a 7-2 majority to maintain Bank Rate at 3.75 percent, with the two dissents voting for a 25bp increase (not a cut). Cambridge Currencies / ATFX market read into the 30 July 2026 decision names hold at 3.75 as the base case with hawkish tilt and further hike-dissent likelihood - no consensus for a cut. Supports the hold-at-3.75 update test.",
+     "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+    }
+   ],
    "resolution": null
   },
   {
