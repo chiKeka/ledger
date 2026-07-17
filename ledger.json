@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16",
+ "updated": "2026-07-17",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -2542,7 +2542,7 @@
    "frameworks": [],
    "update_test": "By 2026-07-17 23:59 UTC, US Census Bureau publishes the Advance Monthly Sales for Retail and Food Services for June 2026 on census.gov/retail. Confirmed if headline total retail and food services MoM SA percent change is less than 0.5 percent; disconfirmed if 0.5 percent or higher.",
    "resolve_by": "2026-07-17",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-27T12:11:10Z",
@@ -2561,7 +2561,11 @@
      "source_url": "https://tradingeconomics.com/united-states/retail-sales"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-17T12:08:28Z",
+    "outcome": "confirmed",
+    "note": "US Census Advance Monthly Sales for Retail and Food Services June 2026 released 2026-07-16 08:30 ET: total retail and food services sales USD 768.6 billion, +0.2 percent MoM SA. 0.2 < 0.5 threshold => update test unambiguously confirmed. May 2026 revised up from 0.9 to 1.0 percent, so the June deceleration is a full 0.8 pp step-down against a stronger prior print. https://www.census.gov/retail/marts/www/marts_current.pdf. Twin confidence 62 pct vs base rate 55 pct; a 7 pp edge that resolved on the confirm side."
+   }
   },
   {
    "id": "claim-20260701-001",
