@@ -3557,6 +3557,73 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260718-001",
+   "date": "2026-07-18",
+   "registered_at": "2026-07-18T12:10:55Z",
+   "claim": "Alphabet Q2 2026 earnings release (scheduled 2026-07-22) reports Google Cloud segment year-over-year revenue growth at or above 60 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Alphabet Q1 2026 Google Cloud revenue printed 20.0 billion USD up 63 percent YoY with sequentially near-doubled 462 billion USD backlog signalling acceleration; Q2 2026 earnings release is scheduled 2026-07-22 after market close per Alphabet investor relations calendar.",
+   "withdrawal": null,
+   "confidence": 0.65,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin 65 pct vs base 50 pct. The 60 percent threshold is 3 pp below Q1 63 percent - a modest deceleration would still clear it, while backlog nearly doubling sequentially argues for acceleration rather than deceleration. Cloud has outpaced hyperscaler peers (Azure ~31 pct) and demand has not saturated; capex reallocation guidance implies management sees another year of growth. Downside path is a supply-constrained print similar to Azure's stated capacity limits, plausible but not majority. 50-59 pct bucket correction 0.009 and 60-69 pct 0.017 (calibration 2026-07-17) leave the corrected estimate essentially unchanged.",
+   "base_rate": 0.5,
+   "frameworks": [],
+   "update_test": "Read Alphabet Q2 2026 earnings press release, 10-Q, or earnings-call slide deck published on 2026-07-22 or 2026-07-23. Confirmed if the disclosed Google Cloud segment revenue year-over-year growth rate is 60.0 percent or above; disconfirmed if below 60.0 percent.",
+   "resolve_by": "2026-08-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-18T12:10:55Z",
+    "auditor": "twin",
+    "note": "Searched Alphabet investor relations, IG, InsiderFinance, MarketBeat, BigGo Finance, Yahoo Finance analyst-preview coverage 2026-07-18: nothing decisive published yet. Analyst previews range from ~55 to 70 percent; BofA 70 percent, IG cites 63 percent as Q1 anchor, others do not commit to a Q2 point estimate. No liquid prediction-market price located for the 60 percent threshold.",
+    "queries": [
+     "Alphabet Google Q2 2026 earnings Cloud revenue growth consensus estimate July 22",
+     "Alphabet Cloud revenue Q2 2026 preview"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260718-002",
+   "date": "2026-07-18",
+   "registered_at": "2026-07-18T12:11:12Z",
+   "claim": "Meta Platforms Q2 2026 earnings release (scheduled 2026-07-29) raises full-year 2026 capital expenditure guidance ceiling above 145 billion USD.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Meta current full-year 2026 capex guidance is 125-145 billion USD, raised at Q1 2026 earnings from the prior 115-135 billion USD range. Q2 2026 earnings release scheduled 2026-07-29 after market close. Yahoo/StockTitan/Finance-Calendar confirm date; Seeking Alpha CapEx-and-Free-Cash-Flow-in-focus preview and TradingKey Meta Compute launch coverage set expectations for further capacity commitments.",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin 50 pct vs base 40 pct. Meta already raised guidance once this year (115-135 to 125-145 at Q1), so the base rate for a second raise in one year is materially below coin-flip; but Meta pattern under Zuckerberg is aggressive AI capacity commitment, and the July TradingKey coverage of the September Iris chip launch and Meta Compute rollout suggests further capacity build-out is being signalled ahead of the earnings call. The offsetting force is that management typically avoids raising a range twice in one year to preserve credibility. 50-59 pct bucket correction 0.009 (calibration 2026-07-17) leaves the corrected estimate at approximately 51 pct.",
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "Read Meta Q2 2026 earnings press release, 10-Q, and CFO commentary on the earnings call published 2026-07-29 or 2026-07-30. Confirmed if any of these documents state a full-year 2026 capex range whose upper bound (ceiling) is strictly greater than 145 billion USD; disconfirmed if the guidance ceiling is 145 billion USD or lower or if guidance is unchanged from the 125-145 billion USD range.",
+   "resolve_by": "2026-08-05",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-18T12:11:12Z",
+    "auditor": "twin",
+    "note": "Searched Yahoo Finance, Finance Calendar, StockTitan, Seeking Alpha, TradingKey, Simply Wall St analyst coverage 2026-07-18: Q2 release is 2026-07-29, no capex guidance ceiling revision has been pre-announced. Consensus revenue 60.18 billion USD, EPS 7.18; capex expectations flagged as key focus but no analyst has committed a specific higher-than-145-billion ceiling estimate as consensus. No liquid prediction-market price found for this specific threshold.",
+    "queries": [
+     "Meta Q2 2026 capex guidance analyst estimate July 29 earnings preview"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
