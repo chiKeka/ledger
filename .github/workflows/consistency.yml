@@ -1,0 +1,75 @@
+# Board consistency gate — every push must ship an internally consistent board.
+#
+# The board is a statically rendered artifact: README.md, index.html, and
+# ledger.json are three surfaces of one render (scripts/render-scoreboard.py in
+# the engine repo) and are committed together. This gate makes that contract
+# public and mechanical: if the three surfaces ever disagree on their 'updated'
+# stamp, or the README record line stops matching the counts recomputable from
+# ledger.json, the push goes red where every visitor can see it.
+#
+# Pure stdlib, no untrusted interpolation (no event fields reach run:).
+
+name: Board consistency
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  consistency:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dates agree and README record matches ledger.json
+        run: |
+          python3 - <<'PY'
+          import json, re, sys
+
+          errors = []
+
+          data = json.load(open("ledger.json"))
+          d_json = str(data.get("updated", ""))
+          readme = open("README.md").read()
+          html = open("index.html").read()
+
+          m = re.search(r"_Updated (\d{4}-\d{2}-\d{2})", readme)
+          d_readme = m.group(1) if m else ""
+          m = re.search(r"updated (\d{4}-\d{2}-\d{2})", html)
+          d_html = m.group(1) if m else ""
+          if not (d_json and d_json == d_readme == d_html):
+              errors.append(f"updated stamps disagree: ledger.json={d_json!r} "
+                            f"README={d_readme!r} index.html={d_html!r}")
+
+          claims = data.get("claims", [])
+          def valid(c):
+              return (c.get("validity") or {}).get("status") != "invalid"
+          confirmed = sum(1 for c in claims if c.get("status") == "resolved" and valid(c)
+                          and (c.get("resolution") or {}).get("outcome") == "confirmed")
+          disconfirmed = sum(1 for c in claims if c.get("status") == "resolved" and valid(c)
+                             and (c.get("resolution") or {}).get("outcome") == "disconfirmed")
+          openc = sum(1 for c in claims if c.get("status") == "open")
+          invalid = sum(1 for c in claims if not valid(c))
+
+          m = re.search(r"Record: (\d+)✓ · (\d+)✗ · \d+◐ · (\d+) open · (\d+) invalidated", readme)
+          if not m:
+              errors.append("README record line not found / format drifted")
+          else:
+              got = tuple(int(x) for x in m.groups())
+              want = (confirmed, disconfirmed, openc, invalid)
+              if got != want:
+                  errors.append(f"README record {got} != ledger.json recount "
+                                f"(confirmed, disconfirmed, open, invalidated) = {want}")
+
+          if errors:
+              print("BOARD INCONSISTENT:")
+              for e in errors:
+                  print(f"  - {e}")
+              sys.exit(1)
+          print(f"board consistent: updated {d_json}, "
+                f"{confirmed}✓ {disconfirmed}✗ {openc} open {invalid} invalidated")
+          PY
