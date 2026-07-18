@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 20✓ · 7✗ · 0◐ · 47 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.190 (coin-flip = 0.250), skill vs coin-flip +0.060 · skill vs base rate +0.021 (n=27 carrying a recorded base rate)**
+**Record: 21✓ · 7✗ · 0◐ · 46 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.190 (coin-flip = 0.250), skill vs coin-flip +0.060 · skill vs base rate +0.023 (n=28 carrying a recorded base rate)**
 
-**Latest: ✓ "US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-mont" — said 62%, resolved confirmed (2026-07-17)**
+**Latest: ✓ "University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above " — said 58%, resolved confirmed (2026-07-18)**
 
-_Updated 2026-07-17 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-18 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -28,11 +28,10 @@ _Updated 2026-07-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 31 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260627-001"></a>University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary). | **58%** | 50% | world |  2026-07-19 |
 | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
 | <a id="claim-20260702-002"></a>US National Association of Realtors Existing-Home Sales for June 2026 (release scheduled 2026-07-23 at 10:00 ET) prints total existing-home sales seasonally-adjusted annualized rate (SAAR) at or above 4.0 million. | **60%** | 55% | world |  2026-07-24 |
 | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | **68%** | 55% | world |  2026-07-25 |
@@ -71,6 +70,7 @@ _Updated 2026-07-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260627-001"></a>University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary). | 58% | confirmed (2026-07-18) | U Michigan Surveys of Consumers preliminary July 2026 headline Index of Consumer Sentiment printed 54.4 (2026-07-18 release), above the 50.0 threshold; rose 9.9 percent from June final 49.5, five-month high. Frame:out, no framework attributed at registration. Multiple concurrent sources (sca.isr.umich.edu; Xinhua 20260718; investinglive.com; floordaily.net July prelim summary). |
 | ✓ | <a id="claim-20260627-002"></a>US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-month change in headline total retail and food services sales (seasonally adjusted) BELOW 0.5 percent (i.e., a notable deceleration from May 2026's 0.9 percent MoM). | 62% | confirmed (2026-07-17) | US Census Advance Monthly Sales for Retail and Food Services June 2026 released 2026-07-16 08:30 ET: total retail and food services sales USD 768.6 billion, +0.2 percent MoM SA. 0.2 < 0.5 threshold => update test unambiguously confirmed. May 2026 revised up from 0.9 to 1.0 percent, so the June deceleration is a full 0.8 pp step-down against a stronger prior print. https://www.census.gov/retail/marts/www/marts_current.pdf. Twin confidence 62 pct vs base rate 55 pct; a 7 pp edge that resolved on the confirm side. |
 | ✗ | <a id="claim-20260612-003"></a>All three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly confirm the establishment of their national Country Implementation Forum by 2026-07-15. | 55% | disconfirmed (2026-07-16) | AfCFTA ADAPT CIF establishment deadline 2026-07-15 EOD UTC passed with no identifiable public announcement of formal Country Implementation Forum establishment for any of Kenya, Morocco, or Nigeria. Targeted searches on 2026-07-16 return only May 19 2026 Accra launch coverage and Digital Watch Observatory / IOTA blog references to CIF creation as the 'next milestone' - no government press release, no AfCFTA Secretariat communique confirming establishment. Update test 'confirmed if announcements exist for ALL three' fails: zero of three. Signal 2026-07-11-afcfta-lagos-eight-calls-no-cif-establishment.md documented the July 2 Lagos forum's 'eight calls' language, also with no establishment announcement. Sources: Ghanamma May 19 launch https://www.ghanamma.com/2026/05/29/nigeria-kenya-and-morocco-to-pilot-afcfta-digital-trade-infrastructure/ ; Digital Watch Observatory https://dig.watch/updates/kenya-morocco-nigeria-digital-infrastructure ; IOTA Foundation blog https://blog.iota.org/first-adapt-implementations/ |
 | ✓ | <a id="claim-20260620-005"></a>UK Office for National Statistics GDP monthly estimate for May 2026 (release scheduled 2026-07-16 at 7:00 AM BST) prints headline real GDP growth at or above 0.1 percent month-on-month. | 55% | confirmed (2026-07-16) | UK ONS GDP monthly estimate for May 2026 released 2026-07-16 07:00 BST: headline real GDP MoM growth 0.1 percent (recovering from -0.1 percent in April). Update test 'at or above 0.1 percent MoM' met exactly. Sources: ONS release https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/may2026 ; Statista tracker https://www.statista.com/statistics/941233/monthly-gdp-growth-uk/ |
@@ -107,7 +107,7 @@ _Updated 2026-07-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 |---|---|---|
 | 30-39% | 1 | 0% |
 | 40-49% | 3 | 100% |
-| 50-59% | 7 | 57% |
+| 50-59% | 8 | 62% |
 | 60-69% | 6 | 67% |
 | 70-79% | 6 | 83% |
 | 80-89% | 1 | 100% |
@@ -120,7 +120,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 4 | 25% | 0.253 | -0.003 | too few to read (n < 5) |
-| world (frame:out) | 23 | 83% | 0.179 | +0.071 | readable |
+| world (frame:out) | 24 | 83% | 0.179 | +0.071 | readable |
 
 ## The workshop
 
@@ -138,7 +138,7 @@ _Methodology experiments — 7 retrodictions run to test the ledger's own machin
 
 ## How this works
 
-- Every claim enters with a stated probability, the test that resolves it, a deadline, and provenance: **bruno** marks positions I have published or ratified, **twin** marks the system's own analysis. The two records are scored separately, so the machine cannot launder its guesses into my track record.
+- Every claim enters with a stated probability, the test that resolves it, a deadline, and provenance: **bruno** marks positions I have published or ratified, **twin** marks the system's own analysis. The two records are scored separately, and a number only ever scores to my record when I stated it myself (`confidence_source: bruno-stated`) — a twin-estimated probability on one of my claims scores to the twin, so the machine cannot launder its guesses into my track record.
 - Probabilities are locked at registration. Resolution requires the stated test to be met; partial and unresolvable are honest outcomes, because stretched wins would corrupt the only thing this page is for. Every claim must be grounded in something that exists today - hypothetical constructs stay out, and a claim that slips through gets withdrawn in the open, never deleted.
 - Brier score is the mean squared gap between stated probability and outcome: 0.000 is prophecy, 0.250 is coin-flipping. Skill is measured against both baselines and rendered in the record line above: skill vs coin-flip, and skill vs base rate — the naive base rate recorded with each claim, over the scored claims that carry one — because raw accuracy cannot distinguish judgment from easy questions.
 - Forecasts are tagged by frame: **worldview** means the topic lives inside my analytical frameworks, **world** means it does not - market events, votes, dated milestones picked precisely because my frameworks have nothing to say about them. The calibration record is split by frame in the table under [Calibration record](#calibration-record), because being calibrated at home and being calibrated are different claims. A split too thin to read says so on the board instead of hiding.

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17",
+ "updated": "2026-07-18",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -2511,7 +2511,7 @@
    "frameworks": [],
    "update_test": "Read U Michigan Surveys of Consumers preliminary July 2026 report at sca.isr.umich.edu/reports.html dated on or before 2026-07-18. Confirmed if headline Index of Consumer Sentiment preliminary value is at or above 50.0; disconfirmed if below 50.0.",
    "resolve_by": "2026-07-19",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-27T12:11:02Z",
@@ -2523,7 +2523,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-18T12:06:53Z",
+    "outcome": "confirmed",
+    "note": "U Michigan Surveys of Consumers preliminary July 2026 headline Index of Consumer Sentiment printed 54.4 (2026-07-18 release), above the 50.0 threshold; rose 9.9 percent from June final 49.5, five-month high. Frame:out, no framework attributed at registration. Multiple concurrent sources (sca.isr.umich.edu; Xinhua 20260718; investinglive.com; floordaily.net July prelim summary)."
+   }
   },
   {
    "id": "claim-20260627-002",
@@ -3874,5 +3878,22 @@
     "note": "Governing variable = exit cost (commitment), not fragility/trigger. Two within-case natural experiments: HS2 P1 (committed, builds) vs P2b (uncommitted, cancelled) under identical triggers; CA-HSR committed segment builds vs uncommitted system descoped. Bruno wins scoped, loses pure. | source: experiments/hs2-backtest/claim2-results.md (16-case fragility-selected reference class, 2026-06-12)"
    }
   }
- ]
+ ],
+ "stats": {
+  "committers": {
+   "bruno": {
+    "n": 0,
+    "hit_rate": null,
+    "brier": null,
+    "skill_vs_coinflip": null
+   },
+   "twin": {
+    "n": 28,
+    "hit_rate": 0.75,
+    "brier": 0.18951071428571434,
+    "skill_vs_coinflip": 0.06048928571428566
+   }
+  },
+  "bruno_committed_twin_numbered": 0
+ }
 }
