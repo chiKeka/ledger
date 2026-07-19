@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18",
+ "updated": "2026-07-19",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -3617,6 +3617,74 @@
     "note": "Searched Yahoo Finance, Finance Calendar, StockTitan, Seeking Alpha, TradingKey, Simply Wall St analyst coverage 2026-07-18: Q2 release is 2026-07-29, no capex guidance ceiling revision has been pre-announced. Consensus revenue 60.18 billion USD, EPS 7.18; capex expectations flagged as key focus but no analyst has committed a specific higher-than-145-billion ceiling estimate as consensus. No liquid prediction-market price found for this specific threshold.",
     "queries": [
      "Meta Q2 2026 capex guidance analyst estimate July 29 earnings preview"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260719-001",
+   "date": "2026-07-19",
+   "registered_at": "2026-07-19T12:17:14Z",
+   "claim": "Apple Inc. Q3 fiscal year 2026 total net sales as reported in the earnings press release on 2026-07-30 are at or above 110.0 billion USD.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Apple Q3 FY2026 earnings release scheduled 2026-07-30 at 5:00 pm ET per Apple IR calendar (macdailynews 2026-07-09, appleinsider 2026-07-02); LSEG consensus revenue approx 108.9 billion USD; Apple Q2 FY26 set an all-time Services record, and Apple has historically beaten revenue consensus by roughly 1 to 2 percent.",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Raw 0.55 based on Apple historical revenue-beat pattern (~50-55 percent of quarters beat consensus by 1 percent or more) and current momentum (Services record in Q2, iPhone cycle intact). Applied calibration 2026-07-18 bucket 50-59 correction +0.032 to reach 0.58 corrected. Base rate 0.40 estimates the naive prior that Apple beats consensus by more than 1 billion USD (a beat crossing the 110.0B threshold requires an approx 1.1 percent beat).",
+   "base_rate": 0.4,
+   "frameworks": [],
+   "update_test": "Read the Apple Q3 FY2026 8-K, press release, or investor letter published on Apple's investor relations site on 2026-07-30 (conference call at 5:00 pm ET). Confirmed if reported total net sales for the quarter equal or exceed 110.0 billion USD; disconfirmed if below 110.0 billion USD.",
+   "resolve_by": "2026-07-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-19T12:17:14Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-19 for Apple Q3 FY26 earnings preview and consensus; LSEG revenue consensus ~108.9B USD, EPS ~1.89 USD; no earnings release has occurred yet; update test is a future release on 2026-07-30 so it cannot have already fired at registration.",
+    "queries": [
+     "Apple Q3 FY26 earnings release date July 2026 services growth",
+     "Apple Q3 2026 earnings preview consensus"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260719-002",
+   "date": "2026-07-19",
+   "registered_at": "2026-07-19T12:17:34Z",
+   "claim": "The World Artificial Intelligence Cooperation Organization (WAICO) member or signatory count reported by an official Chinese government English-language source (english.news.cn, english.www.gov.cn, or an official WAICO communication) reaches 33 or more by 2026-09-15.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "WAICO founded 2026-07-16 in Shanghai with 29 country founding signatories per Xinhua English (english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html) and Wikipedia; open-membership design confirmed by Wang Yi statements and UN Secretary-General attendance; Ethiopia already reported joining as a founding member and additional Global South states have expressed interest per Antara Indonesia coverage.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Raw 0.60 based on China's post-founding recruitment pattern in comparable multilateral organizations (SCO added 3 members within 2 years of founding; BRI cooperation initiatives added members steadily post-launch) and the explicit open-membership design. Applied calibration 2026-07-18 bucket 60-69 correction +0.017 to reach 0.617, rounded to 0.62. Base rate 0.45 estimates the naive prior for adding 4+ member states in 60 days given typical multilateral organization recruitment timelines. The 60-day window is short - the honest edge is small - and the outcome depends on whether China schedules a signing ceremony or public accession before mid-September.",
+   "base_rate": 0.45,
+   "frameworks": [],
+   "update_test": "By 2026-09-15 23:59 UTC, at least one official Chinese government English-language publication (english.news.cn, english.www.gov.cn, WAICO official communication) states or reports that the WAICO member or signatory count is 33 or greater. Confirmed if such a report is publicly retrievable; disconfirmed if the reported count as of 2026-09-15 remains between 29 and 32 inclusive.",
+   "resolve_by": "2026-09-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-19T12:17:34Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-19 for WAICO membership expansion coverage; all sources (Xinhua, Wikipedia, Al Jazeera, PYMNTS, cryptobriefing, Daily Post Nigeria, IRIA, Techtimes, ANTARA) as of 2026-07-19 report 29 founding members from the 2026-07-16 signing; no updated post-founding count located; membership expansion is a future event.",
+    "queries": [
+     "WAICO membership signatories July 2026",
+     "World AI Cooperation Organization founding members Shanghai"
     ],
     "outcome_already_known": false
    },

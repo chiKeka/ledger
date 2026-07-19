@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 21✓ · 7✗ · 0◐ · 48 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.190 (coin-flip = 0.250), skill vs coin-flip +0.060 · skill vs base rate +0.023 (n=28 carrying a recorded base rate)**
+**Record: 21✓ · 7✗ · 0◐ · 50 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · Brier 0.190 (coin-flip = 0.250), skill vs coin-flip +0.060 · skill vs base rate +0.023 (n=28 carrying a recorded base rate)**
 
 **Latest: ✓ "University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above " — said 58%, resolved confirmed (2026-07-18)**
 
-_Updated 2026-07-18 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-19 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -28,7 +28,7 @@ _Updated 2026-07-18 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
@@ -38,6 +38,7 @@ _Updated 2026-07-18 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260703-004"></a>The University of Michigan Consumer Sentiment Index FINAL July 2026 release (scheduled 2026-07-25 at 10:00 ET) prints at a value LOWER than the July 2026 PRELIMINARY release (scheduled 2026-07-18 at 10:00 ET). | **42%** | 50% | world |  2026-07-30 |
 | <a id="claim-20260715-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from its 2026-06 hold) at its rate decision scheduled for 2026-07-30. | **69%** | 60% | world |  2026-07-31 |
+| <a id="claim-20260719-001"></a>Apple Inc. Q3 fiscal year 2026 total net sales as reported in the earnings press release on 2026-07-30 are at or above 110.0 billion USD. | **58%** | 40% | world |  2026-07-31 |
 | <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
 | <a id="claim-20260718-001"></a>Alphabet Q2 2026 earnings release (scheduled 2026-07-22) reports Google Cloud segment year-over-year revenue growth at or above 60 percent. | **65%** | 50% | world |  2026-08-01 |
 | <a id="claim-20260701-004"></a>China National Bureau of Statistics Manufacturing PMI for July 2026 (scheduled release 2026-07-31) prints at or above 50.0. | **50%** | 55% | world |  2026-08-02 |
@@ -65,6 +66,7 @@ _Updated 2026-07-18 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260703-001"></a>By 2026-08-31, at least one of Meta, Apple, or Alphabet publicly announces a forward-deployed AI implementation unit with a committed capital budget of at least USD 500 million or at least 2,000 forward-deployed engineers, structurally comparable to Microsoft Frontier Company (2026-07-02, USD 2.5 billion + 6,000 engineers) or Amazon's 2026-06-30 USD 1 billion analog. | **60%** | 50% | worldview |  2026-08-31 |
 | <a id="claim-20260715-003"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-09-13, the European Commission AI Office publicly records at least one formal enforcement action (opening decision, information request, formal notice, or fine) against a named GPAI provider under Article 55/56 of the AI Act. | **14%** | 25% | worldview |  2026-09-13 |
 | <a id="claim-20260704-001"></a>By 2026-09-15, an identifiable public document (AfCFTA Secretariat announcement on au-afcfta.org, government gazette, or press release from the Ministry of Trade/Industry in Kenya, Morocco, or Nigeria) uses the specific phrase 'Country Implementation Forum' or 'CIF' as a proper name AND names either a chairperson, a member roster, or terms of reference for the AfCFTA ADAPT CIF in at least one pilot country. | **42%** | 40% | world |  2026-09-15 |
+| <a id="claim-20260719-002"></a>The World Artificial Intelligence Cooperation Organization (WAICO) member or signatory count reported by an official Chinese government English-language source (english.news.cn, english.www.gov.cn, or an official WAICO communication) reaches 33 or more by 2026-09-15. | **62%** | 45% | world |  2026-09-15 |
 
 </details>
 
