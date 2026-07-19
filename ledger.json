@@ -1591,6 +1591,12 @@
      "direction": "against",
      "note": "CNBC Africa 2026-07-04: SA National AI Policy revised draft now expected at Cabinet November 2026, public release January 2027. Publicly-reported timeline overshoots the 2026-08-16 deadline by ~3 months. Signal: data/discovery/signals/2026-07-04-sa-ai-policy-cabinet-november-slippage.md.",
      "source_url": "https://www.cnbcafrica.com/2026/south-africa-pulls-ai-policy-after-hallucinated-citations-expose-drafting-scandal"
+    },
+    {
+     "date": "2026-07-19",
+     "direction": "against",
+     "note": "2026-07-19: SA DCDT expert-panel process timeline now published as revised draft to Cabinet November 2026, public release January 2027 (CADE Project update; SA expert panel announcement). The 2026-08-15 window will almost certainly disconfirm barring a schedule surprise.",
+     "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
     }
    ],
    "resolution": null
@@ -1909,7 +1915,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-19",
+     "direction": "against",
+     "note": "2026-07-19: WAICO founding roster (2026-07-16) includes 9 African founders - Algeria, Cameroon, Congo, Ethiopia, Kenya, Lesotho, Mozambique, Senegal, South Africa - but this is signing a multilateral cooperation agreement, NOT publishing a formal national AI strategy on a .gov domain. Signatures do not satisfy the update test. No new national strategies from AU states outside the published-strategy set observed this week.",
+     "source_url": "https://english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -2627,6 +2640,12 @@
      "direction": "against",
      "note": "CNBC Africa 2026-07-04: SA National AI Policy revised or finalized draft not expected before Cabinet November 2026, public release January 2027. Publicly-reported timeline overshoots the 2026-08-31 deadline by ~2 months. Signal: data/discovery/signals/2026-07-04-sa-ai-policy-cabinet-november-slippage.md.",
      "source_url": "https://www.cnbcafrica.com/2026/south-africa-pulls-ai-policy-after-hallucinated-citations-expose-drafting-scandal"
+    },
+    {
+     "date": "2026-07-19",
+     "direction": "against",
+     "note": "2026-07-19: DCDT expert-panel schedule: Cabinet Nov 2026 / public release Jan 2027 - misses the 2026-08-31 window. Superfund provision status separately unresolvable until the revised text is published.",
+     "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
     }
    ],
    "resolution": null
@@ -3479,7 +3498,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260618-002",
+     "relation": "shares-system",
+     "note": "BoE Bank Rate decision (2026-07-31) and UK CPI June print (2026-07-25) read the same UK inflation/monetary regime; CPI feeds the BoE reaction function four days later.",
+     "date": "2026-07-19T14:16:45Z"
+    }
+   ],
    "evidence": [
     {
      "date": "2026-07-16",
@@ -3554,7 +3580,20 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260618-005",
+     "relation": "sharpens",
+     "note": "Both track EU AI Office public output in the enforcement start window (2026-08-02 onward); 715-003 sharpens the target to Article 55 GPAI records specifically, with a longer tail (2026-09-13 vs 2026-08-30).",
+     "date": "2026-07-19T14:16:45Z"
+    },
+    {
+     "id": "claim-20260711-002",
+     "relation": "shares-system",
+     "note": "Both read the same EU AI Office enforcement-tempo question; 711-002 has a much longer window (2027-08-02) and asks about first formal enforcement action rather than any Article 55 record.",
+     "date": "2026-07-19T14:16:45Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -3588,7 +3627,20 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260620-002",
+     "relation": "probes",
+     "note": "Alphabet Q2-2026 release (2026-07-22) is the first fast instrument reading on the broader Big Five capex-guidance question (any Big Five raises Jul 23 - Aug 7); Alphabet's own guidance move is a leading indicator for the cohort.",
+     "date": "2026-07-19T14:16:46Z"
+    },
+    {
+     "id": "claim-20260610-011",
+     "relation": "sharpens",
+     "note": "20260610-011 asks whether any Big Five Q2 call raises capex guidance again; 718-001 sharpens to Alphabet Cloud growth (the segment whose demand story is what would justify a capex raise).",
+     "date": "2026-07-19T14:16:46Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -3621,7 +3673,26 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260620-002",
+     "relation": "probes",
+     "note": "Meta Q2 release (2026-07-29) is a direct probe of the Big Five capex-raise thesis; if Meta raises its full-year capex ceiling, 620-002 confirms via one member.",
+     "date": "2026-07-19T14:16:46Z"
+    },
+    {
+     "id": "claim-20260610-011",
+     "relation": "sharpens",
+     "note": "Same relation as 718-001: 610-011 is the cohort-level capex-raise question; 718-002 sharpens to Meta specifically, whose Q2 print sits inside the 610-011 Jul-Aug window.",
+     "date": "2026-07-19T14:16:46Z"
+    },
+    {
+     "id": "claim-20260610-008",
+     "relation": "shares-system",
+     "note": "Both read the hyperscaler AI capex allocation regime; 610-008 asks whether any Big Five will cut/flatten by 2027-04-30, 718-002 asks whether Meta specifically raises its ceiling in Q2 2026. A Meta raise weakens 610-008 (still expensive to cut later); a Meta hold or cut supports it.",
+     "date": "2026-07-19T14:16:46Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -3689,8 +3760,28 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
-   "evidence": [],
+   "related_to": [
+    {
+     "id": "claim-20260618-004",
+     "relation": "shares-system",
+     "note": "Both track the visible institutionalization of Global South AI-governance activity; -004 asks about new national strategies from AU states outside the current published set, -002 asks whether WAICO accession accelerates. Different instruments on the same underlying system.",
+     "date": "2026-07-19T14:16:46Z"
+    },
+    {
+     "id": "claim-20260610-015",
+     "relation": "opposes",
+     "note": "610-015 asks whether at least three jurisdictions outside the EU adopt EU-style AI regulation (i.e. governance convergence). WAICO's founding design explicitly rejects EU AI Act / OECD alignment. A growing WAICO signatory count is direct fragmentation evidence pushing against the convergence thesis in 610-015.",
+     "date": "2026-07-19T14:16:46Z"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-07-19",
+     "direction": "supports",
+     "note": "2026-07-19 baseline recorded: founding roster on 2026-07-16 announced 29 signatory nations per Xinhua English-language source; Al Jazeera, IOL corroborate. Threshold is 33 by 2026-09-15 - a further 4 accessions in 8 weeks required to confirm. WAICO messaging positions the count as expanding, but no additional signings reported this week.",
+     "source_url": "https://english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html"
+    }
+   ],
    "resolution": null
   }
  ],
