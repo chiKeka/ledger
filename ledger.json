@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19",
+ "updated": "2026-07-20",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -15,6 +15,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Productivity stats lag adoption by construction; concentration evidence (PwC/NBER signals) already strong. Risk: late-2026 statistical revision.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag",
     "Agent Gradient Model"
@@ -74,6 +76,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "SA precedent set, Kenya/Nigeria discussing; designation requires formal gazette action which moves slower than discourse.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Infrastructure Stack Model"
    ],
@@ -108,6 +112,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Omnibus/simplification signals from three independent scans; deregulatory momentum visible since May.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -184,6 +190,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Historical base rate: policy-first frameworks rarely cited as decisive in African DC siting; commercial logic dominated every 2025-26 announcement in corpus (Kasi, MTN-Genova, Equinix, MS-G42). ADAPT pilots are the live disconfirmation risk.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Infrastructure Stack Model"
    ],
@@ -218,6 +226,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Wachter w35290 implies the bet must show or unwind on a short fuse, but Big Five have absorbed flat productivity before without guiding down; 0.55 reflects genuine uncertainty between balance-sheet discipline and arms-race lock-in.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Agent Gradient Model"
    ],
@@ -258,6 +268,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Absorption Stack Model"
    ],
@@ -300,6 +312,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -441,6 +455,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.7,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Innovation Energy Cycle"
    ],
@@ -488,6 +504,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Strictly harder than the withdrawn 003 (no escape clause): if a renewal trigger emerges AND reallocation follows, this now fails. Dropped from 0.80 to 0.72 accordingly.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Reallocation Threshold",
     "Governance Cycle Renewal Gap"
@@ -516,6 +534,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Observable version is stricter than the withdrawn mechanism-claim's 0.80: a project can stall for absorption reasons without tripping the 6-month/50% thresholds. Dropped to 0.70.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Absorption Stack Model",
     "Cultural Adoption Filter"
@@ -563,6 +583,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Infrastructure Stack Model"
    ],
@@ -597,6 +619,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.2,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Consent Horizon"
    ],
@@ -631,6 +655,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -665,6 +691,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "European Commission AI Office publication on digital-strategy.ec.europa.eu or EU register dated on or before 2026-08-09 that explicitly addresses how the Digital Omnibus deferrals apply: confirmed if at least one such document is identifiable, disconfirmed if none exists by 2026-08-09 EOD CET.",
    "resolve_by": "2026-08-09",
@@ -716,6 +744,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Any company announcement, press coverage, or industry tracker note before 2026-08-09 indicating slip, scope cut, or financing gap at any of the four named projects: confirmed if >=1 such item identifiable, disconfirmed otherwise. A celebratory progress announcement does not count.",
    "resolve_by": "2026-08-09",
@@ -756,6 +786,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.85,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Federal Reserve press release on or about 2026-07-29 reporting the FOMC decision on the federal funds rate target range: confirmed if the upper bound of the target range is equal to or lower than the upper bound set at the prior (June 2026) meeting, disconfirmed if raised.",
    "resolve_by": "2026-07-30",
@@ -823,6 +855,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.25,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Reading each of the five firms' Q2-2026 calendar earnings press releases as published between 2026-07-15 and 2026-08-09: confirmed if any of the five reports a YoY decline in either reported revenue or adjusted (non-GAAP) EPS on a single-metric basis, disconfirmed if all five report YoY gains in both metrics.",
    "resolve_by": "2026-08-09",
@@ -855,6 +889,11 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.92,
+   "base_rate_source": null,
+   "market": {
+    "price": 0.978,
+    "source": "Polymarket 'Fed Decision in June?' 2026-06-11 snapshot ~97.8% hold; Kalshi/Polymarket aggregated ~96-98%."
+   },
    "frameworks": [],
    "update_test": "Federal Reserve press release on or about 2026-06-17 ~14:00 ET reporting the FOMC decision: confirmed if upper bound of target range == upper bound at 2026-04-29 (3.75%); disconfirmed otherwise.",
    "resolve_by": "2026-06-18",
@@ -884,6 +923,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.85,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "ECB monetary policy statement published 2026-07-23 ~14:15 CET: confirmed if Deposit Facility Rate >= 2.00% (current level set at the April 30 2026 meeting); disconfirmed if any of the three key rates is set below its current level (DF 2.00%, MRO 2.15%, MLF 2.40%).",
    "resolve_by": "2026-07-24",
@@ -940,6 +981,11 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.85,
+   "base_rate_source": null,
+   "market": {
+    "price": 0.88,
+    "source": "Consensus forecaster polls reported by Finance Calendar and Mortgage One (2026-06-12 snapshot); Bank of England MPC dates and prior-meeting 8-1 dissent record"
+   },
    "frameworks": [],
    "update_test": "Bank of England Monetary Policy Summary published 2026-06-18 at 12:00 BST: confirmed if the Bank Rate decision reported equals 3.75 percent (the prior-meeting level); disconfirmed if the rate is set above or below 3.75 percent.",
    "resolve_by": "2026-06-19",
@@ -985,6 +1031,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.6,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "FOMC Summary of Economic Projections PDF posted 2026-06-17 ~14:00 ET on federalreserve.gov: read the median 2026 year-end federal funds rate projection in the dot-plot table. Confirmed if the median 2026 year-end value is at or above 3.4 percent; disconfirmed if the median is below 3.4 percent.",
    "resolve_by": "2026-06-18",
@@ -1037,6 +1085,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.45,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-07-15 EOD UTC, identifiable public announcement (government press release, AfCFTA Secretariat communique, or partner press release) confirming each of three Country Implementation Forums has been formally established. Confirmed if announcements exist for ALL three of Kenya, Morocco, Nigeria; disconfirmed if at least one of the three has no public establishment announcement by the deadline.",
    "resolve_by": "2026-07-15",
@@ -1137,6 +1187,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.78,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "BoE Monetary Policy Summary or Minutes for the meeting ending 2026-06-18 (published at 12:00 noon GMT on 2026-06-18) shows at least 7 of 9 MPC members voting to maintain Bank Rate at 3.75 percent",
    "resolve_by": "2026-06-25",
@@ -1189,6 +1241,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.42,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-08-12, a document titled 'Nigeria National AI Strategy' (or close variant) is publicly available on an official .gov.ng domain (NITDA, FMCIDE, or equivalent), dated 2026",
    "resolve_by": "2026-08-12",
@@ -1230,6 +1284,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Infrastructure Stack Model"
    ],
@@ -1273,6 +1329,11 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.75,
+   "base_rate_source": null,
+   "market": {
+    "price": 0.92,
+    "source": "Canadian bond-market implied probability of no change cited by mortgage industry sources"
+   },
    "frameworks": [],
    "update_test": "Bank of Canada press release dated 2026-07-15 announcing the policy rate decision. Confirmed if the announced overnight rate target remains 2.25 percent; disconfirmed on any change (cut or hike) of 25bp or more.",
    "resolve_by": "2026-07-15",
@@ -1336,6 +1397,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Bank of Japan policy statement issued 2026-06-17 by approximately 12:00 JST. Confirmed if the announced short-term policy interest rate target is 1.00 percent (or its equivalent 0.95-1.00 percent corridor language); disconfirmed if rate is held at 0.75 percent or any other figure.",
    "resolve_by": "2026-06-17",
@@ -1374,6 +1437,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Innovation Energy Cycle"
    ],
@@ -1427,6 +1492,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Innovation Energy Cycle"
    ],
@@ -1462,6 +1529,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "BEA Personal Income and Outlays for May 2026, official table, core PCE (excl food and energy) year-over-year value at or above 3.2 percent",
    "resolve_by": "2026-06-26",
@@ -1499,6 +1568,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.45,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Eurostat euro area HICP flash estimate for June 2026 (release 2026-07-01) headline annual rate at or below 3.1 percent",
    "resolve_by": "2026-07-02",
@@ -1536,6 +1607,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Cultural Adoption Filter"
    ],
@@ -1615,6 +1688,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.7,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported headline unemployment rate (seasonally adjusted) is at or below 4.4 percent; disconfirmed if the reported headline unemployment rate is above 4.4 percent.",
    "resolve_by": "2026-07-04",
@@ -1653,6 +1728,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.7,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "BLS Employment Situation press release for June 2026 published on bls.gov on or about 2026-07-03 at 8:30 ET: confirmed if the reported total nonfarm payroll change (seasonally adjusted, initial release figure, not later revisions) is at or above +100,000; disconfirmed if the figure is below +100,000.",
    "resolve_by": "2026-07-04",
@@ -1690,6 +1767,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -1739,6 +1818,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.7,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Knowledge Gradient Model"
    ],
@@ -1794,6 +1875,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "ONS Consumer Prices Index release for June 2026 (scheduled approximately 2026-07-16 to 2026-07-22) shows the CPI 12-month rate (headline) at or above 2.8 percent (the May 2026 print)",
    "resolve_by": "2026-07-25",
@@ -1843,6 +1926,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.65,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Institute for Supply Management Services PMI headline composite index for June 2026 (release scheduled approximately 2026-07-06 at 10:00 ET on ismworld.org) prints at or above 50.0",
    "resolve_by": "2026-07-10",
@@ -1896,6 +1981,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.35,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Infrastructure Stack Model"
    ],
@@ -1939,6 +2026,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.6,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Cultural Adoption Filter"
    ],
@@ -1975,6 +2064,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-01, the Institute for Supply Management official June 2026 Manufacturing PMI release prints a headline Manufacturing PMI of 50.0 or higher. Confirmed if the headline reading is at or above 50.0, disconfirmed if below 50.0.",
    "resolve_by": "2026-07-03",
@@ -2013,6 +2104,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.48,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-06-30, the China National Bureau of Statistics official June 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
    "resolve_by": "2026-07-02",
@@ -2051,6 +2144,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.65,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-03 (one-day early due to Independence Day), the US Department of Labor weekly unemployment insurance claims release reports seasonally adjusted initial claims of fewer than 240,000 for the week ending 2026-06-27. Confirmed if printed value is below 240,000, disconfirmed if at or above 240,000.",
    "resolve_by": "2026-07-07",
@@ -2089,6 +2184,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-06-30 23:59 UTC, an identifiable public announcement (Kenyan, Moroccan, or Nigerian government press release, AfCFTA Secretariat communique, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement) confirms the formal establishment of an ADAPT Country Implementation Forum in at least one of Kenya, Morocco, or Nigeria. Confirmed if any one country has such an announcement on or before the deadline; disconfirmed if none.",
    "resolve_by": "2026-06-30",
@@ -2201,6 +2298,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Public confirmation of training start OR initial model card / interim artifact released on Domyn site, ec.europa.eu/digital-strategy news, or EuroHPC JU site between 2026-06-19 and 2026-08-31.",
    "resolve_by": "2026-08-31",
@@ -2245,6 +2344,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read Q2 2026 earnings call transcripts and 10-Q risk-factor sections for any of Alphabet, Amazon, Apple, Meta, Microsoft (released between 2026-07-23 and 2026-08-07). Any usage of 'sovereign AI', 'AI export controls', 'foreign-national access', 'AI sovereignty', or equivalent in the context of business risk or competitive strategy resolves confirmed.",
    "resolve_by": "2026-08-07",
@@ -2290,6 +2391,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read official Conference Board Consumer Confidence release dated 2026-06-30 at conference-board.org. Headline Index value at or below 99.0 resolves confirmed; above 99.0 resolves disconfirmed.",
    "resolve_by": "2026-06-30",
@@ -2332,6 +2435,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read official ADP NER release dated 2026-07-01 at adp.com / ADP Research Institute. Headline private-sector employment change below 100,000 resolves confirmed; at or above 100,000 resolves disconfirmed.",
    "resolve_by": "2026-07-01",
@@ -2374,6 +2479,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read official ONS GDP monthly estimate release dated 2026-07-16. Headline monthly real GDP MoM growth at or above 0.1 percent resolves confirmed; below 0.1 percent (including negative) resolves disconfirmed.",
    "resolve_by": "2026-07-16",
@@ -2409,6 +2516,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read BLS news release jolts.nr0.htm published 2026-06-30 reporting May 2026 headline total nonfarm job openings seasonally adjusted. Confirmed if reported headline is below 7.5 million; disconfirmed if at or above 7.5 million.",
    "resolve_by": "2026-07-01",
@@ -2444,6 +2553,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read U Michigan Surveys of Consumers final June 2026 report at sca.isr.umich.edu/reports.html dated 2026-06-26. Confirmed if headline Index of Consumer Sentiment final value is at or above 48.0; disconfirmed if below 48.0.",
    "resolve_by": "2026-06-27",
@@ -2486,6 +2597,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-07-01 23:59 UTC, S&P Dow Jones Indices publishes the April 2026 20-City Composite (NSA or SA) reading. Confirmed if y/y change <= 0.5 percent; disconfirmed if y/y change > 0.5 percent. Read from the spglobal.com index page or the official press release.",
    "resolve_by": "2026-07-01",
@@ -2521,6 +2634,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read U Michigan Surveys of Consumers preliminary July 2026 report at sca.isr.umich.edu/reports.html dated on or before 2026-07-18. Confirmed if headline Index of Consumer Sentiment preliminary value is at or above 50.0; disconfirmed if below 50.0.",
    "resolve_by": "2026-07-19",
@@ -2556,6 +2671,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-07-17 23:59 UTC, US Census Bureau publishes the Advance Monthly Sales for Retail and Food Services for June 2026 on census.gov/retail. Confirmed if headline total retail and food services MoM SA percent change is less than 0.5 percent; disconfirmed if 0.5 percent or higher.",
    "resolve_by": "2026-07-17",
@@ -2598,6 +2715,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.45,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, an official DCDT publication (gazette, ministerial statement, or press release on dcdt.gov.za or gcis.gov.za) presents a revised or finalized National AI Policy document. Confirmed if that document contains a clause or annex describing an AI Insurance Superfund or an equivalent pooled-liability instrument for AI deployers, however named. Disconfirmed if the document omits or replaces the Superfund clause with a standard conformity-assessment regime, or if no revised or finalized document appears by the deadline.",
    "resolve_by": "2026-08-31",
@@ -2664,6 +2783,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-08-06, BLS publishes Productivity and Costs Q2 2026 report at bls.gov/news.release/prod2.nr0.htm. Read the headline year-over-year nonfarm business sector labor productivity growth rate. Confirmed if that rate is at or above 2.5 percent; disconfirmed if below 2.5 percent.",
    "resolve_by": "2026-08-06",
@@ -2702,6 +2823,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.35,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-07-10 23:59 UTC, an identifiable public announcement (AfCFTA Secretariat communique on au-afcfta.org, Kenyan / Moroccan / Nigerian government press release, IOTA Foundation blog, Tony Blair Institute press release, or WEF announcement) confirms the formal establishment of an ADAPT Country Implementation Forum in at least one of Kenya, Morocco, or Nigeria. Confirmed if any one country has such an announcement on or before the deadline; disconfirmed if none.",
    "resolve_by": "2026-07-10",
@@ -2805,6 +2928,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-31, the China National Bureau of Statistics official July 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
    "resolve_by": "2026-08-02",
@@ -2836,6 +2961,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.35,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, an identifiable public source (Kasi Cloud press release, LinkedIn post by Kasi Cloud CEO or CTO, TechCabal / BusinessDay Nigeria / Techpoint interview, or a named-partner joint announcement) states either (a) a signed anchor-tenant contract with any customer for the Lekki campus or (b) a published utilization figure (percent of 5.5MW committed or of the 100MW planned). Confirmed if either (a) or (b) is public; disconfirmed if neither has surfaced by the deadline.",
    "resolve_by": "2026-08-31",
@@ -2887,6 +3014,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-14, the BLS Consumer Price Index News Release for June 2026 published on bls.gov reports the headline All items CPI-U 12-month percent change (not seasonally adjusted). Confirmed if the reported y/y print is at or below 4.0 percent; disconfirmed if above 4.0 percent.",
    "resolve_by": "2026-07-15",
@@ -2956,6 +3085,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-23, the NAR Existing-Home Sales News Release for June 2026 published on nar.realtor reports the headline total existing-home sales seasonally-adjusted annualized rate. Confirmed if the SAAR is at or above 4.0 million; disconfirmed if below 4.0 million.",
    "resolve_by": "2026-07-24",
@@ -2990,6 +3121,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, a public press release, official blog post, or SEC 8-K from Meta, Apple, or Alphabet announcing a named organizational unit for forward-deployed AI implementation engineering with either (a) a stated committed capital budget of USD 500 million or more, or (b) a stated headcount target of 2,000 forward-deployed engineers or more. Confirmed on the first such announcement from any of the three; disconfirmed if none by the deadline.",
    "resolve_by": "2026-08-31",
@@ -3032,6 +3165,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-08-30 23:59 UTC, at least one document published on digital-strategy.ec.europa.eu or ai-act-service-desk.ec.europa.eu labeled as GPAI/Article 55 guidance, FAQ, or interpretive note contains an explicit textual citation naming the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Confirmed if at least one such document exists with a named citation; disconfirmed if no such document is published or none contains a named citation.",
    "resolve_by": "2026-08-30",
@@ -3074,6 +3209,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "ISM Manufacturing PMI July 2026 report published 2026-08-01 approximately 10:00 ET on ismworld.org: confirmed if the headline composite index prints at or above 50.0; disconfirmed if it prints below 50.0.",
    "resolve_by": "2026-08-05",
@@ -3108,6 +3245,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Michigan Consumer Sentiment Index FINAL July 2026 release published 2026-07-25 approximately 10:00 ET at data.sca.isr.umich.edu (or Bloomberg/Reuters mirror). Confirmed if the reported FINAL headline Sentiment index value is strictly less than the PRELIMINARY July 2026 headline value; disconfirmed if the FINAL is greater than or equal to the PRELIMINARY.",
    "resolve_by": "2026-07-30",
@@ -3142,6 +3281,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-09-15 23:59 UTC, at least one identifiable public document from au-afcfta.org, a Kenyan/Moroccan/Nigerian government gazette or ministry press release page, the IOTA Foundation blog, the Tony Blair Institute press page, or a WEF release contains the phrase 'Country Implementation Forum' or 'CIF' as a proper name AND lists at least one of: chairperson, member roster, or terms of reference for the AfCFTA ADAPT CIF in Kenya, Morocco, or Nigeria. Confirmed if such a document exists on or before the deadline; disconfirmed if none.",
    "resolve_by": "2026-09-15",
@@ -3196,6 +3337,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.",
    "base_rate": 0.3,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2029-12-31, a named public consumer survey (Pew, Deloitte, Anthropic Economic Index, McKinsey, or equivalent) publishes a report showing >=15% primary-use local-model share among frequent-LLM-users, with methodology (sample size, definition of 'primary use', on-device criterion) named. Confirmed on publication meeting the threshold; disconfirmed if no such report by deadline.",
    "resolve_by": "2029-12-31",
@@ -3239,6 +3382,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.",
    "base_rate": 0.6,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -3292,6 +3437,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Hyperscaler multi-region rollouts historically hit at least half of announced sites within 24-30 months of first-hub announcement (AWS, Azure, GCP regional expansions 2015-2024). Confidence marginally above base to reflect Google's stated commitment and existing Johannesburg region as anchor. calibration 2026-07-07.",
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2028-12-31 23:59 UTC, publicly identifiable Google Cloud press releases, Google Cloud Africa blog posts, or reputable media coverage confirm at least two of the four announced Africa Digital Exchange Ports (South Africa Eastern Cape hub plus three additional locations) are in operational service (accepting traffic, not merely announced or under construction). Confirmed if two or more hubs reach operational status by the deadline; disconfirmed if only zero or one is operational.",
    "resolve_by": "2028-12-31",
@@ -3330,6 +3477,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "GDPR precedent: DPAs took 18-24 months from enforcement-power activation to first major action against a large tech provider. AI Office is smaller and building capacity. Twin priced below base to reflect the historical enforcement-lag pattern; the routine's rule 8b requires attribution here to be at registration or never, so leaving frameworks empty and letting the postmortem read it against base-rate direction. calibration 2026-07-07.",
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2027-08-02 23:59 UTC, an identifiable public document (EU AI Office press release on digital-strategy.ec.europa.eu, Commission Implementing Decision published in the Official Journal of the European Union, or Commission press release) records at least one formal Article 55 enforcement action against a named GPAI provider. Confirmed if any such document exists on or before the deadline; disconfirmed if no formal Article 55 enforcement action has been publicly recorded by then.",
    "resolve_by": "2027-08-02",
@@ -3374,6 +3523,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Historical hyperscaler follow-on pattern (Meta→Microsoft/Google in Ohio; Google→Amazon/Microsoft in Iowa) suggests ~0.55 base rate for a second announcement within 24 months; the 'cite Meta as comparable' clause narrows the confirmable surface, but Alberta's gas-firmed 1GW template is distinctive enough that any Canadian follow-on will reference it. Calibration 2026-07-07 bucket 50-59 correction +0.017 → 0.57.",
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Reallocation Threshold",
     "Infrastructure Stack Model"
@@ -3421,6 +3572,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-08-01, the BLS Employment Situation news release for July 2026 published on bls.gov reports the headline U-3 unemployment rate (seasonally adjusted). Confirmed if the reported rate is 4.2 percent or higher; disconfirmed if below 4.2 percent.",
    "resolve_by": "2026-08-08",
@@ -3452,6 +3605,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "On 2026-07-31, the BEA Personal Income and Outlays release for June 2026 published on bea.gov reports the headline PCE price index 12-month percent change (not core). Confirmed if 3.0 percent or higher; disconfirmed if below 3.0 percent.",
    "resolve_by": "2026-08-07",
@@ -3483,6 +3638,11 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Bucket 60-69 correction +0.011 applied to raw 0.68 gives 0.69; capped below the 0.72 market implied — twin is slightly less confident than the market that dissent stays contained. calibration 2026-07-12.",
    "base_rate": 0.6,
+   "base_rate_source": null,
+   "market": {
+    "price": 0.72,
+    "source": "Financial-market implied hold probability cited in HomeOwners Alliance / Reuters July previews"
+   },
    "frameworks": [],
    "update_test": "BoE MPC statement dated 2026-07-30 on bankofengland.co.uk. Confirmed if the reported Bank Rate remains 3.75 percent; disconfirmed if the committee changes the rate by 25bp or more in either direction.",
    "resolve_by": "2026-07-31",
@@ -3530,6 +3690,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Bucket 50-59 correction +0.017 applied to raw 0.55 gives 0.57. Twin barely above base, reflecting genuine two-sided uncertainty on the cut. calibration 2026-07-12.",
    "base_rate": 0.55,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "RBI Monetary Policy Statement dated 2026-08-06 on rbi.org.in. Confirmed if the announced policy repo rate remains 5.25 percent; disconfirmed if changed by 25bp or more in either direction.",
    "resolve_by": "2026-08-07",
@@ -3563,6 +3725,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Institutional Adaptation Lag (Bruno-active framework): formally-announced enforcement calendars routinely slip past their operational start dates because delivery lags the press cycle. Six-week window after enforcement start is very tight for a first formal action - direction down applied from base 0.25 to 0.14, an 11pp discount. Bucket 10-19 not in calibration data yet; raw estimate stands. calibration 2026-07-12.",
    "base_rate": 0.25,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "Institutional Adaptation Lag"
    ],
@@ -3611,6 +3775,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Twin 65 pct vs base 50 pct. The 60 percent threshold is 3 pp below Q1 63 percent - a modest deceleration would still clear it, while backlog nearly doubling sequentially argues for acceleration rather than deceleration. Cloud has outpaced hyperscaler peers (Azure ~31 pct) and demand has not saturated; capex reallocation guidance implies management sees another year of growth. Downside path is a supply-constrained print similar to Azure's stated capacity limits, plausible but not majority. 50-59 pct bucket correction 0.009 and 60-69 pct 0.017 (calibration 2026-07-17) leave the corrected estimate essentially unchanged.",
    "base_rate": 0.5,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read Alphabet Q2 2026 earnings press release, 10-Q, or earnings-call slide deck published on 2026-07-22 or 2026-07-23. Confirmed if the disclosed Google Cloud segment revenue year-over-year growth rate is 60.0 percent or above; disconfirmed if below 60.0 percent.",
    "resolve_by": "2026-08-01",
@@ -3658,6 +3824,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Twin 50 pct vs base 40 pct. Meta already raised guidance once this year (115-135 to 125-145 at Q1), so the base rate for a second raise in one year is materially below coin-flip; but Meta pattern under Zuckerberg is aggressive AI capacity commitment, and the July TradingKey coverage of the September Iris chip launch and Meta Compute rollout suggests further capacity build-out is being signalled ahead of the earnings call. The offsetting force is that management typically avoids raising a range twice in one year to preserve credibility. 50-59 pct bucket correction 0.009 (calibration 2026-07-17) leaves the corrected estimate at approximately 51 pct.",
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read Meta Q2 2026 earnings press release, 10-Q, and CFO commentary on the earnings call published 2026-07-29 or 2026-07-30. Confirmed if any of these documents state a full-year 2026 capex range whose upper bound (ceiling) is strictly greater than 145 billion USD; disconfirmed if the guidance ceiling is 145 billion USD or lower or if guidance is unchanged from the 125-145 billion USD range.",
    "resolve_by": "2026-08-05",
@@ -3710,6 +3878,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Raw 0.55 based on Apple historical revenue-beat pattern (~50-55 percent of quarters beat consensus by 1 percent or more) and current momentum (Services record in Q2, iPhone cycle intact). Applied calibration 2026-07-18 bucket 50-59 correction +0.032 to reach 0.58 corrected. Base rate 0.40 estimates the naive prior that Apple beats consensus by more than 1 billion USD (a beat crossing the 110.0B threshold requires an approx 1.1 percent beat).",
    "base_rate": 0.4,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "Read the Apple Q3 FY2026 8-K, press release, or investor letter published on Apple's investor relations site on 2026-07-30 (conference call at 5:00 pm ET). Confirmed if reported total net sales for the quarter equal or exceed 110.0 billion USD; disconfirmed if below 110.0 billion USD.",
    "resolve_by": "2026-07-31",
@@ -3744,6 +3914,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Raw 0.60 based on China's post-founding recruitment pattern in comparable multilateral organizations (SCO added 3 members within 2 years of founding; BRI cooperation initiatives added members steadily post-launch) and the explicit open-membership design. Applied calibration 2026-07-18 bucket 60-69 correction +0.017 to reach 0.617, rounded to 0.62. Base rate 0.45 estimates the naive prior for adding 4+ member states in 60 days given typical multilateral organization recruitment timelines. The 60-day window is short - the honest edge is small - and the outcome depends on whether China schedules a signing ceremony or public accession before mid-September.",
    "base_rate": 0.45,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [],
    "update_test": "By 2026-09-15 23:59 UTC, at least one official Chinese government English-language publication (english.news.cn, english.www.gov.cn, WAICO official communication) states or reports that the WAICO member or signatory count is 33 or greater. Confirmed if such a report is publicly retrievable; disconfirmed if the reported count as of 2026-09-15 remains between 29 and 32 inclusive.",
    "resolve_by": "2026-09-15",
@@ -3800,6 +3972,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "non-autonomous-state-space",
     "predictability-horizon",
@@ -3845,6 +4019,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "non-autonomous-state-space",
     "predictability-horizon",
@@ -3890,6 +4066,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "non-autonomous-state-space",
     "predictability-horizon",
@@ -3935,6 +4113,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "non-autonomous-state-space",
     "predictability-horizon",
@@ -3980,6 +4160,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "reference-class-forecasting",
     "fragility",
@@ -4026,6 +4208,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "reference-class-forecasting",
     "fragility",
@@ -4072,6 +4256,8 @@
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
    "base_rate": null,
+   "base_rate_source": null,
+   "market": null,
    "frameworks": [
     "reference-class-forecasting",
     "fragility",
@@ -4116,10 +4302,51 @@
    "twin": {
     "n": 28,
     "hit_rate": 0.75,
-    "brier": 0.18951071428571434,
-    "skill_vs_coinflip": 0.06048928571428566
+    "brier": 0.1895,
+    "skill_vs_coinflip": 0.0605
    }
   },
-  "bruno_committed_twin_numbered": 0
+  "bruno_committed_twin_numbered": 0,
+  "brier": 0.1895,
+  "skill_vs_coinflip": 0.0605,
+  "base_rate": {
+   "n": 28,
+   "brier_base": 0.2124,
+   "brier_twin": 0.1895,
+   "skill": 0.0229
+  },
+  "market": {
+   "n": 3,
+   "brier_market": 0.0071,
+   "brier_twin": 0.0088,
+   "skill": -0.0017
+  },
+  "non_echo": {
+   "n": 9,
+   "floor": 30,
+   "brier": 0.1914,
+   "skill_vs_base": 0.0397
+  },
+  "clusters": {
+   "effective_n": 24,
+   "brier_cluster_collapsed": 0.196
+  },
+  "ci": {
+   "skill_vs_coinflip": {
+    "lo": 0.0062,
+    "hi": 0.1131,
+    "distinguishable": true
+   },
+   "skill_vs_base_rate": {
+    "lo": -0.0081,
+    "hi": 0.0578,
+    "distinguishable": false
+   },
+   "skill_vs_market": {
+    "lo": -0.0059,
+    "hi": 0.0044,
+    "distinguishable": false
+   }
+  }
  }
 }
