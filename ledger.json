@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20",
+ "updated": "2026-07-22",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -60,6 +60,12 @@
      "direction": "supports",
      "note": "NBER w34995 (Mind the Gap) reports US labor productivity +0.5-1.3pp associated with worker AI adoption in 2026 with strongly heterogeneous distribution (concentrated in high-skill services/finance); NBER w34984 reports 42% firms view AI as too immature and 36% workforce untrained (year-end 2025). Firm-level heterogeneity matches claim; aggregate productivity signal remains diffuse consistent with 'no clear AI-driven gains through end-2026' compound reading. Concordant, not resolving.",
      "source_url": "https://www.nber.org/system/files/working_papers/w34995/w34995.pdf"
+    },
+    {
+     "date": "2026-07-21",
+     "direction": "supports",
+     "note": "NBER W34984 (Yotzov Barrero et al 2026) survey of ~750 corporate executives reports 2026 mean AI-driven labour productivity growth of 3.0 percent concentrated in high-skill services and finance, driven by revenue-based TFP not capital deepening. This is a firm-level yes that has not yet crossed to aggregate BLS statistics — the exact 'firm-level yes, aggregate no through 2026' pattern the claim asserts. Bearing evidence for.",
+     "source_url": "https://www.nber.org/papers/w34984"
     }
    ],
    "resolution": null
@@ -99,7 +105,14 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-21",
+     "direction": "supports",
+     "note": "Rest of World 2026-07 synthesis: Nigeria (CBN data-localisation mandate for payment data, effective Jan 2027), Kenya (cloud policy requiring govt data stored territorially), Egypt (draft policy), SA (withdrawn April 2026 draft) — all four largest African tech economies have policy language identifying data-centre/compute dependence as security risk. This is the pre-legislative motion toward 'critical infrastructure' designation. Bearing evidence for the two-more-states-designate claim.",
+     "source_url": "https://restofworld.org/2026/africa-ai-sovereignty-big-tech/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -585,6 +598,12 @@
      "direction": "supports",
      "note": "Nigeria first dedicated AI datacentres in Lekki and Ikeja: Equinix + MTN and partners committing close to $1B (Commonwealth Union coverage 2026-07). Africa Data Center Construction Market projection published 2026-07-15 names Nigeria and Kenya as rapidly emerging hyperscale hubs at 24.26 percent CAGR 2025-2031. This is supports-trajectory evidence, not the update-test fire: the update test requires operational status of a named 2026 project; commitment numbers are not build numbers. Kasi Cloud Lekki 100MW remains the specific named referent for the update test.",
      "source_url": "https://www.commonwealthunion.com/african-energy-week-2026-highlights-nigerias-ai-infrastructure-drive/"
+    },
+    {
+     "date": "2026-07-21",
+     "direction": "supports",
+     "note": "Rest of World synthesis (2026-07) names Nigeria, Kenya, Egypt and SA AI strategies as identifying US Big Tech dependence as a security risk. Piece explicitly cites Kasi Cloud Lekki and iXAfrica-Oracle Kenya as operational anchor projects, and Cassava-Nvidia SA AI factory (March 2026 launch). Named 2026 projects are progressing on the sovereignty-language track. Bearing evidence for the specific-project-progress claim.",
+     "source_url": "https://restofworld.org/2026/africa-ai-sovereignty-big-tech/"
     }
    ],
    "resolution": null
@@ -661,6 +680,12 @@
      "direction": "supports",
      "note": "EUROPA consortium selection 2026-06-19 (Domyn-led, >400B parameter open-source EU frontier model, 24 languages) is a confirming data point for sovereign-stack convergence: an EU jurisdiction has now adopted operator + compute-allocation + dated milestone shape rather than a principles document. Follows Chile LATAM-GPT (2026-02-10) and IndiaAI BharatGen as the third major non-US sovereign-stack instantiation.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grande-challenge-project-build-european"
+    },
+    {
+     "date": "2026-07-21",
+     "direction": "supports",
+     "note": "Google's June 2026 'A Pragmatic Approach to AI Governance in America' proposes FARO (Frontier AI Regulatory Organization); Hassabis 2026-07-14 essay makes FINRA analogy explicit — federally overseen, industry-funded SRO for frontier AI. Proposal made, not adopted. Bearing evidence that a US frontier-regulation vehicle is being publicly debated ahead of the claim's 2027-12-31 window; marginal support for the 3-jurisdictions-outside-EU claim.",
+     "source_url": "https://www.forbes.com/sites/lanceeliot/2026/07/07/diving-headfirst-into-the-google-newly-released-ai-governance-in-america-framework/"
     }
    ],
    "resolution": null
@@ -1001,6 +1026,12 @@
      "direction": "supports",
      "note": "ECB-Watch tool as of 2026-07-13: 88 percent market-implied probability of no change at the 2026-07-23 Governing Council decision; Deposit Facility Rate 2.25 percent (current level from June hike). Non-projection meeting favours a deliberate pause. Not resolved (decision 10 days out).",
      "source_url": "https://ecb-watch.eu/"
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "supports",
+     "note": "ECB Governing Council monetary policy meeting decision scheduled 2026-07-23 13:45 CET. As of 2026-07-22, ECB Deposit Facility Rate is 2.25 percent (raised from 2.00 percent at June 10-11 2026 meeting on Iran-war energy shock). Market commentary expects hold or hike, not cut; hike cycle recently resumed. Awaits mechanical resolution 2026-07-23.",
+     "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
     }
    ],
    "resolution": null
@@ -1314,6 +1345,12 @@
      "direction": "supports",
      "note": "Nigeria's National AI Strategy already exists as a formal document on official .gov.ng domain (NCAIR/NITDA): 2024-08-01 version at ncair.nitda.gov.ng/wp-content/uploads/2024/08/National-AI-Strategy_01082024-copy.pdf and a 2025-09-19 revised version at ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf. Public launch by Minister Bosun Tijani on 2026-04-20 at NAICI unveiling. INTERPRETIVE: claim text reads 'will publish' which suggests prospective formal release, but the artifact already meets the surface test of the update_test. Logging evidence; Sunday Reckoning to re-verify and possibly early-resolve.",
      "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "against",
+     "note": "NAIS 2025 was published September 2025 by FMCIDE/NITDA (five-year vision 2025-2029). Search returns no indication of a NEW 2026 formal document release scheduled by 2026-08-12. TunaniHQ policy brief April 2026 confirms the September 2025 document is the operative one. If claim reads on FRESH release, appears unlikely to resolve confirmed by the deadline.",
+     "source_url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-nais"
     }
    ],
    "resolution": null
@@ -1734,6 +1771,12 @@
      "direction": "against",
      "note": "2026-07-19: SA DCDT expert-panel process timeline now published as revised draft to Cabinet November 2026, public release January 2027 (CADE Project update; SA expert panel announcement). The 2026-08-15 window will almost certainly disconfirm barring a schedule surprise.",
      "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "against",
+     "note": "DCDT process design targets Cabinet submission November 2026 and public-comment publication January 2027. Both dates exceed the 2026-08-16 window. Original draft was formally retracted after AI-hallucinated references were found. Very unlikely to resolve confirmed.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -1954,7 +1997,7 @@
    "frameworks": [],
    "update_test": "ONS Consumer Prices Index release for June 2026 (scheduled approximately 2026-07-16 to 2026-07-22) shows the CPI 12-month rate (headline) at or above 2.8 percent (the May 2026 print)",
    "resolve_by": "2026-07-25",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-18T12:11:49Z",
@@ -1984,7 +2027,11 @@
    ],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-22T12:10:46Z",
+    "outcome": "disconfirmed",
+    "note": "ONS Consumer Prices Index UK: June 2026 released 2026-07-22 shows headline CPI 12-month rate at 2.6 percent, below the 2.8 percent threshold. May 2026 print was 2.8 percent; June printed 2.6 percent (down 0.2ppt), driven by transport (5.7 percent vs 6.8 percent May) and food (1.7 percent vs 2.2 percent May) moderation. Source: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/june2026"
+   }
   },
   {
    "id": "claim-20260618-003",
@@ -2875,6 +2922,12 @@
      "direction": "against",
      "note": "2026-07-19: DCDT expert-panel schedule: Cabinet Nov 2026 / public release Jan 2027 - misses the 2026-08-31 window. Superfund provision status separately unresolvable until the revised text is published.",
      "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "against",
+     "note": "DCDT process design targets submission of revised SA AI policy documents to Cabinet in November 2026, with target publication date for public comment of January 2027. Original draft was formally retracted (contained six AI-hallucinated references). Both timelines exceed the 2026-08-31 update test window. Very unlikely to resolve confirmed.",
+     "source_url": "https://www.itweb.co.za/article/sas-draft-ai-policy-officially-retracted/LPp6V7rBVwJ7DKQz"
     }
    ],
    "resolution": null
@@ -3226,7 +3279,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-22",
+     "direction": "supports",
+     "note": "NAR Existing-Home Sales June 2026 release scheduled 2026-07-23 at 10:00 ET. May 2026 print was 4.17 million SAAR (up 3.2 percent from April). Awaits release for mechanical resolution against 4.0M threshold.",
+     "source_url": "https://www.nar.realtor/newsroom/existing-home-sales-schedule"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3961,7 +4021,14 @@
      "date": "2026-07-19T14:16:46Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-22",
+     "direction": "supports",
+     "note": "Alphabet Q2 2026 earnings release scheduled 2026-07-22 after US market close (approx 20:00 UTC). Analyst consensus at register was approximately 63 percent Cloud growth (with one 70 percent upgrade). Some early search wire summaries reference 32 percent Cloud growth to 13.6B USD for the quarter; contradicted by other sources still previewing. Ambiguous at brief time (12:00 UTC) since the after-market-close release is still pending. Log evidence and wait for the Sunday Reckoning to verify the actual figure.",
+     "source_url": "https://www.marketbeat.com/earnings/reports/2026-7-21-alphabet-inc-stock/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4474,20 +4541,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 28,
-    "hit_rate": 0.75,
-    "brier": 0.1895,
-    "skill_vs_coinflip": 0.0605
+    "n": 29,
+    "hit_rate": 0.7241,
+    "brier": 0.1989,
+    "skill_vs_coinflip": 0.0511
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1895,
-  "skill_vs_coinflip": 0.0605,
+  "brier": 0.1989,
+  "skill_vs_coinflip": 0.0511,
   "base_rate": {
-   "n": 28,
-   "brier_base": 0.2124,
-   "brier_twin": 0.1895,
-   "skill": 0.0229
+   "n": 29,
+   "brier_base": 0.2155,
+   "brier_twin": 0.1989,
+   "skill": 0.0166
   },
   "market": {
    "n": 3,
@@ -4496,14 +4563,14 @@
    "skill": -0.0017
   },
   "non_echo": {
-   "n": 9,
+   "n": 10,
    "floor": 30,
-   "brier": 0.1914,
-   "skill_vs_base": 0.0397
+   "brier": 0.2185,
+   "skill_vs_base": 0.0198
   },
   "clusters": {
-   "effective_n": 24,
-   "brier_cluster_collapsed": 0.196
+   "effective_n": 25,
+   "brier_cluster_collapsed": 0.2066
   },
   "paired": {
    "n": 0,
@@ -4513,13 +4580,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0062,
-    "hi": 0.1131,
-    "distinguishable": true
+    "lo": -0.003,
+    "hi": 0.1043,
+    "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0081,
-    "hi": 0.0578,
+    "lo": -0.0147,
+    "hi": 0.0527,
     "distinguishable": false
    },
    "skill_vs_market": {
