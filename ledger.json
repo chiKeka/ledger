@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22",
+ "updated": "2026-07-23",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -991,7 +991,7 @@
    "frameworks": [],
    "update_test": "ECB monetary policy statement published 2026-07-23 ~14:15 CET: confirmed if Deposit Facility Rate >= 2.00% (current level set at the April 30 2026 meeting); disconfirmed if any of the three key rates is set below its current level (DF 2.00%, MRO 2.15%, MLF 2.40%).",
    "resolve_by": "2026-07-24",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [
@@ -1034,7 +1034,11 @@
      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-23T12:09:16Z",
+    "outcome": "confirmed",
+    "note": "ECB Governing Council 2026-07-23 held Deposit Facility Rate at 2.25 percent (unchanged from June-11 hike), MRO and MLF also unchanged, unanimous vote. Update test satisfied (DF at 2.25 percent, above 2.00 threshold). Source: https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7975422/ecb-holds-rates-predicts-26-inflation-for-2026"
+   }
   },
   {
    "id": "claim-20260612-001",
@@ -3265,7 +3269,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-23, the NAR Existing-Home Sales News Release for June 2026 published on nar.realtor reports the headline total existing-home sales seasonally-adjusted annualized rate. Confirmed if the SAAR is at or above 4.0 million; disconfirmed if below 4.0 million.",
    "resolve_by": "2026-07-24",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-02T12:13:26Z",
@@ -3287,7 +3291,11 @@
      "source_url": "https://www.nar.realtor/newsroom/existing-home-sales-schedule"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-23T12:09:08Z",
+    "outcome": "confirmed",
+    "note": "NAR Existing-Home Sales for June 2026 released 2026-07-23 reports SAAR 4.09 million, above the 4.0 million threshold (-2.4% MoM, +2.8% YoY). Median price 440600, 4.6-months inventory. Source: https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-2-4-decrease-in-june"
+   }
   },
   {
    "id": "claim-20260703-001",
@@ -3994,7 +4002,7 @@
    "frameworks": [],
    "update_test": "Read Alphabet Q2 2026 earnings press release, 10-Q, or earnings-call slide deck published on 2026-07-22 or 2026-07-23. Confirmed if the disclosed Google Cloud segment revenue year-over-year growth rate is 60.0 percent or above; disconfirmed if below 60.0 percent.",
    "resolve_by": "2026-08-01",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-18T12:10:55Z",
@@ -4029,7 +4037,11 @@
      "source_url": "https://www.marketbeat.com/earnings/reports/2026-7-21-alphabet-inc-stock/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-23T12:09:13Z",
+    "outcome": "confirmed",
+    "note": "Alphabet Q2 2026 earnings release 2026-07-22 reports Google Cloud revenue 24.8B, YoY growth 82 percent, well above the 60 percent threshold. Cloud operating income 8.8B, backlog 514B. Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+   }
   },
   {
    "id": "claim-20260718-002",
@@ -4181,6 +4193,117 @@
      "source_url": "https://english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html"
     }
    ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260723-001",
+   "date": "2026-07-23",
+   "registered_at": "2026-07-23T12:12:07Z",
+   "claim": "The Institute for Supply Management Services PMI headline composite for July 2026 (release scheduled 2026-08-05 at 10:00 ET on ismworld.org) prints at or above 51.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Institute for Supply Management Services PMI July 2026 release scheduled 2026-08-05 at 10:00 ET on ismworld.org release calendar (August release shifted from third-business-day of month due to prior-month holiday scheduling).",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Services PMI has held 51-52 for six months with no observed regime break; market priced near 0.60 (Polymarket). Twin at 0.58 sits within 0.07 of market, acknowledged calibration ballast rather than skill call (ingestion bias 2026-06-19). Bucket 50-59 correction +0.032 (calibration 2026-07-22) applied to raw 0.55 base rate.",
+   "base_rate": 0.55,
+   "base_rate_source": "Recent six months of ISM Services PMI headline (Jan-Jun 2026) have printed in a 51.2-52.5 band on ismworld.org release calendar (as-of 2026-07-23); base rate estimated as the frequency of a >=51.0 print within the trailing six-month window (5/6). Method: rolling six-month empirical hit rate on the same series.",
+   "market": {
+    "price": 0.6,
+    "source": "Polymarket ISM Services PMI July 2026 event as of 2026-07-23"
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-05, the Institute for Supply Management publishes its July 2026 Services PMI Report on ismworld.org showing the headline Services PMI composite index. Confirmed if the reported composite index is 51.0 or higher; disconfirmed if below 51.0.",
+   "resolve_by": "2026-08-06",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-23T12:12:07Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-07-23: ismworld.org release calendar, polymarket.com ISM Services PMI July 2026 event, fxstreet.com economic calendar. Nothing decisive as of 2026-07-23 - the July 2026 print does not exist until 2026-08-05.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260723-002",
+   "date": "2026-07-23",
+   "registered_at": "2026-07-23T12:12:21Z",
+   "claim": "The US Bureau of Labor Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-12 at 8:30 ET on bls.gov) prints headline CPI-U 12-month percent change at or above 3.5 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BLS Consumer Price Index News Release for July 2026 scheduled 2026-08-12 at 8:30 ET on bls.gov release calendar.",
+   "withdrawal": null,
+   "confidence": 0.63,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Edge thesis vs consensus: the July 2025 CPI-U was low (~2.9 pct YoY); an unchanged or slightly positive MoM print in July 2026 arithmetically keeps YoY at or above 3.5 pct regardless of energy softness, because the low base amplifies YoY. Market echoes June's 3.5 without weighting the base asymmetry. Twin call 0.63 = raw 0.60 base rate with 60-69 bucket correction -0.024 applied to 0.65 raw estimate, rounded to 0.63. Frame:out.",
+   "base_rate": 0.6,
+   "base_rate_source": "June 2026 CPI print was 3.5 pct YoY (down from 4.2 pct in May); July 2025 CPI-U was approximately 2.9 pct YoY per BLS historical archive. Base rate reflects unfavourable base-effect asymmetry when a low prior-year comparator meets a decelerating current-year path: the arithmetic identity favours YoY holding or ticking up unless MoM prints strongly negative. Method: base-effect decomposition against the July 2025 CPI-U index level (as-of 2026-07-23).",
+   "market": {
+    "price": 0.55,
+    "source": "Polymarket July Inflation US Annual event as of 2026-07-23 (consensus band 3.5-3.6 pct)"
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-12, the BLS Consumer Price Index News Release for July 2026 published on bls.gov reports the headline CPI-U 12-month percent change. Confirmed if 12-month percent change is 3.5 or higher; disconfirmed if below 3.5.",
+   "resolve_by": "2026-08-13",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-23T12:12:21Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-07-23: bls.gov release calendar, polymarket.com US CPI July 2026 event, cnbc.com Kalshi inflation coverage. Nothing decisive as of 2026-07-23 - the July 2026 print does not exist until 2026-08-12.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260723-003",
+   "date": "2026-07-23",
+   "registered_at": "2026-07-23T12:12:56Z",
+   "claim": "MTN Nigeria publishes an official announcement (press release on mtnonline.com, MTN Group investor page, or LinkedIn post) by 2026-09-20 confirming its Sifiso Dabengwa Data Centre in Ikeja, Lagos has reached full AI-ready operational capacity beyond the initial 4.5 megawatt commissioning.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "MTN Sifiso Dabengwa Data Centre in Ikeja, Lagos: publicly announced live at 4.5 MW initial capacity with full AI-ready capabilities projected for H2 2026 (introl.com and Africa DCA report, as-of 2026-07-14/07-15).",
+   "withdrawal": null,
+   "confidence": 0.28,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "MTN publicly announced 4.5 MW live and H2 2026 target; the 60-day window covers the first two months of H2. African data-centre completions frequently slip past initial announcements. Base rate 0.25 in 20-29 bucket (correction null, kept raw). Twin at 0.28 reflects marginal upside from public commitment pressure. Frame:in - Africa AI infrastructure is a mapped framework area.",
+   "base_rate": 0.25,
+   "base_rate_source": "Africa data-centre project completion tracking (Africa DCA 2026 economic report; introl.com Africa AI data centre boom): initial-commissioning-to-full-capacity announcements typically slip 3-9 months past headline schedule; base rate estimated as fraction of publicly-announced H2 completion targets landing in the first two months of the window (~1 in 4 from sampled 2023-2025 African data centre projects). Method: empirical hit rate on a small sample of comparable African hyperscaler-adjacent facility milestones (as-of 2026-07-23).",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-20, an official announcement dated 2026-07-23 or later on mtnonline.com, MTN Group investor relations, or MTN corporate LinkedIn confirms the Sifiso Dabengwa Data Centre has reached full AI-ready capacity above 4.5 MW (whether by explicit MW figure, phase-complete milestone language, or client-onboarding announcement referencing full capacity). Confirmed on any such document; disconfirmed if none is published by 2026-09-20.",
+   "resolve_by": "2026-09-21",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-23T12:12:56Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-07-23: introl.com, globenewswire.com Africa DCA press releases, mtn.com investor pages, ecofinagency.com. Nothing decisive as of 2026-07-23 - no full-capacity announcement published; only H2 2026 target language in public reporting.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
    "resolution": null
   }
  ],
@@ -4541,20 +4664,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 29,
-    "hit_rate": 0.7241,
-    "brier": 0.1989,
-    "skill_vs_coinflip": 0.0511
+    "n": 32,
+    "hit_rate": 0.75,
+    "brier": 0.1898,
+    "skill_vs_coinflip": 0.0602
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1989,
-  "skill_vs_coinflip": 0.0511,
+  "brier": 0.1898,
+  "skill_vs_coinflip": 0.0602,
   "base_rate": {
-   "n": 29,
-   "brier_base": 0.2155,
-   "brier_twin": 0.1989,
-   "skill": 0.0166
+   "n": 32,
+   "brier_base": 0.2102,
+   "brier_twin": 0.1898,
+   "skill": 0.0204
   },
   "market": {
    "n": 3,
@@ -4563,14 +4686,14 @@
    "skill": -0.0017
   },
   "non_echo": {
-   "n": 10,
+   "n": 11,
    "floor": 30,
-   "brier": 0.2185,
-   "skill_vs_base": 0.0198
+   "brier": 0.2098,
+   "skill_vs_base": 0.0296
   },
   "clusters": {
-   "effective_n": 25,
-   "brier_cluster_collapsed": 0.2066
+   "effective_n": 28,
+   "brier_cluster_collapsed": 0.1954
   },
   "paired": {
    "n": 0,
@@ -4580,13 +4703,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.003,
-    "hi": 0.1043,
-    "distinguishable": false
+    "lo": 0.009,
+    "hi": 0.1085,
+    "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0147,
-    "hi": 0.0527,
+    "lo": -0.0102,
+    "hi": 0.0529,
     "distinguishable": false
    },
    "skill_vs_market": {

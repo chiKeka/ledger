@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 21✓ · 8✗ · 0◐ · 49 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-12-31 (2 due by end-2026, 7 by mid-2027) · Brier 0.199 (coin-flip = 0.250; 29 scored across 25 independent events, cluster-collapsed Brier 0.207), skill vs coin-flip +0.051 (95% CI -0.003..+0.104; not yet distinguishable from zero) · skill vs base rate +0.017 (95% CI -0.015..+0.053; not yet distinguishable from zero) (n=29 carrying a recorded base rate) · skill vs market -0.002 (95% CI -0.006..+0.004; not yet distinguishable from zero) (n=3 with a listed market price) · non-echo record: n=10 of 29 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 24✓ · 8✗ · 0◐ · 49 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-12-31 (2 due by end-2026, 7 by mid-2027) · Brier 0.190 (coin-flip = 0.250; 32 scored across 28 independent events, cluster-collapsed Brier 0.195), skill vs coin-flip +0.060 (95% CI +0.009..+0.108) · skill vs base rate +0.020 (95% CI -0.010..+0.053; not yet distinguishable from zero) (n=32 carrying a recorded base rate) · skill vs market -0.002 (95% CI -0.006..+0.004; not yet distinguishable from zero) (n=3 with a listed market price) · non-echo record: n=11 of 32 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✗ "UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 perce" — said 68%, resolved disconfirmed (2026-07-22)**
+**Latest: ✓ "The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lendin" — said 85%, resolved confirmed (2026-07-23)**
 
-_Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -32,19 +32,17 @@ _Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | **85%** | 85% | world |  2026-07-24 |
-| <a id="claim-20260702-002"></a>US National Association of Realtors Existing-Home Sales for June 2026 (release scheduled 2026-07-23 at 10:00 ET) prints total existing-home sales seasonally-adjusted annualized rate (SAAR) at or above 4.0 million. | **60%** | 55% | world |  2026-07-24 |
 | <a id="claim-20260610-019"></a>The US Federal Reserve FOMC will NOT raise the federal funds rate target range at its 2026-07-28/29 meeting (hold or cut, but not raise). | **88%** | 85% | world |  2026-07-30 |
 | <a id="claim-20260703-004"></a>The University of Michigan Consumer Sentiment Index FINAL July 2026 release (scheduled 2026-07-25 at 10:00 ET) prints at a value LOWER than the July 2026 PRELIMINARY release (scheduled 2026-07-18 at 10:00 ET). | **42%** | 50% | world |  2026-07-30 |
 | <a id="claim-20260715-001"></a>The Bank of England Monetary Policy Committee will hold the Bank Rate at 3.75 percent (no change from its 2026-06 hold) at its rate decision scheduled for 2026-07-30. | **69%** | 60% | world |  2026-07-31 |
 | <a id="claim-20260719-001"></a>Apple Inc. Q3 fiscal year 2026 total net sales as reported in the earnings press release on 2026-07-30 are at or above 110.0 billion USD. | **58%** | 40% | world |  2026-07-31 |
 | <a id="claim-20260618-001"></a>Bank of Japan holds policy rate at 1.0 percent at its July 30-31 2026 Monetary Policy Meeting (no change from the May 2026 hike to 1.0 percent) | **74%** | 70% | world |  2026-08-01 |
-| <a id="claim-20260718-001"></a>Alphabet Q2 2026 earnings release (scheduled 2026-07-22) reports Google Cloud segment year-over-year revenue growth at or above 60 percent. | **65%** | 50% | world |  2026-08-01 |
 | <a id="claim-20260701-004"></a>China National Bureau of Statistics Manufacturing PMI for July 2026 (scheduled release 2026-07-31) prints at or above 50.0. | **50%** | 55% | world |  2026-08-02 |
 | <a id="claim-20260615-002"></a>US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive | **62%** | 50% | world |  2026-08-05 |
 | <a id="claim-20260703-003"></a>The Institute for Supply Management Manufacturing PMI headline composite index for July 2026 (release scheduled 2026-08-01 at 10:00 ET on ismworld.org) prints at or above 50.0 (signaling expansion). | **45%** | 50% | world |  2026-08-05 |
 | <a id="claim-20260718-002"></a>Meta Platforms Q2 2026 earnings release (scheduled 2026-07-29) raises full-year 2026 capital expenditure guidance ceiling above 145 billion USD. | **50%** | 40% | world |  2026-08-05 |
 | <a id="claim-20260701-002"></a>BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth at or above 2.5 percent. | **30%** | 30% | world |  2026-08-06 |
+| <a id="claim-20260723-001"></a>The Institute for Supply Management Services PMI headline composite for July 2026 (release scheduled 2026-08-05 at 10:00 ET on ismworld.org) prints at or above 51.0. | **58%** | 55% | world |  2026-08-06 |
 | <a id="claim-20260620-002"></a>Between 2026-07-23 and 2026-08-07, at least one of the Big Five US tech firms (Alphabet, Amazon, Apple, Meta, Microsoft) cites 'sovereign AI', 'AI export controls', or 'foreign-national access restrictions' as a material business risk or strategic consideration on their Q2 2026 earnings call or accompanying 10-Q. | **78%** | 55% | worldview |  2026-08-07 |
 | <a id="claim-20260714-002"></a>US Bureau of Economic Analysis Personal Consumption Expenditures Price Index for June 2026 (scheduled release 2026-07-31 at 8:30 ET, bea.gov) prints headline PCE 12-month percent change at or above 3.0 percent. | **57%** | 50% | world |  2026-08-07 |
 | <a id="claim-20260715-002"></a>The Reserve Bank of India Monetary Policy Committee will hold the policy repo rate at 5.25 percent at its August 4-6 2026 meeting (decision announced 2026-08-06). | **57%** | 55% | world |  2026-08-07 |
@@ -54,6 +52,7 @@ _Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
 | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | **38%** | 42% | world |  2026-08-12 |
 | <a id="claim-20260613-003"></a>By 2026-08-12, at least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly publish a formal regulatory framework or pilot specification governing digital-currency or stablecoin settlements explicitly under the ADAPT initiative | **28%** | 30% | worldview |  2026-08-12 |
+| <a id="claim-20260723-002"></a>The US Bureau of Labor Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-12 at 8:30 ET on bls.gov) prints headline CPI-U 12-month percent change at or above 3.5 percent. | **63%** | 60% | world |  2026-08-13 |
 | <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | **75%** | 70% | worldview |  2026-08-15 |
 | <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | **42%** | 35% | worldview |  2026-08-15 |
 | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | **30%** | 30% | worldview |  2026-08-16 |
@@ -66,6 +65,7 @@ _Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260715-003"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-09-13, the European Commission AI Office publicly records at least one formal enforcement action (opening decision, information request, formal notice, or fine) against a named GPAI provider under Article 55/56 of the AI Act. | **14%** | 25% | worldview |  2026-09-13 |
 | <a id="claim-20260704-001"></a>By 2026-09-15, an identifiable public document (AfCFTA Secretariat announcement on au-afcfta.org, government gazette, or press release from the Ministry of Trade/Industry in Kenya, Morocco, or Nigeria) uses the specific phrase 'Country Implementation Forum' or 'CIF' as a proper name AND names either a chairperson, a member roster, or terms of reference for the AfCFTA ADAPT CIF in at least one pilot country. | **42%** | 40% | world |  2026-09-15 |
 | <a id="claim-20260719-002"></a>The World Artificial Intelligence Cooperation Organization (WAICO) member or signatory count reported by an official Chinese government English-language source (english.news.cn, english.www.gov.cn, or an official WAICO communication) reaches 33 or more by 2026-09-15. | **62%** | 45% | world |  2026-09-15 |
+| <a id="claim-20260723-003"></a>MTN Nigeria publishes an official announcement (press release on mtnonline.com, MTN Group investor page, or LinkedIn post) by 2026-09-20 confirming its Sifiso Dabengwa Data Centre in Ikeja, Lagos has reached full AI-ready operational capacity beyond the initial 4.5 megawatt commissioning. | **28%** | 25% | worldview |  2026-09-21 |
 
 </details>
 
@@ -73,6 +73,9 @@ _Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | 85% | confirmed (2026-07-23) | ECB Governing Council 2026-07-23 held Deposit Facility Rate at 2.25 percent (unchanged from June-11 hike), MRO and MLF also unchanged, unanimous vote. Update test satisfied (DF at 2.25 percent, above 2.00 threshold). Source: https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7975422/ecb-holds-rates-predicts-26-inflation-for-2026 |
+| ✓ | <a id="claim-20260718-001"></a>Alphabet Q2 2026 earnings release (scheduled 2026-07-22) reports Google Cloud segment year-over-year revenue growth at or above 60 percent. | 65% | confirmed (2026-07-23) | Alphabet Q2 2026 earnings release 2026-07-22 reports Google Cloud revenue 24.8B, YoY growth 82 percent, well above the 60 percent threshold. Cloud operating income 8.8B, backlog 514B. Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm |
+| ✓ | <a id="claim-20260702-002"></a>US National Association of Realtors Existing-Home Sales for June 2026 (release scheduled 2026-07-23 at 10:00 ET) prints total existing-home sales seasonally-adjusted annualized rate (SAAR) at or above 4.0 million. | 60% | confirmed (2026-07-23) | NAR Existing-Home Sales for June 2026 released 2026-07-23 reports SAAR 4.09 million, above the 4.0 million threshold (-2.4% MoM, +2.8% YoY). Median price 440600, 4.6-months inventory. Source: https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-2-4-decrease-in-june |
 | ✗ | <a id="claim-20260618-002"></a>UK CPI 12-month rate for June 2026 prints at or above 2.8 percent (matching or exceeding the May 2026 print of 2.8 percent) | 68% | disconfirmed (2026-07-22) | ONS Consumer Prices Index UK: June 2026 released 2026-07-22 shows headline CPI 12-month rate at 2.6 percent, below the 2.8 percent threshold. May 2026 print was 2.8 percent; June printed 2.6 percent (down 0.2ppt), driven by transport (5.7 percent vs 6.8 percent May) and food (1.7 percent vs 2.2 percent May) moderation. Source: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/june2026 |
 | ✓ | <a id="claim-20260627-001"></a>University of Michigan Consumer Sentiment Index PRELIMINARY July 2026 release (scheduled 2026-07-18) prints at or above 50.0 (headline ICS, preliminary). | 58% | confirmed (2026-07-18) | U Michigan Surveys of Consumers preliminary July 2026 headline Index of Consumer Sentiment printed 54.4 (2026-07-18 release), above the 50.0 threshold; rose 9.9 percent from June final 49.5, five-month high. Frame:out, no framework attributed at registration. Multiple concurrent sources (sca.isr.umich.edu; Xinhua 20260718; investinglive.com; floordaily.net July prelim summary). |
 | ✓ | <a id="claim-20260627-002"></a>US Census Advance Monthly Retail Sales for June 2026 (release scheduled 2026-07-16 at 8:30 AM ET) prints month-over-month change in headline total retail and food services sales (seasonally adjusted) BELOW 0.5 percent (i.e., a notable deceleration from May 2026's 0.9 percent MoM). | 62% | confirmed (2026-07-17) | US Census Advance Monthly Sales for Retail and Food Services June 2026 released 2026-07-16 08:30 ET: total retail and food services sales USD 768.6 billion, +0.2 percent MoM SA. 0.2 < 0.5 threshold => update test unambiguously confirmed. May 2026 revised up from 0.9 to 1.0 percent, so the June deceleration is a full 0.8 pp step-down against a stronger prior print. https://www.census.gov/retail/marts/www/marts_current.pdf. Twin confidence 62 pct vs base rate 55 pct; a 7 pp edge that resolved on the confirm side. |
@@ -112,9 +115,9 @@ _Updated 2026-07-22 · [how this works](#how-this-works) · by [@Chikeka](https:
 | 30-39% | 1 | 0% |
 | 40-49% | 3 | 100% |
 | 50-59% | 8 | 62% |
-| 60-69% | 7 | 57% |
+| 60-69% | 9 | 67% |
 | 70-79% | 6 | 83% |
-| 80-89% | 1 | 100% |
+| 80-89% | 2 | 100% |
 | 90-99% | 3 | 100% |
 
 ### Split by frame
@@ -124,7 +127,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 4 | 25% | 0.253 | -0.003 | too few to read (n < 5) |
-| world (frame:out) | 25 | 80% | 0.190 | +0.060 | readable |
+| world (frame:out) | 28 | 82% | 0.181 | +0.069 | readable |
 
 ## The workshop
 
