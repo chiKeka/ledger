@@ -4346,6 +4346,82 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260724-001",
+   "date": "2026-07-24",
+   "registered_at": "2026-07-24T12:12:49Z",
+   "claim": "China National Bureau of Statistics official Manufacturing PMI for July 2026 (release scheduled 2026-07-31 at 01:30 UTC) prints at or above 50.0, indicating expansion.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "China NBS Manufacturing PMI June 2026 printed 50.3 (third consecutive month above 50 in 2026), supported by high-tech manufacturing exports linked to the AI boom while domestic demand remains subdued. Historical July seasonal weakness typically brings a 0.3-0.5 pp decline from June - July 2025 fell 0.4 pp from June to 49.3. July 2026 release scheduled 2026-07-31, ~01:30 UTC per stats.gov.cn calendar.",
+   "withdrawal": null,
+   "confidence": 0.42,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "base_rate_source": "NBS Manufacturing PMI July prints 2020-2025, computed from stats.gov.cn press releases: three of last six Julys printed above 50, three below (July 2025 49.3, July 2024 49.4, July 2023 49.3, July 2022 49.0, July 2021 50.4, July 2020 51.1); as of 2026-07-24. Seasonal Chinese factory activity typically weakens Jun-to-Jul.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Read the National Bureau of Statistics of China press release for the July 2026 Manufacturing PMI on stats.gov.cn on or about 2026-07-31 at 01:30 UTC. Confirmed if the headline official Manufacturing PMI figure is 50.0 or above; disconfirmed if below 50.0.",
+   "resolve_by": "2026-08-03",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-24T12:12:49Z",
+    "auditor": "twin",
+    "note": "Searched stats.gov.cn, tradingeconomics, china-briefing.com, and 2026-07-24 wire coverage: no PMI print released and no leaked figure surfaced. Analyst previews range 49.8-50.2, no consensus above 50; no liquid market on Kalshi or Polymarket for a threshold at 50.",
+    "queries": [
+     "China NBS Manufacturing PMI July 2026 forecast",
+     "China manufacturing PMI historical July pattern"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260724-002",
+   "date": "2026-07-24",
+   "registered_at": "2026-07-24T12:13:07Z",
+   "claim": "Amazon Q2 2026 earnings release (scheduled 2026-07-30 after US market close) discloses a revised full-year 2026 capital-expenditure guidance point or upper bound at or above 215 billion USD (up from the prior disclosed roughly 200 billion USD figure).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "As of 2026-07-24 Amazon has publicly committed to approximately 200B USD in FY 2026 capital expenditure. Alphabet raised FY 2026 capex to 195-205B (from 180-190B) on 2026-07-23; Meta raised to 125-145B (from 115-135B) earlier this quarter. BofA analyst Justin Post forecasts an Amazon raise to ~210B in this release citing memory-cost pressure; no reputable analyst has forecast 215B+. Amazon Q1 FCF collapsed 95 pct YoY to 1.2B on 43.2B quarterly capex, so a substantial upward revision is not free.",
+   "withdrawal": null,
+   "confidence": 0.3,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "base_rate_source": "Amazon quarterly capex-guidance-raise magnitudes 2023 Q1 through 2026 Q1 (n=13): five raises, two mid-single-digit percentage increases, none exceeded a 15 pct FY revision to date; a raise to 215B from 200B is 7.5 pct, near historical top decile. Computed from Amazon 10-Q filings and earnings-call transcripts on ir.aboutamazon.com; as of 2026-07-24.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Read the Amazon Q2 2026 earnings press release, 10-Q, and earnings-call transcript published 2026-07-30 after US market close. Confirmed if any of those three documents discloses a full-year 2026 total capital-expenditure guidance point or upper bound at or above 215.0 billion USD. Disconfirmed if the maximum disclosed FY 2026 capex figure remains below 215.0 billion USD, including the case where guidance is reiterated at ~200 billion USD.",
+   "resolve_by": "2026-08-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-24T12:13:07Z",
+    "auditor": "twin",
+    "note": "Searched Amazon investor relations, TipRanks, Motley Fool, Investing.com, Finance Calendar, Foreign Policy Journal, 24/7 Wall St., Morningstar 2026-07-24 coverage: no Amazon earnings release published, no leaked capex figure surfaced. Consensus preview centers on revenue 194-199B, EPS ~1.82; BofA is the most explicit capex-forecast at ~210B. No liquid market on Kalshi or Polymarket for a 215B threshold.",
+    "queries": [
+     "Amazon Q2 2026 earnings July 30 capex guidance analyst preview",
+     "Amazon 2026 capex forecast BofA 210 billion"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
