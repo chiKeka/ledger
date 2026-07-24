@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23",
+ "updated": "2026-07-24",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -491,7 +491,7 @@
    ],
    "update_test": "Earnings transcripts by 2026-08-15: any explicit upward revision of FY capex guidance tied to AI/data centres",
    "resolve_by": "2026-08-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [],
@@ -517,7 +517,11 @@
      "source_url": "https://www.sturgeoncounty.ca/news-release-meta-makes-historic-investment-in-alberta/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-24T12:11:03Z",
+    "outcome": "confirmed",
+    "note": "Alphabet Q2 2026 earnings released 2026-07-22 (after close) and 10-Q filed 2026-07-23 explicitly raise full-year 2026 capital-expenditure guidance to 195-205 billion USD from prior 180-190 billion USD, attributing the increase to faster AI capacity expansion and Google Cloud AI-infrastructure demand (Cloud revenue +82 pct YoY to 24.8B; backlog 514B). Management additionally guided that 2027 capex 'will increase significantly' beyond 2026 levels. This is the first Big Five Q2 earnings call in the Jul-Aug window and it explicitly satisfies the update test's requirement of an upward revision of FY capex guidance tied to AI/data centres. Source: https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf ; SEC filing https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm ; Motley Fool coverage https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-alphabet-slides-7-after-announcing-2026-capex-of-roughly-usd200-billion/"
+   }
   },
   {
    "id": "claim-20260610-012",
@@ -894,6 +898,12 @@
      "direction": "supports",
      "note": "As of 2026-07-10, market consensus and analyst commentary expect the FOMC to hold the federal funds rate at 3.50-3.75% at the 2026-07-28/29 meeting — the fifth consecutive hold under new Chair Kevin Warsh, with no SEP scheduled for July. Bearing evidence for 'no hike'; final resolution awaits decision.",
      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "supports",
+     "note": "As of 2026-07-24 CME FedWatch and analyst consensus solidified around no change at the FOMC 2026-07-28/29 meeting; policymakers expected to hold the 3.50-3.75 pct target range and preserve optionality to tighten if inflation persists (per Forbes rate-tracker, centralbank.watch, Polymarket).",
+     "source_url": "https://polymarket.com/event/fed-decision-in-july-181"
     }
    ],
    "resolution": null
@@ -1976,6 +1986,12 @@
      "direction": "supports",
      "note": "BoJ hiked to 1.0% at the June 2026 meeting. As of 2026-07-10, trader consensus and Reuters economist surveys point to no change at the 2026-07-30/31 meeting; next hike most likely Q4 2026. Bearing evidence for the 'hold at 1.0%' claim; decision pending.",
      "source_url": "https://www.japantimes.co.jp/business/2026/06/11/economy/boj-preview-june-meeting-2026/"
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "supports",
+     "note": "Nikkei Asia 2026-07-24 (sources): the BoJ is set to hold the key rate at 1.0 pct at its 2026-07-30/31 Monetary Policy Meeting; Reuters/analyst consensus concurs. No hike signal has emerged from Deputy Governor commentary or the June Summary of Opinions in the run-up.",
+     "source_url": "https://asia.nikkei.com/economy/bank-of-japan/bank-of-japan-to-keep-key-rate-at-next-week-s-policy-meeting-sources"
     }
    ],
    "resolution": null
@@ -2516,6 +2532,12 @@
      "direction": "supports",
      "note": "Meta announced 2026-07-08 an incremental 13B USD Alberta build ahead of Q2 2026 earnings call (late July/early Aug). A public pre-earnings commit of this scale supports the base case that at least one Big Five raises full-year AI capex guidance in the Q2 call cycle. Sources: theglobeandmail.com, cnbc.com",
      "source_url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "against",
+     "note": "Alphabet Q2 2026 earnings release 2026-07-22 after close (SEC filing 2026-07-23) and public earnings-call summaries surfaced in previews/highlights emphasize AI infrastructure demand, capex, and Cloud growth — but do NOT explicitly cite 'sovereign AI', 'AI export controls', 'foreign-national access', or equivalent geopolitical framing as a material business risk in the surfaced coverage. Three of the Big Five (Microsoft, Meta, Amazon) still to report between 2026-07-29 and 2026-07-30; wait for those transcripts.",
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
     }
    ],
    "resolution": null
@@ -2932,6 +2954,12 @@
      "direction": "against",
      "note": "DCDT process design targets submission of revised SA AI policy documents to Cabinet in November 2026, with target publication date for public comment of January 2027. Original draft was formally retracted (contained six AI-hallucinated references). Both timelines exceed the 2026-08-31 update test window. Very unlikely to resolve confirmed.",
      "source_url": "https://www.itweb.co.za/article/sas-draft-ai-policy-officially-retracted/LPp6V7rBVwJ7DKQz"
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "against",
+     "note": "Multiple 2026-Q2 sources (CNBC Africa; Ellipsis; Moonstone; Wikipedia policy tracker) report SA pulled the April 2026 draft AI policy after hallucinated citations were exposed; a revised version is now expected to go to Cabinet by November 2026, with public release targeted January 2027. That timeline lands well past the 2026-08-31 update-test deadline — trajectory strongly against, but a surprise abbreviated re-issue is not impossible; log evidence and let the Sunday Reckoning decide if trajectory-lean plus one-week runway justify early disconfirmation.",
+     "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
     }
    ],
    "resolution": null
@@ -3462,7 +3490,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-24",
+     "direction": "against",
+     "note": "Ambiguous: at least one reputable calendar (financecalendar.com) now lists the UMich July FINAL release for 2026-07-31, not the original 2026-07-25 in the update-test. If the release genuinely slipped past 2026-07-30 resolve-by, this claim may need withdrawal at the Sunday Reckoning rather than resolution. July prelim (2026-07-17) printed 54.4 (up from June), Sentiment Expectations 54.0, year-ahead inflation expectations 4.2 pct. Waiting for the actual FINAL to verify date and figure.",
+     "source_url": "https://neilsethi.substack.com/p/university-of-michigan-survey-of-5e7"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3888,6 +3923,12 @@
      "direction": "supports",
      "note": "BoE June 2026 MPC minutes (meeting ending 2026-06-17) recorded a 7-2 majority to maintain Bank Rate at 3.75 percent, with the two dissents voting for a 25bp increase (not a cut). Cambridge Currencies / ATFX market read into the 30 July 2026 decision names hold at 3.75 as the base case with hawkish tilt and further hike-dissent likelihood - no consensus for a cut. Supports the hold-at-3.75 update test.",
      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "supports",
+     "note": "As of 2026-07-24 the Bank of England MPC is expected to hold Bank Rate at 3.75 pct on 2026-07-30 (12:00 UK). Caveat: financial markets on 2026-07-22 priced in two hikes by March 2027 on renewed oil-price pressure; a HIKE surprise remains possible, but no reputable source is calling one for July 30.",
+     "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
     }
    ],
    "resolution": null
@@ -4664,20 +4705,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 32,
-    "hit_rate": 0.75,
-    "brier": 0.1898,
-    "skill_vs_coinflip": 0.0602
+    "n": 33,
+    "hit_rate": 0.7576,
+    "brier": 0.1859,
+    "skill_vs_coinflip": 0.0641
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1898,
-  "skill_vs_coinflip": 0.0602,
+  "brier": 0.1859,
+  "skill_vs_coinflip": 0.0641,
   "base_rate": {
-   "n": 32,
-   "brier_base": 0.2102,
-   "brier_twin": 0.1898,
-   "skill": 0.0204
+   "n": 33,
+   "brier_base": 0.2065,
+   "brier_twin": 0.1859,
+   "skill": 0.0206
   },
   "market": {
    "n": 3,
@@ -4693,7 +4734,7 @@
   },
   "clusters": {
    "effective_n": 28,
-   "brier_cluster_collapsed": 0.1954
+   "brier_cluster_collapsed": 0.1943
   },
   "paired": {
    "n": 0,
@@ -4703,13 +4744,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.009,
-    "hi": 0.1085,
+    "lo": 0.0111,
+    "hi": 0.1123,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0102,
-    "hi": 0.0529,
+    "lo": -0.0092,
+    "hi": 0.0515,
     "distinguishable": false
    },
    "skill_vs_market": {

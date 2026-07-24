@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 24✓ · 8✗ · 0◐ · 49 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-12-31 (2 due by end-2026, 7 by mid-2027) · Brier 0.190 (coin-flip = 0.250; 32 scored across 28 independent events, cluster-collapsed Brier 0.195), skill vs coin-flip +0.060 (95% CI +0.009..+0.108) · skill vs base rate +0.020 (95% CI -0.010..+0.053; not yet distinguishable from zero) (n=32 carrying a recorded base rate) · skill vs market -0.002 (95% CI -0.006..+0.004; not yet distinguishable from zero) (n=3 with a listed market price) · non-echo record: n=11 of 32 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 25✓ · 8✗ · 0◐ · 48 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-12-31 (2 due by end-2026, 7 by mid-2027) · Brier 0.186 (coin-flip = 0.250; 33 scored across 28 independent events, cluster-collapsed Brier 0.194), skill vs coin-flip +0.064 (95% CI +0.011..+0.112) · skill vs base rate +0.021 (95% CI -0.009..+0.051; not yet distinguishable from zero) (n=33 carrying a recorded base rate) · skill vs market -0.002 (95% CI -0.006..+0.004; not yet distinguishable from zero) (n=3 with a listed market price) · non-echo record: n=11 of 33 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✓ "The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lendin" — said 85%, resolved confirmed (2026-07-23)**
+**Latest: ✓ "At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again" — said 75%, resolved confirmed (2026-07-24)**
 
-_Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-07-24 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -28,7 +28,7 @@ _Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
@@ -53,7 +53,6 @@ _Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | **38%** | 42% | world |  2026-08-12 |
 | <a id="claim-20260613-003"></a>By 2026-08-12, at least one of the three AfCFTA ADAPT pilot countries (Kenya, Morocco, Nigeria) will publicly publish a formal regulatory framework or pilot specification governing digital-currency or stablecoin settlements explicitly under the ADAPT initiative | **28%** | 30% | worldview |  2026-08-12 |
 | <a id="claim-20260723-002"></a>The US Bureau of Labor Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-12 at 8:30 ET on bls.gov) prints headline CPI-U 12-month percent change at or above 3.5 percent. | **63%** | 60% | world |  2026-08-13 |
-| <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | **75%** | 70% | worldview |  2026-08-15 |
 | <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | **42%** | 35% | worldview |  2026-08-15 |
 | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | **30%** | 30% | worldview |  2026-08-16 |
 | <a id="claim-20260618-005"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-08-30, the European Commission AI Office publishes at least one new formal guidance, FAQ update, implementing decision, or notice (other than the previously committed copyright guidance per claim-20260610-017) materially addressing obligations or expectations for GPAI model providers | **72%** | 60% | worldview |  2026-08-30 |
@@ -73,6 +72,7 @@ _Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260610-011"></a>At least one Big Five Q2-2026 earnings call (Jul-Aug) raises full-year AI capex guidance again | 75% | confirmed (2026-07-24) | Alphabet Q2 2026 earnings released 2026-07-22 (after close) and 10-Q filed 2026-07-23 explicitly raise full-year 2026 capital-expenditure guidance to 195-205 billion USD from prior 180-190 billion USD, attributing the increase to faster AI capacity expansion and Google Cloud AI-infrastructure demand (Cloud revenue +82 pct YoY to 24.8B; backlog 514B). Management additionally guided that 2027 capex 'will increase significantly' beyond 2026 levels. This is the first Big Five Q2 earnings call in the Jul-Aug window and it explicitly satisfies the update test's requirement of an upward revision of FY capex guidance tied to AI/data centres. Source: https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf ; SEC filing https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm ; Motley Fool coverage https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-alphabet-slides-7-after-announcing-2026-capex-of-roughly-usd200-billion/ |
 | ✓ | <a id="claim-20260611-002"></a>The ECB Governing Council will NOT cut its three key interest rates (Deposit Facility, Main Refinancing, Marginal Lending) at the 2026-07-23 monetary policy meeting. | 85% | confirmed (2026-07-23) | ECB Governing Council 2026-07-23 held Deposit Facility Rate at 2.25 percent (unchanged from June-11 hike), MRO and MLF also unchanged, unanimous vote. Update test satisfied (DF at 2.25 percent, above 2.00 threshold). Source: https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7975422/ecb-holds-rates-predicts-26-inflation-for-2026 |
 | ✓ | <a id="claim-20260718-001"></a>Alphabet Q2 2026 earnings release (scheduled 2026-07-22) reports Google Cloud segment year-over-year revenue growth at or above 60 percent. | 65% | confirmed (2026-07-23) | Alphabet Q2 2026 earnings release 2026-07-22 reports Google Cloud revenue 24.8B, YoY growth 82 percent, well above the 60 percent threshold. Cloud operating income 8.8B, backlog 514B. Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm |
 | ✓ | <a id="claim-20260702-002"></a>US National Association of Realtors Existing-Home Sales for June 2026 (release scheduled 2026-07-23 at 10:00 ET) prints total existing-home sales seasonally-adjusted annualized rate (SAAR) at or above 4.0 million. | 60% | confirmed (2026-07-23) | NAR Existing-Home Sales for June 2026 released 2026-07-23 reports SAAR 4.09 million, above the 4.0 million threshold (-2.4% MoM, +2.8% YoY). Median price 440600, 4.6-months inventory. Source: https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-2-4-decrease-in-june |
@@ -116,7 +116,7 @@ _Updated 2026-07-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 | 40-49% | 3 | 100% |
 | 50-59% | 8 | 62% |
 | 60-69% | 9 | 67% |
-| 70-79% | 6 | 83% |
+| 70-79% | 7 | 86% |
 | 80-89% | 2 | 100% |
 | 90-99% | 3 | 100% |
 
@@ -126,7 +126,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
-| worldview (frame:in) | 4 | 25% | 0.253 | -0.003 | too few to read (n < 5) |
+| worldview (frame:in) | 5 | 40% | 0.215 | +0.035 | readable |
 | world (frame:out) | 28 | 82% | 0.181 | +0.069 | readable |
 
 ## The workshop
