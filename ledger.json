@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-24",
+ "updated": "2026-07-26",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -111,6 +111,12 @@
      "direction": "supports",
      "note": "Rest of World 2026-07 synthesis: Nigeria (CBN data-localisation mandate for payment data, effective Jan 2027), Kenya (cloud policy requiring govt data stored territorially), Egypt (draft policy), SA (withdrawn April 2026 draft) — all four largest African tech economies have policy language identifying data-centre/compute dependence as security risk. This is the pre-legislative motion toward 'critical infrastructure' designation. Bearing evidence for the two-more-states-designate claim.",
      "source_url": "https://restofworld.org/2026/africa-ai-sovereignty-big-tech/"
+    },
+    {
+     "date": "2026-07-25",
+     "direction": "supports",
+     "note": "Kenya draft AI + Emerging Technologies Policy (public consultation closes 2026-08-04) proposes a Sovereign Cloud Strategy and National AI Compute Access Programme — industrial-policy instruments dressed in governance frame. Directionally bearing on the trajectory toward CI-designation of data centres but not itself a formal CI designation under Kenya's Critical Infrastructure Protection Act 2022 or equivalent gazette action. Signal: 2026-07-25-kenya-ai-emerging-tech-policy",
+     "source_url": "https://itweb.africa/article/kenya-seeks-public-input-on-ai-policy/KA3Wwqdz5w27rydZ"
     }
    ],
    "resolution": null
@@ -608,6 +614,12 @@
      "direction": "supports",
      "note": "Rest of World synthesis (2026-07) names Nigeria, Kenya, Egypt and SA AI strategies as identifying US Big Tech dependence as a security risk. Piece explicitly cites Kasi Cloud Lekki and iXAfrica-Oracle Kenya as operational anchor projects, and Cassava-Nvidia SA AI factory (March 2026 launch). Named 2026 projects are progressing on the sovereignty-language track. Bearing evidence for the specific-project-progress claim.",
      "source_url": "https://restofworld.org/2026/africa-ai-sovereignty-big-tech/"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "Cassava-NVIDIA 700M USD multi-country rollout announcement 2026-07-22 accelerates African AI infrastructure buildout across named 2026 projects; Kenya Atlancis/ixAfrica GPU AI factory reported live 2026-07-22 (contributes to Nairobi cluster of the tracked projects).",
+     "source_url": "https://data/discovery/signals/2026-07-22-cassava-nvidia-700m-multi-country-rollout.md"
     }
    ],
    "resolution": null
@@ -647,7 +659,14 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "MTN Sifiso Dabengwa Data Centre (Ikeja, Lagos) reported live at 4.5MW initial capacity 2026-07-16; Cassava-Azure ExpressRoute completion metro JHB Africa-first columnar completion 2026-07-25; Alphabet FY26 capex raised to 195-205B USD 2026-07-22 creates upstream cloud-demand pressure for African compute buildout.",
+     "source_url": "https://data/discovery/signals/2026-07-25-cassava-azure-expressroute-metro-jhb-africa-first-columnar-completion.md"
+    }
+   ],
    "resolution": null
   },
   {
@@ -690,6 +709,18 @@
      "direction": "supports",
      "note": "Google's June 2026 'A Pragmatic Approach to AI Governance in America' proposes FARO (Frontier AI Regulatory Organization); Hassabis 2026-07-14 essay makes FINRA analogy explicit — federally overseen, industry-funded SRO for frontier AI. Proposal made, not adopted. Bearing evidence that a US frontier-regulation vehicle is being publicly debated ahead of the claim's 2027-12-31 window; marginal support for the 3-jurisdictions-outside-EU claim.",
      "source_url": "https://www.forbes.com/sites/lanceeliot/2026/07/07/diving-headfirst-into-the-google-newly-released-ai-governance-in-america-framework/"
+    },
+    {
+     "date": "2026-07-25",
+     "direction": "against",
+     "note": "OIC active participation at WAICO Shanghai (2026-07-17 through 2026-07-20) plus two July 2026 maqāṣid-based operational governance papers (Frontiers in Education Saudi Vision 2030 framework; Atlantis Press MAFF for Islamic financial contexts) show the OIC/BRICS/AU 'build-before-regulate' bloc generating native theoretical apparatus rather than adopting EU-Act-derivative language. Reduces the probability that jurisdictions outside EU/US/UK converge on EU-Act-derived vocabulary. Signal: 2026-07-25-oic-waico-shanghai-maqasid",
+     "source_url": "https://www.oic-oci.org/en/news/8175"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "Illinois SB315 third US state to adopt frontier-AI disclosure regime (2026-07-20 signal). Preemption vacuum keeps US state-level activity growing; each new state disclosure regime is a candidate to reference EU frameworks (California and Colorado precedents already do). Not yet a direct EU AI Act citation but the substrate of jurisdictions is expanding.",
+     "source_url": "https://data/discovery/signals/2026-07-20-illinois-sb315-third-state-frontier-disclosure-preemption-vacuum.md"
     }
    ],
    "resolution": null
@@ -729,7 +760,14 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-25",
+     "direction": "against",
+     "note": "Same signal: OIC/BRICS/AU 'build-before-regulate' theoretical apparatus (maqāṣid MAFF for Islamic-financial governance; Ubuntu ethics for African healthcare AI; Buddhist middle-way comparative frameworks) is being generated as an alternative to the EU AI Act frame. Non-EU jurisdictions citing the EU 2026 omnibus as a model becomes less likely as the alternative apparatus consolidates. Weak-to-moderate bearing against.",
+     "source_url": "https://link.springer.com/article/10.1007/s43681-026-01156-6"
+    }
+   ],
    "resolution": null
   },
   {
@@ -904,6 +942,12 @@
      "direction": "supports",
      "note": "As of 2026-07-24 CME FedWatch and analyst consensus solidified around no change at the FOMC 2026-07-28/29 meeting; policymakers expected to hold the 3.50-3.75 pct target range and preserve optionality to tighten if inflation persists (per Forbes rate-tracker, centralbank.watch, Polymarket).",
      "source_url": "https://polymarket.com/event/fed-decision-in-july-181"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "against",
+     "note": "Market and analyst commentary shifted MORE hawkish into the 2026-07-28/29 FOMC. Forbes/Simon Moore 2026-07-23 and CoinGape 2026-07-23 flag roughly one-third probability of a 25bp HIKE (up from ~15 pct on 2026-07-10 and roughly 12 pct on the twin's 88 pct HOLD confidence). CME FedWatch reportedly implies a 25bp move is live-and-tradable; Governor Cook (CPI 3.7 pct above target), Vice Chair Jefferson, Governor Waller flagged inflation risks. Two-day meeting begins 2026-07-28 with decision Wednesday 2026-07-29 14:00 ET. Not resolved (meeting has not concluded).",
+     "source_url": "https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/"
     }
    ],
    "resolution": null
@@ -1365,6 +1409,12 @@
      "direction": "against",
      "note": "NAIS 2025 was published September 2025 by FMCIDE/NITDA (five-year vision 2025-2029). Search returns no indication of a NEW 2026 formal document release scheduled by 2026-08-12. TunaniHQ policy brief April 2026 confirms the September 2025 document is the operative one. If claim reads on FRESH release, appears unlikely to resolve confirmed by the deadline.",
      "source_url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-nais"
+    },
+    {
+     "date": "2026-07-25",
+     "direction": "against",
+     "note": "2026-07-25 further check: search for 'Nigeria National AI Strategy 2026 formal document official government website' returns only the September 2025 NAIS document (FMCIDE / NITDA, five-year vision 2025-2029) and April 2026 TunaniHQ policy brief on the September 2025 strategy — no 2026-dated new formal publication. Update test requires document 'dated 2026'; probability of a new 2026-dated formal release by 2026-08-12 remains low.",
+     "source_url": "https://tunanihq.org/assets/publication/Policy-Brief-NNAIS-Strategy-final.pdf"
     }
    ],
    "resolution": null
@@ -1992,6 +2042,12 @@
      "direction": "supports",
      "note": "Nikkei Asia 2026-07-24 (sources): the BoJ is set to hold the key rate at 1.0 pct at its 2026-07-30/31 Monetary Policy Meeting; Reuters/analyst consensus concurs. No hike signal has emerged from Deputy Governor commentary or the June Summary of Opinions in the run-up.",
      "source_url": "https://asia.nikkei.com/economy/bank-of-japan/bank-of-japan-to-keep-key-rate-at-next-week-s-policy-meeting-sources"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "Nikkei Asia 2026-07-24 (sourced) reports the BoJ is set to hold policy rate at 1.0 pct at the 2026-07-30/31 MPM; Reuters and analyst consensus concur. Deputy Governor Himino and board member Tamura maintain the 'gradual move toward roughly 2 pct neutral rate' language, with next hike positioned Q4 2026. Meeting decision Friday 2026-07-31. Not resolved (meeting has not concluded).",
+     "source_url": "https://asia.nikkei.com/Economy/Bank-of-Japan"
     }
    ],
    "resolution": null
@@ -2538,6 +2594,12 @@
      "direction": "against",
      "note": "Alphabet Q2 2026 earnings release 2026-07-22 after close (SEC filing 2026-07-23) and public earnings-call summaries surfaced in previews/highlights emphasize AI infrastructure demand, capex, and Cloud growth — but do NOT explicitly cite 'sovereign AI', 'AI export controls', 'foreign-national access', or equivalent geopolitical framing as a material business risk in the surfaced coverage. Three of the Big Five (Microsoft, Meta, Amazon) still to report between 2026-07-29 and 2026-07-30; wait for those transcripts.",
      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "Alphabet Q2 2026 earnings call (2026-07-22 after close, transcripts on Seeking Alpha/Benzinga/Yahoo/investing.com) centered AI infrastructure demand, capex, cloud AI monetization. Summaries do not explicitly quote sovereign-AI/export-control language. This is bearing-supports because the update-test window (2026-07-23 through 2026-08-07) has three more Big Five reports still to come (Meta 2026-07-29, Apple 2026-07-30, Amazon 2026-07-30, Microsoft next window). Not resolved — the sovereign-AI phrasing has not yet been captured in a quotable transcript excerpt.",
+     "source_url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-goog-q2-2026-050111614.html"
     }
    ],
    "resolution": null
@@ -3496,6 +3558,12 @@
      "direction": "against",
      "note": "Ambiguous: at least one reputable calendar (financecalendar.com) now lists the UMich July FINAL release for 2026-07-31, not the original 2026-07-25 in the update-test. If the release genuinely slipped past 2026-07-30 resolve-by, this claim may need withdrawal at the Sunday Reckoning rather than resolution. July prelim (2026-07-17) printed 54.4 (up from June), Sentiment Expectations 54.0, year-ahead inflation expectations 4.2 pct. Waiting for the actual FINAL to verify date and figure.",
      "source_url": "https://neilsethi.substack.com/p/university-of-michigan-survey-of-5e7"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "against",
+     "note": "UMich FINAL July 2026 sentiment release schedule slipped from 2026-07-25 to 2026-07-31 (multiple financial calendars; university.of.michigan.data.sca.isr not yet published on 2026-07-25). The update test's scheduled event did not fire on 2026-07-25 as anchored; the release now falls after resolve_by (2026-07-30). Interpretive case — logged, not resolved. Sunday Reckoning re-verifies.",
+     "source_url": "https://www.financecalendar.com/event/michigan-consumer-sentiment/"
     }
    ],
    "resolution": null
@@ -3749,7 +3817,14 @@
      "date": "2026-07-12T14:19:04Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "EU AI Act Article 55 enforcement powers activate 2026-08-02 (2026-07-23 signal); enforcement clock now formally started. Twin-registered short-horizon claim-20260726-001 tests the 90-day window against the same window this claim covers to 2027-08-02.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3929,6 +4004,12 @@
      "direction": "supports",
      "note": "As of 2026-07-24 the Bank of England MPC is expected to hold Bank Rate at 3.75 pct on 2026-07-30 (12:00 UK). Caveat: financial markets on 2026-07-22 priced in two hikes by March 2027 on renewed oil-price pressure; a HIKE surprise remains possible, but no reputable source is calling one for July 30.",
      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "supports",
+     "note": "BoE MPC Rate Decision Thursday 2026-07-30 12:00 UK time. June minutes had 7-2 vote to hold at 3.75 pct (dissents voted for HIKE, not cut). As of 2026-07-24 consensus expects continued hold; oil-price-driven inflation risk has markets pricing in TWO hikes by March 2027 but not one at July MPC. Not resolved.",
+     "source_url": "https://www.bankofengland.co.uk/monetary-policy/monetary-policy-committee"
     }
    ],
    "resolution": null
@@ -4137,7 +4218,20 @@
      "date": "2026-07-19T14:16:46Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-25",
+     "direction": "supports",
+     "note": "Alphabet Q2 2026 print (2026-07-22 after close) raised FY26 capex guidance to 195-205B USD from 180-190B and guided FY27 capex 'will increase significantly'. First Big Five Q2 raise in the Jul-Aug window sets peer pressure and reduces the reputational cost of a Meta second-in-year raise; Meta already raised at Q1 from 115-135 to 125-145. Softly bearing toward the >145B ceiling test on 2026-07-29.",
+     "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"
+    },
+    {
+     "date": "2026-07-26",
+     "direction": "against",
+     "note": "Meta Q2 2026 pre-earnings previews (Motley Fool 2026-07-22, 24/7 Wall St 2026-07-25) restate Meta's May-guided FY26 capex range 125-145B (average implied 38.4B/quarter for Q2-Q4, ~94 pct above Q1). No leak or pre-earnings signal that Meta will raise the CEILING above 145B — the ceiling raise the update test requires. Contrast to Alphabet, which raised FY26 to 195-205B from 180-190B on 2026-07-22. Meta earnings Wednesday 2026-07-29 after close. Not resolved.",
+     "source_url": "https://www.fool.com/investing/2026/07/23/mark-zuckerbergs-meta-is-expected-to-report-60-bil/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4232,6 +4326,12 @@
      "direction": "supports",
      "note": "2026-07-19 baseline recorded: founding roster on 2026-07-16 announced 29 signatory nations per Xinhua English-language source; Al Jazeera, IOL corroborate. Threshold is 33 by 2026-09-15 - a further 4 accessions in 8 weeks required to confirm. WAICO messaging positions the count as expanding, but no additional signings reported this week.",
      "source_url": "https://english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html"
+    },
+    {
+     "date": "2026-07-25",
+     "direction": "supports",
+     "note": "OIC formally participated at WAICO Shanghai high-level meeting 2026-07-17 through 2026-07-20 (57 OIC member states, many not previously WAICO-affiliated). OIC statement framed as active engagement in international AI governance. Directional pull toward WAICO signatory expansion in the run-up to 2026-09-15 update-test. Signal: 2026-07-25-oic-waico-shanghai-maqasid",
+     "source_url": "https://www.oic-oci.org/en/news/8175"
     }
    ],
    "resolution": null
@@ -4270,7 +4370,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260701-004",
+     "relation": "shares-system",
+     "note": "Both are July 2026 headline PMI readings on the same global manufacturing/services expansion-contraction cycle; independent evidence on the same underlying real-economy state.",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -4308,7 +4415,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-019",
+     "relation": "shares-system",
+     "note": "Both read the July 2026 US inflation/monetary policy stance: CPI print (0723-002) feeds directly into the FOMC hike-decision framing (0610-019). Shares-system, not sharpens (different instruments).",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -4343,7 +4457,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-014",
+     "relation": "probes",
+     "note": "MTN Sifiso Dabengwa DC is one of the named 2026 African AI projects; its live status is a component reading of the cumulative-MW structural claim.",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -4356,7 +4477,10 @@
    "tier": "calibration",
    "frame": "out",
    "grounding": "China NBS Manufacturing PMI June 2026 printed 50.3 (third consecutive month above 50 in 2026), supported by high-tech manufacturing exports linked to the AI boom while domestic demand remains subdued. Historical July seasonal weakness typically brings a 0.3-0.5 pp decline from June - July 2025 fell 0.4 pp from June to 49.3. July 2026 release scheduled 2026-07-31, ~01:30 UTC per stats.gov.cn calendar.",
-   "withdrawal": null,
+   "withdrawal": {
+    "date": "2026-07-26T14:19:45Z",
+    "reason": "Duplicate of open claim-20260701-004 (both track China NBS Manufacturing PMI July 2026 crossing 50.0 on 2026-07-31 release). Daily brief failed to check open claims before registration; keeping the older claim, retiring this one so the same event does not double-count in the record."
+   },
    "confidence": 0.42,
    "confidence_source": "twin-estimated",
    "confidence_rationale": null,
@@ -4368,7 +4492,7 @@
    "frameworks": [],
    "update_test": "Read the National Bureau of Statistics of China press release for the July 2026 Manufacturing PMI on stats.gov.cn on or about 2026-07-31 at 01:30 UTC. Confirmed if the headline official Manufacturing PMI figure is 50.0 or above; disconfirmed if below 50.0.",
    "resolve_by": "2026-08-03",
-   "status": "open",
+   "status": "withdrawn",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-24T12:12:49Z",
@@ -4419,7 +4543,158 @@
     "outcome_already_known": false
    },
    "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-011",
+     "relation": "probes",
+     "note": "Both test Big Five FY26 AI capex guidance revisions; claim-20260610-011 already confirmed via Alphabet on 2026-07-22, Amazon Q2 release 2026-07-30 is a second independent instrument reading on the same underlying capex-cycle system.",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-07-25",
+     "direction": "supports",
+     "note": "Alphabet Q2 2026 (2026-07-22) raised FY26 capex to 195-205B (from 180-190B). Establishes intra-year raise precedent from the first Big Five Q2 report and reduces the peer-comparison cost of Amazon (2026-07-30) revising its FY26 capex above the ~118B USD track. Weak bearing toward confirmed; Amazon's capex cycle is different (retail + AWS + logistics) and does not always tie to hyperscaler-cohort moves.",
+     "source_url": "https://www.investing.com/news/company-news/alphabet-q2-2026-slides-24-revenue-growth-cloud-surges-despite-capex-93CH-4807148"
+    }
+   ],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260726-001",
+   "date": "2026-07-26",
+   "registered_at": "2026-07-26T14:20:02Z",
+   "claim": "By 2026-10-24, the EU AI Office publicly records at least one first formal enforcement action under EU AI Act Article 55 (fine, notice, order, formal proceedings decision, or public administrative action explicitly citing Article 55) against a general-purpose AI model provider.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "EU AI Act Article 55 enforcement powers activate 2026-08-02 per Commission implementation calendar; the EU AI Office (Commission service, DG CNECT) is the responsible enforcement body",
+   "withdrawal": null,
+   "confidence": 0.18,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Base rate 0.15 from precedent EU regulatory activations (GDPR/DSA/DMA all took >6mo to first formal action). Twin nudges to 0.18: Institutional Adaptation Lag framework predicts formal action within 90-day activation window is unlikely for a new institution, but publicity pressure this cycle is unusually high (Commission has staked credibility on rapid GPAI enforcement). Calibration 2026-07-24 no correction for <30 bucket; cited for record.",
+   "base_rate": 0.15,
+   "base_rate_source": "New EU regulatory-body first formal enforcement within 90 days of activation, computed from GDPR (May 2018 activation, first cross-border fine >90 days), DSA (Aug 2023 activation, first formal proceedings ~10 months post), DMA (May 2024 activation, first designations ~7 months post), as of 2026-07-26",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Read the EU AI Office public register, European Commission press releases, and Official Journal of the European Union between 2026-08-02 and 2026-10-24. Confirmed if at least one entry names a general-purpose AI model provider and explicitly cites Article 55 as the enforcement basis (any of: fine, notice, order, formal proceedings decision, public administrative action). Disconfirmed if none by 2026-10-24.",
+   "resolve_by": "2026-10-24",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-26T14:20:02Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-26: no formal Article 55 enforcement action has been recorded by the EU AI Office as of this timestamp; Article 55 enforcement powers do not activate until 2026-08-02 (update test cannot fire before then)",
+    "queries": [
+     "EU AI Office Article 55 enforcement action July 2026",
+     "EU AI Act GPAI first fine notice",
+     "EU AI Office register formal proceedings"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260711-002",
+     "relation": "sharpens",
+     "note": "Same institution (EU AI Office) and same enforcement basis (Article 55); short-horizon (90-day) sharpens the long-horizon (12-month) window. If short-horizon confirms, long-horizon confirms by definition.",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260726-002",
+   "date": "2026-07-26",
+   "registered_at": "2026-07-26T14:20:21Z",
+   "claim": "By 2026-10-24, the South African Cabinet formally adopts the National AI Policy Framework and publishes an official notice (Government Gazette entry, DCDT press release, or Cabinet Statement) that explicitly announces adoption by name.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "South African Cabinet is the formal adopter; DCDT is the responsible department; the National AI Policy Framework is a documented draft in public consultation. Public slippage from November 2026 to January 2027 recorded 2026-07-19.",
+   "withdrawal": null,
+   "confidence": 0.12,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Base rate 0.30 from SA ICT policy on-schedule track record; twin corrects down to 0.12 because two data points already show slippage (Nov 2026 target now Jan 2027) and no signal indicates acceleration. Institutional Adaptation Lag (down): observed slippage strongly predicts further slippage. Bucket 10-19 no correction in 2026-07-24 calibration; cited for record.",
+   "base_rate": 0.3,
+   "base_rate_source": "SA Cabinet adoption of ICT/digital-economy policies on their publicly announced first target date, computed from Digital Economy Master Plan (adopted Nov 2020, on-schedule), Data & Cloud Policy Draft (adopted Q3 2024 after two delays), National Cybersecurity Policy (approved 2015, 2y late), and Draft SA AI Policy Framework consultation cycles Q4 2025-Q2 2026, as of 2026-07-26",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Read the South African Government Gazette (gpwonline.co.za), Department of Communications and Digital Technologies press releases (dcdt.gov.za), and Cabinet Statements (gov.za) published between 2026-07-26 and 2026-10-24. Confirmed if any explicitly announces Cabinet adoption of the National AI Policy Framework. Disconfirmed if none by 2026-10-24, or if a Cabinet statement instead defers adoption past this date.",
+   "resolve_by": "2026-10-24",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-26T14:20:21Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-26: no SA Cabinet adoption of the National AI Policy Framework has been announced; latest public schedule (2026-07-19) shows target slipping to January 2027, so adoption before 2026-10-24 remains unresolved",
+    "queries": [
+     "South Africa National AI Policy Framework Cabinet adoption 2026",
+     "DCDT AI Policy gazette",
+     "SA Cabinet Statement AI Policy"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260726-003",
+   "date": "2026-07-26",
+   "registered_at": "2026-07-26T14:20:41Z",
+   "claim": "By 2026-10-24, the Republic of Kenya publicly gazettes or operationally launches a sovereign cloud/compute council under the AI & Emerging Technologies Policy: a Kenya Gazette notice, State Department for Digital Economy release, or ICT Authority publication that names a sovereign cloud/compute council with a listed chair, named members, or published terms of reference.",
+   "committed_by": "twin",
+   "tier": "structural",
+   "frame": "in",
+   "grounding": "Kenya State Department for Digital Economy publicly scheduled the AI & Emerging Technologies Policy release for 2026-08-04, including sovereign cloud/compute council governance provisions. Kenya Gazette and ICT Authority are the standard institutional-adoption public surfaces.",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Base rate 0.45 from Kenya's on-schedule ICT policy record adjusted for institutional novelty. Twin corrects up to 0.58 via bucket 40-49 correction (+0.126) from calibration 2026-07-24; framework Institutional Adaptation Lag (up) — Kenya's track record justifies above-base-rate confidence, and the specific council is a stated deliverable in the scheduled 2026-08-04 policy release.",
+   "base_rate": 0.45,
+   "base_rate_source": "Kenya digital-economy institution stand-ups (Kenya Data Protection Act 2019 → Office of Data Protection Commissioner operational 2020; Kenya National Digital Master Plan 2022-2032 published on target; Kenya ICT Authority Digital Economy Blueprint launched 2019 on schedule), computed as share landing within 90d of a publicly announced target, as of 2026-07-26. Applied fractionally to a first-of-kind sovereign cloud council which has more institutional novelty.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Read the Kenya Gazette (kenyalaw.org), State Department for Digital Economy releases (ict.go.ke), and ICT Authority notices (icta.go.ke) between 2026-08-04 and 2026-10-24. Confirmed if any explicitly names a sovereign cloud/compute council with a listed chair, named members, or published terms of reference. Disconfirmed if no such notice by 2026-10-24, or if only a policy paper without institutional stand-up appears.",
+   "resolve_by": "2026-10-24",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-26T14:20:41Z",
+    "auditor": "twin",
+    "note": "Searched 2026-07-26: no Kenya Gazette notice or ICT Authority publication yet names a sovereign cloud/compute council; policy release scheduled 2026-08-04 (update test cannot fire before then)",
+    "queries": [
+     "Kenya AI Emerging Technologies Policy August 4 2026 sovereign cloud council",
+     "Kenya Gazette AI compute council",
+     "ICT Authority Kenya sovereign cloud"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-013",
+     "relation": "shares-system",
+     "note": "Kenya sovereign cloud council is upstream institutional plumbing for the Kenya cluster of the named African AI infrastructure projects; the same East Africa compute-buildout system feeds both.",
+     "date": "2026-07-26T14:21:19Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
