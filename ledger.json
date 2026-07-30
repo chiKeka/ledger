@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26",
+ "updated": "2026-07-30",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -197,6 +197,12 @@
      "direction": "supports",
      "note": "EU AI Office confirms 2026-08-02 as the activation date for Commission enforcement powers over GPAI providers (Article 55 obligations remain from 2025-08-02). The May 2026 Digital Omnibus on AI provisional agreement reinforced the AI Office's central supervisory role but 'did not change the GPAI regime' — meaning the omnibus turn has kept the Article 55 obligations formally in place. Fresh reading: legal-compliance industry primers dated 2026-07 confirm the enforcement powers arrive as planned; this bears IN FAVOR of claim-20260610-004 continuing to hold that enforceable obligations for frontier deployers will NOT be materially reduced before end-2026 as originally scoped.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+     "date": "2026-07-29",
+     "direction": "supports",
+     "note": "Digital Omnibus on AI (Regulation (EU) 2026/1744) published in Official Journal 2026-07-24, entered into force 2026-07-27 - the final legal instrument for the simplification turn is now law. Annex III high-risk deferred to 2027-12-02 (16 months); Annex I embedded to 2028-08-02. Article 50 transparency obligations still apply 2026-08-02; nudifier/CSAM capability strip mandated by 2026-12. Multiple frontier-relevant articles softened or delayed; end-2026 enforceable-obligation count has been reduced by legal instrument. Waiting for Sunday Reckoning to re-verify frontier-deployer read (GPAI 2026-08-02 substrate not directly touched, so per-obligation compliance cost for frontier deployers remains, even as the perimeter shrinks).",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
     }
    ],
    "resolution": null
@@ -721,6 +727,12 @@
      "direction": "supports",
      "note": "Illinois SB315 third US state to adopt frontier-AI disclosure regime (2026-07-20 signal). Preemption vacuum keeps US state-level activity growing; each new state disclosure regime is a candidate to reference EU frameworks (California and Colorado precedents already do). Not yet a direct EU AI Act citation but the substrate of jurisdictions is expanding.",
      "source_url": "https://data/discovery/signals/2026-07-20-illinois-sb315-third-state-frontier-disclosure-preemption-vacuum.md"
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "supports",
+     "note": "Governance-symmetry week (2026-08-02 EU Article 55 enforcement activation, 2026-08-04 Kenya AI & Emerging Tech Policy comment deadline, rolling-week China MOFCOM tiered-export consultation with Alibaba/ByteDance/Zhipu): two non-EU jurisdictions (China draft tiered filing/security-review/ban regime + Kenya risk-classified draft with National AI Council, Sovereign Cloud Strategy, AI Compute Access Programme, AI Safety Institute) advancing risk-based comprehensive frameworks in same 7-day window. Neither has adopted formally yet - directional advance, not confirmation. Nigeria/Ghana national strategies referenced separately (Ghana April launch cited as 'sovereign capability').",
+     "source_url": "https://techafricanews.com/2026/07/27/kenya-seeks-public-input-on-draft-ai-and-emerging-technologies-policy/"
     }
    ],
    "resolution": null
@@ -890,7 +902,7 @@
    "frameworks": [],
    "update_test": "Federal Reserve press release on or about 2026-07-29 reporting the FOMC decision on the federal funds rate target range: confirmed if the upper bound of the target range is equal to or lower than the upper bound set at the prior (June 2026) meeting, disconfirmed if raised.",
    "resolve_by": "2026-07-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [
@@ -948,9 +960,25 @@
      "direction": "against",
      "note": "Market and analyst commentary shifted MORE hawkish into the 2026-07-28/29 FOMC. Forbes/Simon Moore 2026-07-23 and CoinGape 2026-07-23 flag roughly one-third probability of a 25bp HIKE (up from ~15 pct on 2026-07-10 and roughly 12 pct on the twin's 88 pct HOLD confidence). CME FedWatch reportedly implies a 25bp move is live-and-tradable; Governor Cook (CPI 3.7 pct above target), Vice Chair Jefferson, Governor Waller flagged inflation risks. Two-day meeting begins 2026-07-28 with decision Wednesday 2026-07-29 14:00 ET. Not resolved (meeting has not concluded).",
      "source_url": "https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/"
+    },
+    {
+     "date": "2026-07-27",
+     "direction": "supports",
+     "note": "As of 2026-07-27 pre-FOMC (Jul 28-29 meeting), CME FedWatch pricing shows ~65% probability of hold at 3.5-3.75%, ~33% probability of 25bp hike. Citi and consensus expect hold despite oil-price hawkish pressure. Chair Warsh described the meeting as featuring significant debate. Twin's 88% hold still LIVE but on the aggressive end of consensus - resolves Wed Jul 29.",
+     "source_url": "https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/"
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "supports",
+     "note": "Pre-FOMC (2026-07-28) prediction-market pricing at ~78% HOLD / ~20% hike (Kalshi/Polymarket); Forbes 07-23's ~33% hike lean has eased into the meeting. Twin call 88% NO-HIKE remains within band; overall directional support for hold, softer than 07-23 evidence-against. Decision publishes 2026-07-29 ~14:00 ET.",
+     "source_url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26jul"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-30T12:07:07Z",
+    "outcome": "confirmed",
+    "note": "FOMC decision 2026-07-29: held target range at 3.50-3.75 percent by 9-3 vote (Hammack Cleveland, Kashkari Minneapolis, Logan Dallas dissented for a 25bp hike). Held is one of the two paths (hold OR cut) the claim treated as confirmation; raise did not occur. Twin said 88%, correct. Source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm and https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html"
+   }
   },
   {
    "id": "claim-20260610-020",
@@ -1415,6 +1443,12 @@
      "direction": "against",
      "note": "2026-07-25 further check: search for 'Nigeria National AI Strategy 2026 formal document official government website' returns only the September 2025 NAIS document (FMCIDE / NITDA, five-year vision 2025-2029) and April 2026 TunaniHQ policy brief on the September 2025 strategy — no 2026-dated new formal publication. Update test requires document 'dated 2026'; probability of a new 2026-dated formal release by 2026-08-12 remains low.",
      "source_url": "https://tunanihq.org/assets/publication/Policy-Brief-NNAIS-Strategy-final.pdf"
+    },
+    {
+     "date": "2026-07-27",
+     "direction": "against",
+     "note": "As of 2026-07-27, Nigeria's National AI Strategy still awaiting parliamentary approval (Bosun Tijani announced completed strategy March 2026; parliamentary greenlight anticipated 'within weeks' but has not landed 4 months on; no gazette publication reported). Bosun Tijani Foundation instead opened Gen AI Fellowship Cohort 2 applications (Jul 20 through Jul 31) - capacity-building continues but the strategy itself remains un-formalized. Approaching the Aug 12 deadline without evidence of imminent parliamentary vote or gazette entry.",
+     "source_url": "https://businessday.ng/technology/article/nigeria-awaits-parliamentary-greenlight-for-landmark-national-ai-strategy/"
     }
    ],
    "resolution": null
@@ -2600,6 +2634,12 @@
      "direction": "supports",
      "note": "Alphabet Q2 2026 earnings call (2026-07-22 after close, transcripts on Seeking Alpha/Benzinga/Yahoo/investing.com) centered AI infrastructure demand, capex, cloud AI monetization. Summaries do not explicitly quote sovereign-AI/export-control language. This is bearing-supports because the update-test window (2026-07-23 through 2026-08-07) has three more Big Five reports still to come (Meta 2026-07-29, Apple 2026-07-30, Amazon 2026-07-30, Microsoft next window). Not resolved — the sovereign-AI phrasing has not yet been captured in a quotable transcript excerpt.",
      "source_url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-goog-q2-2026-050111614.html"
+    },
+    {
+     "date": "2026-07-27",
+     "direction": "supports",
+     "note": "Alphabet reported Q2 2026 on Jul 22 (one day BEFORE claim window opens 2026-07-23): revenue 19.8B +24% YoY, Cloud +82%, EPS .11 beat, but stock -3.65% on capex guidance raise from 80-190B to 95-205B midpoint 00B (~42% of annualized revenue). This is the pattern's first datapoint but strictly outside window. In-window candidates all lined up this week: Microsoft/Meta July 29, Apple/Amazon July 30. Meta pre-earnings already down 9.8% YTD on capex vs Reality-Labs concerns; Meta 2026 capex guidance raised to 25-145B pre-print.",
+     "source_url": "https://mlq.ai/news/alphabet-beats-q2-revenue-estimates-but-stock-drops-5-on-205b-capex-outlook/"
     }
    ],
    "resolution": null
@@ -3564,6 +3604,18 @@
      "direction": "against",
      "note": "UMich FINAL July 2026 sentiment release schedule slipped from 2026-07-25 to 2026-07-31 (multiple financial calendars; university.of.michigan.data.sca.isr not yet published on 2026-07-25). The update test's scheduled event did not fire on 2026-07-25 as anchored; the release now falls after resolve_by (2026-07-30). Interpretive case — logged, not resolved. Sunday Reckoning re-verifies.",
      "source_url": "https://www.financecalendar.com/event/michigan-consumer-sentiment/"
+    },
+    {
+     "date": "2026-07-27",
+     "direction": "against",
+     "note": "Release scheduling discrepancy discovered 2026-07-27: the claim's stated release date 2026-07-25 does NOT match the actual UMich final July release calendar; the July FINAL is scheduled 2026-07-31 (per lines.com and dshort/Advisor Perspectives). Preliminary July print was 54.4 (+9.9% vs June 49.5, above 51.0 consensus, highest since February; +Y/Y inflation expectations 4.2% from 4.6%). Not resolvable today; will need retest after 2026-07-31 print.",
+     "source_url": "https://www.advisorperspectives.com/dshort/updates/2026/07/17/consumer-sentiment-hits-highest-level-since-february-on-easing-gas-prices"
+    },
+    {
+     "date": "2026-07-30",
+     "direction": "against",
+     "note": "UMich FINAL July 2026 release rescheduled from expected 2026-07-25 to 2026-07-31 10:00 ET per multiple economic-calendar mirrors (investing.com, mql5). Preliminary 2026-07-18 printed 54.4 (vs 49.5 June final and 51.0 consensus, +9.9 pct m/m, highest since Feb 2026, driven by lower gasoline prices; components: current 54.9, expectations 54.0; 1-yr inflation expectations eased to 4.2). Update test cannot fire today; sending to Sunday Reckoning. Not a defect in the claim; the release calendar drifted after registration.",
+     "source_url": "https://www.fxstreet.com/news/uom-consumer-sentiment-index-set-to-improve-further-but-remain-at-historically-low-levels-in-july-202607171230"
     }
    ],
    "resolution": null
@@ -4647,7 +4699,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-27",
+     "direction": "supports",
+     "note": "Ministry (DCDT) baseline confirms twin's 12% skepticism: SA Cabinet approved DRAFT National AI Policy 25 Mar 2026, gazetted 10 Apr 2026, comment period closed 10 Jun 2026. Baker McKenzie/Fasken/Ellipsis briefs converge on finalization anticipated during the 2026/2027 financial year, with sector-specific strategies to follow from 2027/2028. Formal Cabinet ADOPTION (as opposed to draft-stage gazette for comment) by 2026-10-24 remains inconsistent with the department's own timeline.",
+     "source_url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/south-african-ai-policy-moves-towards-approval"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4695,7 +4754,14 @@
      "date": "2026-07-26T14:21:19Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-07-28",
+     "direction": "supports",
+     "note": "Kenya draft AI & Emerging Tech Policy consultation open through 2026-08-04, published by Ministry of Information, Communications and the Digital Economy. Policy explicitly names National AI Council, Sovereign Cloud Strategy, AI Innovation Fund, National AI Compute Access Programme, Kenya AI Safety Institute. Institutional stand-up track is live and aligned with the update-test surfaces (Kenya Gazette, ICT Authority notices). Consultation-to-gazette timeline through 2026-10-24 remains within the window; directional support for confirmation.",
+     "source_url": "https://posts.kictanet.or.ke/kenya-wants-your-input-on-its-ai-policy-deadline-august-4-2/"
+    }
+   ],
    "resolution": null
   }
  ],
@@ -5056,20 +5122,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 33,
-    "hit_rate": 0.7576,
-    "brier": 0.1859,
-    "skill_vs_coinflip": 0.0641
+    "n": 34,
+    "hit_rate": 0.7647,
+    "brier": 0.1809,
+    "skill_vs_coinflip": 0.0691
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1859,
-  "skill_vs_coinflip": 0.0641,
+  "brier": 0.1809,
+  "skill_vs_coinflip": 0.0691,
   "base_rate": {
-   "n": 33,
-   "brier_base": 0.2065,
-   "brier_twin": 0.1859,
-   "skill": 0.0206
+   "n": 34,
+   "brier_base": 0.2011,
+   "brier_twin": 0.1809,
+   "skill": 0.0202
   },
   "market": {
    "n": 3,
@@ -5084,8 +5150,8 @@
    "skill_vs_base": 0.0296
   },
   "clusters": {
-   "effective_n": 28,
-   "brier_cluster_collapsed": 0.1943
+   "effective_n": 29,
+   "brier_cluster_collapsed": 0.1881
   },
   "paired": {
    "n": 0,
@@ -5095,13 +5161,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0111,
-    "hi": 0.1123,
+    "lo": 0.0219,
+    "hi": 0.1175,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0092,
-    "hi": 0.0515,
+    "lo": -0.0075,
+    "hi": 0.0497,
     "distinguishable": false
    },
    "skill_vs_market": {
