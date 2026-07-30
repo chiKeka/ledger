@@ -4771,6 +4771,164 @@
     }
    ],
    "resolution": null
+  },
+  {
+   "id": "claim-20260730-001",
+   "date": "2026-07-30",
+   "registered_at": "2026-07-30T12:23:10Z",
+   "claim": "The Bank of England Monetary Policy Committee at its September 2026 meeting (scheduled 2026-09-18) publishes a vote-split in which 4 or more Committee members dissent for a Bank Rate rise above the median decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Bank of England MPC September 2026 meeting is on the official 2026 MPC calendar (bankofengland.co.uk/monetary-policy/upcoming-mpc-dates). Voting record is published in the Monetary Policy Summary and Minutes released 12:00 London time on the announcement date.",
+   "withdrawal": null,
+   "confidence": 0.22,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Institutional Adaptation Lag frame predicts monotonic migration of MPC votes from median position outward once the migration has started, calibration 2026-07-26. The move from 7-2 hold (June) to 6-3 hold (July) is the first two-month monotonic movement in the current cycle; the frame predicts the next MPC decision either continues the migration (a 4-dissent hold or a majority-supported hike) or halts it. Twin priced 22 pct on the specific 4+ dissent outcome; frame directional-up on the dissent-count-hawkish axis. This is un-priced by market forecasters as of registration.",
+   "base_rate": 0.08,
+   "base_rate_source": "House of Commons Library MPC vote history: 4+ hawkish dissents at a hold decision have occurred fewer than 5 times since MPC establishment in 1997; base rate estimate from historical monthly base of ~0.4 pct per meeting scaled to current hawkish-dissent-migration trend (June 7-2 hold, July 6-3 hold), method: reference-class of two-consecutive-months-of-growing-dissent monetary-policy outcomes, as of 2026-07-30",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "Read Bank of England Monetary Policy Summary and Minutes for the September 2026 meeting published on or about 2026-09-18. Confirmed if the disclosed vote-split shows 4 or more of 9 Committee members voting for a higher Bank Rate than the median decision; disconfirmed if fewer than 4 dissent in the hawkish direction.",
+   "resolve_by": "2026-09-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-30T12:23:10Z",
+    "auditor": "twin",
+    "note": "Searched 'Bank of England MPC September 18 2026 rate decision vote expected dissent' on 2026-07-30; results confirm meeting date and August/September MPC calendar (bankofengland.co.uk), and vote history for June (7-2) and July (6-3); no source has forecast a 4-dissent September outcome; two dissenting members (Pill, Greene) have publicly stated a hike-preference view, third (Mann) joined at July; the fourth-migration hypothesis is not yet in public forecasts as of 2026-07-30",
+    "queries": [
+     "BoE September 18 MPC vote expected dissent"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260730-002",
+   "date": "2026-07-30",
+   "registered_at": "2026-07-30T12:23:32Z",
+   "claim": "Amazon Q2 2026 earnings release (scheduled 2026-07-30 after US market close) discloses a full-year 2026 capital expenditure figure or range whose point-value or midpoint is strictly greater than 205 billion USD.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Amazon Q2 2026 earnings release is on the Amazon Investor Relations calendar for 2026-07-30 at 2 PM PT/5 PM ET (aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report). CFO commentary in the earnings call transcript typically follows within 60 minutes; 10-Q filed within 40 days.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin priced 55 pct — narrower than consensus 60 pct implied. The +55/+60 gap reflects that the Meta after-hours punishment for a ceiling-only-narrowing outcome creates a specific counter-incentive for Amazon to guide conservatively at the point-value; if Amazon splits capex into a range, the midpoint may not clear 205B even if the top-end does. Calibration 2026-07-26 bucket 50-59 correction 0.032 applied to raw 55, yielding 55 pct locked. This is an acknowledged ballast forecast per ingestion-bias rule (within 5 pct of market); explicit edge thesis: Meta's floor-only pattern creates option-value for Amazon to underclub the midpoint even if the ceiling ratchets. Frame:out (no framework maps to individual firm capex-shape decisions), so no framework attribution under rule 8b.",
+   "base_rate": 0.4,
+   "base_rate_source": "Bloomberg Visible Alpha consensus tracker as reported by Yahoo Finance 2026-07-27: consensus FY26 capex ~207B USD (raised from ~200B after Alphabet Q2 print on 2026-07-22); BofA analyst Justin Post explicit at 210B; base rate estimate = probability the disclosed value exceeds a modest threshold above prior guidance mid-point, method: reference-class of Big Five capex prints in the 2026 cycle (Alphabet raised ceiling, Meta raised floor only), as of 2026-07-30",
+   "market": {
+    "price": 0.6,
+    "source": "Bloomberg Visible Alpha consensus 207B implies P(>205B) approximately 0.60 as of 2026-07-27"
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Read Amazon Q2 2026 earnings press release, CFO commentary on the earnings call, or 10-Q filing published between 2026-07-30 and 2026-08-05. Confirmed if any disclosed FY26 capex figure or range has a point-value or midpoint strictly greater than 205 billion USD; disconfirmed if the point-value or midpoint is 205 billion USD or lower or if guidance is not revised (prior guide 200B is not > 205B and would disconfirm).",
+   "resolve_by": "2026-08-05",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-30T12:23:32Z",
+    "auditor": "twin",
+    "note": "Searched 'Amazon Q2 2026 earnings expected capex analyst estimate FY 2026 range' on 2026-07-30 12:00 UTC; Amazon Q2 earnings not yet released (scheduled 2026-07-30 21:00 UTC); consensus tracker at 207B, BofA at 210B; no pre-announcement of capex figure in Amazon investor relations communications; the update-test binary is genuinely open pending the 21:00 UTC release",
+    "queries": [
+     "Amazon Q2 2026 earnings expected capex analyst estimate FY 2026 range",
+     "Amazon Q2 2026 earnings expected capex"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260730-003",
+   "date": "2026-07-30",
+   "registered_at": "2026-07-30T12:23:58Z",
+   "claim": "By 2026-09-15, the Kenya Ministry of Information, Communications and the Digital Economy publishes a revised draft, gazette notice, or final published version of the AI and Emerging Technologies Policy that names a SPECIFIC pledged compute figure for the National AI Compute Access Programme — either a GPU count, teraflop/petaflop capacity, or dollar-denominated compute-purchase commitment.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Kenya's public consultation on the draft AI and Emerging Technologies Policy closes 2026-08-04 at aipolicy@moict.go.ke; the Ministry has historically published policy revisions 4-12 weeks after consultation close (2023 Data Protection Regulations followed this cadence). The India-Italy-Kenya trilateral MoU signed 2026-07 explicitly references the Compute Access Programme as a delivery vehicle.",
+   "withdrawal": null,
+   "confidence": 0.35,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Absorption Stack Model frame predicts that Kenya's compute-supply position in the India-Italy-Kenya trilateral requires a numeric commitment to be operational — a capacity-vague Programme is a paper claim that Absorption Stack (procurement preference + Sovereign Cloud + Compute Access) cannot execute. Twin priced 35 pct — above base rate 25 pct because the trilateral creates pressure for specificity that historically has not existed, but below 50 pct because the Ministry-vs-Parliament division of specificity typically routes numeric commitments to the AI Bill (separately in Parliament) rather than the Policy. Calibration 2026-07-26 bucket 30-39 correction null (n<3, ignored). Framework attribution under rule 8b — Absorption Stack Model is load-bearing because the forecast rests on its structural prediction that unnamed compute-supply commitments are paper claims.",
+   "base_rate": 0.25,
+   "base_rate_source": "Kenya ICT Ministry publication cadence for the AI Strategy 2025-2030 track: 2025 draft (2025-04) had no numeric compute commitments; the 2026-07 draft AI and Emerging Technologies Policy names the Programme but no numeric commitment; base rate estimate from reference class of African-ministry policy publications between initial draft and 6-week-post-consultation-close point, method: reference class of 8 recent AU-member-state AI-strategy revisions 2023-2026 (NG, ZA, KE, RW, ET, EG, MA, CI), of which 2/8 named a specific compute figure at first-revision stage, as of 2026-07-30",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Absorption Stack Model"
+   ],
+   "update_test": "Read publications from ict.go.ke and kenyalaw.org between 2026-08-05 and 2026-09-15 and any Kenyan Ministry press releases on the AI and Emerging Technologies Policy. Confirmed if any publication in this window attributed to the Ministry explicitly names a specific numeric compute figure for the National AI Compute Access Programme (an integer GPU count, a specific FLOPS/teraflop/petaflop capacity, or a dollar-or-shilling-denominated compute-purchase commitment); disconfirmed if the Programme remains described in capacity-vague or funding-vehicle terms, or if no revision is published by 2026-09-15.",
+   "resolve_by": "2026-09-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-30T12:23:58Z",
+    "auditor": "twin",
+    "note": "Searched 'Kenya AI compute council August 2026 sovereign cloud gazette' on 2026-07-30; results show consultation is open through 2026-08-04, no post-consultation revision published yet, no numeric compute commitment in the current draft; ict.go.ke and africaainews.com coverage confirms Programme framing is currently under-specified as of 2026-07-30",
+    "queries": [
+     "Kenya AI compute council August 2026 sovereign cloud gazette",
+     "Kenya AI and Emerging Technologies Policy revised draft"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260730-004",
+   "date": "2026-07-30",
+   "registered_at": "2026-07-30T12:24:18Z",
+   "claim": "US Bureau of Labor Statistics Consumer Price Index for August 2026 (release scheduled 2026-09-11 at 8:30 ET) reports headline CPI year-over-year at 3.5 percent or higher.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bureau of Labor Statistics CPI monthly release calendar (bls.gov/schedule/news_release/cpi.htm); August 2026 data typically publishes second Wednesday of September, 2026-09-11 at 8:30 ET.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin priced 55 pct. FOMC's hawkish three-vote dissent 2026-07-29 (citing inflation risks - CPI at 3.7 pct in June, Ofgem/energy priced back in for Q3, oil price shifts around the July 7 Iran strikes) suggests inflation is running above the 3.5 pct threshold at least modestly. Ofgem energy price cap 13 pct rise in July 2026 begins to feed through to Q3 print. Base rate 40 pct on trajectory-adjusted historical print distribution; twin +15 pp over base rate reflecting current FOMC and BoE hawkish signals as evidence-in-the-real-world that structural inflation remains sticky. Calibration 2026-07-26 bucket 50-59 correction 0.032 applied to raw 55, yielding suggested 55 pct. Frame:out (no framework directly maps to headline CPI reads), no framework attribution under rule 8b.",
+   "base_rate": 0.4,
+   "base_rate_source": "Trading Economics headline CPI Y/Y trajectory 2026-01 through 2026-06: Jan 2.6, Feb 2.8, Mar 3.1, Apr 3.4, May 4.2, Jun 3.7; monthly base rate that a randomly-selected month prints >= 3.5 pct = 4/6 = 0.67, but the recent 4.2 pct May print may have been Ofgem-price-cap-and-oil transient (July signal), so trajectory-adjusted base rate is lower; method: 6-month recent-print reference class as of 2026-07-30",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Read BLS CPI release published on or about 2026-09-11 at 8:30 ET. Confirmed if headline All Items CPI 12-month percent change (unadjusted) reported for August 2026 is 3.5 percent or higher; disconfirmed if less than 3.5 percent.",
+   "resolve_by": "2026-09-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-30T12:24:18Z",
+    "auditor": "twin",
+    "note": "Searched 'US July 2026 unemployment rate expected consensus BLS jobs report' on 2026-07-30 (related context); June 2026 headline CPI last reported at 3.7 pct Y/Y; August 2026 CPI has not been released; consensus tracker for August CPI not yet published; the update-test is genuinely open as of 2026-07-30",
+    "queries": [
+     "US July 2026 unemployment rate expected consensus BLS jobs report",
+     "August 2026 CPI consensus forecast"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
