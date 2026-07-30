@@ -4242,7 +4242,7 @@
    "frameworks": [],
    "update_test": "Read Meta Q2 2026 earnings press release, 10-Q, and CFO commentary on the earnings call published 2026-07-29 or 2026-07-30. Confirmed if any of these documents state a full-year 2026 capex range whose upper bound (ceiling) is strictly greater than 145 billion USD; disconfirmed if the guidance ceiling is 145 billion USD or lower or if guidance is unchanged from the 125-145 billion USD range.",
    "resolve_by": "2026-08-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-18T12:11:12Z",
@@ -4288,7 +4288,11 @@
      "source_url": "https://www.fool.com/investing/2026/07/23/mark-zuckerbergs-meta-is-expected-to-report-60-bil/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-30T12:12:55Z",
+    "outcome": "disconfirmed",
+    "note": "Meta Q2 2026 earnings 2026-07-29: raised LOW end of capex guidance from 125B to 135B, but CEILING remained 145B. Per update test, disconfirmed if guidance ceiling is 145B or lower (which it is - exactly 145B). Twin said 50 pct - a coin flip that landed on the No side. Structural detail: Meta was the odd Big Five out this cycle - Alphabet raised its top end from 190B to 205B, Microsoft's Q4 fiscal 2025 was 24B up 27 pct, and Meta chose to narrow the range from below rather than push through 145B. Source: https://www.kucoin.com/news/flash/meta-q2-2026-earnings-miss-estimates-capex-guidance-rises-to-145-billion and https://www.benzinga.com/markets/earnings/26/07/60781217/meta-reports-mixed-q2-results-raises-low-end-of-capex-guidance-range-shares-move-lower"
+   }
   },
   {
    "id": "claim-20260719-001",
@@ -5126,20 +5130,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 35,
-    "hit_rate": 0.7714,
-    "brier": 0.1785,
-    "skill_vs_coinflip": 0.0715
+    "n": 36,
+    "hit_rate": 0.75,
+    "brier": 0.1805,
+    "skill_vs_coinflip": 0.0695
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1785,
-  "skill_vs_coinflip": 0.0715,
+  "brier": 0.1805,
+  "skill_vs_coinflip": 0.0695,
   "base_rate": {
-   "n": 35,
-   "brier_base": 0.1999,
-   "brier_twin": 0.1785,
-   "skill": 0.0215
+   "n": 36,
+   "brier_base": 0.1988,
+   "brier_twin": 0.1805,
+   "skill": 0.0184
   },
   "market": {
    "n": 4,
@@ -5148,14 +5152,14 @@
    "skill": -0.0057
   },
   "non_echo": {
-   "n": 12,
+   "n": 13,
    "floor": 30,
-   "brier": 0.2003,
-   "skill_vs_base": 0.0324
+   "brier": 0.2041,
+   "skill_vs_base": 0.023
   },
   "clusters": {
    "effective_n": 29,
-   "brier_cluster_collapsed": 0.1818
+   "brier_cluster_collapsed": 0.1836
   },
   "paired": {
    "n": 0,
@@ -5165,13 +5169,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0276,
-    "hi": 0.118,
+    "lo": 0.0271,
+    "hi": 0.1148,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0039,
-    "hi": 0.0501,
+    "lo": -0.0052,
+    "hi": 0.0459,
     "distinguishable": false
    },
    "skill_vs_market": {
