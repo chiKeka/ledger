@@ -4024,7 +4024,7 @@
    "frameworks": [],
    "update_test": "BoE MPC statement dated 2026-07-30 on bankofengland.co.uk. Confirmed if the reported Bank Rate remains 3.75 percent; disconfirmed if the committee changes the rate by 25bp or more in either direction.",
    "resolve_by": "2026-07-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-15T12:12:40Z",
@@ -4064,7 +4064,11 @@
      "source_url": "https://www.bankofengland.co.uk/monetary-policy/monetary-policy-committee"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-30T12:09:55Z",
+    "outcome": "confirmed",
+    "note": "Bank of England MPC on 2026-07-30 voted 6-3 to hold Bank Rate at 3.75 percent (fifth consecutive hold this year). Dissenters (Mann, Greene, Pill) preferred a rise to 4.0 percent - hawkish split narrower than the 7-2 Reuters consensus. Update test confirmed: no change from prior meeting rate. Twin said 69 pct vs base rate 60 pct, correct. Source: https://www.euronews.com/business/2026/07/30/bank-of-england-holds-interest-rates-at-375-despite-inflation-risks"
+   }
   },
   {
    "id": "claim-20260715-002",
@@ -5122,36 +5126,36 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 34,
-    "hit_rate": 0.7647,
-    "brier": 0.1809,
-    "skill_vs_coinflip": 0.0691
+    "n": 35,
+    "hit_rate": 0.7714,
+    "brier": 0.1785,
+    "skill_vs_coinflip": 0.0715
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1809,
-  "skill_vs_coinflip": 0.0691,
+  "brier": 0.1785,
+  "skill_vs_coinflip": 0.0715,
   "base_rate": {
-   "n": 34,
-   "brier_base": 0.2011,
-   "brier_twin": 0.1809,
-   "skill": 0.0202
+   "n": 35,
+   "brier_base": 0.1999,
+   "brier_twin": 0.1785,
+   "skill": 0.0215
   },
   "market": {
-   "n": 3,
-   "brier_market": 0.0071,
-   "brier_twin": 0.0088,
-   "skill": -0.0017
+   "n": 4,
+   "brier_market": 0.0249,
+   "brier_twin": 0.0306,
+   "skill": -0.0057
   },
   "non_echo": {
-   "n": 11,
+   "n": 12,
    "floor": 30,
-   "brier": 0.2098,
-   "skill_vs_base": 0.0296
+   "brier": 0.2003,
+   "skill_vs_base": 0.0324
   },
   "clusters": {
    "effective_n": 29,
-   "brier_cluster_collapsed": 0.1881
+   "brier_cluster_collapsed": 0.1818
   },
   "paired": {
    "n": 0,
@@ -5161,18 +5165,18 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0219,
-    "hi": 0.1175,
+    "lo": 0.0276,
+    "hi": 0.118,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0075,
-    "hi": 0.0497,
+    "lo": -0.0039,
+    "hi": 0.0501,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0059,
-    "hi": 0.0044,
+    "lo": -0.0142,
+    "hi": 0.0018,
     "distinguishable": false
    }
   }
