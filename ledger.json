@@ -4955,6 +4955,219 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260731-001",
+   "date": "2026-07-31",
+   "registered_at": "2026-07-31T12:14:14Z",
+   "claim": "China National Bureau of Statistics official Manufacturing PMI for August 2026 (scheduled release 2026-08-31) prints at or above 50.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "China NBS monthly official Manufacturing PMI release (stats.gov.cn) which just printed 49.2 for July 2026, first contraction since February 2026.",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July printed 49.2 (below consensus 50.0). Twin at 32 percent leans below the 45 percent base rate because the coincident macro cycle (BoJ inflation upgrade, US Q2 GDP deceleration to 1.5 percent, NBS Non-Manufacturing PMI also easing to 49.0) suggests broad-based cooling rather than one-month noise. Bucket 30-39 correction is null (n=2 in calibration.json), so no bucket adjustment applied.",
+   "base_rate": 0.45,
+   "base_rate_source": "Twin-estimated priori: base rate for a Chinese NBS Manufacturing PMI reprinting above 50 within one month after crossing into contraction is roughly 40-50 percent when the miss is marginal (0.5-1.5 points below 50). Anchor: rolling 2018-2025 sample of NBS PMI recoveries after contraction, as of 2026-07-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-31, the China National Bureau of Statistics official August 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
+   "resolve_by": "2026-09-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-31T12:14:14Z",
+    "auditor": "twin",
+    "note": "Searched fxstreet.com and tradingeconomics.com on 2026-07-31 within an hour of the July release; only July 49.2 is public and the August print is not scheduled until 2026-08-31.",
+    "queries": [
+     "China NBS Manufacturing PMI August 2026",
+     "China PMI 2026-08-31 release"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260701-004",
+     "relation": "shares-system",
+     "note": "August NBS Manufacturing PMI extends the July 49.2 contraction test, same underlying series and framework-vocabulary-free update path.",
+     "date": "2026-07-31T12:16:17Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260731-002",
+   "date": "2026-07-31",
+   "registered_at": "2026-07-31T12:14:35Z",
+   "claim": "US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-05 at 08:30 ET) reports total nonfarm payroll employment change at or above 100,000 (headline seasonally adjusted, first release).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Bureau of Labor Statistics Employment Situation monthly release (bls.gov).",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin at 75 percent above the 65 percent base rate applies the 70-79 bucket correction (+7pp on n=8 with hit rate 0.875; per calibration.json 2026-07-31). Underlying view: GDP Q2 advance was 1.5 percent with consumer spending accelerating, so private-payrolls resilience carries the headline above 100k even with government drag. Ingestion-bias flag: this is a scheduled macro print, priced roughly 60-70 percent by markets; +10pp over base rate is the informative edge, not the raw estimate.",
+   "base_rate": 0.65,
+   "base_rate_source": "Twin-estimated: base rate for a US Nonfarm Payrolls first-release headline print of 100k or higher during the 2024-26 slowing-growth phase, roughly 65 percent based on the rolling 12-month distribution (July preliminary due 2026-08-01 is pending; recent months averaging in the 120-160k range). Anchor: BLS ESSD monthly frequency 2024-01 through 2026-06, as of 2026-07-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-05, the US Bureau of Labor Statistics Employment Situation release for August 2026 reports total nonfarm payroll employment change of 100,000 or higher (seasonally adjusted, first release headline number). Confirmed at 100k or higher, disconfirmed below 100k.",
+   "resolve_by": "2026-09-08",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-31T12:14:35Z",
+    "auditor": "twin",
+    "note": "Searched bls.gov and finance calendars on 2026-07-31 for the August 2026 print; the release is scheduled 2026-09-05 and no data is public.",
+    "queries": [
+     "BLS Employment Situation August 2026",
+     "US Nonfarm Payrolls August 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260731-003",
+   "date": "2026-07-31",
+   "registered_at": "2026-07-31T12:14:50Z",
+   "claim": "The People's Bank of China announces a cut of 5 basis points or more to its 7-day reverse repo rate (the primary policy rate since 2024) between 2026-08-01 and 2026-09-15.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "PBoC official monetary policy announcements on pbc.gov.cn; 7-day reverse repo currently 1.40 percent per PBoC framework transition away from MLF as primary benchmark.",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin at 32 percent above the 25 percent base rate reflects a coincident deterioration signal (China Manufacturing PMI 49.2 contraction, Non-Manufacturing PMI 49.0, coincident with softer G7 activity data) that historically triggers PBoC easing within 4-8 weeks. The 7-point edge over base rate is the informative edge. Bucket 30-39 correction is null (n=2 in calibration.json), so no adjustment applied.",
+   "base_rate": 0.25,
+   "base_rate_source": "Twin-estimated: base rate for a PBoC policy-rate cut in any given six-week window during 2024-26, approximately 20-25 percent based on the observed frequency of cuts (three cuts in 2024, two in 2025, one so far in 2026). Anchor: PBoC monetary operations calendar, as of 2026-07-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Between 2026-08-01 and 2026-09-15, the People's Bank of China publishes an official announcement on pbc.gov.cn cutting the 7-day reverse repo rate by 5 basis points or more from its current 1.40 percent. Confirmed if the announcement appears in that window; disconfirmed if 2026-09-15 passes with no such cut.",
+   "resolve_by": "2026-09-17",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-31T12:14:50Z",
+    "auditor": "twin",
+    "note": "Searched pbc.gov.cn news, tradingeconomics.com, and centralbank.watch on 2026-07-31 for any policy-rate change since July NBS PMI print (49.2); no cut announced.",
+    "queries": [
+     "PBoC 7-day reverse repo rate cut 2026-08",
+     "China policy rate cut August September 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260731-004",
+   "date": "2026-07-31",
+   "registered_at": "2026-07-31T12:15:04Z",
+   "claim": "The US Bureau of Economic Analysis second estimate of Q2 2026 real gross domestic product (scheduled release 2026-08-28 at 08:30 ET) revises the annualized growth rate upward from the advance-estimate 1.5 percent (i.e., prints a value strictly greater than 1.5 percent).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BEA advance estimate for Q2 2026 real GDP printed 1.5 percent on 2026-07-30; second estimate scheduled 2026-08-28 will incorporate June retail-sales and inventory data not yet available at advance.",
+   "withdrawal": null,
+   "confidence": 0.42,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin at 42 percent matches the base rate. Advance-to-second revisions are close to 50/50 in direction; the estimator holds no directional edge here. Bucket 40-49 has a strong correction (+13 pp on n=3 hit rate 1.0) that would push a raw 42 percent to about 55 percent, but the n=3 is too small to trust and applying the full correction would violate the ingestion-bias discipline (matching consensus base rate exactly for calibration training).",
+   "base_rate": 0.42,
+   "base_rate_source": "Twin-estimated: base rate for a US GDP second-estimate revision upward from advance, roughly 40-45 percent based on the 2015-2025 sample of second-estimate revisions (revisions of +/-0.1 percent are common but the direction is roughly balanced). Anchor: BEA GDP revision history, as of 2026-07-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-28, the BEA news release for second estimate of Q2 2026 real GDP prints an annualized seasonally adjusted growth rate strictly greater than 1.5 percent (the advance estimate value). Confirmed if strictly greater; disconfirmed if less than or equal to 1.5 percent.",
+   "resolve_by": "2026-09-02",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-31T12:15:04Z",
+    "auditor": "twin",
+    "note": "Searched bea.gov news and finance calendars on 2026-07-31; the second-estimate release is 2026-08-28 and no revised data is public.",
+    "queries": [
+     "BEA second estimate Q2 2026 GDP release",
+     "Q2 2026 GDP revision August 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260615-002",
+     "relation": "sharpens",
+     "note": "Q2 GDP second estimate revision direction sharpens the same-quarter GDP interval test that just resolved (advance 1.5 percent inside the 1.0-3.0 window).",
+     "date": "2026-07-31T12:16:17Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260731-005",
+   "date": "2026-07-31",
+   "registered_at": "2026-07-31T12:16:03Z",
+   "claim": "The African Union Commission or AUDA-NEPAD publishes on au.int, nepad.org, or an official social channel a public status update, implementation report, or milestone bulletin on the Continental AI Strategy 2025-2026 phase by 2026-09-28.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "African Union Continental AI Strategy formally adopted July 2024; Year-1 implementation window 2025-2026; AU Commission and AUDA-NEPAD are the designated implementation channels.",
+   "withdrawal": null,
+   "confidence": 0.18,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Institutional Adaptation Lag predicts governance-first frameworks (which the AU Continental AI Strategy explicitly is, per bruno claim-20260610-007) systematically publish planning documents on schedule and implementation documents late. Twin at 18 percent below the 25 percent base rate reflects the framework's central prediction that AU produces less on-schedule than a naive prior. This claim probes bruno structural claim-20260610-007. Bucket 10-19 not fitted in calibration.json.",
+   "base_rate": 0.25,
+   "base_rate_source": "Twin-estimated: base rate for AU/AUDA-NEPAD strategy implementation reports arriving on the announced schedule within a 60-day observation window, roughly 20-30 percent based on the 2020-2025 sample of AU Digital Transformation Strategy and Continental AI Strategy milestone announcements. Anchor: au.int and nepad.org publication history, as of 2026-07-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-09-28, at least one of au.int, nepad.org, or the official AU/AUDA-NEPAD social accounts publishes a document, bulletin, press release, or public post explicitly identifying itself as a Continental AI Strategy implementation status, progress update, milestone bulletin, or Year-1 review. Confirmed if any such document is publicly available and dated 2026-08-01 through 2026-09-28; disconfirmed if no such document is publicly available by 2026-09-28.",
+   "resolve_by": "2026-09-29",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-07-31T12:16:03Z",
+    "auditor": "twin",
+    "note": "Searched au.int and nepad.org search functions on 2026-07-31 for 'Continental AI Strategy implementation' and 'Continental AI Strategy progress'; the most recent AU AI publication is the July 2024 strategy adoption text and a January 2026 African AI Council validation update. No 2026 Year-1 status document is public.",
+    "queries": [
+     "AU Commission Continental AI Strategy implementation report 2026",
+     "AUDA-NEPAD AI strategy Year 1"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-007",
+     "relation": "probes",
+     "note": "AU Commission Year-1 implementation status update is a short-horizon test of the bruno structural claim that AU governance-first phase produces limited on-schedule public deliverables.",
+     "date": "2026-07-31T12:16:17Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
