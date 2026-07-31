@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-30",
+ "updated": "2026-07-31",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1692,7 +1692,7 @@
    ],
    "update_test": "BEA news release for advance estimate of 2026 Q2 GDP published on bea.gov on or about 2026-07-30: confirmed if the annualized seasonally adjusted real GDP growth rate falls in the closed interval [1.0, 3.0] percent; disconfirmed if it falls below 1.0 or above 3.0",
    "resolve_by": "2026-08-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-15T12:15:21Z",
@@ -1706,7 +1706,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-31T12:07:49Z",
+    "outcome": "confirmed",
+    "note": "BEA advance estimate for Q2 2026 real GDP printed 1.5 percent annualized (within 1.0-3.0 percent interval). Q1 was 2.1 percent (deceleration). Primary: https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026 (PDF at https://www.bea.gov/sites/default/files/2026-07/gdp2q26-adv.pdf)"
+   }
   },
   {
    "id": "claim-20260616-001",
@@ -2038,7 +2042,7 @@
    ],
    "update_test": "Bank of Japan Monetary Policy Statement and Outlook Report published 2026-07-31 on boj.or.jp reports the target for the uncollateralized overnight call rate held at around 1.0 percent (i.e., no change from the May 2026 hike to 1.0 percent)",
    "resolve_by": "2026-08-01",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-18T12:11:38Z",
@@ -2084,7 +2088,11 @@
      "source_url": "https://asia.nikkei.com/Economy/Bank-of-Japan"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-31T12:07:37Z",
+    "outcome": "confirmed",
+    "note": "BoJ Monetary Policy Statement 2026-07-31 held policy rate at 1.0 percent (8-1 vote, board member Takata dissenting for hike to 1.25). Bloomberg confirms as expected by all 52 surveyed economists. https://www.bloomberg.com/news/articles/2026-07-31/bank-of-japan-holds-interest-rate-steady-at-1-as-expected"
+   }
   },
   {
    "id": "claim-20260618-002",
@@ -3236,7 +3244,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-31, the China National Bureau of Statistics official July 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
    "resolve_by": "2026-08-02",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-01T12:16:32Z",
@@ -3248,7 +3256,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-31T12:07:49Z",
+    "outcome": "disconfirmed",
+    "note": "China NBS official Manufacturing PMI July 2026 printed 49.2 (down from 50.3 in June, below expected 50.0). First contraction since February. Below the 50.0 threshold. Sources: https://www.fxstreet.com/news/chinas-nbs-manufacturing-pmi-falls-to-492-in-july-non-manufacturing-pmi-eases-to-490-202607310131 https://tradingeconomics.com/china/manufacturing-pmi"
+   }
   },
   {
    "id": "claim-20260701-005",
@@ -3616,6 +3628,12 @@
      "direction": "against",
      "note": "UMich FINAL July 2026 release rescheduled from expected 2026-07-25 to 2026-07-31 10:00 ET per multiple economic-calendar mirrors (investing.com, mql5). Preliminary 2026-07-18 printed 54.4 (vs 49.5 June final and 51.0 consensus, +9.9 pct m/m, highest since Feb 2026, driven by lower gasoline prices; components: current 54.9, expectations 54.0; 1-yr inflation expectations eased to 4.2). Update test cannot fire today; sending to Sunday Reckoning. Not a defect in the claim; the release calendar drifted after registration.",
      "source_url": "https://www.fxstreet.com/news/uom-consumer-sentiment-index-set-to-improve-further-but-remain-at-historically-low-levels-in-july-202607171230"
+    },
+    {
+     "date": "2026-07-31",
+     "direction": "supports",
+     "note": "Preliminary July 2026 UMich Consumer Sentiment printed 54.4 (up 9.9% from June, highest since February) per July 17 preliminary release. Final release date confusion: original claim assumed 2026-07-25; finance calendars show FINAL July 2026 release scheduled 2026-07-31 at 10:00 ET, so the final may not be public yet at brief runtime. Log evidence; hold resolution for Reckoning.",
+     "source_url": "https://www.advisorperspectives.com/dshort/updates/2026/07/17/consumer-sentiment-hits-highest-level-since-february-on-easing-gas-prices"
     }
    ],
    "resolution": null
@@ -4315,7 +4333,7 @@
    "frameworks": [],
    "update_test": "Read the Apple Q3 FY2026 8-K, press release, or investor letter published on Apple's investor relations site on 2026-07-30 (conference call at 5:00 pm ET). Confirmed if reported total net sales for the quarter equal or exceed 110.0 billion USD; disconfirmed if below 110.0 billion USD.",
    "resolve_by": "2026-07-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-19T12:17:14Z",
@@ -4330,7 +4348,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-31T12:07:49Z",
+    "outcome": "disconfirmed",
+    "note": "Apple Q3 FY2026 press release 2026-07-30 reports quarterly revenue of 109.4 billion USD (109.417 billion), up 16 percent YoY. BELOW the 110.0 billion threshold. Primary: https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+   }
   },
   {
    "id": "claim-20260719-002",
@@ -4590,7 +4612,7 @@
    "frameworks": [],
    "update_test": "Read the Amazon Q2 2026 earnings press release, 10-Q, and earnings-call transcript published 2026-07-30 after US market close. Confirmed if any of those three documents discloses a full-year 2026 total capital-expenditure guidance point or upper bound at or above 215.0 billion USD. Disconfirmed if the maximum disclosed FY 2026 capex figure remains below 215.0 billion USD, including the case where guidance is reiterated at ~200 billion USD.",
    "resolve_by": "2026-08-01",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-24T12:13:07Z",
@@ -4619,7 +4641,11 @@
      "source_url": "https://www.investing.com/news/company-news/alphabet-q2-2026-slides-24-revenue-growth-cloud-surges-despite-capex-93CH-4807148"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-07-31T12:07:49Z",
+    "outcome": "confirmed",
+    "note": "Amazon Q2 2026 earnings 2026-07-30 raised full-year 2026 CapEx guidance from ~200 billion USD to ~220 billion USD (citing higher memory costs for data-center AI infrastructure). 220B exceeds 215B threshold. Source: coverage aggregating the earnings release (Motley Fool, Yahoo Finance, Cryptobriefing) - primary press release at ir.aboutamazon.com"
+   }
   },
   {
    "id": "claim-20260726-001",
@@ -5288,20 +5314,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 36,
-    "hit_rate": 0.75,
-    "brier": 0.1805,
-    "skill_vs_coinflip": 0.0695
+    "n": 41,
+    "hit_rate": 0.7317,
+    "brier": 0.1899,
+    "skill_vs_coinflip": 0.0601
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1805,
-  "skill_vs_coinflip": 0.0695,
+  "brier": 0.1899,
+  "skill_vs_coinflip": 0.0601,
   "base_rate": {
-   "n": 36,
-   "brier_base": 0.1988,
-   "brier_twin": 0.1805,
-   "skill": 0.0184
+   "n": 41,
+   "brier_base": 0.2061,
+   "brier_twin": 0.1899,
+   "skill": 0.0162
   },
   "market": {
    "n": 4,
@@ -5310,14 +5336,14 @@
    "skill": -0.0057
   },
   "non_echo": {
-   "n": 13,
+   "n": 15,
    "floor": 30,
-   "brier": 0.2041,
-   "skill_vs_base": 0.023
+   "brier": 0.2089,
+   "skill_vs_base": 0.0152
   },
   "clusters": {
-   "effective_n": 29,
-   "brier_cluster_collapsed": 0.1836
+   "effective_n": 33,
+   "brier_cluster_collapsed": 0.1881
   },
   "paired": {
    "n": 0,
@@ -5327,13 +5353,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0271,
-    "hi": 0.1148,
+    "lo": 0.0206,
+    "hi": 0.1024,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0052,
-    "hi": 0.0459,
+    "lo": -0.0083,
+    "hi": 0.0418,
     "distinguishable": false
    },
    "skill_vs_market": {
