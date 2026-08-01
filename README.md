@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 30✓ · 11✗ · 0◐ · 53 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.190 (coin-flip = 0.250; 41 scored across 33 independent events, cluster-collapsed Brier 0.188), skill vs coin-flip +0.060 (95% CI +0.021..+0.102) · skill vs base rate +0.016 (95% CI -0.008..+0.042; not yet distinguishable from zero) (n=41 carrying a recorded base rate) · skill vs market -0.006 (95% CI -0.014..+0.002; not yet distinguishable from zero) (n=4 with a listed market price) · non-echo record: n=15 of 41 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 31✓ · 12✗ · 0◐ · 53 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.190 (coin-flip = 0.250; 43 scored across 35 independent events, cluster-collapsed Brier 0.188), skill vs coin-flip +0.060 (95% CI +0.021..+0.101) · skill vs base rate +0.021 (95% CI -0.004..+0.047; not yet distinguishable from zero) (n=43 carrying a recorded base rate) · skill vs market -0.013 (95% CI -0.028..-0.001; distinguishably below zero) (n=5 with a listed market price) · non-echo record: n=17 of 43 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✓ "US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at " — said 62%, resolved confirmed (2026-07-31)**
+**Latest: ✓ "Amazon Q2 2026 earnings release (scheduled 2026-07-30 after US market close) discloses a full-year 2026 capital expendit" — said 55%, resolved confirmed (2026-08-01)**
 
-_Updated 2026-07-31 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-08-01 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -35,16 +35,16 @@ _Updated 2026-07-31 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260703-004"></a>The University of Michigan Consumer Sentiment Index FINAL July 2026 release (scheduled 2026-07-25 at 10:00 ET) prints at a value LOWER than the July 2026 PRELIMINARY release (scheduled 2026-07-18 at 10:00 ET). | **42%** | 50% | world |  2026-07-30 |
 | <a id="claim-20260703-003"></a>The Institute for Supply Management Manufacturing PMI headline composite index for July 2026 (release scheduled 2026-08-01 at 10:00 ET on ismworld.org) prints at or above 50.0 (signaling expansion). | **45%** | 50% | world |  2026-08-05 |
-| <a id="claim-20260730-002"></a>Amazon Q2 2026 earnings release (scheduled 2026-07-30 after US market close) discloses a full-year 2026 capital expenditure figure or range whose point-value or midpoint is strictly greater than 205 billion USD. | **55%** | 40% | world |  2026-08-05 |
 | <a id="claim-20260701-002"></a>BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth at or above 2.5 percent. | **30%** | 30% | world |  2026-08-06 |
 | <a id="claim-20260723-001"></a>The Institute for Supply Management Services PMI headline composite for July 2026 (release scheduled 2026-08-05 at 10:00 ET on ismworld.org) prints at or above 51.0. | **58%** | 55% | world |  2026-08-06 |
 | <a id="claim-20260620-002"></a>Between 2026-07-23 and 2026-08-07, at least one of the Big Five US tech firms (Alphabet, Amazon, Apple, Meta, Microsoft) cites 'sovereign AI', 'AI export controls', or 'foreign-national access restrictions' as a material business risk or strategic consideration on their Q2 2026 earnings call or accompanying 10-Q. | **78%** | 55% | worldview |  2026-08-07 |
 | <a id="claim-20260714-002"></a>US Bureau of Economic Analysis Personal Consumption Expenditures Price Index for June 2026 (scheduled release 2026-07-31 at 8:30 ET, bea.gov) prints headline PCE 12-month percent change at or above 3.0 percent. | **57%** | 50% | world |  2026-08-07 |
 | <a id="claim-20260715-002"></a>The Reserve Bank of India Monetary Policy Committee will hold the policy repo rate at 5.25 percent at its August 4-6 2026 meeting (decision announced 2026-08-06). | **57%** | 55% | world |  2026-08-07 |
+| <a id="claim-20260801-002"></a>The Bureau of Labor Statistics Job Openings and Labor Turnover Summary for June 2026 (scheduled release 2026-08-04 at 10:00 ET) prints headline seasonally-adjusted job openings at 7.0 million or above. | **50%** | 55% | world |  2026-08-07 |
 | <a id="claim-20260617-003"></a>By 2026-08-01, federal agencies will publicly publish or announce a designed voluntary frontier model engagement framework as directed by the Trump Executive Order on Promoting Advanced AI Innovation and Security (signed 2026-06-02). | **55%** | 55% | worldview |  2026-08-08 |
 | <a id="claim-20260714-001"></a>US Bureau of Labor Statistics Employment Situation for July 2026 (scheduled release 2026-08-01 at 8:30 ET, bls.gov) prints headline seasonally-adjusted civilian unemployment rate at or above 4.2 percent. | **58%** | 50% | world |  2026-08-08 |
+| <a id="claim-20260801-001"></a>The ADP National Employment Report for July 2026 (scheduled release 2026-08-05 at 8:15 ET) prints monthly change in US private sector employment at 50,000 jobs or above. | **65%** | 62% | world |  2026-08-08 |
 | <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
 | <a id="claim-20260610-020"></a>At least one Big Five US tech firm (Alphabet, Amazon, Apple, Meta, Microsoft) Q2-2026 calendar earnings release (reported between 2026-07-15 and 2026-08-09) will report year-over-year revenue decline OR year-over-year adjusted EPS decline. | **22%** | 25% | world |  2026-08-09 |
 | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | **38%** | 42% | world |  2026-08-12 |
@@ -77,6 +77,8 @@ _Updated 2026-07-31 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260730-002"></a>Amazon Q2 2026 earnings release (scheduled 2026-07-30 after US market close) discloses a full-year 2026 capital expenditure figure or range whose point-value or midpoint is strictly greater than 205 billion USD. | 55% | confirmed (2026-08-01) | Amazon Q2 2026 earnings 2026-07-30 raised full-year 2026 cash capex guidance from ~200B to ~220B USD, citing higher memory costs for AI infrastructure. 220B midpoint is strictly greater than 205B. Update test confirmed. Sources: Amazon Q2 2026 earnings call transcript; Motley Fool 2026-07-31; digitalapplied.com 2026-07-31. |
+| ✗ | <a id="claim-20260703-004"></a>The University of Michigan Consumer Sentiment Index FINAL July 2026 release (scheduled 2026-07-25 at 10:00 ET) prints at a value LOWER than the July 2026 PRELIMINARY release (scheduled 2026-07-18 at 10:00 ET). | 42% | disconfirmed (2026-08-01) | UMich Consumer Sentiment July 2026 FINAL printed 55.2, HIGHER than the preliminary 54.4. Update test disconfirmed (final was not strictly less than preliminary). Sources: Bloomberg 2026-07-31, University of Michigan release, ABA Banking Journal. |
 | ✓ | <a id="claim-20260615-002"></a>US Bureau of Economic Analysis advance estimate of Q2 2026 real gross domestic product (scheduled release 2026-07-30 at 08:30 ET) shows annualized real GDP growth between 1.0 and 3.0 percent, inclusive | 62% | confirmed (2026-07-31) | BEA advance estimate for Q2 2026 real GDP printed 1.5 percent annualized (within 1.0-3.0 percent interval). Q1 was 2.1 percent (deceleration). Primary: https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026 (PDF at https://www.bea.gov/sites/default/files/2026-07/gdp2q26-adv.pdf) |
 | ✗ | <a id="claim-20260701-004"></a>China National Bureau of Statistics Manufacturing PMI for July 2026 (scheduled release 2026-07-31) prints at or above 50.0. | 50% | disconfirmed (2026-07-31) | China NBS official Manufacturing PMI July 2026 printed 49.2 (down from 50.3 in June, below expected 50.0). First contraction since February. Below the 50.0 threshold. Sources: https://www.fxstreet.com/news/chinas-nbs-manufacturing-pmi-falls-to-492-in-july-non-manufacturing-pmi-eases-to-490-202607310131 https://tradingeconomics.com/china/manufacturing-pmi |
 | ✗ | <a id="claim-20260719-001"></a>Apple Inc. Q3 fiscal year 2026 total net sales as reported in the earnings press release on 2026-07-30 are at or above 110.0 billion USD. | 58% | disconfirmed (2026-07-31) | Apple Q3 FY2026 press release 2026-07-30 reports quarterly revenue of 109.4 billion USD (109.417 billion), up 16 percent YoY. BELOW the 110.0 billion threshold. Primary: https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/ |
@@ -128,8 +130,8 @@ _Withdrawn before resolution: 1 claim(s), for failing registration standards (ev
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
 | 30-39% | 2 | 50% |
-| 40-49% | 3 | 100% |
-| 50-59% | 11 | 46% |
+| 40-49% | 4 | 75% |
+| 50-59% | 12 | 50% |
 | 60-69% | 11 | 73% |
 | 70-79% | 8 | 88% |
 | 80-89% | 3 | 100% |
@@ -142,7 +144,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 5 | 40% | 0.215 | +0.035 | readable |
-| world (frame:out) | 36 | 78% | 0.186 | +0.064 | readable |
+| world (frame:out) | 38 | 76% | 0.187 | +0.063 | readable |
 
 ## The workshop
 

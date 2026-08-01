@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31",
+ "updated": "2026-08-01",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -3590,7 +3590,7 @@
    "frameworks": [],
    "update_test": "Michigan Consumer Sentiment Index FINAL July 2026 release published 2026-07-25 approximately 10:00 ET at data.sca.isr.umich.edu (or Bloomberg/Reuters mirror). Confirmed if the reported FINAL headline Sentiment index value is strictly less than the PRELIMINARY July 2026 headline value; disconfirmed if the FINAL is greater than or equal to the PRELIMINARY.",
    "resolve_by": "2026-07-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-03T12:14:32Z",
@@ -3634,9 +3634,19 @@
      "direction": "supports",
      "note": "Preliminary July 2026 UMich Consumer Sentiment printed 54.4 (up 9.9% from June, highest since February) per July 17 preliminary release. Final release date confusion: original claim assumed 2026-07-25; finance calendars show FINAL July 2026 release scheduled 2026-07-31 at 10:00 ET, so the final may not be public yet at brief runtime. Log evidence; hold resolution for Reckoning.",
      "source_url": "https://www.advisorperspectives.com/dshort/updates/2026/07/17/consumer-sentiment-hits-highest-level-since-february-on-easing-gas-prices"
+    },
+    {
+     "date": "2026-07-31",
+     "direction": "against",
+     "note": "Rescheduled UMich July FINAL release date arrived (2026-07-31, 10:00 ET); as of 14:20 UTC no final print is visible on public mirrors or indexed coverage - only the 54.4 preliminary. Claim remains past resolve_by (2026-07-30) with the test unfired at deadline; interpretive withdrawal-vs-late-resolution call stays with the Sunday Reckoning.",
+     "source_url": "https://www.investing.com/economic-calendar/michigan-consumer-sentiment-320"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-01T12:08:25Z",
+    "outcome": "disconfirmed",
+    "note": "UMich Consumer Sentiment July 2026 FINAL printed 55.2, HIGHER than the preliminary 54.4. Update test disconfirmed (final was not strictly less than preliminary). Sources: Bloomberg 2026-07-31, University of Michigan release, ABA Banking Journal."
+   }
   },
   {
    "id": "claim-20260704-001",
@@ -4861,7 +4871,7 @@
    "frameworks": [],
    "update_test": "Read Amazon Q2 2026 earnings press release, CFO commentary on the earnings call, or 10-Q filing published between 2026-07-30 and 2026-08-05. Confirmed if any disclosed FY26 capex figure or range has a point-value or midpoint strictly greater than 205 billion USD; disconfirmed if the point-value or midpoint is 205 billion USD or lower or if guidance is not revised (prior guide 200B is not > 205B and would disconfirm).",
    "resolve_by": "2026-08-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-30T12:23:32Z",
@@ -4876,7 +4886,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-01T12:08:31Z",
+    "outcome": "confirmed",
+    "note": "Amazon Q2 2026 earnings 2026-07-30 raised full-year 2026 cash capex guidance from ~200B to ~220B USD, citing higher memory costs for AI infrastructure. 220B midpoint is strictly greater than 205B. Update test confirmed. Sources: Amazon Q2 2026 earnings call transcript; Motley Fool 2026-07-31; digitalapplied.com 2026-07-31."
+   }
   },
   {
    "id": "claim-20260730-003",
@@ -5164,6 +5178,104 @@
      "relation": "probes",
      "note": "AU Commission Year-1 implementation status update is a short-horizon test of the bruno structural claim that AU governance-first phase produces limited on-schedule public deliverables.",
      "date": "2026-07-31T12:16:17Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260801-001",
+   "date": "2026-08-01",
+   "registered_at": "2026-08-01T12:13:13Z",
+   "claim": "The ADP National Employment Report for July 2026 (scheduled release 2026-08-05 at 8:15 ET) prints monthly change in US private sector employment at 50,000 jobs or above.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ADP Research Institute publishes monthly National Employment Report using anonymized payroll data from >26M private-sector employees; June 2026 print was +98k",
+   "withdrawal": null,
+   "confidence": 0.65,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Correction bucket 60-69 (+0.049): raw 60% -> corrected ~65%. ADP has been volatile but averaged around +70-90k over Q2. No consensus number in Reuters/Bloomberg per the pre-reg audit; this is un-priced signal territory (calibration 2026-07-31).",
+   "base_rate": 0.62,
+   "base_rate_source": "ADP monthly private payrolls positive prints (>=50k) 12 of last 24 months from ADP historical archive, computed 2026-08-01",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "ADP National Employment Report for July 2026 released 2026-08-05 at 8:15 ET via adpemploymentreport.com and mediacenter.adp.com: confirmed if reported change in private sector employment is 50,000 jobs or above; disconfirmed if below 50,000 (including a net negative print).",
+   "resolve_by": "2026-08-08",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-01T12:13:13Z",
+    "auditor": "twin",
+    "note": "Searched Reuters, Bloomberg, Investing.com 2026-08-01 UTC — the July 2026 ADP release scheduled 2026-08-05 has not yet been published; no consensus number found in mainstream media (ADP releases are less-priced than BLS payrolls); no Kalshi/Polymarket contract found on ADP monthly print.",
+    "queries": [
+     "ADP July 2026 release date",
+     "ADP National Employment Report July 2026 forecast",
+     "ADP nonfarm employment July 2026 consensus"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260714-001",
+     "relation": "shares-system",
+     "note": "Both are US labor-market monthly reads; ADP is the private-sector leading proxy for the BLS Employment Situation. Independent methodologies, same underlying labor demand system.",
+     "date": "2026-08-01T12:15:23Z"
+    },
+    {
+     "id": "claim-20260801-002",
+     "relation": "shares-system",
+     "note": "Same US labor-market week: ADP (private payrolls Aug 5) and JOLTS (openings Aug 4) both read the July-June demand state.",
+     "date": "2026-08-01T12:15:23Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260801-002",
+   "date": "2026-08-01",
+   "registered_at": "2026-08-01T12:13:25Z",
+   "claim": "The Bureau of Labor Statistics Job Openings and Labor Turnover Summary for June 2026 (scheduled release 2026-08-04 at 10:00 ET) prints headline seasonally-adjusted job openings at 7.0 million or above.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BLS publishes JOLTS monthly; May 2026 print was in the 7.0-7.4M range recently; the June 2026 release is scheduled for 2026-08-04",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Correction bucket 50-59 (-0.048): raw 55% -> corrected ~50%. Recent JOLTS has been trending down from 7.4M range; the 7.0M threshold is close to the center of the recent distribution and genuinely uncertain (calibration 2026-07-31). Ingestion bias: un-priced, base rate near 0.5-0.6, no market to echo.",
+   "base_rate": 0.55,
+   "base_rate_source": "JOLTS monthly job-openings prints at or above 7.0M in 8 of the last 15 months from bls.gov/jlt archive, computed 2026-08-01",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "JOLTS June 2026 report released 2026-08-04 at 10:00 ET on bls.gov/news.release/jolts.nr0.htm: confirmed if headline seasonally-adjusted job openings figure prints at 7,000,000 or above; disconfirmed if below 7,000,000.",
+   "resolve_by": "2026-08-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-01T12:13:25Z",
+    "auditor": "twin",
+    "note": "Searched Reuters, Bloomberg, Investing.com 2026-08-01 UTC — the June 2026 JOLTS release scheduled 2026-08-04 has not yet been published; no active Kalshi/Polymarket contract found on the JOLTS threshold; no widely-cited consensus number in mainstream media.",
+    "queries": [
+     "JOLTS Job Openings June 2026 release August 4",
+     "BLS JOLTS forecast June 2026",
+     "job openings labor turnover survey August 2026 release"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260714-001",
+     "relation": "shares-system",
+     "note": "JOLTS job openings and the BLS Employment Situation both read US labor demand; JOLTS focuses on the demand side (unfilled slots) while payrolls read the flow side (hires-quits).",
+     "date": "2026-08-01T12:15:23Z"
     }
    ],
    "evidence": [],
@@ -5527,8 +5639,8 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 41,
-    "hit_rate": 0.7317,
+    "n": 43,
+    "hit_rate": 0.7209,
     "brier": 0.1899,
     "skill_vs_coinflip": 0.0601
    }
@@ -5537,26 +5649,26 @@
   "brier": 0.1899,
   "skill_vs_coinflip": 0.0601,
   "base_rate": {
-   "n": 41,
-   "brier_base": 0.2061,
+   "n": 43,
+   "brier_base": 0.2107,
    "brier_twin": 0.1899,
-   "skill": 0.0162
+   "skill": 0.0208
   },
   "market": {
-   "n": 4,
-   "brier_market": 0.0249,
-   "brier_twin": 0.0306,
-   "skill": -0.0057
+   "n": 5,
+   "brier_market": 0.0519,
+   "brier_twin": 0.065,
+   "skill": -0.0131
   },
   "non_echo": {
-   "n": 15,
+   "n": 17,
    "floor": 30,
-   "brier": 0.2089,
-   "skill_vs_base": 0.0152
+   "brier": 0.2067,
+   "skill_vs_base": 0.027
   },
   "clusters": {
-   "effective_n": 33,
-   "brier_cluster_collapsed": 0.1881
+   "effective_n": 35,
+   "brier_cluster_collapsed": 0.1882
   },
   "paired": {
    "n": 0,
@@ -5566,19 +5678,19 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0206,
-    "hi": 0.1024,
+    "lo": 0.0214,
+    "hi": 0.1009,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0083,
-    "hi": 0.0418,
+    "lo": -0.0044,
+    "hi": 0.0467,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0142,
-    "hi": 0.0018,
-    "distinguishable": false
+    "lo": -0.0282,
+    "hi": -0.0009,
+    "distinguishable": true
    }
   }
  }
