@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01",
+ "updated": "2026-08-02",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -833,6 +833,12 @@
      "direction": "supports",
      "note": "Omnibus VII adopted 2026-06-29 clarifies the regulatory perimeter and adds new prohibitions; guidance flow from the AI Office should now include implementation of the amended text. Not a direct fire of the update test (which requires GPAI transparency guidance), but the enabling context is now in force.",
      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
+    },
+    {
+     "date": "2026-08-02",
+     "direction": "against",
+     "note": "As of 2026-08-02, no EU AI Office guidance document, FAQ update, or interpretive note explicitly addressing Digital Omnibus deferrals has been identified on digital-strategy.ec.europa.eu or the EU register. The Digital Omnibus entered into force in July 2026 (Council 2026-06-29). Meanwhile Article 50 transparency obligations, GPAI enforcement toolkit, and Article 5 prohibited-practices take effect today (2026-08-02), which is orthogonal to the omnibus deferral note the claim asks about. Deadline 2026-08-09; 7 days remaining. Bearing against absent any published omnibus-specific interpretive text.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
     }
    ],
    "resolution": null
@@ -1013,7 +1019,14 @@
      "date": "2026-06-11T17:08:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-02",
+     "direction": "against",
+     "note": "In-window Big Five Q2 2026 reports (2026-07-23 to 2026-08-02): Alphabet (out of window, reported 2026-07-22) +24 percent revenue. Microsoft FY2026 Q4 reported 2026-07-29: revenue plus 18 percent YoY (90.0B), adjusted EPS 4.74 up ~23 percent. Meta Q2 reported 2026-07-30: revenue plus 28 percent YoY (60.8B), diluted EPS 6.18 versus prior-year 7.14 - -13 percent decline in GAAP diluted EPS from rising costs and legal charges; non-GAAP adjusted EPS not yet confirmed at that number. Apple Q3 FY2026 (fiscal Q3, 2026-07-30): record revenue 109.4B up 16 percent, EPS 2.02 up 29 percent. Amazon Q2 2026 (2026-07-30): 200.6B revenue up 19.6 percent. Meta's GAAP EPS drop is bearing-supports, but the update test specifies adjusted (non-GAAP) EPS or reported revenue - Meta's revenue is up and non-GAAP adjusted EPS unconfirmed. Bearing evidence, does not yet unambiguously fire. Window closes 2026-08-09.",
+     "source_url": "https://www.gurufocus.com/news/8988880/meta-platforms-inc-meta-q2-2026-earnings-call-highlights-revenue-surges-28-to-608-billion-but-heavy-ai-spending-pressures-margins"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1449,6 +1462,12 @@
      "direction": "against",
      "note": "As of 2026-07-27, Nigeria's National AI Strategy still awaiting parliamentary approval (Bosun Tijani announced completed strategy March 2026; parliamentary greenlight anticipated 'within weeks' but has not landed 4 months on; no gazette publication reported). Bosun Tijani Foundation instead opened Gen AI Fellowship Cohort 2 applications (Jul 20 through Jul 31) - capacity-building continues but the strategy itself remains un-formalized. Approaching the Aug 12 deadline without evidence of imminent parliamentary vote or gazette entry.",
      "source_url": "https://businessday.ng/technology/article/nigeria-awaits-parliamentary-greenlight-for-landmark-national-ai-strategy/"
+    },
+    {
+     "date": "2026-08-02",
+     "direction": "against",
+     "note": "PRE-REG AUDIT FAILURE CANDIDATE. Nigeria's National Artificial Intelligence Strategy (NAIS) was formally launched by the Federal Ministry of Communications, Innovation and Digital Economy (FMCIDE) in September 2025, with an April 2025 launch announcement and OECD.AI registry entry, and a formal Tuni-NHQ policy brief in April 2026. This means the update test ('Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12') already fired before the claim's 2026-06-13 registration, which was not caught by the pre-reg audit. Flagging for Sunday Reckoning review: candidate for invalidation under the 2026-06-11 pre-reg discipline rule (two launch-day claims were invalidated for this same reason). Bearing against as the deadline is technically already met, but resolution should NOT be an early-fire this week; a clean invalidate is the honest handling.",
+     "source_url": "https://nairametrics.com/2025/04/16/nigeria-launches-national-ai-strategy-to-drive-ai-development-and-productivity/"
     }
    ],
    "resolution": null
@@ -1989,7 +2008,7 @@
    ],
    "update_test": "By 2026-08-01 EOD UTC, identifiable public artifact (joint federal release, NIST/OSTP/DOC/DHS publication, formal whitehouse.gov announcement, or Federal Register notice) describing the designed voluntary frontier model engagement framework, including the participation procedure and the 30-day pre-release access mechanism. Confirmed if such an artifact exists by deadline; disconfirmed if no such artifact is published by 2026-08-01.",
    "resolve_by": "2026-08-08",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-17T12:14:44Z",
@@ -2017,7 +2036,11 @@
      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-02T12:10:06Z",
+    "outcome": "disconfirmed",
+    "note": "Trump EO 14409 (signed 2026-06-02) directed federal agencies to design a voluntary frontier model engagement framework by 2026-08-01. As of 2026-08-01 EOD UTC and confirmed 2026-08-02, no Federal Register notice, NIST/OSTP/DOC/DHS publication, joint federal release, or CISA guidance describes the framework. Deadline lapsed with no public deliverable. Twin priced 55 percent (base 55, delta 0) - the estimator matched the base rate exactly and the base rate was too optimistic. Bucket 50-59 takes a miss. Sources: finance.yahoo.com/technology/ai/articles/white-house-ai-framework-deadline-002011007.html, labs.cloudsecurityalliance.org/research/csa-research-note-ai-cybersecurity-executive-order-20260706/. Frame:in with Institutional Adaptation Lag attributed - the lag hypothesis lands (executive-branch design capacity insufficient to meet 60-day timelines on voluntary frameworks requiring interagency coordination)."
+   }
   },
   {
    "id": "claim-20260618-001",
@@ -2648,6 +2671,12 @@
      "direction": "supports",
      "note": "Alphabet reported Q2 2026 on Jul 22 (one day BEFORE claim window opens 2026-07-23): revenue 19.8B +24% YoY, Cloud +82%, EPS .11 beat, but stock -3.65% on capex guidance raise from 80-190B to 95-205B midpoint 00B (~42% of annualized revenue). This is the pattern's first datapoint but strictly outside window. In-window candidates all lined up this week: Microsoft/Meta July 29, Apple/Amazon July 30. Meta pre-earnings already down 9.8% YTD on capex vs Reality-Labs concerns; Meta 2026 capex guidance raised to 25-145B pre-print.",
      "source_url": "https://mlq.ai/news/alphabet-beats-q2-revenue-estimates-but-stock-drops-5-on-205b-capex-outlook/"
+    },
+    {
+     "date": "2026-08-02",
+     "direction": "supports",
+     "note": "Microsoft Q4 FY2026 earnings (2026-07-29): Microsoft announced partnership with Mistral to bring its models to Microsoft Sovereign Cloud, enabling customers to run them across public, customer-controlled, and fully disconnected environments. Company materials frame 'AI sovereignty is increasingly top of mind for customers'. Bearing supports for the sovereign-AI/business-risk claim; need direct transcript quote using the phrasing 'sovereign AI' or 'export controls' in a risk-factor or strategic context to resolve. Meta/Apple/Amazon in-window transcripts still to be checked for explicit citations.",
+     "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
     }
    ],
    "resolution": null
@@ -3566,7 +3595,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-02",
+     "direction": "against",
+     "note": "ISM Manufacturing PMI July 2026 report is scheduled for release Monday 2026-08-03 at 10:00 ET on ismworld.org, not 2026-08-01. The June 2026 print was 53.3 (Susan Spence, Manufacturing Business Survey Committee Chair). Waiting on Aug 3 release for the July print. Not resolvable today. Note: an S&P Global US Manufacturing PMI (different index) printed 53.8 in July per Trading Economics preliminary, which is a separate methodology and not the ISM series the update test references.",
+     "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3990,7 +4026,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-02",
+     "direction": "against",
+     "note": "BLS Employment Situation July 2026 report is scheduled for release Friday 2026-08-07 at 8:30 ET per current BLS release calendar (bls.gov/schedule), not 2026-08-01 as recorded in the update-test text. Standard BLS practice is first-Friday-of-month; the 2026-08-01 date in the claim was preliminary. Waiting on 2026-08-07 print. Not resolvable today; the world has not yet answered the update test.",
+     "source_url": "https://www.bls.gov/schedule/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4014,7 +4057,7 @@
    "frameworks": [],
    "update_test": "On 2026-07-31, the BEA Personal Income and Outlays release for June 2026 published on bea.gov reports the headline PCE price index 12-month percent change (not core). Confirmed if 3.0 percent or higher; disconfirmed if below 3.0 percent.",
    "resolve_by": "2026-08-07",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-14T12:17:21Z",
@@ -4026,7 +4069,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-02T12:09:56Z",
+    "outcome": "confirmed",
+    "note": "BEA Personal Income and Outlays June 2026 release (2026-07-30/31): headline PCE price index 12-month change +3.7 percent, a step down from May 4.1 percent but well above the 3.0 percent threshold. Update test fires unambiguously: 'headline PCE 12-month percent change (not core) at or above 3.0 percent'. Twin priced 57 percent (base 50, +7 pp) - correct call, bucket 50-59. Sources: bea.gov/news/2026/personal-income-and-outlays-june-2026, finance.yahoo.com/economy/articles/june-2026-pce-consumer-spending-124715931.html"
+   }
   },
   {
    "id": "claim-20260715-001",
@@ -5639,20 +5686,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 43,
-    "hit_rate": 0.7209,
-    "brier": 0.1899,
-    "skill_vs_coinflip": 0.0601
+    "n": 45,
+    "hit_rate": 0.7111,
+    "brier": 0.1923,
+    "skill_vs_coinflip": 0.0577
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1899,
-  "skill_vs_coinflip": 0.0601,
+  "brier": 0.1923,
+  "skill_vs_coinflip": 0.0577,
   "base_rate": {
-   "n": 43,
-   "brier_base": 0.2107,
-   "brier_twin": 0.1899,
-   "skill": 0.0208
+   "n": 45,
+   "brier_base": 0.2136,
+   "brier_twin": 0.1923,
+   "skill": 0.0214
   },
   "market": {
    "n": 5,
@@ -5667,8 +5714,8 @@
    "skill_vs_base": 0.027
   },
   "clusters": {
-   "effective_n": 35,
-   "brier_cluster_collapsed": 0.1882
+   "effective_n": 37,
+   "brier_cluster_collapsed": 0.1912
   },
   "paired": {
    "n": 0,
@@ -5678,13 +5725,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0214,
-    "hi": 0.1009,
+    "lo": 0.0211,
+    "hi": 0.0955,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0044,
-    "hi": 0.0467,
+    "lo": -0.0027,
+    "hi": 0.0487,
     "distinguishable": false
    },
    "skill_vs_market": {
