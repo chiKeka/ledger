@@ -4789,7 +4789,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260701-001",
+     "relation": "probes",
+     "note": "Short-horizon C claim (revised draft by 2026-08-31) probes the long-horizon S claim (full Cabinet adoption of National AI Policy Framework by 2026-10-24). If the draft publishes on time, the policy-adoption clock advances; if not, adoption almost certainly slips.",
+     "date": "2026-08-02T14:20:07Z"
+    }
+   ],
    "evidence": [
     {
      "date": "2026-07-27",
@@ -4975,7 +4982,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260726-003",
+     "relation": "shares-system",
+     "note": "Both track Kenya AI policy machinery: 20260730-003 is the earlier draft/gazette milestone, 20260726-003 the operational-launch S claim. Same Ministry (ICT/DE) instrument, feed each other.",
+     "date": "2026-08-02T14:20:07Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -5013,7 +5027,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260723-002",
+     "relation": "sharpens",
+     "note": "Same US CPI series, next month release. Aug CPI at 3.0 percent or lower tightens the July at 3.1 percent or lower probe by one month; the disinflation glidepath test extends.",
+     "date": "2026-08-02T14:20:07Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
