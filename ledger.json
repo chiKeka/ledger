@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-02",
+ "updated": "2026-08-03",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -839,6 +839,12 @@
      "direction": "against",
      "note": "As of 2026-08-02, no EU AI Office guidance document, FAQ update, or interpretive note explicitly addressing Digital Omnibus deferrals has been identified on digital-strategy.ec.europa.eu or the EU register. The Digital Omnibus entered into force in July 2026 (Council 2026-06-29). Meanwhile Article 50 transparency obligations, GPAI enforcement toolkit, and Article 5 prohibited-practices take effect today (2026-08-02), which is orthogonal to the omnibus deferral note the claim asks about. Deadline 2026-08-09; 7 days remaining. Bearing against absent any published omnibus-specific interpretive text.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+    },
+    {
+     "date": "2026-08-03",
+     "direction": "against",
+     "note": "Coverage of Digital Omnibus timeline (compliancehub.wiki, dig.watch, freshfields, technology.org, all July 2026) lists Commission guidance deadlines at 2027-08-01 (Annex I high-risk applying alongside sectoral rules) and 2027-09-02 (post-market monitoring plans); no interim FAQ or interpretive note on Omnibus deferrals identifiable on digital-strategy.ec.europa.eu as of 2026-08-03. Six days until 2026-08-09 due date. Refuting direction on twin's 32% (twin bearish; evidence more bearish still).",
+     "source_url": "https://compliancehub.wiki/eu-digital-omnibus-ai-act-deadline-deferral-annex-iii-2027/"
     }
    ],
    "resolution": null
@@ -1025,6 +1031,12 @@
      "direction": "against",
      "note": "In-window Big Five Q2 2026 reports (2026-07-23 to 2026-08-02): Alphabet (out of window, reported 2026-07-22) +24 percent revenue. Microsoft FY2026 Q4 reported 2026-07-29: revenue plus 18 percent YoY (90.0B), adjusted EPS 4.74 up ~23 percent. Meta Q2 reported 2026-07-30: revenue plus 28 percent YoY (60.8B), diluted EPS 6.18 versus prior-year 7.14 - -13 percent decline in GAAP diluted EPS from rising costs and legal charges; non-GAAP adjusted EPS not yet confirmed at that number. Apple Q3 FY2026 (fiscal Q3, 2026-07-30): record revenue 109.4B up 16 percent, EPS 2.02 up 29 percent. Amazon Q2 2026 (2026-07-30): 200.6B revenue up 19.6 percent. Meta's GAAP EPS drop is bearing-supports, but the update test specifies adjusted (non-GAAP) EPS or reported revenue - Meta's revenue is up and non-GAAP adjusted EPS unconfirmed. Bearing evidence, does not yet unambiguously fire. Window closes 2026-08-09.",
      "source_url": "https://www.gurufocus.com/news/8988880/meta-platforms-inc-meta-q2-2026-earnings-call-highlights-revenue-surges-28-to-608-billion-but-heavy-ai-spending-pressures-margins"
+    },
+    {
+     "date": "2026-08-03",
+     "direction": "supports",
+     "note": "Meta Q2 2026 (reported 2026-07-30): reported EPS $6.18 vs Q2 2025 $7.14 (down 13.4% YoY). Some sources label $6.18 as non-GAAP EPS explicitly; Meta does not publish a separate non-GAAP reconciliation, so reported diluted EPS is the operative adjusted figure. If exclusion of one-time legal charges reverses the decline, the update test may not fire on Meta; ambiguity flagged for Reckoning re-verification. Strong supporting direction on twin's 22% (bearish on decline occurring).",
+     "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
     }
    ],
    "resolution": null
@@ -2677,6 +2689,12 @@
      "direction": "supports",
      "note": "Microsoft Q4 FY2026 earnings (2026-07-29): Microsoft announced partnership with Mistral to bring its models to Microsoft Sovereign Cloud, enabling customers to run them across public, customer-controlled, and fully disconnected environments. Company materials frame 'AI sovereignty is increasingly top of mind for customers'. Bearing supports for the sovereign-AI/business-risk claim; need direct transcript quote using the phrasing 'sovereign AI' or 'export controls' in a risk-factor or strategic context to resolve. Meta/Apple/Amazon in-window transcripts still to be checked for explicit citations.",
      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+    },
+    {
+     "date": "2026-08-03",
+     "direction": "supports",
+     "note": "Meta Q2 2026 earnings call (2026-07-29 transcript): CEO discussion of 'sovereignty over building their own models is critical for the stack' framed as competitive advantage vs open-source-only stack. Reads as 'AI sovereignty' in the strategic-strategy sense the update test names; whether this counts as 'material business risk' framing is interpretive. Alphabet, Microsoft, Amazon, Apple transcripts not yet cross-checked against the term list. Logged for Reckoning verification.",
+     "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
     }
    ],
    "resolution": null
@@ -4032,6 +4050,12 @@
      "direction": "against",
      "note": "BLS Employment Situation July 2026 report is scheduled for release Friday 2026-08-07 at 8:30 ET per current BLS release calendar (bls.gov/schedule), not 2026-08-01 as recorded in the update-test text. Standard BLS practice is first-Friday-of-month; the 2026-08-01 date in the claim was preliminary. Waiting on 2026-08-07 print. Not resolvable today; the world has not yet answered the update test.",
      "source_url": "https://www.bls.gov/schedule/"
+    },
+    {
+     "date": "2026-08-03",
+     "direction": "supports",
+     "note": "Release date correction: BLS Employment Situation for July 2026 scheduled 2026-08-07 (not 2026-08-01 as the claim registration text says); resolve_by 2026-08-08 stands. No headline U-3 reading available yet. Logged so the passive sweep does not re-flag this claim as overdue tomorrow.",
+     "source_url": "https://www.bls.gov/news.release/empsit.htm"
     }
    ],
    "resolution": null
@@ -4858,6 +4882,12 @@
      "direction": "supports",
      "note": "Kenya draft AI & Emerging Tech Policy consultation open through 2026-08-04, published by Ministry of Information, Communications and the Digital Economy. Policy explicitly names National AI Council, Sovereign Cloud Strategy, AI Innovation Fund, National AI Compute Access Programme, Kenya AI Safety Institute. Institutional stand-up track is live and aligned with the update-test surfaces (Kenya Gazette, ICT Authority notices). Consultation-to-gazette timeline through 2026-10-24 remains within the window; directional support for confirmation.",
      "source_url": "https://posts.kictanet.or.ke/kenya-wants-your-input-on-its-ai-policy-deadline-august-4-2/"
+    },
+    {
+     "date": "2026-08-03",
+     "direction": "supports",
+     "note": "Kenya draft AI and Emerging Technologies Policy (published July 2026 by MoICDE via multi-stakeholder committee) proposes a Sovereign Cloud Strategy, National AI Compute Access Programme, and National AI and Emerging Technologies Council with a Governing Board and five Directorates. Public consultation closes 2026-08-04. Structural mechanism for the sovereign-cloud + compute-council claim already sketched in policy text; gazette or operational launch by 2026-10-24 remains the resolution test.",
+     "source_url": "https://techweez.com/2026/07/28/kenya-ai-policy-2026-public-consultation/"
     }
    ],
    "resolution": null
@@ -5346,6 +5376,82 @@
      "date": "2026-08-01T12:15:23Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260803-001",
+   "date": "2026-08-03",
+   "registered_at": "2026-08-03T12:16:57Z",
+   "claim": "University of Michigan Consumer Sentiment Index preliminary release for August 2026 (scheduled 2026-08-15) prints headline index at or above 55.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "University of Michigan preliminary Consumer Sentiment Index for August 2026 (scheduled release 2026-08-15) is a real, dated, referent that exists today: the July 2026 preliminary reading was 54.4, published mid-July.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 preliminary at 54.4 sat on a recovery trend from mid-year lows; consensus expects modest continued recovery into August as consumer inflation prints have moderated. Slight upward bias from prior; corrected downward via 50-59 bucket -0.028 to land 0.52. No liquid market on this print; primary-source read.",
+   "base_rate": 0.5,
+   "base_rate_source": "Reference class: past 12 months UMich preliminary headline crossed the prior-month final in roughly half of releases (naive prior 0.5); July 2026 prelim was 54.4 with a modest recovery trend, source umich.edu/press-releases 2026-07-18 signal file.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-15, University of Michigan Surveys of Consumers publishes preliminary August 2026 Consumer Sentiment Index on umich.edu or press-release feed. Confirmed if the preliminary headline index prints at 55.0 or higher; disconfirmed if below 55.0.",
+   "resolve_by": "2026-08-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-03T12:16:57Z",
+    "auditor": "twin",
+    "note": "Checked University of Michigan press release feed and news search 2026-08-03; August 2026 preliminary reading not yet published; scheduled release remains 2026-08-15.",
+    "queries": [
+     "UMich Consumer Sentiment August 2026 preliminary release",
+     "University of Michigan Surveys of Consumers August 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260803-002",
+   "date": "2026-08-03",
+   "registered_at": "2026-08-03T12:16:58Z",
+   "claim": "The Bank of Japan Policy Board at its September 18-19 2026 Monetary Policy Meeting keeps its short-term policy interest rate unchanged (no hike, no cut).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of Japan Monetary Policy Meeting scheduled 2026-09-18/19 is a published, dated referent on the BoJ 2026 meeting calendar.",
+   "withdrawal": null,
+   "confidence": 0.67,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "BoJ has been in a slow normalization cadence; nearest priors point toward hold-more-than-move at any single meeting. Bucket correction 60-69 (+0.049) applied to a raw 0.62 estimate lands 0.67.",
+   "base_rate": 0.65,
+   "base_rate_source": "Reference class: BoJ decisions since 2022 normalization began; on average roughly 65 percent of scheduled meetings resulted in hold decisions vs move. Source: BoJ meeting schedule and outcomes at boj.or.jp/en/mopo/mpmsche_minu.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "The BoJ Monetary Policy Meeting statement published 2026-09-19 on boj.or.jp/en/announcements. Confirmed if the short-term policy interest rate is stated as unchanged from the level in force after the July 2026 meeting; disconfirmed if either raised or lowered by 10 basis points or more.",
+   "resolve_by": "2026-09-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-03T12:16:58Z",
+    "auditor": "twin",
+    "note": "Checked BoJ announcements and financial news 2026-08-03; September 2026 meeting has not occurred; outcome unknown; scheduled dates confirmed on boj.or.jp.",
+    "queries": [
+     "Bank of Japan monetary policy September 2026 rate decision",
+     "BoJ MPM September 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }
