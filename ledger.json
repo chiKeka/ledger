@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-03",
+ "updated": "2026-08-04",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -2695,6 +2695,12 @@
      "direction": "supports",
      "note": "Meta Q2 2026 earnings call (2026-07-29 transcript): CEO discussion of 'sovereignty over building their own models is critical for the stack' framed as competitive advantage vs open-source-only stack. Reads as 'AI sovereignty' in the strategic-strategy sense the update test names; whether this counts as 'material business risk' framing is interpretive. Alphabet, Microsoft, Amazon, Apple transcripts not yet cross-checked against the term list. Logged for Reckoning verification.",
      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "direction": "supports",
+     "note": "Q2 2026 Alphabet (July 22), Microsoft/Meta (July 29), Amazon/Apple (July 30) earnings calls and 10-Qs are all filed. AI capex language dominates (combined ~$725B FY26E), and Microsoft's cloud blog (May 2026) frames sovereignty as an AI-steering-committee 2026 checklist item. Searchable transcripts do not yet surface unambiguous 'sovereign AI' / 'AI export controls' / 'foreign-national access' phrasing in the risk-factor sense; full-text search of each 10-Q Part II Item 1A required before resolving. Logging evidence, deferring to Sunday Reckoning.",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/05/07/your-ai-steering-committees-2026-checklist-sovereignty/"
     }
    ],
    "resolution": null
@@ -3599,7 +3605,7 @@
    "frameworks": [],
    "update_test": "ISM Manufacturing PMI July 2026 report published 2026-08-01 approximately 10:00 ET on ismworld.org: confirmed if the headline composite index prints at or above 50.0; disconfirmed if it prints below 50.0.",
    "resolve_by": "2026-08-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-03T12:14:23Z",
@@ -3621,7 +3627,11 @@
      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-04T12:11:20Z",
+    "outcome": "confirmed",
+    "note": "ISM Manufacturing PMI July 2026 released 2026-08-03 at 55.6 percent, +2.3 points vs June (53.3), highest reading since May 2022. Above the 50.0 threshold; update test unambiguously fires confirmed. Twin said 45 percent (leaning disconfirmed); actual outcome was strong expansion, so this is a directional miss for the twin. Sources: ISM report at https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-6-july-2026-ism-manufacturing-pmi-report-302840669.html and coverage at https://investinglive.com/news/us-ism-manufacturing-pmi-for-july-55-6-versus-54-0-estimate/"
+   }
   },
   {
    "id": "claim-20260703-004",
@@ -5376,7 +5386,14 @@
      "date": "2026-08-01T12:15:23Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-04",
+     "direction": "supports",
+     "note": "JOLTS June 2026 report scheduled release 2026-08-04 10:00 ET; as of run time (~08:00 ET / 12:00 UTC) the report has not yet posted at bls.gov/news.release/jolts.nr0.htm. LinkUp pre-release forecast: 7.50M openings (implies confirmed vs 7.0M threshold; May 2026 print was 7.6M). Waiting on release; do not resolve pre-print.",
+     "source_url": "https://www.linkup.com/insights/blog/linkup-forecast-june-2026-jolts-report-by-the-bls-2"
+    }
+   ],
    "resolution": null
   },
   {
@@ -5813,20 +5830,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 45,
-    "hit_rate": 0.7111,
-    "brier": 0.1923,
-    "skill_vs_coinflip": 0.0577
+    "n": 46,
+    "hit_rate": 0.7174,
+    "brier": 0.1946,
+    "skill_vs_coinflip": 0.0554
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1923,
-  "skill_vs_coinflip": 0.0577,
+  "brier": 0.1946,
+  "skill_vs_coinflip": 0.0554,
   "base_rate": {
-   "n": 45,
-   "brier_base": 0.2136,
-   "brier_twin": 0.1923,
-   "skill": 0.0214
+   "n": 46,
+   "brier_base": 0.2144,
+   "brier_twin": 0.1946,
+   "skill": 0.0198
   },
   "market": {
    "n": 5,
@@ -5841,8 +5858,8 @@
    "skill_vs_base": 0.027
   },
   "clusters": {
-   "effective_n": 37,
-   "brier_cluster_collapsed": 0.1912
+   "effective_n": 38,
+   "brier_cluster_collapsed": 0.1942
   },
   "paired": {
    "n": 0,
@@ -5852,13 +5869,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0211,
-    "hi": 0.0955,
+    "lo": 0.0191,
+    "hi": 0.0934,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0027,
-    "hi": 0.0487,
+    "lo": -0.0033,
+    "hi": 0.0444,
     "distinguishable": false
    },
    "skill_vs_market": {
