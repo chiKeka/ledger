@@ -5471,6 +5471,44 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260804-001",
+   "date": "2026-08-04",
+   "registered_at": "2026-08-04T12:17:31Z",
+   "claim": "India CPI July 2026 (release scheduled mid-August 2026 by Ministry of Statistics and Programme Implementation on mospi.gov.in/pib.gov.in) prints year-over-year headline CPI inflation at 4.5 percent or above.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "MoSPI publishes monthly All India CPI on base 2024=100 on approximately the 12th of the following month; press release 2026-07-13 reported June 2026 headline at 4.38 percent (up from 3.93 percent in May), the highest reading since December 2024, driven by food inflation (5.32 percent) with 50.4 percent surge in ginger and 31.92 percent in tomatoes. July 2026 release scheduled mid-August 2026 on mospi.gov.in and pib.gov.in.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Frame:out - Indian macro inflation has no active framework route in Bruno's map. Reading: June 4.38 percent came in above consensus (4.3) and marked a 45bp acceleration from May 3.93; the drivers were food-inflation supply shocks (ginger, tomatoes) which are seasonally volatile, and monsoon in July can go either way for vegetable prices. Base 0.50 either side of the current 4.38 print; the 4.5 threshold is only 12bp higher, so slight lean toward continuation of the upward drift, but not strong conviction given the volatility. Bucket 50-59 correction from calibration 2026-08-04 (n=14, hit_rate=0.5) is -0.028, so raw ~0.55 net of correction stays 0.55. Ingestion bias check: no liquid consumer-inflation market for India CPI on Kalshi/Polymarket; this is a primary-source read on MoSPI schedule, un-priced.",
+   "base_rate": 0.5,
+   "base_rate_source": "Method: 50 percent above/below the current 4.38 percent June 2026 print (source: MoSPI press release 2026-07-13, https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284125), rounded threshold at 4.5 percent. As-of 2026-08-04.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Ministry of Statistics and Programme Implementation, Government of India releases All India CPI on base 2024=100 for July 2026 in mid-August 2026 on mospi.gov.in or pib.gov.in. Confirmed if the reported year-over-year headline CPI inflation rate is 4.5 percent or above; disconfirmed if below 4.5 percent.",
+   "resolve_by": "2026-08-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-04T12:17:31Z",
+    "auditor": "twin",
+    "note": "As of 2026-08-04, July 2026 India CPI has not been released (release scheduled mid-August 2026 by MoSPI). June 2026 print of 4.38 percent does not decide July. Searched: India CPI July 2026 release, India inflation June 2026 print, MoSPI CPI schedule.",
+    "queries": [
+     "India CPI July 2026 release",
+     "India inflation June 2026 print exceeded forecasts 4.38"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
