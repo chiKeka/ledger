@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04",
+ "updated": "2026-08-05",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1910,6 +1910,12 @@
      "direction": "against",
      "note": "DCDT process design targets Cabinet submission November 2026 and public-comment publication January 2027. Both dates exceed the 2026-08-16 window. Original draft was formally retracted after AI-hallucinated references were found. Very unlikely to resolve confirmed.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-05",
+     "direction": "against",
+     "note": "As of 2026-08-05, revised SA National AI Policy is on track for Cabinet review by November 2026 and public release January 2027 (per Fasken/BakerMcKenzie updates). This is well past the 2026-08-16 due-date for a revised draft. Not yet unambiguously fired - interpretive; log evidence, do not resolve.",
+     "source_url": "https://www.fasken.com/en/knowledge/2026/03/ai-regulation-progress-in-south-africa-a-further-step-in-the-right-direction-2"
     }
    ],
    "resolution": null
@@ -2701,6 +2707,12 @@
      "direction": "supports",
      "note": "Q2 2026 Alphabet (July 22), Microsoft/Meta (July 29), Amazon/Apple (July 30) earnings calls and 10-Qs are all filed. AI capex language dominates (combined ~$725B FY26E), and Microsoft's cloud blog (May 2026) frames sovereignty as an AI-steering-committee 2026 checklist item. Searchable transcripts do not yet surface unambiguous 'sovereign AI' / 'AI export controls' / 'foreign-national access' phrasing in the risk-factor sense; full-text search of each 10-Q Part II Item 1A required before resolving. Logging evidence, deferring to Sunday Reckoning.",
      "source_url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/05/07/your-ai-steering-committees-2026-checklist-sovereignty/"
+    },
+    {
+     "date": "2026-08-05",
+     "direction": "supports",
+     "note": "Q2 2026 earnings context (2026-07-28 to 2026-08-04): Alphabet/Amazon/Meta/Microsoft all raised AI capex guides (Amazon ~20B, Alphabet 95-205B, Meta 30-145B floor). Broad public discussion of export controls, sovereign AI, and localization pressure as material risks in the ecosystem. Trajectory bears on claim; need transcript-level verification for unambiguous fire. Waiting for direct 10-Q citation reading.",
+     "source_url": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/"
     }
    ],
    "resolution": null
@@ -3122,6 +3134,12 @@
      "date": "2026-07-24",
      "direction": "against",
      "note": "Multiple 2026-Q2 sources (CNBC Africa; Ellipsis; Moonstone; Wikipedia policy tracker) report SA pulled the April 2026 draft AI policy after hallucinated citations were exposed; a revised version is now expected to go to Cabinet by November 2026, with public release targeted January 2027. That timeline lands well past the 2026-08-31 update-test deadline — trajectory strongly against, but a surprise abbreviated re-issue is not impossible; log evidence and let the Sunday Reckoning decide if trajectory-lean plus one-week runway justify early disconfirmation.",
+     "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
+    },
+    {
+     "date": "2026-08-05",
+     "direction": "against",
+     "note": "SA revised National AI Policy timeline reported (Aug 2026): Cabinet review by November, public release January 2027 — meaning the DCDT revised draft is unlikely to publish by 2026-08-31. Interpretive, log evidence.",
      "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
     }
    ],
@@ -4200,7 +4218,7 @@
    "frameworks": [],
    "update_test": "RBI Monetary Policy Statement dated 2026-08-06 on rbi.org.in. Confirmed if the announced policy repo rate remains 5.25 percent; disconfirmed if changed by 25bp or more in either direction.",
    "resolve_by": "2026-08-07",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-15T12:12:50Z",
@@ -4214,7 +4232,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-05T12:15:16Z",
+    "outcome": "confirmed",
+    "note": "RBI MPC on 2026-08-05 kept repo rate unchanged at 5.25% for fourth consecutive meeting, neutral stance retained. Governor Malhotra 'neither dovish nor hawkish'. FY27 GDP forecast raised to 6.7%, CPI cut to 5.0%. Evidence: https://www.forbesindia.com/article/news/rbi-mpc-live-updates-august-2026-repo-rate-sanjay-malhotra-policy-announcement-liveblog/2996705/1"
+   }
   },
   {
    "id": "claim-20260715-003",
@@ -4837,6 +4859,12 @@
      "direction": "supports",
      "note": "Ministry (DCDT) baseline confirms twin's 12% skepticism: SA Cabinet approved DRAFT National AI Policy 25 Mar 2026, gazetted 10 Apr 2026, comment period closed 10 Jun 2026. Baker McKenzie/Fasken/Ellipsis briefs converge on finalization anticipated during the 2026/2027 financial year, with sector-specific strategies to follow from 2027/2028. Formal Cabinet ADOPTION (as opposed to draft-stage gazette for comment) by 2026-10-24 remains inconsistent with the department's own timeline.",
      "source_url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/south-african-ai-policy-moves-towards-approval"
+    },
+    {
+     "date": "2026-08-05",
+     "direction": "against",
+     "note": "Public timeline for revised SA National AI Policy targets Nov 2026 Cabinet review and Jan 2027 public release. Under this timeline the SA Cabinet formal adoption by 2026-10-24 is highly unlikely. Log evidence, wait for Sunday Reckoning to reassess.",
+     "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
     }
    ],
    "resolution": null
@@ -5364,7 +5392,7 @@
    "frameworks": [],
    "update_test": "JOLTS June 2026 report released 2026-08-04 at 10:00 ET on bls.gov/news.release/jolts.nr0.htm: confirmed if headline seasonally-adjusted job openings figure prints at 7,000,000 or above; disconfirmed if below 7,000,000.",
    "resolve_by": "2026-08-07",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-01T12:13:25Z",
@@ -5394,7 +5422,11 @@
      "source_url": "https://www.linkup.com/insights/blog/linkup-forecast-june-2026-jolts-report-by-the-bls-2"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-05T12:15:11Z",
+    "outcome": "confirmed",
+    "note": "JOLTS June 2026 released 2026-08-04 at 10:00 ET on bls.gov: headline seasonally-adjusted job openings 7.359 million (down from revised 7.54M May), above the 7.0M threshold. Evidence: https://www.bls.gov/news.release/archives/jolts_08042026.htm"
+   }
   },
   {
    "id": "claim-20260803-001",
@@ -5868,20 +5900,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 46,
-    "hit_rate": 0.7174,
-    "brier": 0.1946,
-    "skill_vs_coinflip": 0.0554
+    "n": 48,
+    "hit_rate": 0.7292,
+    "brier": 0.1956,
+    "skill_vs_coinflip": 0.0544
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1946,
-  "skill_vs_coinflip": 0.0554,
+  "brier": 0.1956,
+  "skill_vs_coinflip": 0.0544,
   "base_rate": {
-   "n": 46,
-   "brier_base": 0.2144,
-   "brier_twin": 0.1946,
-   "skill": 0.0198
+   "n": 48,
+   "brier_base": 0.2139,
+   "brier_twin": 0.1956,
+   "skill": 0.0183
   },
   "market": {
    "n": 5,
@@ -5896,8 +5928,8 @@
    "skill_vs_base": 0.027
   },
   "clusters": {
-   "effective_n": 38,
-   "brier_cluster_collapsed": 0.1942
+   "effective_n": 40,
+   "brier_cluster_collapsed": 0.1953
   },
   "paired": {
    "n": 0,
@@ -5907,13 +5939,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0191,
-    "hi": 0.0934,
+    "lo": 0.0212,
+    "hi": 0.091,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0033,
-    "hi": 0.0444,
+    "lo": -0.0036,
+    "hi": 0.0423,
     "distinguishable": false
    },
    "skill_vs_market": {
