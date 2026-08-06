@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-05",
+ "updated": "2026-08-06",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -845,6 +845,12 @@
      "direction": "against",
      "note": "Coverage of Digital Omnibus timeline (compliancehub.wiki, dig.watch, freshfields, technology.org, all July 2026) lists Commission guidance deadlines at 2027-08-01 (Annex I high-risk applying alongside sectoral rules) and 2027-09-02 (post-market monitoring plans); no interim FAQ or interpretive note on Omnibus deferrals identifiable on digital-strategy.ec.europa.eu as of 2026-08-03. Six days until 2026-08-09 due date. Refuting direction on twin's 32% (twin bearish; evidence more bearish still).",
      "source_url": "https://compliancehub.wiki/eu-digital-omnibus-ai-act-deadline-deferral-annex-iii-2027/"
+    },
+    {
+     "date": "2026-08-06",
+     "direction": "against",
+     "note": "EU Digital Omnibus entered into force 2026-07-27 (published 2026-07-24 Official Journal), deferring high-risk obligations to 2027-12-02 (Annex III) / 2028-08-02 (Annex I). Extensive law-firm interpretive coverage (DLA Piper, Gibson Dunn, Freshfields, Covington) but no identified EU AI Office official guidance/FAQ/interpretive note directly addressing the deferrals as of 2026-08-06. Deadline 2026-08-09; trending disconfirmation but log evidence and let the Reckoning close.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
     }
    ],
    "resolution": null
@@ -1037,6 +1043,12 @@
      "direction": "supports",
      "note": "Meta Q2 2026 (reported 2026-07-30): reported EPS $6.18 vs Q2 2025 $7.14 (down 13.4% YoY). Some sources label $6.18 as non-GAAP EPS explicitly; Meta does not publish a separate non-GAAP reconciliation, so reported diluted EPS is the operative adjusted figure. If exclusion of one-time legal charges reverses the decline, the update test may not fire on Meta; ambiguity flagged for Reckoning re-verification. Strong supporting direction on twin's 22% (bearish on decline occurring).",
      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
+    },
+    {
+     "date": "2026-08-06",
+     "direction": "against",
+     "note": "Calendar Q2 2026 earnings for Big Five all show YoY revenue GROWTH: Alphabet +24% (19.8B), Meta +28% (0.8B), Amazon +19.6% (00.6B), Microsoft Azure +43%, Apple set June-quarter record. Meta's Q2 had large legal/severance expenses affecting reported EPS but adjusted EPS metric not confirmed as declining; Apple reported record revenue. Trending toward disconfirmation but the adjusted-EPS single-metric test on any one firm remains open until each 10-Q is fully checked; log evidence, wait for Reckoning.",
+     "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262067315-big-tech-earnings-scorecard-microsoft-amazon-apple-july-31-2026-tradingkey"
     }
    ],
    "resolution": null
@@ -2713,6 +2725,12 @@
      "direction": "supports",
      "note": "Q2 2026 earnings context (2026-07-28 to 2026-08-04): Alphabet/Amazon/Meta/Microsoft all raised AI capex guides (Amazon ~20B, Alphabet 95-205B, Meta 30-145B floor). Broad public discussion of export controls, sovereign AI, and localization pressure as material risks in the ecosystem. Trajectory bears on claim; need transcript-level verification for unambiguous fire. Waiting for direct 10-Q citation reading.",
      "source_url": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/"
+    },
+    {
+     "date": "2026-08-06",
+     "direction": "supports",
+     "note": "Microsoft FY26 Q2 earnings transcript (Jan 28, 2026) prominently featured 'Sovereign AI' as a demand theme (region-specific models, seven data centers announced for local data residency, Cohere partnership); Microsoft's FY26 Q4 = calendar Q2 2026 earnings call July 30, 2026 within the claim window is not yet indexed in search results. Directional pattern supports confirmation but the specific calendar-Q2 transcript quote is not yet captured; awaiting transcript.",
+     "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
     }
    ],
    "resolution": null
@@ -3184,7 +3202,14 @@
      "date": "2026-07-01T12:17:12Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-06",
+     "direction": "against",
+     "note": "BLS Productivity and Costs Q2 2026 Preliminary release scheduled 2026-08-06 at 8:30 ET but not yet available at query time 12:00 UTC on bls.gov/productivity or bls.gov/news.release/prod2.nr0.htm. Await release.",
+     "source_url": "https://www.bls.gov/productivity/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4084,6 +4109,12 @@
      "direction": "supports",
      "note": "Release date correction: BLS Employment Situation for July 2026 scheduled 2026-08-07 (not 2026-08-01 as the claim registration text says); resolve_by 2026-08-08 stands. No headline U-3 reading available yet. Logged so the passive sweep does not re-flag this claim as overdue tomorrow.",
      "source_url": "https://www.bls.gov/news.release/empsit.htm"
+    },
+    {
+     "date": "2026-08-06",
+     "direction": "against",
+     "note": "Release schedule slipped: BLS Employment Situation for July 2026 now scheduled 2026-08-07 (originally 2026-08-01). Not yet published as of 2026-08-06 12:00 UTC. Await release.",
+     "source_url": "https://www.bls.gov/news.release/empsit.htm"
     }
    ],
    "resolution": null
@@ -4555,7 +4586,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-05, the Institute for Supply Management publishes its July 2026 Services PMI Report on ismworld.org showing the headline Services PMI composite index. Confirmed if the reported composite index is 51.0 or higher; disconfirmed if below 51.0.",
    "resolve_by": "2026-08-06",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-23T12:12:07Z",
@@ -4574,7 +4605,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-06T12:17:25Z",
+    "outcome": "confirmed",
+    "note": "ISM published July 2026 Services PMI Report on 2026-08-05 at 10:00 ET showing Services PMI headline composite at 54.1 percent, up 0.1 pp from June (54.0). 25th consecutive month in expansion. Source: https://www.prnewswire.com/news-releases/services-pmi-at-54-1-july-2026-ism-services-pmi-report-302843134.html and ISM release calendar https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/. Threshold was >=51.0; 54.1 clears cleanly."
+   }
   },
   {
    "id": "claim-20260723-002",
@@ -5340,7 +5375,7 @@
    "frameworks": [],
    "update_test": "ADP National Employment Report for July 2026 released 2026-08-05 at 8:15 ET via adpemploymentreport.com and mediacenter.adp.com: confirmed if reported change in private sector employment is 50,000 jobs or above; disconfirmed if below 50,000 (including a net negative print).",
    "resolve_by": "2026-08-08",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-01T12:13:13Z",
@@ -5369,7 +5404,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-06T12:17:34Z",
+    "outcome": "disconfirmed",
+    "note": "ADP National Employment Report for July 2026 released 2026-08-05 at 8:15 ET on adpemploymentreport.com and mediacenter.adp.com: private sector employment increased by 44,000 jobs in July, the least in six months, following downwardly revised 95K gain in June and below forecasts of 70K. Threshold was >=50,000; 44,000 misses. Source: https://www.prnewswire.com/news-releases/adp-national-employment-report-private-sector-employment-increased-by-44-000-jobs-in-july-annual-pay-was-up-4-4-302843676.html; https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html"
+   }
   },
   {
    "id": "claim-20260801-002",
@@ -5970,26 +6009,26 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 48,
-    "hit_rate": 0.7292,
-    "brier": 0.1956,
-    "skill_vs_coinflip": 0.0544
+    "n": 50,
+    "hit_rate": 0.72,
+    "brier": 0.1998,
+    "skill_vs_coinflip": 0.0502
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1956,
-  "skill_vs_coinflip": 0.0544,
+  "brier": 0.1998,
+  "skill_vs_coinflip": 0.0502,
   "base_rate": {
-   "n": 48,
-   "brier_base": 0.2139,
-   "brier_twin": 0.1956,
-   "skill": 0.0183
+   "n": 50,
+   "brier_base": 0.2171,
+   "brier_twin": 0.1998,
+   "skill": 0.0173
   },
   "market": {
-   "n": 5,
-   "brier_market": 0.0519,
-   "brier_twin": 0.065,
-   "skill": -0.0131
+   "n": 6,
+   "brier_market": 0.0699,
+   "brier_twin": 0.0836,
+   "skill": -0.0136
   },
   "non_echo": {
    "n": 17,
@@ -5999,7 +6038,7 @@
   },
   "clusters": {
    "effective_n": 40,
-   "brier_cluster_collapsed": 0.1953
+   "brier_cluster_collapsed": 0.1966
   },
   "paired": {
    "n": 0,
@@ -6009,18 +6048,18 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0212,
-    "hi": 0.091,
+    "lo": 0.0169,
+    "hi": 0.0855,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0036,
-    "hi": 0.0423,
+    "lo": -0.0042,
+    "hi": 0.0406,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0282,
-    "hi": -0.0009,
+    "lo": -0.0262,
+    "hi": -0.0037,
     "distinguishable": true
    }
   }
