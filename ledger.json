@@ -5650,6 +5650,83 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260806-001",
+   "date": "2026-08-06",
+   "registered_at": "2026-08-06T12:21:39Z",
+   "claim": "The NFIB Small Business Optimism Index for July 2026 (release scheduled 2026-08-12 by nfib.com) prints headline optimism index at or above 98.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "NFIB July 2026 Small Business Economic Trends report scheduled for release 2026-08-12 per nfib.com/publications/economics-and-taxation/, an established monthly series with a scheduled release calendar.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "NFIB has hovered around 100 for six months with modest downside drift on tariff and labor-cost uncertainty. Twin at 0.55 leans very slightly to the confirm side of a symmetric base rate. Bucket 50-59 correction +0.032 (calibration 2026-07-22) implicitly applied; leaving raw for transparency. Un-priced series (no liquid Polymarket/Kalshi event on the exact level), so this is a signal call, not consensus restatement.",
+   "base_rate": 0.5,
+   "base_rate_source": "NFIB Small Business Optimism Index monthly prints Feb-Jun 2026 available at nfib.com and tradingeconomics.com/united-states/nfib-business-optimism-index (as of 2026-08-06). The series has oscillated 97-102 across the trailing six months, hovering around 100 with soft direction. Method: rolling six-month empirical hit rate of a >=98.0 print (approx 3/6).",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-12, NFIB publishes the July 2026 Small Business Economic Trends report on nfib.com. Confirmed if the headline Small Business Optimism Index is 98.0 or higher; disconfirmed if below 98.0.",
+   "resolve_by": "2026-08-14",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-06T12:21:39Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-08-06: nfib.com/publications, tradingeconomics.com/united-states/nfib-business-optimism-index, Polymarket search for NFIB events. Nothing decisive as of 2026-08-06 - the July 2026 print does not exist until 2026-08-12.",
+    "queries": [
+     "NFIB Small Business Optimism Index July 2026 release",
+     "Polymarket NFIB July 2026 event"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260806-002",
+   "date": "2026-08-06",
+   "registered_at": "2026-08-06T12:21:54Z",
+   "claim": "The US Census Bureau Advance Monthly Sales for Retail and Food Services for July 2026 (release scheduled 2026-08-15 at 8:30 ET at census.gov/retail) prints total sales month-over-month seasonally-adjusted change at 0.2 percent or above.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Census Bureau Advance Monthly Retail Sales report for July 2026 scheduled 2026-08-15 at 8:30 ET per census.gov/retail release calendar, an established monthly series.",
+   "withdrawal": null,
+   "confidence": 0.48,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July has recent labor-market softening (ADP disconfirmed today at 44k, six-month low) and consumer-sentiment weakness. Base rate 0.55 adjusted down to 0.48 for the trend signal; recent April print was negative and June's +0.6 looks like the outlier not the mode. Un-priced series at the exact 0.2 percent boundary; signal call, not consensus restatement.",
+   "base_rate": 0.55,
+   "base_rate_source": "US Advance Monthly Retail Sales headline MoM SA prints Jan-Jun 2026, series maintained at census.gov/retail/marts/www/timeseries.html and cross-referenced at tradingeconomics.com/united-states/retail-sales (as of 2026-08-06). Trailing six-month sequence has ranged from negative low-tenths to +0.6, roughly 4/6 at 0.2 or above. Method: rolling six-month empirical hit rate of a >=0.2 percent MoM print.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-15, the US Census Bureau publishes the July 2026 Advance Monthly Sales for Retail and Food Services report on census.gov/retail. Confirmed if the reported total sales MoM seasonally-adjusted change is 0.2 percent or higher; disconfirmed if below 0.2 percent.",
+   "resolve_by": "2026-08-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-06T12:21:54Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-08-06: census.gov/retail release calendar, tradingeconomics.com/united-states/retail-sales, Kalshi and Polymarket for July 2026 retail sales events. No decisive already-published number as of 2026-08-06 - the July print does not exist until 2026-08-15.",
+    "queries": [
+     "US retail sales July 2026 release",
+     "Census Bureau MARTS July 2026",
+     "Kalshi retail sales July 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
