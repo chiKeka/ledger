@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 36✓ · 14✗ · 0◐ · 53 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.200 (coin-flip = 0.250; 50 scored across 40 independent events, cluster-collapsed Brier 0.197), skill vs coin-flip +0.050 (95% CI +0.017..+0.086) · skill vs base rate +0.017 (95% CI -0.004..+0.041; not yet distinguishable from zero) (n=50 carrying a recorded base rate) · skill vs market -0.014 (95% CI -0.026..-0.004; distinguishably below zero) (n=6 with a listed market price) · non-echo record: n=17 of 50 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 36✓ · 15✗ · 0◐ · 52 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.198 (coin-flip = 0.250; 51 scored across 41 independent events, cluster-collapsed Brier 0.194), skill vs coin-flip +0.052 (95% CI +0.018..+0.090) · skill vs base rate +0.017 (95% CI -0.004..+0.040; not yet distinguishable from zero) (n=51 carrying a recorded base rate) · skill vs market -0.014 (95% CI -0.026..-0.004; distinguishably below zero) (n=6 with a listed market price) · non-echo record: n=17 of 51 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✗ "The ADP National Employment Report for July 2026 (scheduled release 2026-08-05 at 8:15 ET) prints monthly change in US p" — said 65%, resolved disconfirmed (2026-08-06)**
+**Latest: ✗ "BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth" — said 30%, resolved disconfirmed (2026-08-07)**
 
-_Updated 2026-08-06 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-08-07 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -31,11 +31,10 @@ _Updated 2026-08-06 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260701-002"></a>BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth at or above 2.5 percent. | **30%** | 30% | world |  2026-08-06 |
 | <a id="claim-20260620-002"></a>Between 2026-07-23 and 2026-08-07, at least one of the Big Five US tech firms (Alphabet, Amazon, Apple, Meta, Microsoft) cites 'sovereign AI', 'AI export controls', or 'foreign-national access restrictions' as a material business risk or strategic consideration on their Q2 2026 earnings call or accompanying 10-Q. | **78%** | 55% | worldview |  2026-08-07 |
 | <a id="claim-20260714-001"></a>US Bureau of Labor Statistics Employment Situation for July 2026 (scheduled release 2026-08-01 at 8:30 ET, bls.gov) prints headline seasonally-adjusted civilian unemployment rate at or above 4.2 percent. | **58%** | 50% | world |  2026-08-08 |
 | <a id="claim-20260610-017"></a>The EU AI Office issues at least one official guidance document, FAQ update, or interpretive note explicitly addressing the Digital Omnibus on AI deferrals by 2026-08-09. | **32%** | 40% | worldview |  2026-08-09 |
@@ -77,6 +76,7 @@ _Updated 2026-08-06 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260701-002"></a>BLS nonfarm business labor productivity Q2 2026 (release scheduled 2026-08-06) prints year-over-year productivity growth at or above 2.5 percent. | 30% | disconfirmed (2026-08-07) | BLS Productivity and Costs Q2 2026 Preliminary released 2026-08-06 at 8:30 ET: nonfarm business labor productivity y/y +2.2 percent, BELOW the 2.5 percent threshold. Quarterly annualized rate 1.4 percent; output +1.7 percent, hours +0.3 percent; labor share 52.9 percent (lowest since 1947). Twin priced 30 percent, base rate 30 percent, no market. Disconfirmed. Sources: https://www.bls.gov/news.release/archives/prod2_08062026.htm https://www.bls.gov/news.release/pdf/prod2.pdf |
 | ✗ | <a id="claim-20260801-001"></a>The ADP National Employment Report for July 2026 (scheduled release 2026-08-05 at 8:15 ET) prints monthly change in US private sector employment at 50,000 jobs or above. | 65% | disconfirmed (2026-08-06) | ADP National Employment Report for July 2026 released 2026-08-05 at 8:15 ET on adpemploymentreport.com and mediacenter.adp.com: private sector employment increased by 44,000 jobs in July, the least in six months, following downwardly revised 95K gain in June and below forecasts of 70K. Threshold was >=50,000; 44,000 misses. Source: https://www.prnewswire.com/news-releases/adp-national-employment-report-private-sector-employment-increased-by-44-000-jobs-in-july-annual-pay-was-up-4-4-302843676.html; https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html |
 | ✓ | <a id="claim-20260723-001"></a>The Institute for Supply Management Services PMI headline composite for July 2026 (release scheduled 2026-08-05 at 10:00 ET on ismworld.org) prints at or above 51.0. | 58% | confirmed (2026-08-06) | ISM published July 2026 Services PMI Report on 2026-08-05 at 10:00 ET showing Services PMI headline composite at 54.1 percent, up 0.1 pp from June (54.0). 25th consecutive month in expansion. Source: https://www.prnewswire.com/news-releases/services-pmi-at-54-1-july-2026-ism-services-pmi-report-302843134.html and ISM release calendar https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/. Threshold was >=51.0; 54.1 clears cleanly. |
 | ✓ | <a id="claim-20260715-002"></a>The Reserve Bank of India Monetary Policy Committee will hold the policy repo rate at 5.25 percent at its August 4-6 2026 meeting (decision announced 2026-08-06). | 57% | confirmed (2026-08-05) | RBI MPC on 2026-08-05 kept repo rate unchanged at 5.25% for fourth consecutive meeting, neutral stance retained. Governor Malhotra 'neither dovish nor hawkish'. FY27 GDP forecast raised to 6.7%, CPI cut to 5.0%. Evidence: https://www.forbesindia.com/article/news/rbi-mpc-live-updates-august-2026-repo-rate-sanjay-malhotra-policy-announcement-liveblog/2996705/1 |
@@ -136,7 +136,7 @@ _Withdrawn before resolution: 1 claim(s), for failing registration standards (ev
 
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
-| 30-39% | 2 | 50% |
+| 30-39% | 3 | 33% |
 | 40-49% | 5 | 80% |
 | 50-59% | 17 | 59% |
 | 60-69% | 12 | 67% |
@@ -151,7 +151,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 6 | 33% | 0.229 | +0.021 | readable |
-| world (frame:out) | 44 | 77% | 0.196 | +0.054 | readable |
+| world (frame:out) | 45 | 76% | 0.193 | +0.057 | readable |
 
 ## The workshop
 

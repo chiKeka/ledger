@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06",
+ "updated": "2026-08-07",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -66,6 +66,12 @@
      "direction": "supports",
      "note": "NBER W34984 (Yotzov Barrero et al 2026) survey of ~750 corporate executives reports 2026 mean AI-driven labour productivity growth of 3.0 percent concentrated in high-skill services and finance, driven by revenue-based TFP not capital deepening. This is a firm-level yes that has not yet crossed to aggregate BLS statistics — the exact 'firm-level yes, aggregate no through 2026' pattern the claim asserts. Bearing evidence for.",
      "source_url": "https://www.nber.org/papers/w34984"
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "supports",
+     "note": "BLS Q2 2026 nonfarm business labor productivity y/y +2.2 percent (release 2026-08-06), below the 2.5 percent CFO-survey optimism threshold from NBER w34984. Q1 2026 was 1.9 percent y/y; Q2 is a modest tick-up but still WELL BELOW the 3.0 percent AI-driven number executives expected. Reads as bearing-supports for the bruno 72 percent floor on 'no clear AI-driven productivity gains through end-2026' - the aggregate signal has not moved to match the firm-level survey optimism. Third consecutive quarter of a below-3-percent print consistent with the structural claim.",
+     "source_url": "https://www.bls.gov/news.release/archives/prod2_08062026.htm"
     }
    ],
    "resolution": null
@@ -2731,6 +2737,12 @@
      "direction": "supports",
      "note": "Microsoft FY26 Q2 earnings transcript (Jan 28, 2026) prominently featured 'Sovereign AI' as a demand theme (region-specific models, seven data centers announced for local data residency, Cohere partnership); Microsoft's FY26 Q4 = calendar Q2 2026 earnings call July 30, 2026 within the claim window is not yet indexed in search results. Directional pattern supports confirmation but the specific calendar-Q2 transcript quote is not yet captured; awaiting transcript.",
      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "supports",
+     "note": "Aug 2 sweep: Microsoft Sovereign Cloud + Mistral partnership at Q4 FY26 (calendar Q2 2026) earnings frames 'AI sovereignty is increasingly top of mind for customers'; Meta Q2 2026 earnings transcript CEO discusses 'sovereignty over building their own models is critical for the stack' as competitive-strategy framing. Alphabet/Amazon/Apple Q2 2026 transcripts do not yet surface unambiguous 'sovereign AI' / 'AI export controls' / 'foreign-national access' phrasing in Part II Item 1A risk-factor sections. The update test admits 'business risk OR competitive strategy' as sufficient; Microsoft and Meta arguably fire the OR-clause. Interpretive whether 'top of mind for customers' rises to 'cites as material.' Deferring to Sunday Reckoning; window closes today, so this resolves in the weekly re-verification.",
+     "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
     }
    ],
    "resolution": null
@@ -3184,7 +3196,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-06, BLS publishes Productivity and Costs Q2 2026 report at bls.gov/news.release/prod2.nr0.htm. Read the headline year-over-year nonfarm business sector labor productivity growth rate. Confirmed if that rate is at or above 2.5 percent; disconfirmed if below 2.5 percent.",
    "resolve_by": "2026-08-06",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-01T12:16:10Z",
@@ -3210,7 +3222,11 @@
      "source_url": "https://www.bls.gov/productivity/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-07T12:11:25Z",
+    "outcome": "disconfirmed",
+    "note": "BLS Productivity and Costs Q2 2026 Preliminary released 2026-08-06 at 8:30 ET: nonfarm business labor productivity y/y +2.2 percent, BELOW the 2.5 percent threshold. Quarterly annualized rate 1.4 percent; output +1.7 percent, hours +0.3 percent; labor share 52.9 percent (lowest since 1947). Twin priced 30 percent, base rate 30 percent, no market. Disconfirmed. Sources: https://www.bls.gov/news.release/archives/prod2_08062026.htm https://www.bls.gov/news.release/pdf/prod2.pdf"
+   }
   },
   {
    "id": "claim-20260701-003",
@@ -6086,20 +6102,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 50,
-    "hit_rate": 0.72,
-    "brier": 0.1998,
-    "skill_vs_coinflip": 0.0502
+    "n": 51,
+    "hit_rate": 0.7059,
+    "brier": 0.1976,
+    "skill_vs_coinflip": 0.0524
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1998,
-  "skill_vs_coinflip": 0.0502,
+  "brier": 0.1976,
+  "skill_vs_coinflip": 0.0524,
   "base_rate": {
-   "n": 50,
-   "brier_base": 0.2171,
-   "brier_twin": 0.1998,
-   "skill": 0.0173
+   "n": 51,
+   "brier_base": 0.2146,
+   "brier_twin": 0.1976,
+   "skill": 0.017
   },
   "market": {
    "n": 6,
@@ -6114,8 +6130,8 @@
    "skill_vs_base": 0.027
   },
   "clusters": {
-   "effective_n": 40,
-   "brier_cluster_collapsed": 0.1966
+   "effective_n": 41,
+   "brier_cluster_collapsed": 0.194
   },
   "paired": {
    "n": 0,
@@ -6125,13 +6141,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0169,
-    "hi": 0.0855,
+    "lo": 0.0181,
+    "hi": 0.0903,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0042,
-    "hi": 0.0406,
+    "lo": -0.0036,
+    "hi": 0.04,
     "distinguishable": false
    },
    "skill_vs_market": {
