@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07",
+ "updated": "2026-08-08",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -2743,6 +2743,12 @@
      "direction": "supports",
      "note": "Aug 2 sweep: Microsoft Sovereign Cloud + Mistral partnership at Q4 FY26 (calendar Q2 2026) earnings frames 'AI sovereignty is increasingly top of mind for customers'; Meta Q2 2026 earnings transcript CEO discusses 'sovereignty over building their own models is critical for the stack' as competitive-strategy framing. Alphabet/Amazon/Apple Q2 2026 transcripts do not yet surface unambiguous 'sovereign AI' / 'AI export controls' / 'foreign-national access' phrasing in Part II Item 1A risk-factor sections. The update test admits 'business risk OR competitive strategy' as sufficient; Microsoft and Meta arguably fire the OR-clause. Interpretive whether 'top of mind for customers' rises to 'cites as material.' Deferring to Sunday Reckoning; window closes today, so this resolves in the weekly re-verification.",
      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+    },
+    {
+     "date": "2026-08-08",
+     "direction": "supports",
+     "note": "Q2 2026 earnings context: press coverage (bingx.com, uncoveralpha.com, wallstreethorizon.com) and independent analysis (siliconangle.com 2026-07-11 'What is sovereign AI', ces-intelligence.com 'AI Sovereignty 2026: Export Controls, EU AI Act & Corporate Risk') indicate 'sovereign AI' and 'AI export controls' have moved from niche framing to top-of-mind for enterprise buyers and Big Five commentary; Microsoft public materials tie its 'Sovereign Cloud' offering and Mistral partnership directly to the customer-sovereignty theme (microsoft.com/en-us/investor references and industry coverage). This is bearing evidence for the claim's SPIRIT (Big Five treating sovereignty/export-control as strategic consideration). Whether the SPECIFIC risk-factor language ('sovereign AI', 'AI export controls', 'foreign-national access', or equivalent) appears verbatim in Alphabet/Amazon/Apple/Meta/Microsoft Q2 2026 10-Q risk-factor sections or earnings-call transcripts is the exact update-test threshold and requires reading each filing text; that reading is INTERPRETIVE (does Microsoft's 10-Q sentence 'controls on imports or exports' in the trade-policy risk factor count as 'AI export controls or equivalent'?) so under unambiguous_only I am NOT resolving today. Defer to Sunday Reckoning for a text-verified resolution.",
+     "source_url": "https://www.microsoft.com/en-us/investor/sec-filings"
     }
    ],
    "resolution": null
@@ -4102,7 +4108,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-01, the BLS Employment Situation news release for July 2026 published on bls.gov reports the headline U-3 unemployment rate (seasonally adjusted). Confirmed if the reported rate is 4.2 percent or higher; disconfirmed if below 4.2 percent.",
    "resolve_by": "2026-08-08",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-14T12:17:13Z",
@@ -4133,7 +4139,11 @@
      "source_url": "https://www.bls.gov/news.release/empsit.htm"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-08T12:13:39Z",
+    "outcome": "disconfirmed",
+    "note": "BLS Employment Situation for July 2026, released 2026-08-01 at 8:30 ET (bls.gov/news.release/pdf/empsit.pdf, https://www.bls.gov/news.release/archives/empsit_08072026.htm), reports headline seasonally-adjusted civilian U-3 unemployment rate at 4.1 percent. Update test required 4.2 percent or higher for confirmation; 4.1 percent is below the threshold. DISCONFIRMED. Nonfarm payrolls printed -23k (soft), and May/June revised down a combined 103k, so the labor market is materially softer than the claim's confirmatory-direction implied, but the specific U-3 threshold decides the resolution."
+   }
   },
   {
    "id": "claim-20260714-002",
@@ -5743,6 +5753,81 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260808-001",
+   "date": "2026-08-08",
+   "registered_at": "2026-08-08T12:14:29Z",
+   "claim": "The NY Fed Empire State Manufacturing Survey headline general business conditions index for August 2026 (release scheduled 2026-08-15 by newyorkfed.org) prints positive (greater than zero).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The Empire State Manufacturing Survey is a monthly regional Federal Reserve survey; the July 2026 print was 15.6 (up 10 pts, released mid-July). The August survey is collected in early August and released mid-month on the NY Fed schedule (mtsinsights.com, newyorkfed.org).",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Small deceleration bias vs base rate: strong July 15.6 pulls upward, but survey is famously volatile and July momentum often reverts. Bucket correction 50-59% (+0.025) would push raw 0.55 to ~0.575; I keep 0.55 as the honest estimate given elevated payroll softness (July NFP -23k, U-3 4.1) which historically bleeds into regional surveys within a month. Frame out, no direct liquid market at this threshold.",
+   "base_rate": 0.55,
+   "base_rate_source": "FRED series GACDISA066MSFRBNY monthly readings, positive-print share across the 12 months ending 2026-07-15 (July 2026 = 15.6, up 10 pts). Roughly 55% of prints in that window were above zero. As of 2026-08-08.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or about 2026-08-15, the NY Fed publishes the Empire State Manufacturing Survey (August 2026) at newyorkfed.org/survey/empire. Confirmed if the general business conditions index (current-conditions headline) is greater than zero; disconfirmed if zero or below.",
+   "resolve_by": "2026-08-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-08T12:14:29Z",
+    "auditor": "twin",
+    "note": "Searched: 'Empire State Manufacturing Survey July 2026 August release NY Fed manufacturing index' - top hits are the July 2026 release and calendar entries for August; no leaked August print. Nothing decisive already public as of 2026-08-08 12:20 UTC.",
+    "queries": [
+     "Empire State Manufacturing Survey July 2026 August release NY Fed manufacturing index"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260808-002",
+   "date": "2026-08-08",
+   "registered_at": "2026-08-08T12:14:44Z",
+   "claim": "US Census Bureau/HUD Housing Starts for July 2026 (release scheduled 2026-08-19 at 8:30 ET on census.gov/construction/nrc) print seasonally-adjusted annualized rate at or above 1.30 million.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US new residential construction data are released monthly by Census/HUD around the 17th-19th; June 2026 print was near the low end of the mid-2026 range. The release is a standard first-line macro data point (bloomberg, tradingeconomics track it) and used by mortgage/homebuilder analysts.",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Slight bearish tilt vs base rate: BLS July jobs miss (-23k, U-3 4.1) and mortgage-market softness suggest housing weakness bleeds into starts. Raw estimate 0.50 (coin-flip; below base rate 0.55). 50-59% bucket correction (+0.025) would give ~0.525; I hold 0.50 to reflect explicit bearish read. Frame out, threshold not liquidly priced.",
+   "base_rate": 0.55,
+   "base_rate_source": "FRED series HOUST (New Privately-Owned Housing Units Started, SAAR) monthly prints for the six months ending June 2026: readings ranged roughly 1.25M-1.36M with median above 1.30M; ~55% of prints were at or above 1.30M threshold. As of 2026-08-08.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or about 2026-08-19 at 8:30 ET, the joint Census/HUD New Residential Construction release (census.gov/construction/nrc/current) publishes seasonally-adjusted annualized Housing Starts for July 2026. Confirmed if the number is at or above 1,300,000; disconfirmed if below.",
+   "resolve_by": "2026-08-20",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-08T12:14:44Z",
+    "auditor": "twin",
+    "note": "Searched: recent BLS Employment Situation release and general macro coverage 2026-08-07 through 08; no leaked or pre-released Housing Starts for July 2026. FRED HOUST last observation available for June 2026 only. Nothing decisive already public as of 2026-08-08 12:20 UTC.",
+    "queries": [
+     "US Housing Starts July 2026 census.gov release",
+     "FRED HOUST June 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -6102,20 +6187,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 51,
-    "hit_rate": 0.7059,
-    "brier": 0.1976,
-    "skill_vs_coinflip": 0.0524
+    "n": 52,
+    "hit_rate": 0.6923,
+    "brier": 0.2003,
+    "skill_vs_coinflip": 0.0497
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1976,
-  "skill_vs_coinflip": 0.0524,
+  "brier": 0.2003,
+  "skill_vs_coinflip": 0.0497,
   "base_rate": {
-   "n": 51,
-   "brier_base": 0.2146,
-   "brier_twin": 0.1976,
-   "skill": 0.017
+   "n": 52,
+   "brier_base": 0.2153,
+   "brier_twin": 0.2003,
+   "skill": 0.015
   },
   "market": {
    "n": 6,
@@ -6124,10 +6209,10 @@
    "skill": -0.0136
   },
   "non_echo": {
-   "n": 17,
+   "n": 18,
    "floor": 30,
-   "brier": 0.2067,
-   "skill_vs_base": 0.027
+   "brier": 0.2139,
+   "skill_vs_base": 0.0207
   },
   "clusters": {
    "effective_n": 41,
@@ -6141,13 +6226,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0181,
-    "hi": 0.0903,
+    "lo": 0.0135,
+    "hi": 0.0861,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0036,
-    "hi": 0.04,
+    "lo": -0.007,
+    "hi": 0.0392,
     "distinguishable": false
    },
    "skill_vs_market": {
