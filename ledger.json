@@ -284,7 +284,14 @@
      "note": "RETRO PREREG AUDIT (per 2026-06-11 protocol, applied 2026-07-12): claim is a Q1-2027 window (resolve_by 2027-04-30), ~10 months in the future at registration timestamp 2026-06-10. Cut/flatten in Big Five AI capex guidance by end Q1 2027 could not have been publicly known at a June 2026 registration. Verified 2026-07-12: no Big Five capex cut announcement pre-dated registration; contra-evidence is that Q1 2026 saw major raises (per 2026-07-10 signal). NOT pre-dated; claim stays open."
     }
    ],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-020",
+     "relation": "shares-system",
+     "note": "Big Five capex-guidance evolution and Q2 EPS/revenue trajectory read the same hyperscaler-margin system; Meta's Q2 EPS -13.4 percent (one-time charges) and the 690B annualized capex signal both bear on whether AI-driven margin compression forces a capex flatten.",
+     "date": "2026-08-09T17:54:49Z"
+    }
+   ],
    "evidence": [
     {
      "date": "2026-07-09",
@@ -809,7 +816,7 @@
    "frameworks": [],
    "update_test": "European Commission AI Office publication on digital-strategy.ec.europa.eu or EU register dated on or before 2026-08-09 that explicitly addresses how the Digital Omnibus deferrals apply: confirmed if at least one such document is identifiable, disconfirmed if none exists by 2026-08-09 EOD CET.",
    "resolve_by": "2026-08-09",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [],
@@ -865,7 +872,11 @@
      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-09T17:52:43Z",
+    "outcome": "partial",
+    "note": "EU Commission published 'AI Omnibus enters into force' article on digital-strategy.ec.europa.eu (2026-07-27) describing Digital Omnibus deferral timelines (Annex III HRAIS to 2027-12-02, Annex I to 2028-08-02). Satisfies the letter of 'publication addressing how the deferrals apply', but not a dedicated interpretive guidance document, FAQ, or Article 55 note — the substantive interpretation happened at law firms (Freshfields, Compliance Hub) not at the Commission itself. Partial: an on-site publication exists and mentions deferrals, but the guidance the market needs to apply them has not been issued. Twin priced 32%."
+   }
   },
   {
    "id": "claim-20260610-018",
@@ -1031,7 +1042,7 @@
    "frameworks": [],
    "update_test": "Reading each of the five firms' Q2-2026 calendar earnings press releases as published between 2026-07-15 and 2026-08-09: confirmed if any of the five reports a YoY decline in either reported revenue or adjusted (non-GAAP) EPS on a single-metric basis, disconfirmed if all five report YoY gains in both metrics.",
    "resolve_by": "2026-08-09",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": null,
    "corrections": [],
@@ -1069,7 +1080,11 @@
      "source_url": "https://www.wallstreethorizon.com/blog/the-ai-capex-warning"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-09T17:52:51Z",
+    "outcome": "partial",
+    "note": "Meta Q2 2026 (reported 2026-07-30) diluted EPS $6.18 vs Q2 2025 $7.14, -13.4% YoY, driven by one-time legal/severance and other charges. Meta does not publish a separate adjusted (non-GAAP) EPS; on a strict reading of the test's 'adjusted (non-GAAP) EPS' language, none of the Big Five reported a decline in the specified metric (all posted YoY growth in reported revenue and adjusted EPS where published: Alphabet +24%, Amazon +19.6%, Microsoft +18%, Meta +28% revenue, Apple June-quarter revenue record). On a permissive reading treating Meta's reported diluted EPS as the closest available proxy for its non-GAAP EPS, the metric declined 13.4%. Genuine ambiguity between strict and permissive readings — partial. Twin priced 22%."
+   }
   },
   {
    "id": "claim-20260611-001",
@@ -4880,9 +4895,22 @@
      "relation": "sharpens",
      "note": "Same institution (EU AI Office) and same enforcement basis (Article 55); short-horizon (90-day) sharpens the long-horizon (12-month) window. If short-horizon confirms, long-horizon confirms by definition.",
      "date": "2026-07-26T14:21:19Z"
+    },
+    {
+     "id": "claim-20260711-002",
+     "relation": "probes",
+     "note": "The 2026-10-24 window on Article 55 enforcement is a short-horizon probe of the longer 2027-08-02 formal enforcement timeline; a null at 3mo tightens the prior for the 12mo. Both read the same institutional-adaptation-lag system.",
+     "date": "2026-08-09T17:54:49Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-09",
+     "direction": "against",
+     "note": "EU AI Office is running 'dialogue-first' enforcement mode per WSGR/Commission Aug 2 activation coverage: providers required to engage with the Office on templates and codes-of-practice; no formal Article 55 enforcement action taken as of 2026-08-04. Directional against a first formal action by 2026-10-24.",
+     "source_url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4928,6 +4956,12 @@
      "relation": "probes",
      "note": "Short-horizon C claim (revised draft by 2026-08-31) probes the long-horizon S claim (full Cabinet adoption of National AI Policy Framework by 2026-10-24). If the draft publishes on time, the policy-adoption clock advances; if not, adoption almost certainly slips.",
      "date": "2026-08-02T14:20:07Z"
+    },
+    {
+     "id": "claim-20260610-002",
+     "relation": "shares-system",
+     "note": "SA National AI Policy Framework adoption sits in the same African-state institutional-consolidation system as data-centre critical-infrastructure designation; SA moving through Cabinet is the same governance-capacity signal read at a different endpoint. Timeline slip is disconfirming evidence for both.",
+     "date": "2026-08-09T17:54:49Z"
     }
    ],
    "evidence": [
@@ -4942,6 +4976,12 @@
      "direction": "against",
      "note": "Public timeline for revised SA National AI Policy targets Nov 2026 Cabinet review and Jan 2027 public release. Under this timeline the SA Cabinet formal adoption by 2026-10-24 is highly unlikely. Log evidence, wait for Sunday Reckoning to reassess.",
      "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
+    },
+    {
+     "date": "2026-08-09",
+     "direction": "against",
+     "note": "SA National AI Policy timeline slipped: Cabinet consideration moved to November 2026, public release now expected January 2027 per Aug 5 2026 Fasken/Cliffe Dekker Hofmeyr readouts. This pushes formal Cabinet adoption+official notification past the 2026-10-24 deadline. Directional against confirmation.",
+     "source_url": "https://www.fasken.com/en/knowledge/2026/03/ai-regulation-progress-in-south-africa-a-further-step-in-the-right-direction-2"
     }
    ],
    "resolution": null
@@ -5002,6 +5042,12 @@
      "date": "2026-08-03",
      "direction": "supports",
      "note": "Kenya draft AI and Emerging Technologies Policy (published July 2026 by MoICDE via multi-stakeholder committee) proposes a Sovereign Cloud Strategy, National AI Compute Access Programme, and National AI and Emerging Technologies Council with a Governing Board and five Directorates. Public consultation closes 2026-08-04. Structural mechanism for the sovereign-cloud + compute-council claim already sketched in policy text; gazette or operational launch by 2026-10-24 remains the resolution test.",
+     "source_url": "https://techweez.com/2026/07/28/kenya-ai-policy-2026-public-consultation/"
+    },
+    {
+     "date": "2026-08-09",
+     "direction": "supports",
+     "note": "Kenya Ministry of ICT opened public consultation 2026-07-27 on draft AI and Emerging Technologies Policy which explicitly proposes a sovereign cloud/compute council structure. Consultation window closes early Aug 2026; gazette pathway is now instrumented and on the resolution timeline. Directional supports gazette by 2026-10-24.",
      "source_url": "https://techweez.com/2026/07/28/kenya-ai-policy-2026-public-consultation/"
     }
    ],
@@ -6203,20 +6249,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 53,
-    "hit_rate": 0.6981,
-    "brier": 0.1974,
-    "skill_vs_coinflip": 0.0526
+    "n": 55,
+    "hit_rate": 0.6909,
+    "brier": 0.1922,
+    "skill_vs_coinflip": 0.0578
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1974,
-  "skill_vs_coinflip": 0.0526,
+  "brier": 0.1922,
+  "skill_vs_coinflip": 0.0578,
   "base_rate": {
-   "n": 53,
-   "brier_base": 0.215,
-   "brier_twin": 0.1974,
-   "skill": 0.0176
+   "n": 55,
+   "brier_base": 0.2085,
+   "brier_twin": 0.1922,
+   "skill": 0.0163
   },
   "market": {
    "n": 6,
@@ -6225,14 +6271,14 @@
    "skill": -0.0136
   },
   "non_echo": {
-   "n": 19,
+   "n": 20,
    "floor": 30,
-   "brier": 0.2052,
-   "skill_vs_base": 0.0277
+   "brier": 0.1965,
+   "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 41,
-   "brier_cluster_collapsed": 0.1931
+   "effective_n": 43,
+   "brier_cluster_collapsed": 0.1867
   },
   "paired": {
    "n": 0,
@@ -6242,13 +6288,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0171,
-    "hi": 0.0874,
+    "lo": 0.0224,
+    "hi": 0.0926,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0058,
-    "hi": 0.0414,
+    "lo": -0.0053,
+    "hi": 0.0388,
     "distinguishable": false
    },
    "skill_vs_market": {
