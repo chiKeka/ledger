@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08",
+ "updated": "2026-08-09",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -857,6 +857,12 @@
      "direction": "against",
      "note": "EU Digital Omnibus entered into force 2026-07-27 (published 2026-07-24 Official Journal), deferring high-risk obligations to 2027-12-02 (Annex III) / 2028-08-02 (Annex I). Extensive law-firm interpretive coverage (DLA Piper, Gibson Dunn, Freshfields, Covington) but no identified EU AI Office official guidance/FAQ/interpretive note directly addressing the deferrals as of 2026-08-06. Deadline 2026-08-09; trending disconfirmation but log evidence and let the Reckoning close.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+     "date": "2026-08-09",
+     "direction": "supports",
+     "note": "EU Commission digital-strategy.ec.europa.eu published 'AI Omnibus enters into force' article (2026-07-27) describing extended timelines from the Digital Omnibus (Annex III HRAIS deferred to 2027-12-02; Annex I to 2028-08-02). AI Act Service Desk FAQ (ai-act-service-desk.ec.europa.eu/en/faq) provides Digital Omnibus topics including new timelines and reasons for amendments. 'Supporting Implementation AI Act: Clear Guidelines' also published. Whether these count as 'explicitly addressing how the Digital Omnibus deferrals apply' vs merely 'announcing them' is interpretive; leaving for Sunday Reckoning to arbitrate on strict update test reading.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
     }
    ],
    "resolution": null
@@ -1055,6 +1061,12 @@
      "direction": "against",
      "note": "Calendar Q2 2026 earnings for Big Five all show YoY revenue GROWTH: Alphabet +24% (19.8B), Meta +28% (0.8B), Amazon +19.6% (00.6B), Microsoft Azure +43%, Apple set June-quarter record. Meta's Q2 had large legal/severance expenses affecting reported EPS but adjusted EPS metric not confirmed as declining; Apple reported record revenue. Trending toward disconfirmation but the adjusted-EPS single-metric test on any one firm remains open until each 10-Q is fully checked; log evidence, wait for Reckoning.",
      "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262067315-big-tech-earnings-scorecard-microsoft-amazon-apple-july-31-2026-tradingkey"
+    },
+    {
+     "date": "2026-08-09",
+     "direction": "supports",
+     "note": "Meta Q2 2026 (reported 2026-07-30): reported diluted EPS .18 vs Q2 2025 .14 = -13.4% YoY, driven by large legal/severance and other one-time expenses. Meta does not publish a separate non-GAAP EPS reconciliation, so reported diluted EPS is operationally the adjusted EPS metric. Reading update test strictly ('adjusted (non-GAAP) EPS on a single-metric basis'), Meta satisfies confirmation on the EPS metric. Reading strictly (excluding legal one-timers), it might not. Ambiguity persists across evidence entries; leaving for Sunday Reckoning to arbitrate. Sources: seekingalpha.com wallstreethorizon.com and Meta 10-Q.",
+     "source_url": "https://www.wallstreethorizon.com/blog/the-ai-capex-warning"
     }
    ],
    "resolution": null
@@ -2665,7 +2677,7 @@
    "frameworks": [],
    "update_test": "Read Q2 2026 earnings call transcripts and 10-Q risk-factor sections for any of Alphabet, Amazon, Apple, Meta, Microsoft (released between 2026-07-23 and 2026-08-07). Any usage of 'sovereign AI', 'AI export controls', 'foreign-national access', 'AI sovereignty', or equivalent in the context of business risk or competitive strategy resolves confirmed.",
    "resolve_by": "2026-08-07",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-20T13:19:37Z",
@@ -2751,7 +2763,11 @@
      "source_url": "https://www.microsoft.com/en-us/investor/sec-filings"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-09T12:15:48Z",
+    "outcome": "confirmed",
+    "note": "UNAMBIGUOUS: Microsoft calendar-Q2-2026 (Q4 FY26) earnings and 2026-07-21 Microsoft-Mistral announcement explicitly frame 'AI sovereignty is increasingly top of mind for customers' with Sovereign Cloud + Mistral positioned as sovereign-AI product. Multiple corroborating sources: news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-AI-they-can-control; futurumgroup.com 'Sovereignty, or Just Optionality?'; cio.com 'Microsoft doubles down on sovereign AI'. Update test met on Microsoft alone (any of five suffices); Meta CEO transcripts additionally frame 'sovereignty over building their own'. Confidence 0.78 vs base 0.55 - directional call correct."
+   }
   },
   {
    "id": "claim-20260620-003",
@@ -6187,20 +6203,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 52,
-    "hit_rate": 0.6923,
-    "brier": 0.2003,
-    "skill_vs_coinflip": 0.0497
+    "n": 53,
+    "hit_rate": 0.6981,
+    "brier": 0.1974,
+    "skill_vs_coinflip": 0.0526
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2003,
-  "skill_vs_coinflip": 0.0497,
+  "brier": 0.1974,
+  "skill_vs_coinflip": 0.0526,
   "base_rate": {
-   "n": 52,
-   "brier_base": 0.2153,
-   "brier_twin": 0.2003,
-   "skill": 0.015
+   "n": 53,
+   "brier_base": 0.215,
+   "brier_twin": 0.1974,
+   "skill": 0.0176
   },
   "market": {
    "n": 6,
@@ -6209,14 +6225,14 @@
    "skill": -0.0136
   },
   "non_echo": {
-   "n": 18,
+   "n": 19,
    "floor": 30,
-   "brier": 0.2139,
-   "skill_vs_base": 0.0207
+   "brier": 0.2052,
+   "skill_vs_base": 0.0277
   },
   "clusters": {
    "effective_n": 41,
-   "brier_cluster_collapsed": 0.194
+   "brier_cluster_collapsed": 0.1931
   },
   "paired": {
    "n": 0,
@@ -6226,13 +6242,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0135,
-    "hi": 0.0861,
+    "lo": 0.0171,
+    "hi": 0.0874,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.007,
-    "hi": 0.0392,
+    "lo": -0.0058,
+    "hi": 0.0414,
     "distinguishable": false
    },
    "skill_vs_market": {
