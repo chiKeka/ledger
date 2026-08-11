@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09",
+ "updated": "2026-08-11",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1525,6 +1525,12 @@
      "direction": "against",
      "note": "PRE-REG AUDIT FAILURE CANDIDATE. Nigeria's National Artificial Intelligence Strategy (NAIS) was formally launched by the Federal Ministry of Communications, Innovation and Digital Economy (FMCIDE) in September 2025, with an April 2025 launch announcement and OECD.AI registry entry, and a formal Tuni-NHQ policy brief in April 2026. This means the update test ('Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12') already fired before the claim's 2026-06-13 registration, which was not caught by the pre-reg audit. Flagging for Sunday Reckoning review: candidate for invalidation under the 2026-06-11 pre-reg discipline rule (two launch-day claims were invalidated for this same reason). Bearing against as the deadline is technically already met, but resolution should NOT be an early-fire this week; a clean invalidate is the honest handling.",
      "source_url": "https://nairametrics.com/2025/04/16/nigeria-launches-national-ai-strategy-to-drive-ai-development-and-productivity/"
+    },
+    {
+     "date": "2026-08-10",
+     "direction": "against",
+     "note": "Search finds Nigeria's 2024 National AI Strategy PDF exists at ncair.nitda.gov.ng but the 2026 formal parliamentary/executive adoption path signaled in the July 27 signal is still incomplete. No new formal document dated 2026 identified on .gov.ng ahead of 2026-08-12 deadline.",
+     "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2024/08/National-AI-Strategy_01082024-copy.pdf"
     }
    ],
    "resolution": null
@@ -1573,7 +1579,14 @@
      "date": "2026-06-13T12:10:03Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-10",
+     "direction": "against",
+     "note": "AfCFTA ADAPT launched May 19 2026 with Kenya/Morocco/Nigeria as pilot countries. Coverage confirms ADAPT will 'provide the basis for future exploration of digital currencies such as stablecoins' — but no formal regulatory framework document specifying stablecoin rules from any of the three central banks or the AfCFTA Secretariat has been published as of 2026-08-10. Pilot procedures for digital-currency settlements remain in the testing-frameworks phase per Secretariat language.",
+     "source_url": "https://www.zawya.com/en/economy/africa/kenya-morocco-and-nigeria-to-pilot-afcfta-digital-trade-system-qrqq4qju"
+    }
+   ],
    "resolution": null
   },
   {
@@ -1961,6 +1974,12 @@
      "direction": "against",
      "note": "As of 2026-08-05, revised SA National AI Policy is on track for Cabinet review by November 2026 and public release January 2027 (per Fasken/BakerMcKenzie updates). This is well past the 2026-08-16 due-date for a revised draft. Not yet unambiguously fired - interpretive; log evidence, do not resolve.",
      "source_url": "https://www.fasken.com/en/knowledge/2026/03/ai-regulation-progress-in-south-africa-a-further-step-in-the-right-direction-2"
+    },
+    {
+     "date": "2026-08-10",
+     "direction": "against",
+     "note": "ITWeb reports government publicly targets revised AI policy for Cabinet by November 2026, public release January 2027. Deadline 2026-08-15 will not be met per publicly stated government timeline.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -2337,6 +2356,12 @@
      "direction": "against",
      "note": "2026-07-19: WAICO founding roster (2026-07-16) includes 9 African founders - Algeria, Cameroon, Congo, Ethiopia, Kenya, Lesotho, Mozambique, Senegal, South Africa - but this is signing a multilateral cooperation agreement, NOT publishing a formal national AI strategy on a .gov domain. Signatures do not satisfy the update test. No new national strategies from AU states outside the published-strategy set observed this week.",
      "source_url": "https://english.news.cn/20260716/2d364f232dd7456c8edf1d67d5125d37/c.html"
+    },
+    {
+     "date": "2026-08-10",
+     "direction": "against",
+     "note": "No new AU member-state national AI strategy from an unnamed country identified in search of July-August 2026 coverage. Regional discourse continues to reference the existing ten-country published set (Nigeria, Kenya, Egypt, Ghana, SA, Mauritius, Rwanda, Senegal, Benin, Morocco) with no new formal publications found ahead of 2026-08-15 deadline.",
+     "source_url": "https://cipesa.org/2026/07/rethinking-africas-approach-to-the-politics-of-ai-governance-and-regulation/"
     }
    ],
    "resolution": null
@@ -3208,6 +3233,12 @@
      "direction": "against",
      "note": "SA revised National AI Policy timeline reported (Aug 2026): Cabinet review by November, public release January 2027 — meaning the DCDT revised draft is unlikely to publish by 2026-08-31. Interpretive, log evidence.",
      "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
+    },
+    {
+     "date": "2026-08-10",
+     "direction": "against",
+     "note": "ITWeb reports government publicly targets revised AI policy for Cabinet by November 2026, public release January 2027 (2026-08 dated coverage). This makes the 2026-08-15/2026-08-31 deadlines both effectively deterministic against publication.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -5760,7 +5791,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-12, NFIB publishes the July 2026 Small Business Economic Trends report on nfib.com. Confirmed if the headline Small Business Optimism Index is 98.0 or higher; disconfirmed if below 98.0.",
    "resolve_by": "2026-08-14",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-06T12:21:39Z",
@@ -5775,7 +5806,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-11T12:37:32Z",
+    "outcome": "confirmed",
+    "note": "NFIB July 2026 Small Business Optimism Index printed 99.8 on 2026-08-11 (rose 2.4 points from June, 11-month high, above 52-year avg of 98.0). >=98.0 threshold met - UNAMBIGUOUS CONFIRMED per update_test. Consensus was 97.5 (miss vs actual 99.8) so twin's 55% (raw, ~57.5 corrected) landed on the correct side of a slightly-underpriced positive surprise, though the +5pp edge over base rate is inside noise. Bucket 50-59 (n=18 -> 19 with a hit, hit-rate ticks up). Frame:out, frameworks empty at registration - no framework earns credit under rule 8b. Structural read: eight of ten sub-components rose, hiring plans led the gain, Uncertainty Index still elevated at 91 vs 68 historical average - the small-business sector is signaling a wait-and-see optimism, not a confidence surge. Source: https://www.nfib.com/news/press-release/new-nfib-survey-small-business-optimism-continues-to-rise-11/ and https://investinglive.com/news/us-july-nfib-small-business-optimism-index-xx-vs-97-5-expected/"
+   }
   },
   {
    "id": "claim-20260806-002",
@@ -5888,6 +5923,126 @@
    },
    "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260810-001",
+   "date": "2026-08-10",
+   "registered_at": "2026-08-10T12:39:33Z",
+   "claim": "The Conference Board Consumer Confidence Index for August 2026 (release scheduled 2026-08-25 at 10:00 ET on conference-board.org) prints headline above 100.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Conference Board Consumer Confidence Index headline monthly print for August 2026, published by The Conference Board",
+   "withdrawal": null,
+   "confidence": 0.38,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 recent trend around 96-100 range with soft labor and inflation prints; base-rate-adjusted downward slightly given weak Aug 8 Empire signal expectation, but genuinely uncertain within +/-3 of threshold",
+   "base_rate": 0.42,
+   "base_rate_source": "Conference Board Consumer Confidence Index headline monthly prints Sep 2024 through Jul 2026, share of months >100, computed from conference-board.org release history, as of 2026-08-10",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "The Conference Board Consumer Confidence Index for August 2026 headline number as posted at conference-board.org on 2026-08-25 is >100.0.",
+   "resolve_by": "2026-08-26",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-10T12:39:33Z",
+    "auditor": "twin",
+    "note": "Searched conference-board.org, Bloomberg, Reuters, WSJ economic calendars as of 2026-08-10; no August 2026 release published; consensus previews not yet posted; no dominant Kalshi/Polymarket contract on the specific >100 threshold",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260810-002",
+   "date": "2026-08-10",
+   "registered_at": "2026-08-10T12:39:42Z",
+   "claim": "US Existing Home Sales for July 2026 (NAR release scheduled 2026-08-21 at 10:00 ET on nar.realtor) print seasonally adjusted annualized rate above 4.00 million.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "National Association of Realtors monthly Existing Home Sales release for July 2026",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "June 2026 print landed marginally above 4.0M with rate-sensitive softness; mortgage rate trajectory has stabilized which typically lifts sales modestly month-over-month; slight positive lean above base rate",
+   "base_rate": 0.45,
+   "base_rate_source": "NAR Existing Home Sales monthly headline SAAR Jan 2024 through Jun 2026, share of months >4.00M, computed from nar.realtor release history, as of 2026-08-10",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "US Existing Home Sales July 2026 seasonally adjusted annualized rate as published by the National Association of Realtors on 2026-08-21 is >4.00 million units.",
+   "resolve_by": "2026-08-22",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-10T12:39:42Z",
+    "auditor": "twin",
+    "note": "Searched nar.realtor, Bloomberg, MBA calendars as of 2026-08-10; July 2026 release not yet published; consensus previews sparse; no dominant liquid contract on the specific >4.00M threshold",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260810-003",
+   "date": "2026-08-10",
+   "registered_at": "2026-08-10T12:40:09Z",
+   "claim": "By 2026-10-09, the Republic of Kenya Ministry of Information, Communications and the Digital Economy publishes on ict.go.ke a revised or finalized Kenya Artificial Intelligence and Other Emerging Technologies Policy incorporating the public comments received in the participation period that closed 2026-08-04.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Draft Kenya AI and Emerging Technologies Policy hosted at ict.go.ke/sites/default/files/AI Policy Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf; public consultation closed 2026-08-04 per Ministry of ICT public participation notice",
+   "withdrawal": null,
+   "confidence": 0.25,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Institutional Adaptation Lag: African NAI policy median consultation-close to revised gazette is 6-18 months; a 66-day window compresses this significantly; downward from base rate given the DCDT April 2026 withdrawal fiasco raises stakeholder recontestation risk and cabinet-calendar bottleneck",
+   "base_rate": 0.28,
+   "base_rate_source": "Median African national AI policy interval from public-consultation-close to next public revised document, computed from SA (Apr 2026 gazette then Apr 26 withdrawal; revised target Nov 2026 Cabinet), Nigeria (2024 NAIS PDF; formal path incomplete), Egypt and Rwanda revision timelines, as of 2026-08-10",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-10-09 23:59 UTC, a document on ict.go.ke or Kenya Gazette identifiable as the revised or finalized Kenya AI and Emerging Technologies Policy (post-2026-08-04 consultation) is publicly available and dated between 2026-08-05 and 2026-10-09.",
+   "resolve_by": "2026-10-09",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-10T12:40:09Z",
+    "auditor": "twin",
+    "note": "Searched ict.go.ke, Kenya Gazette, People Daily, Techweez, CIO Africa as of 2026-08-10; no revised or finalized document published post-Aug 4 consultation; ministerial commitment to a gazette date not identified",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260726-003",
+     "relation": "shares-system",
+     "note": "Both test Kenya's regulatory adoption tempo post-August 4 2026 consultation close: 003 on AI policy revision, 726-003 on sovereign cloud/compute gazette. Same institutional-adaptation-lag mechanism.",
+     "date": "2026-08-10T12:40:18Z"
+    },
+    {
+     "id": "claim-20260730-003",
+     "relation": "sharpens",
+     "note": "20260730-003 asks for Kenya AI Policy revision by 2026-09-15; 20260810-003 asks for the same by 2026-10-09 with tighter grounding on ict.go.ke and explicit framework attribution. 003 sharpens the timeline test.",
+     "date": "2026-08-10T12:40:18Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
@@ -6249,20 +6404,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 55,
-    "hit_rate": 0.6909,
-    "brier": 0.1922,
-    "skill_vs_coinflip": 0.0578
+    "n": 56,
+    "hit_rate": 0.6964,
+    "brier": 0.1924,
+    "skill_vs_coinflip": 0.0576
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1922,
-  "skill_vs_coinflip": 0.0578,
+  "brier": 0.1924,
+  "skill_vs_coinflip": 0.0576,
   "base_rate": {
-   "n": 55,
-   "brier_base": 0.2085,
-   "brier_twin": 0.1922,
-   "skill": 0.0163
+   "n": 56,
+   "brier_base": 0.2093,
+   "brier_twin": 0.1924,
+   "skill": 0.0169
   },
   "market": {
    "n": 6,
@@ -6277,8 +6432,8 @@
    "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 43,
-   "brier_cluster_collapsed": 0.1867
+   "effective_n": 44,
+   "brier_cluster_collapsed": 0.187
   },
   "paired": {
    "n": 0,
@@ -6288,12 +6443,12 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0224,
-    "hi": 0.0926,
+    "lo": 0.023,
+    "hi": 0.0921,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0053,
+    "lo": -0.0049,
     "hi": 0.0388,
     "distinguishable": false
    },
