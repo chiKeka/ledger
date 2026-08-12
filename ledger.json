@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11",
+ "updated": "2026-08-12",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1531,6 +1531,12 @@
      "direction": "against",
      "note": "Search finds Nigeria's 2024 National AI Strategy PDF exists at ncair.nitda.gov.ng but the 2026 formal parliamentary/executive adoption path signaled in the July 27 signal is still incomplete. No new formal document dated 2026 identified on .gov.ng ahead of 2026-08-12 deadline.",
      "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2024/08/National-AI-Strategy_01082024-copy.pdf"
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "against",
+     "note": "2026-08-12 (deadline): search for a 2026-dated formal Nigeria NAIS release on gov.ng returns nothing new since 2025-09-19 NAIS PDF and 2025-04 launch. Punch/BusinessDay coverage through Jul 27 continues to describe strategy 'awaiting parliamentary greenlight' with no gazette entry. Update test as written (2026-dated formal document) is not met on the deadline; but the 2024/2025 NAIS artifacts already existing on ncair.nitda.gov.ng means the surface reading of update test 'publicly available on .gov.ng' was arguably met at registration - which the Aug 2 evidence flagged as pre-reg audit failure candidate. INTERPRETIVE, not unambiguous - defer to Sunday Reckoning for invalidation vs resolution decision.",
+     "source_url": "https://businessday.ng/technology/article/nigeria-awaits-parliamentary-greenlight-for-landmark-national-ai-strategy/"
     }
    ],
    "resolution": null
@@ -1558,7 +1564,7 @@
    ],
    "update_test": "By 2026-08-12, a Kenyan, Moroccan, or Nigerian central bank, finance ministry, or AfCFTA Secretariat publishes a document on an official government or AfCFTA domain that names 'ADAPT' and specifies regulatory rules or pilot procedures for digital-currency or stablecoin settlements",
    "resolve_by": "2026-08-12",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-13T12:09:56Z",
@@ -1587,7 +1593,11 @@
      "source_url": "https://www.zawya.com/en/economy/africa/kenya-morocco-and-nigeria-to-pilot-afcfta-digital-trade-system-qrqq4qju"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-12T12:35:28Z",
+    "outcome": "disconfirmed",
+    "note": "2026-08-12 (deadline): No formal regulatory framework or pilot specification governing digital-currency or stablecoin settlements has been published under ADAPT by any of the three pilot countries (Kenya, Morocco, Nigeria) or the AfCFTA Secretariat as of the deadline. Coverage (Zawya https://www.zawya.com/en/economy/africa/kenya-morocco-and-nigeria-to-pilot-afcfta-digital-trade-system-qrqq4qju, tech.africa, dig.watch, biometricupdate, financialnigeria) uniformly places ADAPT in a 'basis for future exploration of digital currencies such as stablecoins' phase; the operational deliverables named are digital identity integration, payment rail interoperability, and cross-border data exchange - not stablecoin regulatory frameworks. Update test unambiguously not met. UNAMBIGUOUS MISS on the deadline day - the artifact either exists on an official domain or it does not, and it does not."
+   }
   },
   {
    "id": "claim-20260614-001",
@@ -1980,6 +1990,12 @@
      "direction": "against",
      "note": "ITWeb reports government publicly targets revised AI policy for Cabinet by November 2026, public release January 2027. Deadline 2026-08-15 will not be met per publicly stated government timeline.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "against",
+     "note": "2026-08-12: DCDT confirmed a revised draft goes to Cabinet by November 2026 with public comment period in January 2027 (Technext, DLA Piper, CADE Project reporting). Withdrawn April 26 2026 following AI-hallucinated citations. Revised draft by 2026-08-16 highly unlikely - expert panel still working under the November Cabinet target, not the mid-August window this claim reads.",
+     "source_url": "https://technext24.com/2026/05/26/south-africa-pushes-ai-policy-to-2027/"
     }
    ],
    "resolution": null
@@ -3239,6 +3255,12 @@
      "direction": "against",
      "note": "ITWeb reports government publicly targets revised AI policy for Cabinet by November 2026, public release January 2027 (2026-08 dated coverage). This makes the 2026-08-15/2026-08-31 deadlines both effectively deterministic against publication.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "against",
+     "note": "2026-08-12: same as 20260616-003 - DCDT expert panel now targeting Cabinet by November 2026, public comment January 2027, per official statements. A revised draft published by 2026-08-31 is not on the schedule the department has publicly committed to; probability of confirmation by deadline low.",
+     "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
     }
    ],
    "resolution": null
@@ -5013,6 +5035,12 @@
      "direction": "against",
      "note": "SA National AI Policy timeline slipped: Cabinet consideration moved to November 2026, public release now expected January 2027 per Aug 5 2026 Fasken/Cliffe Dekker Hofmeyr readouts. This pushes formal Cabinet adoption+official notification past the 2026-10-24 deadline. Directional against confirmation.",
      "source_url": "https://www.fasken.com/en/knowledge/2026/03/ai-regulation-progress-in-south-africa-a-further-step-in-the-right-direction-2"
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "against",
+     "note": "2026-08-12: DCDT publicly states revised draft goes to Cabinet by November 2026 followed by public-comment period January 2027 (Technext, CADE Project). Formal Cabinet adoption of the National AI Policy Framework by 2026-10-24 window is inconsistent with that publicly-stated schedule; probability of confirmation by the deadline declining.",
+     "source_url": "https://technext24.com/2026/05/26/south-africa-pushes-ai-policy-to-2027/"
     }
    ],
    "resolution": null
@@ -6404,20 +6432,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 56,
-    "hit_rate": 0.6964,
-    "brier": 0.1924,
-    "skill_vs_coinflip": 0.0576
+    "n": 57,
+    "hit_rate": 0.6842,
+    "brier": 0.1904,
+    "skill_vs_coinflip": 0.0596
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1924,
-  "skill_vs_coinflip": 0.0576,
+  "brier": 0.1904,
+  "skill_vs_coinflip": 0.0596,
   "base_rate": {
-   "n": 56,
-   "brier_base": 0.2093,
-   "brier_twin": 0.1924,
-   "skill": 0.0169
+   "n": 57,
+   "brier_base": 0.2072,
+   "brier_twin": 0.1904,
+   "skill": 0.0168
   },
   "market": {
    "n": 6,
@@ -6433,7 +6461,7 @@
   },
   "clusters": {
    "effective_n": 44,
-   "brier_cluster_collapsed": 0.187
+   "brier_cluster_collapsed": 0.1859
   },
   "paired": {
    "n": 0,
@@ -6443,13 +6471,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.023,
-    "hi": 0.0921,
+    "lo": 0.026,
+    "hi": 0.0924,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0049,
-    "hi": 0.0388,
+    "lo": -0.0048,
+    "hi": 0.0386,
     "distinguishable": false
    },
    "skill_vs_market": {
