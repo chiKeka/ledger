@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12",
+ "updated": "2026-08-13",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4745,7 +4745,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-12, the BLS Consumer Price Index News Release for July 2026 published on bls.gov reports the headline CPI-U 12-month percent change. Confirmed if 12-month percent change is 3.5 or higher; disconfirmed if below 3.5.",
    "resolve_by": "2026-08-13",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-23T12:12:21Z",
@@ -4763,8 +4763,19 @@
      "date": "2026-07-26T14:21:19Z"
     }
    ],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-08-13",
+     "direction": "against",
+     "note": "2026-08-13 (deadline resolution): BLS CPI-U for July 2026 printed 3.4 percent YoY (down 0.1 pt from June's 3.5 percent), on-schedule release 2026-08-12 at 8:30 ET on bls.gov. Headline CPI-U rose 0.1 percent MoM seasonally adjusted. This is below the 3.5 percent threshold set in the update test - claim disconfirmed. Coverage: CNBC, Washington Post, NBC News, Advisor Perspectives all reporting 3.4 percent annual. Base-effect thesis (low July 2025 comparator lifts YoY) was overwhelmed by the soft MoM print.",
+     "source_url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+    }
+   ],
+   "resolution": {
+    "date": "2026-08-13T12:14:30Z",
+    "outcome": "disconfirmed",
+    "note": "2026-08-13: BLS CPI-U for July 2026 printed 3.4 percent YoY on-schedule 2026-08-12 08:30 ET on bls.gov; below the 3.5 percent update-test threshold. Twin said 63 percent, outcome DISCONFIRMED. Base-effect thesis (low July 2025 comparator lifting YoY) failed - a soft MoM print of +0.1 seasonally adjusted overwhelmed the base asymmetry. Market price was 55 percent (Polymarket July inflation event); the twin's 63 percent was farther from truth than the market. Sources: CNBC (cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html), Washington Post, NBC News, Advisor Perspectives, BLS release archive."
+   }
   },
   {
    "id": "claim-20260723-003",
@@ -6073,6 +6084,85 @@
    ],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260812-001",
+   "date": "2026-08-12",
+   "registered_at": "2026-08-12T12:38:42Z",
+   "claim": "The UK Office for National Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-20 at 07:00 BST on ons.gov.uk) reports headline CPI 12-month percent change at or above 3.1 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "UK ONS Consumer Price Inflation release scheduled 2026-08-20 at 07:00 BST on ons.gov.uk statistical calendar.",
+   "withdrawal": null,
+   "confidence": 0.63,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Edge thesis vs consensus: the 13 percent Ofgem cap alone adds approximately 0.5 pp to July YoY over June's 2.6 percent baseline, which arithmetically prints 3.1 or above unless MoM ex-energy prints negative. Consensus 'slightly above 3.0' clusters mass on 3.0-3.1, leaving the greater-or-equal 3.1 probability higher than the 0.55 median implies. Twin raw estimate 0.62; bucket 60-69 correction plus 0.017 applied via calibration 2026-08-11 rounded to 0.63. Frame:out.",
+   "base_rate": 0.55,
+   "base_rate_source": "June 2026 headline CPI-YoY was 2.6 percent (down from 2.8 percent in May per ONS). Ofgem announced a 13 percent household energy price cap increase effective 2026-07-01. Energy is approximately 4 percent of the UK CPI basket, giving a direct arithmetic contribution near 0.5 percentage points to July YoY. Method: direct base-effect plus energy pass-through analysis vs the June print. Consensus commentary (Kalkine, OBR) placed July inflation slightly above 3 percent driven by the July cap hike. Base rate 0.55 reflects the small asymmetric probability that services stickiness or fuel volatility overshoots the direct arithmetic contribution; as-of 2026-08-12.",
+   "market": {
+    "price": 0.55,
+    "source": "Consensus commentary via Kalkine.co.uk 2026-08-08 - implied probability derived from median forecast of 3.0-3.1 percent YoY headline as of 2026-08-12"
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-20, the ONS UK Consumer Price Inflation statistical bulletin for July 2026 publishes the headline CPI 12-month percent change. Confirmed if the printed 12-month percent change is 3.1 or higher; disconfirmed if below 3.1.",
+   "resolve_by": "2026-08-21",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-12T12:38:42Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-08-12: ons.gov.uk statistical calendar, kalkine.co.uk UK inflation outlook, MoneyWeek live inflation coverage. Nothing decisive; the July 2026 print does not exist until 2026-08-20.",
+    "queries": [
+     "UK CPI July 2026 ONS release consensus forecast",
+     "UK CPI July 2026 preview energy price cap"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260812-002",
+   "date": "2026-08-12",
+   "registered_at": "2026-08-12T12:39:00Z",
+   "claim": "The Norges Bank Monetary Policy Committee at its 2026-09-24 policy rate meeting raises the policy rate by at least 25 basis points from the current 4.25 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Norges Bank policy rate decision meeting scheduled 2026-09-24 with press conference 10:30 CET per norges-bank.no calendar.",
+   "withdrawal": null,
+   "confidence": 0.15,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Un-priced out-of-frame minority-view forecast: consensus leans hold with cuts in 2027, but core inflation at 3.4 percent above the 2 percent target and hawkish-hold framing from VT Markets/ING keep a September hike as a live tail. Twin call 0.15 raw with 20-29 bucket correction null (n=1) so no adjustment; 15 percent slightly above the 12 percent historical hike base rate reflects the hawkish rhetoric premium. Frame:out. This is the low-probability un-priced kind of forecast that measures skill vs the base rate rather than the market.",
+   "base_rate": 0.15,
+   "base_rate_source": "Norges Bank held the policy rate at 4.25 percent at the June and August 2026 meetings; underlying inflation printed 2.7 percent in June and 2.7 percent in July per Statistics Norway. Kalshi/Polymarket carry no liquid market on the September 24 decision. Consensus commentary (Nomura, Morningstar Nordics, SEB) leans hold-through-2026 with rate cuts expected in early 2027; VT Markets and ING flag the September meeting as a hawkish-hold with the door still open for a final hike. Base rate 0.15 derived from historical Norges Bank hike frequency at policy meetings 2019-2026 conditional on prior meeting held (approximately 12 percent), adjusted up slightly for the current 3.4 percent core inflation which remains above the 2 percent target. Method: historical hike frequency at Norges Bank policy meetings 2019-2026 from norges-bank.no decisions archive, conditional on hold-hold-hold prior sequence, as of 2026-08-12.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-24 at 10:00 CET, Norges Bank publishes its policy rate decision and Monetary Policy Report on norges-bank.no. Confirmed if the announced policy rate is 4.50 percent or higher (an increase of 25 basis points or more from the current 4.25 percent); disconfirmed if the announced policy rate is 4.25 percent or lower.",
+   "resolve_by": "2026-09-25",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-12T12:39:00Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-08-12: norges-bank.no policy rate calendar, morningstar.com Nordics coverage, VT Markets and ING analyst notes, Trading Economics. Nothing decisive; the September 24 decision does not exist yet.",
+    "queries": [
+     "Norges Bank September 24 2026 rate decision preview",
+     "Norway policy rate September 2026 hike hold"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -6432,26 +6522,26 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 57,
-    "hit_rate": 0.6842,
-    "brier": 0.1904,
-    "skill_vs_coinflip": 0.0596
+    "n": 58,
+    "hit_rate": 0.6724,
+    "brier": 0.194,
+    "skill_vs_coinflip": 0.056
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1904,
-  "skill_vs_coinflip": 0.0596,
+  "brier": 0.194,
+  "skill_vs_coinflip": 0.056,
   "base_rate": {
-   "n": 57,
-   "brier_base": 0.2072,
-   "brier_twin": 0.1904,
-   "skill": 0.0168
+   "n": 58,
+   "brier_base": 0.2098,
+   "brier_twin": 0.194,
+   "skill": 0.0158
   },
   "market": {
-   "n": 6,
-   "brier_market": 0.0699,
-   "brier_twin": 0.0836,
-   "skill": -0.0136
+   "n": 7,
+   "brier_market": 0.1032,
+   "brier_twin": 0.1283,
+   "skill": -0.0252
   },
   "non_echo": {
    "n": 20,
@@ -6461,7 +6551,7 @@
   },
   "clusters": {
    "effective_n": 44,
-   "brier_cluster_collapsed": 0.1859
+   "brier_cluster_collapsed": 0.1903
   },
   "paired": {
    "n": 0,
@@ -6471,18 +6561,18 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.026,
-    "hi": 0.0924,
+    "lo": 0.0241,
+    "hi": 0.0882,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0048,
-    "hi": 0.0386,
+    "lo": -0.0056,
+    "hi": 0.0373,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0262,
-    "hi": -0.0037,
+    "lo": -0.0504,
+    "hi": -0.0064,
     "distinguishable": true
    }
   }
