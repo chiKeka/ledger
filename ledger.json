@@ -6163,6 +6163,41 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260813-001",
+   "date": "2026-08-13",
+   "registered_at": "2026-08-13T12:23:15Z",
+   "claim": "By 2026-10-12, the White House publishes at least one new AI-related Executive Order or Presidential Memorandum signed by President Trump on whitehouse.gov/presidential-actions or in the Federal Register.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "White House Presidential Actions page (whitehouse.gov/presidential-actions) and the Federal Register both list Executive Orders and Presidential Memoranda as they are signed. Both surfaces exist today; verification is a simple published-or-not check.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Calibration 2026-08-12 bucket 40-49 shows correction +0.118 (n=5, thin), which would suggest bumping raw 0.40 toward ~0.52. Conservative call at 0.45 given (a) recent deceleration signal from the Aug 1 lapsed deadline suggests the WH may be pausing on AI EOs, and (b) n=5 bucket correction is not confidence-weighted. No edge over consensus (no consensus market exists); ingestion bias avoided by picking an un-priced call. Frame:out - executive-branch action doesn't map to any active framework.",
+   "base_rate": 0.45,
+   "base_rate_source": "Trailing 12-month base rate: Trump signed roughly 4-5 AI-related EOs or Presidential Memoranda through 2025-12 to 2026-06 (state AI preemption EO Dec 2025, EO 14215 Feb 2026, EO 14397 Apr 2026, June 2 2026 frontier framework EO). Pace approximately 1 EO per 60-90 day window; 60-day window base rate rounded to 0.45. Method: count of AI-topic EOs from whitehouse.gov Presidential Actions archive divided by lookback months; as-of 2026-08-13.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-10-12, an Executive Order or Presidential Memorandum with AI as a named subject (title, subject line, or first paragraph explicitly names AI, artificial intelligence, or a specific AI system class such as GPAI or frontier models) is published on whitehouse.gov/presidential-actions or in the Federal Register with a signature date between 2026-08-13 and 2026-10-12 inclusive. Confirmed if such an action is published; disconfirmed if none appears in either surface by 2026-10-12.",
+   "resolve_by": "2026-10-12",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-13T12:23:15Z",
+    "auditor": "twin",
+    "note": "Sources searched 2026-08-13: whitehouse.gov/presidential-actions (no AI EO signed since 2026-06-02 as of 2026-08-13); federalregister.gov (no new AI EO listing in past 30 days); Reuters and Axios coverage (nothing decisive scheduled). The Aug 1 2026 frontier-framework deliverable lapsed without follow-up action per signal 2026-08-02-trump-eo-14409-frontier-framework-aug1-deadline-lapses-no-deliverable. Outcome not already known.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
