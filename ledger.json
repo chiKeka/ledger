@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13",
+ "updated": "2026-08-14",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1537,6 +1537,12 @@
      "direction": "against",
      "note": "2026-08-12 (deadline): search for a 2026-dated formal Nigeria NAIS release on gov.ng returns nothing new since 2025-09-19 NAIS PDF and 2025-04 launch. Punch/BusinessDay coverage through Jul 27 continues to describe strategy 'awaiting parliamentary greenlight' with no gazette entry. Update test as written (2026-dated formal document) is not met on the deadline; but the 2024/2025 NAIS artifacts already existing on ncair.nitda.gov.ng means the surface reading of update test 'publicly available on .gov.ng' was arguably met at registration - which the Aug 2 evidence flagged as pre-reg audit failure candidate. INTERPRETIVE, not unambiguous - defer to Sunday Reckoning for invalidation vs resolution decision.",
      "source_url": "https://businessday.ng/technology/article/nigeria-awaits-parliamentary-greenlight-for-landmark-national-ai-strategy/"
+    },
+    {
+     "date": "2026-08-14",
+     "direction": "against",
+     "note": "2026-08-14 targeted search: no NEW 2026-dated 'Nigeria National AI Strategy' formal release on official gov.ng domains. Latest artifact remains NAIS 2025 (five-year vision 2025-2029) formally published 2025-09-19 on ncair.nitda.gov.ng. NITDA Code of Practice for AI (2025) still not finalized; independent governance body not constituted. Update test explicitly requires 'dated 2026' — that surface has not fired. INTERPRETIVE (2025-dated artifact + 2026-04-20 Ministerial launch could still be argued as 'publication'), so logging and leaving for Sunday Reckoning per resolution_watch = unambiguous_only.",
+     "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
     }
    ],
    "resolution": null
@@ -5795,7 +5801,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-13, BLS publishes Producer Price Indexes, July 2026 at bls.gov/news.release/ppi.nr0.htm. Read the headline 12-month percent change for total final demand. Confirmed if that figure is at or below 5.5 percent; disconfirmed if above 5.5 percent.",
    "resolve_by": "2026-08-14",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-05T12:24:08Z",
@@ -5807,7 +5813,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-14T13:10:53Z",
+    "outcome": "confirmed",
+    "note": "BLS Producer Price Indexes July 2026 (USDL 26-1380) released 2026-08-13 at 8:30 ET on bls.gov/news.release/archives/ppi_08132026.htm. Headline 12-month percent change for final demand: 4.7 percent (unchanged in July MoM seasonally adjusted; goods -0.7 pct MoM on -3.1 pct energy incl. -5.7 pct gasoline; services +0.2 pct). 4.7 <= 5.5 threshold: CONFIRMED. Twin registered 48 pct (against) at 2026-08-05 vs 50 pct base rate; energy did not rebound as expected in July, energy actually fell further (-3.1 pct MoM in July after -6.4 pct MoM in June), pulling headline YoY to 4.7 from June's 5.51. Twin was wrong on direction (bet against, outcome supports); base_rate 50 pct was closer to correct than 48 pct twin edge. Ingestion-bias note held: no market restatement. Source: bls.gov/news.release/archives/ppi_08132026.htm; secondary corroboration Qz 2026-08-13."
+   }
   },
   {
    "id": "claim-20260806-001",
@@ -6557,20 +6567,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 58,
-    "hit_rate": 0.6724,
-    "brier": 0.194,
-    "skill_vs_coinflip": 0.056
+    "n": 59,
+    "hit_rate": 0.678,
+    "brier": 0.1953,
+    "skill_vs_coinflip": 0.0547
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.194,
-  "skill_vs_coinflip": 0.056,
+  "brier": 0.1953,
+  "skill_vs_coinflip": 0.0547,
   "base_rate": {
-   "n": 58,
-   "brier_base": 0.2098,
-   "brier_twin": 0.194,
-   "skill": 0.0158
+   "n": 59,
+   "brier_base": 0.2105,
+   "brier_twin": 0.1953,
+   "skill": 0.0152
   },
   "market": {
    "n": 7,
@@ -6585,8 +6595,8 @@
    "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 44,
-   "brier_cluster_collapsed": 0.1903
+   "effective_n": 45,
+   "brier_cluster_collapsed": 0.1921
   },
   "paired": {
    "n": 0,
@@ -6596,13 +6606,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0241,
-    "hi": 0.0882,
+    "lo": 0.0226,
+    "hi": 0.0853,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0056,
-    "hi": 0.0373,
+    "lo": -0.0041,
+    "hi": 0.0364,
     "distinguishable": false
    },
    "skill_vs_market": {
