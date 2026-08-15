@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14",
+ "updated": "2026-08-15",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1543,6 +1543,12 @@
      "direction": "against",
      "note": "2026-08-14 targeted search: no NEW 2026-dated 'Nigeria National AI Strategy' formal release on official gov.ng domains. Latest artifact remains NAIS 2025 (five-year vision 2025-2029) formally published 2025-09-19 on ncair.nitda.gov.ng. NITDA Code of Practice for AI (2025) still not finalized; independent governance body not constituted. Update test explicitly requires 'dated 2026' — that surface has not fired. INTERPRETIVE (2025-dated artifact + 2026-04-20 Ministerial launch could still be argued as 'publication'), so logging and leaving for Sunday Reckoning per resolution_watch = unambiguous_only.",
      "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
+    },
+    {
+     "date": "2026-08-15",
+     "direction": "against",
+     "note": "As of 2026-08-15 (3 days past 2026-08-12 deadline), no 2026-dated National AI Strategy has been located on official .gov.ng domains (NITDA, FMCIDE). The existing NAIS document available is dated September 2025 (Federal Ministry of Communications, Innovation and Digital Economy 2025-2029 vision). Deferring resolution to Sunday Reckoning to test whether 'dated 2026' clause was intended to require a revised/updated document distinct from the 2025 publication, versus interpretive slippage.",
+     "source_url": "https://nitda.gov.ng/how-nitdas-ai-strategy-is-powering-startups-and-industry/9159/"
     }
    ],
    "resolution": null
@@ -2383,6 +2389,12 @@
      "date": "2026-08-10",
      "direction": "against",
      "note": "No new AU member-state national AI strategy from an unnamed country identified in search of July-August 2026 coverage. Regional discourse continues to reference the existing ten-country published set (Nigeria, Kenya, Egypt, Ghana, SA, Mauritius, Rwanda, Senegal, Benin, Morocco) with no new formal publications found ahead of 2026-08-15 deadline.",
+     "source_url": "https://cipesa.org/2026/07/rethinking-africas-approach-to-the-politics-of-ai-governance-and-regulation/"
+    },
+    {
+     "date": "2026-08-15",
+     "direction": "against",
+     "note": "As of 2026-08-15 (deadline day), no formal national AI strategy document dated 2026-06-18 or later located on an official .gov domain of any AU member state outside the ten named. Tanzania and Ethiopia have drafts under discussion; Zambia's launched November 2024 (predates window). Cote d'Ivoire, Tunisia signalled drafts in Q1 2026 but no formal publication found. Deferring to Sunday Reckoning for a broader multilingual sweep before disconfirming.",
      "source_url": "https://cipesa.org/2026/07/rethinking-africas-approach-to-the-politics-of-ai-governance-and-regulation/"
     }
    ],
@@ -5652,7 +5664,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-15, University of Michigan Surveys of Consumers publishes preliminary August 2026 Consumer Sentiment Index on umich.edu or press-release feed. Confirmed if the preliminary headline index prints at 55.0 or higher; disconfirmed if below 55.0.",
    "resolve_by": "2026-08-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-03T12:16:57Z",
@@ -5667,7 +5679,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-15T12:09:09Z",
+    "outcome": "disconfirmed",
+    "note": "UMich preliminary August 2026 Consumer Sentiment printed 51.0 (headline), well below the 55.0 threshold and below the 54.5 consensus; slid from July final 55.2. Source: University of Michigan Surveys of Consumers preliminary August 2026 release 2026-08-15, https://data.sca.isr.umich.edu/ and coverage https://investinglive.com/news/us-august-prelim-umich-consumer-sentiment-51-0-vs-54-5-expected/. Confidence at registration 0.52; base rate 0.50; brier ~0.27."
+   }
   },
   {
    "id": "claim-20260803-002",
@@ -5728,7 +5744,7 @@
    "frameworks": [],
    "update_test": "Ministry of Statistics and Programme Implementation, Government of India releases All India CPI on base 2024=100 for July 2026 in mid-August 2026 on mospi.gov.in or pib.gov.in. Confirmed if the reported year-over-year headline CPI inflation rate is 4.5 percent or above; disconfirmed if below 4.5 percent.",
    "resolve_by": "2026-08-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-04T12:17:31Z",
@@ -5743,7 +5759,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-15T12:09:14Z",
+    "outcome": "disconfirmed",
+    "note": "India CPI July 2026 headline YoY printed 4.45 percent (provisional, base 2024=100), below the 4.5 percent threshold by 5 basis points. Rose from June 4.38 percent. Source: MoSPI/PIB release 2026-08-12, https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298247. Confidence 0.55; base rate 0.50; brier ~0.30."
+   }
   },
   {
    "id": "claim-20260805-001",
@@ -5882,7 +5902,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-15, the US Census Bureau publishes the July 2026 Advance Monthly Sales for Retail and Food Services report on census.gov/retail. Confirmed if the reported total sales MoM seasonally-adjusted change is 0.2 percent or higher; disconfirmed if below 0.2 percent.",
    "resolve_by": "2026-08-16",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-06T12:21:54Z",
@@ -5898,7 +5918,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-15T12:09:20Z",
+    "outcome": "disconfirmed",
+    "note": "US Advance Retail Sales July 2026 headline MoM SA printed -0.6 percent, well below the 0.2 percent threshold; total sales 763.6 billion, YoY 5.0 percent. Source: US Census Bureau Advance Monthly Retail Trade release 2026-08-14, https://www.census.gov/retail/marts/www/marts_current.pdf. Confidence 0.48; base rate 0.55; brier ~0.23."
+   }
   },
   {
    "id": "claim-20260808-001",
@@ -5921,7 +5945,7 @@
    "frameworks": [],
    "update_test": "On or about 2026-08-15, the NY Fed publishes the Empire State Manufacturing Survey (August 2026) at newyorkfed.org/survey/empire. Confirmed if the general business conditions index (current-conditions headline) is greater than zero; disconfirmed if zero or below.",
    "resolve_by": "2026-08-16",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-08T12:14:29Z",
@@ -5935,7 +5959,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-15T12:09:25Z",
+    "outcome": "confirmed",
+    "note": "Empire State Manufacturing Survey August 2026 headline general business conditions printed 11.9 (up 6 points from July, highest since November 2024), positive as predicted. New orders 15.4, shipments 12.2. Source: NY Fed Empire State Manufacturing Survey August 2026 release 2026-08-15, https://www.newyorkfed.org/survey/empire/empiresurvey_overview. Confidence 0.55; base rate 0.55; brier ~0.20."
+   }
   },
   {
    "id": "claim-20260808-002",
@@ -6567,20 +6595,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 59,
-    "hit_rate": 0.678,
-    "brier": 0.1953,
-    "skill_vs_coinflip": 0.0547
+    "n": 63,
+    "hit_rate": 0.6508,
+    "brier": 0.1988,
+    "skill_vs_coinflip": 0.0512
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1953,
-  "skill_vs_coinflip": 0.0547,
+  "brier": 0.1988,
+  "skill_vs_coinflip": 0.0512,
   "base_rate": {
-   "n": 59,
-   "brier_base": 0.2105,
-   "brier_twin": 0.1953,
-   "skill": 0.0152
+   "n": 63,
+   "brier_base": 0.2131,
+   "brier_twin": 0.1988,
+   "skill": 0.0142
   },
   "market": {
    "n": 7,
@@ -6595,8 +6623,8 @@
    "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 45,
-   "brier_cluster_collapsed": 0.1921
+   "effective_n": 49,
+   "brier_cluster_collapsed": 0.1969
   },
   "paired": {
    "n": 0,
@@ -6606,13 +6634,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0226,
-    "hi": 0.0853,
+    "lo": 0.0207,
+    "hi": 0.0807,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0041,
-    "hi": 0.0364,
+    "lo": -0.0051,
+    "hi": 0.0351,
     "distinguishable": false
    },
    "skill_vs_market": {
