@@ -4700,6 +4700,12 @@
      "direction": "supports",
      "note": "OIC formally participated at WAICO Shanghai high-level meeting 2026-07-17 through 2026-07-20 (57 OIC member states, many not previously WAICO-affiliated). OIC statement framed as active engagement in international AI governance. Directional pull toward WAICO signatory expansion in the run-up to 2026-09-15 update-test. Signal: 2026-07-25-oic-waico-shanghai-maqasid",
      "source_url": "https://www.oic-oci.org/en/news/8175"
+    },
+    {
+     "date": "2026-08-16",
+     "direction": "supports",
+     "note": "Manila Times/Global Times report WAICO founded 2026-07 at Shanghai WAIC with 38 founding member countries - well above the 33 threshold. Not the officially-required source (english.news.cn / english.www.gov.cn / official WAICO comm), but the number was announced by Chinese authorities at WAIC, so it is near-certain the official English source restates it. Not resolving until direct source citation retrieved.",
+     "source_url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/pr-newswire/china-advances-global-ai-governance-in-a-comprehensive-manner/2405539"
     }
    ],
    "resolution": null
@@ -5734,7 +5740,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-16",
+     "direction": "against",
+     "note": "BoJ signaling turned hawkish in late July: held rates at 1 pct but explicitly warned underlying inflation could exceed 2 pct target for first time, with Ueda stating 'we could be forced to raise rates rapidly' and hinting September may qualify. Bloomberg (2026-06-03) already had Ueda saying BOJ needs to keep raising rates to contain inflation. Twin's 67 pct hold estimate now looks optimistic - the signaling window has tilted toward at least a small hike being seriously considered.",
+     "source_url": "https://money.usnews.com/investing/news/articles/2026-07-31/boj-governor-uedas-comments-at-news-conference"
+    }
+   ],
    "resolution": null
   },
   {
@@ -6394,6 +6407,131 @@
     "note": "Searched 2026-08-15 12:20 UTC for August 2026 US unemployment forecasts or leaks. Release 2026-09-04, three weeks away, no leaked number available. Consensus forecast tracked outside this run but not the input to the estimate.",
     "queries": [
      "August 2026 US unemployment rate forecast September 5 BLS jobs report consensus"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260816-001",
+   "date": "2026-08-16",
+   "registered_at": "2026-08-16T12:24:29Z",
+   "claim": "By 2026-10-15, the World Artificial Intelligence Cooperation Organization (WAICO) publishes at least one named technical standard, code of practice, or governance policy document on an official Chinese English-language source (english.news.cn, english.www.gov.cn) or an official WAICO communication channel, distinct from the founding declaration and Xi Jinping's remarks",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The World Artificial Intelligence Cooperation Organization, established at Shanghai WAIC 2026 with 38 founding members announced 2026-07 to 2026-08 (Manila Times / Global Times reporting)",
+   "withdrawal": null,
+   "confidence": 0.56,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Calibration bucket 40-49 (n=7) correction +0.106 applied to raw 0.45; final 0.56. Bias above base rate because China-backed IGOs historically publish a first-artifact quickly for legitimacy signaling (see AIIB, BRI standards) and Xi-level founding remarks create ministerial pressure for a Q4 deliverable. Countervailing: institution-building takes staff-months and WAICO is 6 weeks old",
+   "base_rate": 0.4,
+   "base_rate_source": "New-IGO first-technical-artifact within 3 months of founding, comparison set OECD AI Principles (2019 founding to 2019 principles under 6 months), GPAI (2020 founding to 2020 State of AI report within 6 months), UN AI Advisory Body (2023 founding, interim report within 6 months), estimated as of 2026-08-16",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-15 23:59 UTC, a document identifiable as a WAICO-authored technical standard, code of practice, or governance policy (not the founding declaration, not political remarks, not press releases) is publicly retrievable on english.news.cn, english.www.gov.cn, or an official WAICO web presence, dated 2026-07-01 or later",
+   "resolve_by": "2026-10-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-16T12:24:29Z",
+    "auditor": "twin",
+    "note": "Searched Manila Times / Global Times coverage of Shanghai WAIC 2026-08-14, 2026-08-15, 2026-08-16; only founding declaration and Xi remarks surfaced, no technical standard or code of practice yet; as of 2026-08-16 no WAICO technical artifact publicly retrievable",
+    "queries": [
+     "AI governance policy news August 14 15 16 2026",
+     "WAICO technical standard 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260719-002",
+     "relation": "shares-system",
+     "note": "Both claims probe the WAICO organization at different resolution horizons: the count-threshold claim tests founding-member reach; the technical-standard claim tests whether the founding translates into deliverable governance output within the same 60-day window",
+     "date": "2026-08-16T12:25:20Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260816-002",
+   "date": "2026-08-16",
+   "registered_at": "2026-08-16T12:24:46Z",
+   "claim": "By 2026-10-15, at least one of OpenAI, Anthropic, Google DeepMind, or Meta AI publicly announces the release of a new frontier or flagship AI model with a claimed state-of-the-art result on at least one of MMLU-Pro, GPQA-Diamond, or SWE-Bench-Verified",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "OpenAI (GPT family), Anthropic (Claude family), Google DeepMind (Gemini family), and Meta AI (Llama family) are the four labs whose flagship releases have historically defined the SOTA cadence across the MMLU-Pro, GPQA-Diamond, and SWE-Bench-Verified benchmark set",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Calibration bucket 60-69 (n=13) correction -0.011 applied to raw 0.63; final 0.62. Below base rate reflects: (i) August is a low-release-cadence month across all four labs historically; (ii) the flagship-SOTA condition is strict, and lab releases increasingly ship without cross-benchmark SOTA claims",
+   "base_rate": 0.65,
+   "base_rate_source": "Frontier-lab flagship-release cadence 2024-01 to 2026-07 from Epoch AI tracker plus lab announcements: roughly one SOTA-claiming flagship release every 8-10 weeks aggregated across the four labs; 60-day base window rate estimated 2026-08-16",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-15 23:59 UTC, at least one official announcement (openai.com, anthropic.com, deepmind.google, ai.meta.com) posted between 2026-08-16 and 2026-10-15 announces a new frontier or flagship model with claimed SOTA on MMLU-Pro, GPQA-Diamond, or SWE-Bench-Verified",
+   "resolve_by": "2026-10-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-16T12:24:46Z",
+    "auditor": "twin",
+    "note": "Checked OpenAI, Anthropic, Google DeepMind, and Meta AI announcement pages plus Epoch AI cadence tracker as of 2026-08-16; no flagship release with SOTA claim announced in the 2026-08-16 to 2026-10-15 window (window has just opened); the last major flagship releases pre-date this window",
+    "queries": [
+     "OpenAI GPT release August 2026",
+     "Anthropic Claude release August 2026",
+     "Gemini flagship release",
+     "Llama flagship release"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260816-003",
+   "date": "2026-08-16",
+   "registered_at": "2026-08-16T12:25:05Z",
+   "claim": "By 2026-10-15, at least one US federal document (CISA advisory, NSA cybersecurity information sheet, FBI IC3 or PIN alert, or an on-record White House / State Department statement) publicly names one of 'Hermes' or 'OpenClaw' (or an equivalently-named open-source AI agent) as used by an identified or attributed state actor in a specific intrusion campaign, distinct from generic agentic-AI adoption guidance",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "The Black Hat USA 2026 attribution by FBI Cyber Division leadership and former US National Cyber Director Chris Inglis of near-autonomous attacks on Taiwanese government and energy sector targets to suspected Chinese operators using Hermes and OpenClaw",
+   "withdrawal": null,
+   "confidence": 0.22,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Calibration bucket 20-29 (n=2, correction null - use raw). Below base rate 0.30 because Institutional Adaptation Lag predicts federal attribution vocabulary lags operational-community attribution by more than one 60-day cycle, especially when the attribution requires a new register ('agent as actor') that has no existing legal grammar; framework direction:down consistent with sign(0.22 - 0.30)",
+   "base_rate": 0.3,
+   "base_rate_source": "US federal cyber-advisory turnaround naming specific tools within 8 weeks of a Black Hat / DEF CON public attribution: reference set includes 2021 SolarWinds Sunburst tool naming (~10 weeks post-attribution), 2023 Volt Typhoon tool naming (~6 weeks), 2024 attributed intrusion sets (variable 6-14 weeks); estimated as of 2026-08-16",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-10-15 23:59 UTC, at least one document from a US federal source (cisa.gov, nsa.gov, ic3.gov, ncsc.gov if joint, whitehouse.gov, or state.gov) names 'Hermes' or 'OpenClaw' (or a functionally-equivalent named open-source AI agent) as used by an identified state actor in a specific intrusion campaign; agentic-AI adoption guidance without a specific-actor / specific-campaign naming does NOT qualify",
+   "resolve_by": "2026-10-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-16T12:25:05Z",
+    "auditor": "twin",
+    "note": "Searched CISA and DHS 'agentic AI' / 'AI agent' publications as of 2026-08-16; May 2026 CISA-NSA-plus-partners 'Careful Adoption of Agentic AI Services' and EO 14409 exist but frame agentic AI in adoption / defensive posture context, not in named-tool + named-actor attribution context; no CISA advisory naming Hermes or OpenClaw retrievable",
+    "queries": [
+     "CISA DHS AI agent agentic AI threat actor attribution 2026 published document",
+     "AI governance policy news August 14 15 16 2026"
     ],
     "outcome_already_known": false
    },
