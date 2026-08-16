@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 40✓ · 21✗ · 2◐ · 52 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.199 (coin-flip = 0.250; 63 scored across 49 independent events, cluster-collapsed Brier 0.197), skill vs coin-flip +0.051 (95% CI +0.021..+0.081) · skill vs base rate +0.014 (95% CI -0.005..+0.035; not yet distinguishable from zero) (n=63 carrying a recorded base rate) · skill vs market -0.025 (95% CI -0.050..-0.006; distinguishably below zero) (n=7 with a listed market price) · non-echo record: n=20 of 63 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 40✓ · 23✗ · 2◐ · 50 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.197 (coin-flip = 0.250; 65 scored across 51 independent events, cluster-collapsed Brier 0.194), skill vs coin-flip +0.053 (95% CI +0.026..+0.082) · skill vs base rate +0.013 (95% CI -0.005..+0.032; not yet distinguishable from zero) (n=65 carrying a recorded base rate) · skill vs market -0.025 (95% CI -0.050..-0.006; distinguishably below zero) (n=7 with a listed market price) · non-echo record: n=20 of 65 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✓ "The NY Fed Empire State Manufacturing Survey headline general business conditions index for August 2026 (release schedul" — said 55%, resolved confirmed (2026-08-15)**
+**Latest: ✗ "Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (N" — said 42%, resolved disconfirmed (2026-08-16)**
 
-_Updated 2026-08-15 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-08-16 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -31,13 +31,11 @@ _Updated 2026-08-15 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
 | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | **38%** | 42% | world |  2026-08-12 |
-| <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | **42%** | 35% | worldview |  2026-08-15 |
-| <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | **30%** | 30% | worldview |  2026-08-16 |
 | <a id="claim-20260808-002"></a>US Census Bureau/HUD Housing Starts for July 2026 (release scheduled 2026-08-19 at 8:30 ET on census.gov/construction/nrc) print seasonally-adjusted annualized rate at or above 1.30 million. | **50%** | 55% | world |  2026-08-20 |
 | <a id="claim-20260812-001"></a>The UK Office for National Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-20 at 07:00 BST on ons.gov.uk) reports headline CPI 12-month percent change at or above 3.1 percent. | **63%** | 55% | world |  2026-08-21 |
 | <a id="claim-20260810-002"></a>US Existing Home Sales for July 2026 (NAR release scheduled 2026-08-21 at 10:00 ET on nar.realtor) print seasonally adjusted annualized rate above 4.00 million. | **52%** | 45% | world |  2026-08-22 |
@@ -76,6 +74,8 @@ _Updated 2026-08-15 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | 42% | disconfirmed (2026-08-16) | No AU member state outside the ten named (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) published a formal national AI strategy on an official government domain dated 2026-06-18 or later. Zimbabwe strategy 2026-2030 was Cabinet-approved Oct 2025 and launched March 2026 — pre-dates the window. No qualifying new-country publication found in the window. Sources: https://oecd.ai/en/dashboards/policy-initiatives/zimbabwe-national-artificial-intelligence-strategy-2026-2030 ; https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026 |
+| ✗ | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | 30% | disconfirmed (2026-08-16) | SA revised National AI Policy not published by 2026-08-15. Per ITWeb (2026), DCDT target is Cabinet approval Nov 2026 and public release Jan 2027. Original April 2026 draft was withdrawn 2026-04-26 after AI-hallucinated citations. Milestone missed; test explicitly required publication on gov.za/dcdt.gov.za/gazette by deadline. Evidence: https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o |
 | ✓ | <a id="claim-20260808-001"></a>The NY Fed Empire State Manufacturing Survey headline general business conditions index for August 2026 (release scheduled 2026-08-15 by newyorkfed.org) prints positive (greater than zero). | 55% | confirmed (2026-08-15) | Empire State Manufacturing Survey August 2026 headline general business conditions printed 11.9 (up 6 points from July, highest since November 2024), positive as predicted. New orders 15.4, shipments 12.2. Source: NY Fed Empire State Manufacturing Survey August 2026 release 2026-08-15, https://www.newyorkfed.org/survey/empire/empiresurvey_overview. Confidence 0.55; base rate 0.55; brier ~0.20. |
 | ✗ | <a id="claim-20260806-002"></a>The US Census Bureau Advance Monthly Sales for Retail and Food Services for July 2026 (release scheduled 2026-08-15 at 8:30 ET at census.gov/retail) prints total sales month-over-month seasonally-adjusted change at 0.2 percent or above. | 48% | disconfirmed (2026-08-15) | US Advance Retail Sales July 2026 headline MoM SA printed -0.6 percent, well below the 0.2 percent threshold; total sales 763.6 billion, YoY 5.0 percent. Source: US Census Bureau Advance Monthly Retail Trade release 2026-08-14, https://www.census.gov/retail/marts/www/marts_current.pdf. Confidence 0.48; base rate 0.55; brier ~0.23. |
 | ✗ | <a id="claim-20260804-001"></a>India CPI July 2026 (release scheduled mid-August 2026 by Ministry of Statistics and Programme Implementation on mospi.gov.in/pib.gov.in) prints year-over-year headline CPI inflation at 4.5 percent or above. | 55% | disconfirmed (2026-08-15) | India CPI July 2026 headline YoY printed 4.45 percent (provisional, base 2024=100), below the 4.5 percent threshold by 5 basis points. Rose from June 4.38 percent. Source: MoSPI/PIB release 2026-08-12, https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298247. Confidence 0.55; base rate 0.50; brier ~0.30. |
@@ -149,8 +149,8 @@ _Withdrawn before resolution: 1 claim(s), for failing registration standards (ev
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
 | 20-29% | 2 | 25% |
-| 30-39% | 4 | 38% |
-| 40-49% | 7 | 71% |
+| 30-39% | 5 | 30% |
+| 40-49% | 8 | 62% |
 | 50-59% | 22 | 55% |
 | 60-69% | 13 | 62% |
 | 70-79% | 9 | 89% |
@@ -163,7 +163,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
-| worldview (frame:in) | 9 | 39% | 0.171 | +0.079 | readable |
+| worldview (frame:in) | 11 | 32% | 0.164 | +0.086 | readable |
 | world (frame:out) | 54 | 69% | 0.204 | +0.046 | readable |
 
 ## The workshop

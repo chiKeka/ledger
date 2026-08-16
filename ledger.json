@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15",
+ "updated": "2026-08-16",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -1549,6 +1549,12 @@
      "direction": "against",
      "note": "As of 2026-08-15 (3 days past 2026-08-12 deadline), no 2026-dated National AI Strategy has been located on official .gov.ng domains (NITDA, FMCIDE). The existing NAIS document available is dated September 2025 (Federal Ministry of Communications, Innovation and Digital Economy 2025-2029 vision). Deferring resolution to Sunday Reckoning to test whether 'dated 2026' clause was intended to require a revised/updated document distinct from the 2025 publication, versus interpretive slippage.",
      "source_url": "https://nitda.gov.ng/how-nitdas-ai-strategy-is-powering-startups-and-industry/9159/"
+    },
+    {
+     "date": "2026-08-16",
+     "direction": "against",
+     "note": "Nigeria's official National AI Strategy PDF exists at https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf but is DATED 2025-09-19 not 2026 — update test explicitly requires 'dated 2026'. Strict reading: milestone missed by deadline 2026-08-12. Interpretive question (does the 2025 official publication count?) deferred to Sunday Reckoning per resolution-watch discipline.",
+     "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
     }
    ],
    "resolution": null
@@ -1928,7 +1934,7 @@
    ],
    "update_test": "A revised draft National AI Policy is published on an official Republic of South Africa government website (gov.za, dcdt.gov.za, or gazette) on or before 2026-08-15, identifiable by document title and version",
    "resolve_by": "2026-08-16",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-16T12:12:53Z",
@@ -2010,7 +2016,11 @@
      "source_url": "https://technext24.com/2026/05/26/south-africa-pushes-ai-policy-to-2027/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-16T12:16:20Z",
+    "outcome": "disconfirmed",
+    "note": "SA revised National AI Policy not published by 2026-08-15. Per ITWeb (2026), DCDT target is Cabinet approval Nov 2026 and public release Jan 2027. Original April 2026 draft was withdrawn 2026-04-26 after AI-hallucinated citations. Milestone missed; test explicitly required publication on gov.za/dcdt.gov.za/gazette by deadline. Evidence: https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+   }
   },
   {
    "id": "claim-20260617-001",
@@ -2364,7 +2374,7 @@
    ],
    "update_test": "By 2026-08-15, identifiable PDF or formal page on an official African Union member-state government domain (.gov of any country other than the ten named) titled or substantively a national AI strategy or framework, dated 2026-06-18 or later",
    "resolve_by": "2026-08-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-18T12:12:09Z",
@@ -2398,7 +2408,11 @@
      "source_url": "https://cipesa.org/2026/07/rethinking-africas-approach-to-the-politics-of-ai-governance-and-regulation/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-16T12:16:27Z",
+    "outcome": "disconfirmed",
+    "note": "No AU member state outside the ten named (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) published a formal national AI strategy on an official government domain dated 2026-06-18 or later. Zimbabwe strategy 2026-2030 was Cabinet-approved Oct 2025 and launched March 2026 — pre-dates the window. No qualifying new-country publication found in the window. Sources: https://oecd.ai/en/dashboards/policy-initiatives/zimbabwe-national-artificial-intelligence-strategy-2026-2030 ; https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
+   }
   },
   {
    "id": "claim-20260618-005",
@@ -6746,20 +6760,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 63,
-    "hit_rate": 0.6508,
-    "brier": 0.1988,
-    "skill_vs_coinflip": 0.0512
+    "n": 65,
+    "hit_rate": 0.6308,
+    "brier": 0.1968,
+    "skill_vs_coinflip": 0.0532
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1988,
-  "skill_vs_coinflip": 0.0512,
+  "brier": 0.1968,
+  "skill_vs_coinflip": 0.0532,
   "base_rate": {
-   "n": 63,
-   "brier_base": 0.2131,
-   "brier_twin": 0.1988,
-   "skill": 0.0142
+   "n": 65,
+   "brier_base": 0.2098,
+   "brier_twin": 0.1968,
+   "skill": 0.013
   },
   "market": {
    "n": 7,
@@ -6774,8 +6788,8 @@
    "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 49,
-   "brier_cluster_collapsed": 0.1969
+   "effective_n": 51,
+   "brier_cluster_collapsed": 0.1944
   },
   "paired": {
    "n": 0,
@@ -6785,13 +6799,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0207,
-    "hi": 0.0807,
+    "lo": 0.0264,
+    "hi": 0.0824,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0051,
-    "hi": 0.0351,
+    "lo": -0.0054,
+    "hi": 0.0323,
     "distinguishable": false
    },
    "skill_vs_market": {
