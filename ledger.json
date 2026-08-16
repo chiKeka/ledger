@@ -1481,7 +1481,7 @@
    "frameworks": [],
    "update_test": "By 2026-08-12, a document titled 'Nigeria National AI Strategy' (or close variant) is publicly available on an official .gov.ng domain (NITDA, FMCIDE, or equivalent), dated 2026",
    "resolve_by": "2026-08-12",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-13T12:09:46Z",
@@ -1557,7 +1557,11 @@
      "source_url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-16T14:15:26Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline 2026-08-12 passed with no 2026-dated Nigeria National AI Strategy on any .gov.ng domain. Only existing artifacts remain the 2025-09-19 NAIS PDF at ncair.nitda.gov.ng (five-year vision 2025-2029) and the 2024-08 predecessor. Business Day 2026-07-27: strategy 'awaiting parliamentary greenlight'; no gazette entry or 2026 refresh by deadline. Update test required 'dated 2026' — strict reading not met. Twin said 38% (below base rate 42%); disconfirmed."
+   }
   },
   {
    "id": "claim-20260613-003",
@@ -5011,6 +5015,12 @@
      "direction": "against",
      "note": "EU AI Office is running 'dialogue-first' enforcement mode per WSGR/Commission Aug 2 activation coverage: providers required to engage with the Office on templates and codes-of-practice; no formal Article 55 enforcement action taken as of 2026-08-04. Directional against a first formal action by 2026-10-24.",
      "source_url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html"
+    },
+    {
+     "date": "2026-08-16",
+     "direction": "against",
+     "note": "2026-08-14: EU AI Office GPAI enforcement now 12 days in; counsel (WSGR) confirms 'technical compliance dialogues' is the operative posture, not warm-up. Zero formal Article 55 case opened. Dialogue-first mode locks in and reads down probability of a formal enforcement action by 2026-10-24.",
+     "source_url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html"
     }
    ],
    "resolution": null
@@ -5157,6 +5167,12 @@
      "direction": "supports",
      "note": "Kenya Ministry of ICT opened public consultation 2026-07-27 on draft AI and Emerging Technologies Policy which explicitly proposes a sovereign cloud/compute council structure. Consultation window closes early Aug 2026; gazette pathway is now instrumented and on the resolution timeline. Directional supports gazette by 2026-10-24.",
      "source_url": "https://techweez.com/2026/07/28/kenya-ai-policy-2026-public-consultation/"
+    },
+    {
+     "date": "2026-08-16",
+     "direction": "supports",
+     "note": "2026-08-14: Kenya Draft AI + Emerging Tech Policy 2026 (consultation closed 2026-08-04) elevates Sovereignty as central pillar and specifies bilateral cross-border sovereign hosting with Partner States — first African policy naming that mechanism explicitly. The sovereignty-pillar language is now on the record; gazette path forward is next. Reads UP probability of on-schedule instrument by 2026-10-24.",
+     "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
     }
    ],
    "resolution": null
@@ -6298,7 +6314,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260815-002",
+     "relation": "shares-system",
+     "note": "CBN enforcement notices in Nigeria and African CB data-localization contagion outside Nigeria read the same central-bank ring-fencing regulatory system; the CBN circular is the anchor and the contagion claim tests whether other African CBs adopt the pattern.",
+     "date": "2026-08-16T14:17:29Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -6898,20 +6921,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 65,
-    "hit_rate": 0.6308,
-    "brier": 0.1968,
-    "skill_vs_coinflip": 0.0532
+    "n": 66,
+    "hit_rate": 0.6212,
+    "brier": 0.196,
+    "skill_vs_coinflip": 0.054
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1968,
-  "skill_vs_coinflip": 0.0532,
+  "brier": 0.196,
+  "skill_vs_coinflip": 0.054,
   "base_rate": {
-   "n": 65,
-   "brier_base": 0.2098,
-   "brier_twin": 0.1968,
-   "skill": 0.013
+   "n": 66,
+   "brier_base": 0.2093,
+   "brier_twin": 0.196,
+   "skill": 0.0133
   },
   "market": {
    "n": 7,
@@ -6927,7 +6950,7 @@
   },
   "clusters": {
    "effective_n": 51,
-   "brier_cluster_collapsed": 0.1944
+   "brier_cluster_collapsed": 0.1949
   },
   "paired": {
    "n": 0,
@@ -6937,13 +6960,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0264,
-    "hi": 0.0824,
+    "lo": 0.0281,
+    "hi": 0.0838,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0054,
-    "hi": 0.0323,
+    "lo": -0.0052,
+    "hi": 0.0327,
     "distinguishable": false
    },
    "skill_vs_market": {
