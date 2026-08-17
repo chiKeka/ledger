@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16",
+ "updated": "2026-08-17",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -6560,6 +6560,58 @@
    },
    "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260817-001",
+   "date": "2026-08-17",
+   "registered_at": "2026-08-17T13:01:16Z",
+   "claim": "Between 2026-08-17 and 2026-10-15, at least one sub-Saharan African state that is NOT South Africa, Nigeria, Kenya, Rwanda, or Egypt (i.e. a second-wave AU cohort state such as Ghana, Senegal, Cote d'Ivoire, Botswana, Zambia, Uganda, or Tanzania) publishes on an official national government domain (a .gov country-code or an official ministry site) either (a) a signed or announced WAICO signatory/observer/partner status, or (b) a formal reference to the WAICO framework as an input to national AI governance.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "WAICO was formally established 2026-08-15 at Shanghai WAIC with 38 founding member countries. Coverage attributes the count to Chinese authorities; second-wave AU states are those without individual public WAICO positions as of 2026-08-17.",
+   "withdrawal": null,
+   "confidence": 0.3,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.25,
+   "base_rate_source": "twin heuristic 2026-08-17: new IGO bilateral uptake by mid-tier AU states within 60 days of founding; no direct reference class, weak prior based on typical treaty and IGO joining rates",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-15 23:59 UTC, an identifiable public source hosted on a national government domain of a second-wave AU state (Ghana, Senegal, Cote d'Ivoire, Botswana, Zambia, Uganda, or Tanzania) publishes either (a) a signed or announced WAICO signatory, observer, or partner status, or (b) a formal reference to the WAICO framework as an input to that state's own AI governance work. Confirmed if either fires; disconfirmed if neither has been published to any such official domain by the deadline.",
+   "resolve_by": "2026-10-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-17T13:01:16Z",
+    "auditor": "twin",
+    "note": "Searched WAICO founding member list confirmation, sub-Saharan African government WAICO signature Aug 2026, on 2026-08-17; found only Manila Times / Global Times aggregate coverage of the 38-country count. No second-wave AU state has published an individual WAICO position to a national .gov domain as of registration.",
+    "queries": [
+     "WAICO founding members list gov.gh site:gov.gh",
+     "sub-Saharan African government WAICO signature August 2026",
+     "site:gov.[gh|sn|ci|bw|zm|ug|tz] WAICO"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260719-002",
+     "relation": "probes",
+     "note": "Second-wave AU adoption tests whether the WAICO 38-country founding round expands into bilateral state-level signatures within 60 days; if it fires, the WAICO 33+ member observable was a leading indicator of continental uptake velocity.",
+     "date": "2026-08-17T13:01:31Z"
+    },
+    {
+     "id": "claim-20260816-001",
+     "relation": "shares-system",
+     "note": "Both read the WAICO institutional-cycle system on the Oct 15 horizon; the second-wave-AU adoption call is the outward-facing member-recruitment surface, while 20260816-001 tests the founding-org publication and enforcement surface.",
+     "date": "2026-08-17T13:01:31Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
