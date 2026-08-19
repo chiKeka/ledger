@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated Sundays. The misses stay on the board.
 
-**Record: 40✓ · 24✗ · 2◐ · 53 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.196 (coin-flip = 0.250; 66 scored across 51 independent events, cluster-collapsed Brier 0.195), skill vs coin-flip +0.054 (95% CI +0.028..+0.084) · skill vs base rate +0.013 (95% CI -0.005..+0.033; not yet distinguishable from zero) (n=66 carrying a recorded base rate) · skill vs market -0.025 (95% CI -0.050..-0.006; distinguishably below zero) (n=7 with a listed market price) · non-echo record: n=20 of 66 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 40✓ · 25✗ · 2◐ · 53 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · every scored claim so far is calibration-tier; the first structural verdict comes due 2026-10-24 (5 due by end-2026, 10 by mid-2027) · Brier 0.197 (coin-flip = 0.250; 67 scored across 52 independent events, cluster-collapsed Brier 0.196), skill vs coin-flip +0.053 (95% CI +0.026..+0.083) · skill vs base rate +0.014 (95% CI -0.003..+0.032; not yet distinguishable from zero) (n=67 carrying a recorded base rate) · skill vs market -0.025 (95% CI -0.050..-0.006; distinguishably below zero) (n=7 with a listed market price) · non-echo record: n=20 of 67 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✗ "Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-" — said 38%, resolved disconfirmed (2026-08-16)**
+**Latest: ✗ "US Census Bureau/HUD Housing Starts for July 2026 (release scheduled 2026-08-19 at 8:30 ET on census.gov/construction/nr" — said 50%, resolved disconfirmed (2026-08-19)**
 
-_Updated 2026-08-17 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-08-19 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -35,7 +35,6 @@ _Updated 2026-08-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260808-002"></a>US Census Bureau/HUD Housing Starts for July 2026 (release scheduled 2026-08-19 at 8:30 ET on census.gov/construction/nrc) print seasonally-adjusted annualized rate at or above 1.30 million. | **50%** | 55% | world |  2026-08-20 |
 | <a id="claim-20260812-001"></a>The UK Office for National Statistics Consumer Price Index for July 2026 (release scheduled 2026-08-20 at 07:00 BST on ons.gov.uk) reports headline CPI 12-month percent change at or above 3.1 percent. | **63%** | 55% | world |  2026-08-21 |
 | <a id="claim-20260810-002"></a>US Existing Home Sales for July 2026 (NAR release scheduled 2026-08-21 at 10:00 ET on nar.realtor) print seasonally adjusted annualized rate above 4.00 million. | **52%** | 45% | world |  2026-08-22 |
 | <a id="claim-20260810-001"></a>The Conference Board Consumer Confidence Index for August 2026 (release scheduled 2026-08-25 at 10:00 ET on conference-board.org) prints headline above 100. | **38%** | 42% | world |  2026-08-26 |
@@ -49,6 +48,7 @@ _Updated 2026-08-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260703-001"></a>By 2026-08-31, at least one of Meta, Apple, or Alphabet publicly announces a forward-deployed AI implementation unit with a committed capital budget of at least USD 500 million or at least 2,000 forward-deployed engineers, structurally comparable to Microsoft Frontier Company (2026-07-02, USD 2.5 billion + 6,000 engineers) or Amazon's 2026-06-30 USD 1 billion analog. | **60%** | 50% | worldview |  2026-08-31 |
 | <a id="claim-20260731-001"></a>China National Bureau of Statistics official Manufacturing PMI for August 2026 (scheduled release 2026-08-31) prints at or above 50.0. | **32%** | 45% | world |  2026-09-02 |
 | <a id="claim-20260731-004"></a>The US Bureau of Economic Analysis second estimate of Q2 2026 real gross domestic product (scheduled release 2026-08-28 at 08:30 ET) revises the annualized growth rate upward from the advance-estimate 1.5 percent (i.e., prints a value strictly greater than 1.5 percent). | **42%** | 42% | world |  2026-09-02 |
+| <a id="claim-20260819-001"></a>US Institute for Supply Management Manufacturing PMI for August 2026 (release scheduled 2026-09-02 at 10:00 ET on ismworld.org) prints headline PMI below 50.0. | **58%** | 60% | world |  2026-09-03 |
 | <a id="claim-20260815-004"></a>The US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-04 at 08:30 ET on bls.gov) prints the headline U-3 unemployment rate at 4.2 percent or above. | **55%** | 40% | world |  2026-09-05 |
 | <a id="claim-20260731-002"></a>US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-05 at 08:30 ET) reports total nonfarm payroll employment change at or above 100,000 (headline seasonally adjusted, first release). | **75%** | 65% | world |  2026-09-08 |
 | <a id="claim-20260715-003"></a>Between 2026-08-02 (EU AI Act GPAI enforcement start) and 2026-09-13, the European Commission AI Office publicly records at least one formal enforcement action (opening decision, information request, formal notice, or fine) against a named GPAI provider under Article 55/56 of the AI Act. | **14%** | 25% | worldview |  2026-09-13 |
@@ -77,6 +77,7 @@ _Updated 2026-08-17 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260808-002"></a>US Census Bureau/HUD Housing Starts for July 2026 (release scheduled 2026-08-19 at 8:30 ET on census.gov/construction/nrc) print seasonally-adjusted annualized rate at or above 1.30 million. | 50% | disconfirmed (2026-08-19) | US Census Bureau/HUD New Residential Construction release for July 2026 published on schedule: privately-owned housing starts SAAR 1,239,000, down 12.4% from revised June estimate of 1,415,000 and 13.5% below July 2025. Below the 1.30 million threshold. https://www.census.gov/construction/nrc/pdf/newresconst.pdf |
 | ✗ | <a id="claim-20260613-002"></a>Nigeria will publish its National AI Strategy as a formal document on an official Nigerian government domain by 2026-08-12 | 38% | disconfirmed (2026-08-16) | Deadline 2026-08-12 passed with no 2026-dated Nigeria National AI Strategy on any .gov.ng domain. Only existing artifacts remain the 2025-09-19 NAIS PDF at ncair.nitda.gov.ng (five-year vision 2025-2029) and the 2024-08 predecessor. Business Day 2026-07-27: strategy 'awaiting parliamentary greenlight'; no gazette entry or 2026 refresh by deadline. Update test required 'dated 2026' — strict reading not met. Twin said 38% (below base rate 42%); disconfirmed. |
 | ✗ | <a id="claim-20260618-004"></a>Between 2026-06-18 and 2026-08-15, at least one African Union member state outside the current published-strategy set (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) publishes a formal national artificial intelligence strategy document on an official government domain | 42% | disconfirmed (2026-08-16) | No AU member state outside the ten named (Nigeria, Kenya, Egypt, Ghana, South Africa, Mauritius, Rwanda, Senegal, Benin, Morocco) published a formal national AI strategy on an official government domain dated 2026-06-18 or later. Zimbabwe strategy 2026-2030 was Cabinet-approved Oct 2025 and launched March 2026 — pre-dates the window. No qualifying new-country publication found in the window. Sources: https://oecd.ai/en/dashboards/policy-initiatives/zimbabwe-national-artificial-intelligence-strategy-2026-2030 ; https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026 |
 | ✗ | <a id="claim-20260616-003"></a>South Africa's Department of Communications and Digital Technologies publishes a revised draft National AI Policy on an official government website by 2026-08-15 | 30% | disconfirmed (2026-08-16) | SA revised National AI Policy not published by 2026-08-15. Per ITWeb (2026), DCDT target is Cabinet approval Nov 2026 and public release Jan 2027. Original April 2026 draft was withdrawn 2026-04-26 after AI-hallucinated citations. Milestone missed; test explicitly required publication on gov.za/dcdt.gov.za/gazette by deadline. Evidence: https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o |
@@ -155,7 +156,7 @@ _Withdrawn before resolution: 1 claim(s), for failing registration standards (ev
 | 20-29% | 2 | 25% |
 | 30-39% | 6 | 25% |
 | 40-49% | 8 | 62% |
-| 50-59% | 22 | 55% |
+| 50-59% | 23 | 52% |
 | 60-69% | 13 | 62% |
 | 70-79% | 9 | 89% |
 | 80-89% | 3 | 100% |
@@ -168,7 +169,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 11 | 32% | 0.164 | +0.086 | readable |
-| world (frame:out) | 55 | 68% | 0.202 | +0.048 | readable |
+| world (frame:out) | 56 | 67% | 0.203 | +0.047 | readable |
 
 ## The workshop
 

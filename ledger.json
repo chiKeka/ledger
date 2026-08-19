@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17",
+ "updated": "2026-08-19",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -3297,6 +3297,18 @@
      "direction": "against",
      "note": "2026-08-12: same as 20260616-003 - DCDT expert panel now targeting Cabinet by November 2026, public comment January 2027, per official statements. A revised draft published by 2026-08-31 is not on the schedule the department has publicly committed to; probability of confirmation by deadline low.",
      "source_url": "https://cadeproject.org/updates/south-africa-appoints-expert-panel-to-rewrite-withdrawn-ai-policy-draft/"
+    },
+    {
+     "date": "2026-08-18",
+     "direction": "against",
+     "note": "iAfrica reporting (Minister Solly Malatsi) and Wikipedia Draft SA National AI Policy 2026 entry converge on a revised version going to Cabinet by November 2026 for public release in January 2027. This is against the Aug 31 deadline in the update test but not yet unambiguously fired: the DCDT could still publish a revised draft between now and 2026-08-31. Log evidence-against; Sunday Reckoning after Aug 31 handles the formal resolution if no publication has appeared.",
+     "source_url": "https://iafrica.com/south-africas-national-ai-policy-nears-cabinet-approval-minister-solly-malatsi/"
+    },
+    {
+     "date": "2026-08-19",
+     "direction": "against",
+     "note": "DCDT AI Policy rewrite: revised policy targeted for submission to Cabinet by November 2026, with public comment publication target of January 2027. This means no revised or finalized draft is published by 2026-08-31; the deadline will be missed. Source: ITWeb 'Government sets target for revised AI policy' + DLA Piper analysis of April 26 withdrawal.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -3720,7 +3732,14 @@
      "date": "2026-07-03T12:14:45Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-18",
+     "direction": "supports",
+     "note": "Meta Enterprise Solutions unit exists as announced FDE-style unit (May 2026, embeds engineers and product managers inside corporate customers per Forbes 2026-05-28 and secondary reporting). Meta grouped with OpenAI and Anthropic among firms 'spending billions' on FDEs; specific committed budget or headcount for the Meta unit not yet unambiguously disclosed in public sources reviewed. Evidence supports the direction of the claim but does not meet the USD 500M / 2000-engineer threshold in the update test; keep open for Reckoning re-verification.",
+     "source_url": "https://www.forbes.com/sites/janakirammsv/2026/05/28/ai-giants-bet-billions-on-the-most-expensive-job-in-enterprise/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -4098,7 +4117,14 @@
      "date": "2026-07-12T14:19:05Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-18",
+     "direction": "supports",
+     "note": "Google Digital Exchange Port in Eastern Cape (South Africa) confirmed operational as first of the four announced Africa ports (SA Eastern Cape, Nigeria, Kenya, Egypt). Anchors directly into Umoja subsea cable to Australia and onward to India, positioning SA as an international switching point. One of four commissioned within ~12 months of program announcement. Structural claim resolves 2028-12-31; this is bearing evidence that the program is executing on the stated commissioning pathway (subsea landing + data centre + peering), not a hypothetical roadmap.",
+     "source_url": "https://blog.google/intl/en-africa/company-news/outreach-and-initiatives/accelerating-africas-digital-renaissance-by-investing-in-infrastructure-and-agentic-ai/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -5100,6 +5126,12 @@
      "direction": "against",
      "note": "2026-08-12: DCDT publicly states revised draft goes to Cabinet by November 2026 followed by public-comment period January 2027 (Technext, CADE Project). Formal Cabinet adoption of the National AI Policy Framework by 2026-10-24 window is inconsistent with that publicly-stated schedule; probability of confirmation by the deadline declining.",
      "source_url": "https://technext24.com/2026/05/26/south-africa-pushes-ai-policy-to-2027/"
+    },
+    {
+     "date": "2026-08-19",
+     "direction": "against",
+     "note": "DCDT AI Policy rewrite: revised policy targeted for submission to Cabinet by November 2026, public comment target January 2027. Formal Cabinet adoption by 2026-10-24 is highly unlikely on this timeline.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -6029,7 +6061,7 @@
    "frameworks": [],
    "update_test": "On or about 2026-08-19 at 8:30 ET, the joint Census/HUD New Residential Construction release (census.gov/construction/nrc/current) publishes seasonally-adjusted annualized Housing Starts for July 2026. Confirmed if the number is at or above 1,300,000; disconfirmed if below.",
    "resolve_by": "2026-08-20",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-08T12:14:44Z",
@@ -6044,7 +6076,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-19T12:11:35Z",
+    "outcome": "disconfirmed",
+    "note": "US Census Bureau/HUD New Residential Construction release for July 2026 published on schedule: privately-owned housing starts SAAR 1,239,000, down 12.4% from revised June estimate of 1,415,000 and 13.5% below July 2025. Below the 1.30 million threshold. https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+   }
   },
   {
    "id": "claim-20260810-001",
@@ -6614,6 +6650,41 @@
    ],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260819-001",
+   "date": "2026-08-19",
+   "registered_at": "2026-08-19T12:13:36Z",
+   "claim": "US Institute for Supply Management Manufacturing PMI for August 2026 (release scheduled 2026-09-02 at 10:00 ET on ismworld.org) prints headline PMI below 50.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Institute for Supply Management publishes a monthly Manufacturing PMI report at ismworld.org; the August 2026 release is scheduled for 2026-09-02 at 10:00 ET",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.6,
+   "base_rate_source": "US ISM Manufacturing PMI has printed below 50 in roughly 60 percent of months over the past 30 months (2024-mid to 2026-mid), reflecting sustained soft demand and inventory rebalancing; source ISM Report On Business historical, as of 2026-08-19.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-02, ISM publishes the August 2026 Manufacturing PMI headline number. Confirmed if headline is strictly less than 50.0; disconfirmed if 50.0 or higher.",
+   "resolve_by": "2026-09-03",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-19T12:13:36Z",
+    "auditor": "twin",
+    "note": "Searched Bloomberg consensus, ISM Report On Business calendar, and news wires 2026-08-19; August 2026 print not yet published (release is 2026-09-02); no consensus figure widely priced. calibration 2026-08-16 bucket 50-59 correction -0.003 applied.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -6973,20 +7044,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 66,
-    "hit_rate": 0.6212,
-    "brier": 0.196,
-    "skill_vs_coinflip": 0.054
+    "n": 67,
+    "hit_rate": 0.6119,
+    "brier": 0.1968,
+    "skill_vs_coinflip": 0.0532
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.196,
-  "skill_vs_coinflip": 0.054,
+  "brier": 0.1968,
+  "skill_vs_coinflip": 0.0532,
   "base_rate": {
-   "n": 66,
-   "brier_base": 0.2093,
-   "brier_twin": 0.196,
-   "skill": 0.0133
+   "n": 67,
+   "brier_base": 0.2107,
+   "brier_twin": 0.1968,
+   "skill": 0.0138
   },
   "market": {
    "n": 7,
@@ -7001,8 +7072,8 @@
    "skill_vs_base": 0.0252
   },
   "clusters": {
-   "effective_n": 51,
-   "brier_cluster_collapsed": 0.1949
+   "effective_n": 52,
+   "brier_cluster_collapsed": 0.196
   },
   "paired": {
    "n": 0,
@@ -7012,13 +7083,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0281,
-    "hi": 0.0838,
+    "lo": 0.0256,
+    "hi": 0.0832,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0052,
-    "hi": 0.0327,
+    "lo": -0.0034,
+    "hi": 0.0324,
     "distinguishable": false
    },
    "skill_vs_market": {
