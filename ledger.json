@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19",
+ "updated": "2026-08-20",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -3738,6 +3738,12 @@
      "direction": "supports",
      "note": "Meta Enterprise Solutions unit exists as announced FDE-style unit (May 2026, embeds engineers and product managers inside corporate customers per Forbes 2026-05-28 and secondary reporting). Meta grouped with OpenAI and Anthropic among firms 'spending billions' on FDEs; specific committed budget or headcount for the Meta unit not yet unambiguously disclosed in public sources reviewed. Evidence supports the direction of the claim but does not meet the USD 500M / 2000-engineer threshold in the update test; keep open for Reckoning re-verification.",
      "source_url": "https://www.forbes.com/sites/janakirammsv/2026/05/28/ai-giants-bet-billions-on-the-most-expensive-job-in-enterprise/"
+    },
+    {
+     "date": "2026-08-20",
+     "direction": "supports",
+     "note": "Meta forms Enterprise Solutions unit (internal memo by Naomi Gleit, reported by The Information; PYMNTS coverage 2026-08). Unit will embed product managers, data engineers, and software engineers directly inside large corporate customers to deploy Meta AI - the forward-deployed-engineer archetype. Bearing but not resolving: the reporting confirms a NAMED organizational unit for Meta but does not state a committed capital budget of USD 500M+ or a headcount target of 2,000+ FDEs. Claim requires the (a)/(b) numeric threshold. Waiting for either a Meta public press release, SEC 8-K, or follow-up reporting with the specific capital/headcount number. Deadline 2026-08-31.",
+     "source_url": "https://www.theinformation.com/articles/meta-launches-new-enterprise-push-boost-business-adoption-ai-tools"
     }
    ],
    "resolution": null
@@ -6226,7 +6232,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-20, the ONS UK Consumer Price Inflation statistical bulletin for July 2026 publishes the headline CPI 12-month percent change. Confirmed if the printed 12-month percent change is 3.1 or higher; disconfirmed if below 3.1.",
    "resolve_by": "2026-08-21",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-12T12:38:42Z",
@@ -6241,7 +6247,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-20T12:27:01Z",
+    "outcome": "disconfirmed",
+    "note": "UK ONS Consumer Price Inflation bulletin July 2026 (published 2026-08-20 07:00 BST) reports headline CPI 12-month percent change at 2.9 percent, which is below the 3.1 threshold. Core CPI 2.6 percent (unchanged from June), CPIH 3.1 percent, services 3.4 percent (down from 3.6 percent). Source: ons.gov.uk bulletin url https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026 and secondary confirmation via https://www.babypips.com/news/headline-uk-cpi-july-2026-inflation-energy-bank-of-england. The direct-arithmetic edge thesis vs the 55 percent market implied probability was wrong: services and food ex-energy printed softer than the base-effect analysis assumed, and the 13 percent Ofgem cap pass-through did not carry the full 0.5 pp arithmetic contribution because other components disinflated. Twin confidence 0.63, base rate 0.55, market 0.55; outcome 0; twin was worse than the market by design of the edge thesis."
+   }
   },
   {
    "id": "claim-20260812-002",
@@ -7044,36 +7054,36 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 67,
-    "hit_rate": 0.6119,
-    "brier": 0.1968,
-    "skill_vs_coinflip": 0.0532
+    "n": 68,
+    "hit_rate": 0.6029,
+    "brier": 0.1998,
+    "skill_vs_coinflip": 0.0502
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1968,
-  "skill_vs_coinflip": 0.0532,
+  "brier": 0.1998,
+  "skill_vs_coinflip": 0.0502,
   "base_rate": {
-   "n": 67,
-   "brier_base": 0.2107,
-   "brier_twin": 0.1968,
-   "skill": 0.0138
+   "n": 68,
+   "brier_base": 0.212,
+   "brier_twin": 0.1998,
+   "skill": 0.0123
   },
   "market": {
-   "n": 7,
-   "brier_market": 0.1032,
-   "brier_twin": 0.1283,
-   "skill": -0.0252
+   "n": 8,
+   "brier_market": 0.1281,
+   "brier_twin": 0.1619,
+   "skill": -0.0338
   },
   "non_echo": {
-   "n": 20,
+   "n": 21,
    "floor": 30,
-   "brier": 0.1965,
-   "skill_vs_base": 0.0252
+   "brier": 0.2061,
+   "skill_vs_base": 0.0195
   },
   "clusters": {
-   "effective_n": 52,
-   "brier_cluster_collapsed": 0.196
+   "effective_n": 53,
+   "brier_cluster_collapsed": 0.1998
   },
   "paired": {
    "n": 0,
@@ -7083,18 +7093,18 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0256,
-    "hi": 0.0832,
+    "lo": 0.0226,
+    "hi": 0.081,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0034,
-    "hi": 0.0324,
+    "lo": -0.0054,
+    "hi": 0.0312,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0504,
-    "hi": -0.0064,
+    "lo": -0.0622,
+    "hi": -0.01,
     "distinguishable": true
    }
   }
