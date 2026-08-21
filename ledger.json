@@ -6711,6 +6711,82 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260821-001",
+   "date": "2026-08-21",
+   "registered_at": "2026-08-21T12:16:24Z",
+   "claim": "US Census Bureau Monthly New Residential Construction for August 2026 (release scheduled 2026-09-17 at 8:30 ET on census.gov/construction/nrc) reports privately-owned housing units authorized by building permits at a seasonally adjusted annual rate at or above 1,400,000.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Census Bureau scheduled statistical release for August 2026 new residential construction (building permits component); July 2026 print released 2026-08-18 at 1,443,000 SAAR",
+   "withdrawal": null,
+   "confidence": 0.54,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 permits printed 1.443M (above threshold), June revised to 1.374M (below), pattern volatile month-to-month. Base rate 55 percent from trailing 12-month distribution above threshold. Twin edge: mortgage rate stabilization and homebuilder inventory dynamics favor near-flat permits; slight negative lean vs base rate given June's soft print and single-month rebound in July may not sustain. Calibration bucket 50-59 correction -0.018 applied to raw 55 percent yielding posted 54 percent.",
+   "base_rate": 0.55,
+   "base_rate_source": "US Census New Residential Construction monthly building permits SAAR, months at or above 1.40M as share of trailing 12 months (Aug 2025 through Jul 2026), computed from Census release history at census.gov/construction/nrc, as of 2026-08-21",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-17, US Census Bureau publishes New Residential Construction, August 2026 at census.gov/construction/nrc. Read the privately-owned housing units authorized by building permits SAAR for August 2026 as reported. Confirmed if that value is 1,400,000 or higher; disconfirmed if below 1,400,000.",
+   "resolve_by": "2026-09-18",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-21T12:16:24Z",
+    "auditor": "twin",
+    "note": "Searched 2026-08-21 census.gov news schedule, Bloomberg, HousingWire, Calculated Risk newsletters; August 2026 New Residential Construction report scheduled 2026-09-17, not yet published. July 2026 print (1.443M permits, 1.239M starts) is the latest available. No decisive August 2026 data currently public.",
+    "queries": [
+     "US census housing starts building permits August 2026 release schedule",
+     "US Existing Home Sales July 2026 SAAR"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260821-002",
+   "date": "2026-08-21",
+   "registered_at": "2026-08-21T12:16:39Z",
+   "claim": "Bureau of Economic Analysis Personal Income and Outlays for July 2026 (release scheduled 2026-08-28 at 8:30 ET on bea.gov/news) reports core Personal Consumption Expenditures Price Index (excluding food and energy) 12-month change at or below 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BEA scheduled statistical release for July 2026 Personal Income and Outlays; core PCE Price Index is the Federal Reserve's preferred underlying inflation gauge (excludes food and energy); June 2026 core PCE 12-month change is the last public print",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Core PCE has been more sticky than headline in 2026 disinflation. Base rate 50 percent from trailing 12 months at or below 3.0 percent. Twin edge: services softening (JOLTS softness, ADP hiring pace deceleration) supports continued core easing; goods-side ISM manufacturing rebound is short pass-through to core PCE excluding energy. Modest positive lean to 52 percent above base rate. Calibration bucket 50-59 correction -0.018 applied to raw 52 percent yielding posted 51 percent.",
+   "base_rate": 0.5,
+   "base_rate_source": "BEA core PCE Price Index 12-month change, share of trailing 12 months (Jul 2025 through Jun 2026) at or below 3.0 percent, computed from BEA Personal Income and Outlays release history at bea.gov, as of 2026-08-21",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-08-28, BEA publishes Personal Income and Outlays, July 2026 at bea.gov/news. Read the core PCE Price Index (excluding food and energy) 12-month percent change for July 2026 as reported. Confirmed if that rate is 3.0 percent or below; disconfirmed if above 3.0 percent.",
+   "resolve_by": "2026-08-29",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-21T12:16:39Z",
+    "auditor": "twin",
+    "note": "Searched 2026-08-21 bea.gov news schedule, Fed watchers, Bloomberg trackers; July 2026 Personal Income and Outlays scheduled 2026-08-28 not yet released. Core PCE distinct from headline (already tracked by claim-20260805-001 at 3.5 percent threshold). No decisive July 2026 core PCE currently public.",
+    "queries": [
+     "SSRN AI epistemic delegation cognitive infrastructure August 2026",
+     "US Existing Home Sales July 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
