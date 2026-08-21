@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20",
+ "updated": "2026-08-21",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -3309,6 +3309,12 @@
      "direction": "against",
      "note": "DCDT AI Policy rewrite: revised policy targeted for submission to Cabinet by November 2026, with public comment publication target of January 2027. This means no revised or finalized draft is published by 2026-08-31; the deadline will be missed. Source: ITWeb 'Government sets target for revised AI policy' + DLA Piper analysis of April 26 withdrawal.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-21",
+     "direction": "against",
+     "note": "Bowmans, Baker McKenzie, ITWeb, and Moonstone report SA DCDT AI Policy revision timeline as: advisory review July-August 2026, drafting Aug-Sept 2026, Cabinet processes November-December 2026, public release scheduled January 2027. As of 2026-08-21, no revised policy has been published on dcdt.gov.za or gcis.gov.za. Trending toward disconfirmation by 2026-08-31 deadline unless emergency publication.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -3563,6 +3569,12 @@
      "direction": "supports",
      "note": "Signal 2026-07-14 (Nigeria Lekki/Ikeja AI datacentre construction ramp) reports Kasi Cloud CEO Johnson Agogbua quoted with 5.5MW Q2-2026 online for the 100MW Lekki campus; Businessday/Ecofin coverage confirms visible construction cranes. Lowers base rate for silent slippage past 2026-08-31 announcement deadline.",
      "source_url": "https://businessday.ng/technology/article/nigeria-races-toward-ai-data-centre-ambitions-amid-energy-gaps/"
+    },
+    {
+     "date": "2026-08-21",
+     "direction": "supports",
+     "note": "Kasi Cloud commissioned Lekki campus 2026-05-19 as West Africa's first hyperscale-ready AI-capable data centre; LOS1 first building delivers 7.5MW. However the update test specifically requires (a) named signed anchor-tenant contract OR (b) published utilization figure; searches surface commissioning announcements only, no anchor-tenant name or utilization percentage as of 2026-08-21. Deadline is 2026-08-31 — currently trending toward disconfirmation.",
+     "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
     }
    ],
    "resolution": null
@@ -6144,7 +6156,7 @@
    "frameworks": [],
    "update_test": "US Existing Home Sales July 2026 seasonally adjusted annualized rate as published by the National Association of Realtors on 2026-08-21 is >4.00 million units.",
    "resolve_by": "2026-08-22",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-10T12:39:42Z",
@@ -6156,7 +6168,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-21T12:14:29Z",
+    "outcome": "confirmed",
+    "note": "NAR Existing-Home Sales for July 2026 released 2026-08-11 at seasonally adjusted annualized rate 4.06 million (down 1.7% MoM from 4.13M revised June, up 0.7% YoY). Threshold >4.00M satisfied. Note: claim text stated NAR release date as 2026-08-21 but the actual release date was 2026-08-11 (calendar error at registration); the update-test question — July 2026 SAAR published by NAR >4.00M — is unambiguously answered YES. Confirmed by cross-source: NAR press release https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-1-7-decrease-in-july, HousingWire https://www.housingwire.com/articles/july-existing-home-sales-nar/, MortgageNewsDaily 2026-08-14."
+   }
   },
   {
    "id": "claim-20260810-003",
@@ -7054,20 +7070,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 68,
-    "hit_rate": 0.6029,
-    "brier": 0.1998,
-    "skill_vs_coinflip": 0.0502
+    "n": 69,
+    "hit_rate": 0.6087,
+    "brier": 0.2002,
+    "skill_vs_coinflip": 0.0498
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1998,
-  "skill_vs_coinflip": 0.0502,
+  "brier": 0.2002,
+  "skill_vs_coinflip": 0.0498,
   "base_rate": {
-   "n": 68,
-   "brier_base": 0.212,
-   "brier_twin": 0.1998,
-   "skill": 0.0123
+   "n": 69,
+   "brier_base": 0.2133,
+   "brier_twin": 0.2002,
+   "skill": 0.0131
   },
   "market": {
    "n": 8,
@@ -7082,8 +7098,8 @@
    "skill_vs_base": 0.0195
   },
   "clusters": {
-   "effective_n": 53,
-   "brier_cluster_collapsed": 0.1998
+   "effective_n": 54,
+   "brier_cluster_collapsed": 0.2004
   },
   "paired": {
    "n": 0,
@@ -7094,11 +7110,11 @@
   "ci": {
    "skill_vs_coinflip": {
     "lo": 0.0226,
-    "hi": 0.081,
+    "hi": 0.0794,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0054,
+    "lo": -0.005,
     "hi": 0.0312,
     "distinguishable": false
    },
