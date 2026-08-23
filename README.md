@@ -6,7 +6,7 @@ Falsifiable claims about AI, infrastructure, and institutions. The probability i
 
 **Latest: ✓ "US Existing Home Sales for July 2026 (NAR release scheduled 2026-08-21 at 10:00 ET on nar.realtor) print seasonally adju" — said 52%, resolved confirmed (2026-08-21)**
 
-_Updated 2026-08-21 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-08-23 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 

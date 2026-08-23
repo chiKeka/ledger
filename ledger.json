@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21",
+ "updated": "2026-08-23",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -28,7 +28,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-08-23T14:16:13Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-08-23: registration valid. Update test targets 2026-12-31 aggregate productivity print vs firm-level performance concentration; outcome structurally not knowable at 2026-06-10 (BLS/BEA productivity releases through end-2026 not yet published)."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -102,7 +108,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-08-23T14:16:13Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-08-23: registration valid. Update test targets 'by 2026-12-31, two more African states designate DCs as critical infrastructure'; on 2026-06-10 only South Africa held that designation, additional gazette actions structurally not knowable in advance."
+    }
+   ],
    "related_to": [
     {
      "id": "claim-20260610-014",
@@ -153,7 +165,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-08-23T14:16:13Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-08-23: registration valid. Update test targets 'by 2026-12-31 EU AI Act omnibus/simplification turn reduces frontier deployer obligations vs 2024 text'; the omnibus package was under draft on 2026-06-10 with final adoption + implementing text pending — outcome not knowable."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -298,6 +316,12 @@
      "direction": "against",
      "note": "Meta announced 2026-07-08 a US-13B, 1-GW AI data centre in Sturgeon County Alberta (largest Meta build outside US); construction begins 2026, operational 2028-29. Bears AGAINST any Big Five year-over-year capex flattening scenario - single announcement is fresh material commitment. Sources: theglobeandmail.com, cnbc.com, sturgeoncounty.ca",
      "source_url": "https://datacenters.atmeta.com/2026/07/hello-sturgeon-county/"
+    },
+    {
+     "date": "2026-08-23",
+     "direction": "against",
+     "note": "Q2 2026 hyperscaler reporting cycle: all of Alphabet, Meta, Amazon, and Microsoft raised their 2026 capex guidance rather than cut or flatten. Alphabet lifted 2026 capex range to $195-$205B from $180-$190B; Meta guided $135-$145B (up from $72B FY25 actual); Amazon raised to $220B from $200B; Microsoft tracking ~$190B. Simultaneous Epoch AI / Factset / CNBC reporting flags hyperscaler capex overtaking operating cash flow around Q3 2026 with external debt financing rising from 9pct of capex (FY24) to 32pct LTM. FCF pressure is real but the guidance direction is up across all five, so through H1 2026 the claim's disconfirming branch (all five raise) is tracking. Only Meta / Microsoft still have four earnings prints between now and 2027-04-30 window close.",
+     "source_url": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/"
     }
    ],
    "resolution": null
@@ -2455,7 +2479,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-22",
+     "direction": "supports",
+     "note": "Commission Implementing Regulation (EU) 2026/1755 of 20 July 2026, in force since 10 August 2026 (during the 2026-08-02 to 2026-08-30 window), adds detailed procedural rules for Commission proceedings against GPAI providers: opening of proceedings, interim measures, and a five-year limitation period for fines. This is an implementing decision addressing GPAI obligations enforcement architecture and is separate from the previously-committed copyright guidance (claim-20260610-017). Per Taylor Wessing 2026-08 and multiple legal-tracker sources (Latham & Watkins, WilmerHale). AMBIGUOUS whether this satisfies the 'materially addressing obligations or expectations for GPAI model providers' bar — it is procedural (about enforcement mechanics) rather than substantive (about obligations content). Log evidence, do not resolve.",
+     "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3756,6 +3787,12 @@
      "direction": "supports",
      "note": "Meta forms Enterprise Solutions unit (internal memo by Naomi Gleit, reported by The Information; PYMNTS coverage 2026-08). Unit will embed product managers, data engineers, and software engineers directly inside large corporate customers to deploy Meta AI - the forward-deployed-engineer archetype. Bearing but not resolving: the reporting confirms a NAMED organizational unit for Meta but does not state a committed capital budget of USD 500M+ or a headcount target of 2,000+ FDEs. Claim requires the (a)/(b) numeric threshold. Waiting for either a Meta public press release, SEC 8-K, or follow-up reporting with the specific capital/headcount number. Deadline 2026-08-31.",
      "source_url": "https://www.theinformation.com/articles/meta-launches-new-enterprise-push-boost-business-adoption-ai-tools"
+    },
+    {
+     "date": "2026-08-22",
+     "direction": "supports",
+     "note": "Meta Enterprise Solutions unit publicly established 2026-05-29 per Intellectia, Bitget, gurufocus, and The Information exclusive; embeds engineers and product managers with corporate customers, aligned to Frontier Co/Amazon shape. Explicit note (PYMNTS, gurufocus 2026): 'Meta has not publicly confirmed customers, staffing scale, pricing, or rollout timing for the reported plan.' Meta 2026 AI capex raised to $125-$145B (company-wide, not unit-committed). Unit exists but neither the $500M+ committed capital budget NOR the 2,000+ forward-deployed engineer count required by this claim has been publicly stated for the Enterprise Solutions unit specifically. AMBIGUOUS - waiting for the Aug 31 deadline. Google separately positions Gemini/agents as FDE substitute rather than hiring FDEs.",
+     "source_url": "https://www.pymnts.com/meta/2026/meta-is-coming-for-enterprise-ai/"
     }
    ],
    "resolution": null
@@ -4754,6 +4791,18 @@
      "direction": "supports",
      "note": "Manila Times/Global Times report WAICO founded 2026-07 at Shanghai WAIC with 38 founding member countries - well above the 33 threshold. Not the officially-required source (english.news.cn / english.www.gov.cn / official WAICO comm), but the number was announced by Chinese authorities at WAIC, so it is near-certain the official English source restates it. Not resolving until direct source citation retrieved.",
      "source_url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/pr-newswire/china-advances-global-ai-governance-in-a-comprehensive-manner/2405539"
+    },
+    {
+     "date": "2026-08-22",
+     "direction": "supports",
+     "note": "China Daily 2026-08-12 (chinadailyhk.com/hk/article/637838; chinadaily.com.cn/a/202608/12/WS6a7be5eda310986e2b46a565.html): Foreign Minister Wang Yi stated 38 countries have become founding members of WAICO, well above the 33 threshold. China Daily is state-run but not in the enumerated source list (english.news.cn / english.www.gov.cn / official WAICO communication) — Wang Yi statement itself is authoritative but re-verification against the enumerated source list still pending for unambiguous resolution. Direct search of english.news.cn returned only the July 16-17 29-country announcements, not the 38 update.",
+     "source_url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7be5eda310986e2b46a565.html"
+    },
+    {
+     "date": "2026-08-23",
+     "direction": "supports",
+     "note": "Chinese Foreign Minister Wang Yi (aug 12 2026) states WAICO has grown to 38 founding member countries, up from 29 signed at Shanghai 2026-07-16. Reported by Chinadaily.com.cn (official Chinese state English-language) 2026-08-12 and echoed by SCMP / TheNextWeb / ChinaTechNews 2026-08-19. This exceeds the 33-member threshold. Update test specifically enumerates english.news.cn, english.www.gov.cn, or an official WAICO communication - chinadaily is state-English but not on the enumerated list, so recording as bearing evidence not resolution. Watch english.news.cn / gov.cn for the same figure before 2026-09-15.",
+     "source_url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7be5eda310986e2b46a565.html"
     }
    ],
    "resolution": null
@@ -5222,6 +5271,12 @@
      "date": "2026-08-16",
      "direction": "supports",
      "note": "2026-08-14: Kenya Draft AI + Emerging Tech Policy 2026 (consultation closed 2026-08-04) elevates Sovereignty as central pillar and specifies bilateral cross-border sovereign hosting with Partner States — first African policy naming that mechanism explicitly. The sovereignty-pillar language is now on the record; gazette path forward is next. Reads UP probability of on-schedule instrument by 2026-10-24.",
+     "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
+    },
+    {
+     "date": "2026-08-23",
+     "direction": "against",
+     "note": "Kenya's Draft AI and Emerging Technologies Policy 2026 (State Department for ICT and the Digital Economy, ict.go.ke) public-comment window closed 2026-08-04. Coverage (CIO Africa, Techweez, ITLawCo) describes proposed instruments including a national emerging-technologies council, risk-based classifications, mandatory registration for high-risk systems, and a sovereign cloud strategy - all still at draft-policy status. No Kenya Gazette notice, State Department release, or ICTA publication observed as of 2026-08-23 naming a sovereign cloud / compute council with chair, named members, or terms of reference. Path is now Cabinet consideration then possible gazettement - the Ministry's stated timeline points to FY26/27 finalization, which puts institutional stand-up (not just policy adoption) uncertain within the 2026-10-24 window. Bearing-against so far; watch ict.go.ke / kenyalaw.org / icta.go.ke through end-October.",
      "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
     }
    ],
@@ -6708,7 +6763,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260731-001",
+     "relation": "shares-system",
+     "note": "Both read the global manufacturing cycle via national PMI headlines for August 2026; divergence tests whether the US-China industrial-decoupling shows up in the same-month instrumentation.",
+     "date": "2026-08-23T14:15:09Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -6746,7 +6808,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260810-002",
+     "relation": "shares-system",
+     "note": "Both instrument the US residential housing cycle; building permits is a leading indicator (forward supply) while existing home sales measures realized demand. Same system, offset horizons.",
+     "date": "2026-08-23T14:15:09Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -6784,7 +6853,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260805-001",
+     "relation": "shares-system",
+     "note": "Both read the July 2026 BEA PCE release; 20260805-001 tests the headline 12-month figure, 20260821-002 tests core (ex food/energy). Same measurement system and release date (2026-08-28); disagreement between core and headline is itself a signal.",
+     "date": "2026-08-23T14:15:09Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
