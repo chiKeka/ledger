@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23",
+ "updated": "2026-08-26",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -78,6 +78,12 @@
      "direction": "supports",
      "note": "BLS Q2 2026 nonfarm business labor productivity y/y +2.2 percent (release 2026-08-06), below the 2.5 percent CFO-survey optimism threshold from NBER w34984. Q1 2026 was 1.9 percent y/y; Q2 is a modest tick-up but still WELL BELOW the 3.0 percent AI-driven number executives expected. Reads as bearing-supports for the bruno 72 percent floor on 'no clear AI-driven productivity gains through end-2026' - the aggregate signal has not moved to match the firm-level survey optimism. Third consecutive quarter of a below-3-percent print consistent with the structural claim.",
      "source_url": "https://www.bls.gov/news.release/archives/prod2_08062026.htm"
+    },
+    {
+     "date": "2026-08-24",
+     "direction": "supports",
+     "note": "NBER w34836 (Feb 2026, ~6000 US/UK/DE/AU executives): 69 percent firms adopt AI but nine-in-ten executives report zero own-firm productivity or employment impact over past 3 years; executive-predicted 3-year productivity gain averages 1.4 percent. Paired with NBER w34984 (Aug 2026, ~750 US executives) showing sector-heterogeneous gains concentrated in high-skill services and finance. Both together match the claim's predicted pattern - conflicting firm-level readings without clear aggregate gain through end-2026.",
+     "source_url": "https://www.nber.org/papers/w34836"
     }
    ],
    "resolution": null
@@ -2485,6 +2491,12 @@
      "direction": "supports",
      "note": "Commission Implementing Regulation (EU) 2026/1755 of 20 July 2026, in force since 10 August 2026 (during the 2026-08-02 to 2026-08-30 window), adds detailed procedural rules for Commission proceedings against GPAI providers: opening of proceedings, interim measures, and a five-year limitation period for fines. This is an implementing decision addressing GPAI obligations enforcement architecture and is separate from the previously-committed copyright guidance (claim-20260610-017). Per Taylor Wessing 2026-08 and multiple legal-tracker sources (Latham & Watkins, WilmerHale). AMBIGUOUS whether this satisfies the 'materially addressing obligations or expectations for GPAI model providers' bar — it is procedural (about enforcement mechanics) rather than substantive (about obligations content). Log evidence, do not resolve.",
      "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
+    },
+    {
+     "date": "2026-08-25",
+     "direction": "supports",
+     "note": "Commission publication 'Commission starts enforcing AI Act rules and new transparency requirements on 2 August' on digital-strategy.ec.europa.eu dated within window. Additional Aug-2026 publications: 'Strong backing for the Code of Practice on Transparency of AI-generated Content', 'Commission publishes Code of Practice on marking and labelling AI-generated content'. Materially addresses GPAI obligations (enforcement start + transparency rules — 190 GPAI provider signatories). Exact publication dates need Sunday verification but Aug window fires clean.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
     }
    ],
    "resolution": null
@@ -3346,6 +3358,12 @@
      "direction": "against",
      "note": "Bowmans, Baker McKenzie, ITWeb, and Moonstone report SA DCDT AI Policy revision timeline as: advisory review July-August 2026, drafting Aug-Sept 2026, Cabinet processes November-December 2026, public release scheduled January 2027. As of 2026-08-21, no revised policy has been published on dcdt.gov.za or gcis.gov.za. Trending toward disconfirmation by 2026-08-31 deadline unless emergency publication.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-24",
+     "direction": "against",
+     "note": "Search 2026-08-24: latest public DCDT position (ITWeb, June 2026) targets 2026/2027 financial year for finalized policy. No revised or finalized National AI Policy document published by DCDT/GCIS since the April 2026 gazette; original draft was withdrawn. Deadline 2026-08-31 unlikely to be met by publication of any revised text, let alone one containing the AI Insurance Superfund clause.",
+     "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
     }
    ],
    "resolution": null
@@ -3606,6 +3624,12 @@
      "direction": "supports",
      "note": "Kasi Cloud commissioned Lekki campus 2026-05-19 as West Africa's first hyperscale-ready AI-capable data centre; LOS1 first building delivers 7.5MW. However the update test specifically requires (a) named signed anchor-tenant contract OR (b) published utilization figure; searches surface commissioning announcements only, no anchor-tenant name or utilization percentage as of 2026-08-21. Deadline is 2026-08-31 — currently trending toward disconfirmation.",
      "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
+    },
+    {
+     "date": "2026-08-24",
+     "direction": "against",
+     "note": "Search 2026-08-24 across Kasi Cloud press channels, LinkedIn, TechCabal, BusinessDay Nigeria: no anchor-tenant contract announcement and no utilization figure surfaced since 2026-05-19 flag-off. Deadline 2026-08-31; seven days remain but no signal yet.",
+     "source_url": "https://techcabal.com/"
     }
    ],
    "resolution": null
@@ -3840,7 +3864,14 @@
      "date": "2026-07-03T12:14:45Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-25",
+     "direction": "against",
+     "note": "No EU AI Office GPAI/Article 55 guidance or FAQ found in Aug 2026 publications that explicitly cites by name the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Signatory Taskforce page, Code of Practice publications, and enforcement start press release surveyed — none carries the named citation. Update test appears to disconfirm; Sunday to verify.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/signatory-taskforce-gpai-code-practice"
+    }
+   ],
    "resolution": null
   },
   {
@@ -5867,6 +5898,12 @@
      "direction": "against",
      "note": "BoJ signaling turned hawkish in late July: held rates at 1 pct but explicitly warned underlying inflation could exceed 2 pct target for first time, with Ueda stating 'we could be forced to raise rates rapidly' and hinting September may qualify. Bloomberg (2026-06-03) already had Ueda saying BOJ needs to keep raising rates to contain inflation. Twin's 67 pct hold estimate now looks optimistic - the signaling window has tilted toward at least a small hike being seriously considered.",
      "source_url": "https://money.usnews.com/investing/news/articles/2026-07-31/boj-governor-uedas-comments-at-news-conference"
+    },
+    {
+     "date": "2026-08-25",
+     "direction": "against",
+     "note": "Polymarket September BoJ hike odds swung from 22% (two weeks ago) to 81% peak, now 59% for a 25bp increase. Market moved decisively against the twin's 67% hold conviction. Twin edge thesis vs market (hold-friendly) still standing but market now pricing hike >50%. Monitor into Sept 18-19 meeting.",
+     "source_url": "https://polymarket.com/predictions/bank-of-japan"
     }
    ],
    "resolution": null
@@ -6176,7 +6213,7 @@
    "frameworks": [],
    "update_test": "The Conference Board Consumer Confidence Index for August 2026 headline number as posted at conference-board.org on 2026-08-25 is >100.0.",
    "resolve_by": "2026-08-26",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-10T12:39:33Z",
@@ -6187,8 +6224,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-08-25",
+     "direction": "against",
+     "note": "PRNewswire headline 'US Consumer Confidence Little Changed in August' and Seeking Alpha 'Consumer confidence slides in August to below consensus: Conference Board' indicate August 2026 CCI did not jump above 100 from July 2026 revised 90.8. The update test (>100.0) fails. Primary sources blocked by egress here, exact August figure not directly verifiable this run. Interpretive — Sunday Reckoning resolves.",
+     "source_url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-little-changed-in-august-302538912.html"
+    }
+   ],
+   "resolution": {
+    "date": "2026-08-26T12:35:03Z",
+    "outcome": "disconfirmed",
+    "note": "Conference Board Consumer Confidence Index for August 2026 printed at 89.4 (1985=100), down 0.8 points from July revised 90.2. Update test threshold was >100.0; test fails unambiguously. Sources: https://www.prnewswire.com/news-releases/us-consumer-confidence-edged-down-slightly-in-august-302859371.html ; https://investinglive.com/news/us-conference-board-august-consumer-confidence-89-4-vs-90-2-expected/"
+   }
   },
   {
    "id": "claim-20260810-002",
@@ -6515,7 +6563,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-25",
+     "direction": "against",
+     "note": "UMich Consumer Sentiment preliminary August 2026 (released 2026-08-14) came in at 51.0, down from 55.2 in July, missing consensus 54.5. Final release scheduled 2026-08-28. Update test threshold for this claim needs check — preliminary is 51.0.",
+     "source_url": "https://neilsethi.substack.com/p/university-of-michigan-survey-of-0e4"
+    }
+   ],
    "resolution": null
   },
   {
@@ -7222,20 +7277,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 69,
-    "hit_rate": 0.6087,
-    "brier": 0.2002,
-    "skill_vs_coinflip": 0.0498
+    "n": 70,
+    "hit_rate": 0.6,
+    "brier": 0.1994,
+    "skill_vs_coinflip": 0.0506
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2002,
-  "skill_vs_coinflip": 0.0498,
+  "brier": 0.1994,
+  "skill_vs_coinflip": 0.0506,
   "base_rate": {
-   "n": 69,
-   "brier_base": 0.2133,
-   "brier_twin": 0.2002,
-   "skill": 0.0131
+   "n": 70,
+   "brier_base": 0.2128,
+   "brier_twin": 0.1994,
+   "skill": 0.0134
   },
   "market": {
    "n": 8,
@@ -7250,8 +7305,8 @@
    "skill_vs_base": 0.0195
   },
   "clusters": {
-   "effective_n": 54,
-   "brier_cluster_collapsed": 0.2004
+   "effective_n": 55,
+   "brier_cluster_collapsed": 0.1993
   },
   "paired": {
    "n": 0,
@@ -7261,13 +7316,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0226,
-    "hi": 0.0794,
+    "lo": 0.0234,
+    "hi": 0.0792,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.005,
-    "hi": 0.0312,
+    "lo": -0.0048,
+    "hi": 0.0307,
     "distinguishable": false
    },
    "skill_vs_market": {
