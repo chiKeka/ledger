@@ -6962,6 +6962,82 @@
     "outcome": "disconfirmed",
     "note": "BEA Personal Income and Outlays, July 2026 released 2026-08-26 at 8:30 ET reported core PCE Price Index (excluding food and energy) 12-month change of 3.3 percent, above the 3.0 percent threshold. Confirmed across Yahoo Finance, CNBC, and nchstats.com. https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
    }
+  },
+  {
+   "id": "claim-20260827-001",
+   "date": "2026-08-27",
+   "registered_at": "2026-08-27T12:38:18Z",
+   "claim": "The Central Bank of Nigeria Monetary Policy Committee at its 307th meeting (scheduled 2026-09-21 to 2026-09-22) retains the Monetary Policy Rate at 26.5 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The scheduled 307th CBN MPC meeting 2026-09-21/22 (announced on cbn.gov.ng MPC calendar) and the currently active Monetary Policy Rate of 26.5 percent (last set at 306th MPC 2026-07-21)",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket-corrected from raw 68 to 62 (60-69 bucket correction -0.061, board-active). Consensus is hold given persistent inflation and pre-election fiscal spending, though oil weakness gives one analyst a cut thesis. Slight positive edge over base rate reflects the market's asymmetric focus on cut risk vs the CBN's demonstrated hawkishness through 2026.",
+   "base_rate": 0.65,
+   "base_rate_source": "CBN MPC hold decisions at scheduled meetings 2024-01 to 2026-07 (7 of 10 held), computed from cbn.gov.ng monetary policy decisions page, as of 2026-08-27",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-09-23, the CBN publishes on cbn.gov.ng an MPC communique from the 307th meeting stating the MPR decision. Confirmed if the decision retains MPR at 26.5 percent. Disconfirmed if the MPR is raised or cut (any change from 26.5).",
+   "resolve_by": "2026-09-23",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-27T12:38:18Z",
+    "auditor": "twin",
+    "note": "Searched google news 'CBN Nigeria September 2026 MPC decision' 2026-08-27; Nairametrics, BusinessDay NG, CBN MPC calendar - meeting scheduled but not yet held. No pre-decision leak found. Consensus expectation: hold; one analyst notes cut possible.",
+    "queries": [
+     "CBN Nigeria September 2026 MPC decision",
+     "CBN monetary policy rate 26.5 hold"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260827-002",
+   "date": "2026-08-27",
+   "registered_at": "2026-08-27T12:38:32Z",
+   "claim": "The European Central Bank Governing Council at its 2026-09-10/11 monetary policy meeting keeps the deposit facility rate unchanged at 2.00 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The scheduled ECB Governing Council meeting 2026-09-10/11 (announced on ecb.europa.eu) and the currently active deposit facility rate of 2.00 percent (last confirmed at 2026-06-11 monetary policy decisions)",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket-corrected from raw 60 to 58 (60-69 bucket correction -0.061 partially applied). ECB data-dependent posture; recent inflation data mixed; September SEP will inform but not force a move. Slight edge over base rate reflects the ECB's demonstrated preference for holds when data are noisy.",
+   "base_rate": 0.55,
+   "base_rate_source": "ECB Governing Council rate decisions 2024-06 to 2026-07 (11 of 16 unchanged), computed from ecb.europa.eu monetary policy decisions, as of 2026-08-27",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-09-11, the ECB publishes on ecb.europa.eu a monetary policy statement from the Sept 10-11 meeting. Confirmed if the deposit facility rate is retained at 2.00 percent. Disconfirmed if the deposit facility rate is changed (raised or cut) from 2.00 percent.",
+   "resolve_by": "2026-09-11",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-27T12:38:32Z",
+    "auditor": "twin",
+    "note": "Searched 'ECB September 2026 interest rate decision' 2026-08-27; equalsmoney economic calendar, financecalendar, ECB.europa.eu press release schedule - meeting scheduled but not yet held. No pre-decision leak; ECB explicitly 'data-dependent'.",
+    "queries": [
+     "ECB September 2026 deposit rate decision",
+     "ECB September 10 monetary policy"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
