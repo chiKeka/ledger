@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26",
+ "updated": "2026-08-27",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -84,6 +84,12 @@
      "direction": "supports",
      "note": "NBER w34836 (Feb 2026, ~6000 US/UK/DE/AU executives): 69 percent firms adopt AI but nine-in-ten executives report zero own-firm productivity or employment impact over past 3 years; executive-predicted 3-year productivity gain averages 1.4 percent. Paired with NBER w34984 (Aug 2026, ~750 US executives) showing sector-heterogeneous gains concentrated in high-skill services and finance. Both together match the claim's predicted pattern - conflicting firm-level readings without clear aggregate gain through end-2026.",
      "source_url": "https://www.nber.org/papers/w34836"
+    },
+    {
+     "date": "2026-08-26",
+     "direction": "supports",
+     "note": "NBER W33509 (Acemoglu/Autor et al 2026): comprehensive labor-market exposure measure 2010-2023 shows tasks with higher AI exposure experience reduced labor demand at task level, but OVERALL employment effects are MODEST because reduced demand in exposed occupations is offset by productivity-driven demand rises at AI-adopting firms. Reinforces the aggregate-productivity/firm-concentration pattern the claim tracks: firm-level dispersion widens while economy-wide labor-productivity signal stays muted.",
+     "source_url": "https://ideas.repec.org/p/nbr/nberwo/33509.html"
     }
    ],
    "resolution": null
@@ -141,6 +147,12 @@
      "direction": "supports",
      "note": "Kenya draft AI + Emerging Technologies Policy (public consultation closes 2026-08-04) proposes a Sovereign Cloud Strategy and National AI Compute Access Programme — industrial-policy instruments dressed in governance frame. Directionally bearing on the trajectory toward CI-designation of data centres but not itself a formal CI designation under Kenya's Critical Infrastructure Protection Act 2022 or equivalent gazette action. Signal: 2026-07-25-kenya-ai-emerging-tech-policy",
      "source_url": "https://itweb.africa/article/kenya-seeks-public-input-on-ai-policy/KA3Wwqdz5w27rydZ"
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "supports",
+     "note": "MTN Group H1 2026 (2026-08-24): forms Africa Data Hub Holding with UAE-backed partner to build 150MW AI-enabled DCs in Nigeria and South Africa. Corporate strategy is not state designation, but the same H1 disclosure reports Nigeria imposed a 30 percent local ownership condition on the IHS Towers deal — a critical-infrastructure treatment via ownership rules rather than gazette. Structural corroboration that African states are extending sovereignty tools around AI/telco infrastructure.",
+     "source_url": "https://innovation-village.com/mtn-to-develop-150mw-ai-data-centres-in-nigeria-south-africa-with-uae-backed-investor/"
     }
    ],
    "resolution": null
@@ -328,6 +340,12 @@
      "direction": "against",
      "note": "Q2 2026 hyperscaler reporting cycle: all of Alphabet, Meta, Amazon, and Microsoft raised their 2026 capex guidance rather than cut or flatten. Alphabet lifted 2026 capex range to $195-$205B from $180-$190B; Meta guided $135-$145B (up from $72B FY25 actual); Amazon raised to $220B from $200B; Microsoft tracking ~$190B. Simultaneous Epoch AI / Factset / CNBC reporting flags hyperscaler capex overtaking operating cash flow around Q3 2026 with external debt financing rising from 9pct of capex (FY24) to 32pct LTM. FCF pressure is real but the guidance direction is up across all five, so through H1 2026 the claim's disconfirming branch (all five raise) is tracking. Only Meta / Microsoft still have four earnings prints between now and 2027-04-30 window close.",
      "source_url": "https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/"
+    },
+    {
+     "date": "2026-08-26",
+     "direction": "against",
+     "note": "Anthropic 2026-08-25 preparing possible IPO with annualized revenue reported at ~USD 65B by end-July 2026 (up sharply from end-2025); Nvidia locks USD 500B financing alliance with Wall Street; OpenAI S-1 imminent. Capital-raising and pricing power intensify rather than flatten; Big-Five capex signals from Q2 already trending UP. No Big-Five firm has cut or flattened AI capex guidance; the funding architecture around them is escalating.",
+     "source_url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/"
     }
    ],
    "resolution": null
@@ -669,6 +687,12 @@
      "direction": "supports",
      "note": "Cassava-NVIDIA 700M USD multi-country rollout announcement 2026-07-22 accelerates African AI infrastructure buildout across named 2026 projects; Kenya Atlancis/ixAfrica GPU AI factory reported live 2026-07-22 (contributes to Nairobi cluster of the tracked projects).",
      "source_url": "https://data/discovery/signals/2026-07-22-cassava-nvidia-700m-multi-country-rollout.md"
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "supports",
+     "note": "Al Jazeera and Businessday NG (published 2026-08-24 — 'The Biggest Threat to Africa's Data Centre Race Is the Grid') consolidate reporting that Microsoft-G42 Kenya hyperscale project broke down over Kenya's inability to commit power capacity, original May 2026 launch target no longer achievable. Reinforces the pattern: named 2026 African AI infrastructure projects hitting structural grid/power constraints — the 6+ month slip or <50 percent capacity risk operationalizes as grid capacity refusal by host state.",
+     "source_url": "https://www.thisdaylive.com/2026/08/24/the-biggest-threat-to-africas-data-centre-race-is-the-grid/"
     }
    ],
    "resolution": null
@@ -714,6 +738,12 @@
      "direction": "supports",
      "note": "MTN Sifiso Dabengwa Data Centre (Ikeja, Lagos) reported live at 4.5MW initial capacity 2026-07-16; Cassava-Azure ExpressRoute completion metro JHB Africa-first columnar completion 2026-07-25; Alphabet FY26 capex raised to 195-205B USD 2026-07-22 creates upstream cloud-demand pressure for African compute buildout.",
      "source_url": "https://data/discovery/signals/2026-07-25-cassava-azure-expressroute-metro-jhb-africa-first-columnar-completion.md"
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "supports",
+     "note": "MTN Group H1 2026 results (published 2026-08-24) unveil Africa Data Hub Holding Limited (partnership with UAE-backed investor) to build 150MW AI-enabled data centre capacity across Nigeria and South Africa. Not yet powered, but concretizes the pipeline behind the tracked capacity aggregate — MTN moves from AI-DC exploration to a dedicated JV with named MW target.",
+     "source_url": "https://www.itweb.co.za/article/mtn-advances-ai-ready-data-centre-strategy/4r1ly7R9aWAvpmda"
     }
    ],
    "resolution": null
@@ -3870,6 +3900,12 @@
      "direction": "against",
      "note": "No EU AI Office GPAI/Article 55 guidance or FAQ found in Aug 2026 publications that explicitly cites by name the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Signatory Taskforce page, Code of Practice publications, and enforcement start press release surveyed — none carries the named citation. Update test appears to disconfirm; Sunday to verify.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/signatory-taskforce-gpai-code-practice"
+    },
+    {
+     "date": "2026-08-26",
+     "direction": "against",
+     "note": "Follow-up search 2026-08-26 across digital-strategy.ec.europa.eu and ai-act-service-desk.ec.europa.eu Aug 2026 publications: no new Article 55 guidance/FAQ/interpretive note found that explicitly cites by name the UN Independent International Scientific Panel's 2026-07-01 preliminary report. External counsel commentary (Taylor Wessing 2026-08, Wilson Sonsini 2026-08) indicates AI Office's opening enforcement posture is 'technical compliance dialogues' rather than published formal notes, which structurally reduces likelihood of a new interpretive document with a specific external citation before deadline. Four days remain to 2026-08-30; disconfirmation increasingly likely, resolution deferred to Sunday Reckoning.",
+     "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
     }
    ],
    "resolution": null
@@ -5971,7 +6007,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-28, BEA publishes Personal Income and Outlays, July 2026 at bea.gov/news. Read the headline PCE Price Index 12-month change reported for July 2026. Confirmed if that rate is at or below 3.5 percent; disconfirmed if above 3.5 percent.",
    "resolve_by": "2026-08-29",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-05T12:23:53Z",
@@ -5983,7 +6019,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-27T12:32:51Z",
+    "outcome": "disconfirmed",
+    "note": "BEA Personal Income and Outlays, July 2026 released 2026-08-26 at 8:30 ET reported headline PCE Price Index 12-month change of 3.7 percent, above the 3.5 percent threshold. Multiple corroborating sources (Yahoo Finance, CNBC, nchstats.com). https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+   }
   },
   {
    "id": "claim-20260805-002",
@@ -6895,7 +6935,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-28, BEA publishes Personal Income and Outlays, July 2026 at bea.gov/news. Read the core PCE Price Index (excluding food and energy) 12-month percent change for July 2026 as reported. Confirmed if that rate is 3.0 percent or below; disconfirmed if above 3.0 percent.",
    "resolve_by": "2026-08-29",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-21T12:16:39Z",
@@ -6917,7 +6957,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-27T12:32:55Z",
+    "outcome": "disconfirmed",
+    "note": "BEA Personal Income and Outlays, July 2026 released 2026-08-26 at 8:30 ET reported core PCE Price Index (excluding food and energy) 12-month change of 3.3 percent, above the 3.0 percent threshold. Confirmed across Yahoo Finance, CNBC, and nchstats.com. https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+   }
   }
  ],
  "experiments": [
@@ -7277,20 +7321,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 70,
-    "hit_rate": 0.6,
-    "brier": 0.1994,
-    "skill_vs_coinflip": 0.0506
+    "n": 72,
+    "hit_rate": 0.5833,
+    "brier": 0.2035,
+    "skill_vs_coinflip": 0.0465
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.1994,
-  "skill_vs_coinflip": 0.0506,
+  "brier": 0.2035,
+  "skill_vs_coinflip": 0.0465,
   "base_rate": {
-   "n": 70,
-   "brier_base": 0.2128,
-   "brier_twin": 0.1994,
-   "skill": 0.0134
+   "n": 72,
+   "brier_base": 0.2146,
+   "brier_twin": 0.2035,
+   "skill": 0.0111
   },
   "market": {
    "n": 8,
@@ -7299,14 +7343,14 @@
    "skill": -0.0338
   },
   "non_echo": {
-   "n": 21,
+   "n": 22,
    "floor": 30,
-   "brier": 0.2061,
-   "skill_vs_base": 0.0195
+   "brier": 0.2159,
+   "skill_vs_base": 0.0132
   },
   "clusters": {
-   "effective_n": 55,
-   "brier_cluster_collapsed": 0.1993
+   "effective_n": 56,
+   "brier_cluster_collapsed": 0.202
   },
   "paired": {
    "n": 0,
@@ -7316,13 +7360,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0234,
-    "hi": 0.0792,
+    "lo": 0.0189,
+    "hi": 0.074,
     "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0048,
-    "hi": 0.0307,
+    "lo": -0.0062,
+    "hi": 0.0287,
     "distinguishable": false
    },
    "skill_vs_market": {
