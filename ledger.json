@@ -2840,7 +2840,7 @@
    "frameworks": [],
    "update_test": "Public confirmation of training start OR initial model card / interim artifact released on Domyn site, ec.europa.eu/digital-strategy news, or EuroHPC JU site between 2026-06-19 and 2026-08-31.",
    "resolve_by": "2026-08-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-20T13:19:26Z",
@@ -2878,7 +2878,11 @@
      "source_url": "https://slator.com/eu-open-source-ai-model-24-eu-languages/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-02T12:26:11Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline passed 2026-08-31 with no public training-start announcement, initial model card, or interim artifact from EUROPA consortium on Domyn corporate channels (domyn.com), ec.europa.eu/digital-strategy, or EuroHPC JU site. 2026-09-02 T+2 verification search: only public statement remains CEO Uljan Sharka's Reuters quote 'model will ship within a year' - a forward horizon, not a training-start milestone. Twin said 45%, base 40%; both mildly overshot. https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open"
+   }
   },
   {
    "id": "claim-20260620-002",
@@ -3699,7 +3703,7 @@
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, an identifiable public source (Kasi Cloud press release, LinkedIn post by Kasi Cloud CEO or CTO, TechCabal / BusinessDay Nigeria / Techpoint interview, or a named-partner joint announcement) states either (a) a signed anchor-tenant contract with any customer for the Lekki campus or (b) a published utilization figure (percent of 5.5MW committed or of the 100MW planned). Confirmed if either (a) or (b) is public; disconfirmed if neither has surfaced by the deadline.",
    "resolve_by": "2026-08-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-01T12:16:59Z",
@@ -3755,7 +3759,11 @@
      "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-02T12:26:15Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline passed 2026-08-31 with no Kasi Cloud announcement of a signed anchor-tenant contract or published utilization figure on Kasi Cloud press channels, LinkedIn, TechCabal, BusinessDay Nigeria, or Techpoint. 2026-09-02 T+2 verification search confirms the May 2026 flag-off of LOS1 (100MW campus) remains the last named milestone with no commercial commitment surfacing since. Twin said 35%, base 35%; the call was AT prior, correct outcome. https://nsia.com.ng/kasi-cloud-datacenters-commissions-west-africas-first-hyperscaleready-ai-capable-data-centre-campus-in-lagos/"
+   }
   },
   {
    "id": "claim-20260702-001",
@@ -3900,7 +3908,7 @@
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, a public press release, official blog post, or SEC 8-K from Meta, Apple, or Alphabet announcing a named organizational unit for forward-deployed AI implementation engineering with either (a) a stated committed capital budget of USD 500 million or more, or (b) a stated headcount target of 2,000 forward-deployed engineers or more. Confirmed on the first such announcement from any of the three; disconfirmed if none by the deadline.",
    "resolve_by": "2026-08-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-03T12:14:00Z",
@@ -3954,7 +3962,11 @@
      "source_url": "https://www.forbes.com/sites/lutzfinger/2026/08/30/sam-altman-and-meta-admitted-ais-problem-fdes-are-fixing-it/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-02T12:26:24Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline passed 2026-08-31 without any of Meta, Apple, or Alphabet publicly stating (a) a >=USD 500M committed capital budget or (b) a >=2,000 forward-deployed engineer headcount target for a named FDE unit. Meta Enterprise Solutions unit exists (May 2026 launch, Naomi Gleit) and embeds engineers/PMs in corporate customers, but PYMNTS/gurufocus explicitly note 'Meta has not publicly confirmed customers, staffing scale, pricing, or rollout timing.' Google announced 'hundreds' of forward-deployed engineers Q2 2026 (below 2000 threshold), no dollar figure. Apple: no announcement. 2026-09-02 T+2 verification confirms the qualitative unit exists but the quantitative gate did not fire by deadline. Twin said 60%, base 50%; overshot on the directional read (unit-shape adoption did happen for Meta) but the specific numeric gate the update test required was missed. https://www.pymnts.com/meta/2026/meta-is-coming-for-enterprise-ai/"
+   }
   },
   {
    "id": "claim-20260703-002",
@@ -7535,6 +7547,176 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260902-001",
+   "date": "2026-09-02",
+   "registered_at": "2026-09-02T12:29:56Z",
+   "claim": "By 2026-10-31, at least one of the 2026 African hyperscale-ready data centre commissionings (Kasi Cloud LOS1 Lekki 100MW, MTN Africa Data Hub Holding Nigeria+South Africa 150MW, Cassava/Africa Data Centres Cape Town expansion, or Rack Centre LGS2 Lagos 12MW) publicly names an anchor tenant via specialist trade press (TechCabal, Capacity, ConnectingAfrica, BusinessDay Nigeria) or an official press release from the operator.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Kasi Cloud LOS1 was commissioned 2026-05-19 in Lekki, Lagos (100MW planned, 5.5MW critical IT at launch); MTN Digital Infrastructure formed Africa Data Hub Holding with UAE-based partner targeting 150MW Nigeria+South Africa in 2026; Cassava Technologies expanded Africa Data Centres capacity in Cape Town in 2026; Rack Centre LGS2 was commissioned 2025 as a 12MW hyperscale-ready campus. All four are on the public record with commissioned physical infrastructure - the update test is about whether announcement channels disclose the commercial anchor conversation that follows.",
+   "withdrawal": null,
+   "confidence": 0.2,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Today's Kasi disconfirmation postmortem (lesson-2026-09-02-postmortem-claim-20260701-005) established that African hyperscale campuses show 105+ day commissioning-to-tenant-announcement lags in the announcement channel, even where signed contracts likely exist under confidentiality. Applying that lesson: raw 20 vs base 35 = -15 pts below base, direction bearish. Bucket 20-29 has n=2, correction null - keep raw. Signal-ahead-of-market bias: this is un-priced and un-consensus, exactly the calibration case we want (no market on African data-centre commercial closes).",
+   "base_rate": 0.35,
+   "base_rate_source": "Public commissioning-to-anchor-tenant announcement rate for African hyperscale-ready campuses commissioned 2024-2026, from trade press review (TechCabal, Capacity, ConnectingAfrica, DataCenterMap listings): approximately 3 named tenant announcements across ~8 commissioned campuses within 6 months of commissioning = 37.5%; rounded to 35%. As of 2026-09-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-31 23:59 UTC, an identifiable public source (specialist African tech trade press or operator press release) names an anchor tenant with either (a) a stated MW commitment or (b) a named enterprise / government customer for one of the four specified 2026-commissioned campuses. Confirmed on first such announcement; disconfirmed if none by the deadline.",
+   "resolve_by": "2026-10-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-02T12:29:56Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-02 for Africa hyperscale anchor tenant announcements September 2026 across TechCabal, Capacity, ConnectingAfrica, BusinessDay Nigeria, and DataCenterMap: no named anchor tenant announcement found for any of the four specified campuses since the today-resolved 2026-07-01-005 Kasi disconfirmation on 2026-08-31. Update test has not fired.",
+    "queries": [
+     "africa hyperscale data center anchor tenant announcement september 2026 rack centre mtn cassava",
+     "kasi cloud anchor tenant nigeria 2026",
+     "african data centre commercial commitment 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-014",
+     "relation": "probes",
+     "note": "African hyperscale anchor-tenant announcement rate is the transfer-evidence gate for the structural claim about cumulative African data-centre MW through end-2027 - if commercial closes don't announce, physical capacity may exist but not read as productive infrastructure.",
+     "date": "2026-09-02T12:31:09Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260902-002",
+   "date": "2026-09-02",
+   "registered_at": "2026-09-02T12:30:19Z",
+   "claim": "By 2026-10-31, Meta publicly discloses at least one specific quantitative parameter of its Enterprise Solutions unit (customer count, dedicated staffing headcount, dedicated capital allocation, or named-partner list) via an SEC filing, official investor communication, official blog post, or CEO/executive on-the-record press interview.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Meta Enterprise Solutions unit was publicly established in May 2026 (Naomi Gleit internal memo, The Information exclusive, PYMNTS coverage, DigitalToday, Forbes 2026-05-28 coverage), embeds product managers and forward-deployed engineers inside corporate customers. The unit exists and is on the public record. What is at issue is whether Meta will EVER quantitatively disclose the unit's specifics or continue to bundle it silently within its 130-145B USD 2026 capex. Meta Q3 2026 earnings will land in late October 2026, providing a natural disclosure window.",
+   "withdrawal": null,
+   "confidence": 0.22,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Today's FDE disconfirmation postmortem (lesson-2026-09-02-postmortem-claim-20260703-001) established that frontier providers treat FDE headcount and dedicated capital as competitive intelligence and disclose in aggregate capex, not per-unit. Applying to Meta's specific 60-day forward window with Q3 earnings as a natural disclosure trigger: raw 22 vs base 40 = -18 pts below base, direction bearish, informed by the just-disconfirmed prior case where Meta explicitly declined to state numbers. Bucket 20-29 has n=2, correction null - keep raw at 22.",
+   "base_rate": 0.4,
+   "base_rate_source": "Frontier-provider named-enterprise-unit specific quantitative disclosure rate within 90 days of launch, from public announcement review of Microsoft Frontier Company (USD 2.5B and 6000 engineers disclosed at 2026-07-02 launch), Amazon (USD 1B disclosed at 2026-06-30 launch), OpenAI Deployment Company (USD 1.5B disclosed within 60 days), Anthropic FDE program (not yet disclosed): approximately 3 of 4 disclosed quantitatively within 90 days = 75%. Meta is the specific negative case here (declined disclosure through 2026-08-31 despite unit launch May 2026), so base adjusted DOWN from 75% to 40% for the Meta-specific 60-day forward window given its established silence pattern. As of 2026-09-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-31 23:59 UTC, a Meta SEC filing (10-Q, 10-K, 8-K), Meta investor relations page, Meta official blog, or on-the-record executive press interview publicly states any specific quantitative attribute of the Enterprise Solutions unit: a customer count, a dedicated headcount for the unit, a dedicated capital allocation, or a named partner. Confirmed on the first such disclosure; disconfirmed if none by the deadline.",
+   "resolve_by": "2026-10-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-02T12:30:19Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-02 for Meta Enterprise Solutions unit customers, staffing size, capital allocation, or partner list across CNBC, PYMNTS, Forbes, The Information secondary reporting, DigitalToday, and Meta Q2 2026 earnings call transcript: only qualitative unit-existence reporting; no quantitative attribute publicly stated. Meta Q2 2026 earnings call did not mention the unit by name. Update test has not fired.",
+    "queries": [
+     "meta enterprise solutions unit customers staffing size disclosure september 2026 headcount capex",
+     "meta forward-deployed engineers 2026 dollar figure",
+     "meta enterprise ai unit budget scale"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-008",
+     "relation": "probes",
+     "note": "Meta Enterprise Solutions unit disclosure is a specific FDE-tier signal that reads on whether Big Five AI capex is transitioning from GPU-heavy training to enterprise-deployment mix. The disclosure decision itself is the signal, independent of the underlying number.",
+     "date": "2026-09-02T12:31:09Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260902-003",
+   "date": "2026-09-02",
+   "registered_at": "2026-09-02T12:30:37Z",
+   "claim": "US Bureau of Labor Statistics Employment Situation for September 2026 (release scheduled 2026-10-03 at 8:30 ET) reports total nonfarm payrolls monthly change less than or equal to +100,000 jobs.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Bureau of Labor Statistics releases the Employment Situation report on a scheduled monthly cadence; the September 2026 reference-period release is scheduled 2026-10-03 at 8:30 ET on bls.gov, with the headline monthly nonfarm payroll change reported in the first paragraph.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin at 55 vs base 42 = +13 pts above base, direction bearish on labor market. Reflects 2026 softening trend: ADP private payrolls have run below BLS by ~50k for 3 months, initial claims trending higher, Fed dot-plot pricing 3-4 cuts through year-end. Bucket 50-59 has n=26, correction -0.003 - effectively neutral, keep 55. Un-priced-ahead-of-market: NFP is heavily consensus-forecasted but the twin's specific 100k threshold call is not identical to any liquid market position.",
+   "base_rate": 0.42,
+   "base_rate_source": "US BLS Employment Situation monthly total nonfarm payrolls prints less than or equal to +100k over the trailing 12 months (2025-08 through 2026-07), from BLS.gov release history: approximately 5 of 12 months = 42%. As of 2026-09-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-03 08:30 ET or shortly thereafter, the BLS Employment Situation release for September 2026 (available at bls.gov/news.release/empsit.htm and bls.gov/schedule/news_release/empsit.htm) reports a total nonfarm payroll monthly change of +100,000 or less. Confirmed if headline monthly change is less than or equal to +100,000; disconfirmed if strictly greater than +100,000.",
+   "resolve_by": "2026-10-03",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-02T12:30:37Z",
+    "auditor": "twin",
+    "note": "Verified 2026-09-02 that BLS September 2026 Employment Situation release has not yet occurred (scheduled 2026-10-03); the August 2026 print (release 2026-09-04 and 2026-09-05, currently open as claim-20260731-002 and claim-20260815-004) is not yet public. Update test cannot have fired. Also verified BLS 2026 schedule page confirms 2026-10-03 08:30 ET as the September release date.",
+    "queries": [
+     "US BLS Employment Situation September 2026 release date",
+     "US nonfarm payrolls September 2026 forecast",
+     "BLS September 2026 schedule empsit"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260902-004",
+   "date": "2026-09-02",
+   "registered_at": "2026-09-02T12:30:55Z",
+   "claim": "US Census Bureau Advance Monthly Sales for Retail and Food Services for August 2026 (release scheduled 2026-09-16 at 8:30 ET) reports month-over-month change in total retail sales of +0.2 percent or greater.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The US Census Bureau releases Advance Monthly Sales for Retail and Food Services on a scheduled cadence approximately mid-month for the prior month's data; August 2026 release is scheduled 2026-09-16 at 8:30 ET on census.gov/retail. The July 2026 print was minus 0.6 percent (large downside miss driven by nonstore retailers minus 2.2 percent, reflecting Amazon Prime Day timing shift into June).",
+   "withdrawal": null,
+   "confidence": 0.47,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Twin at 47 vs base 50 = -3 pts below base, direction mildly bearish. July print of minus 0.6 percent was driven by a specific timing effect (Amazon Prime Day moved to June from July), which should REVERSE in August as base-period distortion unwinds and pull-forward normalizes. Argument for +0.2% or better: base-period-effect reversal. Argument against: broader labor-market softening and consumer credit stress. Bucket 40-49 has n=10, correction +0.026 - applied: raw 47 gets +2.6 to 49-50. Kept at 47 to stay under 50 pivot given labor softening tilts against pure base-effect reversal. Un-priced: no liquid market on the specific print threshold.",
+   "base_rate": 0.5,
+   "base_rate_source": "US Census Advance Monthly Retail Trade Survey month-over-month change of +0.2 percent or greater over trailing 12 months (2025-08 through 2026-07), from census.gov/retail MARTS release history: approximately 6 of 12 months = 50%. As of 2026-09-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-16 08:30 ET or shortly thereafter, the Census Bureau Advance Monthly Retail Trade Survey release for August 2026 (available at census.gov/retail/marts/www/marts_current.pdf and census.gov/retail) reports a headline total retail sales month-over-month change of +0.2 percent or greater. Confirmed if strictly greater than or equal to +0.2 percent; disconfirmed if less than +0.2 percent.",
+   "resolve_by": "2026-09-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-02T12:30:55Z",
+    "auditor": "twin",
+    "note": "Verified 2026-09-02 that Census August 2026 Advance Retail Sales release has not yet occurred (scheduled 2026-09-16). July 2026 print of minus 0.6 percent is the most recent available. Update test cannot have fired. Also verified census.gov/retail confirms 2026-09-16 08:30 ET as the August release date.",
+    "queries": [
+     "US Advance Retail Sales August 2026 release September 16 forecast",
+     "census.gov MARTS August 2026 release date",
+     "US retail sales August 2026 month-over-month"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8027,7 +8209,11 @@
   "claim-20260831-004": 139,
   "claim-20260901-001": 140,
   "claim-20260901-002": 141,
-  "claim-20260901-003": 142
+  "claim-20260901-003": 142,
+  "claim-20260902-001": 143,
+  "claim-20260902-002": 144,
+  "claim-20260902-003": 145,
+  "claim-20260902-004": 146
  },
  "stats": {
   "committers": {
@@ -8038,20 +8224,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 80,
-    "hit_rate": 0.5625,
-    "brier": 0.218,
-    "skill_vs_coinflip": 0.032
+    "n": 83,
+    "hit_rate": 0.5422,
+    "brier": 0.2183,
+    "skill_vs_coinflip": 0.0317
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.218,
-  "skill_vs_coinflip": 0.032,
+  "brier": 0.2183,
+  "skill_vs_coinflip": 0.0317,
   "base_rate": {
-   "n": 80,
-   "brier_base": 0.2252,
-   "brier_twin": 0.218,
-   "skill": 0.0072
+   "n": 83,
+   "brier_base": 0.2235,
+   "brier_twin": 0.2183,
+   "skill": 0.0051
   },
   "market": {
    "n": 8,
@@ -8060,14 +8246,14 @@
    "skill": -0.0338
   },
   "non_echo": {
-   "n": 25,
+   "n": 26,
    "floor": 30,
-   "brier": 0.2444,
-   "skill_vs_base": 0.0022
+   "brier": 0.2488,
+   "skill_vs_base": -0.0021
   },
   "clusters": {
-   "effective_n": 59,
-   "brier_cluster_collapsed": 0.2153
+   "effective_n": 61,
+   "brier_cluster_collapsed": 0.214
   },
   "paired": {
    "n": 0,
@@ -8077,13 +8263,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0025,
-    "hi": 0.0627,
+    "lo": -0.0027,
+    "hi": 0.0628,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0112,
-    "hi": 0.0263,
+    "lo": -0.014,
+    "hi": 0.0238,
     "distinguishable": false
    },
    "skill_vs_market": {
