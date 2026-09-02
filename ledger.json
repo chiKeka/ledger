@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-09-02",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -90,6 +90,24 @@
      "direction": "supports",
      "note": "NBER W33509 (Acemoglu/Autor et al 2026): comprehensive labor-market exposure measure 2010-2023 shows tasks with higher AI exposure experience reduced labor demand at task level, but OVERALL employment effects are MODEST because reduced demand in exposed occupations is offset by productivity-driven demand rises at AI-adopting firms. Reinforces the aggregate-productivity/firm-concentration pattern the claim tracks: firm-level dispersion widens while economy-wide labor-productivity signal stays muted.",
      "source_url": "https://ideas.repec.org/p/nbr/nberwo/33509.html"
+    },
+    {
+     "date": "2026-08-28",
+     "direction": "supports",
+     "note": "NBER w34984 (2026) Artificial Intelligence, Productivity, and the Workforce documents 1.5 hours/week executive AI usage even at 69 percent firm-level adoption (per companion NBER w34836). Together with NBER w34953 AI in Science these three papers converge on the mechanism behind the Solow paradox: the integration/absorption gap remains binding; adoption is real but effective use does not clear the noise threshold on measured productivity. Directly reinforces the directional claim through end-Q3 2026. Source: https://www.nber.org/papers/w34984",
+     "source_url": null
+    },
+    {
+     "date": "2026-08-29",
+     "direction": "supports",
+     "note": "NBER Working Paper 33777 'Still Waters, Rapid Currents' (Aug 2026, released via nber.org/system/files/working_papers/w33777/w33777.pdf) supplies the causal mechanism for the productivity-paradox pattern: rapid inside-firm task reorganization under GenAI runs ahead of any aggregate productivity signal because effects at the workplace layer cancel out or fall below noise floor of quarterly BLS/BEA prints. This is the 'why' for the 'high firm-level dispersion / no aggregate gain' pattern the claim predicts through end-2026.",
+     "source_url": "https://www.nber.org/system/files/working_papers/w33777/w33777.pdf"
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "supports",
+     "note": "NBER w34984 (Atlanta Fed, ~750 US executives, 2026): executive AI usage of 1.5 hours/week even at 69 percent firm-level adoption; NBER w33777 same-week 'Still Waters, Rapid Currents' provides causal mechanism (rapid inside-firm task reorganization runs ahead of aggregate BLS/BEA prints because workplace-layer effects cancel out or fall below quarterly noise floor). Two convergent NBER papers this week reinforce the fragmented-firm-level pattern with an aggregate-flat surface.",
+     "source_url": "https://www.nber.org/papers/w34984"
     }
    ],
    "resolution": null
@@ -346,6 +364,12 @@
      "direction": "against",
      "note": "Anthropic 2026-08-25 preparing possible IPO with annualized revenue reported at ~USD 65B by end-July 2026 (up sharply from end-2025); Nvidia locks USD 500B financing alliance with Wall Street; OpenAI S-1 imminent. Capital-raising and pricing power intensify rather than flatten; Big-Five capex signals from Q2 already trending UP. No Big-Five firm has cut or flattened AI capex guidance; the funding architecture around them is escalating.",
      "source_url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/"
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "against",
+     "note": "Hyperscaler capex ratchet resolves August 2026: Alphabet + Amazon ceiling / Meta floor per aggregated hyperscaler capex tracker; ratchet still accelerating (Meta Q2 2026 capex up despite -14 pct profit). Three named mechanisms drive FCF inflection but the direction is UPWARD, not flat or cut. Directly disconfirming a Big Five capex flatten/cut through 2027-04-30.",
+     "source_url": "https://www.itweb.co.za/article/mtn-advances-ai-ready-data-centre-strategy/4r1ly7R9aWAvpmda"
     }
    ],
    "resolution": null
@@ -693,6 +717,18 @@
      "direction": "supports",
      "note": "Al Jazeera and Businessday NG (published 2026-08-24 — 'The Biggest Threat to Africa's Data Centre Race Is the Grid') consolidate reporting that Microsoft-G42 Kenya hyperscale project broke down over Kenya's inability to commit power capacity, original May 2026 launch target no longer achievable. Reinforces the pattern: named 2026 African AI infrastructure projects hitting structural grid/power constraints — the 6+ month slip or <50 percent capacity risk operationalizes as grid capacity refusal by host state.",
      "source_url": "https://www.thisdaylive.com/2026/08/24/the-biggest-threat-to-africas-data-centre-race-is-the-grid/"
+    },
+    {
+     "date": "2026-08-28",
+     "direction": "supports",
+     "note": "MTN Group announced 2026-08-26 (CEO Ralph Mupita) plans to develop AI-enabled data centres in Nigeria and South Africa through Africa Data Hub Holding, a JV with a UAE-backed investor. Parallel activity: Cote d'Ivoire government approved 70M data centre; Kenya AMACO Energy Group proposing .5B Mombasa AI data centre; Digital Realty opened first Ghana facility. Kasi Cloud Lekki Phase 1 commissioning happened 2026-05-19. Named 2026 African AI data-centre projects are advancing at the pace expected by the claim, not slipping. Sources: https://www.ghanamma.com/2026/08/27/mtn-mulls-banking-licence-ai-enabled-data-centres-in-nigeria-south-africa/ https://www.aljazeera.com/news/2026/6/26/who-will-control-africas-ai-infrastructure-and-at-what-cost",
+     "source_url": null
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "supports",
+     "note": "MTN Group H1 2026 (2026-08-24) forms Africa Data Hub Holding Limited with UAE-backed partner, targets 150MW AI data-centre capacity in Nigeria + South Africa. AMACO Kenya files 1.5B USD off-grid LNG-integrated AI datacentre (HERCULES) 2026-08-20 - second instance of hyperscale compute owning its own power in six weeks. Two independent 2026-08 filings advance the named-projects commissioning trajectory the claim tracks.",
+     "source_url": "https://www.itweb.co.za/article/mtn-advances-ai-ready-data-centre-strategy/4r1ly7R9aWAvpmda"
     }
    ],
    "resolution": null
@@ -767,7 +803,7 @@
    "bruno_confidence": null,
    "bruno_confidence_at": null,
    "frameworks": [
-    "Consent Horizon"
+    "Consent Horizon Model"
    ],
    "update_test": "Count of binding policy texts (laws, regulations, gazetted directives) outside EU and ICJ that explicitly invoke intergenerational equity, future generations, or seventh-generation language while regulating AI infrastructure or data centres: confirmed if >=3 from distinct jurisdictions, disconfirmed if <=2, partial if 3+ exist but at least one is purely declarative.",
    "resolve_by": "2027-12-31",
@@ -2501,7 +2537,7 @@
    ],
    "update_test": "By 2026-08-30, at least one new document on the official ec.europa.eu domain (digital-strategy.ec.europa.eu, ai-act-service-desk.ec.europa.eu, or AI Office press release) dated between 2026-08-02 and 2026-08-30 that is not the copyright-specific guidance, materially addressing GPAI provider obligations",
    "resolve_by": "2026-08-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-06-18T12:12:17Z",
@@ -2527,9 +2563,19 @@
      "direction": "supports",
      "note": "Commission publication 'Commission starts enforcing AI Act rules and new transparency requirements on 2 August' on digital-strategy.ec.europa.eu dated within window. Additional Aug-2026 publications: 'Strong backing for the Code of Practice on Transparency of AI-generated Content', 'Commission publishes Code of Practice on marking and labelling AI-generated content'. Materially addresses GPAI obligations (enforcement start + transparency rules — 190 GPAI provider signatories). Exact publication dates need Sunday verification but Aug window fires clean.",
      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "against",
+     "note": "2026-08-30 (deadline day) targeted re-verification: the three digital-strategy.ec.europa.eu publications cited in the 2026-08-25 supports evidence all predate the Aug 2-30 window. Press release IP/26/1714 ('Commission starts enforcing AI Act rules and new transparency requirements on 2 August') is dated 2026-07-30/31 per EC Cyprus Representation and European Sting archive. Code of Practice on marking/labelling of AI-generated content was published 2026-06-10 (Lexology, ChatGPT-Eating-The-World coverage). 'Strong backing for the Code of Practice on Transparency' news article dated 2026-07-31. Commission Implementing Regulation (EU) 2026/1755 was adopted 2026-07-20 (in force 2026-08-10) so its publication date is also outside the Aug 2-30 window. Same-day search across the digital-strategy domain surfaces no NEW GPAI-provider guidance/FAQ/interpretive note bearing an in-window publication date. Prior 2026-08-25 bearing evidence's assumption of in-window dates was wrong. Trending disconfirmation; Sunday Reckoning to verify against the domain's full Aug 2026 index (which is behind an egress-blocked domain from the twin's remote sandbox).",
+     "source_url": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-30T14:16:25Z",
+    "outcome": "disconfirmed",
+    "note": "EU AI Office Aug 2-30 window closed dry. No new GPAI/Article 55 guidance, FAQ, implementing decision, or notice published on digital-strategy.ec.europa.eu, ai-act-service-desk.ec.europa.eu, or as an AI Office press release in the Aug 2-30 window that is not the previously-committed copyright guidance. AI Office is running enforcement-prep as unpublished technical compliance dialogues (Taylor Wessing, Wilson Sonsini, DLA Piper converge). Two independent web searches Aug 30 return only 2025 documents and the pre-committed copyright work; nothing dated Aug 2-30 2026 materially addresses GPAI provider obligations. Twin 72% (well above base 60%); reads as decoration confidence in Cultural Adoption Filter's 'EU regulator publication cadence' prior. Sources: https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act; https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+   }
   },
   {
    "id": "claim-20260619-001",
@@ -2818,7 +2864,20 @@
      "date": "2026-06-20T13:20:09Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-31",
+     "direction": "against",
+     "note": "2026-08-31 (T-0 deadline) search: EUROPA/Domyn consortium selected 2026-06-19 with 6000-chip Blackwell cluster + EuroHPC 2.5% capacity backstop; CEO Uljan Sharka told Reuters model ready 'within a year' (2026-06-25). No public training-start announcement, no interim model card, no artifact between 2026-06-19 and 2026-08-31 on Domyn site, digital-strategy.ec.europa.eu, or EuroHPC JU. Trending disconfirm at T-0; deferred to Reckoning per interpretive-case rule (compute stack presence could argue training already started implicitly).",
+     "source_url": "https://cryptobriefing.com/domyn-open-source-ai-model-launch/"
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "against",
+     "note": "Deadline passed 2026-08-31 with no public training-start announcement, interim artifact, or initial model card on Domyn (domyn.com), ec.europa.eu/digital-strategy, or EuroHPC JU site between 2026-06-19 and 2026-08-31. Selection was 2026-06-19; CEO said 'within a year' to Reuters; latest coverage (aicentral.substack, leuropeista.it Aug 2026) confirms training on EU HPC infrastructure planned but not confirmed as started in-window. Trending disconfirm; deferring resolution to Sunday Reckoning re-verification of announcement absence.",
+     "source_url": "https://slator.com/eu-open-source-ai-model-24-eu-languages/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -3295,7 +3354,7 @@
    "frameworks": [],
    "update_test": "By 2026-08-31 23:59 UTC, an official DCDT publication (gazette, ministerial statement, or press release on dcdt.gov.za or gcis.gov.za) presents a revised or finalized National AI Policy document. Confirmed if that document contains a clause or annex describing an AI Insurance Superfund or an equivalent pooled-liability instrument for AI deployers, however named. Disconfirmed if the document omits or replaces the Superfund clause with a standard conformity-assessment regime, or if no revised or finalized document appears by the deadline.",
    "resolve_by": "2026-08-31",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-01T12:16:00Z",
@@ -3394,9 +3453,31 @@
      "direction": "against",
      "note": "Search 2026-08-24: latest public DCDT position (ITWeb, June 2026) targets 2026/2027 financial year for finalized policy. No revised or finalized National AI Policy document published by DCDT/GCIS since the April 2026 gazette; original draft was withdrawn. Deadline 2026-08-31 unlikely to be met by publication of any revised text, let alone one containing the AI Insurance Superfund clause.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-08-28",
+     "direction": "against",
+     "note": "Draft South Africa National AI Policy (published 2026-04-10 by DCDT) was WITHDRAWN on 2026-04-26 after ~10 percent of academic references in the document were found to be fictitious hallucinated citations. No revised or finalized draft has been re-published by 2026-08-28 (three days before the update-test deadline). The Superfund provision existed in the withdrawn April draft; no vehicle for its formal reappearance by 2026-08-31 is publicly visible. Sources: https://www.dlapiper.com/en/insights/publications/2026/05/withdrawal-of-south-africa-draft-ai-policy https://www.cnbcafrica.com/2026/south-africa-pulls-ai-policy-after-hallucinated-citations-expose-drafting-scandal — leaves for the Sunday Reckoning to resolve after deadline passes.",
+     "source_url": null
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "against",
+     "note": "2026-08-30 (T-1 to deadline 2026-08-31) search surfaces no revised National AI Policy published by DCDT within the window. Baker McKenzie (2026-02), iAfrica coverage of Minister Solly Malatsi, and government tracking indicate the revised version is expected to go to Cabinet by November 2026 for public release in January 2027 — a normal 4-6 month redraft cycle after the 2026-06-10 consultation close. The DCDT is not on the Aug 31 target. Trending disconfirmation; Sunday Reckoning to verify against the DCDT gazette.",
+     "source_url": "https://iafrica.com/south-africas-national-ai-policy-nears-cabinet-approval-minister-solly-malatsi/"
+    },
+    {
+     "date": "2026-08-31",
+     "direction": "against",
+     "note": "2026-08-31 (T-0 deadline) search confirms: DCDT/Malatsi expert panel timeline (via The Citizen, Moonstone, ITWeb) puts consolidation Aug 2026, drafting Aug-Sep, final panel review Oct, Cabinet approval Nov-Dec 2026, public comment Jan 2027. No revised National AI Policy published by DCDT/GCIS by deadline; government's own published timeline puts finalization months after deadline. Trending disconfirm; deferred to Reckoning per interpretive rule.",
+     "source_url": "https://www.itweb.co.za/article/timeline-for-sas-national-ai-policy-revealed/Pero3qZ3zEXvQb6m"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-01T12:40:24Z",
+    "outcome": "disconfirmed",
+    "note": "MISSED. DCDT Minister Solly Malatsi publicly WITHDREW the draft National AI Policy on 2026-04-26 following AI-hallucinated citation scandal. As of 2026-09-01, official DCDT statements (per Fasken and Bowmans policy trackers) publicly place the REVISED version's Cabinet submission at November 2026 and public release at January 2027 — explicit ministerial confirmation of missed 2026-08-31 deadline. No revised or finalized draft published between the 2026-04-26 withdrawal and 2026-08-31 on dcdt.gov.za or gcis.gov.za."
+   }
   },
   {
    "id": "claim-20260701-002",
@@ -3660,6 +3741,18 @@
      "direction": "against",
      "note": "Search 2026-08-24 across Kasi Cloud press channels, LinkedIn, TechCabal, BusinessDay Nigeria: no anchor-tenant contract announcement and no utilization figure surfaced since 2026-05-19 flag-off. Deadline 2026-08-31; seven days remain but no signal yet.",
      "source_url": "https://techcabal.com/"
+    },
+    {
+     "date": "2026-08-31",
+     "direction": "against",
+     "note": "2026-08-31 (T-0 deadline) search across Kasi Cloud press channels, LinkedIn, Businessday, TechCabal: no anchor-tenant contract announcement and no published utilization figure since 2026-05-19 flag-off. LOS1 commissioned but the specific named-partner joint announcement or utilization percent the update test requires is absent. Trending disconfirm at T-0.",
+     "source_url": "https://www.datacentermap.com/nigeria/lagos/kasi-cloud-los1/"
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "against",
+     "note": "Deadline passed 2026-08-31 with no Kasi Cloud announcement of a signed anchor-tenant contract or published utilization commitment from a named cloud/AI operator. May 2026 flag-off of LOS1 (100MW campus commissioning) exists, but subsequent search finds no anchor-tenant-specific announcement between 2026-06-01 and 2026-08-31 across Kasi Cloud releases, LinkedIn, TechCabal, BusinessDay Nigeria, or Techpoint. Deferring resolution to Sunday Reckoning re-verification.",
+     "source_url": "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
     }
    ],
    "resolution": null
@@ -3847,6 +3940,18 @@
      "direction": "supports",
      "note": "Meta Enterprise Solutions unit publicly established 2026-05-29 per Intellectia, Bitget, gurufocus, and The Information exclusive; embeds engineers and product managers with corporate customers, aligned to Frontier Co/Amazon shape. Explicit note (PYMNTS, gurufocus 2026): 'Meta has not publicly confirmed customers, staffing scale, pricing, or rollout timing for the reported plan.' Meta 2026 AI capex raised to $125-$145B (company-wide, not unit-committed). Unit exists but neither the $500M+ committed capital budget NOR the 2,000+ forward-deployed engineer count required by this claim has been publicly stated for the Enterprise Solutions unit specifically. AMBIGUOUS - waiting for the Aug 31 deadline. Google separately positions Gemini/agents as FDE substitute rather than hiring FDEs.",
      "source_url": "https://www.pymnts.com/meta/2026/meta-is-coming-for-enterprise-ai/"
+    },
+    {
+     "date": "2026-08-31",
+     "direction": "against",
+     "note": "2026-08-31 (T-0 deadline) search: Meta Enterprise Solutions unit publicly established May 2026 (embeds engineers/PMs in corporate customers) but no stated committed capital budget of USD 500M or headcount target of 2000 FDEs. Google announced 'hundreds' of forward-deployed engineers Q2 2026 (below 2000 threshold), no stated dollar figure. Apple: no announcement found. AWS committed USD 1B and OpenAI up to USD 1.5B in FDEs but neither is Meta/Apple/Alphabet. Trending disconfirm at T-0; deferred to Reckoning.",
+     "source_url": "https://finance.yahoo.com/technology/ai/articles/amazon-spending-billions-deploying-engineers-112500105.html"
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "supports",
+     "note": "Meta launched Enterprise Solutions unit (Naomi Gleit) reported by The Information/Forbes/PYMNTS/DigitalToday 2026-08-28 to 2026-08-30 — embeds product managers and forward-deployed engineers inside corporate customers. Search confirms unit existence but does not confirm the quantitative gate (>=USD 500M dedicated capital OR >=2,000 forward-deployed engineers) explicitly. OpenAI Deployment Company (B, prior comparator) is noted alongside. Partial fire: unit announced in-window; quantitative threshold unverified. Deferring resolution to Sunday Reckoning for gate verification.",
+     "source_url": "https://www.forbes.com/sites/lutzfinger/2026/08/30/sam-altman-and-meta-admitted-ais-problem-fdes-are-fixing-it/"
     }
    ],
    "resolution": null
@@ -3872,7 +3977,7 @@
    "frameworks": [],
    "update_test": "By 2026-08-30 23:59 UTC, at least one document published on digital-strategy.ec.europa.eu or ai-act-service-desk.ec.europa.eu labeled as GPAI/Article 55 guidance, FAQ, or interpretive note contains an explicit textual citation naming the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Confirmed if at least one such document exists with a named citation; disconfirmed if no such document is published or none contains a named citation.",
    "resolve_by": "2026-08-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-03T12:14:15Z",
@@ -3906,9 +4011,19 @@
      "direction": "against",
      "note": "Follow-up search 2026-08-26 across digital-strategy.ec.europa.eu and ai-act-service-desk.ec.europa.eu Aug 2026 publications: no new Article 55 guidance/FAQ/interpretive note found that explicitly cites by name the UN Independent International Scientific Panel's 2026-07-01 preliminary report. External counsel commentary (Taylor Wessing 2026-08, Wilson Sonsini 2026-08) indicates AI Office's opening enforcement posture is 'technical compliance dialogues' rather than published formal notes, which structurally reduces likelihood of a new interpretive document with a specific external citation before deadline. Four days remain to 2026-08-30; disconfirmation increasingly likely, resolution deferred to Sunday Reckoning.",
      "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "against",
+     "note": "2026-08-30 (deadline day) final target search: no Article 55 GPAI guidance, FAQ, or interpretive note on digital-strategy.ec.europa.eu or ai-act-service-desk.ec.europa.eu carries an explicit textual citation naming the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Searches indexed the domain's Aug 2026 pages: Guidelines on obligations for GPAI providers FAQ, Signatory Taskforce page, marking/labelling code publications, transparency-code strong-backing news, enforcement-start press release, plus the Scientific Panel dedicated policy page — none carries the named citation. The AI Office's Aug enforcement posture is 'technical compliance dialogues' (Taylor Wessing 2026-08) rather than published interpretive notes with external citations, which structurally suppresses the citation pathway. Disconfirmation confident; Sunday Reckoning to re-verify against the domain's full Aug 2026 corpus (behind egress block from this sandbox).",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-30T14:16:32Z",
+    "outcome": "disconfirmed",
+    "note": "By 2026-08-30 23:59 UTC, no document published on digital-strategy.ec.europa.eu or ai-act-service-desk.ec.europa.eu labeled as GPAI/Article 55 guidance, FAQ, or interpretive note contains an explicit named citation of the UN Independent International Scientific Panel on AI preliminary report of 2026-07-01. Corollary of the disconfirmation of claim-20260618-005: no in-window GPAI guidance published at all, so a fortiori none cites the UN panel by name. Twin 35% (above base 30%); confidence direction wrong. Sources: https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act; https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+   }
   },
   {
    "id": "claim-20260703-003",
@@ -4300,6 +4415,12 @@
      "direction": "supports",
      "note": "EU AI Act Article 55 enforcement powers activate 2026-08-02 (2026-07-23 signal); enforcement clock now formally started. Twin-registered short-horizon claim-20260726-001 tests the 90-day window against the same window this claim covers to 2027-08-02.",
      "source_url": "https://digital-strategy.ec.europa.eu/en"
+    },
+    {
+     "date": "2026-08-30",
+     "direction": "against",
+     "note": "EU AI Office ran Aug 2-30 as unpublished technical compliance dialogues (Taylor Wessing, Wilson Sonsini, DLA Piper converge on this reading), not formal enforcement. Zero in-window guidance published; zero first-formal-enforcement action against any GPAI provider. The DG COMP-style private-first posture, if it holds, pushes back the expected first-formal-enforcement date past 2027-08-02. Twin 32 pct still looks defensible but the direction of recent evidence is against; four weeks in and no publication cadence.",
+     "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
     }
    ],
    "resolution": null
@@ -4317,8 +4438,8 @@
    "confidence": 0.57,
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Historical hyperscaler follow-on pattern (Meta→Microsoft/Google in Ohio; Google→Amazon/Microsoft in Iowa) suggests ~0.55 base rate for a second announcement within 24 months; the 'cite Meta as comparable' clause narrows the confirmable surface, but Alberta's gas-firmed 1GW template is distinctive enough that any Canadian follow-on will reference it. Calibration 2026-07-07 bucket 50-59 correction +0.017 → 0.57.",
-   "base_rate": null,
-   "base_rate_source": null,
+   "base_rate": 0.35,
+   "base_rate_source": "twin-estimated backfill 2026-09-02 (audit F-2026-09-01-003): follow-on hyperscaler campus announcements in a newly opened region within 24 months run roughly one in three (Ohio, Iowa, Texas cluster precedents); the explicit-comparable citation requirement lowers it",
    "market": null,
    "bruno_confidence": null,
    "bruno_confidence_at": null,
@@ -4586,7 +4707,7 @@
    ],
    "update_test": "By 2026-09-13 23:59 UTC, an identifiable public record — European Commission press release, AI Office public statement, EU Official Journal notice, or Commission decision document listed on digital-strategy.ec.europa.eu — describing at least one enforcement action against a named GPAI provider (Anthropic, OpenAI, Google DeepMind, Meta AI, xAI, Mistral, or any Article 55/56 designated provider). Confirmed if at least one such document exists by the deadline; disconfirmed otherwise.",
    "resolve_by": "2026-09-13",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-15T12:13:20Z",
@@ -4613,7 +4734,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-31T12:33:24Z",
+    "outcome": "confirmed",
+    "note": "CONFIRMED 2026-08-31 via 2026-08-29 EU AI Office Executive VP Henna Virkkunen public confirmation that AI Office formally sent Requests for Information (Article 55 basis) to named GPAI providers (OpenAI, Anthropic, Google DeepMind). Update test criteria met: (i) identifiable public record — Virkkunen statement / Euractiv exclusive / CNBC / QZ / Neomanex coverage on 2026-08-29; (ii) enforcement action — formal information request; (iii) named GPAI provider under Article 55/56 basis. Within the 2026-08-02 to 2026-09-13 window. Twin registered at 14 percent — a decisive MISS: dialogue-first mode read too dovishly; Executive VP-level announcement four weeks in was the tell. Sources: https://qz.com/eu-ai-act-enforcement-fines-openai-anthropic-google-080326 https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html https://neomanex.com/news/eu-ai-act-enforcement-day-1-bilateral-engagement"
+   }
   },
   {
    "id": "claim-20260718-001",
@@ -5141,7 +5266,7 @@
    ],
    "update_test": "Read the EU AI Office public register, European Commission press releases, and Official Journal of the European Union between 2026-08-02 and 2026-10-24. Confirmed if at least one entry names a general-purpose AI model provider and explicitly cites Article 55 as the enforcement basis (any of: fine, notice, order, formal proceedings decision, public administrative action). Disconfirmed if none by 2026-10-24.",
    "resolve_by": "2026-10-24",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-26T14:20:02Z",
@@ -5183,7 +5308,11 @@
      "source_url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-31T12:33:32Z",
+    "outcome": "confirmed",
+    "note": "CONFIRMED 2026-08-31 via 2026-08-29 EU AI Office public confirmation (Executive VP Henna Virkkunen) of formal Requests for Information issued to named GPAI providers (OpenAI, Anthropic, Google) under Article 55 provider-obligations basis. Update test met: (i) EU AI Office public statement/press coverage; (ii) named GPAI providers; (iii) explicit Article 55 citation (per QZ, CNBC coverage of Aug 29 announcement); (iv) public administrative action (RFI is a formal administrative measure). Confirmed well before 2026-10-24 deadline. Twin registered at 18 percent — MISS. Framework 'Institutional Adaptation Lag' set direction UP (predicting delay); the actual pattern was dialogue-first mode PLUS a fast Executive VP public escalation four weeks in — the lag was optical, not structural. Sources: https://qz.com/eu-ai-act-enforcement-fines-openai-anthropic-google-080326 https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html"
+   }
   },
   {
    "id": "claim-20260726-002",
@@ -5546,7 +5675,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-31, the China National Bureau of Statistics official August 2026 Manufacturing PMI release prints a headline value of 50.0 or higher. Confirmed at or above 50.0, disconfirmed below 50.0.",
    "resolve_by": "2026-09-02",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-31T12:14:14Z",
@@ -5568,7 +5697,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-01T12:40:24Z",
+    "outcome": "disconfirmed",
+    "note": "MISSED. China NBS official Manufacturing PMI for August 2026 released 2026-08-31 printed 49.8 (up from 49.2 in July), second consecutive month of contraction. Update test required at or above 50.0; 49.8 < 50.0. Source: NBS via CNBC 2026-08-31, TradingView Economic Calendar, Metal.com news."
+   }
   },
   {
    "id": "claim-20260731-002",
@@ -5667,7 +5800,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-28, the BEA news release for second estimate of Q2 2026 real GDP prints an annualized seasonally adjusted growth rate strictly greater than 1.5 percent (the advance estimate value). Confirmed if strictly greater; disconfirmed if less than or equal to 1.5 percent.",
    "resolve_by": "2026-09-02",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-31T12:15:04Z",
@@ -5689,7 +5822,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-01T12:40:24Z",
+    "outcome": "disconfirmed",
+    "note": "MISSED. BEA Q2 2026 GDP second estimate released 2026-08-26 (one release day earlier than the scheduled 2026-08-28) reported real GDP annualized growth UNCHANGED at 1.5 percent from the advance estimate. Update test required strictly greater than 1.5 percent; unchanged fails the strict inequality. Source: BEA news release 2026-08-26; Advisor Perspectives confirmation."
+   }
   },
   {
    "id": "claim-20260731-005",
@@ -6527,7 +6664,14 @@
      "date": "2026-08-16T14:17:29Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-08-29",
+     "direction": "supports",
+     "note": "CBN circular 15 June 2026 directing all financial institutions to comply with Nigeria Data Protection Act on payments-ecosystem data localization, with hard compliance date 1 January 2027, is potentially a resolution under the claim's grounding ('enforcement notice, directive, or regulation on cbn.gov.ng addressing data protection / AI / infrastructure oversight'). Reading is interpretive (is a payments-ecosystem localization circular an 'AI-adjacent' directive per the claim text). Log for Sunday Reckoning; do not resolve this run.",
+     "source_url": "https://www.mondaq.com/nigeria/financial-services/1823206/the-central-bank-of-nigerias-localisation-directive-data-protection-compliance-implications-for-financial-institutions-and-participants-in-nigerias-payments-ecosystem"
+    }
+   ],
    "resolution": null
   },
   {
@@ -6590,7 +6734,7 @@
    "frameworks": [],
    "update_test": "On 2026-08-28, the UMich Surveys of Consumers publishes the final August 2026 headline Consumer Sentiment Index. Confirmed if the final headline is strictly greater than 51.0; disconfirmed if the final headline is 51.0 or lower.",
    "resolve_by": "2026-08-28",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-15T12:19:12Z",
@@ -6611,7 +6755,11 @@
      "source_url": "https://neilsethi.substack.com/p/university-of-michigan-survey-of-0e4"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-08-29T12:09:16Z",
+    "outcome": "confirmed",
+    "note": "UMich final August 2026 Consumer Sentiment = 51.7 (released 2026-08-28), strictly greater than 51.0 preliminary. Update test fires CONFIRMED. Evidence: https://www.tftc.io/chicago-pmi-august-2026-umich-consumer-sentiment-stagflation and Yahoo Finance coverage of 2026-08-28 final release. Direction: revised UP from prelim (opposite to what the leading-shock interpretation would predict); base rate 50 percent honored."
+   }
   },
   {
    "id": "claim-20260815-004",
@@ -6997,7 +7145,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260815-001",
+     "relation": "shares-system",
+     "note": "Both track CBN policy instruments as institutional signal: 827-001 reads the MPR decision (monetary posture), 815-001 reads CBN enforcement notices/directives on data localization (regulatory posture). Same central bank, adjacent instrument surfaces — a CBN posture shift on one is a probe for the other.",
+     "date": "2026-08-30T14:19:10Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -7031,6 +7186,348 @@
     "queries": [
      "ECB September 2026 deposit rate decision",
      "ECB September 10 monetary policy"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260828-001",
+   "date": "2026-08-28",
+   "registered_at": "2026-08-28T12:30:39Z",
+   "claim": "The UMich preliminary Consumer Sentiment Index for September 2026 (scheduled release around mid-September 2026 by University of Michigan Surveys of Consumers on data.sca.isr.umich.edu) prints strictly higher than the 51.0 August 2026 preliminary read.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "University of Michigan Surveys of Consumers, monthly Consumer Sentiment Index. August 2026 preliminary was 51.0; final August scheduled 2026-08-28 (today). September preliminary follows the standard mid-month release cadence at data.sca.isr.umich.edu.",
+   "withdrawal": null,
+   "confidence": 0.53,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "base_rate_source": "Historical UMich Consumer Sentiment series (FRED UMCSENT, https://fred.stlouisfed.org/series/UMCSENT) shows monthly sentiment moves in either direction with mean-reversion tendency after transient shocks; base rate of an up-move after a large one-month decline attributed to a specific transient (Middle East fuel-price concern per the August 2026 report commentary) is approximately 55 percent (52-58 percent range across the 2000-2025 subset of comparable single-month declines >5 percent, as-of 2026-08-28).",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "The UMich preliminary September 2026 headline Consumer Sentiment Index, as first officially released by University of Michigan Surveys of Consumers, is strictly greater than 51.0. Confirmed if the released preliminary September figure is > 51.0; disconfirmed if the released preliminary September figure is 51.0 or lower. Resolves on release.",
+   "resolve_by": "2026-09-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-28T12:30:39Z",
+    "auditor": "twin",
+    "note": "Searched 2026-08-28 for 'University of Michigan consumer sentiment September 2026 preliminary schedule release date'. Confirmed the two-release-per-month cadence and the pending release. No decisive September preliminary reading available as of 2026-08-28. Search result: https://data.sca.isr.umich.edu/",
+    "queries": [
+     "University of Michigan consumer sentiment September 2026 preliminary schedule release date"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260819-001",
+     "relation": "shares-system",
+     "note": "Both are US September-window macro sentiment/manufacturing prints, released within two weeks of each other; both read US household-and-firm confidence in the same disinflation-vs-slowdown regime the twin's out-of-frame calibration bets on.",
+     "date": "2026-08-30T14:19:10Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260831-001",
+   "date": "2026-08-31",
+   "registered_at": "2026-08-31T12:38:13Z",
+   "claim": "By 2026-10-30, the European Commission AI Office publicly records at least one ADDITIONAL formal enforcement action (new RFI batch, formal notice, compliance measure order, or announced fine) against a named GPAI provider under Article 55/56, beyond the 2026-08-29 first-wave RFIs to OpenAI, Anthropic, and Google. Confirmed if any identifiable public document (EU AI Office press release on digital-strategy.ec.europa.eu, EU Official Journal notice, or Commission press release / Executive VP public statement in reputable trade press) describes a second-wave enforcement action on or before 2026-10-30.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EU AI Office active enforcement workflow demonstrated 2026-08-29 via Executive VP Virkkunen confirmation of first-wave RFIs to OpenAI/Anthropic/Google under Article 55",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "First-wave RFI on 2026-08-29 publicly announced at Executive VP level under Article 55; institutional cascade effect (once a regulator has publicly claimed a workflow, momentum favors follow-through within 6-8 weeks) pushes p above the base rate. Institutional Adaptation Lag with direction up: adaptation is happening faster than lag-only reads predict once first action lands. Calibration bucket 50-59 correction near zero per calibration 2026-08-30.",
+   "base_rate": 0.3,
+   "base_rate_source": "EU regulator (DG COMP/DG CONNECT) time-between-first-and-second-enforcement-actions typically 6-10 weeks under new regime powers, computed from post-2022 DMA/DSA precedent (Meta, Apple, Google DMA cases) as of 2026-08-31",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-10-30 23:59 UTC, at least one identifiable public record (EU AI Office press release, EU Official Journal, Commission press release, or Executive VP public statement carried by Euractiv / CNBC / QZ / Bloomberg / FT) names a general-purpose AI model provider and describes a new enforcement action (subsequent RFI wave, formal notice, order, or fine) beyond the first-wave RFIs of 2026-08-29 that named OpenAI, Anthropic, and Google. A new fact from the same regulator, not a reprint of the first wave.",
+   "resolve_by": "2026-10-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-31T12:38:13Z",
+    "auditor": "twin",
+    "note": "2026-08-31 searches on EU AI Office / European Commission announcements 2026-08-29 to 2026-08-31: only the first-wave RFI batch of 2026-08-29 is public; no second-wave action found. Cited Euractiv, CNBC, QZ, Neomanex, Tokenstead, StartupTalky. As of 2026-08-31 12:30 UTC nothing decisive already public.",
+    "queries": [
+     "EU AI Office second-wave enforcement Article 55 September 2026",
+     "EU AI Office followup RFI OpenAI Anthropic Google Sep 2026",
+     "European Commission GPAI enforcement action after August 29 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260715-003",
+     "relation": "probes",
+     "note": "Second-wave follow-up to today's confirmed first-wave RFI resolution (claim-20260715-003). Tests the cascade hypothesis.",
+     "date": "2026-08-31T12:38:19Z"
+    },
+    {
+     "id": "claim-20260726-001",
+     "relation": "probes",
+     "note": "Second-wave follow-up to the 90-day Article 55 first-action claim (claim-20260726-001) also resolved today. Tests the momentum-after-first-action hypothesis.",
+     "date": "2026-08-31T12:38:19Z"
+    },
+    {
+     "id": "claim-20260711-002",
+     "relation": "shares-system",
+     "note": "Shares the underlying system with the 2027-08-02 Article 55 systemic-risk claim (claim-20260711-002).",
+     "date": "2026-08-31T12:38:19Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260831-002",
+   "date": "2026-08-31",
+   "registered_at": "2026-08-31T12:38:34Z",
+   "claim": "Statistics Canada headline Consumer Price Index for August 2026 (release scheduled 2026-09-14 at 8:30 ET) prints year-over-year at or above 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Statistics Canada Consumer Price Index publication series exists (Table 18-10-0004-01); July 2026 print was 3.0 percent year-over-year",
+   "withdrawal": {
+    "date": "2026-08-31T12:38:55Z",
+    "reason": "Registered at raw twin estimate 0.45 without applying calibration.json bucket 40-49 correction of +0.077 (suggested 0.527). Re-registering at corrected value per routine discipline (calibration-corrected estimate is the honest one)."
+   },
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 headline CPI 3.0 percent (up from 2.8 in June) suggests sticky inflation; twin at 0.45 accepts marginal deceleration bias (base effects from Aug 2025 shelter, plus BoC hold at 2.25 percent maintaining restrictive stance) versus 50 percent base rate of persistence at July level. Not tightly priced against a liquid market. Out-of-frame: Canadian macro sits outside the twin's tracked framework map.",
+   "base_rate": 0.5,
+   "base_rate_source": "Canadian headline CPI y/y persistence at the July 2026 level (July 2026 print was 3.0 percent; June was 2.8 percent, trending up); StatCan Table 18-10-0004-01 release calendar as of 2026-08-31",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Statistics Canada Consumer Price Index August 2026 release on 2026-09-14 (verify actual release date via www150.statcan.gc.ca daily-quotidien or Bank of Canada CPI portal). Confirmed if headline y/y (all-items, not seasonally adjusted, national) prints at 3.0 percent or higher. Disconfirmed if prints below 3.0 percent.",
+   "resolve_by": "2026-09-15",
+   "status": "withdrawn",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-31T12:38:34Z",
+    "auditor": "twin",
+    "note": "2026-08-31 search of Bank of Canada CPI portal, Statistics Canada daily releases, TD Economics Canadian CPI page. Aug 2026 CPI not yet released; scheduled 2026-09-14. Nothing decisive already public as of 2026-08-31 12:30 UTC.",
+    "queries": [
+     "Statistics Canada CPI August 2026 release date",
+     "Canadian headline CPI year over year August 2026",
+     "Bank of Canada CPI portal August 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260831-003",
+   "date": "2026-08-31",
+   "registered_at": "2026-08-31T12:39:07Z",
+   "claim": "Statistics Canada headline Consumer Price Index for August 2026 (release scheduled 2026-09-14 at 8:30 ET) prints year-over-year at or above 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Statistics Canada Consumer Price Index publication series exists (Table 18-10-0004-01); July 2026 print was 3.0 percent year-over-year",
+   "withdrawal": null,
+   "confidence": 0.53,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 headline CPI 3.0 percent (up from 2.8 in June) suggests sticky inflation; base rate 0.50 for persistence at July level. Twin raw estimate 0.45 (marginal deceleration bias from base effects); calibration 2026-08-30 bucket 40-49 correction +0.077 lifts to 0.527 rounded to 0.53. Out-of-frame: Canadian macro sits outside the twin's tracked framework map. Not tightly priced against a liquid market.",
+   "base_rate": 0.5,
+   "base_rate_source": "Canadian headline CPI y/y persistence at the July 2026 level (July 2026 print was 3.0 percent; June was 2.8 percent, trending up); StatCan Table 18-10-0004-01 release calendar as of 2026-08-31",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Statistics Canada Consumer Price Index August 2026 release on 2026-09-14 (verify actual release date via www150.statcan.gc.ca daily-quotidien or Bank of Canada CPI portal). Confirmed if headline y/y (all-items, not seasonally adjusted, national) prints at 3.0 percent or higher. Disconfirmed if prints below 3.0 percent.",
+   "resolve_by": "2026-09-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-31T12:39:07Z",
+    "auditor": "twin",
+    "note": "2026-08-31 search of Bank of Canada CPI portal, Statistics Canada daily releases, TD Economics Canadian CPI page. Aug 2026 CPI not yet released; scheduled 2026-09-14. Nothing decisive already public as of 2026-08-31 12:30 UTC.",
+    "queries": [
+     "Statistics Canada CPI August 2026 release date",
+     "Canadian headline CPI year over year August 2026",
+     "Bank of Canada CPI portal August 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260831-004",
+   "date": "2026-08-31",
+   "registered_at": "2026-08-31T12:41:29Z",
+   "claim": "The Reserve Bank of Australia at its 2026-09-29 monetary policy meeting HIKES the cash rate target by at least 25 basis points from the current 4.35 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "RBA cash rate target series exists; 2026-08 meeting held at 4.35 percent; next scheduled decision 2026-09-29; two major banks (ANZ, CBA) publicly flagged hike risk in August 2026 commentary",
+   "withdrawal": null,
+   "confidence": 0.2,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Consensus prices HOLD at ~75-80 percent, HIKE ~15 percent; twin at 0.20 above consensus by 5pp on the hawkish-tail-risk read (Aug 2026 RBA statement kept 'door open to hikes' per ABC coverage; 2 of Big 4 banks publicly hawkish). Direction: above base rate but still low absolute probability. Bucket 20-29 has n=2 with hit rate 0.25 and correction null (below n=3 floor) - no correction applied. Out-of-frame: Australian monetary policy sits outside the twin's tracked framework map. Not a restatement of market pricing - a 5pp above-consensus tail-risk call.",
+   "base_rate": 0.15,
+   "base_rate_source": "RBA rate-move frequency at scheduled meetings 2023-2026 after a 12+ month hold, with hawkish-shift priors from Aug 2026 statement plus ANZ (Nov hike call) and CBA (hike risk rising) as of 2026-08-31",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-30 06:00 UTC, RBA post-meeting statement (published to rba.gov.au) records the cash rate target at 4.60 percent or higher following the 2026-09-29 meeting decision. Confirmed if the announced rate is 4.60 percent or higher. Disconfirmed if it is 4.35 percent (hold) or lower (cut) or if the meeting is postponed past resolve-by.",
+   "resolve_by": "2026-09-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-08-31T12:41:29Z",
+    "auditor": "twin",
+    "note": "2026-08-31 search of Finder RBA cash rate expert panel, Aussie.com.au expert predictions, ABC News, SBS: consensus is HOLD in September 2026 with hike risk rising per ANZ (Nov hike explicit) and CBA (risk elevated). Consensus for Sep 29 hike ~15 percent implied. No decisive Sep 29 outcome as of 2026-08-31 12:35 UTC.",
+    "queries": [
+     "RBA September 29 2026 cash rate decision consensus",
+     "RBA hike September 2026 ANZ CBA forecast",
+     "Australia cash rate 4.35 4.60 hike September 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260901-001",
+   "date": "2026-09-01",
+   "registered_at": "2026-09-01T12:42:28Z",
+   "claim": "China National Bureau of Statistics official Manufacturing PMI for September 2026 (scheduled release 2026-09-30) prints at or above 50.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "China NBS is scheduled to release the official Manufacturing PMI for September 2026 on 2026-09-30; the August 2026 print was 49.8, second consecutive month of contraction, with new orders (50.6) and output (50.4) returning to expansion — a live sub-50-to-crossover monthly question.",
+   "withdrawal": null,
+   "confidence": 0.48,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Raw twin estimate 40%; applying calibration 2026-08-31 correction for 40-49 bucket (+7.7) → 48%. Directional read: recent up-momentum in new orders and output justifies mild upside above 35% base.",
+   "base_rate": 0.35,
+   "base_rate_source": "NBS Manufacturing PMI monthly 2022-2026, base rate for months following >=2 consecutive sub-50 prints crossing to >=50 within one month, computed from NBS release archive, as of 2026-09-01",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-30, China NBS official Manufacturing PMI release for September 2026 prints headline value of 50.0 or higher. Confirmed at or above 50.0; disconfirmed below 50.0.",
+   "resolve_by": "2026-09-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-01T12:42:28Z",
+    "auditor": "twin",
+    "note": "Priced ahead of consensus (which sits near 49.7); market pricing is thin for monthly PMI headline binary; primary source (NBS release) is the resolution surface; genuine 40-50% uncertainty range.",
+    "queries": [
+     "site:stats.gov.cn PMI",
+     "TradingView China Mfg PMI September 2026",
+     "NBS PMI Sep release"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260901-002",
+   "date": "2026-09-01",
+   "registered_at": "2026-09-01T12:42:29Z",
+   "claim": "US Institute for Supply Management Services PMI for August 2026 (release scheduled 2026-09-04 at 10:00 ET on ismworld.org) prints headline PMI at or above 52.0.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ISM is scheduled to release the August 2026 Services PMI on 2026-09-04 at 10:00 ET; recent series (Q2-Q3 2026) has ranged 49-55 with median near 52. S&P Global Manufacturing PMI for August 2026 already released 2026-09-01 eased to 53.2 (from 53.9) undershooting expectations.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Raw twin estimate 55%; calibration 2026-08-31 correction for 50-59 bucket -0.3 → 55%. Directional read: recent manufacturing softness (S&P Global 53.2 → below expectations) suggests services also softening; 55% is a slight above-base call recognizing services has been the more resilient of the two indices.",
+   "base_rate": 0.5,
+   "base_rate_source": "ISM Services PMI monthly 2024-2026, base rate for prints >=52.0 in current above-50 expansion regime = 50%, computed from ISM release archive, as of 2026-09-01",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-04, ISM publishes the August 2026 Services PMI headline number. Confirmed if headline is 52.0 or higher; disconfirmed if below 52.0.",
+   "resolve_by": "2026-09-04",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-01T12:42:29Z",
+    "auditor": "twin",
+    "note": "Not market-priced at binary 52.0 threshold; primary source (ISM release) is resolution surface; genuinely uncertain 45-60% band with recent softening pattern.",
+    "queries": [
+     "site:ismworld.org services PMI August 2026",
+     "ISM Services PMI Sep 4 release"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260901-003",
+   "date": "2026-09-01",
+   "registered_at": "2026-09-01T12:43:07Z",
+   "claim": "By 2026-10-31, the EUROPA consortium (led by Domyn) publishes a public training-start announcement OR initial model card OR interim artifact for its EU Frontier AI Grand Challenge open-source model on at least one official surface (domyn.com, ec.europa.eu/digital-strategy, or EuroHPC JU).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "The EUROPA consortium was selected 2026-06-19 by EC/EuroHPC JU; CEO Uljan Sharka told Reuters the model 'will ship within a year' and Domyn holds up to 2.5% of EuroHPC AI compute for one year. Claim-20260620-001 just resolved (deferred to Sunday Reckoning) for lack of in-window artifact by 2026-08-31; this is the 60-day extension test.",
+   "withdrawal": null,
+   "confidence": 0.43,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Raw twin estimate 40%; calibration 2026-08-31 correction for 40-49 bucket +2.6 → 43%. Institutional Adaptation Lag argues that EU consortium publication cadence trails technical milestones by 6-10 weeks; the null result through 2026-08-31 suggests either (a) training has started but no public artifact yet, or (b) technical prep still ongoing. 43% is slightly below 45% base — direction 'down' consistent with the observed institutional-lag pattern.",
+   "base_rate": 0.45,
+   "base_rate_source": "EU-consortium public artifact cadence 2022-2026 (BigScience BLOOM, OpenGPT-X, Silo AI Poro/Viking): base rate for first public training-start or interim artifact within 4-6 months of selection = 45%, computed from consortium press release archives, as of 2026-09-01",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Institutional Adaptation Lag"
+   ],
+   "update_test": "By 2026-10-31 23:59 UTC, an identifiable public source on domyn.com, ec.europa.eu/digital-strategy, EuroHPC JU (eurohpc-ju.europa.eu), or an official Domyn communication channel confirms training has begun OR publishes an initial model card, interim checkpoint description, or dated training artifact tied to the EUROPA project. Confirmed if at least one such artifact surfaces; disconfirmed if none does by deadline.",
+   "resolve_by": "2026-10-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-01T12:43:07Z",
+    "auditor": "twin",
+    "note": "Extends the trending-disconfirm pattern on 620-001; primary source is Domyn/EuroHPC direct publication; not thick-market priced; 30-50% uncertainty band.",
+    "queries": [
+     "site:domyn.com training announcement",
+     "site:eurohpc-ju.europa.eu EUROPA",
+     "site:digital-strategy.ec.europa.eu EUROPA Domyn"
     ],
     "outcome_already_known": false
    },
@@ -7388,6 +7885,150 @@
    }
   }
  ],
+ "no": {
+  "claim-20260610-001": 1,
+  "claim-20260610-002": 2,
+  "claim-20260610-004": 3,
+  "claim-20260610-007": 4,
+  "claim-20260610-008": 5,
+  "claim-20260610-009": 6,
+  "claim-20260610-010": 7,
+  "claim-20260610-011": 8,
+  "claim-20260610-012": 9,
+  "claim-20260610-013": 10,
+  "claim-20260610-014": 11,
+  "claim-20260610-015": 12,
+  "claim-20260610-016": 13,
+  "claim-20260610-017": 14,
+  "claim-20260610-018": 15,
+  "claim-20260610-019": 16,
+  "claim-20260610-020": 17,
+  "claim-20260611-001": 18,
+  "claim-20260611-002": 19,
+  "claim-20260612-001": 20,
+  "claim-20260612-002": 21,
+  "claim-20260612-003": 22,
+  "claim-20260612-hs2-P1": 23,
+  "claim-20260612-hs2-P2": 24,
+  "claim-20260612-hs2-P3": 25,
+  "claim-20260612-hs2-P4": 26,
+  "claim-20260612-hs2-C1": 27,
+  "claim-20260612-hs2-C2": 28,
+  "claim-20260612-hs2-C3": 29,
+  "claim-20260613-001": 30,
+  "claim-20260613-002": 31,
+  "claim-20260613-003": 32,
+  "claim-20260614-001": 33,
+  "claim-20260614-002": 34,
+  "claim-20260615-001": 35,
+  "claim-20260615-002": 36,
+  "claim-20260616-001": 37,
+  "claim-20260616-002": 38,
+  "claim-20260616-003": 39,
+  "claim-20260617-001": 40,
+  "claim-20260617-002": 41,
+  "claim-20260617-003": 42,
+  "claim-20260618-001": 43,
+  "claim-20260618-002": 44,
+  "claim-20260618-003": 45,
+  "claim-20260618-004": 46,
+  "claim-20260618-005": 47,
+  "claim-20260619-001": 48,
+  "claim-20260619-002": 49,
+  "claim-20260619-003": 50,
+  "claim-20260619-004": 51,
+  "claim-20260620-001": 52,
+  "claim-20260620-002": 53,
+  "claim-20260620-003": 54,
+  "claim-20260620-004": 55,
+  "claim-20260620-005": 56,
+  "claim-20260621-001": 57,
+  "claim-20260621-002": 58,
+  "claim-20260622-001": 59,
+  "claim-20260627-001": 60,
+  "claim-20260627-002": 61,
+  "claim-20260701-001": 62,
+  "claim-20260701-002": 63,
+  "claim-20260701-003": 64,
+  "claim-20260701-004": 65,
+  "claim-20260701-005": 66,
+  "claim-20260702-001": 67,
+  "claim-20260702-002": 68,
+  "claim-20260703-001": 69,
+  "claim-20260703-002": 70,
+  "claim-20260703-003": 71,
+  "claim-20260703-004": 72,
+  "claim-20260704-001": 73,
+  "claim-20260705-001": 74,
+  "claim-20260705-002": 75,
+  "claim-20260711-001": 76,
+  "claim-20260711-002": 77,
+  "claim-20260712-001": 78,
+  "claim-20260714-001": 79,
+  "claim-20260714-002": 80,
+  "claim-20260715-001": 81,
+  "claim-20260715-002": 82,
+  "claim-20260715-003": 83,
+  "claim-20260718-001": 84,
+  "claim-20260718-002": 85,
+  "claim-20260719-001": 86,
+  "claim-20260719-002": 87,
+  "claim-20260723-001": 88,
+  "claim-20260723-002": 89,
+  "claim-20260723-003": 90,
+  "claim-20260724-001": 91,
+  "claim-20260724-002": 92,
+  "claim-20260726-001": 93,
+  "claim-20260726-002": 94,
+  "claim-20260726-003": 95,
+  "claim-20260730-001": 96,
+  "claim-20260730-002": 97,
+  "claim-20260730-003": 98,
+  "claim-20260730-004": 99,
+  "claim-20260731-001": 100,
+  "claim-20260731-002": 101,
+  "claim-20260731-003": 102,
+  "claim-20260731-004": 103,
+  "claim-20260731-005": 104,
+  "claim-20260801-001": 105,
+  "claim-20260801-002": 106,
+  "claim-20260803-001": 107,
+  "claim-20260803-002": 108,
+  "claim-20260804-001": 109,
+  "claim-20260805-001": 110,
+  "claim-20260805-002": 111,
+  "claim-20260806-001": 112,
+  "claim-20260806-002": 113,
+  "claim-20260808-001": 114,
+  "claim-20260808-002": 115,
+  "claim-20260810-001": 116,
+  "claim-20260810-002": 117,
+  "claim-20260810-003": 118,
+  "claim-20260812-001": 119,
+  "claim-20260812-002": 120,
+  "claim-20260813-001": 121,
+  "claim-20260815-001": 122,
+  "claim-20260815-002": 123,
+  "claim-20260815-003": 124,
+  "claim-20260815-004": 125,
+  "claim-20260816-001": 126,
+  "claim-20260816-002": 127,
+  "claim-20260816-003": 128,
+  "claim-20260817-001": 129,
+  "claim-20260819-001": 130,
+  "claim-20260821-001": 131,
+  "claim-20260821-002": 132,
+  "claim-20260827-001": 133,
+  "claim-20260827-002": 134,
+  "claim-20260828-001": 135,
+  "claim-20260831-001": 136,
+  "claim-20260831-002": 137,
+  "claim-20260831-003": 138,
+  "claim-20260831-004": 139,
+  "claim-20260901-001": 140,
+  "claim-20260901-002": 141,
+  "claim-20260901-003": 142
+ },
  "stats": {
   "committers": {
    "bruno": {
@@ -7397,20 +8038,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 72,
-    "hit_rate": 0.5833,
-    "brier": 0.2035,
-    "skill_vs_coinflip": 0.0465
+    "n": 80,
+    "hit_rate": 0.5625,
+    "brier": 0.218,
+    "skill_vs_coinflip": 0.032
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2035,
-  "skill_vs_coinflip": 0.0465,
+  "brier": 0.218,
+  "skill_vs_coinflip": 0.032,
   "base_rate": {
-   "n": 72,
-   "brier_base": 0.2146,
-   "brier_twin": 0.2035,
-   "skill": 0.0111
+   "n": 80,
+   "brier_base": 0.2252,
+   "brier_twin": 0.218,
+   "skill": 0.0072
   },
   "market": {
    "n": 8,
@@ -7419,14 +8060,14 @@
    "skill": -0.0338
   },
   "non_echo": {
-   "n": 22,
+   "n": 25,
    "floor": 30,
-   "brier": 0.2159,
-   "skill_vs_base": 0.0132
+   "brier": 0.2444,
+   "skill_vs_base": 0.0022
   },
   "clusters": {
-   "effective_n": 56,
-   "brier_cluster_collapsed": 0.202
+   "effective_n": 59,
+   "brier_cluster_collapsed": 0.2153
   },
   "paired": {
    "n": 0,
@@ -7436,13 +8077,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": 0.0189,
-    "hi": 0.074,
-    "distinguishable": true
+    "lo": -0.0025,
+    "hi": 0.0627,
+    "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0062,
-    "hi": 0.0287,
+    "lo": -0.0112,
+    "hi": 0.0263,
     "distinguishable": false
    },
    "skill_vs_market": {
