@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7008,7 +7008,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-02, ISM publishes the August 2026 Manufacturing PMI headline number. Confirmed if headline is strictly less than 50.0; disconfirmed if 50.0 or higher.",
    "resolve_by": "2026-09-03",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-19T12:13:36Z",
@@ -7027,7 +7027,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-03T12:23:02Z",
+    "outcome": "disconfirmed",
+    "note": "ISM Manufacturing PMI for August 2026 released 2026-09-02 at 10:00 ET, headline 54.6 percent, expansion for the eighth consecutive month. Threshold was <50.0, actual 54.6 - disconfirmed. Evidence: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-6-august-2026-ism-manufacturing-pmi-report-302865127.html"
+   }
   },
   {
    "id": "claim-20260821-001",
@@ -7717,6 +7721,44 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260903-001",
+   "date": "2026-09-03",
+   "registered_at": "2026-09-03T12:28:04Z",
+   "claim": "US Bureau of Labor Statistics Consumer Price Index for August 2026 (release scheduled 2026-09-11 at 08:30 ET on bls.gov) reports headline all-items CPI year-over-year change at or above 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BLS Consumer Price Index for All Urban Consumers, headline all-items series, monthly release at bls.gov/cpi. August 2026 release is scheduled 2026-09-11.",
+   "withdrawal": null,
+   "confidence": 0.22,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.28,
+   "base_rate_source": "US CPI headline y/y monthly prints April 2026 through July 2026: 2.6, 2.7, 2.7, 2.7 (BLS CPI news release archive at bls.gov/cpi). Share of months in the recent regime at or above 3.0 percent is 0 of 4 immediate; broader rolling 12-month share approximately 25-30 percent. Anchor: BLS CPI monthly frequency 2025-08 through 2026-07, as of 2026-09-03.",
+   "market": {
+    "price": 0.28,
+    "source": "Kalshi and Polymarket price the CPI 3.0-plus threshold in the 0.25-0.35 range, dependent on wording; not tightly pinned, roughly at base rate."
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-11, BLS publishes the August 2026 CPI. Confirmed if the headline all-items CPI y/y (seasonally adjusted, first release) is 3.0 percent or higher; disconfirmed if strictly below 3.0 percent.",
+   "resolve_by": "2026-09-11",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-03T12:28:04Z",
+    "auditor": "twin",
+    "note": "Searched Morningstar, Reuters, and Finance Calendar 2026-09-03 for August 2026 CPI y/y forecasts; Reuters consensus is 2.9 percent, Ameriprise chief econ sees hotter 0.4 percent MoM which lifts y/y risk. No print is public; release is 2026-09-11.",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8213,7 +8255,8 @@
   "claim-20260902-001": 143,
   "claim-20260902-002": 144,
   "claim-20260902-003": 145,
-  "claim-20260902-004": 146
+  "claim-20260902-004": 146,
+  "claim-20260903-001": 147
  },
  "stats": {
   "committers": {
@@ -8224,20 +8267,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 83,
-    "hit_rate": 0.5422,
-    "brier": 0.2183,
-    "skill_vs_coinflip": 0.0317
+    "n": 84,
+    "hit_rate": 0.5357,
+    "brier": 0.2197,
+    "skill_vs_coinflip": 0.0303
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2183,
-  "skill_vs_coinflip": 0.0317,
+  "brier": 0.2197,
+  "skill_vs_coinflip": 0.0303,
   "base_rate": {
-   "n": 83,
-   "brier_base": 0.2235,
-   "brier_twin": 0.2183,
-   "skill": 0.0051
+   "n": 84,
+   "brier_base": 0.2251,
+   "brier_twin": 0.2197,
+   "skill": 0.0054
   },
   "market": {
    "n": 8,
@@ -8253,7 +8296,7 @@
   },
   "clusters": {
    "effective_n": 61,
-   "brier_cluster_collapsed": 0.214
+   "brier_cluster_collapsed": 0.2146
   },
   "paired": {
    "n": 0,
@@ -8263,12 +8306,12 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0027,
-    "hi": 0.0628,
+    "lo": -0.0033,
+    "hi": 0.0612,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.014,
+    "lo": -0.0139,
     "hi": 0.0238,
     "distinguishable": false
    },

@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated on each resolution and each Sunday Reckoning. The misses stay on the board.
 
-**Record: 44✓ · 37✗ · 2◐ · 52 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 82 calibration · 1 structural · Brier 0.218 (coin-flip = 0.250; 83 scored across 61 independent events, cluster-collapsed Brier 0.214), skill vs coin-flip +0.032 (95% CI -0.003..+0.063; not yet distinguishable from zero) · skill vs base rate +0.005 (95% CI -0.014..+0.024; not yet distinguishable from zero) (n=83 carrying a recorded base rate) · skill vs market -0.034 (95% CI -0.062..-0.010; distinguishably below zero) (n=8 with a listed market price) · non-echo record: n=26 of 83 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 44✓ · 38✗ · 2◐ · 52 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 83 calibration · 1 structural · Brier 0.220 (coin-flip = 0.250; 84 scored across 61 independent events, cluster-collapsed Brier 0.215), skill vs coin-flip +0.030 (95% CI -0.003..+0.061; not yet distinguishable from zero) · skill vs base rate +0.005 (95% CI -0.014..+0.024; not yet distinguishable from zero) (n=84 carrying a recorded base rate) · skill vs market -0.034 (95% CI -0.062..-0.010; distinguishably below zero) (n=8 with a listed market price) · non-echo record: n=26 of 84 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✗ "By 2026-08-31, at least one of Meta, Apple, or Alphabet publicly announces a forward-deployed AI implementation unit wit" — said 60%, resolved disconfirmed (2026-09-02)**
+**Latest: ✗ "US Institute for Supply Management Manufacturing PMI for August 2026 (release scheduled 2026-09-02 at 10:00 ET on ismwor" — said 58%, resolved disconfirmed (2026-09-03)**
 
-_Updated 2026-09-02 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-09-03 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -34,11 +34,11 @@ _Updated 2026-09-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260819-001"></a>US Institute for Supply Management Manufacturing PMI for August 2026 (release scheduled 2026-09-02 at 10:00 ET on ismworld.org) prints headline PMI below 50.0. | **58%** | 60% | world |  2026-09-03 |
 | <a id="claim-20260901-002"></a>US Institute for Supply Management Services PMI for August 2026 (release scheduled 2026-09-04 at 10:00 ET on ismworld.org) prints headline PMI at or above 52.0. | **55%** | 50% | world |  2026-09-04 |
 | <a id="claim-20260815-004"></a>The US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-04 at 08:30 ET on bls.gov) prints the headline U-3 unemployment rate at 4.2 percent or above. | **55%** | 40% | world |  2026-09-05 |
 | <a id="claim-20260731-002"></a>US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-05 at 08:30 ET) reports total nonfarm payroll employment change at or above 100,000 (headline seasonally adjusted, first release). | **75%** | 65% | world |  2026-09-08 |
 | <a id="claim-20260827-002"></a>The European Central Bank Governing Council at its 2026-09-10/11 monetary policy meeting keeps the deposit facility rate unchanged at 2.00 percent. | **58%** | 55% | world |  2026-09-11 |
+| <a id="claim-20260903-001"></a>US Bureau of Labor Statistics Consumer Price Index for August 2026 (release scheduled 2026-09-11 at 08:30 ET on bls.gov) reports headline all-items CPI year-over-year change at or above 3.0 percent. | **22%** | 28% | world |  2026-09-11 |
 | <a id="claim-20260704-001"></a>By 2026-09-15, an identifiable public document (AfCFTA Secretariat announcement on au-afcfta.org, government gazette, or press release from the Ministry of Trade/Industry in Kenya, Morocco, or Nigeria) uses the specific phrase 'Country Implementation Forum' or 'CIF' as a proper name AND names either a chairperson, a member roster, or terms of reference for the AfCFTA ADAPT CIF in at least one pilot country. | **42%** | 40% | world |  2026-09-15 |
 | <a id="claim-20260719-002"></a>The World Artificial Intelligence Cooperation Organization (WAICO) member or signatory count reported by an official Chinese government English-language source (english.news.cn, english.www.gov.cn, or an official WAICO communication) reaches 33 or more by 2026-09-15. | **62%** | 45% | world |  2026-09-15 |
 | <a id="claim-20260730-003"></a>By 2026-09-15, the Kenya Ministry of Information, Communications and the Digital Economy publishes a revised draft, gazette notice, or final published version of the AI and Emerging Technologies Policy that names a SPECIFIC pledged compute figure for the National AI Compute Access Programme — either a GPU count, teraflop/petaflop capacity, or dollar-denominated compute-purchase commitment. | **35%** | 25% | worldview |  2026-09-15 |
@@ -76,6 +76,7 @@ _Updated 2026-09-02 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260819-001"></a>US Institute for Supply Management Manufacturing PMI for August 2026 (release scheduled 2026-09-02 at 10:00 ET on ismworld.org) prints headline PMI below 50.0. | 58% | disconfirmed (2026-09-03) | ISM Manufacturing PMI for August 2026 released 2026-09-02 at 10:00 ET, headline 54.6 percent, expansion for the eighth consecutive month. Threshold was <50.0, actual 54.6 - disconfirmed. Evidence: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-6-august-2026-ism-manufacturing-pmi-report-302865127.html |
 | ✗ | <a id="claim-20260703-001"></a>By 2026-08-31, at least one of Meta, Apple, or Alphabet publicly announces a forward-deployed AI implementation unit with a committed capital budget of at least USD 500 million or at least 2,000 forward-deployed engineers, structurally comparable to Microsoft Frontier Company (2026-07-02, USD 2.5 billion + 6,000 engineers) or Amazon's 2026-06-30 USD 1 billion analog. | 60% | disconfirmed (2026-09-02) | Deadline passed 2026-08-31 without any of Meta, Apple, or Alphabet publicly stating (a) a >=USD 500M committed capital budget or (b) a >=2,000 forward-deployed engineer headcount target for a named FDE unit. Meta Enterprise Solutions unit exists (May 2026 launch, Naomi Gleit) and embeds engineers/PMs in corporate customers, but PYMNTS/gurufocus explicitly note 'Meta has not publicly confirmed customers, staffing scale, pricing, or rollout timing.' Google announced 'hundreds' of forward-deployed engineers Q2 2026 (below 2000 threshold), no dollar figure. Apple: no announcement. 2026-09-02 T+2 verification confirms the qualitative unit exists but the quantitative gate did not fire by deadline. Twin said 60%, base 50%; overshot on the directional read (unit-shape adoption did happen for Meta) but the specific numeric gate the update test required was missed. https://www.pymnts.com/meta/2026/meta-is-coming-for-enterprise-ai/ |
 | ✗ | <a id="claim-20260701-005"></a>By 2026-08-31, Kasi Cloud publishes an official announcement (press release, LinkedIn post, or media interview by named executive) confirming a signed anchor-tenant contract or a published utilization figure for the Lekki 100MW AI campus. | 35% | disconfirmed (2026-09-02) | Deadline passed 2026-08-31 with no Kasi Cloud announcement of a signed anchor-tenant contract or published utilization figure on Kasi Cloud press channels, LinkedIn, TechCabal, BusinessDay Nigeria, or Techpoint. 2026-09-02 T+2 verification search confirms the May 2026 flag-off of LOS1 (100MW campus) remains the last named milestone with no commercial commitment surfacing since. Twin said 35%, base 35%; the call was AT prior, correct outcome. https://nsia.com.ng/kasi-cloud-datacenters-commissions-west-africas-first-hyperscaleready-ai-capable-data-centre-campus-in-lagos/ |
 | ✗ | <a id="claim-20260620-001"></a>By 2026-08-31, the EUROPA consortium (led by Domyn) publishes a public training-start announcement or initial model card for its EU Frontier AI Grand Challenge open-source model on at least one official channel (Domyn corporate communications, European Commission digital strategy press, or EuroHPC JU). Triggered by either explicit statement of training-start date or release of an interim model artifact. | 45% | disconfirmed (2026-09-02) | Deadline passed 2026-08-31 with no public training-start announcement, initial model card, or interim artifact from EUROPA consortium on Domyn corporate channels (domyn.com), ec.europa.eu/digital-strategy, or EuroHPC JU site. 2026-09-02 T+2 verification search: only public statement remains CEO Uljan Sharka's Reuters quote 'model will ship within a year' - a forward horizon, not a training-start milestone. Twin said 45%, base 40%; both mildly overshot. https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open |
@@ -172,7 +173,7 @@ _Withdrawn before resolution: 2 claim(s), for failing registration standards (ev
 | 20-29% | 2 | 25% |
 | 30-39% | 10 | 15% |
 | 40-49% | 11 | 46% |
-| 50-59% | 26 | 54% |
+| 50-59% | 27 | 52% |
 | 60-69% | 16 | 50% |
 | 70-79% | 10 | 80% |
 | 80-89% | 3 | 100% |
@@ -185,7 +186,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 19 | 29% | 0.250 | +0.000 | readable |
-| world (frame:out) | 64 | 62% | 0.209 | +0.041 | readable |
+| world (frame:out) | 65 | 61% | 0.211 | +0.039 | readable |
 
 ## The workshop
 
