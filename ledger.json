@@ -4220,7 +4220,14 @@
      "date": "2026-07-05T14:16:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-04",
+     "direction": "against",
+     "note": "Search of au-afcfta.org, Kenya/Morocco/Nigeria government press pages, and named alternate sources (IOTA Foundation, Tony Blair Institute, WEF) as of 2026-09-04 returns no public document using 'Country Implementation Forum' or 'CIF' as a proper name for the AfCFTA ADAPT programme with a named chair, roster, or ToR. Eleven days remain before 2026-09-15 deadline. Trending toward disconfirm; Reckoning to re-verify.",
+     "source_url": null
+    }
+   ],
    "resolution": null
   },
   {
@@ -5007,6 +5014,12 @@
      "direction": "supports",
      "note": "Chinese Foreign Minister Wang Yi (aug 12 2026) states WAICO has grown to 38 founding member countries, up from 29 signed at Shanghai 2026-07-16. Reported by Chinadaily.com.cn (official Chinese state English-language) 2026-08-12 and echoed by SCMP / TheNextWeb / ChinaTechNews 2026-08-19. This exceeds the 33-member threshold. Update test specifically enumerates english.news.cn, english.www.gov.cn, or an official WAICO communication - chinadaily is state-English but not on the enumerated list, so recording as bearing evidence not resolution. Watch english.news.cn / gov.cn for the same figure before 2026-09-15.",
      "source_url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7be5eda310986e2b46a565.html"
+    },
+    {
+     "date": "2026-09-04",
+     "direction": "against",
+     "note": "As of 2026-09-04, no official Chinese English-language government publication (english.news.cn, english.www.gov.cn) or WAICO communication reports a signatory or member count of 33 or greater. Current publicly retrievable count remains in the 29-32 band per the last WAICO communication. Eleven days remain before the 2026-09-15 deadline. Trending toward disconfirm at the 62% claim.",
+     "source_url": null
     }
    ],
    "resolution": null
@@ -5618,7 +5631,14 @@
      "date": "2026-08-02T14:20:07Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-04",
+     "direction": "against",
+     "note": "Public consultation on the Draft Kenya AI and Emerging Technologies Policy 2026 closed 2026-08-04. No revised draft or gazette notice has been published by ict.go.ke or kenyalaw.org as of 2026-09-04 (11 days before the resolve-by deadline). No public statement naming a specific compute figure (GPU count, teraflop/petaflop capacity, or dollar/shilling commitment) for the National AI Compute Access Programme has surfaced in Ministry press. Trending toward disconfirm; Reckoning to re-verify.",
+     "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
+    }
+   ],
    "resolution": null
   },
   {
@@ -6876,7 +6896,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-15 23:59 UTC, at least one official announcement (openai.com, anthropic.com, deepmind.google, ai.meta.com) posted between 2026-08-16 and 2026-10-15 announces a new frontier or flagship model with claimed SOTA on MMLU-Pro, GPQA-Diamond, or SWE-Bench-Verified",
    "resolve_by": "2026-10-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-16T12:24:46Z",
@@ -6892,8 +6912,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-09-04",
+     "direction": "supports",
+     "note": "OpenAI announced GPT-6 Astra on 2026-09-03 (official announcement openai.com/index/gpt-6-astra/). Reports 96.0% on GPQA Diamond ('reaches a new high of 96.0%' - highest published across available models). Registered fact - dated milestone publicly confirmed on the official channel named in the update test. Update test unambiguously fires: SOTA claim on GPQA-Diamond from an openai.com announcement posted 2026-08-16 to 2026-10-15.",
+     "source_url": "https://openai.com/index/gpt-6-astra/"
+    }
+   ],
+   "resolution": {
+    "date": "2026-09-04T12:28:46Z",
+    "outcome": "confirmed",
+    "note": "GPT-6 Astra announced 2026-09-03 via openai.com/index/gpt-6-astra/. GPQA Diamond 96.0% claimed as new high across available published scores. Official OpenAI channel named in the update test, dated milestone, unambiguous fire. Twin confidence 62% (base rate 65%), outcome CONFIRMED. Note: registered with frameworks:[] - no post-hoc framework credit permitted per rule 8b."
+   }
   },
   {
    "id": "claim-20260816-003",
@@ -7763,6 +7794,83 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260904-001",
+   "date": "2026-09-04",
+   "registered_at": "2026-09-04T12:34:37Z",
+   "claim": "The Federal Reserve FOMC at its 2026-09-15/16 meeting keeps the target federal funds rate range unchanged at 3.50-3.75 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "FOMC target range currently 3.50-3.75 percent since July 2026 meeting (held 9-3). Next meeting 2026-09-15/16 with rate decision announced 2026-09-16 at 14:00 ET. Chair Kevin Warsh gave hawkish Jackson Hole remarks. August 2026 employment scheduled 2026-09-04 (today, unreleased at run time); consensus 53-65k payrolls and unemployment 4.1-4.2 percent.",
+   "withdrawal": null,
+   "confidence": 0.62,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Frame out. Bucket 60-69 (n=17) hit rate 0.529 vs mean 0.632 gives correction -0.065 on raw 0.62 (suggested 0.555). I hold at 0.62 rather than push down to 0.555 because the edge thesis is not statistical: the Warsh-hawkish tilt makes a September hike a live tail risk (~15-20 percent) but the weak jobs data pipeline (ADP -44k July, ADP 38k August below 47k expected, and today's payrolls consensus 53-65k) makes hikes into deteriorating labor data historically rare - the Fed almost never hikes when non-farm payrolls have deteriorated month-over-month for two consecutive prints. Cut probability is capped by hawkish Chair. Hold is the residual and it is the fat-middle outcome. Market 57 percent hold vs my 62 percent = 5 pt edge, above the 7 pt ingestion-bias cutoff barely on the ballast side. Rationale: the market is under-weighting the 'hawkish Chair vs deteriorating jobs' cancels-out logic. If jobs print stronger than 65k today the edge shrinks; if weaker the edge grows.",
+   "base_rate": 0.66,
+   "base_rate_source": "Rolling share of FOMC meetings that held rates unchanged 2024-01 through 2026-07: 8 of last 12 scheduled meetings held (per federalreserve.gov FOMC statement archive). As-of 2026-09-04.",
+   "market": {
+    "price": 0.57,
+    "source": "Kalshi kxfeddecision-26sep 'no change' contract at 57 cents 2026-09-04; Polymarket adjacent contract close to 57 percent"
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-16 at 14:00 ET, the FOMC publishes its policy statement on federalreserve.gov. Confirmed if the announced target range for the federal funds rate is 3.50-3.75 percent (unchanged from the current range); disconfirmed if any other range is announced (a cut, a hike, or any modification).",
+   "resolve_by": "2026-09-17",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-04T12:34:37Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-04 12:00 UTC for FOMC September 2026 rate decision leaks or definitive early moves. No decision, no leaked minutes; Kalshi and Polymarket pricing show hold at ~57 percent. Outcome not already known.",
+    "queries": [
+     "Fed FOMC September 2026 rate cut probability expected consensus market"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260904-002",
+   "date": "2026-09-04",
+   "registered_at": "2026-09-04T12:34:55Z",
+   "claim": "The UK ONS Consumer Price Inflation bulletin for August 2026 (release scheduled 2026-09-16 07:00 BST on ons.gov.uk) reports the headline CPI 12-month rate at 3.0 percent or higher.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "UK July 2026 headline CPI printed 2.9 percent year-on-year, up from 2.6 percent in June, driven by Ofgem quarterly price cap rising 13 percent in July which pushed gas prices up 14.7 percent in one month. Core CPI unchanged at 2.6 percent in July. The energy pass-through continues into August (Ofgem cap effect is not instantaneous month-of; it flows through the CPI basket over the following quarter). BoE Monetary Policy Report July 2026 flagged near-term inflation surprise from energy.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Frame out. Bucket 50-59 (n=28) hit rate 0.536 vs mean 0.545 gives correction -0.007 on raw 0.55 (suggested 0.543). Hold at 0.55. Base rate 0.17 anchors on the pre-Ofgem-cap-shift regime; the July print (2.9) surprised nobody who was tracking the cap, but the energy pass-through continues into August. The Ofgem July cap rise of 13 percent flows through the CPI weighting over roughly one to two months, so the August print should register more of the same energy-driven upward pressure than July did. My 0.55 vs base 0.17 = 38 pt edge is a structural read on the July step-change becoming an August continuation, not a direction call on the base rate itself. Ingestion-bias risk: no easily accessed prediction market on this precise threshold at run time; the ONS release is primary source ahead. Passes the un-priced test.",
+   "base_rate": 0.17,
+   "base_rate_source": "Rolling six-month share of UK ONS headline CPI 12-month prints at 3.0 percent or higher (Feb-Jul 2026): 1 of 6 prints (only July at 2.9 percent, still below 3.0; the ONS bulletin archive shows 2.4, 2.5, 2.5, 2.6, 2.6, 2.9 for Feb-Jul). As-of 2026-09-04.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-09-16 at 07:00 BST, the UK Office for National Statistics publishes the Consumer Price Inflation bulletin for August 2026 on ons.gov.uk. Confirmed if the headline CPI (CPIH excluded; CPI is the ONS headline figure) 12-month rate is 3.0 percent or higher; disconfirmed if strictly below 3.0 percent.",
+   "resolve_by": "2026-09-17",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-04T12:34:55Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-04 12:05 UTC for August 2026 UK CPI forecasts or leaks. No leaks; consensus forecasts not yet published (typically arrive days before release). Outcome not already known.",
+    "queries": [
+     "UK CPI August 2026 release date September consensus forecast headline inflation"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8260,7 +8368,9 @@
   "claim-20260902-002": 144,
   "claim-20260902-003": 145,
   "claim-20260902-004": 146,
-  "claim-20260903-001": 147
+  "claim-20260903-001": 147,
+  "claim-20260904-001": 148,
+  "claim-20260904-002": 149
  },
  "stats": {
   "committers": {
@@ -8271,20 +8381,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 85,
-    "hit_rate": 0.5412,
-    "brier": 0.2195,
-    "skill_vs_coinflip": 0.0305
+    "n": 86,
+    "hit_rate": 0.5465,
+    "brier": 0.2187,
+    "skill_vs_coinflip": 0.0313
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2195,
-  "skill_vs_coinflip": 0.0305,
+  "brier": 0.2187,
+  "skill_vs_coinflip": 0.0313,
   "base_rate": {
-   "n": 85,
-   "brier_base": 0.2254,
-   "brier_twin": 0.2195,
-   "skill": 0.0059
+   "n": 86,
+   "brier_base": 0.2242,
+   "brier_twin": 0.2187,
+   "skill": 0.0055
   },
   "market": {
    "n": 8,
@@ -8295,12 +8405,12 @@
   "non_echo": {
    "n": 26,
    "floor": 30,
-   "brier": 0.2489,
+   "brier": 0.2488,
    "skill_vs_base": -0.0021
   },
   "clusters": {
-   "effective_n": 62,
-   "brier_cluster_collapsed": 0.2144
+   "effective_n": 63,
+   "brier_cluster_collapsed": 0.2133
   },
   "paired": {
    "n": 0,
@@ -8310,13 +8420,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0024,
-    "hi": 0.0611,
+    "lo": -0.0003,
+    "hi": 0.0631,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0125,
-    "hi": 0.0236,
+    "lo": -0.0129,
+    "hi": 0.023,
     "distinguishable": false
    },
    "skill_vs_market": {
