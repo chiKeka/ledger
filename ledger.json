@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04",
+ "updated": "2026-09-05",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5756,7 +5756,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-05, the US Bureau of Labor Statistics Employment Situation release for August 2026 reports total nonfarm payroll employment change of 100,000 or higher (seasonally adjusted, first release headline number). Confirmed at 100k or higher, disconfirmed below 100k.",
    "resolve_by": "2026-09-08",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-31T12:14:35Z",
@@ -5771,7 +5771,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-05T12:11:20Z",
+    "outcome": "confirmed",
+    "note": "BLS Employment Situation for August 2026 released 2026-09-04 (one day earlier than the claim's scheduled 2026-09-05, but the same August 2026 print). Total nonfarm payroll employment increased by 162,000, comfortably above the 100k threshold; consensus had been 53k. Sources: https://www.bls.gov/news.release/empsit.nr0.htm and https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+   }
   },
   {
    "id": "claim-20260731-003",
@@ -6814,7 +6818,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-04, BLS publishes Employment Situation for August 2026. Confirmed if the headline U-3 unemployment rate is 4.2 percent or higher (rounded to one decimal as reported by BLS); disconfirmed if strictly below 4.2 percent.",
    "resolve_by": "2026-09-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-15T12:19:31Z",
@@ -6828,7 +6832,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-05T12:11:26Z",
+    "outcome": "disconfirmed",
+    "note": "BLS Employment Situation for August 2026 released 2026-09-04. Headline U-3 unemployment rate held at 4.1 percent, strictly below the 4.2 percent threshold. Disconfirms the coherent-cooling edge thesis. Sources: https://www.bls.gov/news.release/empsit.nr0.htm and https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+   }
   },
   {
    "id": "claim-20260816-001",
@@ -8381,20 +8389,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 86,
-    "hit_rate": 0.5465,
-    "brier": 0.2187,
-    "skill_vs_coinflip": 0.0313
+    "n": 88,
+    "hit_rate": 0.5455,
+    "brier": 0.2178,
+    "skill_vs_coinflip": 0.0322
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2187,
-  "skill_vs_coinflip": 0.0313,
+  "brier": 0.2178,
+  "skill_vs_coinflip": 0.0322,
   "base_rate": {
-   "n": 86,
-   "brier_base": 0.2242,
-   "brier_twin": 0.2187,
-   "skill": 0.0055
+   "n": 88,
+   "brier_base": 0.2223,
+   "brier_twin": 0.2178,
+   "skill": 0.0045
   },
   "market": {
    "n": 8,
@@ -8403,14 +8411,14 @@
    "skill": -0.0338
   },
   "non_echo": {
-   "n": 26,
+   "n": 28,
    "floor": 30,
-   "brier": 0.2488,
-   "skill_vs_base": -0.0021
+   "brier": 0.2441,
+   "skill_vs_base": -0.0049
   },
   "clusters": {
-   "effective_n": 63,
-   "brier_cluster_collapsed": 0.2133
+   "effective_n": 65,
+   "brier_cluster_collapsed": 0.2124
   },
   "paired": {
    "n": 0,
@@ -8420,13 +8428,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0003,
-    "hi": 0.0631,
-    "distinguishable": false
+    "lo": 0.0009,
+    "hi": 0.062,
+    "distinguishable": true
    },
    "skill_vs_base_rate": {
-    "lo": -0.0129,
-    "hi": 0.023,
+    "lo": -0.0132,
+    "hi": 0.0217,
     "distinguishable": false
    },
    "skill_vs_market": {
