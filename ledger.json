@@ -7879,6 +7879,80 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260905-001",
+   "date": "2026-09-05",
+   "registered_at": "2026-09-05T12:13:34Z",
+   "claim": "By 2026-10-05, the Riksbank publicly announces on riksbank.se the outcome of its September 2026 monetary policy meeting as a hold at 1.75 percent policy rate (unchanged from the prior meeting), decision applying from 2026-09-30.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Sveriges Riksbank Executive Board September 2026 monetary policy meeting; policy rate published on riksbank.se and taking effect 2026-09-30. Current policy rate 1.75 percent per Riksbank Executive Board August 2026 assessment.",
+   "withdrawal": null,
+   "confidence": 0.65,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.6,
+   "base_rate_source": "Riksbank policy-rate history 2024-01 through 2026-08 shows 8 hold decisions out of 13 monetary policy meetings (approx 62 percent). Anchor: riksbank.se policy-rate history and 2026 monetary policy calendar, as of 2026-09-05.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-05, riksbank.se publishes the Executive Board decision from the September 2026 monetary policy meeting as a hold at 1.75 percent unchanged. Confirmed if the published decision is a hold at 1.75 percent; disconfirmed if the policy rate changes (cut or hike) or if the meeting output is not published by 2026-10-05.",
+   "resolve_by": "2026-10-05",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-05T12:13:34Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-05 for Riksbank September 2026 policy rate decision; the decision is scheduled to be published with the September Monetary Policy Report and no leaked figure is public. Kalshi/Polymarket have no direct market on the specific decision as of the search.",
+    "queries": [
+     "Riksbank Sveriges Riksbank policy rate September 2026 decision"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260905-002",
+   "date": "2026-09-05",
+   "registered_at": "2026-09-05T12:13:45Z",
+   "claim": "The Bank of Canada at its scheduled 2026-10-28 policy interest rate announcement holds the target for the overnight rate at 2.25 percent (unchanged from the 2026-09-02 announcement).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of Canada scheduled policy rate announcement 2026-10-28 per Bank of Canada 2026 calendar. Current target rate 2.25 percent per 2026-09-02 announcement, seventh consecutive hold, with the Bank flagging upside risk to inflation from US tariffs and Middle East energy shock.",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.7,
+   "base_rate_source": "Bank of Canada policy rate history 2025-01 through 2026-09 shows 7 consecutive holds after the earlier cutting cycle ended, per bankofcanada.ca announcements. Trailing eight meetings: 7 holds out of 8 (approx 0.88 conditional), broader 12-month rolling hold share approx 0.70. Anchor as of 2026-09-05.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-28, the Bank of Canada publishes at 10:00 ET on bankofcanada.ca the policy interest rate announcement stating the target for the overnight rate is 2.25 percent, unchanged. Confirmed if the announcement holds at 2.25 percent; disconfirmed if there is a cut or hike.",
+   "resolve_by": "2026-10-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-05T12:13:45Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-05 for Bank of Canada October 2026 rate decision. The announcement is scheduled 2026-10-28 and no decision is published. Market pricing and major bank forecasts (per RBC, TD, BMO September commentary) point to a hold for the rest of 2026, so this call is close to consensus rather than an edge; register as acknowledged ballast.",
+    "queries": [
+     "Bank of Canada October 2026 policy rate decision"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8378,7 +8452,9 @@
   "claim-20260902-004": 146,
   "claim-20260903-001": 147,
   "claim-20260904-001": 148,
-  "claim-20260904-002": 149
+  "claim-20260904-002": 149,
+  "claim-20260905-001": 150,
+  "claim-20260905-002": 151
  },
  "stats": {
   "committers": {
