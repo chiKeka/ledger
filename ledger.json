@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -263,6 +263,12 @@
      "direction": "supports",
      "note": "Digital Omnibus on AI (Regulation (EU) 2026/1744) published in Official Journal 2026-07-24, entered into force 2026-07-27 - the final legal instrument for the simplification turn is now law. Annex III high-risk deferred to 2027-12-02 (16 months); Annex I embedded to 2028-08-02. Article 50 transparency obligations still apply 2026-08-02; nudifier/CSAM capability strip mandated by 2026-12. Multiple frontier-relevant articles softened or delayed; end-2026 enforceable-obligation count has been reduced by legal instrument. Waiting for Sunday Reckoning to re-verify frontier-deployer read (GPAI 2026-08-02 substrate not directly touched, so per-obligation compliance cost for frontier deployers remains, even as the perimeter shrinks).",
      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+    },
+    {
+     "date": "2026-09-06",
+     "direction": "supports",
+     "note": "The EU AI Act Omnibus entered into force 2026-07-27 following publication in the Official Journal 2026-07-24 and Council green light 2026-06-29. High-risk AI system obligations under Article 6(2)/Annex III are postponed from 2026-08-02 to 2027-12-02; Annex I sectoral high-risk obligations postponed to 2028-08-02. The AI Office receives strengthened central-EU supervisory competence over GPAI-based systems and DSA VLOP-integrated AI. This is a live count of softened/delayed frontier-relevant articles: at minimum, the two high-risk timelines have been softened, and enforcement centralization is a structural mechanism change.",
+     "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
     }
    ],
    "resolution": null
@@ -4440,6 +4446,12 @@
      "direction": "against",
      "note": "EU AI Office ran Aug 2-30 as unpublished technical compliance dialogues (Taylor Wessing, Wilson Sonsini, DLA Piper converge on this reading), not formal enforcement. Zero in-window guidance published; zero first-formal-enforcement action against any GPAI provider. The DG COMP-style private-first posture, if it holds, pushes back the expected first-formal-enforcement date past 2027-08-02. Twin 32 pct still looks defensible but the direction of recent evidence is against; four weeks in and no publication cadence.",
      "source_url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/08/gpai-obligations-under-the-eu-ai-act"
+    },
+    {
+     "date": "2026-09-06",
+     "direction": "supports",
+     "note": "EU AI Office (Executive VP Henna Virkkunen) publicly confirmed 2026-08-29 that formal Requests for Information have been issued under Article 55 provider-obligations basis to OpenAI, Anthropic, and Google DeepMind - precursor step to any first formal enforcement action within the 2027-08-02 window. Signal: 2026-08-31 first-wave article-55 rfis.",
+     "source_url": "https://data/discovery/signals/2026-08-31-eu-ai-office-first-wave-article-55-rfis-openai-anthropic-google-bifurcated-posture-confirmed.md"
     }
    ],
    "resolution": null
@@ -5420,6 +5432,18 @@
      "direction": "against",
      "note": "DCDT AI Policy rewrite: revised policy targeted for submission to Cabinet by November 2026, public comment target January 2027. Formal Cabinet adoption by 2026-10-24 is highly unlikely on this timeline.",
      "source_url": "https://www.itweb.co.za/article/government-sets-target-for-revised-ai-policy/lwrKxv3Y2QyMmg1o"
+    },
+    {
+     "date": "2026-09-06",
+     "direction": "against",
+     "note": "SA Communications Minister Solly Malatsi withdrew the draft National AI Policy Framework in April 2026 after News24 exposed fabricated (AI-generated hallucinated) citations. Government's own revised timeline now targets November 2026 Cabinet consideration and January 2027 public release. This is the disconfirmation condition (Cabinet statement defers adoption past 2026-10-24 deadline) but logged as evidence rather than early-resolved because the deadline is 7 weeks out and a Cabinet override cannot be strictly ruled out; Sunday Reckoning re-verifies.",
+     "source_url": "https://techcentral.co.za/malatsi-withdraws-ai-policy-after-fictitious-sources-scandal/280674/"
+    },
+    {
+     "date": "2026-09-06",
+     "direction": "against",
+     "note": "DCDT publicly formalized 2026-08-31 that the revised National AI Policy will be submitted to Cabinet in November 2026 (post-10-24 window) with public comment in January 2027, following Minister Malatsi's April 2026 withdrawal. As of 2026-09-06 the November timing is reaffirmed by Fasken and Bowmans policy trackers. The 2026-10-24 threshold now requires a schedule surprise; base rate for such surprises on multi-quarter policy processes is low.",
+     "source_url": "https://data/discovery/signals/2026-09-06-south-africa-national-ai-policy-withdrawn-hallucinated-citations-november-cabinet-january-release-institutional-diffusion-friction.md"
     }
    ],
    "resolution": null
@@ -5499,6 +5523,12 @@
      "direction": "against",
      "note": "Kenya's Draft AI and Emerging Technologies Policy 2026 (State Department for ICT and the Digital Economy, ict.go.ke) public-comment window closed 2026-08-04. Coverage (CIO Africa, Techweez, ITLawCo) describes proposed instruments including a national emerging-technologies council, risk-based classifications, mandatory registration for high-risk systems, and a sovereign cloud strategy - all still at draft-policy status. No Kenya Gazette notice, State Department release, or ICTA publication observed as of 2026-08-23 naming a sovereign cloud / compute council with chair, named members, or terms of reference. Path is now Cabinet consideration then possible gazettement - the Ministry's stated timeline points to FY26/27 finalization, which puts institutional stand-up (not just policy adoption) uncertain within the 2026-10-24 window. Bearing-against so far; watch ict.go.ke / kenyalaw.org / icta.go.ke through end-October.",
      "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
+    },
+    {
+     "date": "2026-09-06",
+     "direction": "supports",
+     "note": "Kenya Ministry of ICT published the Kenya Cloud Policy (2025) Implementation Guidelines in June 2026 (ict.go.ke), providing a comprehensive framework for public sector transition to a coordinated cloud-first approach with data-sovereignty provisions. iXAfrica Data Centres and Baobab Cloud Services launched a sovereign public cloud platform in Kenya in May 2026. These bear on institutional stand-up direction but do not yet name a sovereign cloud/compute council with listed chair, members, or terms of reference under the AI & Emerging Technologies Policy specifically — the update-test's stricter institutional requirement is not yet met. Draft AI Policy consultation closed 2026-08-04; awaiting revised text.",
+     "source_url": "https://www.ict.go.ke/sites/default/files/2026-07/Final%20%20Kenya%20Cloud%20Policy%202025%20Implementation%20Guidelines.pdf"
     }
    ],
    "resolution": null
@@ -7348,6 +7378,12 @@
      "relation": "shares-system",
      "note": "Shares the underlying system with the 2027-08-02 Article 55 systemic-risk claim (claim-20260711-002).",
      "date": "2026-08-31T12:38:19Z"
+    },
+    {
+     "id": "claim-20260711-002",
+     "relation": "sharpens",
+     "note": "831-001 asks whether at least one ADDITIONAL formal enforcement action fires by 2026-10-30 following the Article 55 RFI wave; 711-002 asks whether a first formal enforcement action fires by 2027-08-02. Both test the same EU AI Office enforcement pipeline; 831-001 is the sharper short-window read that discriminates 'RFI cascade actually escalates' from 'RFIs stay procedural.'",
+     "date": "2026-09-06T14:16:06Z"
     }
    ],
    "evidence": [],
@@ -7591,7 +7627,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-016",
+     "relation": "shares-system",
+     "note": "901-003 tracks EUROPA (Domyn) training-start signal by 2026-10-31; 610-016 tracks non-EU jurisdictions citing the EU AI Act omnibus by end-2027. Both read the EU regulatory-industrial complex's operational credibility: 901-003 measures whether EU-anchored sovereign compute reaches operational milestones, 610-016 measures whether the EU regulatory model itself is exported. Divergence would test whether infrastructure momentum and regulatory diffusion move together or apart.",
+     "date": "2026-09-06T14:16:16Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -7636,6 +7679,12 @@
      "relation": "probes",
      "note": "African hyperscale anchor-tenant announcement rate is the transfer-evidence gate for the structural claim about cumulative African data-centre MW through end-2027 - if commercial closes don't announce, physical capacity may exist but not read as productive infrastructure.",
      "date": "2026-09-02T12:31:09Z"
+    },
+    {
+     "id": "claim-20260610-013",
+     "relation": "probes",
+     "note": "902-001 asks whether at least one 2026 African hyperscale-ready campus reaches commissioning by 2026-10-31; 610-013 is the structural longer-window bet on the same named African data-centre projects hitting operational milestones by 2027-03-31. 902-001 is the short-horizon probe of whether the long-window read holds.",
+     "date": "2026-09-06T14:16:16Z"
     }
    ],
    "evidence": [],

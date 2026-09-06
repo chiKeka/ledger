@@ -6,7 +6,7 @@ Falsifiable claims about AI, infrastructure, and institutions. The probability i
 
 **Latest: ✗ "The US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-04 at 08:30 ET on bls." — said 55%, resolved disconfirmed (2026-09-05)**
 
-_Updated 2026-09-05 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-09-06 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
