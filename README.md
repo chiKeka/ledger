@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated on each resolution and each Sunday Reckoning. The misses stay on the board.
 
-**Record: 47✓ · 39✗ · 2◐ · 52 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 87 calibration · 1 structural · Brier 0.218 (coin-flip = 0.250; 88 scored across 65 independent events, cluster-collapsed Brier 0.212), skill vs coin-flip +0.032 (95% CI +0.001..+0.062) · skill vs base rate +0.004 (95% CI -0.013..+0.022; not yet distinguishable from zero) (n=88 carrying a recorded base rate) · skill vs market -0.034 (95% CI -0.062..-0.010; distinguishably below zero) (n=8 with a listed market price) · non-echo record: n=28 of 88 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
+**Record: 47✓ · 40✗ · 2◐ · 51 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 88 calibration · 1 structural · Brier 0.219 (coin-flip = 0.250; 89 scored across 66 independent events, cluster-collapsed Brier 0.214), skill vs coin-flip +0.031 (95% CI -0.001..+0.058; not yet distinguishable from zero) · skill vs base rate +0.004 (95% CI -0.013..+0.021; not yet distinguishable from zero) (n=89 carrying a recorded base rate) · skill vs market -0.034 (95% CI -0.062..-0.010; distinguishably below zero) (n=8 with a listed market price) · non-echo record: n=28 of 89 forecasts depart from their base rate by >7% — below the 30-resolution floor, no skill claimed on that subset**
 
-**Latest: ✗ "The US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-04 at 08:30 ET on bls." — said 55%, resolved disconfirmed (2026-09-05)**
+**Latest: ✗ "The European Central Bank Governing Council at its 2026-09-10/11 monetary policy meeting keeps the deposit facility rate" — said 58%, resolved disconfirmed (2026-09-11)**
 
-_Updated 2026-09-06 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-09-11 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -30,11 +30,10 @@ _Updated 2026-09-06 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 35 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260827-002"></a>The European Central Bank Governing Council at its 2026-09-10/11 monetary policy meeting keeps the deposit facility rate unchanged at 2.00 percent. | **58%** | 55% | world |  2026-09-11 |
 | <a id="claim-20260903-001"></a>US Bureau of Labor Statistics Consumer Price Index for August 2026 (release scheduled 2026-09-11 at 08:30 ET on bls.gov) reports headline all-items CPI year-over-year change at or above 3.0 percent. | **22%** | 28% | world |  2026-09-11 |
 | <a id="claim-20260704-001"></a>By 2026-09-15, an identifiable public document (AfCFTA Secretariat announcement on au-afcfta.org, government gazette, or press release from the Ministry of Trade/Industry in Kenya, Morocco, or Nigeria) uses the specific phrase 'Country Implementation Forum' or 'CIF' as a proper name AND names either a chairperson, a member roster, or terms of reference for the AfCFTA ADAPT CIF in at least one pilot country. | **42%** | 40% | world |  2026-09-15 |
 | <a id="claim-20260719-002"></a>The World Artificial Intelligence Cooperation Organization (WAICO) member or signatory count reported by an official Chinese government English-language source (english.news.cn, english.www.gov.cn, or an official WAICO communication) reaches 33 or more by 2026-09-15. | **62%** | 45% | world |  2026-09-15 |
@@ -76,6 +75,7 @@ _Updated 2026-09-06 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260827-002"></a>The European Central Bank Governing Council at its 2026-09-10/11 monetary policy meeting keeps the deposit facility rate unchanged at 2.00 percent. | 58% | disconfirmed (2026-09-11) | ECB Governing Council at 2026-09-10/11 meeting raised the three key ECB interest rates by 25 basis points; deposit facility rate to 2.50 percent, main refinancing operations to 2.65 percent, marginal lending facility to 2.90 percent, effective 2026-09-16. ECB staff projections revised headline inflation up (3.0 pct 2026, 2.5 pct 2027, 2.1 pct 2028); Middle East conflict cited as continuing inflationary pressure. Twin held 58 pct probability of unchanged 2.00 pct; outcome disconfirms. Evidence: https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.hu.html (ECB monetary policy decisions press release, 2026-09-11) |
 | ✗ | <a id="claim-20260815-004"></a>The US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-04 at 08:30 ET on bls.gov) prints the headline U-3 unemployment rate at 4.2 percent or above. | 55% | disconfirmed (2026-09-05) | BLS Employment Situation for August 2026 released 2026-09-04. Headline U-3 unemployment rate held at 4.1 percent, strictly below the 4.2 percent threshold. Disconfirms the coherent-cooling edge thesis. Sources: https://www.bls.gov/news.release/empsit.nr0.htm and https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html |
 | ✓ | <a id="claim-20260731-002"></a>US Bureau of Labor Statistics Employment Situation for August 2026 (scheduled release 2026-09-05 at 08:30 ET) reports total nonfarm payroll employment change at or above 100,000 (headline seasonally adjusted, first release). | 75% | confirmed (2026-09-05) | BLS Employment Situation for August 2026 released 2026-09-04 (one day earlier than the claim's scheduled 2026-09-05, but the same August 2026 print). Total nonfarm payroll employment increased by 162,000, comfortably above the 100k threshold; consensus had been 53k. Sources: https://www.bls.gov/news.release/empsit.nr0.htm and https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html |
 | ✓ | <a id="claim-20260816-002"></a>By 2026-10-15, at least one of OpenAI, Anthropic, Google DeepMind, or Meta AI publicly announces the release of a new frontier or flagship AI model with a claimed state-of-the-art result on at least one of MMLU-Pro, GPQA-Diamond, or SWE-Bench-Verified | 62% | confirmed (2026-09-04) | GPT-6 Astra announced 2026-09-03 via openai.com/index/gpt-6-astra/. GPQA Diamond 96.0% claimed as new high across available published scores. Official OpenAI channel named in the update test, dated milestone, unambiguous fire. Twin confidence 62% (base rate 65%), outcome CONFIRMED. Note: registered with frameworks:[] - no post-hoc framework credit permitted per rule 8b. |
@@ -177,7 +177,7 @@ _Withdrawn before resolution: 2 claim(s), for failing registration standards (ev
 | 20-29% | 2 | 25% |
 | 30-39% | 10 | 15% |
 | 40-49% | 11 | 46% |
-| 50-59% | 29 | 52% |
+| 50-59% | 30 | 50% |
 | 60-69% | 17 | 53% |
 | 70-79% | 11 | 82% |
 | 80-89% | 3 | 100% |
@@ -190,7 +190,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 19 | 29% | 0.250 | +0.000 | readable |
-| world (frame:out) | 69 | 62% | 0.209 | +0.041 | readable |
+| world (frame:out) | 70 | 61% | 0.211 | +0.039 | readable |
 
 ## The workshop
 
