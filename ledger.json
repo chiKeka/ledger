@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-12",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7906,7 +7906,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-11, BLS publishes the August 2026 CPI. Confirmed if the headline all-items CPI y/y (seasonally adjusted, first release) is 3.0 percent or higher; disconfirmed if strictly below 3.0 percent.",
    "resolve_by": "2026-09-11",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-03T12:28:04Z",
@@ -7923,9 +7923,19 @@
      "direction": "supports",
      "note": "US CPI August 2026 release scheduled 2026-09-11 08:30 ET on bls.gov. Consensus 3.4 pct headline y/y per Reuters and CNBC pre-release preview (2026-09-10); Nowflation forecast 3.34 pct. July 2026 print was 3.4 pct. Actual August print not yet indexed by search at 12:00 UTC (release is 12:30 UTC). Consensus at 3.4 pct is well above the 3.0 pct threshold; if consensus proves correct the claim resolves confirmed. Log-only per interpretive-cases rule; Sunday Reckoning re-verifies against the actual BLS release.",
      "source_url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html"
+    },
+    {
+     "date": "2026-09-11",
+     "direction": "supports",
+     "note": "One-shot resolution routine ran 2026-09-11T12:47Z. BLS release page unreachable from environment (egress proxy blocks bls.gov; WebFetch on cpi.nr0.htm returned EGRESS_BLOCKED). Fallback WebSearch: bls.gov live URLs (cpi.nr0.htm, cpi.htm, cpi.toc.htm, cpi.pdf) all still labeled 'Consumer Price Index News Release - 2026 M07 Results' in the search index at 08:47 ET (17 minutes past scheduled 08:30 ET drop). One search summary reported 'CPI-U increased 3.4 percent over the last 12 months to an index level of 333.918; for the month, the index was unchanged prior to seasonal adjustment' as of today's release, and separate coverage cited a 3.4 pct headline vs 3.4 pct consensus, which would resolve confirmed if verified — but I cannot read that figure from the primary BLS release from this environment. Not resolving; leaving open for Sunday Reckoning re-verification against the actual BLS release.",
+     "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-12T12:06:07Z",
+    "outcome": "confirmed",
+    "note": "BLS released August 2026 CPI on 2026-09-11 at 08:30 ET. Headline all-items CPI-U y/y = 3.4 percent (unchanged from July 2026). Update-test threshold: 3.0 percent or higher = confirmed. Search-index snapshot confirms M08 release live (BLS URLs cpi.nr0.htm and cpi.htm now titled 'Consumer Price Index News Release - 2026 M08 Results'; M07 moved to /archives/cpi_08122026.htm). Cross-confirmed by Reuters, CNBC, Kiplinger, Fox Business, and usinflationcalculator.com coverage of the same release. Confidence at registration 22 pct against a base rate of 28 pct with market at 28 pct - miss on the disinflation-inertia side (2026 US CPI is stickier at ~3.4 pct than the recent-print anchor suggested)."
+   }
   },
   {
    "id": "claim-20260904-001",
@@ -8589,26 +8599,26 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 89,
-    "hit_rate": 0.5393,
-    "brier": 0.2192,
-    "skill_vs_coinflip": 0.0308
+    "n": 90,
+    "hit_rate": 0.5444,
+    "brier": 0.2235,
+    "skill_vs_coinflip": 0.0265
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2192,
-  "skill_vs_coinflip": 0.0308,
+  "brier": 0.2235,
+  "skill_vs_coinflip": 0.0265,
   "base_rate": {
-   "n": 89,
-   "brier_base": 0.2232,
-   "brier_twin": 0.2192,
-   "skill": 0.004
+   "n": 90,
+   "brier_base": 0.2265,
+   "brier_twin": 0.2235,
+   "skill": 0.003
   },
   "market": {
-   "n": 8,
-   "brier_market": 0.1281,
-   "brier_twin": 0.1619,
-   "skill": -0.0338
+   "n": 9,
+   "brier_market": 0.1715,
+   "brier_twin": 0.2115,
+   "skill": -0.0401
   },
   "non_echo": {
    "n": 28,
@@ -8617,8 +8627,8 @@
    "skill_vs_base": -0.0049
   },
   "clusters": {
-   "effective_n": 66,
-   "brier_cluster_collapsed": 0.2143
+   "effective_n": 67,
+   "brier_cluster_collapsed": 0.2201
   },
   "paired": {
    "n": 0,
@@ -8628,18 +8638,18 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0005,
-    "hi": 0.0582,
+    "lo": -0.0049,
+    "hi": 0.0553,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0132,
-    "hi": 0.0214,
+    "lo": -0.014,
+    "hi": 0.0199,
     "distinguishable": false
    },
    "skill_vs_market": {
-    "lo": -0.0622,
-    "hi": -0.01,
+    "lo": -0.0677,
+    "hi": -0.0164,
     "distinguishable": true
    }
   }
