@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12",
+ "updated": "2026-09-13",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5735,7 +5735,7 @@
    "frameworks": [],
    "update_test": "Read BLS CPI release published on or about 2026-09-11 at 8:30 ET. Confirmed if headline All Items CPI 12-month percent change (unadjusted) reported for August 2026 is 3.5 percent or higher; disconfirmed if less than 3.5 percent.",
    "resolve_by": "2026-09-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-30T12:24:18Z",
@@ -5764,7 +5764,11 @@
      "source_url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-13T12:09:30Z",
+    "outcome": "disconfirmed",
+    "note": "BLS CPI August 2026 released 2026-09-11 08:30 ET printed headline All Items CPI 12-month percent change at 3.4 percent, below the 3.5 percent threshold. Unambiguous fire: guidance figure published; disconfirmed. Consensus (3.4) matched actual; the July 2026 pre-registration correctly flagged the trajectory as flat-to-down but the twin's +15pp-over-base-rate lean on Ofgem/oil transient pass-through did not materialize into an August y/y overshoot. Source: bls.gov/news.release/cpi.nr0.htm (2026 M08)."
+   }
   },
   {
    "id": "claim-20260731-001",
@@ -7974,7 +7978,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-12",
+     "direction": "against",
+     "note": "Bearing evidence 2026-09-12 12:15 UTC. CME FedWatch pricing 60-69 pct probability of a 25 bp HIKE at 2026-09-16 FOMC (Yahoo Finance/CNBC/Forbes tracking, 2026-09-11 snapshot). Kalshi at 57 pct hike, Polymarket 49 pct hike per FXStreet cross-venue comparison. Median lean is HIKE, not hold. Twin claim quantified 62 pct HOLD - the market has now diverged materially from the claim. Postmortem-priming: this repeats the ECB claim-20260827-002 pattern (twin logged high-conviction market pricing 2 days pre-decision and did not re-quantify). NOT resolving; the actual decision is 2026-09-16 14:00 ET. Interpretive/pre-fact; the Sunday Reckoning re-verifies the actual print.",
+     "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8599,20 +8610,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 90,
-    "hit_rate": 0.5444,
-    "brier": 0.2235,
-    "skill_vs_coinflip": 0.0265
+    "n": 91,
+    "hit_rate": 0.5385,
+    "brier": 0.2244,
+    "skill_vs_coinflip": 0.0256
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2235,
-  "skill_vs_coinflip": 0.0265,
+  "brier": 0.2244,
+  "skill_vs_coinflip": 0.0256,
   "base_rate": {
-   "n": 90,
-   "brier_base": 0.2265,
-   "brier_twin": 0.2235,
-   "skill": 0.003
+   "n": 91,
+   "brier_base": 0.2258,
+   "brier_twin": 0.2244,
+   "skill": 0.0014
   },
   "market": {
    "n": 9,
@@ -8621,14 +8632,14 @@
    "skill": -0.0401
   },
   "non_echo": {
-   "n": 28,
+   "n": 29,
    "floor": 30,
-   "brier": 0.2441,
-   "skill_vs_base": -0.0049
+   "brier": 0.2461,
+   "skill_vs_base": -0.0097
   },
   "clusters": {
    "effective_n": 67,
-   "brier_cluster_collapsed": 0.2201
+   "brier_cluster_collapsed": 0.2206
   },
   "paired": {
    "n": 0,
@@ -8638,13 +8649,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0049,
-    "hi": 0.0553,
+    "lo": -0.0055,
+    "hi": 0.0537,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.014,
-    "hi": 0.0199,
+    "lo": -0.0157,
+    "hi": 0.0189,
     "distinguishable": false
    },
    "skill_vs_market": {
