@@ -792,6 +792,12 @@
      "direction": "supports",
      "note": "MTN Group H1 2026 results (published 2026-08-24) unveil Africa Data Hub Holding Limited (partnership with UAE-backed investor) to build 150MW AI-enabled data centre capacity across Nigeria and South Africa. Not yet powered, but concretizes the pipeline behind the tracked capacity aggregate — MTN moves from AI-DC exploration to a dedicated JV with named MW target.",
      "source_url": "https://www.itweb.co.za/article/mtn-advances-ai-ready-data-centre-strategy/4r1ly7R9aWAvpmda"
+    },
+    {
+     "date": "2026-09-13",
+     "direction": "against",
+     "note": "Nigeria's ITW Data Cloud Africa 2026 positioning (Nairobi 2026-09-08 to 09-10) bifurcates the continental capital pool: state-anchor-tenant demand-first (Nigeria) vs risk-classification governance-first (Kenya). Hedgers Ghana/Rwanda/Egypt sit between and get less capacity than either extreme. Bifurcation pattern lowers expected cumulative powered MW at end-2027 across the named projects since the split reduces topology convergence and slows shared enabling infrastructure. Bears against the 25pct+ commissioning threshold.",
+     "source_url": "https://allafrica.com/stories/202609100269.html"
     }
    ],
    "resolution": null
@@ -5431,6 +5437,12 @@
      "relation": "shares-system",
      "note": "SA National AI Policy Framework adoption sits in the same African-state institutional-consolidation system as data-centre critical-infrastructure designation; SA moving through Cabinet is the same governance-capacity signal read at a different endpoint. Timeline slip is disconfirming evidence for both.",
      "date": "2026-08-09T17:54:49Z"
+    },
+    {
+     "id": "claim-20260726-003",
+     "relation": "shares-system",
+     "note": "Both structural claims read African state-institutional AI-policy adoption capacity at the same 2026-10-24 endpoint, but from opposite state postures: SA slipping (Malatsi withdrawal, DCDT Nov Cabinet slip = 12pct twin) vs Kenya accelerating (draft consultation closed on time, sovereign cloud stack progressing = 58pct twin). Divergence between them is the structural signal - two African states hitting the same institutional gate with different capacity readouts on the same governance substrate.",
+     "date": "2026-09-13T14:15:15Z"
     }
    ],
    "evidence": [
@@ -5560,6 +5572,12 @@
      "direction": "supports",
      "note": "Kenya Ministry of ICT published the Kenya Cloud Policy (2025) Implementation Guidelines in June 2026 (ict.go.ke), providing a comprehensive framework for public sector transition to a coordinated cloud-first approach with data-sovereignty provisions. iXAfrica Data Centres and Baobab Cloud Services launched a sovereign public cloud platform in Kenya in May 2026. These bear on institutional stand-up direction but do not yet name a sovereign cloud/compute council with listed chair, members, or terms of reference under the AI & Emerging Technologies Policy specifically — the update-test's stricter institutional requirement is not yet met. Draft AI Policy consultation closed 2026-08-04; awaiting revised text.",
      "source_url": "https://www.ict.go.ke/sites/default/files/2026-07/Final%20%20Kenya%20Cloud%20Policy%202025%20Implementation%20Guidelines.pdf"
+    },
+    {
+     "date": "2026-09-13",
+     "direction": "supports",
+     "note": "Kenya sequenced hub stack visible 2026-09-08 to 09-10: Servernah sovereign cloud (May 2026), Oracle anchor tenant announcement, ITW+Datacloud Africa Nairobi 09-08 (1800 delegates) - three-layer stack contested vs South Africa and Nigeria positioning. Sovereign compute council institutional plumbing accreted alongside the physical stack; supports operational-launch trajectory by 2026-10-24.",
+     "source_url": "https://scholarmedia.africa/africa/kenya-eyes-digital-infrastructure-hub-status-as-itw-datacloud-africa-open-in-nairobi/"
     }
    ],
    "resolution": null
