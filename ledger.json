@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13",
+ "updated": "2026-09-15",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4250,6 +4250,12 @@
      "direction": "supports",
      "note": "AfCFTA ADAPT first-implementations announcement (IOTA Foundation blog + partner press) confirms Kenya/Morocco/Nigeria pilot moving from policy ambition to operational rollout, aligned with claim substance. Source hosts (IOTA Foundation blog, Tony Blair Institute, WEF, AfCFTA Secretariat) are listed in the update test; egress blocked from reading the IOTA post directly to verify the strict 'Country Implementation Forum'/'CIF' proper-noun clause plus chairperson/roster/ToR. Bearing supports the claim substance but the strict verification pending; leave for Sunday Reckoning.",
      "source_url": "https://tech.africa/afcfta-adapt-kenya-morocco-nigeria/"
+    },
+    {
+     "date": "2026-09-15",
+     "direction": "supports",
+     "note": "Federal Government of Nigeria inaugurated an 'ADAPT Forum' in July 2026 per THISDAY reporting (2026-07-29) to cut trade costs and boost digital commerce under AfCFTA. Coverage names the FG action but INTERPRETIVE: (a) not verified whether the Nigerian ADAPT Forum is formally named 'Country Implementation Forum' or bears the 'CIF' proper name required by the update test, or is a different Nigeria-specific structure, and (b) source (thisdaylive.com) is not directly fetchable from this environment to confirm chairperson/roster/TOR language. Second interpretive signal to date. Combined with the 2026-09-07 IOTA Foundation blog signal (partner announcement of ADAPT first implementations Kenya/Morocco/Nigeria) the balance is toward operationalization but the specific naming-and-composition threshold in the update test is not clearly cleared. Defer to Sunday Reckoning per unambiguous_only policy. Sources: https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/",
+     "source_url": "https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/"
     }
    ],
    "resolution": null
@@ -4987,7 +4993,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-15 23:59 UTC, at least one official Chinese government English-language publication (english.news.cn, english.www.gov.cn, WAICO official communication) states or reports that the WAICO member or signatory count is 33 or greater. Confirmed if such a report is publicly retrievable; disconfirmed if the reported count as of 2026-09-15 remains between 29 and 32 inclusive.",
    "resolve_by": "2026-09-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-19T12:17:34Z",
@@ -5064,7 +5070,11 @@
      "source_url": "https://news.cgtn.com/news/2026-07-18/29-countries-join-World-AI-Cooperation-Organization-in-Shanghai-1OSeZzywfx6/p.html"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-15T12:17:19Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline reached 2026-09-15. Update test required an official Chinese-government English-language source (english.news.cn, english.www.gov.cn, or WAICO communication) reporting WAICO signatory count at 33 or greater. As of 2026-09-15, the official English-language count reported via CGTN and the Chinese state canonical figure remains 29 (the founding count). Wikipedia and non-Chinese-official coverage (Diplomat, TheNextWeb) report a rise to ~37 by end-July 2026, but no OFFICIAL Chinese-state English-language publication has revised the 29 figure to 33 or higher. Update test's channel constraint is unambiguous; disconfirmed. Sources: https://english.www.gov.cn/news/202607/17/content_WS6a59a226c6d00ca5f9a0c432.html ; https://news.cgtn.com/news/2026-07-18/29-countries-join-World-AI-Cooperation-Organization-in-Shanghai-1OSeZzywfx6/p.html"
+   }
   },
   {
    "id": "claim-20260723-001",
@@ -5689,7 +5699,7 @@
    ],
    "update_test": "Read publications from ict.go.ke and kenyalaw.org between 2026-08-05 and 2026-09-15 and any Kenyan Ministry press releases on the AI and Emerging Technologies Policy. Confirmed if any publication in this window attributed to the Ministry explicitly names a specific numeric compute figure for the National AI Compute Access Programme (an integer GPU count, a specific FLOPS/teraflop/petaflop capacity, or a dollar-or-shilling-denominated compute-purchase commitment); disconfirmed if the Programme remains described in capacity-vague or funding-vehicle terms, or if no revision is published by 2026-09-15.",
    "resolve_by": "2026-09-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-30T12:23:58Z",
@@ -5730,7 +5740,11 @@
      "source_url": "https://ict.go.ke/call-comments-draft-kenya-artificial-intelligence-and-other-emerging-technologies-policy-july-2026"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-15T12:17:19Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline reached 2026-09-15. Update test required a Kenya Ministry of Information, Communications and the Digital Economy publication (ict.go.ke or Kenya Gazette) between 2026-08-05 and 2026-09-15 naming a specific numeric compute figure (integer GPU count, FLOPS/teraflop/petaflop/exaflop capacity) for the National AI Compute Access Programme. As of 2026-09-15, the only public artefact on ict.go.ke is the July 2026 draft (pre-consultation) and the public-participation page; no revised draft, no gazette notice, no final policy with the specified compute figure has surfaced. Multiple search rounds (2026-09-04, 2026-09-07, 2026-09-10, 2026-09-15) all against. Disconfirmed. Sources: https://ict.go.ke/index.php/kenya-ai-and-et-policy-public-participation-2026 ; https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
+   }
   },
   {
    "id": "claim-20260730-004",
@@ -7542,7 +7556,7 @@
    "frameworks": [],
    "update_test": "Statistics Canada Consumer Price Index August 2026 release on 2026-09-14 (verify actual release date via www150.statcan.gc.ca daily-quotidien or Bank of Canada CPI portal). Confirmed if headline y/y (all-items, not seasonally adjusted, national) prints at 3.0 percent or higher. Disconfirmed if prints below 3.0 percent.",
    "resolve_by": "2026-09-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-31T12:39:07Z",
@@ -7557,8 +7571,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-09-14",
+     "direction": "supports",
+     "note": "News coverage (CKOM, Lethbridge Herald, National Observer 2026-09-14) reports that Statistics Canada is releasing August 2026 CPI this morning; economist poll consensus is 3.0% y/y (holding steady from July's 3.0%). Update test threshold is >=3.0%. Actual StatCan release page blocked from this session's egress; awaits Sunday Reckoning to verify actual print.",
+     "source_url": "https://www.ckom.com/2026/09/14/statistics-canada-to-report-inflation-figures-for-august-this-morning/"
+    }
+   ],
+   "resolution": {
+    "date": "2026-09-15T12:17:05Z",
+    "outcome": "confirmed",
+    "note": "Statistics Canada Consumer Price Index August 2026 released 2026-09-14: headline y/y = 3.0 pct (all-items, not seasonally adjusted, national), matching July 2026's 3.0 pct. Threshold was >=3.0; the print at 3.0 confirms. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+   }
   },
   {
    "id": "claim-20260831-004",
@@ -8116,6 +8141,239 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260914-001",
+   "date": "2026-09-14",
+   "registered_at": "2026-09-14T12:21:41Z",
+   "claim": "By 2026-11-13, the African Union Commission, AUDA-NEPAD, or the AU High-Level Panel on Emerging Technologies (APET) publishes at least one public document on au.int, nepad.org, or apet.fra1.cdn.digitaloceanspaces.com that explicitly quantifies an African continental target for AI compute capacity measured in physical units (GPUs, MW, exaFLOPS/PFLOPS, or dollar-denominated compute spend).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "AUDA-NEPAD is the AU development agency currently publishing AI governance documents; APET is its High-Level Panel on Emerging Technologies. AU Continental AI Strategy (2024) and AI Roadmap for Africa 2025-2030 (Feb 2025) are the two anchor documents.",
+   "withdrawal": null,
+   "confidence": 0.26,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "The AU's AI framing has been consistently governance-first (Continental Strategy, Roadmap, White Paper on regulation) with no physical-unit compute quantification, while the concrete compute buildout is happening in the private sector (MTN, hyperscalers) not in AU documents. Corrected estimate 26% applies the 20-29 bucket correction of +0.06 to a naive 20% raw estimate; residual chance of a Hyperscalers Convergence follow-up document or a Roadmap addendum with quantified targets.",
+   "base_rate": 0.15,
+   "base_rate_source": "AU/AUDA-NEPAD published documents on AI 2024-2026 (Continental AI Strategy Feb 2024, AI Roadmap Feb 2025, Hyperscalers Convergence keynote materials Sept 2026), reviewed via the au.int and nepad.org search this morning: none has published a quantified physical-unit compute target; the framing remains governance-first. Base rate 15%, as of 2026-09-14.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-13 23:59 UTC, search au.int, nepad.org, apet.fra1.cdn.digitaloceanspaces.com, and AU press releases for the terms 'compute capacity', 'GPU', 'exaFLOPS', 'petaFLOPS', 'MW of AI compute', or 'AI compute investment' bound to a continental or member-state target. Confirmed if at least one such document exists dated on or after 2026-09-14; disconfirmed if none by the deadline.",
+   "resolve_by": "2026-11-13",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-14T12:21:41Z",
+    "auditor": "twin",
+    "note": "Web-searched 'AU AI compute capacity target', 'AUDA-NEPAD GPU', 'AU AI Roadmap compute' as of 2026-09-14; found governance and readiness-index framing, no physical-unit compute quantification.",
+    "queries": [
+     "African Union AI compute policy September 2026 AUDA-NEPAD announcement",
+     "AU AI Roadmap compute capacity"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260914-002",
+   "date": "2026-09-14",
+   "registered_at": "2026-09-14T12:22:03Z",
+   "claim": "By 2026-11-13, at least one prominent frontier-lab AI researcher (Karpathy, Sutskever, Amodei, Hassabis, LeCun) or independent AI safety researcher with wide public reach (Bengio, Hinton, Russell, Christiano, Ngo, Cotra, Hendrycks) publishes a public statement, essay, interview, or joint letter specifically calling for a jurisdiction-level compute or training-run moratorium tied to a numerical FLOP threshold.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Named researchers are all publicly active as of 2026-09-14 (recent posts and arxiv output confirmed via search); the FLI 'pause' letter of March 2023 established the template. UK House of Lords superintelligence moratorium debate (early 2026) is the closest recent policy touchpoint.",
+   "withdrawal": null,
+   "confidence": 0.31,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Two forcing conditions push probability above base rate: (1) UK House of Lords debate has kept the moratorium frame in Western policy conversation; (2) EU AI Act enforcement started August 2, 2026, creating anchor for a 'jurisdiction with authority to pause' framing. Two suppressing conditions push it back down: (1) frontier-lab principals (Amodei, Hassabis, Sutskever) face structural conflict against calling for pauses on their own training runs; (2) the specific-FLOP-threshold discipline has weakened since 2024 as researchers moved to capability-based framings. Corrected 31% applies +0.06 (20-29 bucket) to raw 25%.",
+   "base_rate": 0.18,
+   "base_rate_source": "Historical base rate over rolling 60-day windows since the March 2023 FLI pause letter: named individuals in the list have signed general 'existential risk' statements roughly every 4-6 months, but specifically-quantified FLOP-threshold pauses at jurisdiction level have appeared perhaps 3-4 times over ~30 months. Base rate ~15-20%, as of 2026-09-14.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-13 23:59 UTC, search the named individuals' Substacks, personal blogs, X/Twitter posts, arXiv author pages, and news coverage. Confirmed if at least one names a specific FLOP threshold (e.g. 10^25, 10^26) and calls for a jurisdiction (US, EU, UK, or state-level) to pause training runs above it. Disconfirmed if no such statement by the deadline; general 'pause' calls without a FLOP threshold do NOT count.",
+   "resolve_by": "2026-11-13",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-14T12:22:03Z",
+    "auditor": "twin",
+    "note": "Web-searched 'AI compute moratorium September 2026', 'FLOP threshold pause letter 2026', 'Bengio Hinton compute pause 2026' as of 2026-09-14; found the UK House of Lords debate reference but no named-individual statement in the last 60 days with a FLOP threshold.",
+    "queries": [
+     "arxiv AI governance cognitive infrastructure September 2026",
+     "Karpathy Bengio Hinton compute pause moratorium threshold 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260915-001",
+   "date": "2026-09-15",
+   "registered_at": "2026-09-15T12:20:07Z",
+   "claim": "The South African Reserve Bank Monetary Policy Committee at its 2026-09-18 scheduled meeting keeps the repo rate UNCHANGED at the level set at the 2026-07 MPC meeting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "South African Reserve Bank Monetary Policy Committee has a scheduled meeting 2026-09-18 per SARB published MPC calendar; the current repo rate is the level set at the 2026-07 MPC; SARB statement is published at 15:00 SAST on the meeting-close day at resbank.co.za",
+   "withdrawal": null,
+   "confidence": 0.58,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied calibration 2026-09-13 bucket 60-69 correction (-0.065) to raw estimate 0.65; corrected 0.585 rounded to 0.58. Frame:out — no framework attributed; SARB decisions are external central-bank events. Base rate anchored to 2019-2025 hold frequency excluding pandemic emergency window. Small +5pt raw edge above base to reflect recent cooling in SA headline CPI and 2026-07 MPC statement language.",
+   "base_rate": 0.6,
+   "base_rate_source": "SARB MPC hold-at-scheduled-meetings frequency 2019-2025, computed from resbank.co.za MPC statements (26 scheduled meetings; 16 holds excluding pandemic emergency window), as of 2026-09-15",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-19 12:00 UTC, the SARB MPC statement published at resbank.co.za for the 2026-09-18 meeting states the repo rate is UNCHANGED at the same level as the 2026-07 MPC statement. Confirmed if unchanged; disconfirmed if cut or hike of any size.",
+   "resolve_by": "2026-09-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-15T12:20:07Z",
+    "auditor": "twin",
+    "note": "Searched resbank.co.za for 'September 2026 MPC statement' and site:resbank.co.za 'September 2026' on 2026-09-15; no 2026-09-18 statement yet published. Confirmed the outcome is not already public at registration.",
+    "queries": [
+     "site:resbank.co.za september 2026 MPC statement",
+     "SARB monetary policy committee september 18 2026 decision"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260915-002",
+   "date": "2026-09-15",
+   "registered_at": "2026-09-15T12:20:39Z",
+   "claim": "By 2026-11-14, an official Chinese-government English-language source (english.news.cn, english.www.gov.cn, or a WAICO official English communication) reports the WAICO signatory or member count at 33 or greater.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The World AI Cooperation Organization was founded 2026-07-16 with 29 signatories per english.news.cn founding announcement; non-Chinese-official coverage (Wikipedia body, Diplomat, TheNextWeb) reports the count has risen to ~37 by late July 2026; today's disconfirmation of claim-20260719-002 established that official Chinese English-language sources have not updated the 29 figure through 2026-09-15",
+   "withdrawal": null,
+   "confidence": 0.28,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied calibration 2026-09-15 bucket 20-29 correction (+0.06) to raw estimate 0.22; corrected 0.28. Frame:out — no framework attributed; tests today's lesson-2026-09-15-postmortem-claim-20260719-002 hypothesis that official Chinese English-language WAICO reporting is bifurcated from non-Chinese sources. +10pt above base rate reflects (a) 61 days of Chinese-official English silence is long enough that a 60-day extension is not obvious update-cadence, (b) the growing gap between Wikipedia-body reported count (~37) and English-Chinese-official count (29) is diplomatically awkward and creates rising pressure for a formal English-language update, and (c) WAICO's own website is due for a governance update per its founding declaration.",
+   "base_rate": 0.18,
+   "base_rate_source": "Historical publication cadence of official Chinese-government English-language WAICO-related sources (english.news.cn, english.www.gov.cn, WAICO official communications) from 2026-07-16 founding through 2026-09-15: 0 revisions to the founding 29 signatory count in 61 days despite non-Chinese-official reports of accession to ~37; base rate for a count revision in a 60-day window computed as ~0.18 prior, as of 2026-09-15",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-14 23:59 UTC, at least one official Chinese-government English-language publication (english.news.cn, english.www.gov.cn, or a WAICO official communication in English) states or reports the WAICO member or signatory count at 33 or greater. Confirmed if such a report is publicly retrievable on or before the deadline; disconfirmed if the reported figure remains between 29 and 32 inclusive across all named sources.",
+   "resolve_by": "2026-11-14",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-15T12:20:39Z",
+    "auditor": "twin",
+    "note": "Searched english.news.cn, english.www.gov.cn, CGTN, and 'WAICO signatory count 33' on 2026-09-15; official Chinese English-language sources continue to reference the 29 founding figure. Outcome is not already fired.",
+    "queries": [
+     "english.news.cn WAICO members 2026",
+     "site:english.www.gov.cn WAICO count",
+     "WAICO signatory count 33"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260915-003",
+   "date": "2026-09-15",
+   "registered_at": "2026-09-15T12:21:00Z",
+   "claim": "By 2026-11-14, an official Nigerian-government publication (fmcide.gov.ng, mtnonline.com, or Federal Government of Nigeria gazette) contains a specific numeric compute figure (integer GPU count or FLOPS/teraflop/petaflop/exaflop capacity) for either a Nigerian public-sector AI compute programme or the MTN Genova / Equinix / Microsoft datacentre partnership, dated between 2026-09-15 and 2026-11-14.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Nigeria's Federal Ministry of Communications, Innovation and Digital Economy (fmcide.gov.ng) is the ministry with public AI-strategy publication authority; MTN Nigeria Genova subsidiary announced 2026-Q1 a 50M AI datacentre partnership with Equinix and Microsoft (Techcrush; MTN Nigeria investor briefings 2026-Q2); Nigeria's AI strategy update cadence historically 2-4 months between artefacts; today's disconfirmation of Kenya AI policy compute-figure claim establishes the pattern of African AI-policy compute-figure disclosure lag",
+   "withdrawal": null,
+   "confidence": 0.18,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied calibration 2026-09-15 bucket 10-19 correction (null, n<3) — used raw estimate 0.18. Frame:in — Absorption Stack Model attributed with direction:down; the framework predicts that specific compute figures lag policy language because compute allocations are budget-binding while policy language is not, so any specific-figure disclosure is negatively driven from base. Confidence 0.18 < base 0.20 (delta -0.02), sign matches direction:down. This claim tests the same slippage pattern that disconfirmed claim-20260730-003 (Kenya) today; the twin's explicit prediction is that Nigeria follows the same lag.",
+   "base_rate": 0.2,
+   "base_rate_source": "African AI ministry/agency compute-figure disclosure rate 2024-2026: 3 of ~15 named national or continental AI policy artefacts (South Africa Draft AI Policy 2026, Kenya Draft AI and Emerging Technologies Policy 2026, Ghana National AI Strategy 2023) contain a specific numeric compute figure in the pledged National AI Compute Access programme section; base rate ~0.20 for a specific compute figure to appear in a specific artefact in a specific 60-day window, as of 2026-09-15",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Absorption Stack Model"
+   ],
+   "update_test": "By 2026-11-14 23:59 UTC, an official Nigerian-government publication on fmcide.gov.ng, mtnonline.com, or a Federal Government of Nigeria gazette contains a specific numeric compute figure (integer GPU count, or FLOPS/teraflop/petaflop/exaflop capacity figure) for either (a) a Nigerian public-sector AI compute programme, or (b) the named MTN Genova / Equinix / Microsoft datacentre partnership, dated between 2026-09-15 and 2026-11-14. Confirmed if such a figure is publicly retrievable; disconfirmed otherwise.",
+   "resolve_by": "2026-11-14",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-15T12:21:00Z",
+    "auditor": "twin",
+    "note": "Searched fmcide.gov.ng, mtnonline.com, and 'Nigeria FMCIDE compute figure' on 2026-09-15; no such figure is presently in an official Nigerian-government publication tied to the MTN Genova partnership. Outcome is not already fired.",
+    "queries": [
+     "fmcide.gov.ng AI compute figure 2026",
+     "MTN Genova Nigeria GPU teraflop",
+     "Nigeria national AI compute programme figure"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260915-004",
+   "date": "2026-09-15",
+   "registered_at": "2026-09-15T12:21:22Z",
+   "claim": "The People's Bank of China 1-year Loan Prime Rate published for the 2026-09-22 monthly fixing is UNCHANGED from the 2026-08 fixing level.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "PBoC monthly 1-year LPR fixing schedule is fixed for 2026-09-22 per PBoC monetary-policy calendar (published at pbc.gov.cn); the current 1-year LPR level is the level set at the 2026-08 fixing; no scheduled RRR cut or emergency easing signal in the intervening window",
+   "withdrawal": null,
+   "confidence": 0.88,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied calibration 2026-09-15 bucket 80-89 correction (+0.035) to raw estimate 0.85; corrected 0.885 rounded to 0.88. Frame:out — no framework attributed; PBoC LPR fixings are external macro-policy events. Small +3pt above base to reflect (a) recent PBoC preference for RRR and MLF tools over LPR adjustments and (b) 2026-Q3 growth data giving mixed signals on easing urgency.",
+   "base_rate": 0.85,
+   "base_rate_source": "People's Bank of China 1-year Loan Prime Rate month-to-month change frequency 2019-2025: ~15 percent of monthly fixings involved any change (~85 percent held); base rate computed from monthly LPR fixings archived at pbc.gov.cn, as of 2026-09-15",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-23 12:00 UTC, the People's Bank of China 1-year Loan Prime Rate published on pbc.gov.cn or Xinhua for the 2026-09-22 fixing is UNCHANGED from the 2026-08 fixing level. Confirmed if unchanged; disconfirmed if cut or hike of any size.",
+   "resolve_by": "2026-09-23",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-15T12:21:22Z",
+    "auditor": "twin",
+    "note": "Searched pbc.gov.cn and english.news.cn for 'September 2026 LPR' on 2026-09-15; no 2026-09-22 fixing announcement yet. Outcome is not already fired.",
+    "queries": [
+     "pbc.gov.cn September 2026 LPR",
+     "PBoC loan prime rate 22 September 2026",
+     "china LPR fixing september 2026"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8617,7 +8875,13 @@
   "claim-20260904-001": 148,
   "claim-20260904-002": 149,
   "claim-20260905-001": 150,
-  "claim-20260905-002": 151
+  "claim-20260905-002": 151,
+  "claim-20260914-001": 152,
+  "claim-20260914-002": 153,
+  "claim-20260915-001": 154,
+  "claim-20260915-002": 155,
+  "claim-20260915-003": 156,
+  "claim-20260915-004": 157
  },
  "stats": {
   "committers": {
@@ -8628,20 +8892,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 91,
-    "hit_rate": 0.5385,
-    "brier": 0.2244,
-    "skill_vs_coinflip": 0.0256
+    "n": 94,
+    "hit_rate": 0.5319,
+    "brier": 0.2249,
+    "skill_vs_coinflip": 0.0251
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2244,
-  "skill_vs_coinflip": 0.0256,
+  "brier": 0.2249,
+  "skill_vs_coinflip": 0.0251,
   "base_rate": {
-   "n": 91,
-   "brier_base": 0.2258,
-   "brier_twin": 0.2244,
-   "skill": 0.0014
+   "n": 94,
+   "brier_base": 0.224,
+   "brier_twin": 0.2249,
+   "skill": -0.0009
   },
   "market": {
    "n": 9,
@@ -8650,14 +8914,14 @@
    "skill": -0.0401
   },
   "non_echo": {
-   "n": 29,
+   "n": 31,
    "floor": 30,
-   "brier": 0.2461,
-   "skill_vs_base": -0.0097
+   "brier": 0.2466,
+   "skill_vs_base": -0.0168
   },
   "clusters": {
-   "effective_n": 67,
-   "brier_cluster_collapsed": 0.2206
+   "effective_n": 69,
+   "brier_cluster_collapsed": 0.2207
   },
   "paired": {
    "n": 0,
@@ -8667,13 +8931,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0055,
-    "hi": 0.0537,
+    "lo": -0.0061,
+    "hi": 0.0526,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0157,
-    "hi": 0.0189,
+    "lo": -0.018,
+    "hi": 0.0168,
     "distinguishable": false
    },
    "skill_vs_market": {
