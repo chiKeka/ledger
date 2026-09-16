@@ -7917,7 +7917,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-16 08:30 ET or shortly thereafter, the Census Bureau Advance Monthly Retail Trade Survey release for August 2026 (available at census.gov/retail/marts/www/marts_current.pdf and census.gov/retail) reports a headline total retail sales month-over-month change of +0.2 percent or greater. Confirmed if strictly greater than or equal to +0.2 percent; disconfirmed if less than +0.2 percent.",
    "resolve_by": "2026-09-16",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-02T12:30:55Z",
@@ -7933,7 +7933,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-16T12:46:29Z",
+    "outcome": "confirmed",
+    "note": "+0.6% MoM (headline total retail and food services sales, advance estimate, seasonally adjusted), Census Bureau Advance Monthly Retail Trade Survey released 2026-09-16 08:30 ET, https://www.census.gov/retail/marts/www/marts_current.pdf"
+   }
   },
   {
    "id": "claim-20260903-001",
@@ -8908,20 +8912,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 95,
-    "hit_rate": 0.5368,
-    "brier": 0.2247,
-    "skill_vs_coinflip": 0.0253
+    "n": 96,
+    "hit_rate": 0.5417,
+    "brier": 0.2253,
+    "skill_vs_coinflip": 0.0247
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2247,
-  "skill_vs_coinflip": 0.0253,
+  "brier": 0.2253,
+  "skill_vs_coinflip": 0.0247,
   "base_rate": {
-   "n": 95,
-   "brier_base": 0.2289,
-   "brier_twin": 0.2247,
-   "skill": 0.0042
+   "n": 96,
+   "brier_base": 0.2292,
+   "brier_twin": 0.2253,
+   "skill": 0.0039
   },
   "market": {
    "n": 9,
@@ -8936,8 +8940,8 @@
    "skill_vs_base": -0.0011
   },
   "clusters": {
-   "effective_n": 70,
-   "brier_cluster_collapsed": 0.2205
+   "effective_n": 71,
+   "brier_cluster_collapsed": 0.2213
   },
   "paired": {
    "n": 0,
@@ -8947,13 +8951,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0042,
-    "hi": 0.0528,
+    "lo": -0.0058,
+    "hi": 0.0515,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0149,
-    "hi": 0.0239,
+    "lo": -0.0153,
+    "hi": 0.0254,
     "distinguishable": false
    },
    "skill_vs_market": {
