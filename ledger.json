@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4256,6 +4256,12 @@
      "direction": "supports",
      "note": "Federal Government of Nigeria inaugurated an 'ADAPT Forum' in July 2026 per THISDAY reporting (2026-07-29) to cut trade costs and boost digital commerce under AfCFTA. Coverage names the FG action but INTERPRETIVE: (a) not verified whether the Nigerian ADAPT Forum is formally named 'Country Implementation Forum' or bears the 'CIF' proper name required by the update test, or is a different Nigeria-specific structure, and (b) source (thisdaylive.com) is not directly fetchable from this environment to confirm chairperson/roster/TOR language. Second interpretive signal to date. Combined with the 2026-09-07 IOTA Foundation blog signal (partner announcement of ADAPT first implementations Kenya/Morocco/Nigeria) the balance is toward operationalization but the specific naming-and-composition threshold in the update test is not clearly cleared. Defer to Sunday Reckoning per unambiguous_only policy. Sources: https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/",
      "source_url": "https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/"
+    },
+    {
+     "date": "2026-09-16",
+     "direction": "against",
+     "note": "Deadline 2026-09-15 23:59 UTC has passed. Search of au-afcfta.org, Kenya/Morocco/Nigeria government press pages, IOTA Foundation, TBI, and WEF as of 2026-09-16 12:15 UTC returns no public document using 'Country Implementation Forum' or 'CIF' as a proper name with a chairperson, member roster, or ToR. Interpretive edge case: a 2026-07-30 THISDAYLIVE report describes an FG-inaugurated 'ADAPT country implementation forum/subcommittee' in Abuja, but the underlying gov.ng release could not be verified for the proper-name + chairperson/roster/ToR test. Log evidence; defer to Sunday Reckoning for resolution per unambiguous-only rule.",
+     "source_url": "https://www.thisdaylive.com/2026/07/30/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta-2/"
     }
    ],
    "resolution": null
@@ -8027,6 +8033,12 @@
      "direction": "against",
      "note": "Bearing evidence 2026-09-12 12:15 UTC. CME FedWatch pricing 60-69 pct probability of a 25 bp HIKE at 2026-09-16 FOMC (Yahoo Finance/CNBC/Forbes tracking, 2026-09-11 snapshot). Kalshi at 57 pct hike, Polymarket 49 pct hike per FXStreet cross-venue comparison. Median lean is HIKE, not hold. Twin claim quantified 62 pct HOLD - the market has now diverged materially from the claim. Postmortem-priming: this repeats the ECB claim-20260827-002 pattern (twin logged high-conviction market pricing 2 days pre-decision and did not re-quantify). NOT resolving; the actual decision is 2026-09-16 14:00 ET. Interpretive/pre-fact; the Sunday Reckoning re-verifies the actual print.",
      "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+    },
+    {
+     "date": "2026-09-16",
+     "direction": "against",
+     "note": "As of 2026-09-16 08:00 ET, market pricing has moved further toward a hike: Kiplinger cites CME FedWatch at 93 percent for a 25bp raise (target range 3.75-4.00) at the Sept 15-16 meeting (up from 60-69 pct pricing tracked in signal 2026-09-12-fed-warsh-market-repricing). Decision publishes 2026-09-16 14:00 ET; log evidence, do not resolve pre-announcement per unambiguous-resolution rule.",
+     "source_url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026"
     }
    ],
    "resolution": null
@@ -8052,7 +8064,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-16 at 07:00 BST, the UK Office for National Statistics publishes the Consumer Price Inflation bulletin for August 2026 on ons.gov.uk. Confirmed if the headline CPI (CPIH excluded; CPI is the ONS headline figure) 12-month rate is 3.0 percent or higher; disconfirmed if strictly below 3.0 percent.",
    "resolve_by": "2026-09-17",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-04T12:34:55Z",
@@ -8066,7 +8078,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-16T12:19:43Z",
+    "outcome": "confirmed",
+    "note": "UK ONS Consumer Price Inflation bulletin for August 2026 released 2026-09-16 07:00 BST. Headline CPI 12-month rate 3.1 percent (up from 2.9 percent in July 2026), the highest in five months, in line with market expectations. Transport (motor fuels) was the largest upward contributor, with fuel inflation rising to 23.0 percent from 15.5 percent. CPIH 3.3 percent (up from 3.1 percent); core CPI 2.6 percent (unchanged). Update test threshold of 3.0 percent or higher CONFIRMED strictly at 3.1 percent. Twin claim confidence was 55 percent for confirmed; outcome confirmed. Primary source: ons.gov.uk (egress-blocked in the sandbox); verified via Trading Economics and independent bulletin previews. Registered fact; unambiguous."
+   }
   },
   {
    "id": "claim-20260905-001",
@@ -8892,20 +8908,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 94,
-    "hit_rate": 0.5319,
-    "brier": 0.2249,
-    "skill_vs_coinflip": 0.0251
+    "n": 95,
+    "hit_rate": 0.5368,
+    "brier": 0.2247,
+    "skill_vs_coinflip": 0.0253
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2249,
-  "skill_vs_coinflip": 0.0251,
+  "brier": 0.2247,
+  "skill_vs_coinflip": 0.0253,
   "base_rate": {
-   "n": 94,
-   "brier_base": 0.224,
-   "brier_twin": 0.2249,
-   "skill": -0.0009
+   "n": 95,
+   "brier_base": 0.2289,
+   "brier_twin": 0.2247,
+   "skill": 0.0042
   },
   "market": {
    "n": 9,
@@ -8914,14 +8930,14 @@
    "skill": -0.0401
   },
   "non_echo": {
-   "n": 31,
+   "n": 32,
    "floor": 30,
-   "brier": 0.2466,
-   "skill_vs_base": -0.0168
+   "brier": 0.2452,
+   "skill_vs_base": -0.0011
   },
   "clusters": {
-   "effective_n": 69,
-   "brier_cluster_collapsed": 0.2207
+   "effective_n": 70,
+   "brier_cluster_collapsed": 0.2205
   },
   "paired": {
    "n": 0,
@@ -8931,13 +8947,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0061,
-    "hi": 0.0526,
+    "lo": -0.0042,
+    "hi": 0.0528,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.018,
-    "hi": 0.0168,
+    "lo": -0.0149,
+    "hi": 0.0239,
     "distinguishable": false
    },
    "skill_vs_market": {
