@@ -8420,6 +8420,82 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260918-001",
+   "date": "2026-09-18",
+   "registered_at": "2026-09-18T12:22:58Z",
+   "claim": "US Bureau of Labor Statistics Consumer Price Index for All Urban Consumers (CPI-U) for September 2026 (release scheduled 2026-10-15 08:30 ET on bls.gov/cpi) reports the headline all-items 12-month percent change (not seasonally adjusted) at 3.4 percent or higher, i.e. flat or up versus the August 2026 print of 3.4 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BLS Consumer Price Index Summary release schedule for September 2026 published on bls.gov/schedule/news_release/cpi.htm; August 2026 print released 2026-09-11 at 3.4pct YoY per BLS CPI Summary 2026 M08 Results.",
+   "withdrawal": null,
+   "confidence": 0.48,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied bucket 50-59 correction (-0.023) to raw estimate 0.50, gives 0.48. Frame:out — statistical release, no framework attribution. Base rate 0.50 reflects roughly equal split of at-or-above vs below-prior in the current 3-4pct band; slight negative lean vs base to reflect (i) energy-price mean reversion after August surge, (ii) modest August 0.4pct m/m suggests base-effect may compress YoY by a tenth. No market pricing readily available at retail level, so no market anchor.",
+   "base_rate": 0.5,
+   "base_rate_source": "BLS CPI-U monthly year-over-year change 2024-2026: fraction of months printing at-or-above prior-month YoY figure, computed from bls.gov/cpi release archive (approximately 0.50 in the current elevated-inflation regime), as of 2026-09-18",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-15, BLS publishes CPI-U September 2026 on bls.gov/news.release/cpi.nr0.htm. Read the 12-month percent change for all items (unadjusted). Confirmed if that value is 3.4 percent or higher; disconfirmed if below 3.4 percent.",
+   "resolve_by": "2026-10-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-18T12:22:58Z",
+    "auditor": "twin",
+    "note": "Searched 'US CPI September 2026 release headline yoy inflation percent BLS' on 2026-09-18 12:45 UTC. September 2026 CPI not yet published (release scheduled 2026-10-15); August 2026 print at 3.4pct YoY is latest available (released 2026-09-11). Outcome not already known.",
+    "queries": [
+     "US CPI August 2026 release headline year over year inflation percent BLS",
+     "US CPI September 2026 release scheduled BLS"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260918-002",
+   "date": "2026-09-18",
+   "registered_at": "2026-09-18T12:23:13Z",
+   "claim": "UK Office for National Statistics Consumer Price Inflation for September 2026 (release scheduled 2026-10-15 07:00 UK on ons.gov.uk/economy/inflationandpriceindices) reports the headline CPI 12-month rate at 3.1 percent or higher, i.e. flat or up versus the August 2026 print of 3.1 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ONS Consumer Price Inflation release calendar for September 2026 published on ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/latest; August 2026 print released 2026-09-16 at 3.1pct YoY per ONS bulletin.",
+   "withdrawal": null,
+   "confidence": 0.53,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Applied bucket 50-59 correction (-0.023) to raw 0.55, gives 0.527, rounded to 0.53. Frame:out — statistical release, no framework attribution. Base rate 0.52 reflects roughly balanced hold-or-up frequency; small positive lean vs base to reflect (i) two consecutive monthly upticks in UK YoY (2.9 -> 3.1) suggesting momentum, (ii) BoE MPC 6-3 hawkish split (three dissenters voting for hike this month) implicitly signaling committee expects near-term inflation stickiness, (iii) fuel-price effect that drove August will not fully unwind in September. No market pricing readily available.",
+   "base_rate": 0.52,
+   "base_rate_source": "ONS CPI monthly year-over-year change 2024-2026: fraction of months printing at-or-above prior-month headline YoY figure, computed from ons.gov.uk consumer price inflation bulletin archive (approximately 0.50-0.55 in the current elevated-inflation regime; UK YoY trending up from 2.9pct July to 3.1pct August 2026), as of 2026-09-18",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-15, ONS publishes Consumer Price Inflation September 2026 on ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026. Read the CPI 12-month rate (all items). Confirmed if that value is 3.1 percent or higher; disconfirmed if below 3.1 percent.",
+   "resolve_by": "2026-10-16",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-18T12:23:13Z",
+    "auditor": "twin",
+    "note": "Searched 'UK CPI September 2026 release headline yoy percent ONS' on 2026-09-18 12:50 UTC. September 2026 CPI not yet published (release scheduled 2026-10-15); August 2026 print at 3.1pct YoY is latest available (released 2026-09-16). Outcome not already known.",
+    "queries": [
+     "UK ONS CPI August 2026 headline inflation percent year over year",
+     "UK CPI September 2026 release date ONS scheduled"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -8927,7 +9003,9 @@
   "claim-20260915-001": 154,
   "claim-20260915-002": 155,
   "claim-20260915-003": 156,
-  "claim-20260915-004": 157
+  "claim-20260915-004": 157,
+  "claim-20260918-001": 158,
+  "claim-20260918-002": 159
  },
  "stats": {
   "committers": {
