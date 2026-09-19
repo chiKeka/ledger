@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18",
+ "updated": "2026-09-19",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4262,6 +4262,12 @@
      "direction": "against",
      "note": "Deadline 2026-09-15 23:59 UTC has passed. Search of au-afcfta.org, Kenya/Morocco/Nigeria government press pages, IOTA Foundation, TBI, and WEF as of 2026-09-16 12:15 UTC returns no public document using 'Country Implementation Forum' or 'CIF' as a proper name with a chairperson, member roster, or ToR. Interpretive edge case: a 2026-07-30 THISDAYLIVE report describes an FG-inaugurated 'ADAPT country implementation forum/subcommittee' in Abuja, but the underlying gov.ng release could not be verified for the proper-name + chairperson/roster/ToR test. Log evidence; defer to Sunday Reckoning for resolution per unambiguous-only rule.",
      "source_url": "https://www.thisdaylive.com/2026/07/30/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta-2/"
+    },
+    {
+     "date": "2026-09-19",
+     "direction": "supports",
+     "note": "THISDAYLIVE 2026-07-29 headline: 'FG Inaugurates ADAPT Forum to Cut Trade Costs, Boost Digital Commerce Under AfCFTA' - Nigeria's Federal Government, through the Nigeria AfCFTA coordination office, inaugurated the ADAPT country implementation forum/subcommittee. Bearing-YES toward the update test but the full text is blocked by egress proxy and the exact phrase 'Country Implementation Forum' as a proper name plus chairperson/roster/ToR could not be verified from search snippets alone. Interpretive case; deferring resolution to Sunday Reckoning for full-text verification.",
+     "source_url": "https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/"
     }
    ],
    "resolution": null
@@ -8299,7 +8305,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-19",
+     "direction": "against",
+     "note": "Registration-date error: SARB MPC calendar and multiple market previews (sacalc.co.za, Capital Economics) put the September 2026 MPC decision at 2026-09-23, not 2026-09-18 as this claim's grounding states. The 2026-09-18 date matches no SARB scheduled meeting; the claim update test cannot fire on the stated date. Deferring to Sunday Reckoning for correction/invalidation review. Evidence sources: https://sacalc.co.za/blog/sarb-rate-outlook-september-2026/ ; https://www.capitaleconomics.com/publications/africa-economics-update/sarb-opens-door-rate-cuts",
+     "source_url": null
+    }
+   ],
    "resolution": null
   },
   {
@@ -8494,6 +8507,125 @@
    },
    "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260919-001",
+   "date": "2026-09-19",
+   "registered_at": "2026-09-19T12:09:17Z",
+   "claim": "SARB MPC 2026-09-23 hold: The South African Reserve Bank Monetary Policy Committee at its 2026-09-23 scheduled meeting keeps the policy rate unchanged from the level set at the 2026-07 MPC statement.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "SARB MPC has a scheduled meeting 2026-09-23 per SARB published MPC calendar. The July 2026 MPC voted 4-2 to hold at 7.00 percent per POWER987News X post. SARB statement is published at 15:00 SAST on meeting-close day at resbank.co.za. This claim replaces the misdated claim-20260915-001 which referenced 2026-09-18 (no scheduled meeting on that date).",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.6,
+   "base_rate_source": "SARB MPC hold-at-scheduled-meetings long-run frequency approx 60 percent across the 2020-2025 monetary policy cycle; anchored to SARB MPC decision history at resbank.co.za, as-of 2026-09-19",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "Official SARB MPC statement published on resbank.co.za on 2026-09-23 shows the policy rate unchanged from the level recorded in the 2026-07 MPC statement. If it changes by any amount or in either direction, the claim resolves NO.",
+   "resolve_by": "2026-09-24",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-19T12:09:17Z",
+    "auditor": "twin",
+    "note": "sources searched 2026-09-19: sacalc.co.za, capitaleconomics.com, enca.com, resbank.co.za search results; nothing decisive is public for the 2026-09-23 decision as of registration time. Consensus lean: hold with hawkish tone; one committee vote away from a hike per July split. Calibration 2026-09-18 applied (50-59 bucket correction -0.035 to raw 0.55 gives 0.52).",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260915-001",
+     "relation": "sharpens",
+     "note": "Corrects the misdated 2026-09-18 SARB MPC claim to the actual 2026-09-23 scheduled meeting date; same underlying event.",
+     "date": "2026-09-19T12:09:37Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260919-002",
+   "date": "2026-09-19",
+   "registered_at": "2026-09-19T12:09:17Z",
+   "claim": "Council of Europe AI Framework Convention gets at least one additional signatory between 2026-09-19 and 2026-11-01. Additional signatory = any state added to the signatory or ratifying-state list at https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence that was not on that list as of 2026-09-19.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law is an active open-for-signature international instrument at coe.int. As of 2026-09-19 it has an existing signatory list; new signatures happen at CoE Committee of Ministers sessions and via national ratification cycles.",
+   "withdrawal": null,
+   "confidence": 0.43,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "base_rate_source": "New Council of Europe convention post-adoption first-year signatory addition rate: approximately one new signatory every 6-8 weeks (anchored to historical CoE convention adoption timelines for Convention 108, Budapest Convention on Cybercrime, and Convention on Human Rights and Biomedicine, as-of 2026-09-19)",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-01, the Council of Europe website at coe.int lists at least one state as a signatory to the Framework Convention on AI that was not on the signatory list as of 2026-09-19. Ratification without a new signature also counts. Confirmed via the CoE treaty office page snapshot.",
+   "resolve_by": "2026-11-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-19T12:09:17Z",
+    "auditor": "twin",
+    "note": "sources searched 2026-09-19: aigovernance.com, coe.int search, aljazeera.com, artificialintelligenceact.eu; no scheduled signing ceremony announced for the 2026-09-19 to 2026-11-01 window as of registration time. Calibration 2026-09-18 applied (40-49 bucket correction plus 0.027 to raw 0.40 gives 0.43).",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260919-003",
+   "date": "2026-09-19",
+   "registered_at": "2026-09-19T12:10:31Z",
+   "claim": "US Bureau of Labor Statistics Nonfarm Business Sector Labor Productivity for Q3 2026 (release scheduled early November 2026 on bls.gov/lpc) prints at less than 1.8 percent seasonally adjusted annual rate for output-per-hour growth.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "BLS Productivity and Costs Q3 release for the July-September 2026 quarter is scheduled early November 2026 per BLS release calendar. NBER W34984 (Barrero et al., 2026) reports corporate-executive-surveyed 2026 mean labor productivity growth at 3.0 percent while the implied measure from the same survey is 1.8 percent - the 1.7-point gap is the empirical anchor here.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.5,
+   "base_rate_source": "US NFB labor productivity SAAR quarterly print falling below 1.8 percent: approximately 50 percent long-run frequency across 2010-2025 quarterly releases at bls.gov/lpc, as-of 2026-09-19",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "The initial BLS Productivity and Costs release for Q3 2026 at bls.gov/lpc shows Nonfarm Business Sector Labor Productivity SAAR under 1.8 percent for the quarter. Revisions ignored; only the initial release counts.",
+   "resolve_by": "2026-11-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-19T12:10:31Z",
+    "auditor": "twin",
+    "note": "sources searched 2026-09-19: nber.org/papers/w34984, aeaweb.org, nber.org/digest/202605/global-evidence-business-use-ai; no Q3 2026 productivity release exists yet. No framework attributed - the analysis rests on the NBER empirical gap, not a load-bearing named framework. Calibration 2026-09-18 applied (50-59 bucket correction -0.035 to raw 0.55 gives 0.52).",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-001",
+     "relation": "probes",
+     "note": "Q3 productivity print bearing on Bruno's structural claim that aggregate productivity statistics show no clear AI-driven gains through end-2026.",
+     "date": "2026-09-19T12:10:31Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
@@ -9005,7 +9137,10 @@
   "claim-20260915-003": 156,
   "claim-20260915-004": 157,
   "claim-20260918-001": 158,
-  "claim-20260918-002": 159
+  "claim-20260918-002": 159,
+  "claim-20260919-001": 160,
+  "claim-20260919-002": 161,
+  "claim-20260919-003": 162
  },
  "stats": {
   "committers": {
