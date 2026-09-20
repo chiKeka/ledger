@@ -741,6 +741,12 @@
      "direction": "supports",
      "note": "MTN Group H1 2026 (2026-08-24) forms Africa Data Hub Holding Limited with UAE-backed partner, targets 150MW AI data-centre capacity in Nigeria + South Africa. AMACO Kenya files 1.5B USD off-grid LNG-integrated AI datacentre (HERCULES) 2026-08-20 - second instance of hyperscale compute owning its own power in six weeks. Two independent 2026-08 filings advance the named-projects commissioning trajectory the claim tracks.",
      "source_url": "https://www.itweb.co.za/article/mtn-advances-ai-ready-data-centre-strategy/4r1ly7R9aWAvpmda"
+    },
+    {
+     "date": "2026-09-20",
+     "direction": "supports",
+     "note": "2026-09-18 Nigeria NITDA cloud policy package + NDIAF certification framework operational (techafricanews.com/2026/09/14). 2026-09-20 Digital Parks Africa NDC1 Lagos — a Nigerian hyperscale-tier data centre — was highlighted as crowding into the 2026 African hyperscale slate. NITDA's 50M private-investment target over 24 months plus formal certification apparatus signals policy alignment with the physical buildout named in the claim. Kasi Cloud Lekki (100MW Nigeria campus) sits inside this same regulatory regime. Bearing supports: institutional environment for at least one of the named projects to reach commissioning by 2027-03-31 has strengthened materially in Q3 2026. Signals: 2026-09-18-nigeria-nitda-cloud-policy-package + 2026-09-20-digital-parks-africa-ndc1-lagos.",
+     "source_url": "https://techafricanews.com/2026/09/14/nitda-cloud-policy-package-nigeria-digital-infrastructure-growth/"
     }
    ],
    "resolution": null
@@ -771,7 +777,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-09-20T14:16:30Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-09-20: registration valid. Update test targets cumulative powered MW capacity across named 2026 African data-centre projects through end-2027; on 2026-06-10 that cumulative figure was not knowable in advance (projects were pre-commissioning). Outcome cannot have pre-dated registration."
+    }
+   ],
    "related_to": [
     {
      "id": "claim-20260610-013",
@@ -828,7 +840,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-09-20T14:16:30Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-09-20: registration valid. Update test targets non-EU jurisdictions with binding legislation exceeding EU AI Act perimeter by 2027-12-31; the count of qualifying jurisdictions on 2026-06-10 was zero and forward-in-time. Outcome cannot have pre-dated registration."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -890,7 +908,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-09-20T14:16:30Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-09-20: registration valid. Update test targets non-EU jurisdictions publicly citing the EU AI Act omnibus simplification as precedent by 2027-12-31; on 2026-06-10 the omnibus was pre-final-adoption (adopted 2026-06-29, in force 2026-07-27). Outcome cannot have pre-dated registration."
+    }
+   ],
    "related_to": [
     {
      "id": "claim-20260610-004",
@@ -4204,7 +4228,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-15 23:59 UTC, at least one identifiable public document from au-afcfta.org, a Kenyan/Moroccan/Nigerian government gazette or ministry press release page, the IOTA Foundation blog, the Tony Blair Institute press page, or a WEF release contains the phrase 'Country Implementation Forum' or 'CIF' as a proper name AND lists at least one of: chairperson, member roster, or terms of reference for the AfCFTA ADAPT CIF in Kenya, Morocco, or Nigeria. Confirmed if such a document exists on or before the deadline; disconfirmed if none.",
    "resolve_by": "2026-09-15",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-04T12:11:38Z",
@@ -4276,7 +4300,11 @@
      "source_url": "https://blog.iota.org/adapt-africa-digital-trade/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-20T14:12:12Z",
+    "outcome": "partial",
+    "note": "AfCFTA ADAPT infrastructure inaugurated in Nigeria per THISDAYLIVE 2026-07-29 (FG-inaugurated ADAPT country implementation forum/subcommittee in Abuja); IOTA Foundation blog + AfCFTA + TBI + WEF partnership confirms operational rollout across Kenya/Morocco/Nigeria. However the strict update test requires the exact proper-name phrase 'Country Implementation Forum' or 'CIF' plus chairperson/member-roster/ToR, which six rounds of evidence (2026-09-04, 09-07, 09-15, 09-16, 09-19, 09-20) could not verify in a directly readable public document — the IOTA Q2 2026 blog and gov.ng releases remained egress-blocked. The pilot moved from ambition to operation (partial confirmation of trajectory); the strict naming-and-composition test did not clear. Sources: https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/ https://blog.iota.org/adapt-africa-digital-trade/"
+   }
   },
   {
    "id": "claim-20260705-001",
@@ -4494,6 +4522,12 @@
      "direction": "supports",
      "note": "EU AI Office (Executive VP Henna Virkkunen) publicly confirmed 2026-08-29 that formal Requests for Information have been issued under Article 55 provider-obligations basis to OpenAI, Anthropic, and Google DeepMind - precursor step to any first formal enforcement action within the 2027-08-02 window. Signal: 2026-08-31 first-wave article-55 rfis.",
      "source_url": "https://data/discovery/signals/2026-08-31-eu-ai-office-first-wave-article-55-rfis-openai-anthropic-google-bifurcated-posture-confirmed.md"
+    },
+    {
+     "date": "2026-09-20",
+     "direction": "supports",
+     "note": "2026-09-19 signal: EU AI Office Article 55 first formal systemic risk evaluation window opens. Post-2026-08-02 the GPAI enforcement powers are live but no formal decision has been recorded yet - the mechanism named in the claim (Commission AI Office formal enforcement decision on a systemic-risk GPAI provider by 2027-08-02) is now operationally active with published risk-evaluation cycle. Directional support: enforcement infrastructure real, first decision still pending. Post-Aug-2 fines up to EUR 15M or 3pct turnover are legally live per DLA Piper 2026-09-10 briefing. Signals: 2026-09-19-eu-ai-office-article-55-first-formal-systemic-risk-evaluation-window-opens-enforcement-becomes-operational.md; 2026-09-20-eu-ai-office-post-aug2-enforcement-gpai-fines-live-but-no-fine-yet-institutional-adaptation-lag.md",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
     }
    ],
    "resolution": null
@@ -8296,7 +8330,10 @@
    "tier": "calibration",
    "frame": "out",
    "grounding": "South African Reserve Bank Monetary Policy Committee has a scheduled meeting 2026-09-18 per SARB published MPC calendar; the current repo rate is the level set at the 2026-07 MPC; SARB statement is published at 15:00 SAST on the meeting-close day at resbank.co.za",
-   "withdrawal": null,
+   "withdrawal": {
+    "date": "2026-09-20T14:12:12Z",
+    "reason": "Grounding date error: the SARB MPC did not meet on 2026-09-18. The publicly-scheduled September 2026 MPC decision is 2026-09-23 per SARB MPC calendar (sacalc.co.za, businesstech.co.za). The claim's referent event (2026-09-18 SARB MPC meeting) does not exist. Withdrawing preserves registration standards; a corrected claim for the 2026-09-23 meeting can be registered separately if desired."
+   },
    "confidence": 0.58,
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Applied calibration 2026-09-13 bucket 60-69 correction (-0.065) to raw estimate 0.65; corrected 0.585 rounded to 0.58. Frame:out — no framework attributed; SARB decisions are external central-bank events. Base rate anchored to 2019-2025 hold frequency excluding pandemic emergency window. Small +5pt raw edge above base to reflect recent cooling in SA headline CPI and 2026-07 MPC statement language.",
@@ -8308,7 +8345,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-19 12:00 UTC, the SARB MPC statement published at resbank.co.za for the 2026-09-18 meeting states the repo rate is UNCHANGED at the same level as the 2026-07 MPC statement. Confirmed if unchanged; disconfirmed if cut or hike of any size.",
    "resolve_by": "2026-09-19",
-   "status": "open",
+   "status": "withdrawn",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-15T12:20:07Z",
@@ -8414,7 +8451,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-013",
+     "relation": "probes",
+     "note": "The Nigeria NDIAF first-certification probe is a fast institutional-adaptation reading on the slower structural claim about named 2026 African AI infrastructure projects reaching commissioning by 2027-03-31. A first NDIAF cert would signal Nigeria's regulator is moving from framework to designation, materially reducing implementation-lag risk on Kasi Cloud Lekki and adjacent Nigerian data-centre buildouts.",
+     "date": "2026-09-20T14:17:20Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -8491,7 +8535,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260918-002",
+     "relation": "shares-system",
+     "note": "US CPI and UK CPI Sept 2026 both read the same G7 disinflation trajectory: energy-price base-effects, sticky services inflation, monetary policy pipeline. Shares-system: same underlying disinflation-with-services-stickiness environment.",
+     "date": "2026-09-20T14:17:20Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -8606,7 +8657,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-016",
+     "relation": "shares-system",
+     "note": "CoE AI Framework Convention and EU AI Act omnibus both read the same European AI-regulatory diffusion system: perimeter of enforceable obligations, ratification cascades, non-EU citation. Shares-system: the international regulatory-convergence layer.",
+     "date": "2026-09-20T14:17:20Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   },
@@ -8724,7 +8782,14 @@
     "outcome_already_known": false
    },
    "corrections": [],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260919-003",
+     "relation": "probes",
+     "note": "US NFP Oct 2026 print is a fast labor-market instrument reading on the slower US labor-productivity trajectory (claim-20260919-003, Q3 2026 productivity). NFP acceleration/deceleration bears on productivity denominator via aggregate hours-worked; probes the productivity path.",
+     "date": "2026-09-20T14:17:20Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
@@ -9252,19 +9317,19 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 102,
-    "hit_rate": 0.5098,
-    "brier": 0.2273,
-    "skill_vs_coinflip": 0.0227
+    "n": 103,
+    "hit_rate": 0.5097,
+    "brier": 0.2252,
+    "skill_vs_coinflip": 0.0248
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2273,
-  "skill_vs_coinflip": 0.0227,
+  "brier": 0.2252,
+  "skill_vs_coinflip": 0.0248,
   "base_rate": {
-   "n": 102,
-   "brier_base": 0.2307,
-   "brier_twin": 0.2273,
+   "n": 103,
+   "brier_base": 0.2285,
+   "brier_twin": 0.2252,
    "skill": 0.0034
   },
   "market": {
@@ -9281,7 +9346,7 @@
   },
   "clusters": {
    "effective_n": 75,
-   "brier_cluster_collapsed": 0.2232
+   "brier_cluster_collapsed": 0.2226
   },
   "paired": {
    "n": 0,
@@ -9291,13 +9356,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0061,
-    "hi": 0.0512,
+    "lo": -0.0045,
+    "hi": 0.0534,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
     "lo": -0.0152,
-    "hi": 0.0226,
+    "hi": 0.0223,
     "distinguishable": false
    },
    "skill_vs_market": {
