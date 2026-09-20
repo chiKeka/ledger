@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated on each resolution and each Sunday Reckoning. The misses stay on the board.
 
-**Record: 51✓ · 48✗ · 2◐ · 50 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 100 calibration · 1 structural · Brier 0.227 (coin-flip = 0.250; 101 scored across 75 independent events, cluster-collapsed Brier 0.223), skill vs coin-flip +0.023 (95% CI -0.006..+0.052; not yet distinguishable from zero) · skill vs base rate +0.003 (95% CI -0.015..+0.023; not yet distinguishable from zero) (n=101 carrying a recorded base rate) · skill vs market -0.042 (95% CI -0.066..-0.019; distinguishably below zero) (n=10 with a listed market price) · non-echo record (forecast departs from base rate by >7%): Brier 0.239, skill vs base -0.002 (n=33)**
+**Record: 51✓ · 49✗ · 2◐ · 49 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 101 calibration · 1 structural · Brier 0.227 (coin-flip = 0.250; 102 scored across 75 independent events, cluster-collapsed Brier 0.223), skill vs coin-flip +0.023 (95% CI -0.006..+0.051; not yet distinguishable from zero) · skill vs base rate +0.003 (95% CI -0.015..+0.023; not yet distinguishable from zero) (n=102 carrying a recorded base rate) · skill vs market -0.042 (95% CI -0.066..-0.019; distinguishably below zero) (n=10 with a listed market price) · non-echo record (forecast departs from base rate by >7%): Brier 0.239, skill vs base -0.002 (n=33)**
 
-**Latest: ✗ "The People's Bank of China announces a cut of 5 basis points or more to its 7-day reverse repo rate (the primary policy " — said 32%, resolved disconfirmed (2026-09-18)**
+**Latest: ✗ "The UMich preliminary Consumer Sentiment Index for September 2026 (scheduled release around mid-September 2026 by Univer" — said 53%, resolved disconfirmed (2026-09-20)**
 
-_Updated 2026-09-19 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-09-20 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -30,7 +30,7 @@ _Updated 2026-09-19 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 33 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
@@ -42,7 +42,6 @@ _Updated 2026-09-19 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260919-001"></a>SARB MPC 2026-09-23 hold: The South African Reserve Bank Monetary Policy Committee at its 2026-09-23 scheduled meeting keeps the policy rate unchanged from the level set at the 2026-07 MPC statement. | **52%** | 60% | world |  2026-09-24 |
 | <a id="claim-20260812-002"></a>The Norges Bank Monetary Policy Committee at its 2026-09-24 policy rate meeting raises the policy rate by at least 25 basis points from the current 4.25 percent. | **15%** | 15% | world |  2026-09-25 |
 | <a id="claim-20260731-005"></a>The African Union Commission or AUDA-NEPAD publishes on au.int, nepad.org, or an official social channel a public status update, implementation report, or milestone bulletin on the Continental AI Strategy 2025-2026 phase by 2026-09-28. | **18%** | 25% | worldview |  2026-09-29 |
-| <a id="claim-20260828-001"></a>The UMich preliminary Consumer Sentiment Index for September 2026 (scheduled release around mid-September 2026 by University of Michigan Surveys of Consumers on data.sca.isr.umich.edu) prints strictly higher than the 51.0 August 2026 preliminary read. | **53%** | 55% | world |  2026-09-30 |
 | <a id="claim-20260831-004"></a>The Reserve Bank of Australia at its 2026-09-29 monetary policy meeting HIKES the cash rate target by at least 25 basis points from the current 4.35 percent. | **20%** | 15% | world |  2026-09-30 |
 | <a id="claim-20260901-001"></a>China National Bureau of Statistics official Manufacturing PMI for September 2026 (scheduled release 2026-09-30) prints at or above 50.0. | **48%** | 35% | world |  2026-09-30 |
 | <a id="claim-20260902-003"></a>US Bureau of Labor Statistics Employment Situation for September 2026 (release scheduled 2026-10-03 at 8:30 ET) reports total nonfarm payrolls monthly change less than or equal to +100,000 jobs. | **55%** | 42% | world |  2026-10-03 |
@@ -74,6 +73,7 @@ _Updated 2026-09-19 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✗ | <a id="claim-20260828-001"></a>The UMich preliminary Consumer Sentiment Index for September 2026 (scheduled release around mid-September 2026 by University of Michigan Surveys of Consumers on data.sca.isr.umich.edu) prints strictly higher than the 51.0 August 2026 preliminary read. | 53% | disconfirmed (2026-09-20) | UMich preliminary September 2026 Consumer Sentiment printed 47.8 on 2026-09-11 - a 7.5% drop from August, second-lowest reading since 1952 (only May 2026 lower). Update-test threshold: strictly >51.0 = confirmed. 47.8 is 3.2 points below the threshold and requires no interpretation. Cross-confirmed by ABA Banking Journal, Seeking Alpha, CNBC, Advisor Perspectives. Confidence at registration 53 pct (raw); miss on the wrong side by a wide margin - consumer-sentiment cliff-edge that the estimator did not anticipate. Frame:out, calibration tier - no framework attributed at registration; postmortem lesson goes to the estimator, not to a framework. |
 | ✗ | <a id="claim-20260731-003"></a>The People's Bank of China announces a cut of 5 basis points or more to its 7-day reverse repo rate (the primary policy rate since 2024) between 2026-08-01 and 2026-09-15. | 32% | disconfirmed (2026-09-18) | PBOC 7-day reverse repo rate held at 1.40pct throughout the 2026-08-01 through 2026-09-15 window; open-market operations continued at 1.40pct on 2026-09-08 (1B yuan) and prior sessions; no cut announcement on pbc.gov.cn. Twin priced 32pct cut. Sources: newsquawk.com PBoC injection 7-day 1.40pct; cryptobriefing.com China injects 5 billion yuan via 7-day reverse repos at 1.40pct; tradingeconomics.com/china/reverse-repo-rate. |
 | ✗ | <a id="claim-20260803-002"></a>The Bank of Japan Policy Board at its September 18-19 2026 Monetary Policy Meeting keeps its short-term policy interest rate unchanged (no hike, no cut). | 67% | disconfirmed (2026-09-18) | Bank of Japan Monetary Policy Meeting 2026-09-17/18 raised the short-term policy interest rate by 25bp to 1.25pct (split-vote decision, Asada and Sato dissenting). Twin priced 67pct HOLD (change of >=10bp disconfirms). Sources: cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb; bloomberg.com/news/articles/2026-09-18/boj-hikes-rates-at-fastest-pace-since-1990. |
 | ✗ | <a id="claim-20260730-001"></a>The Bank of England Monetary Policy Committee at its September 2026 meeting (scheduled 2026-09-18) publishes a vote-split in which 4 or more Committee members dissent for a Bank Rate rise above the median decision. | 22% | disconfirmed (2026-09-18) | Bank of England MPC meeting ending 2026-09-16 held Bank Rate at 3.75pct on 6-3 vote (3 members voted for a 25bp rise to 4.00pct). Twin required 4-or-more hawkish dissents; 3 dissenters is below the threshold. Sources: bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026; karmactive.com bank-of-england-rate-3-75-percent-september-2026. |
@@ -188,7 +188,7 @@ _Withdrawn before resolution: 2 claim(s), for failing registration standards (ev
 | 20-29% | 4 | 38% |
 | 30-39% | 12 | 12% |
 | 40-49% | 12 | 50% |
-| 50-59% | 34 | 50% |
+| 50-59% | 35 | 49% |
 | 60-69% | 20 | 45% |
 | 70-79% | 11 | 82% |
 | 80-89% | 3 | 100% |
@@ -201,7 +201,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 21 | 26% | 0.234 | +0.016 | readable |
-| world (frame:out) | 80 | 58% | 0.225 | +0.025 | readable |
+| world (frame:out) | 81 | 57% | 0.226 | +0.024 | readable |
 
 ## The workshop
 

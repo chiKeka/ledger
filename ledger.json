@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4268,6 +4268,12 @@
      "direction": "supports",
      "note": "THISDAYLIVE 2026-07-29 headline: 'FG Inaugurates ADAPT Forum to Cut Trade Costs, Boost Digital Commerce Under AfCFTA' - Nigeria's Federal Government, through the Nigeria AfCFTA coordination office, inaugurated the ADAPT country implementation forum/subcommittee. Bearing-YES toward the update test but the full text is blocked by egress proxy and the exact phrase 'Country Implementation Forum' as a proper name plus chairperson/roster/ToR could not be verified from search snippets alone. Interpretive case; deferring resolution to Sunday Reckoning for full-text verification.",
      "source_url": "https://www.thisdaylive.com/2026/07/29/fg-inaugurates-adapt-forum-to-cut-trade-costs-boost-digital-commerce-under-afcfta/"
+    },
+    {
+     "date": "2026-09-20",
+     "direction": "supports",
+     "note": "ADAPT (Africa Digital Access and Public Infrastructure for Trade) was launched by AfCFTA Secretariat + Tony Blair Institute + WEF + IOTA Foundation as the digital-trade pilot infrastructure covering the update-test's named channels. Reported pilot outcomes: Kenyan exporters saving USD 400/month, freight forwarders 60pct paperwork reduction, border clearance 6h -> 30min. First-launch nations named as Kenya, Ghana, and a to-be-named North African country. IOTA Q2 2026 update (blog.iota.org/update-q2-2026 - egress-blocked from proxy) is presumed to be the pre-2026-09-15 anchor. Interpretive: whether ADAPT is 'the' automated-freight-release pilot named in the update test needs the underlying IOTA post or an AfCFTA press release to be fetched and dated. Left for Sunday Reckoning.",
+     "source_url": "https://blog.iota.org/adapt-africa-digital-trade/"
     }
    ],
    "resolution": null
@@ -7432,7 +7438,7 @@
    "frameworks": [],
    "update_test": "The UMich preliminary September 2026 headline Consumer Sentiment Index, as first officially released by University of Michigan Surveys of Consumers, is strictly greater than 51.0. Confirmed if the released preliminary September figure is > 51.0; disconfirmed if the released preliminary September figure is 51.0 or lower. Resolves on release.",
    "resolve_by": "2026-09-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-28T12:30:39Z",
@@ -7452,8 +7458,19 @@
      "date": "2026-08-30T14:19:10Z"
     }
    ],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-09-20",
+     "direction": "against",
+     "note": "UMich prelim Sept 2026 sentiment printed 47.8 (release 2026-09-11), well below 51.0 threshold. 2nd-lowest reading since 1952. Preliminary print unambiguously disconfirms.",
+     "source_url": "https://bankingjournal.aba.com/2026/09/preliminary-consumer-sentiment-decreased-3-9-points-in-september/"
+    }
+   ],
+   "resolution": {
+    "date": "2026-09-20T12:08:22Z",
+    "outcome": "disconfirmed",
+    "note": "UMich preliminary September 2026 Consumer Sentiment printed 47.8 on 2026-09-11 - a 7.5% drop from August, second-lowest reading since 1952 (only May 2026 lower). Update-test threshold: strictly >51.0 = confirmed. 47.8 is 3.2 points below the threshold and requires no interpretation. Cross-confirmed by ABA Banking Journal, Seeking Alpha, CNBC, Advisor Perspectives. Confidence at registration 53 pct (raw); miss on the wrong side by a wide margin - consumer-sentiment cliff-edge that the estimator did not anticipate. Frame:out, calibration tier - no framework attributed at registration; postmortem lesson goes to the estimator, not to a framework."
+   }
   },
   {
    "id": "claim-20260831-001",
@@ -8311,6 +8328,12 @@
      "direction": "against",
      "note": "Registration-date error: SARB MPC calendar and multiple market previews (sacalc.co.za, Capital Economics) put the September 2026 MPC decision at 2026-09-23, not 2026-09-18 as this claim's grounding states. The 2026-09-18 date matches no SARB scheduled meeting; the claim update test cannot fire on the stated date. Deferring to Sunday Reckoning for correction/invalidation review. Evidence sources: https://sacalc.co.za/blog/sarb-rate-outlook-september-2026/ ; https://www.capitaleconomics.com/publications/africa-economics-update/sarb-opens-door-rate-cuts",
      "source_url": null
+    },
+    {
+     "date": "2026-09-20",
+     "direction": "against",
+     "note": "The SARB MPC's September 2026 meeting is publicly scheduled for 2026-09-23, not 2026-09-18 as this claim states. Multiple sources (sacalc.co.za, businesstech.co.za) point to the 2026-09-23 date; the July-2026 hold at 7.00pct was followed by a September 2026 meeting on 2026-09-23. Registration used the wrong meeting date. A meeting that did not occur on 2026-09-18 cannot resolve 'unchanged from July 2026'. This is a scheduling/registration error rather than a policy-outcome question. Interpretive: better handled as an INVALIDATION (registration error) than a resolution - decision left for Sunday Reckoning.",
+     "source_url": "https://sacalc.co.za/blog/sarb-rate-outlook-september-2026/"
     }
    ],
    "resolution": null
@@ -9151,20 +9174,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 101,
-    "hit_rate": 0.5149,
-    "brier": 0.2268,
-    "skill_vs_coinflip": 0.0232
+    "n": 102,
+    "hit_rate": 0.5098,
+    "brier": 0.2273,
+    "skill_vs_coinflip": 0.0227
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2268,
-  "skill_vs_coinflip": 0.0232,
+  "brier": 0.2273,
+  "skill_vs_coinflip": 0.0227,
   "base_rate": {
-   "n": 101,
-   "brier_base": 0.23,
-   "brier_twin": 0.2268,
-   "skill": 0.0032
+   "n": 102,
+   "brier_base": 0.2307,
+   "brier_twin": 0.2273,
+   "skill": 0.0034
   },
   "market": {
    "n": 10,
@@ -9180,7 +9203,7 @@
   },
   "clusters": {
    "effective_n": 75,
-   "brier_cluster_collapsed": 0.223
+   "brier_cluster_collapsed": 0.2232
   },
   "paired": {
    "n": 0,
@@ -9190,12 +9213,12 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0057,
-    "hi": 0.0516,
+    "lo": -0.0061,
+    "hi": 0.0512,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0153,
+    "lo": -0.0152,
     "hi": 0.0226,
     "distinguishable": false
    },
