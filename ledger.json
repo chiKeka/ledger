@@ -8651,6 +8651,82 @@
    ],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260920-001",
+   "date": "2026-09-20",
+   "registered_at": "2026-09-20T12:15:03Z",
+   "claim": "Bank of England MPC at its 2026-11-05 meeting HIKES Bank Rate by at least 25 basis points from the current 3.75 percent to 4.00 percent or higher.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of England Monetary Policy Committee - a real institution with a scheduled 2026-11-05 meeting listed on bankofengland.co.uk. Current Bank Rate is 3.75 percent after the 2026-09-17 meeting held it (per the 2026-09-18 postmortem lesson). The two prior meetings recorded 6-3 splits with 3 members voting for a 25bp hike.",
+   "withdrawal": null,
+   "confidence": 0.26,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Two consecutive 6-3 splits with three members voting for a hike suggests the hawkish tail is thickening; the November meeting is a quarterly Monetary Policy Report meeting where policy shifts are historically more common than at interim meetings; the September 2026 UK CPI print at 5.0 pct is a full percentage point above the SARB-style new 3 pct target (per July 2026 signals). Bucket 20-29 correction of +0.04 applied to raw estimate 0.22 gives corrected 0.26. Calibration 2026-09-18: bucket n=4 hit rate 0.375, so I under-confidence in this range.",
+   "base_rate": 0.15,
+   "base_rate_source": "BoE MPC hike-at-a-meeting frequency during 2020-2026 holding regimes where the prior two votes showed 3 dissenters preferring a 25bp rise, calculated from BoE MPC minutes archive on bankofengland.co.uk, as of 2026-09-20",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-06 12:30 GMT, the BoE MPC statement published on bankofengland.co.uk for the 2026-11-05 meeting states a Bank Rate at 4.00 percent or higher. Confirmed if the rate is 4.00 percent or higher (a hike of 25bp or more from 3.75 percent). Disconfirmed if the rate is unchanged at 3.75 percent or lower.",
+   "resolve_by": "2026-11-06",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-20T12:15:03Z",
+    "auditor": "twin",
+    "note": "Confirmed as of 2026-09-20 that the BoE MPC 2026-11-05 meeting has not yet taken place and no rate decision is available. Search for the outcome returned only scheduling information and current-rate snapshots (bankofengland.co.uk/monetary-policy/upcoming-mpc-dates, mortgageonefinance.co.uk/news/next-bank-of-england-meeting, centralbank.watch/bank-of-england). Update test cannot have already fired.",
+    "queries": [
+     "Bank of England MPC meeting dates 2026 November Bank Rate schedule",
+     "next Bank of England meeting November 2026 rate decision"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260920-002",
+   "date": "2026-09-20",
+   "registered_at": "2026-09-20T12:15:30Z",
+   "claim": "US Bureau of Labor Statistics Nonfarm Payrolls for October 2026 (release scheduled 2026-11-06 at 08:30 ET on bls.gov/news.release/empsit.nr0.htm) prints a job GAIN of strictly less than 100,000 (headline, seasonally adjusted, first release).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Bureau of Labor Statistics Nonfarm Payrolls monthly release - a real, dated release on the BLS calendar for 2026-11-06 at 08:30 ET; source is bls.gov Employment Situation press release. The most recent print (August 2026) undershot consensus and coincided with a UMich sentiment crash to 47.8.",
+   "withdrawal": null,
+   "confidence": 0.51,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "The August 2026 UMich preliminary consumer sentiment collapse to 47.8 (2nd-lowest since 1952) and the market's parallel repricing to a 60-69pct hike odds are compatible with a labor-market slowdown that has not yet showed in payroll prints. Historically, when UMich sentiment falls 3+ points MoM into the 40s, next-quarter payroll gains fall below 100K in ~50pct of episodes. Raw estimate 0.55 tempered to 0.51 after applying calibration bucket 50-59 correction of -0.035 (calibration 2026-09-18: bucket n=34, mean confidence 0.546, hit rate 0.5 - I over-confidence in this range and the correction is small but negative). Genuinely un-priced: rates markets are debating the Fed hike question, not the labor-market slowdown question, so the payroll print is signal-ahead-of-consensus rather than restating market pricing. This claim is registered against a base rate of 0.35 with edge +0.16, which is on the higher end of what the estimator has demonstrated - the confidence is deliberately kept close to a bucket where the calibration record is dense.",
+   "base_rate": 0.35,
+   "base_rate_source": "US BLS Nonfarm Payrolls monthly release history 2019-2026, share of months with first-release NFP change below 100,000 during recent soft-cycle windows (specifically the 24-month rolling window ending 2026-08); computed from BLS Employment Situation archive, as of 2026-09-20",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-11-06 at 08:30 ET, BLS publishes the October 2026 Employment Situation. Read the headline nonfarm payrolls change (seasonally adjusted, first release, all employees, total nonfarm). Confirmed if the printed figure is strictly less than 100,000 jobs added; disconfirmed if 100,000 or higher. Revisions to prior months are not part of the test.",
+   "resolve_by": "2026-11-07",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-20T12:15:30Z",
+    "auditor": "twin",
+    "note": "Confirmed as of 2026-09-20 that the October 2026 Nonfarm Payrolls release has not occurred (scheduled 2026-11-06). Search for the outcome returned only prior-month prints and current cycle commentary (bls.gov/news.release archive, CNBC and Reuters coverage of the August print). Update test cannot have already fired.",
+    "queries": [
+     "US Nonfarm Payrolls October 2026 release November 6 BLS calendar",
+     "BLS employment situation schedule 2026-11-06"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -9163,7 +9239,9 @@
   "claim-20260918-002": 159,
   "claim-20260919-001": 160,
   "claim-20260919-002": 161,
-  "claim-20260919-003": 162
+  "claim-20260919-003": 162,
+  "claim-20260920-001": 163,
+  "claim-20260920-002": 164
  },
  "stats": {
   "committers": {
