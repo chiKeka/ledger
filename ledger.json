@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20",
+ "updated": "2026-09-21",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5254,7 +5254,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-20, an official announcement dated 2026-07-23 or later on mtnonline.com, MTN Group investor relations, or MTN corporate LinkedIn confirms the Sifiso Dabengwa Data Centre has reached full AI-ready capacity above 4.5 MW (whether by explicit MW figure, phase-complete milestone language, or client-onboarding announcement referencing full capacity). Confirmed on any such document; disconfirmed if none is published by 2026-09-20.",
    "resolve_by": "2026-09-21",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-23T12:12:56Z",
@@ -5280,7 +5280,11 @@
      "source_url": "https://guardian.ng/technology/mtn-invests-240m-in-9mw-lagos-data-hub-targets-ai-cloud-growth/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-21T12:15:45Z",
+    "outcome": "disconfirmed",
+    "note": "MTN Nigeria published NO official announcement dated 2026-07-23 or later on mtnonline.com, MTN Group investor relations, or MTN corporate LinkedIn confirming Sifiso Dabengwa DC full AI-ready capacity above 4.5MW by 2026-09-20. Verified 2026-09-21 via targeted searches (mtnonline.com + mtn.com + linkedin.com domain-restricted + open web): Phase 1 remains at 4.5MW IT load / 780 racks / Tier III; Phase 2 (adding second 4.5MW toward 9MW total, Tier IV target) still under construction, publicly described as 'expected H2 2026' with GPU infrastructure completion not yet announced. Only prior evidence entry 2026-09-07 (Guardian.ng) had already flagged trending disconfirmation. Unambiguous milestone miss."
+   }
   },
   {
    "id": "claim-20260724-001",
@@ -9317,20 +9321,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 103,
-    "hit_rate": 0.5097,
-    "brier": 0.2252,
-    "skill_vs_coinflip": 0.0248
+    "n": 104,
+    "hit_rate": 0.5048,
+    "brier": 0.2238,
+    "skill_vs_coinflip": 0.0262
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2252,
-  "skill_vs_coinflip": 0.0248,
+  "brier": 0.2238,
+  "skill_vs_coinflip": 0.0262,
   "base_rate": {
-   "n": 103,
-   "brier_base": 0.2285,
-   "brier_twin": 0.2252,
-   "skill": 0.0034
+   "n": 104,
+   "brier_base": 0.227,
+   "brier_twin": 0.2238,
+   "skill": 0.0032
   },
   "market": {
    "n": 10,
@@ -9345,8 +9349,8 @@
    "skill_vs_base": -0.0024
   },
   "clusters": {
-   "effective_n": 75,
-   "brier_cluster_collapsed": 0.2226
+   "effective_n": 76,
+   "brier_cluster_collapsed": 0.2207
   },
   "paired": {
    "n": 0,
@@ -9356,13 +9360,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0045,
-    "hi": 0.0534,
+    "lo": -0.0032,
+    "hi": 0.0531,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0152,
-    "hi": 0.0223,
+    "lo": -0.0144,
+    "hi": 0.0231,
     "distinguishable": false
    },
    "skill_vs_market": {
