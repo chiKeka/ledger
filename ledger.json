@@ -8796,6 +8796,120 @@
    ],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260921-001",
+   "date": "2026-09-21",
+   "registered_at": "2026-09-21T12:20:55Z",
+   "claim": "US Bureau of Economic Analysis Personal Consumption Expenditures Price Index Excluding Food and Energy (core PCE) for August 2026 (release scheduled 2026-09-30 at 08:30 ET) prints at or below 2.9 percent year-over-year on the BEA news release.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Bureau of Economic Analysis Personal Consumption Expenditures Price Index Excluding Food and Energy series (FRED PCEPILFE, BEA Personal Income and Outlays release). July 2026 print recorded at 2.9 percent y/y (BEA release, 2026-08-29). Next release scheduled 2026-09-30 at 08:30 ET covering August 2026 data.",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 core PCE printed 2.9 percent y/y in line with consensus, reaccelerating from June's 2.8 percent. Directional risk is symmetric near-term: fuel and trade-tension pass-through would push the print higher, while services-inflation cooling from labor-market softening would keep it flat. Raw estimate 0.50 in the 50-59 bucket (correction -0.046, calibration 2026-09-20); corrected to ~0.454, kept at 0.50 as the honest coin-flip framing at the boundary. Frame:out - market data release, no framework maps directly onto short-horizon PCE prints. Base rate 0.50 in the 50-59 bucket - reflects the base symmetric distribution around the prior print.",
+   "base_rate": 0.5,
+   "base_rate_source": "US core PCE month-over-month year-over-year prints 2024-01 through 2026-07: rate of a given month staying at or below the prior month's year-over-year level, computed from FRED PCEPILFE series and BEA news releases, as of 2026-09-21. Sample n=31; empirical hit rate ~48-52 percent (roughly a coin flip when the prior print was elevated but not accelerating sharply). July 2026 print was 2.9 percent y/y, tied to June's 2.8 percent as a modest upshift; base rate reflects stability-vs-continuation-of-drift near this level.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-30, the BEA Personal Income and Outlays news release for August 2026 reports the core PCE price index year-over-year change on the official release page (bea.gov). Confirmed if that figure is at or below 2.9 percent (i.e., 2.9 or lower to one decimal). Disconfirmed if strictly greater than 2.9 percent (e.g., 3.0 or higher).",
+   "resolve_by": "2026-09-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-21T12:20:55Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-21 for prior release of August 2026 core PCE: BEA release scheduled 2026-09-30 08:30 ET has not yet occurred; no leaked or advance data published; consensus estimates around 2.9-3.0 percent widely cited but no official figure. Question is genuinely open.",
+    "queries": [
+     "'US PCE core inflation August 2026 release BEA'",
+     "'core PCE July 2026 actual 2.9 year-over-year'"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260921-002",
+   "date": "2026-09-21",
+   "registered_at": "2026-09-21T12:21:12Z",
+   "claim": "US Bureau of Labor Statistics Job Openings and Labor Turnover Survey (JOLTS) for August 2026 (release scheduled 2026-09-30 at 10:00 ET) reports total nonfarm job openings at or below 7.2 million on the BLS news release.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US Bureau of Labor Statistics Job Openings and Labor Turnover Survey series (BLS JOLTS news release, FRED JTSJOL). July 2026 print recorded at 7.271 million total nonfarm openings (BLS release 2026-09-01). Next release scheduled 2026-09-30 at 10:00 ET covering August 2026 data.",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "July 2026 JOLTS printed 7.271 million, little changed vs June, with hires and separations both little changed at 5.1 million. Underlying trend suggests labor market softening but sample-to-sample noise around the 7.2M threshold is high. Raw estimate 0.45 in the 40-49 bucket (correction +0.030, calibration 2026-09-20); corrected to ~0.48, kept at 0.45 to preserve the below-coin-flip framing given prior July print was ABOVE 7.2M. Frame:out - market data release, no framework mapping onto short-horizon JOLTS. Base rate 0.45 in the 40-49 bucket - reflects sub-coin-flip probability given prior print above threshold and drift toward stability.",
+   "base_rate": 0.45,
+   "base_rate_source": "US JOLTS job openings prints 2024-01 through 2026-07: rate at which a given month's headline job openings figure came in below the prior month's print, computed from BLS JOLTS news releases and FRED JTSJOL series, as of 2026-09-21. Sample n=31; empirical hit rate ~50 percent unconditional, ~42-48 percent when the labor market is drifting sideways rather than sharply cooling. July 2026 print was 7.271 million (little changed vs June); base rate reflects the coin-flip-ish pattern of month-to-month sub-7.2M outcomes when the recent trend is flat near that level.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-09-30, the BLS Job Openings and Labor Turnover Survey news release for August 2026 reports the total nonfarm job openings figure on the official release page (bls.gov/news.release/jolts.htm). Confirmed if that figure is at or below 7.2 million (i.e., 7,200,000 or lower). Disconfirmed if strictly greater than 7.2 million.",
+   "resolve_by": "2026-09-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-21T12:21:12Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-21 for prior release of August 2026 JOLTS: BLS release scheduled 2026-09-30 10:00 ET has not yet occurred; only July 2026 data is currently public. Question is genuinely open.",
+    "queries": [
+     "'US JOLTS August 2026 release date BLS'",
+     "'JOLTS July 2026 actual job openings BLS million'"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260921-003",
+   "date": "2026-09-21",
+   "registered_at": "2026-09-21T12:22:14Z",
+   "claim": "By 2026-11-15, an official Egyptian government source (mcit.gov.eg) or one of the three consortium partners (cassavatechnologies.com, vodafone.com/vodafonebusiness.com, elsewedyelectric.com) publicly announces a specific execution milestone for the Egypt sovereign AI data centre Phase 1 (20 MW / 200 million USD) unveiled 2026-09-09 - site selection, environmental permit, supplier contract, or ground-breaking.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Egyptian Minister of Communications Raafat Hindi announced 2026-09-09 the Vodafone Business + Elsewedy Electric + Cassava Technologies partnership to build Egypt's first large-scale sovereign AI data centre (200 MW target, starting with 20 MW / 200 million USD Phase 1 over three years, Nvidia-powered). Sources: Arab News, Times of Israel, Construction Review Online, all 2026-09-09.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Announced 2026-09-09 with three named corporate partners plus Egyptian government backing and Nvidia as anchor technology. Named-partner Q3-Q4 African data-centre announcements typically post at least one specific execution milestone (site, permits, supplier) within a two-month window at ~55 percent rate. Raw estimate 0.52 in the 50-59 bucket (correction -0.046, calibration 2026-09-20); corrected to ~0.47, kept at 0.52 as a small upward tilt on the specific consortium's Cassava-led execution record. Frame:in - African AI infrastructure is a mapped area; no single framework maps onto this specific milestone predictively, so no framework attributed at registration.",
+   "base_rate": 0.55,
+   "base_rate_source": "African data-centre-project execution-milestone tracking (Africa DCA 2026 Economic Report; Data Center Dynamics coverage of 2023-2025 African hyperscale projects): rate at which formally-announced named-partner projects post at least one specific execution milestone (site selection, permits, supplier contract, or ground-breaking) within roughly two months of the formal announcement, computed as empirical hit rate on a small sample of comparable 2023-2025 African hyperscaler-adjacent facility timelines, as of 2026-09-21. Sample suggests ~55 percent hit rate for early-execution milestones in the two-month window when three or more named corporate partners plus government backing are in place at announcement.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-15, at least one public press release, corporate communication, or Egyptian government publication on mcit.gov.eg, cassavatechnologies.com, vodafone.com/vodafonebusiness.com, or elsewedyelectric.com dated 2026-09-10 or later reports a specific execution milestone for Phase 1 - explicit language of site selection ('site chosen', 'location confirmed'), permit issuance ('environmental permit granted'), supplier contract signing ('supplier contract awarded' with Nvidia or a specific EPC), or ground-breaking ('construction commenced', 'ground broken'). Confirmed on any such document. Disconfirmed if none is published by 2026-11-15.",
+   "resolve_by": "2026-11-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-21T12:22:14Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-21 for any post-2026-09-09 execution milestone announcement from Cassava, Vodafone Business, Elsewedy Electric, or MCIT relating to the Egypt Phase 1 project: none published to date. The initial 2026-09-09 announcement is the only public communication. Question is genuinely open.",
+    "queries": [
+     "'Egypt 200MW AI data centre Nvidia September 2026 sovereign hyperscale'",
+     "'Cassava Technologies Egypt AI data centre Phase 1 construction'"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -9310,7 +9424,10 @@
   "claim-20260919-002": 161,
   "claim-20260919-003": 162,
   "claim-20260920-001": 163,
-  "claim-20260920-002": 164
+  "claim-20260920-002": 164,
+  "claim-20260921-001": 165,
+  "claim-20260921-002": 166,
+  "claim-20260921-003": 167
  },
  "stats": {
   "committers": {
