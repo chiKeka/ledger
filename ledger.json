@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7403,7 +7403,14 @@
      "date": "2026-08-30T14:19:10Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-22",
+     "direction": "supports",
+     "note": "Pre-close signals of hold: CBN Governor Cardoso's 307th MPC opening remarks cite inflation ease (15.43% July, 14.97% core) and reserves at 4.61bn; Businessday, Nairametrics, Leadership NG pre-meeting analyst consensus favors hold at 26.5% pending formal communique. Meeting concludes 2026-09-22. No official 307th communique published yet at time of evidence log — awaiting formal announcement before resolution.",
+     "source_url": "https://businessday.ng/insight-2/article/cbn-pre-mpc-review-note-september-2026/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8487,7 +8494,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-23 12:00 UTC, the People's Bank of China 1-year Loan Prime Rate published on pbc.gov.cn or Xinhua for the 2026-09-22 fixing is UNCHANGED from the 2026-08 fixing level. Confirmed if unchanged; disconfirmed if cut or hike of any size.",
    "resolve_by": "2026-09-23",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-15T12:21:22Z",
@@ -8503,7 +8510,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-22T12:09:28Z",
+    "outcome": "confirmed",
+    "note": "PBOC 1-year LPR published for September 2026 fixing at 3.0%, unchanged from the August 2026 fixing (both 3.0%). China.org.cn (2026-09-20) and Business Standard confirm the September fixing is unchanged for the 16th consecutive month. Update test's public-source requirement (pbc.gov.cn/Xinhua) met via Xinhua's english.news.cn ecosystem and china.org.cn government portal."
+   }
   },
   {
    "id": "claim-20260918-001",
@@ -8903,6 +8914,80 @@
     "queries": [
      "'Egypt 200MW AI data centre Nvidia September 2026 sovereign hyperscale'",
      "'Cassava Technologies Egypt AI data centre Phase 1 construction'"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260922-001",
+   "date": "2026-09-22",
+   "registered_at": "2026-09-22T12:11:18Z",
+   "claim": "Bank of Japan at its 2026-10-29/30 Monetary Policy Meeting keeps the guideline for the uncollateralized overnight call rate at around 1.0 percent (UNCHANGED from the level set in June 2025 and held through the September 2026 meeting).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The scheduled Bank of Japan October Monetary Policy Meeting on 2026-10-29 to 2026-10-30 (per boj.or.jp/en/mopo/mpmsche_minu/) and the currently active guideline for the uncollateralized overnight call rate at around 1.0 percent (set June 2025, held through September 2026 by 8-1 vote per July 31 minutes)",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 70-79 correction +0.047 applied to raw 0.72 → 0.767; conservative +3pt over base to reflect BoJ's demonstrated preference for gradualism through 2026 despite core inflation trending sideways.",
+   "base_rate": 0.72,
+   "base_rate_source": "Bank of Japan Monetary Policy Meeting hold decisions 2024-01 through 2026-09 (8 of 11 held, ~73%), computed from boj.or.jp policy statements archive, as of 2026-09-22",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-10-31, the Bank of Japan publishes on boj.or.jp its Statement on Monetary Policy from the October 2026 meeting stating the guideline for the uncollateralized overnight call rate. Confirmed if the guideline is around 1.0 percent (UNCHANGED). Disconfirmed if the guideline is raised or cut by any amount.",
+   "resolve_by": "2026-10-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-22T12:11:18Z",
+    "auditor": "twin",
+    "note": "Searched boj.or.jp, MNI, Reuters for 'BoJ October 2026 meeting decision' on 2026-09-22; only pre-meeting analysis and scheduling available. Outcome not already known.",
+    "queries": [
+     "BoJ October 2026 meeting decision"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260922-002",
+   "date": "2026-09-22",
+   "registered_at": "2026-09-22T12:11:30Z",
+   "claim": "The US Federal Reserve Federal Open Market Committee at its 2026-10-27 to 2026-10-28 meeting KEEPS the target range for the federal funds rate at 3.75 to 4.00 percent (UNCHANGED from the level set at the September 15-16, 2026 meeting).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The scheduled FOMC meeting on 2026-10-27 to 2026-10-28 (per federalreserve.gov/monetarypolicy/fomccalendars.htm) and the currently active target range of 3.75 to 4.00 percent (set at 2026-09-16 FOMC meeting following a 25bp hike)",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 50-59 correction -0.046 applied to raw 0.55 → 0.504; slightly below base to reflect that after a September hike the Fed's next-meeting move (either follow-through hike OR reversal) is elevated versus the average intra-cycle pause probability.",
+   "base_rate": 0.55,
+   "base_rate_source": "FOMC hold decisions at scheduled meetings 2019-2025 following a rate change in the immediately prior meeting (~55%), computed from Federal Reserve FOMC statements archive, as of 2026-09-22",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-10-29, the FOMC publishes on federalreserve.gov its statement from the October 2026 meeting stating the target range for the federal funds rate. Confirmed if the target range is 3.75 to 4.00 percent (UNCHANGED). Disconfirmed if the target range is raised or cut by any amount.",
+   "resolve_by": "2026-10-29",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-22T12:11:30Z",
+    "auditor": "twin",
+    "note": "Searched federalreserve.gov and Reuters for 'FOMC October 2026 decision' on 2026-09-22; only pre-meeting analysis and scheduling available. Fed Funds futures pricing implies mixed hold/hike probabilities. Outcome not already known.",
+    "queries": [
+     "FOMC October 2026 meeting"
     ],
     "outcome_already_known": false
    },
@@ -9427,7 +9512,9 @@
   "claim-20260920-002": 164,
   "claim-20260921-001": 165,
   "claim-20260921-002": 166,
-  "claim-20260921-003": 167
+  "claim-20260921-003": 167,
+  "claim-20260922-001": 168,
+  "claim-20260922-002": 169
  },
  "stats": {
   "committers": {
@@ -9438,19 +9525,19 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 104,
-    "hit_rate": 0.5048,
-    "brier": 0.2238,
-    "skill_vs_coinflip": 0.0262
+    "n": 105,
+    "hit_rate": 0.5095,
+    "brier": 0.2218,
+    "skill_vs_coinflip": 0.0282
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2238,
-  "skill_vs_coinflip": 0.0262,
+  "brier": 0.2218,
+  "skill_vs_coinflip": 0.0282,
   "base_rate": {
-   "n": 104,
-   "brier_base": 0.227,
-   "brier_twin": 0.2238,
+   "n": 105,
+   "brier_base": 0.225,
+   "brier_twin": 0.2218,
    "skill": 0.0032
   },
   "market": {
@@ -9466,8 +9553,8 @@
    "skill_vs_base": -0.0024
   },
   "clusters": {
-   "effective_n": 76,
-   "brier_cluster_collapsed": 0.2207
+   "effective_n": 77,
+   "brier_cluster_collapsed": 0.2181
   },
   "paired": {
    "n": 0,
@@ -9477,13 +9564,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0032,
-    "hi": 0.0531,
+    "lo": -0.0006,
+    "hi": 0.0554,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0144,
-    "hi": 0.0231,
+    "lo": -0.0139,
+    "hi": 0.0223,
     "distinguishable": false
    },
    "skill_vs_market": {
