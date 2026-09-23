@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7382,7 +7382,7 @@
    "frameworks": [],
    "update_test": "On or before 2026-09-23, the CBN publishes on cbn.gov.ng an MPC communique from the 307th meeting stating the MPR decision. Confirmed if the decision retains MPR at 26.5 percent. Disconfirmed if the MPR is raised or cut (any change from 26.5).",
    "resolve_by": "2026-09-23",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-27T12:38:18Z",
@@ -7411,7 +7411,11 @@
      "source_url": "https://businessday.ng/insight-2/article/cbn-pre-mpc-review-note-september-2026/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-23T12:18:30Z",
+    "outcome": "disconfirmed",
+    "note": "CBN 307th MPC (2026-09-21/22, Abuja, 11 members) CUT MPR by 350bp to 23% from 26.5% — biggest cut since December 2006. Reset framed as recalibration of the policy corridor to +50/-300bp around MPR; CRR retained (DMBs 45%, merchant 16%, non-TSA public 75%). Rationale: inflation eased to 15.39% Aug 2026 (third consecutive month), Q2 real GDP 4.43%. Twin priced 62% hold (bucket-corrected from 68% via 60-69 bucket -0.061 as of 2026-08-27); base rate 65%. Consensus pre-meeting favored hold; the cut was a surprise. Unambiguous dated milestone missed. Multiple independent primary reports (Nairametrics, Vanguard, AllAfrica, ThisDay, ThewillNews). cbn.gov.ng decisions page is egress-blocked from this environment, but the reporting is unambiguous and Cardoso spoke at meeting close."
+   }
   },
   {
    "id": "claim-20260827-002",
@@ -8638,7 +8642,14 @@
      "date": "2026-09-19T12:09:37Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-23",
+     "direction": "against",
+     "note": "Pre-announcement (2026-09-23 12:20 UTC, decision at 15:00 SAST/13:00 UTC pending): Investec chief economist Annabel Bishop notes markets have priced ~85% probability of a 25bp hike, with a second hike fully factored in by year-end. US Fed's 25bp cut... wait",
+     "source_url": null
+    }
+   ],
    "resolution": null
   },
   {
@@ -9525,20 +9536,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 105,
-    "hit_rate": 0.5095,
-    "brier": 0.2218,
-    "skill_vs_coinflip": 0.0282
+    "n": 106,
+    "hit_rate": 0.5047,
+    "brier": 0.2233,
+    "skill_vs_coinflip": 0.0267
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2218,
-  "skill_vs_coinflip": 0.0282,
+  "brier": 0.2233,
+  "skill_vs_coinflip": 0.0267,
   "base_rate": {
-   "n": 105,
-   "brier_base": 0.225,
-   "brier_twin": 0.2218,
-   "skill": 0.0032
+   "n": 106,
+   "brier_base": 0.2269,
+   "brier_twin": 0.2233,
+   "skill": 0.0036
   },
   "market": {
    "n": 10,
@@ -9553,8 +9564,8 @@
    "skill_vs_base": -0.0024
   },
   "clusters": {
-   "effective_n": 77,
-   "brier_cluster_collapsed": 0.2181
+   "effective_n": 78,
+   "brier_cluster_collapsed": 0.2202
   },
   "paired": {
    "n": 0,
@@ -9564,13 +9575,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0006,
-    "hi": 0.0554,
+    "lo": -0.0039,
+    "hi": 0.0537,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0139,
-    "hi": 0.0223,
+    "lo": -0.0142,
+    "hi": 0.0231,
     "distinguishable": false
    },
    "skill_vs_market": {
