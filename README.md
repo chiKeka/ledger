@@ -2,11 +2,11 @@
 
 Falsifiable claims about AI, infrastructure, and institutions. The probability is stated when the claim is made, locked from that moment, and scored against reality when the world answers. Maintained automatically by my cognitive twin, updated on each resolution and each Sunday Reckoning. The misses stay on the board.
 
-**Record: 52✓ · 51✗ · 3◐ · 51 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 105 calibration · 1 structural · Brier 0.223 (coin-flip = 0.250; 106 scored across 78 independent events, cluster-collapsed Brier 0.220), skill vs coin-flip +0.027 (95% CI -0.004..+0.054; not yet distinguishable from zero) · skill vs base rate +0.004 (95% CI -0.014..+0.023; not yet distinguishable from zero) (n=106 carrying a recorded base rate) · skill vs market -0.042 (95% CI -0.066..-0.019; distinguishably below zero) (n=10 with a listed market price) · non-echo record (forecast departs from base rate by >7%): Brier 0.239, skill vs base -0.002 (n=33)**
+**Record: 53✓ · 52✗ · 3◐ · 49 open · 2 invalidated (outcome pre-dated registration; visible below, never scored) · 7 method experiments (in the workshop below, never on the ledger) · scored by tier: 107 calibration · 1 structural · Brier 0.228 (coin-flip = 0.250; 108 scored across 80 independent events, cluster-collapsed Brier 0.227), skill vs coin-flip +0.022 (95% CI -0.009..+0.049; not yet distinguishable from zero) · skill vs base rate +0.004 (95% CI -0.013..+0.023; not yet distinguishable from zero) (n=108 carrying a recorded base rate) · skill vs market -0.042 (95% CI -0.066..-0.019; distinguishably below zero) (n=10 with a listed market price) · non-echo record (forecast departs from base rate by >7%): Brier 0.240, skill vs base +0.000 (n=34)**
 
-**Latest: ✗ "The Central Bank of Nigeria Monetary Policy Committee at its 307th meeting (scheduled 2026-09-21 to 2026-09-22) retains " — said 62%, resolved disconfirmed (2026-09-23)**
+**Latest: ✓ "The Norges Bank Monetary Policy Committee at its 2026-09-24 policy rate meeting raises the policy rate by at least 25 ba" — said 15%, resolved confirmed (2026-09-24)**
 
-_Updated 2026-09-23 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
+_Updated 2026-09-24 · [how this works](#how-this-works) · by [@Chikeka](https://x.com/Chikeka)_
 
 ## Open claims
 
@@ -30,12 +30,10 @@ _Updated 2026-09-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 | <a id="claim-20260705-001"></a>By 2029-12-31, a named public consumer survey (Pew Research Center, Deloitte AI State of Play, Anthropic Economic Index, McKinsey State of AI, or equivalent recognised methodology) reports that at least 15% of respondents who use large language models at least weekly primarily use a locally-hosted model (Ollama, LM Studio, Apple Intelligence on-device, or a vendor-labeled fully-on-device runtime) rather than a cloud service for their most-frequent daily task. <br><sub>Base rate for consumer-tech transition hitting a named 15% share within 3.5 years is roughly 0.30 (mobile app categories, cloud storage adoption). Twin sets 0.40 raw, above base rate, reflecting the rapid open-frontier trajectory (GLM-5.2 within-months gap) and shipped on-device runtimes but conditioning on the historical pattern that decentralization narratives tend to lose to centralized ecosystems in the economics layer (record industry, web platforms). Calibration.json version is None; 40-49 bucket carries a correction of +0.547 but with n=3 all-confirmed - treated as insufficient data, correction NOT applied.</sub> | **40%** | twin | 2029-12-31 |
 | <a id="claim-20260705-002"></a>By 2029-12-31, no OECD member state's binding legislation or subordinate regulation grants a formal civil-society, public-interest, or citizen-representation channel (with voting or veto rights, not merely consultation) over the training or deployment decisions of general-purpose AI systems trained at or above 1e26 FLOPs (or that jurisdiction's equivalent frontier threshold). Enforceable government review boards without civil-society representation do NOT satisfy this test. <br><sub>Base rate: constitutional-scale new representation channels for a specific technology within 3.5 years across OECD is roughly 0.60 (rare - see biotech, nuclear precedents where civil-society got consultation, not veto). Twin raises to 0.72 (raw), citing Institutional Adaptation Lag: capture-race dynamics (Anthropic Fable export block, GLM-5.2 open release, NSPM-11 national-security posture) push governments toward containment-of-adversary framings rather than domestic-democracy-of-technology framings. Applying calibration.json version 2026-07-03 bucket 70-79 correction (+0.084, n=5) is possible but the correction pushes toward 0.80 which the twin considers overreach given the 3.5-year horizon leaves room for a shock catalyst (a Cambridge Analytica-scale AI incident). Held at 0.72 raw.</sub> | **72%** | twin | 2029-12-31 |
 
-<details><summary><b>Calibration tier</b> — 34 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
+<details><summary><b>Calibration tier</b> — 32 small, fast-resolving forecasts that exist to train the estimator, not to matter individually</summary>
 
 | Forecast | Probability | Base rate | Frame | Resolves by |
 |---|---|---|---|---|
-| <a id="claim-20260919-001"></a>SARB MPC 2026-09-23 hold: The South African Reserve Bank Monetary Policy Committee at its 2026-09-23 scheduled meeting keeps the policy rate unchanged from the level set at the 2026-07 MPC statement. | **52%** | 60% | world |  2026-09-24 |
-| <a id="claim-20260812-002"></a>The Norges Bank Monetary Policy Committee at its 2026-09-24 policy rate meeting raises the policy rate by at least 25 basis points from the current 4.25 percent. | **15%** | 15% | world |  2026-09-25 |
 | <a id="claim-20260731-005"></a>The African Union Commission or AUDA-NEPAD publishes on au.int, nepad.org, or an official social channel a public status update, implementation report, or milestone bulletin on the Continental AI Strategy 2025-2026 phase by 2026-09-28. | **18%** | 25% | worldview |  2026-09-29 |
 | <a id="claim-20260831-004"></a>The Reserve Bank of Australia at its 2026-09-29 monetary policy meeting HIKES the cash rate target by at least 25 basis points from the current 4.35 percent. | **20%** | 15% | world |  2026-09-30 |
 | <a id="claim-20260901-001"></a>China National Bureau of Statistics official Manufacturing PMI for September 2026 (scheduled release 2026-09-30) prints at or above 50.0. | **48%** | 35% | world |  2026-09-30 |
@@ -75,6 +73,8 @@ _Updated 2026-09-23 · [how this works](#how-this-works) · by [@Chikeka](https:
 
 | | Claim | Said | Outcome | Evidence |
 |---|---|---|---|---|
+| ✓ | <a id="claim-20260812-002"></a>The Norges Bank Monetary Policy Committee at its 2026-09-24 policy rate meeting raises the policy rate by at least 25 basis points from the current 4.25 percent. | 15% | confirmed (2026-09-24) | Norges Bank raised policy rate 25bp from 4.25% to 4.50% at 2026-09-24 meeting. Twin priced 15% hike at registration 2026-08-12 (base rate 15%). Update test resolves YES — announced rate >= 4.50%. |
+| ✗ | <a id="claim-20260919-001"></a>SARB MPC 2026-09-23 hold: The South African Reserve Bank Monetary Policy Committee at its 2026-09-23 scheduled meeting keeps the policy rate unchanged from the level set at the 2026-07 MPC statement. | 52% | disconfirmed (2026-09-24) | SARB MPC hiked repo rate 25bp from 7.00% to 7.25% at 2026-09-23 meeting (unanimous). Twin priced 52% hold at registration 2026-09-19; base rate 60%. Update test resolves NO — the rate changed. |
 | ✗ | <a id="claim-20260827-001"></a>The Central Bank of Nigeria Monetary Policy Committee at its 307th meeting (scheduled 2026-09-21 to 2026-09-22) retains the Monetary Policy Rate at 26.5 percent. | 62% | disconfirmed (2026-09-23) | CBN 307th MPC (2026-09-21/22, Abuja, 11 members) CUT MPR by 350bp to 23% from 26.5% — biggest cut since December 2006. Reset framed as recalibration of the policy corridor to +50/-300bp around MPR; CRR retained (DMBs 45%, merchant 16%, non-TSA public 75%). Rationale: inflation eased to 15.39% Aug 2026 (third consecutive month), Q2 real GDP 4.43%. Twin priced 62% hold (bucket-corrected from 68% via 60-69 bucket -0.061 as of 2026-08-27); base rate 65%. Consensus pre-meeting favored hold; the cut was a surprise. Unambiguous dated milestone missed. Multiple independent primary reports (Nairametrics, Vanguard, AllAfrica, ThisDay, ThewillNews). cbn.gov.ng decisions page is egress-blocked from this environment, but the reporting is unambiguous and Cardoso spoke at meeting close. |
 | ✓ | <a id="claim-20260915-004"></a>The People's Bank of China 1-year Loan Prime Rate published for the 2026-09-22 monthly fixing is UNCHANGED from the 2026-08 fixing level. | 88% | confirmed (2026-09-22) | PBOC 1-year LPR published for September 2026 fixing at 3.0%, unchanged from the August 2026 fixing (both 3.0%). China.org.cn (2026-09-20) and Business Standard confirm the September fixing is unchanged for the 16th consecutive month. Update test's public-source requirement (pbc.gov.cn/Xinhua) met via Xinhua's english.news.cn ecosystem and china.org.cn government portal. |
 | ✗ | <a id="claim-20260723-003"></a>MTN Nigeria publishes an official announcement (press release on mtnonline.com, MTN Group investor page, or LinkedIn post) by 2026-09-20 confirming its Sifiso Dabengwa Data Centre in Ikeja, Lagos has reached full AI-ready operational capacity beyond the initial 4.5 megawatt commissioning. | 28% | disconfirmed (2026-09-21) | MTN Nigeria published NO official announcement dated 2026-07-23 or later on mtnonline.com, MTN Group investor relations, or MTN corporate LinkedIn confirming Sifiso Dabengwa DC full AI-ready capacity above 4.5MW by 2026-09-20. Verified 2026-09-21 via targeted searches (mtnonline.com + mtn.com + linkedin.com domain-restricted + open web): Phase 1 remains at 4.5MW IT load / 780 racks / Tier III; Phase 2 (adding second 4.5MW toward 9MW total, Tier IV target) still under construction, publicly described as 'expected H2 2026' with GPU infrastructure completion not yet announced. Only prior evidence entry 2026-09-07 (Guardian.ng) had already flagged trending disconfirmation. Unambiguous milestone miss. |
@@ -190,11 +190,11 @@ _Withdrawn before resolution: 3 claim(s), for failing registration standards (ev
 
 | Stated range | Forecasts | Actual hit rate |
 |---|---|---|
-| 10-19% | 2 | 100% |
+| 10-19% | 3 | 100% |
 | 20-29% | 5 | 30% |
 | 30-39% | 12 | 12% |
 | 40-49% | 13 | 50% |
-| 50-59% | 35 | 49% |
+| 50-59% | 36 | 47% |
 | 60-69% | 21 | 43% |
 | 70-79% | 11 | 82% |
 | 80-89% | 4 | 100% |
@@ -207,7 +207,7 @@ _Worldview (frame:in) claims live inside my analytical frameworks; world (frame:
 | Frame | Scored | Hit rate | Brier | Skill vs coin-flip | Read |
 |---|---|---|---|---|---|
 | worldview (frame:in) | 22 | 25% | 0.227 | +0.023 | readable |
-| world (frame:out) | 84 | 57% | 0.222 | +0.028 | readable |
+| world (frame:out) | 86 | 57% | 0.229 | +0.021 | readable |
 
 ## The workshop
 

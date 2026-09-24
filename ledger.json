@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5553,6 +5553,12 @@
      "direction": "against",
      "note": "DCDT publicly formalized 2026-08-31 that the revised National AI Policy will be submitted to Cabinet in November 2026 (post-10-24 window) with public comment in January 2027, following Minister Malatsi's April 2026 withdrawal. As of 2026-09-06 the November timing is reaffirmed by Fasken and Bowmans policy trackers. The 2026-10-24 threshold now requires a schedule surprise; base rate for such surprises on multi-quarter policy processes is low.",
      "source_url": "https://data/discovery/signals/2026-09-06-south-africa-national-ai-policy-withdrawn-hallucinated-citations-november-cabinet-january-release-institutional-diffusion-friction.md"
+    },
+    {
+     "date": "2026-09-23",
+     "direction": "against",
+     "note": "Daily Maverick 2026-09-21 interview with DCDT Minister Solly Malatsi: new draft AI policy will be 'ready by March', targeting the end of the financial year rather than the pre-2026-10-24 window. This is a directional signal against the claim (twin priced 12% Cabinet adoption + Gazette publication by 2026-10-24). Not yet resolvable — the deadline is 2026-10-24; log evidence and await formal timeline confirmation.",
+     "source_url": "https://www.dailymaverick.co.za/article/2026-09-21-hallucination-free-hopefully-new-draft-ai-policy-will-be-ready-by-march-says-malatsi/"
     }
    ],
    "resolution": null
@@ -6797,7 +6803,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-24 at 10:00 CET, Norges Bank publishes its policy rate decision and Monetary Policy Report on norges-bank.no. Confirmed if the announced policy rate is 4.50 percent or higher (an increase of 25 basis points or more from the current 4.25 percent); disconfirmed if the announced policy rate is 4.25 percent or lower.",
    "resolve_by": "2026-09-25",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-12T12:39:00Z",
@@ -6811,8 +6817,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-09-24",
+     "direction": "supports",
+     "note": "Norges Bank 2026-09-24 decision: policy rate raised 25bp from 4.25% to 4.50%. Governor Wolden Bache signaled further hikes possible to bring inflation to 2% target. Decision from narrow majority (Reuters poll 16 of 28 economists predicted hike, 12 predicted hold). Update test unambiguously confirmed: announced rate 4.50% >= 4.25%+25bp threshold.",
+     "source_url": "https://www.norges-bank.no/en/news-events/calendar/policy-rate-decisions/26-09-24/"
+    }
+   ],
+   "resolution": {
+    "date": "2026-09-24T12:16:28Z",
+    "outcome": "confirmed",
+    "note": "Norges Bank raised policy rate 25bp from 4.25% to 4.50% at 2026-09-24 meeting. Twin priced 15% hike at registration 2026-08-12 (base rate 15%). Update test resolves YES — announced rate >= 4.50%."
+   }
   },
   {
    "id": "claim-20260813-001",
@@ -8624,7 +8641,7 @@
    "frameworks": [],
    "update_test": "Official SARB MPC statement published on resbank.co.za on 2026-09-23 shows the policy rate unchanged from the level recorded in the 2026-07 MPC statement. If it changes by any amount or in either direction, the claim resolves NO.",
    "resolve_by": "2026-09-24",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-19T12:09:17Z",
@@ -8648,9 +8665,19 @@
      "direction": "against",
      "note": "Pre-announcement (2026-09-23 12:20 UTC, decision at 15:00 SAST/13:00 UTC pending): Investec chief economist Annabel Bishop notes markets have priced ~85% probability of a 25bp hike, with a second hike fully factored in by year-end. US Fed's 25bp cut... wait",
      "source_url": null
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "against",
+     "note": "SARB MPC 2026-09-23 decision: repo rate raised 25bp from 7.00% to 7.25%, effective 2026-09-25. Unanimous MPC vote. Cited escalating geopolitical conflicts, persistent fuel-price shock, rising global rates. Update test unambiguously disconfirmed: rate changed, in the hike direction, not held at July level.",
+     "source_url": "https://techfinancials.co.za/2026/09/23/sarb-hikes-rates-by-25-basis-points-as-global-oil-shock-intensifies-inflation-risks/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-24T12:16:26Z",
+    "outcome": "disconfirmed",
+    "note": "SARB MPC hiked repo rate 25bp from 7.00% to 7.25% at 2026-09-23 meeting (unanimous). Twin priced 52% hold at registration 2026-09-19; base rate 60%. Update test resolves NO — the rate changed."
+   }
   },
   {
    "id": "claim-20260919-002",
@@ -9536,20 +9563,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 106,
-    "hit_rate": 0.5047,
-    "brier": 0.2233,
-    "skill_vs_coinflip": 0.0267
+    "n": 108,
+    "hit_rate": 0.5046,
+    "brier": 0.2283,
+    "skill_vs_coinflip": 0.0217
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2233,
-  "skill_vs_coinflip": 0.0267,
+  "brier": 0.2283,
+  "skill_vs_coinflip": 0.0217,
   "base_rate": {
-   "n": 106,
-   "brier_base": 0.2269,
-   "brier_twin": 0.2233,
-   "skill": 0.0036
+   "n": 108,
+   "brier_base": 0.2327,
+   "brier_twin": 0.2283,
+   "skill": 0.0043
   },
   "market": {
    "n": 10,
@@ -9558,14 +9585,14 @@
    "skill": -0.042
   },
   "non_echo": {
-   "n": 33,
+   "n": 34,
    "floor": 30,
-   "brier": 0.2393,
-   "skill_vs_base": -0.0024
+   "brier": 0.2402,
+   "skill_vs_base": 0.0004
   },
   "clusters": {
-   "effective_n": 78,
-   "brier_cluster_collapsed": 0.2202
+   "effective_n": 80,
+   "brier_cluster_collapsed": 0.2271
   },
   "paired": {
    "n": 0,
@@ -9575,13 +9602,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0039,
-    "hi": 0.0537,
+    "lo": -0.0089,
+    "hi": 0.0488,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0142,
-    "hi": 0.0231,
+    "lo": -0.0129,
+    "hi": 0.0229,
     "distinguishable": false
    },
    "skill_vs_market": {
