@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-26",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -4528,6 +4528,12 @@
      "direction": "supports",
      "note": "2026-09-19 signal: EU AI Office Article 55 first formal systemic risk evaluation window opens. Post-2026-08-02 the GPAI enforcement powers are live but no formal decision has been recorded yet - the mechanism named in the claim (Commission AI Office formal enforcement decision on a systemic-risk GPAI provider by 2027-08-02) is now operationally active with published risk-evaluation cycle. Directional support: enforcement infrastructure real, first decision still pending. Post-Aug-2 fines up to EUR 15M or 3pct turnover are legally live per DLA Piper 2026-09-10 briefing. Signals: 2026-09-19-eu-ai-office-article-55-first-formal-systemic-risk-evaluation-window-opens-enforcement-becomes-operational.md; 2026-09-20-eu-ai-office-post-aug2-enforcement-gpai-fines-live-but-no-fine-yet-institutional-adaptation-lag.md",
      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+     "date": "2026-09-25",
+     "direction": "supports",
+     "note": "2026-09-25 web search confirmed EU AI Office issued first formal Article 55-scope Requests for Information (RfIs) to OpenAI, Anthropic, and Google on 2026-08-29, with EC public confirmation 2026-09-01 (30+ AI companies total). Publicly recorded via digital-strategy.ec.europa.eu enforcement page and Commission press release; covered by Wilson Sonsini, Volkov Law, Winzheng, Agence Europe. Whether an RfI 'published as a decision' meets the claim's threshold of 'formal enforcement action' is interpretive — the RfIs are Article 91 RfI-power exercises directed at Article 55 obligations, and the twin does NOT resolve this run (Reckoning re-verifies). Logging evidence only.",
+     "source_url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/"
     }
    ],
    "resolution": null
@@ -6101,7 +6107,14 @@
      "date": "2026-07-31T12:16:17Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-25",
+     "direction": "against",
+     "note": "2026-09-25 targeted search on au.int, nepad.org, and AUDA-NEPAD news archive: no public status update, implementation report, milestone bulletin, or Year-1 review of the Continental AI Strategy published between 2026-08-01 and 2026-09-25. AUDA-NEPAD's public September output is event-programming (Hyperscalers Convergence Africa 2026 keynote, Lagos, 2026-09-04) not strategy-status disclosure. ResearchGate paper (Adjeng et al. 2026 'From Aspiration to Implementation') documents the same absence structurally. Three days remain to 2026-09-28 deadline; if silence holds, claim disconfirms at twin 18 pct.",
+     "source_url": "https://www.researchgate.net/publication/396230260_From_Aspiration_to_Implementation_The_African_Union_AI_Continental_Strategy_and_the_Development-Governance_Paradox"
+    }
+   ],
    "resolution": null
   },
   {
@@ -7601,7 +7614,14 @@
      "date": "2026-09-06T14:16:06Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-25",
+     "direction": "against",
+     "note": "2026-09-25 web search: the European AI Board's 9th meeting on 2026-09-17 put enforcement at the center of its agenda but adopted NO new rule and moved NO deadline (per Quasa tracking; CDT Europe September AI Bulletin). No public NEW enforcement action (beyond the 2026-08-29 first-wave RfIs) surfaced between 2026-08-31 and 2026-09-25 — 25 days of a 60-day window and no ADDITIONAL formal enforcement action recorded. Weak evidence against the 50 pct twin prior; 35 days remain to 2026-10-30 deadline. Not resolved this run.",
+     "source_url": "https://quasa.io/insights/the-eu-ai-board-turns-to-enforcement-but-its-september-meeting-set-no-new-deadline"
+    }
+   ],
    "resolution": null
   },
   {
@@ -7732,7 +7752,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-26",
+     "direction": "against",
+     "note": "Sept 25-26 2026 press: NAB, CBA and Westpac all now forecast a 25bp RBA hike at the Sept 29 2026 meeting to 4.60 percent; market pricing similarly implies a 25bp hike (~85 percent). Twin registered 20 percent for HIKE-by-25bp, so the market runs against the twin's HOLD-lean. This is live evidence ahead of the Sept 29 decision, not resolution - the update test fires on the RBA statement 2026-09-30 06:00 UTC",
+     "source_url": "https://www.aussie.com.au/insights/news/expert-predictions-rba-rates/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8994,7 +9021,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-26",
+     "direction": "against",
+     "note": "BoJ Sept 18 2026 statement (boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf) raised uncollateralized overnight call rate to 1.25 percent from 1.0 percent at the September 18 2026 meeting; the claim was registered 2026-09-22 asserting the rate was held at 1.0 percent through the September 2026 meeting, which contradicts the record - flag for Sunday Reckoning invalidation vs correction review, not resolving today because a 1.25 outcome at the October meeting still satisfies the letter of the update test if 1.25 is read as unchanged from the current level rather than 'around 1.0 percent'",
+     "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9027,6 +9061,76 @@
     "queries": [
      "FOMC October 2026 meeting"
     ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260926-001",
+   "date": "2026-09-26",
+   "registered_at": "2026-09-26T12:26:39Z",
+   "claim": "By 2026-10-08 23:59 NZT, the Reserve Bank of New Zealand publishes on rbnz.govt.nz the Monetary Policy Review OCR announcement holding the Official Cash Rate at 2.75 percent (unchanged from the immediately prior decision).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "RBNZ Monetary Policy Review page 2026-10-08 scheduled with announcement at 2pm NZT",
+   "withdrawal": null,
+   "confidence": 0.45,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "recent 2026 pace shows active moves in both directions; consensus forecasts vary between hold and 25bp cut. Twin marks slight hold-lean given last hike is recent but records small edge only; calibration correction dial applied via 40-49 bucket.",
+   "base_rate": 0.4,
+   "base_rate_source": "RBNZ 2026 MPR/MPS decisions: April hold at 2.25, July hike to 2.50, subsequent hike to 2.75; hold rate across last 8 RBNZ meetings is roughly 3 of 8 (about 37 percent); as of 2026-09-26",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-08 23:59 NZT, rbnz.govt.nz publishes the OCR announcement showing OCR at 2.75 percent. Confirmed if 2.75 percent; disconfirmed if any other level.",
+   "resolve_by": "2026-10-09",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-26T12:26:39Z",
+    "auditor": "twin",
+    "note": "RBNZ event page rbnz.govt.nz/news-and-events/events/2026/october/monetary-policy-review-and-ocr-october-2026 shows decision scheduled 2026-10-08 not yet published; as of 2026-09-26 UTC",
+    "queries": [],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260926-002",
+   "date": "2026-09-26",
+   "registered_at": "2026-09-26T12:26:49Z",
+   "claim": "By 2026-10-02 23:59 UTC, Eurostat publishes the flash Euro Area Consumer Price Index for September 2026 (scheduled release 2026-10-01) showing headline HICP year-over-year at or below 2.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Eurostat flash HICP September 2026, scheduled release 2026-10-01 on ec.europa.eu/eurostat euroindicators calendar",
+   "withdrawal": null,
+   "confidence": 0.49,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Eurozone core has been running slightly above headline; energy and services split creates real uncertainty. Twin marks slight below-target lean; calibration correction dial applied via 40-49 bucket after adjustment.",
+   "base_rate": 0.5,
+   "base_rate_source": "Eurostat euroindicators HICP flash monthly y/y prints March 2026 through August 2026; three of the six months printed at or below 2.0 percent; as of 2026-09-26",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-02 23:59 UTC, ec.europa.eu/eurostat publishes the flash HICP for September 2026 showing headline all-items year-over-year at or below 2.0 percent. Confirmed if the flash headline y/y is 2.0 percent or lower to one decimal; disconfirmed if strictly greater than 2.0 percent.",
+   "resolve_by": "2026-10-03",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-26T12:26:49Z",
+    "auditor": "twin",
+    "note": "Eurostat euroindicators calendar shows flash HICP Sept 2026 scheduled 2026-10-01 not yet published; targeted news search 2026-09-26 found no pre-release leak; as of 2026-09-26 UTC",
+    "queries": [],
     "outcome_already_known": false
    },
    "corrections": [],
@@ -9552,7 +9656,9 @@
   "claim-20260921-002": 166,
   "claim-20260921-003": 167,
   "claim-20260922-001": 168,
-  "claim-20260922-002": 169
+  "claim-20260922-002": 169,
+  "claim-20260926-001": 170,
+  "claim-20260926-002": 171
  },
  "stats": {
   "committers": {
