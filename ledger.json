@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -9137,6 +9137,45 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20260927-001",
+   "date": "2026-09-27",
+   "registered_at": "2026-09-27T12:20:26Z",
+   "claim": "By 2026-11-26 23:59 UTC, the US State Department, Commerce Department, White House, or an equivalent PRC ministry (Ministry of Foreign Affairs or MIIT) publishes an official statement (readout, press release, or verified official social post) confirming that the first session of the US-China SI Dialogue (announced 2026-09-25 at the Trump-Xi summit and scheduled for November 2026) has been held.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The US-China SI Dialogue was formally announced at the Trump-Xi state visit summit on 2026-09-25 to 2026-09-26, with a first session scheduled for November 2026 per official summit readouts (Axios 2026-09-26, Sedaily 2026-09-26, Gizmodo 2026-09-26).",
+   "withdrawal": null,
+   "confidence": 0.54,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Base rate 65 percent (bilateral tech dialogues at similar early stages usually hold their first announced session; corrected downward via calibration bucket 60-69 percent, correction minus 0.138). Frame: out - the twin's frameworks describe why the dialogue will not produce rules (Governance Cycle Renewal Gap) but do not carry a directional prediction on whether the announced session holds on schedule. Boundary: outside - resolution turns on political-execution risk (a Trump-side cancellation or a Beijing-side delay), which is exogenous to any inside-boundary structural read. Ingestion-bias note: no liquid market prices this; the estimator is the only forecaster. Cite calibration 2026-09-24. calibration 2026-09-24",
+   "base_rate": 0.65,
+   "base_rate_source": "Rough historical rate for high-level US-China bilateral tech-adjacent dialogue first sessions holding within their announced calendar month: US-China Geneva AI dialogue 2024 held on schedule; US-China trade working groups mostly held first sessions on schedule during 2023-2024 diplomatic normalization; base rate anchored at ~65 percent as of 2026-09-27.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-26 23:59 UTC, at least one identifiable public source hosted on state.gov, commerce.gov, whitehouse.gov, fmprc.gov.cn, or miit.gov.cn (or their official verified social channels) publishes a statement (readout, press release, or verified official post) explicitly naming the US-China SI Dialogue and confirming that its first session has been held. Confirmed if any such statement is publicly retrievable; disconfirmed if no such statement is publicly retrievable by 2026-11-26 23:59 UTC.",
+   "resolve_by": "2026-11-26",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-27T12:20:26Z",
+    "auditor": "twin",
+    "note": "Searched 2026-09-27 for news of the first US-China SI Dialogue session having been held; results confirm only that the dialogue was announced 2026-09-25 to 2026-09-26 and scheduled for November 2026. No public record of the session having occurred. Sources searched: Axios, Sedaily, Gizmodo, AOL, Latin Times, Eastern Herald, QNC News.",
+    "queries": [
+     "US-China SI Dialogue first session held November 2026",
+     "US-China superintelligence dialogue session readout",
+     "State Department US-China SI Dialogue"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -9658,7 +9697,8 @@
   "claim-20260922-001": 168,
   "claim-20260922-002": 169,
   "claim-20260926-001": 170,
-  "claim-20260926-002": 171
+  "claim-20260926-002": 171,
+  "claim-20260927-001": 172
  },
  "stats": {
   "committers": {
