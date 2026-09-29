@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-29",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -6110,7 +6110,7 @@
    ],
    "update_test": "By 2026-09-28, at least one of au.int, nepad.org, or the official AU/AUDA-NEPAD social accounts publishes a document, bulletin, press release, or public post explicitly identifying itself as a Continental AI Strategy implementation status, progress update, milestone bulletin, or Year-1 review. Confirmed if any such document is publicly available and dated 2026-08-01 through 2026-09-28; disconfirmed if no such document is publicly available by 2026-09-28.",
    "resolve_by": "2026-09-29",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-31T12:16:03Z",
@@ -6137,9 +6137,19 @@
      "direction": "against",
      "note": "2026-09-25 targeted search on au.int, nepad.org, and AUDA-NEPAD news archive: no public status update, implementation report, milestone bulletin, or Year-1 review of the Continental AI Strategy published between 2026-08-01 and 2026-09-25. AUDA-NEPAD's public September output is event-programming (Hyperscalers Convergence Africa 2026 keynote, Lagos, 2026-09-04) not strategy-status disclosure. ResearchGate paper (Adjeng et al. 2026 'From Aspiration to Implementation') documents the same absence structurally. Three days remain to 2026-09-28 deadline; if silence holds, claim disconfirms at twin 18 pct.",
      "source_url": "https://www.researchgate.net/publication/396230260_From_Aspiration_to_Implementation_The_African_Union_AI_Continental_Strategy_and_the_Development-Governance_Paradox"
+    },
+    {
+     "date": "2026-09-29",
+     "direction": "against",
+     "note": "2026-09-29 targeted resolution sweep confirmed the 2026-09-25 finding. Fresh searches of AU/AUDA-NEPAD channels (au.int and nepad.org) between 2026-08-01 and 2026-09-28 return no Continental AI Strategy Year-1 implementation status document, milestone bulletin, progress report, or Year-1 review; the most recent AU AI outputs remain the July 2024 adoption text, February 2025 roadmap, May 2025 High-Level Policy Dialogue press release, and February 2026 Addis Summit dialogue. AUDA-NEPAD September output on the strategy is event-programming (Hyperscalers Convergence Africa 2026 keynote 2026-09-04) not strategy-status disclosure. Deadline 2026-09-28 has passed; milestone was publicly missed. Unambiguous disconfirmation.",
+     "source_url": "https://au.int/en/documents/20240809/continental-artificial-intelligence-strategy"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-29T12:22:06Z",
+    "outcome": "disconfirmed",
+    "note": "Deadline 2026-09-28 passed with no AU/AUDA-NEPAD Continental AI Strategy Year-1 implementation status update, progress report, or milestone bulletin published on au.int, nepad.org, or official social channels within the 2026-08-01 to 2026-09-28 window. Update test dated-milestone-missed condition fires. Twin priced 18 percent below base rate 25 percent, framework Institutional Adaptation Lag attributed at registration with direction down; disconfirmation matches framework prediction. Confirmatory reference: AU Continental AI Strategy adoption text (July 2024, au.int) with no subsequent Year-1 implementation document; ResearchGate 2026 paper Adjeng et al. From Aspiration to Implementation documents the same absence structurally."
+   }
   },
   {
    "id": "claim-20260801-001",
@@ -7782,6 +7792,12 @@
      "direction": "against",
      "note": "Sept 25-26 2026 press: NAB, CBA and Westpac all now forecast a 25bp RBA hike at the Sept 29 2026 meeting to 4.60 percent; market pricing similarly implies a 25bp hike (~85 percent). Twin registered 20 percent for HIKE-by-25bp, so the market runs against the twin's HOLD-lean. This is live evidence ahead of the Sept 29 decision, not resolution - the update test fires on the RBA statement 2026-09-30 06:00 UTC",
      "source_url": "https://www.aussie.com.au/insights/news/expert-predictions-rba-rates/"
+    },
+    {
+     "date": "2026-09-28",
+     "direction": "supports",
+     "note": "Money markets fully pricing 25bp RBA hike ahead of the 2026-09-29 meeting per Newsquawk preview and SBS reporting 2026-09-28; all big four Australian banks calling for a hike. Preview evidence, does not resolve — the meeting is tomorrow and the outcome could still be a hold. Bearing directionally supports the claim (hike-by-25bp).",
+     "source_url": "https://www.newsquawk.com/headlines/preview-rba-rate-decision-scheduled-on-tuesday-29th-september-2026-at-0530bst0030edt"
     }
    ],
    "resolution": null
@@ -9747,20 +9763,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 108,
-    "hit_rate": 0.5046,
-    "brier": 0.2283,
-    "skill_vs_coinflip": 0.0217
+    "n": 109,
+    "hit_rate": 0.5,
+    "brier": 0.2266,
+    "skill_vs_coinflip": 0.0234
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2283,
-  "skill_vs_coinflip": 0.0217,
+  "brier": 0.2266,
+  "skill_vs_coinflip": 0.0234,
   "base_rate": {
-   "n": 108,
-   "brier_base": 0.2327,
-   "brier_twin": 0.2283,
-   "skill": 0.0043
+   "n": 109,
+   "brier_base": 0.2311,
+   "brier_twin": 0.2266,
+   "skill": 0.0046
   },
   "market": {
    "n": 10,
@@ -9775,8 +9791,8 @@
    "skill_vs_base": 0.0004
   },
   "clusters": {
-   "effective_n": 80,
-   "brier_cluster_collapsed": 0.2271
+   "effective_n": 81,
+   "brier_cluster_collapsed": 0.2247
   },
   "paired": {
    "n": 0,
@@ -9786,13 +9802,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0089,
-    "hi": 0.0488,
+    "lo": -0.0066,
+    "hi": 0.0504,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0129,
-    "hi": 0.0229,
+    "lo": -0.0117,
+    "hi": 0.0234,
     "distinguishable": false
    },
    "skill_vs_market": {
