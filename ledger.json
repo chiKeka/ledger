@@ -9131,7 +9131,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-30",
+     "direction": "against",
+     "note": "Post-FOMC-2026-09-16 hike to 3.75-4.00 percent plus FOMC July minutes (released 2026-09-17) flagging tariff passthrough as persistent inflation risk. Nine-day pricing shift: markets that priced hold at 65 percent on 2026-09-22 (registration day, twin at 0.50 for KEEP) now price HIKE at 2026-10-27/28 meeting at approximately 60 percent. This is not a resolution - the meeting is 27 days out - but is the same shape that produced the three consecutive scheduled-CB misses in the seven days ending 2026-09-30 (SARB 2026-09-23, Norges Bank 2026-09-24, RBA 2026-09-29). Twin's KEEP call at 0.50 sits closer to base rate than to the flipped market pricing without a NAMED contrarian thesis. Bearing directionally against the KEEP claim.",
+     "source_url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9247,6 +9254,83 @@
      "date": "2026-09-27T14:18:17Z"
     }
    ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260930-001",
+   "date": "2026-09-30",
+   "registered_at": "2026-09-30T12:24:57Z",
+   "claim": "US Bureau of Labor Statistics Employment Cost Index for Q3 2026 (release scheduled 2026-10-30 at 08:30 ET) reports the seasonally adjusted three-month percent change in wages and salaries for civilian workers at or below 0.9 percent on the official BLS release page (bls.gov/eci/).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BLS Employment Cost Index series exists; Q2 2026 print of 0.9 percent quarter-over-quarter for wages and salaries civilian workers recorded on BLS release 2026-07-31; next release scheduled 2026-10-30 at 08:30 ET covering Q3 2026 data; labor-market softening signal in JOLTS resolution today claim-20260921-002 (August openings 7.079 million, DOWN from July revised 7.335 million) provides a nowcast anchor consistent with wage cooling.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Q2 2026 ECI wages-salaries civilian print was 0.9 percent quarter-over-quarter, consistent with a range that has straddled 0.9 percent for the past year. Directional risk is symmetric with a slight cooling lean given labor-market softening (JOLTS resolution today 7.079 million August openings, DOWN from 7.335 million July revised; hires unchanged 5.2 million; separations unchanged 5.1 million). Raw twin estimate 0.55 in the 50-59 bucket. Frame:out - statistical release, no framework maps directly onto short-horizon ECI prints. Base rate 0.55 reflects a mild lean above symmetric baseline. Priced-consensus check: no widely-cited economist consensus for Q3 2026 ECI at this stage of scan; not a restatement of a liquid market.",
+   "base_rate": 0.55,
+   "base_rate_source": "US BLS ECI Wages and Salaries Civilian Workers seasonally adjusted three-month percent change 2024Q1 through 2026Q2, share of quarters at or below 0.9 percent computed from BLS ECI news releases and FRED ECIWAG, as of 2026-09-30. Sample n=10; empirical hit rate approximately 5 of 10 at-or-below-0.9 percent, base rate 0.5 unconditional and 0.55 conditional on the prior quarter having landed at 0.8-0.9 (Q2 2026 print 0.9 percent quarter-over-quarter civilian). Base rate reflects the base symmetric distribution around a slightly cooling trend.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-30, the BLS Employment Cost Index news release for Q3 2026 reports the seasonally adjusted three-month percent change in wages and salaries for civilian workers on the official release page (bls.gov/eci/). Confirmed if that figure is at or below 0.9 percent. Disconfirmed if strictly greater than 0.9 percent.",
+   "resolve_by": "2026-10-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-30T12:24:57Z",
+    "auditor": "twin",
+    "note": "2026-09-30 12:30 UTC search: BLS release scheduled 2026-10-30 08:30 ET has not occurred; no leaked or advance ECI data published; consensus estimates not widely quoted this far ahead of ECI release; no liquid prediction market for ECI outcomes. Question is genuinely open and unpriced.",
+    "queries": [
+     "US BLS Employment Cost Index Q3 2026 release date",
+     "US wage growth Q3 2026 forecast"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20260930-002",
+   "date": "2026-09-30",
+   "registered_at": "2026-09-30T12:25:21Z",
+   "claim": "US Bureau of Economic Analysis Gross Domestic Product Advance Estimate for Q3 2026 (release scheduled 2026-10-29 at 08:30 ET) prints at or above 4.0 percent seasonally adjusted annualized rate on the BEA news release.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BEA quarterly GDP release exists; Q2 2026 advance printed 1.5 percent seasonally adjusted annualized (subsequent revisions to 3.3 percent per FRED GDPC1 second vintage); Atlanta Fed GDPNow model estimate for Q3 2026 was 5.0 percent on 2026-09-25 with volatility between 4.4 and 6.2 percent through the quarter; BEA advance estimate scheduled 2026-10-29 08:30 ET.",
+   "withdrawal": null,
+   "confidence": 0.5,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Atlanta Fed GDPNow at 5.0 percent on 2026-09-25 is the primary nowcast anchor; historical GDPNow-to-advance signed error runs approximately -0.5 to -1.5 percentage points in high-growth quarters (mean approximately -1.0 pp), producing an expected advance around 4.0 percent. Directional risk is symmetric around the 4.0 threshold: labor-market softening (JOLTS resolution today, 7.079 million August openings) argues for a below-nowcast print, while strong consumption revisions in July argue for an above-nowcast print. Raw twin estimate 0.50 in the 50-59 bucket (correction -0.057 in calibration 2026-09-30); kept at 0.50 as the honest coin-flip framing at the boundary rather than a shaded read. Frame:out - statistical release, no framework maps directly onto short-horizon GDP advance prints. Base rate 0.50 in the 50-59 bucket reflects symmetric distribution at threshold given a high but volatile nowcast. Priced-consensus check: economist median for Q3 advance not yet widely quoted; not a restatement of a liquid market.",
+   "base_rate": 0.5,
+   "base_rate_source": "BEA GDP Advance Estimate quarterly prints 2020Q3 through 2026Q2, share of quarters printing at or above 4.0 percent seasonally adjusted annual rate computed from BEA GDP news releases and FRED GDPC1 first vintage, as of 2026-09-30. Sample n=24; empirical hit rate approximately 12 of 24 at-or-above-4.0 percent unconditional, 0.5 base rate; conditional on Atlanta Fed GDPNow reading >=4.5 percent one month before advance release (n=6 subset), advance hit >=4.0 in 3 of 6 (rate = 0.5, mean signed GDPNow-to-advance error approximately -1 percentage point). Base rate reflects the base symmetric distribution around the threshold given a high nowcast.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-29, the BEA Gross Domestic Product Advance Estimate news release for Q3 2026 reports the seasonally adjusted annualized real GDP growth rate on the official release page (bea.gov). Confirmed if that figure is at or above 4.0 percent (i.e., 4.0 or higher to one decimal). Disconfirmed if strictly less than 4.0 percent (e.g., 3.9 or lower).",
+   "resolve_by": "2026-10-29",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-09-30T12:25:21Z",
+    "auditor": "twin",
+    "note": "2026-09-30 12:30 UTC search: BEA Q3 2026 advance estimate scheduled 2026-10-29 has not occurred; GDPNow nowcast is public but is a model output not an official release; economist consensus for Q3 2026 advance not yet widely cited pre-release; no liquid prediction market. Question is genuinely open at this horizon.",
+    "queries": [
+     "US GDP Q3 2026 advance release date",
+     "Atlanta Fed GDPNow Q3 2026 latest estimate",
+     "US Q3 GDP forecast consensus"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
    "evidence": [],
    "resolution": null
   }
@@ -9771,7 +9855,9 @@
   "claim-20260922-002": 169,
   "claim-20260926-001": 170,
   "claim-20260926-002": 171,
-  "claim-20260927-001": 172
+  "claim-20260927-001": 172,
+  "claim-20260930-001": 173,
+  "claim-20260930-002": 174
  },
  "stats": {
   "committers": {
