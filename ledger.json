@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7771,7 +7771,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-30 06:00 UTC, RBA post-meeting statement (published to rba.gov.au) records the cash rate target at 4.60 percent or higher following the 2026-09-29 meeting decision. Confirmed if the announced rate is 4.60 percent or higher. Disconfirmed if it is 4.35 percent (hold) or lower (cut) or if the meeting is postponed past resolve-by.",
    "resolve_by": "2026-09-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-31T12:41:29Z",
@@ -7800,7 +7800,11 @@
      "source_url": "https://www.newsquawk.com/headlines/preview-rba-rate-decision-scheduled-on-tuesday-29th-september-2026-at-0530bst0030edt"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-30T12:17:52Z",
+    "outcome": "confirmed",
+    "note": "RBA hiked 25bp to 4.60% at the 2026-09-29 monetary policy meeting - unanimous decision, fourth rate rise of 2026, highest cash rate in 15 years. RBA statement mr-26-27 published 2026-09-29 confirms the move. Twin registered 0.20 for HIKE (frame:out); market/consensus at ~85%. Twin significantly UNDERWEIGHTED the hike - correct claim framing, poor calibration. Sources: https://www.rba.gov.au/media-releases/2026/mr-26-27.html ; https://www.abc.net.au/news/2026-09-29/asx-markets-business-news-live-updates-tuesday-29-september/107206212 ; https://www.commbank.com.au/articles/newsroom/2026/09/rba-official-cash-rate-decision-september-2026.html"
+   }
   },
   {
    "id": "claim-20260901-001",
@@ -7823,7 +7827,7 @@
    "frameworks": [],
    "update_test": "On 2026-09-30, China NBS official Manufacturing PMI release for September 2026 prints headline value of 50.0 or higher. Confirmed at or above 50.0; disconfirmed below 50.0.",
    "resolve_by": "2026-09-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-01T12:42:28Z",
@@ -7839,7 +7843,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-30T12:18:01Z",
+    "outcome": "confirmed",
+    "note": "China NBS official Manufacturing PMI for September 2026 printed 50.1, up 0.3 percentage points from August 49.8 and back into expansion territory. Released 2026-09-30 by the NBS Service Industry Survey Center and China Federation of Logistics and Purchasing. Matched Reuters poll forecast; sub-indices: new orders 50.5, production 51.7. Twin registered 0.48 for at-or-above-50 (frame:out); confirmed. Reasonable calibration (bucket 40-49% correction had pushed suggestion to 0.506). Sources: https://www.fxstreet.com/news/china-nbs-manufacturing-pmi-meets-forecasts-501-in-september-202609300131 ; https://news.metal.com/newscontent/104140341-nbs-manufacturing-pmi-at-501-in-september-with-broader-improvement-across-the-manufacturing-sector ; https://chinaglobalsouth.com/2026/09/30/china-manufacturing-pmi-september-growth/"
+   }
   },
   {
    "id": "claim-20260901-002",
@@ -8948,7 +8956,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-09-30",
+     "direction": "against",
+     "note": "BEA Personal Income and Outlays release for August 2026 scheduled 2026-09-30 08:30 ET (12:30 UTC); brief fires at 12:14 UTC - release is imminent but not yet public at scan time. Consensus economist forecasts run 3.4% y/y for core PCE (vs July's 3.3%), well above the twin's 2.9% threshold. If consensus fires, claim disconfirms. Sunday Reckoning re-verifies with the actual BEA print. Source: https://stockmarkethours.org/events/us-pce-release ; https://www.fxstreet.com/news/us-core-pce-inflation-set-to-rise-in-august-pressuring-the-federal-reserve-202609300830",
+     "source_url": "https://stockmarkethours.org/events/us-pce-release"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8972,7 +8987,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-30, the BLS Job Openings and Labor Turnover Survey news release for August 2026 reports the total nonfarm job openings figure on the official release page (bls.gov/news.release/jolts.htm). Confirmed if that figure is at or below 7.2 million (i.e., 7,200,000 or lower). Disconfirmed if strictly greater than 7.2 million.",
    "resolve_by": "2026-09-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-21T12:21:12Z",
@@ -8987,7 +9002,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-09-30T12:18:09Z",
+    "outcome": "confirmed",
+    "note": "BLS JOLTS report for August 2026 released 2026-09-29 (within resolve-by 2026-09-30) reports total nonfarm job openings at 7.079 million (rounded 7.1M by BLS release), DOWN from July's revised 7.335M. Hires little changed at 5.2M; separations unchanged at 5.1M; quits unchanged at 3.1M. 7.079M is at or below the 7.2M threshold - confirmed. Twin registered 0.45 for at-or-below-7.2M (frame:out); correct lean, decent calibration in the 40-49 bucket. Sources: https://www.bls.gov/news.release/jolts.nr0.htm ; https://www.bls.gov/news.release/jolts.htm"
+   }
   },
   {
    "id": "claim-20260921-003",
@@ -9763,20 +9782,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 109,
-    "hit_rate": 0.5,
-    "brier": 0.2266,
-    "skill_vs_coinflip": 0.0234
+    "n": 112,
+    "hit_rate": 0.5134,
+    "brier": 0.2313,
+    "skill_vs_coinflip": 0.0187
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2266,
-  "skill_vs_coinflip": 0.0234,
+  "brier": 0.2313,
+  "skill_vs_coinflip": 0.0187,
   "base_rate": {
-   "n": 109,
-   "brier_base": 0.2311,
-   "brier_twin": 0.2266,
-   "skill": 0.0046
+   "n": 112,
+   "brier_base": 0.2379,
+   "brier_twin": 0.2313,
+   "skill": 0.0065
   },
   "market": {
    "n": 10,
@@ -9785,14 +9804,14 @@
    "skill": -0.042
   },
   "non_echo": {
-   "n": 34,
+   "n": 35,
    "floor": 30,
-   "brier": 0.2402,
-   "skill_vs_base": 0.0004
+   "brier": 0.241,
+   "skill_vs_base": 0.0047
   },
   "clusters": {
-   "effective_n": 81,
-   "brier_cluster_collapsed": 0.2247
+   "effective_n": 84,
+   "brier_cluster_collapsed": 0.2311
   },
   "paired": {
    "n": 0,
@@ -9802,13 +9821,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0066,
-    "hi": 0.0504,
+    "lo": -0.0117,
+    "hi": 0.0462,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0117,
-    "hi": 0.0234,
+    "lo": -0.0103,
+    "hi": 0.0239,
     "distinguishable": false
    },
    "skill_vs_market": {
