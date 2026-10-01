@@ -9365,6 +9365,82 @@
    "related_to": [],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20261001-001",
+   "date": "2026-10-01",
+   "registered_at": "2026-10-01T12:22:22Z",
+   "claim": "The European Central Bank Governing Council at its 2026-10-30 monetary policy decision keeps the deposit facility rate unchanged from its immediately prior decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ECB Governing Council scheduled monetary policy decision 2026-10-29 or 2026-10-30 announced on ecb.europa.eu as the Monetary policy decisions press release",
+   "withdrawal": null,
+   "confidence": 0.7,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "ECB has been in an extended-hold posture after June 2025 cuts and has signaled data-dependent framing in recent speeches; the Riksbank's 2026-09-23 hold with hawkish forward guidance and SARB/Norges hikes point to a stabilization-not-easing bias across European and small-open CBs. Shading modestly above the 0.65 base rate.",
+   "base_rate": 0.65,
+   "base_rate_source": "ECB Governing Council historical monetary policy decisions 2019-2026 (through Sep), scheduled meetings only: ~65 pct of decisions resulted in no change to the deposit facility rate (ECB rate change history as of 2026-09-30)",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-10-31 23:59 UTC, ecb.europa.eu publishes the Monetary policy decisions press release from the 2026-10-29/30 Governing Council meeting. Confirmed if the deposit facility rate is unchanged from the level set at the immediately prior Governing Council decision; disconfirmed if the deposit facility rate is cut or raised at this meeting.",
+   "resolve_by": "2026-10-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-01T12:22:22Z",
+    "auditor": "twin",
+    "note": "Checked 2026-10-01 that the 2026-10-29/30 ECB Governing Council decision has not been published; last published ECB decision prior is from the September 2026 meeting. The world has not answered yet.",
+    "queries": [
+     "ECB monetary policy decision October 2026",
+     "ecb.europa.eu Governing Council"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261001-002",
+   "date": "2026-10-01",
+   "registered_at": "2026-10-01T12:22:33Z",
+   "claim": "Reserve Bank of Australia at its 2026-11-04 Monetary Policy Decision keeps the cash rate target unchanged from its immediately prior decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "RBA Monetary Policy Decision scheduled 2026-11-04 announced on rba.gov.au as the Statement by the Governor",
+   "withdrawal": null,
+   "confidence": 0.68,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "RBA has been in an extended-hold posture with sticky services inflation. The EM/small-open CB divergence from Fed easing continued this week with Norges and SARB hiking and Riksbank holding with hawkish FG. Modest shading above the 0.60 base rate reflects Australia's trimmed-mean inflation remaining above the 2.5 pct midpoint target.",
+   "base_rate": 0.6,
+   "base_rate_source": "RBA cash rate decisions 2019-2026 (through Sep): approximately 60 pct of scheduled Monetary Policy Decisions resulted in no change to the cash rate target (RBA historical cash rate decisions page as of 2026-09-30)",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-05 23:59 AEDT, rba.gov.au publishes the Monetary Policy Decision from the 2026-11-04 Monetary Policy Board meeting. Confirmed if the cash rate target is unchanged from the level set at the immediately prior decision; disconfirmed if the cash rate target is cut or raised at this meeting.",
+   "resolve_by": "2026-11-05",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-01T12:22:33Z",
+    "auditor": "twin",
+    "note": "Checked 2026-10-01 that the 2026-11-04 RBA decision has not been published; last published RBA decision prior is the Sep/Oct 2026 Monetary Policy Decision. The world has not answered yet.",
+    "queries": [
+     "RBA Monetary Policy Decision November 2026",
+     "rba.gov.au cash rate target"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -9889,7 +9965,9 @@
   "claim-20260926-002": 171,
   "claim-20260927-001": 172,
   "claim-20260930-001": 173,
-  "claim-20260930-002": 174
+  "claim-20260930-002": 174,
+  "claim-20261001-001": 175,
+  "claim-20261001-002": 176
  },
  "stats": {
   "committers": {
