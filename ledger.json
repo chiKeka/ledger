@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -6899,7 +6899,7 @@
    "frameworks": [],
    "update_test": "On or before 2026-10-12, an Executive Order or Presidential Memorandum with AI as a named subject (title, subject line, or first paragraph explicitly names AI, artificial intelligence, or a specific AI system class such as GPAI or frontier models) is published on whitehouse.gov/presidential-actions or in the Federal Register with a signature date between 2026-08-13 and 2026-10-12 inclusive. Confirmed if such an action is published; disconfirmed if none appears in either surface by 2026-10-12.",
    "resolve_by": "2026-10-12",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-13T12:23:15Z",
@@ -6910,8 +6910,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-01",
+     "direction": "supports",
+     "note": "President Trump signed Executive Order on 2026-09-29 titled 'Inaugurating The Era of Super Intelligence' which establishes executive-branch policy to rename AI/Artificial Intelligence as Super Intelligence/SI in official correspondence, public communications, websites, reports, and policy documents. The order explicitly names AI/artificial intelligence as subject (title phrase and first paragraph both center on the AI->SI terminology shift and reference the capabilities of frontier systems). Order is published on whitehouse.gov/presidential-actions and accompanied by a WH fact sheet. Also triggers 60-day legislative-language proposal for defining SI.",
+     "source_url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/"
+    }
+   ],
+   "resolution": {
+    "date": "2026-10-01T12:19:47Z",
+    "outcome": "confirmed",
+    "note": "Trump signed Executive Order 'Inaugurating The Era of Super Intelligence' on 2026-09-29, published at whitehouse.gov/presidential-actions with accompanying fact sheet (whitehouse.gov/fact-sheets/2026/09/...). The EO's title and first paragraph explicitly name AI/artificial intelligence as subject (the policy mandates renaming AI->Super Intelligence in official executive-branch usage and references the capabilities of frontier systems). This satisfies the update test's AI-as-named-subject requirement without interpretation. The order also triggers a 60-day legislative-language proposal via the assistant to the president for science and technology. Resolves CONFIRMED well before the 2026-10-12 resolve-by. Twin registered 0.45 at base rate 0.45; frame:out, calibration tier — zero shading, zero skill contribution despite the correct direction. Evidence URLs: https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/ and https://en.wikipedia.org/wiki/Executive_Order_14355"
+   }
   },
   {
    "id": "claim-20260815-001",
@@ -8299,7 +8310,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-05, riksbank.se publishes the Executive Board decision from the September 2026 monetary policy meeting as a hold at 1.75 percent unchanged. Confirmed if the published decision is a hold at 1.75 percent; disconfirmed if the policy rate changes (cut or hike) or if the meeting output is not published by 2026-10-05.",
    "resolve_by": "2026-10-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-05T12:13:34Z",
@@ -8312,8 +8323,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-01",
+     "direction": "supports",
+     "note": "Riksbank Executive Board decision from the 2026-09-23 monetary policy meeting published on riksbank.se: policy rate HELD unchanged at 1.75 percent, decision applying from 2026-10-01. Forward guidance signals possible Q4 rise, Riksbank MPR Sep 2026 average policy rate forecast 1.85 pct in Q4 2026 and 2.07 pct in Q1 2027. Matches update test's hold-at-1.75 percent confirmation condition.",
+     "source_url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-16.75-per-cent"
+    }
+   ],
+   "resolution": {
+    "date": "2026-10-01T12:19:33Z",
+    "outcome": "confirmed",
+    "note": "Riksbank Executive Board at its 2026-09-23 monetary policy meeting held the policy rate unchanged at 1.75 percent, decision applying from 2026-10-01. Published on riksbank.se with the September 2026 Monetary Policy Report. The update test required a hold at 1.75 percent for confirmation; hold at 1.75 percent delivered. Resolves CONFIRMED. Twin registered 0.65 against a 0.60 base rate; frame:out, calibration tier. Only mild shading above the base rate — modest calibration contribution. Forward guidance hawkish (Riksbank MPR projects 1.85 percent average Q4 policy rate), a non-material deviation from the registered test. Evidence URLs: https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-16.75-per-cent and https://www.riksbank.se/globalassets/media/rapporter/ppr/penningpolitiska-rapporter-och-uppdateringar/engelska/2026/monetary-policy-report-september-2026.pdf"
+   }
   },
   {
    "id": "claim-20260905-002",
@@ -8942,7 +8964,7 @@
    "frameworks": [],
    "update_test": "By 2026-09-30, the BEA Personal Income and Outlays news release for August 2026 reports the core PCE price index year-over-year change on the official release page (bea.gov). Confirmed if that figure is at or below 2.9 percent (i.e., 2.9 or lower to one decimal). Disconfirmed if strictly greater than 2.9 percent (e.g., 3.0 or higher).",
    "resolve_by": "2026-09-30",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-21T12:20:55Z",
@@ -8962,9 +8984,19 @@
      "direction": "against",
      "note": "BEA Personal Income and Outlays release for August 2026 scheduled 2026-09-30 08:30 ET (12:30 UTC); brief fires at 12:14 UTC - release is imminent but not yet public at scan time. Consensus economist forecasts run 3.4% y/y for core PCE (vs July's 3.3%), well above the twin's 2.9% threshold. If consensus fires, claim disconfirms. Sunday Reckoning re-verifies with the actual BEA print. Source: https://stockmarkethours.org/events/us-pce-release ; https://www.fxstreet.com/news/us-core-pce-inflation-set-to-rise-in-august-pressuring-the-federal-reserve-202609300830",
      "source_url": "https://stockmarkethours.org/events/us-pce-release"
+    },
+    {
+     "date": "2026-10-01",
+     "direction": "against",
+     "note": "US BEA Personal Income and Outlays release for August 2026 (published 2026-09-30) reports core PCE price index year-over-year at 3.0 percent on bea.gov. Monthly change 0.2 percent. Headline PCE y/y 3.4 percent. Update test required ≤2.9 percent for confirmation; 3.0 percent is strictly greater than 2.9 percent so DISCONFIRMATION gates fire.",
+     "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-01T12:19:19Z",
+    "outcome": "disconfirmed",
+    "note": "BEA Personal Income and Outlays for August 2026 (released 2026-09-30 at 08:30 ET on bea.gov) reports core PCE y/y at 3.0 percent, strictly greater than the 2.9 percent confirmation ceiling defined in the update test. Monthly change 0.2 percent; both figures came in cooler than the consensus (0.3 percent m/m, 3.3 percent y/y). The claim resolves DISCONFIRMED on the registered test; twin was committed at 0.50 confidence against a 0.50 base rate — essentially coin-flip with no shading. Frame:out, calibration tier. Evidence URL: https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+   }
   },
   {
    "id": "claim-20260921-002",
@@ -9868,20 +9900,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 112,
-    "hit_rate": 0.5134,
-    "brier": 0.2313,
-    "skill_vs_coinflip": 0.0187
+    "n": 115,
+    "hit_rate": 0.5174,
+    "brier": 0.2311,
+    "skill_vs_coinflip": 0.0189
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2313,
-  "skill_vs_coinflip": 0.0187,
+  "brier": 0.2311,
+  "skill_vs_coinflip": 0.0189,
   "base_rate": {
-   "n": 112,
+   "n": 115,
    "brier_base": 0.2379,
-   "brier_twin": 0.2313,
-   "skill": 0.0065
+   "brier_twin": 0.2311,
+   "skill": 0.0067
   },
   "market": {
    "n": 10,
@@ -9896,8 +9928,8 @@
    "skill_vs_base": 0.0047
   },
   "clusters": {
-   "effective_n": 84,
-   "brier_cluster_collapsed": 0.2311
+   "effective_n": 87,
+   "brier_cluster_collapsed": 0.2309
   },
   "paired": {
    "n": 0,
@@ -9907,12 +9939,12 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0117,
-    "hi": 0.0462,
+    "lo": -0.0104,
+    "hi": 0.0467,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0103,
+    "lo": -0.0106,
     "hi": 0.0239,
     "distinguishable": false
    },
