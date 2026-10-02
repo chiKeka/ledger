@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01",
+ "updated": "2026-10-02",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -7289,7 +7289,14 @@
      "date": "2026-08-17T13:01:31Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-02",
+     "direction": "supports",
+     "note": "Senegal, a listed second-wave AU state, signed WAICO as a founding member on 2026-07-16 (Minister of Telecommunications and Digital Technology, Shanghai signing). osiris.sn (semi-official regulator ArTP observatory) reported the signing; however the update test requires publication on a national .gov country-code domain or an official ministry site - osiris.sn is a regulator observatory, not clearly a ministry site. Logging evidence only; interpretive on whether the publication requirement is met. Reckoning should re-verify.",
+     "source_url": "https://www.osiris.sn/gouvernance-mondiale-de-l-ia-le-senegal-devient-membre-fondateur-de-la-nouvelle.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9229,7 +9236,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-02 23:59 UTC, ec.europa.eu/eurostat publishes the flash HICP for September 2026 showing headline all-items year-over-year at or below 2.0 percent. Confirmed if the flash headline y/y is 2.0 percent or lower to one decimal; disconfirmed if strictly greater than 2.0 percent.",
    "resolve_by": "2026-10-03",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-26T12:26:49Z",
@@ -9241,7 +9248,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-02T12:20:33Z",
+    "outcome": "disconfirmed",
+    "note": "Eurostat flash HICP Sept 2026 released 2026-10-02 at 11:00 CEST: headline all-items y/y = 3.8 percent, up from 3.2 in August 2026. Claim predicted <= 2.0 percent; actual strictly greater, so disconfirmed per update test. Primary source Eurostat euro indicator press release 2-02102026-ap at ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap; corroborated by multiple news agencies (Tribune, Trade.gov.tr, tradersagency). Resolved by brief 2026-10-02."
+   }
   },
   {
    "id": "claim-20260927-001",
@@ -9434,6 +9445,117 @@
     "queries": [
      "RBA Monetary Policy Decision November 2026",
      "rba.gov.au cash rate target"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261002-001",
+   "date": "2026-10-02",
+   "registered_at": "2026-10-02T12:25:03Z",
+   "claim": "US BEA Personal Income and Outlays for September 2026 (release scheduled 2026-10-29 at 08:30 ET) reports core PCE price index 12-month percent change at 2.9 percent or lower, cooler than or equal to August 2026 revised 3.0 percent.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US BEA core Personal Consumption Expenditures price index, Personal Income and Outlays report scheduled 2026-10-29 at 08:30 ET on bea.gov",
+   "withdrawal": null,
+   "confidence": 0.43,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Cooling-services trajectory from July 3.3 to August 3.0 is directional structural evidence; services inflation moderated in August to 3.6 from July 3.8; energy acceleration in September (Eurostat flash: euro area energy +18.8 percent) affects headline more than core; mild below-base lean warranted. Raw 0.50; calibration 2026-10-01 bucket 50-59 correction -0.066 pulls to 0.43. This claim takes a NAMED read against base rate per the postmortem lesson, not priced at coin-flip.",
+   "base_rate": 0.45,
+   "base_rate_source": "US BEA core PCE y/y prints Mar 2026 through Aug 2026, three of six at or below 2.9 percent (3.1, 2.8, 2.6 for Mar/Apr/May; 3.1, 3.3, 3.0 for Jun/Jul/Aug); historical month-ahead symmetric around trend, as of 2026-10-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-29 or shortly after, bea.gov publishes Personal Income and Outlays September 2026 showing core PCE price index y/y (12-month percent change) at or below 2.9 percent; confirmed if headline core y/y value is 2.9 percent or lower; disconfirmed if strictly greater than 2.9 percent.",
+   "resolve_by": "2026-10-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-02T12:25:03Z",
+    "auditor": "twin",
+    "note": "Searched BEA release calendar and news as of 2026-10-02; next Personal Income and Outlays report for September 2026 scheduled 2026-10-29; no preliminary core PCE value for September 2026 is yet public.",
+    "queries": [
+     "BEA core PCE price index September 2026 release date October November report"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261002-002",
+   "date": "2026-10-02",
+   "registered_at": "2026-10-02T12:25:17Z",
+   "claim": "Japan Statistics Bureau Consumer Price Index (nationwide, all items) for September 2026 (release scheduled 2026-10-23 at 08:30 JST on stat.go.jp) reports headline y/y rate at 2.5 percent or higher.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Japan Statistics Bureau nationwide Consumer Price Index all-items release for September 2026, published on stat.go.jp scheduled 2026-10-23 at 08:30 JST (2026-10-22 23:30 UTC)",
+   "withdrawal": null,
+   "confidence": 0.51,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Japan CPI has run at 2.6-2.9 percent for most of 2026; little in the Aug-Sept window suggests a sharp drop below 2.5. BoJ's October 2026 policy meeting is being watched for a hike, consistent with persistent above-target inflation. Base rate 0.55; raw 0.58; calibration 2026-10-01 bucket 50-59 correction -0.066 pulls to 0.51. Mild above-base lean, named structural reason: energy acceleration globally (Eurostat flash) and yen weakness.",
+   "base_rate": 0.55,
+   "base_rate_source": "Japan Statistics Bureau nationwide CPI headline y/y prints Mar 2026 through Aug 2026, four of six at 2.5 percent or above; running at 2.6 to 2.9 range through mid-2026, as of 2026-10-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-23 or shortly after, stat.go.jp publishes the Japan nationwide CPI release for September 2026 showing all-items y/y rate; confirmed if that value is 2.5 percent or higher; disconfirmed if strictly below 2.5 percent.",
+   "resolve_by": "2026-10-24",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-02T12:25:17Z",
+    "auditor": "twin",
+    "note": "Searched Japan Statistics Bureau release schedule and economic calendars as of 2026-10-02; Japan nationwide CPI for September 2026 scheduled 2026-10-23 at 08:30 JST; no preliminary value for September 2026 is yet public.",
+    "queries": [
+     "Japan Statistics Bureau September 2026 CPI release date October 24 nationwide core"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261002-003",
+   "date": "2026-10-02",
+   "registered_at": "2026-10-02T12:26:09Z",
+   "claim": "By 2026-11-30 23:59 UTC, a national government source hosted on a country-code .gov domain or official ministry site of Ghana, Senegal, Botswana, Uganda, Cote d'Ivoire, Tanzania, or Mozambique (i.e. a second-wave AU state other than South Africa, Nigeria, Kenya, Rwanda, or Egypt) publishes a formal reference to the World AI Cooperation Organization (WAICO) framework as an input to that state's own AI governance work.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "WAICO founding signing 2026-07-16 Shanghai with 29 countries including Senegal, Mozambique, Zambia, Ethiopia, Cameroon, Algeria, Congo among African signatories; secondary-wave AU state ministerial sites and gazettes.",
+   "withdrawal": null,
+   "confidence": 0.47,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Senegal and Mozambique are founding WAICO members; the typical operational lag from signing to a national-governance document citing the body is 2-5 months. Base rate 0.35 for secondary-wave reference within 4 months. Raw 0.44; calibration 2026-10-01 bucket 40-49 correction +0.088 pulls to 0.47. Lean mild above base rate reflecting Senegal's clear founding commitment and Mozambique's parallel policy cycle. Named read: Senegal is the leading candidate; the Senegal digital ministry's own AI strategy work was in late consultation as of September 2026.",
+   "base_rate": 0.35,
+   "base_rate_source": "Historical rate of new intergovernmental AI governance bodies being formally cited by secondary-wave African signatories within 4 months of founding, based on 2024-2026 patterns with GPAI, AI Partnership for Africa, and Africa Declaration on AI references; as of 2026-10-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-30 23:59 UTC, a publicly retrievable document on a national .gov country-code domain or ministry site of Ghana, Senegal, Botswana, Uganda, Cote d'Ivoire, Tanzania, or Mozambique formally references WAICO as an input to the state's AI governance (strategy document, consultative paper, parliamentary motion, or official statement). Confirmed if such a document exists; disconfirmed if none.",
+   "resolve_by": "2026-11-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-02T12:26:09Z",
+    "auditor": "twin",
+    "note": "Searched osiris.sn, Senegal digital ministry sites, and digitalpolicyalert.org as of 2026-10-02; Senegal's signing is reported by the regulator observatory osiris.sn but no formal reference on a .gouv.sn or ministry domain was located; no other listed state had surfaced such a document.",
+    "queries": [
+     "Ghana Senegal Botswana Uganda Tanzania WAICO signatory partner AI governance 2026"
     ],
     "outcome_already_known": false
    },
@@ -9967,7 +10089,10 @@
   "claim-20260930-001": 173,
   "claim-20260930-002": 174,
   "claim-20261001-001": 175,
-  "claim-20261001-002": 176
+  "claim-20261001-002": 176,
+  "claim-20261002-001": 177,
+  "claim-20261002-002": 178,
+  "claim-20261002-003": 179
  },
  "stats": {
   "committers": {
@@ -9978,19 +10103,19 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 115,
-    "hit_rate": 0.5174,
-    "brier": 0.2311,
-    "skill_vs_coinflip": 0.0189
+    "n": 116,
+    "hit_rate": 0.5129,
+    "brier": 0.2312,
+    "skill_vs_coinflip": 0.0188
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2311,
-  "skill_vs_coinflip": 0.0189,
+  "brier": 0.2312,
+  "skill_vs_coinflip": 0.0188,
   "base_rate": {
-   "n": 115,
-   "brier_base": 0.2379,
-   "brier_twin": 0.2311,
+   "n": 116,
+   "brier_base": 0.238,
+   "brier_twin": 0.2312,
    "skill": 0.0067
   },
   "market": {
@@ -10006,8 +10131,8 @@
    "skill_vs_base": 0.0047
   },
   "clusters": {
-   "effective_n": 87,
-   "brier_cluster_collapsed": 0.2309
+   "effective_n": 88,
+   "brier_cluster_collapsed": 0.231
   },
   "paired": {
    "n": 0,
@@ -10017,13 +10142,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0104,
-    "hi": 0.0467,
+    "lo": -0.0106,
+    "hi": 0.0466,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0106,
-    "hi": 0.0239,
+    "lo": -0.0099,
+    "hi": 0.0236,
     "distinguishable": false
    },
    "skill_vs_market": {
