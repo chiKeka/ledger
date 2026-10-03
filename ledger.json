@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5583,6 +5583,12 @@
      "direction": "against",
      "note": "Daily Maverick 2026-09-21 interview with DCDT Minister Solly Malatsi: new draft AI policy will be 'ready by March', targeting the end of the financial year rather than the pre-2026-10-24 window. This is a directional signal against the claim (twin priced 12% Cabinet adoption + Gazette publication by 2026-10-24). Not yet resolvable — the deadline is 2026-10-24; log evidence and await formal timeline confirmation.",
      "source_url": "https://www.dailymaverick.co.za/article/2026-09-21-hallucination-free-hopefully-new-draft-ai-policy-will-be-ready-by-march-says-malatsi/"
+    },
+    {
+     "date": "2026-10-03",
+     "direction": "against",
+     "note": "South Africa Draft National AI Policy was withdrawn by Minister Solly Malatsi on 2026-04-26 after AI-hallucinated citations were discovered; independent panel of experts commissioned 2026-05-26 with revised policy targeting Cabinet approval in November 2026 and public comment in January 2027 (Engineering News / Polity / Creamer Media 2026-05-26; techcabal). Cabinet adoption by 2026-10-24 is now foreclosed by the published timeline — adoption deferred to late-2026/2027 track. Interpretive (not an unambiguous fire of the update test wording of 'defers adoption'); logging evidence, defer resolution to the Sunday Reckoning per resolution_watch.early_resolution=unambiguous_only.",
+     "source_url": "https://www.engineeringnews.co.za/article/south-africa-targets-january-2027-for-revised-ai-policy-after-earlier-withdrawal-2026-05-26"
     }
    ],
    "resolution": null
@@ -6781,7 +6787,20 @@
      "date": "2026-08-10T12:40:18Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-02",
+     "direction": "against",
+     "note": "2026-10-02 fixture-run sweep: no finalized or revised Kenya AI and Emerging Technologies Policy on ict.go.ke or Kenya Gazette as of today; DigitalPolicyAlert change 19229 still lists status 'processing consultation'; Bowmans and CIPESA commentary still reference the draft only. Seven days to resolve-by, claim priced 0.25 against 0.28 base rate.",
+     "source_url": "https://digitalpolicyalert.org/change/19229-artificial-intelligence-and-emerging-technologies-policy"
+    },
+    {
+     "date": "2026-10-03",
+     "direction": "against",
+     "note": "Kenya MICDE draft Artificial Intelligence and Emerging Technologies Policy 2026 consultation closed 2026-08-04 as expected. Digital Policy Alert shows status 'processing consultation' as of today (event #41999); techweez / Bowmans Law coverage dated 2026-07-28 — no revised or finalised version on ict.go.ke dated 2026-08-05 through 2026-10-03. Six days remain before the 2026-10-09 deadline but with the draft still in processing status and no scheduled publication date announced, confirmation unlikely. Interpretive, not an unambiguous fire; evidence logged, defer resolution to Sunday Reckoning.",
+     "source_url": "https://digitalpolicyalert.org/event/41999-ministry-of-information-communications-and-the-digital-economy-closes-consultation-on-draft-kenya-artificial-intelligence-and-other-emerging-technologies-policy-2026"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8076,7 +8095,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-03 08:30 ET or shortly thereafter, the BLS Employment Situation release for September 2026 (available at bls.gov/news.release/empsit.htm and bls.gov/schedule/news_release/empsit.htm) reports a total nonfarm payroll monthly change of +100,000 or less. Confirmed if headline monthly change is less than or equal to +100,000; disconfirmed if strictly greater than +100,000.",
    "resolve_by": "2026-10-03",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-02T12:30:37Z",
@@ -8089,10 +8108,38 @@
     ],
     "outcome_already_known": false
    },
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-10-03T16:08:44Z",
+     "target": "evidence[0]",
+     "note": "The 2026-10-03 evidence incorrectly applied a November 14, 2025 PYMNTS article about September 2025 shutdown-delayed data to September 2026. It does not establish a November 20, 2026 delay. BLS published September 2026 Employment Situation on October 2, 2026 at 08:30 ET, reporting total nonfarm payroll employment +29,000: https://www.bls.gov/news.release/archives/empsit_10022026.htm . The headline exists and meets the registered <= +100,000 test; the original against-evidence and deferral are superseded by this correction, preserved for audit."
+    },
+    {
+     "date": "2026-10-03T16:08:44Z",
+     "target": "claim, grounding, update_test, prereg_audit.note",
+     "note": "The recorded October 3, 2026 08:30 ET scheduled release date was a registration error, already acknowledged in data/config.json automation.schedule.seldon_payrolls_oneshot_2026_10_02. Actual BLS release: October 2, 2026 08:30 ET, September 2026 Employment Situation, https://www.bls.gov/news.release/archives/empsit_10022026.htm . Registration September 2, 2026 12:30:37Z precedes the October 2 release. The original text, dates, probability and <= +100,000 threshold remain unchanged; the release occurred before the written deadline."
+    }
+   ],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-03",
+     "direction": "against",
+     "note": "US federal government entered a funding lapse on 2026-10-01; the BLS Employment Situation release for September 2026 scheduled 2026-10-03 at 08:30 ET did not occur. BLS announced the September release rescheduled to 2026-11-20 pending shutdown resolution; the household survey for October was not collected and the October Employment Situation will likely merge into the November print without a standalone October release. The update test is a scheduled-release conditional: with no release today the headline figure does not exist to compare against the <=+100k threshold. This is NOT an unambiguous update-test fire for either direction — it is a procedural failure of the referent itself. Logging as against-evidence because the resolve_by of 2026-10-03 has passed without the referent being produced on schedule; defer resolution to the Sunday Reckoning to decide between withdraw (data not produced on original schedule, horizon violated) vs stretched-resolution (wait for the 2026-11-20 release).",
+     "source_url": "https://www.pymnts.com/economy/2025/bls-to-release-september-employment-data-on-nov-20/"
+    },
+    {
+     "date": "2026-10-03",
+     "direction": "supports",
+     "note": "BLS September 2026 Employment Situation, published October 2, 2026 at 08:30 ET (12:30 UTC), headline and establishment-survey section: total nonfarm payroll employment +29,000. This is the September 2026 reference period; +29,000 <= +100,000 meets the registered confirmation test before its October 3 deadline. Publication postdates September 2 registration.",
+     "source_url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+    }
+   ],
+   "resolution": {
+    "date": "2026-10-03T16:08:44Z",
+    "outcome": "confirmed",
+    "note": "CONFIRMED by evidence[1]: official BLS September 2026 Employment Situation released October 2, 2026 08:30 ET, https://www.bls.gov/news.release/archives/empsit_10022026.htm , reports +29,000 total nonfarm payroll jobs, satisfying the unchanged <= +100,000 update test before the written October 3 deadline. Decisive evidence postdates September 2, 2026 12:30:37Z registration. Corrections supersede evidence[0] (2025 shutdown article misapplied to 2026) and document the original release-date registration error; no withdrawal or deferral is warranted."
+   }
   },
   {
    "id": "claim-20260902-004",
@@ -10103,20 +10150,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 116,
-    "hit_rate": 0.5129,
-    "brier": 0.2312,
-    "skill_vs_coinflip": 0.0188
+    "n": 117,
+    "hit_rate": 0.5171,
+    "brier": 0.231,
+    "skill_vs_coinflip": 0.019
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.2312,
-  "skill_vs_coinflip": 0.0188,
+  "brier": 0.231,
+  "skill_vs_coinflip": 0.019,
   "base_rate": {
-   "n": 116,
-   "brier_base": 0.238,
-   "brier_twin": 0.2312,
-   "skill": 0.0067
+   "n": 117,
+   "brier_base": 0.2388,
+   "brier_twin": 0.231,
+   "skill": 0.0078
   },
   "market": {
    "n": 10,
@@ -10125,14 +10172,14 @@
    "skill": -0.042
   },
   "non_echo": {
-   "n": 35,
+   "n": 36,
    "floor": 30,
-   "brier": 0.241,
-   "skill_vs_base": 0.0047
+   "brier": 0.24,
+   "skill_vs_base": 0.0083
   },
   "clusters": {
-   "effective_n": 88,
-   "brier_cluster_collapsed": 0.231
+   "effective_n": 89,
+   "brier_cluster_collapsed": 0.2307
   },
   "paired": {
    "n": 0,
@@ -10142,13 +10189,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.0106,
-    "hi": 0.0466,
+    "lo": -0.01,
+    "hi": 0.0465,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0099,
-    "hi": 0.0236,
+    "lo": -0.0086,
+    "hi": 0.0264,
     "distinguishable": false
    },
    "skill_vs_market": {
