@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-04",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5636,6 +5636,12 @@
      "relation": "shares-system",
      "note": "Kenya sovereign cloud council is upstream institutional plumbing for the Kenya cluster of the named African AI infrastructure projects; the same East Africa compute-buildout system feeds both.",
      "date": "2026-07-26T14:21:19Z"
+    },
+    {
+     "id": "claim-20260610-002",
+     "relation": "shares-system",
+     "note": "Both read the same underlying real-world system: African sovereign-digital institution-building. Kenya gazetting a sovereign cloud/compute council under its AI/ETs Policy and 2+ African states formally designating data centres as critical infrastructure are parallel institutional-upgrade signals - different texts, same cadence pressure (consultation-to-gazette lag at the publication boundary).",
+     "date": "2026-10-04T14:22:53Z"
     }
    ],
    "evidence": [
@@ -5686,6 +5692,12 @@
      "direction": "against",
      "note": "Kenya-Anthropic Joint Declaration (2026-09-22 UNGA) and Kenya-Hoover MoU (2026-09-21, ict.go.ke) signed same week; both are legitimacy-exchange instruments with no budget and no gazette. Update test requires 'gazettes or operationally launches a sovereign cloud/compute council' — declarations do not clear that bar with 27 days remaining to 2026-10-24. Pattern is 'sovereign AI via bilateral declaration without a fiscal commitment' (Institutional Adaptation Lag: fast symbolic vs slow statutory).",
      "source_url": "https://citizen.digital/article/kenya-anthropic-strike-historic-ai-deal-at-unga-n390739"
+    },
+    {
+     "date": "2026-10-04",
+     "direction": "against",
+     "note": "Kenya Draft AI and Emerging Technologies Policy 2026 public participation closed 2026-08-04; as of 2026-10-04 (20 days before claim resolve-by 2026-10-24), no revised or finalized AI/ETs Policy document is indexed on ict.go.ke, no Kenya Gazette notice naming a sovereign cloud/compute council has been published, and no ICT Authority publication names such a council with chair/members/ToR. Secondary trackers (Bowmans Law, OECD AI Policy Dashboard) still cite the 2025-2030 National AI Strategy as the active instrument. Institutional Adaptation Lag: pattern repeats across SA/Nigeria/Kenya.",
+     "source_url": "https://capitalfm.africa/govt-opens-public-participation-on-kenyas-ai-policy/"
     }
    ],
    "resolution": null
@@ -6799,6 +6811,12 @@
      "direction": "against",
      "note": "Kenya MICDE draft Artificial Intelligence and Emerging Technologies Policy 2026 consultation closed 2026-08-04 as expected. Digital Policy Alert shows status 'processing consultation' as of today (event #41999); techweez / Bowmans Law coverage dated 2026-07-28 — no revised or finalised version on ict.go.ke dated 2026-08-05 through 2026-10-03. Six days remain before the 2026-10-09 deadline but with the draft still in processing status and no scheduled publication date announced, confirmation unlikely. Interpretive, not an unambiguous fire; evidence logged, defer resolution to Sunday Reckoning.",
      "source_url": "https://digitalpolicyalert.org/event/41999-ministry-of-information-communications-and-the-digital-economy-closes-consultation-on-draft-kenya-artificial-intelligence-and-other-emerging-technologies-policy-2026"
+    },
+    {
+     "date": "2026-10-04",
+     "direction": "against",
+     "note": "Draft Kenya Artificial Intelligence and Other Emerging Technologies Policy public participation closed 2026-08-04. As of today 2026-10-04 (five days from the 2026-10-09 resolve-by), no revised or finalized document is publicly indexed on ict.go.ke or the Kenya Gazette dated 2026-08-05 or later. OECD AI Policy Dashboard still cites the active instrument as the National AI Strategy 2025-2030; Bowmans Law tracker references the 2026 draft as in process. Secondary-source confirmation only; cross-checked three independent review sources. Deferring to Sunday Reckoning per unambiguous-only rule - a confirming primary-source gazette publication within five days remains possible, though no cabinet-signature or ministerial announcement foreshadows it.",
+     "source_url": "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/"
     }
    ],
    "resolution": null
@@ -8730,7 +8748,14 @@
      "date": "2026-09-20T14:17:20Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-04",
+     "direction": "against",
+     "note": "BLS announced September 2026 CPI-U release postponed from scheduled 2026-10-15 08:30 ET to 2026-10-24 under federal funding lapse that began 2026-10-01. Staff recalled specifically to meet Social Security COLA statutory deadline (SSA release 2026-10-24). All other BLS/BEA scheduled releases suspended for duration of lapse. The claim's update test fires on a 2026-10-15 release that will not occur; the actual Oct 24 release is past the Oct 16 deadline so the test cannot be confirmed within the registered window. Referent-availability failure, structurally identical to claim-20260902-003. Deferring to Sunday Reckoning for pending-review treatment.",
+     "source_url": "https://www.aol.com/articles/us-publish-september-cpi-report-163218127.html"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9259,7 +9284,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-04",
+     "direction": "against",
+     "note": "RBNZ 2026 Monetary Policy calendar (rbnz.govt.nz hub/news, published 2025-10) has three remaining 2026 decisions: Sep 2 (MPS), Oct 28 (MPR), Dec 9 (MPS). No Oct 8 decision exists on the RBNZ calendar - the registered referent does not materialize. Logging against-evidence rather than resolving: this is a referent-does-not-exist case requiring pending-review treatment at Sunday Reckoning (parallel to claim-20260902-003 BLS Sept Employment shutdown delay).",
+     "source_url": "https://www.rbnz.govt.nz/hub/news/2025/10/monetary-policy-and-financial-stability-report-dates-august-2026-to-february-2027"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9607,7 +9639,97 @@
     "outcome_already_known": false
    },
    "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-007",
+     "relation": "probes",
+     "note": "claim-20261002-003 (any national Ghana/Senegal/Botswana/Uganda/Rwanda/Tanzania government publishes an AI/data-centre doc on a cc.gov domain by 2026-11-30) is a fast 60-day institutional reading on the slower 18-month investment-lag thesis in claim-20260610-007 (AU governance-first strategy phase will not pull material physical-layer compute investment through 2027-06-30). The pooled second-wave publication rate is a leading indicator of whether governance-first stays rhetorical or starts pulling investment architecture into alignment.",
+     "date": "2026-10-04T14:22:53Z"
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261004-001",
+   "date": "2026-10-04",
+   "registered_at": "2026-10-04T12:22:50Z",
+   "claim": "By 2026-10-24 23:59 ET, the US Bureau of Labor Statistics publishes the Consumer Price Index for All Urban Consumers September 2026 report on bls.gov/news.release/cpi.nr0.htm, meeting the postponed release date set under lapse-mode recall for the Social Security Administration COLA statutory deadline.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The BLS September 2026 CPI-U release, originally scheduled 2026-10-15 08:30 ET, moved to 2026-10-24 under published lapse-mode recall for the Social Security Administration COLA deadline; BLS staff have been recalled to produce the single release.",
+   "withdrawal": null,
+   "confidence": 0.75,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Un-priced structural binary tests whether BLS can execute a lapse-mode single-release recall on schedule. Base rate 0.70 reflects historical statutory-recall success rate (two completed under past shutdowns); confidence bumped to 0.75 after applying calibration 2026-10-03 70-79 bucket correction +0.047 for mild under-confidence. Edge: current reporting confirms staff already recalled and SSA has publicly cited the 2026-10-24 COLA release contingent on CPI arrival, which is a hard political downstream absent from the historical sample. Signal: yes (no liquid market, dated, binary, structural).",
+   "base_rate": 0.7,
+   "base_rate_source": "Historical federal data releases under lapse-mode statutory-recall precedent (e.g. 2018-19 Social Security COLA preserved during shutdown via BLS staff recall), weighted by current reporting that BLS has already announced the recall; computed from wire-service aggregation (AOL, Kitco, Bloomberg Government QuickTake), as of 2026-10-04",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-24, BLS publishes CPI-U September 2026 on bls.gov/news.release/cpi.nr0.htm; confirmed if the release is publicly posted on that URL by 2026-10-24 23:59 ET, disconfirmed if not posted by that time.",
+   "resolve_by": "2026-10-25",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-04T12:22:50Z",
+    "auditor": "twin",
+    "note": "Searched for an already-fired outcome (did BLS publish September CPI prior to today 2026-10-04): confirmed not published; BLS site in lapse-mode; the only reports are of the forthcoming Oct 24 release. Nothing decisive already public as of 2026-10-04.",
+    "queries": [
+     "BLS CPI September 2026 release schedule October 15 government shutdown delay",
+     "US government shutdown October 2026 federal data releases BLS BEA Fed impact"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
    "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261004-002",
+   "date": "2026-10-04",
+   "registered_at": "2026-10-04T12:23:08Z",
+   "claim": "By 2026-10-29 23:59 ET, the US Bureau of Economic Analysis publishes the Gross Domestic Product Advance Estimate for Q3 2026 on bea.gov as originally scheduled 2026-10-29 08:30 ET, meeting the published release calendar date rather than being postponed by the federal funding lapse that began 2026-10-01.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "The BEA Q3 2026 GDP Advance Estimate release, originally scheduled for 2026-10-29 08:30 ET, with BEA operations halted since 2026-10-01 under the federal funding lapse and no public announcement of a staff recall or alternative release path (unlike BLS CPI which has a statutory Social Security COLA downstream).",
+   "withdrawal": null,
+   "confidence": 0.15,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Un-priced structural binary that tests whether the lapse-mode shutdown produces a comprehensive BEA release suspension. Base rate 0.15 reflects historical ~85 percent delay rate under multi-week shutdowns and the explicit BLS statement that no non-CPI release will be prepared under the lapse. No corrective adjustment from calibration 2026-10-03 10-19 bucket (correction +0.168 is applied to raw 0.15 to a corrected 0.27 but held at the raw 0.15 because the bucket pool contains none of the referent-availability-under-shutdown cases this test actually captures - the Bruno-ratified ingestion-bias rule says do not force a correction from an unlike pool). Signal: yes (no liquid market, dated, binary, structural). Related to claim-20261004-001 BLS CPI publication, which has an explicit statutory recall path BEA GDP does not.",
+   "base_rate": 0.15,
+   "base_rate_source": "Historical BEA release behaviour under active federal funding lapses: of past multi-week shutdowns affecting BEA, major scheduled quarterly releases were delayed in substantially all cases (approximately 85 percent delay rate); computed from Bloomberg Government QuickTake historical lapse coverage, as of 2026-10-04",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On 2026-10-29, BEA publishes GDP Advance Q3 2026 on bea.gov/data/gdp/gross-domestic-product; confirmed if the release is publicly posted on that URL by 2026-10-29 23:59 ET, disconfirmed if not posted by that time.",
+   "resolve_by": "2026-10-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-04T12:23:08Z",
+    "auditor": "twin",
+    "note": "Searched for an already-fired outcome (did BEA publish Q3 Advance GDP prior to today 2026-10-04): confirmed not published; BEA site in lapse-mode; no public BEA statement about Q3 Advance GDP release timing. BLS explicitly stated no releases other than CPI will be rescheduled or produced until the government reopens, which also binds BEA under the lapse. Nothing decisive already public as of 2026-10-04.",
+    "queries": [
+     "BLS CPI September 2026 release schedule October 15 government shutdown delay",
+     "US government shutdown October 2026 federal data releases BLS BEA Fed impact"
+    ],
+    "outcome_already_known": false
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20261004-001",
+     "relation": "shares-system",
+     "note": "Both claims test the lapse-mode release behaviour of US federal statistical agencies under the 2026-10-01 funding lapse; CPI has a statutory Social Security COLA recall path and GDP does not. Together the pair measures the differential institutional-adaptation rate of the two agencies under identical shock, which is the structural variable the shutdown-driven data visibility gap exposes.",
+     "date": "2026-10-04T12:23:16Z"
+    }
+   ],
    "evidence": [],
    "resolution": null
   }
@@ -10139,7 +10261,9 @@
   "claim-20261001-002": 176,
   "claim-20261002-001": 177,
   "claim-20261002-002": 178,
-  "claim-20261002-003": 179
+  "claim-20261002-003": 179,
+  "claim-20261004-001": 180,
+  "claim-20261004-002": 181
  },
  "stats": {
   "committers": {
