@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-11",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -311,7 +311,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-10-11T14:18:09Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-10-11: registration valid. Update test targets African DC/compute announcements >USD 100M or >20MW between 2025-06 and 2027-06-30 citing AU strategy instruments as primary vs commercial rationale; outcome structurally not knowable at 2026-06-10 (future announcements through mid-2027 by definition)."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -665,7 +671,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-10-11T14:18:16Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-10-11: registration valid. Update test targets published civil-service application volumes (UK Fast Stream, US USAJOBS) and govtech hiring indices through 2027-06-30 vs 2025 baselines; outcome structurally not knowable at 2026-06-10 (datasets through 2027 not yet reported)."
+    }
+   ],
    "related_to": [],
    "evidence": [],
    "resolution": null
@@ -697,7 +709,13 @@
    "status": "open",
    "validity": null,
    "prereg_audit": null,
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-10-11T14:18:16Z",
+     "target": "prereg_audit",
+     "note": "Retro-audit 2026-10-11: registration valid. Update test targets 2026 African AI infrastructure projects (Kasi Cloud, Uganda AI factory, Kenya hyperscale) for 6+ month phase slip or <50% announced capacity by 2027-03-31; outcome structurally not knowable at 2026-06-10 (project schedules through Q1 2027 not knowable in advance)."
+    }
+   ],
    "related_to": [],
    "evidence": [
     {
@@ -5589,6 +5607,12 @@
      "direction": "against",
      "note": "South Africa Draft National AI Policy was withdrawn by Minister Solly Malatsi on 2026-04-26 after AI-hallucinated citations were discovered; independent panel of experts commissioned 2026-05-26 with revised policy targeting Cabinet approval in November 2026 and public comment in January 2027 (Engineering News / Polity / Creamer Media 2026-05-26; techcabal). Cabinet adoption by 2026-10-24 is now foreclosed by the published timeline — adoption deferred to late-2026/2027 track. Interpretive (not an unambiguous fire of the update test wording of 'defers adoption'); logging evidence, defer resolution to the Sunday Reckoning per resolution_watch.early_resolution=unambiguous_only.",
      "source_url": "https://www.engineeringnews.co.za/article/south-africa-targets-january-2027-for-revised-ai-policy-after-earlier-withdrawal-2026-05-26"
+    },
+    {
+     "date": "2026-10-11",
+     "direction": "against",
+     "note": "2026-10-11 morning-brief T-13 sweep (resolve-by 2026-10-24): South African National AI Policy has not been formally adopted by Cabinet since the 2026-03-25 draft approval; no gazette notice or official adoption announcement located on gov.za or DCDT. Baker McKenzie's 2026-02-26 compliance alert targets finalisation to the 2026/2027 SA fiscal year (1 April 2026 to 31 March 2027), consistent with the registered-time Institutional Adaptation Lag read. Draft text explicitly states 'this is a work in progress and should be viewed as a point of departure.' Moonstone, TechCentral, CDO Magazine, Connecting Africa coverage all limited to draft-stage; no October 2026 Cabinet decision reported. Thirteen days remain against confidence 0.12; against lean strengthens materially without yet unambiguously firing. Sunday Reckoning adjudicates ambiguous reads per unambiguous-only rule.",
+     "source_url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/south-african-ai-policy-moves-towards-approval"
     }
    ],
    "resolution": null
@@ -5698,6 +5722,12 @@
      "direction": "against",
      "note": "Kenya Draft AI and Emerging Technologies Policy 2026 public participation closed 2026-08-04; as of 2026-10-04 (20 days before claim resolve-by 2026-10-24), no revised or finalized AI/ETs Policy document is indexed on ict.go.ke, no Kenya Gazette notice naming a sovereign cloud/compute council has been published, and no ICT Authority publication names such a council with chair/members/ToR. Secondary trackers (Bowmans Law, OECD AI Policy Dashboard) still cite the 2025-2030 National AI Strategy as the active instrument. Institutional Adaptation Lag: pattern repeats across SA/Nigeria/Kenya.",
      "source_url": "https://capitalfm.africa/govt-opens-public-participation-on-kenyas-ai-policy/"
+    },
+    {
+     "date": "2026-10-11",
+     "direction": "against",
+     "note": "2026-10-11 morning-brief T-13 sweep (resolve-by 2026-10-24): Kenya has not publicly gazetted or operationally launched a sovereign cloud/compute council in the registered reference period. The Kenya Cloud Policy 2025 is already in force (entered 2026-05-02 per DigitalPolicyAlert event 29662 after 2026-04-07 ministerial signature; this is NOT the registered observable). The Konza Cloud Expansion procurement is in transaction advisory services phase (National Treasury 2026-04-13 Addendum III) - commissioning only, no council. No council body, named membership, or gazette notice indexed on gazette.go.ke or ict.go.ke for the sovereign cloud/compute council observable. Thirteen days remain against claim; against lean strengthens materially. Interpretive missed-registration; evidence logged pending-review.",
+     "source_url": "https://konza.go.ke/wp-content/uploads/2026/04/Updated-ADDENDUM-III-TRANSACTION-ADVISORY-SERVICES_260413_055629.pdf"
     }
    ],
    "resolution": null
@@ -6775,7 +6805,7 @@
    ],
    "update_test": "By 2026-10-09 23:59 UTC, a document on ict.go.ke or Kenya Gazette identifiable as the revised or finalized Kenya AI and Emerging Technologies Policy (post-2026-08-04 consultation) is publicly available and dated between 2026-08-05 and 2026-10-09.",
    "resolve_by": "2026-10-09",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-10T12:40:09Z",
@@ -6784,7 +6814,13 @@
     "queries": [],
     "outcome_already_known": false
    },
-   "corrections": [],
+   "corrections": [
+    {
+     "date": "2026-10-08T15:11:48Z",
+     "target": "consultation-history premise",
+     "note": "Factual premise correction: MICDE announcement dated 2026-08-05 at https://ict.go.ke/node/1126 states consultation comments were extended to 2026-08-11; consultation was therefore still open at 2026-08-10 registration, not closed 2026-08-04. Primary HTML read via normally certificate-verified curl at 2026-10-08T15:11:48.164797+00:00. This corrects the consultation-history premise only; preserve original confidence 0.25, claim text, registered revised/final-policy observable, date window and 2026-10-09 23:59 UTC cutoff. Keep open/null: no qualifying revised/final policy has been established by this read. Consultation closure does not establish active policy powers. Existing e5 DPA event38954 concerns a 2025-11-18 development launch, not a 2026-10-06 policy publication; its unverified/pending status is preserved. Review-branch 5c6a767 e6/synthesis is not promoted or imported. Owner explicitly approved both corrections and merging after checks, including existing automatic Slack summaries: \"Yeah\", Sentinel_b79528fa8d3881918084e901d0538662, replying to Sentinel_e7313dc513c48191b1e81ad318011d53 on 2026-10-08."
+    }
+   ],
    "related_to": [
     {
      "id": "claim-20260726-003",
@@ -6817,9 +6853,45 @@
      "direction": "against",
      "note": "Draft Kenya Artificial Intelligence and Other Emerging Technologies Policy public participation closed 2026-08-04. As of today 2026-10-04 (five days from the 2026-10-09 resolve-by), no revised or finalized document is publicly indexed on ict.go.ke or the Kenya Gazette dated 2026-08-05 or later. OECD AI Policy Dashboard still cites the active instrument as the National AI Strategy 2025-2030; Bowmans Law tracker references the 2026 draft as in process. Secondary-source confirmation only; cross-checked three independent review sources. Deferring to Sunday Reckoning per unambiguous-only rule - a confirming primary-source gazette publication within five days remains possible, though no cabinet-signature or ministerial announcement foreshadows it.",
      "source_url": "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/"
+    },
+    {
+     "date": "2026-10-05",
+     "direction": "against",
+     "note": "2026-10-05 morning-brief resolution sweep: no finalized or revised Kenya AI and Emerging Technologies Policy published on ict.go.ke or in the Kenya Gazette as of this run; the targeted ict.go.ke page continues to host only the draft and the Aug 4 consultation call. Deadline 2026-10-09 is 4 days out; interpretation note - this strengthens the against-lean but does not yet unambiguously fire a disconfirmation. Settlement waits for the Sunday Reckoning to re-verify after the deadline.",
+     "source_url": "https://ict.go.ke"
+    },
+    {
+     "date": "2026-10-06",
+     "direction": "against",
+     "note": "Morning brief 2026-10-06 T-3 to resolve_by: BusinessDaily, Techpoint Africa, DigitalPolicyAlert search of the past 7d returns ZERO new finalized or revised Kenya AI and Emerging Technologies Policy publication on ict.go.ke or Kenya Gazette. Latest MICDE-authored artifact remains the 2026-08-04 draft that closed consultation. Fourth consecutive weekly sweep with no gazette or ministerial launch. Primary source ict.go.ke not reachable from the cloud-session egress proxy; three independent secondaries (BusinessDaily Africa, Techpoint Africa, DigitalPolicyAlert) each track MICDE announcements and show no post-consultation gazette.",
+     "source_url": "https://digitalpolicyalert.org/event/38954-ministry-of-information-communications-and-the-digital-economy-launched-development-of-national-artificial-intelligence-and-emerging-technologies-policy"
+    },
+    {
+     "date": "2026-10-09",
+     "direction": "against",
+     "note": "2026-10-09 self-heal brief sweep (deadline 2026-10-09 23:59 UTC, ~10h remain): no revised or finalized Kenya AI and Emerging Technologies Policy on ict.go.ke or Kenya Gazette as of today. Four independent trackers queried: DigitalPolicyAlert change 19229 and event 41999 still show 'processing consultation' as the active state (last update 2026-08-04 close); Bowmans Law insight dated 2026-09-15 'continues to take shape' phrasing with no draft-to-final announcement; OECD AI Policy Dashboard still cites National AI Strategy 2025-2030 as the active instrument; Techweez/Capital FM Africa coverage no later than 2026-07-28 for policy-material. No cabinet-signature announcement or Kenya Gazette entry in the 2026-08-05 to 2026-10-09 window. Interpretive consequence of a dated milestone with 10h to run; defer unambiguous resolution to Sunday Reckoning 2026-10-11 per unambiguous-only rule. Evidence logged by Self-Heal brief recovery.",
+     "source_url": "https://digitalpolicyalert.org/event/41999-ministry-of-information-communications-and-the-digital-economy-closes-consultation-on-draft-kenya-artificial-intelligence-and-other-emerging-technologies-policy-2026"
+    },
+    {
+     "date": "2026-10-10",
+     "direction": "against",
+     "note": "2026-10-10 morning-brief post-deadline sweep: Kenya AI and Emerging Technologies Policy registered update test deadline 2026-10-09 23:59 UTC has passed. ict.go.ke continues to host only the draft (dated July 2026, pre-consultation) referenced by the pre-consultation notice; DigitalPolicyAlert change 19229 last-indexed status is still 'processing consultation'; secondary coverage (The Standard 2026-07-24, Africa AI News, Outsource Accelerator 2026-07-02 Cabinet action limited to establishment of a Standing Cabinet Committee on AI) corroborates draft-only status. No revised or finalized document dated between 2026-08-05 and 2026-10-09 is retrievable from any primary or secondary source. Evidence logged pending-review: the ledger gate for scheduled official releases requires a verified primary-source publication-date within the reference period, which negative-finding evidence (a release that did not occur) cannot satisfy. Sanctioned failure/review path per spec: log evidence --pending-review and defer resolution to Sunday Reckoning for final verification against the update test.",
+     "source_url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf"
+    },
+    {
+     "date": "2026-10-11",
+     "direction": "against",
+     "note": "2026-10-11 morning-brief T+2 post-deadline sweep: Kenya AI and Emerging Technologies Policy registered update test deadline 2026-10-09 23:59 UTC remains missed. ict.go.ke still hosts only the pre-consultation July 2026 draft; no revised, finalized or gazette-published document dated 2026-08-05 through 2026-10-11 located across Bowmans Law 2026-09-15 tracker (phrasing 'continues to take shape', no draft-to-final announcement), DigitalPolicyAlert change 19229 (still 'processing consultation' as of today), Techweez 2026-07-28 last policy-material article, Capital FM Africa, The Star Kenya 2026-07-24 'state tightens rules on AI use of Kenyans data' pre-consultation coverage, Eastleigh Voice 2026-07 pre-consultation. Sunday Reckoning 2026-10-12 is tomorrow and will adjudicate per unambiguous-only rule. Evidence logged pending-review: the ledger gate for scheduled official releases requires a verified primary-source publication-date within the reference period, which negative-finding evidence (release that did not occur) cannot satisfy; sanctioned failure/review path per brief spec.",
+     "source_url": "https://digitalpolicyalert.org/change/19229-artificial-intelligence-and-emerging-technologies-policy"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-11T14:18:32Z",
+    "outcome": "unresolvable",
+    "note": "Weekly Reckoning 2026-10-11 adjudication: update test deadline 2026-10-09 23:59 UTC passed; no revised or finalized Kenya AI and Emerging Technologies Policy published on ict.go.ke or in Kenya Gazette between 2026-08-05 and 2026-10-09. Primary-source observations (verified :e4 2026-10-05 and :e7 2026-10-10) and three unverified post-deadline follow-ups (:e6, :e8) all find draft-only status. The mechanical ledger CLI eligibility gate for scheduled official releases requires a verified primary-source publication-date WITHIN the reference period (2026-08-05/2026-10-09); negative-finding evidence (a release that did not occur) cannot structurally satisfy that gate because there is no publication to date. The honest no-outcome path per spec: unresolvable keeps the claim visible forever but excludes it from Brier/calibration. Twin's 25% confidence was in-direction (non-publication occurred); the no-score is the cost of the gate, not of the forecast. Flagged loudly: this is the second structural null-release in the 60-day structural window (SA Cabinet AI Policy claim-20260726-002 may follow by 2026-10-24).",
+    "evidence_refs": [],
+    "eligibility": "not_applicable"
+   }
   },
   {
    "id": "claim-20260812-001",
@@ -7009,6 +7081,12 @@
      "direction": "supports",
      "note": "CBN circular 15 June 2026 directing all financial institutions to comply with Nigeria Data Protection Act on payments-ecosystem data localization, with hard compliance date 1 January 2027, is potentially a resolution under the claim's grounding ('enforcement notice, directive, or regulation on cbn.gov.ng addressing data protection / AI / infrastructure oversight'). Reading is interpretive (is a payments-ecosystem localization circular an 'AI-adjacent' directive per the claim text). Log for Sunday Reckoning; do not resolve this run.",
      "source_url": "https://www.mondaq.com/nigeria/financial-services/1823206/the-central-bank-of-nigerias-localisation-directive-data-protection-compliance-implications-for-financial-institutions-and-participants-in-nigerias-payments-ecosystem"
+    },
+    {
+     "date": "2026-10-11",
+     "direction": "against",
+     "note": "2026-10-11 morning-brief T-3 sweep (resolve-by 2026-10-14): Central Bank of Nigeria has not published an AI-specific enforcement notice, sanction, licence suspension, or fine on cbn.gov.ng in the registered reference period. CBN enforcement activity 2026 is dominated by (1) June 2026 terrorism-financing freeze directive (circular CMD/FCS/PUB/CIR/002/011, Nigeria Sanctions List 2026-06-18); (2) August 2026 Financial Afrik report of 21 sanctions totalling N430m across 2025, categorised as 'failures in handling customer complaints and non-compliance with directives' (not AI-specific); (3) January 2025 N1.35bn fine across 9 banks for failures to dispense naira notes at ATMs. None are AI-specific. Three days remain against confidence 0.15; against lean dominates and the pattern suggests the structural absence of AI-specific prudential enforcement rather than a timing miss. Evidence logged pending-review per unambiguous-only rule.",
+     "source_url": "https://www.financialafrik.com/en/2026/08/02/nigeria-central-bank-sanctions-financial-institutions/"
     }
    ],
    "resolution": null
@@ -7183,7 +7261,14 @@
      "date": "2026-08-16T12:25:20Z"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-11",
+     "direction": "against",
+     "note": "2026-10-11 morning-brief T-4 sweep (resolve-by 2026-10-15): World Artificial Intelligence Cooperation Organization (WAICO) has not published a named technical document, standard, or working-group output in the registered reference period. WAICO was established 2026-07-16 at Shanghai with 29 founding signatories (Chinese FM Wang Yi signed for China; UN SG Antonio Guterres attended). Reports describe WAICO as still finalising its leadership and governance structure (Council + Secretariat under the founding agreement); 'capacity building' and 'matching supply and demand for AI+ initiatives' listed as priorities but no named technical document indexed in public sources (opengovasia, Xinhua English, RRI Indonesia, SESEC EU, CADEproject, Human Resources Online, Oman Observer Chinese MFA English release). Four days remain against confidence 0.56; against lean strengthens materially. Interpretive missed-release; evidence logged pending-review, Sunday Reckoning adjudicates.",
+     "source_url": "https://sesec.eu/2026/08/07/after-the-world-data-organization-china-unveils-waico-for-global-ai-cooperation/"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8767,7 +8852,10 @@
    "tier": "calibration",
    "frame": "out",
    "grounding": "ONS Consumer Price Inflation release calendar for September 2026 published on ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/latest; August 2026 print released 2026-09-16 at 3.1pct YoY per ONS bulletin.",
-   "withdrawal": null,
+   "withdrawal": {
+    "date": "2026-10-08T15:11:48Z",
+    "reason": "Owner-approved faulty scheduled-event premise withdrawal. Primary ONS calendar https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026, read 2026-10-08T15:11:48.164797+00:00, schedules 2026-10-21 07:00 UK, not registered 2026-10-15; evidence claim-20260918-002:e1 remains pending settlement eligibility because it is calendar governance evidence, not a CPI print. Preserve original confidence 0.53, registration, dates, update test and history; do not move to October 21 or score no announcement as CPI below 3.1%. Withdrawn/unscored, resolution null. Unmerged morning-branch ineligible URL is not imported/promoted. Owner explicitly approved both corrections and merging after checks, including existing automatic Slack summaries: \"Yeah\", Sentinel_b79528fa8d3881918084e901d0538662, replying to Sentinel_e7313dc513c48191b1e81ad318011d53 on 2026-10-08."
+   },
    "confidence": 0.53,
    "confidence_source": "twin-estimated",
    "confidence_rationale": "Applied bucket 50-59 correction (-0.023) to raw 0.55, gives 0.527, rounded to 0.53. Frame:out — statistical release, no framework attribution. Base rate 0.52 reflects roughly balanced hold-or-up frequency; small positive lean vs base to reflect (i) two consecutive monthly upticks in UK YoY (2.9 -> 3.1) suggesting momentum, (ii) BoE MPC 6-3 hawkish split (three dissenters voting for hike this month) implicitly signaling committee expects near-term inflation stickiness, (iii) fuel-price effect that drove August will not fully unwind in September. No market pricing readily available.",
@@ -8779,7 +8867,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-15, ONS publishes Consumer Price Inflation September 2026 on ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026. Read the CPI 12-month rate (all items). Confirmed if that value is 3.1 percent or higher; disconfirmed if below 3.1 percent.",
    "resolve_by": "2026-10-16",
-   "status": "open",
+   "status": "withdrawn",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-18T12:23:13Z",
@@ -8793,7 +8881,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-08",
+     "direction": "against",
+     "note": "Primary ONS calendar directly read: Consumer price inflation, UK: September 2026 is scheduled 21 October 2026 7:00am UK and explicitly not yet published. This contradicts the registered October 15 scheduled-event premise; it supplies no CPI value and does not classify absent publication as low CPI.",
+     "source_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9261,7 +9356,10 @@
    "tier": "calibration",
    "frame": "out",
    "grounding": "RBNZ Monetary Policy Review page 2026-10-08 scheduled with announcement at 2pm NZT",
-   "withdrawal": null,
+   "withdrawal": {
+    "date": "2026-10-07T14:05:04Z",
+    "reason": "Owner-approved withdrawal for faulty scheduled-event premise, not disconfirmation: primary RBNZ calendar https://www.rbnz.govt.nz/news-and-events/news/2025/10/monetary-policy-and-financial-stability-report-dates-august-2026-to-february-2027 lists the October 2026 Monetary Policy Review on 28 October, not the registered 8 October date (evidence claim-20260926-001:e3, read 2026-10-07). Unscheduled decisions remain possible; absence of an announcement was not a registered disconfirmation outcome. Owner decision: \"Proceed with your recommendation\" in direct reply Sentinel_ec8d77f37a508191821a2677bf101921 to withdrawal recommendation Sentinel_aab002524dac8191bbafcdf601151396. Preserve original claim, confidence, registration, update test, resolve_by and prior evidence. Do not move this forecast to 28 October; withdrawn and never scored."
+   },
    "confidence": 0.45,
    "confidence_source": "twin-estimated",
    "confidence_rationale": "recent 2026 pace shows active moves in both directions; consensus forecasts vary between hold and 25bp cut. Twin marks slight hold-lean given last hike is recent but records small edge only; calibration correction dial applied via 40-49 bucket.",
@@ -9273,7 +9371,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-08 23:59 NZT, rbnz.govt.nz publishes the OCR announcement showing OCR at 2.75 percent. Confirmed if 2.75 percent; disconfirmed if any other level.",
    "resolve_by": "2026-10-09",
-   "status": "open",
+   "status": "withdrawn",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-26T12:26:39Z",
@@ -9290,6 +9388,18 @@
      "direction": "against",
      "note": "RBNZ 2026 Monetary Policy calendar (rbnz.govt.nz hub/news, published 2025-10) has three remaining 2026 decisions: Sep 2 (MPS), Oct 28 (MPR), Dec 9 (MPS). No Oct 8 decision exists on the RBNZ calendar - the registered referent does not materialize. Logging against-evidence rather than resolving: this is a referent-does-not-exist case requiring pending-review treatment at Sunday Reckoning (parallel to claim-20260902-003 BLS Sept Employment shutdown delay).",
      "source_url": "https://www.rbnz.govt.nz/hub/news/2025/10/monetary-policy-and-financial-stability-report-dates-august-2026-to-february-2027"
+    },
+    {
+     "date": "2026-10-06",
+     "direction": "against",
+     "note": "Morning brief 2026-10-06 second-source corroboration of 2026-10-04 finding: MPA Mag (sourced from RBNZ) and Squirrel.co.nz independently list the remaining 2026 OCR decision dates as 8 July (MPR), 2 September (MPS), 28 October (MPR), 9 December (MPS). There is no 8 October 2026 scheduled MPR. The referent for claim-20260926-001 does not exist on the RBNZ canonical calendar. T-2 to resolve_by; status remains referent-does-not-exist for Sunday Reckoning withdrawal decision. One Newsquawk research sheet appeared in a search echoing an 8 October announcement, but that document refers to the 8 October 2025 OCR cut, not 8 October 2026 - two secondary sources agree on the 2026 schedule.",
+     "source_url": "https://www.mpamag.com/nz/news/general/rbnz-confirms-202627-ocr-dates-highlights-covid-19-policy-lessons/553110"
+    },
+    {
+     "date": "2026-10-07",
+     "direction": "against",
+     "note": "Primary RBNZ calendar read on 2026-10-07 lists 2 September 2026, 28 October 2026, 9 December 2026 and 10 February 2027. No scheduled 8 October 2026 decision appears. The same notice expressly permits unscheduled decisions. This supports withdrawal for the faulty scheduled-event premise, not rate-outcome disconfirmation or a claim that an unscheduled announcement is impossible.",
+     "source_url": "https://www.rbnz.govt.nz/news-and-events/news/2025/10/monetary-policy-and-financial-stability-report-dates-august-2026-to-february-2027"
     }
    ],
    "resolution": null
@@ -10319,7 +10429,7 @@
    },
    "skill_vs_base_rate": {
     "lo": -0.0086,
-    "hi": 0.0264,
+    "hi": 0.0263,
     "distinguishable": false
    },
    "skill_vs_market": {
