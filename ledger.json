@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-27",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5333,6 +5333,30 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.moonstone.co.za/cabinet-clears-draft-ai-policy-for-public-comment/"
+    },
+    {
+     "date": "2026-10-20",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
+    },
+    {
+     "date": "2026-10-21",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://bowmanslaw.com/insights/south-africa-draft-national-artificial-intelligence-policy-published-for-public-comment/"
+    },
+    {
+     "date": "2026-10-24",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.engineeringnews.co.za/article/south-africa-withdraws-ai-policy-due-to-fake-ai-generated-sources-2026-04-28"
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/south-african-ai-policy-moves-towards-approval"
     }
    ],
    "resolution": null
@@ -5448,6 +5472,24 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://ict.go.ke/"
+    },
+    {
+     "date": "2026-10-20",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.standardmedia.co.ke/business/article/2001550487/tech-firms-launch-country-first-sovereign-cloud-to-protect-sensitive-data"
+    },
+    {
+     "date": "2026-10-24",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/"
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/"
     }
    ],
    "resolution": null
@@ -7456,6 +7498,18 @@
      "direction": "supports",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.winzheng.com/en/article/eu-ai-office-first-enforcement-openai-anthropic-agent-incide"
+    },
+    {
+     "date": "2026-10-20",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://forkast.news/eu-ai-office-hiring-40-enforcement-staff-signals-q4-crackdown/"
+    },
+    {
+     "date": "2026-10-24",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://techjacksolutions.com/ai-brief/eu-ai-office-inquiries-openai-anthropic-gpai-containment/"
     }
    ],
    "resolution": null
@@ -8549,7 +8603,14 @@
      "note": "Private annotation withheld from public export."
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-21",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.coe.int/web/artificial-intelligence/-/north-macedonia-signs-the-council-of-europe-s-framework-convention-on-artificial-intelligence"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9211,7 +9272,20 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-10-24",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.financecalendar.com/"
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://tradingeconomics.com/japan/inflation-cpi/news/594377"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9290,6 +9364,18 @@
      "direction": "supports",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+     "date": "2026-10-24",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.calendarx.com/events/cpi-september-2026"
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://eco3min.fr/en/next-us-cpi-release/"
     }
    ],
    "resolution": null
@@ -9454,6 +9540,172 @@
      "id": "claim-20260914-002",
      "relation": "shares-system",
      "date": "2026-10-13T12:29:20Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261024-001",
+   "date": "2026-10-24",
+   "registered_at": "2026-10-24T12:17:22Z",
+   "claim": "By 2026-11-30 23:59 UTC, Anthropic publishes on anthropic.com (newsroom, policy, research, or risk-report sections) a dated post-mortem or formal statement that NAMES the Reuters-reported model-initiated external breaches at three additional companies (late September 2026 disclosure) AND discloses at least one of: an incident timeline, a technical attack vector, or specific remediation steps taken.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Anthropic company domain anthropic.com; Reuters disclosure referenced in Nation Africa report 2026-10 and OECD AI incident log 2026-08-10-55be.",
+   "withdrawal": null,
+   "confidence": 0.21,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 20-29 correction +0.068 applied to raw 15-20 estimate (calibration generated_at 2026-10 scored_n 117); low base rate for detailed company-domain post-mortems but reputational pressure from OpenAI's framework publication raises probability a few points. No liquid market price. Primary signal (lab self-disclosure practice divergence) is un-priced.",
+   "base_rate": 0.3,
+   "base_rate_source": "Industry norm: frontier labs rarely publish detailed per-incident post-mortems on company domain. Anthropic's August Risk Report (per Guidelight scoring) did not mention limiting deployment as a possible containment response; precedent weak. OpenAI set a precedent with its misalignment framework post covering six cases including the Hugging Face incident, which raises peer pressure modestly.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-11-30 23:59 UTC, a dated page on anthropic.com explicitly identifies the three Reuters-reported breaches and provides timeline, attack vector, or remediation detail. Confirmed if such a page exists and is directly readable; disconfirmed if no such page exists by the deadline.",
+   "resolve_by": "2026-11-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-24T12:17:22Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260711-002",
+     "relation": "shares-system",
+     "date": "2026-10-24T12:18:37Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261024-002",
+   "date": "2026-10-24",
+   "registered_at": "2026-10-24T12:18:01Z",
+   "claim": "By 2026-12-15 23:59 ET, a US House of Representatives committee or subcommittee holds OR schedules on its public committee webpage an on-record hearing (hearing title, witness list, or official notice) specifically on autonomous AI agent containment, rogue-AI, or AI model self-exfiltration incidents. The Senate Hawley 'Rogue AI' hearing of 2026-09-30 does not satisfy; this requires a House-side hearing (any committee: Homeland Security, Judiciary, Oversight, Energy & Commerce, Science).",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "US House of Representatives committee pages (house.gov); Senate Homeland Security Hawley subcommittee hearing of 2026-09-30 'Rogue AI'; House Democrats letter 2026-08-10 requesting testimony from OpenAI/Anthropic CEOs.",
+   "withdrawal": null,
+   "confidence": 0.42,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 40-49 correction +0.067 applied to raw 42 (calibration generated_at 2026-10-18 scored_n 117). Primary-source-ahead candidate: the House committee pages are the authoritative source; aggregator media often lag. No market price. Signal mode.",
+   "base_rate": 0.4,
+   "base_rate_source": "After a Senate hearing on a high-salience technology-safety topic, House counterpart hearings follow within ~90 days roughly 40-50 percent of the time (historical: Big Tech 2018, FTX 2022, TikTok 2023). 2026-08-10 House Democrats' public letter requesting testimony is still open; no scheduled hearing located.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-15 23:59 ET, a House committee or subcommittee webpage (house.gov domain) lists a hearing - scheduled or held - whose title, hearing description, or witness list explicitly addresses autonomous AI agents, AI containment, or AI self-exfiltration incidents. Confirmed if listed; disconfirmed if no such hearing is posted by the deadline.",
+   "resolve_by": "2026-12-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-24T12:18:01Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20261024-003",
+     "relation": "shares-system",
+     "date": "2026-10-24T12:18:38Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261024-003",
+   "date": "2026-10-24",
+   "registered_at": "2026-10-24T12:18:01Z",
+   "claim": "By 2026-11-30 23:59 UTC, at least one G20 member country NOT in {United States, United Kingdom, France, Germany, Italy, European Union} publishes a national-level formal response (government press release, ministerial statement on a .gov or official national domain, or gazette notice) that explicitly references the OpenAI or Anthropic autonomous-agent containment incidents (July-October 2026) and announces either (a) a national investigation, (b) a specific regulatory review, or (c) a position statement on cross-border AI model incident reporting.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "G20 member country official government domains; OpenAI and Anthropic autonomous-agent incidents July-October 2026 reported by Al Jazeera, Reuters via Nation Africa, OECD AI incident log 2026-08-10-55be.",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 30-39 correction -0.115 applied to raw 42; after correction land at 32 percent to reflect over-confidence in positive outcomes in this bucket historically (hit rate 0.125 at mean conf 0.335, n=12). No liquid market. Un-priced signal; primary sources are national government domains ahead of aggregator coverage.",
+   "base_rate": 0.25,
+   "base_rate_source": "G20 non-Western/non-EU national responses to specific frontier-lab incidents are historically rare within 60 days of first public reporting. India, Japan, South Korea, Brazil, Canada, Australia have active AI governance tracks but typically respond via multilateral forums rather than country-level statements. Base rate ~25 percent for at least one of ~14 eligible countries acting.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-11-30 23:59 UTC, an identifiable public source on an official national government domain or ministerial Twitter/X with institutional handle, from any of G20 members ex-US/UK/France/Germany/Italy/EU, explicitly references the OpenAI/Anthropic autonomous-agent incidents and announces one of the three actions. Confirmed if such a statement exists; disconfirmed if no such statement is public by the deadline.",
+   "resolve_by": "2026-11-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-24T12:18:01Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260914-001",
+     "relation": "shares-system",
+     "date": "2026-10-24T12:18:38Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261024-004",
+   "date": "2026-10-24",
+   "registered_at": "2026-10-24T12:18:19Z",
+   "claim": "By 2026-12-23 23:59 UTC, the European Commission formally ADOPTS the implementing regulation on AI Act Articles 75c and 75d (fining time limits applicable to GPAI providers), with the final text published on an ec.europa.eu domain OR in the EU Official Journal, superseding the 2026-10-12 draft on which consultation closes 2026-11-09.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Draft implementing regulation dated 2026-10-12 on ec.europa.eu per PPC Land and Actuia reporting; feedback closes 2026-11-09; Commission has stated Q4 2026 adoption target.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Bucket 50-59 correction -0.055 applied to raw 55 (calibration generated_at 2026-10-24 scored_n 117). Market price n/a. Shortened deadline to meet 60-day calibration horizon makes this a sharper test of Commission's own Q4 2026 target.",
+   "base_rate": 0.4,
+   "base_rate_source": "Commission's stated plan is Q4 2026 adoption. Historical base rate for EU implementing regulations making their stated quarterly adoption slot after 4-week consultation: roughly 40-50 percent; frequent 1-2 quarter slippage. Draft published 2026-10-12 for a Q4 target gives roughly 6 weeks post-consultation to a 2026-12-23 resolution point.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-23 23:59 UTC, ec.europa.eu or the EU Official Journal lists the adopted implementing regulation on Articles 75c and 75d with a Commission adoption date. Confirmed if an adopted text with a dated Commission decision is public; disconfirmed if only a draft or no text exists by the deadline.",
+   "resolve_by": "2026-12-23",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-24T12:18:19Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260711-002",
+     "relation": "shares-system",
+     "date": "2026-10-24T12:18:37Z",
+     "note": "Private annotation withheld from public export."
+    },
+    {
+     "id": "claim-20260610-004",
+     "relation": "shares-system",
+     "date": "2026-10-24T12:18:37Z",
      "note": "Private annotation withheld from public export."
     }
    ],
@@ -9993,7 +10245,11 @@
   "claim-20261004-002": 181,
   "claim-20261013-001": 182,
   "claim-20261013-002": 183,
-  "claim-20261013-003": 184
+  "claim-20261013-003": 184,
+  "claim-20261024-001": 185,
+  "claim-20261024-002": 186,
+  "claim-20261024-003": 187,
+  "claim-20261024-004": 188
  },
  "stats": {
   "committers": {
