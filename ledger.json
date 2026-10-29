@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-29",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -5239,7 +5239,7 @@
    ],
    "update_test": "Read the South African Government Gazette (gpwonline.co.za), Department of Communications and Digital Technologies press releases (dcdt.gov.za), and Cabinet Statements (gov.za) published between 2026-07-26 and 2026-10-24. Confirmed if any explicitly announces Cabinet adoption of the National AI Policy Framework. Disconfirmed if none by 2026-10-24, or if a Cabinet statement instead defers adoption past this date.",
    "resolve_by": "2026-10-24",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-26T14:20:21Z",
@@ -5357,9 +5357,19 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/south-african-ai-policy-moves-towards-approval"
+    },
+    {
+     "date": "2026-10-29",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://en.wikipedia.org/wiki/Draft_South_Africa_National_Artificial_Intelligence_(AI)_Policy_2026"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:53Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260726-003",
@@ -5384,7 +5394,7 @@
    ],
    "update_test": "Read the Kenya Gazette (kenyalaw.org), State Department for Digital Economy releases (ict.go.ke), and ICT Authority notices (icta.go.ke) between 2026-08-04 and 2026-10-24. Confirmed if any explicitly names a sovereign cloud/compute council with a listed chair, named members, or published terms of reference. Disconfirmed if no such notice by 2026-10-24, or if only a policy paper without institutional stand-up appears.",
    "resolve_by": "2026-10-24",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-07-26T14:20:41Z",
@@ -5490,9 +5500,19 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/"
+    },
+    {
+     "date": "2026-10-29",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.standardmedia.co.ke/sci-tech/article/2001550487/tech-firms-launch-country-first-sovereign-cloud-to-protect-sensitive-data"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:53Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260730-001",
@@ -8926,7 +8946,7 @@
    "frameworks": [],
    "update_test": "On or before 2026-10-29, the FOMC publishes on federalreserve.gov its statement from the October 2026 meeting stating the target range for the federal funds rate. Confirmed if the target range is 3.75 to 4.00 percent (UNCHANGED). Disconfirmed if the target range is raised or cut by any amount.",
    "resolve_by": "2026-10-29",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-22T12:11:30Z",
@@ -8943,7 +8963,11 @@
      "source_url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:33Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260926-001",
@@ -9131,7 +9155,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-29, the BEA Gross Domestic Product Advance Estimate news release for Q3 2026 reports the seasonally adjusted annualized real GDP growth rate on the official release page (bea.gov). Confirmed if that figure is at or above 4.0 percent (i.e., 4.0 or higher to one decimal). Disconfirmed if strictly less than 4.0 percent (e.g., 3.9 or lower).",
    "resolve_by": "2026-10-29",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-30T12:25:21Z",
@@ -9141,7 +9165,11 @@
    "corrections": [],
    "related_to": [],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:43Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261001-001",
@@ -9263,7 +9291,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-23 or shortly after, stat.go.jp publishes the Japan nationwide CPI release for September 2026 showing all-items y/y rate; confirmed if that value is 2.5 percent or higher; disconfirmed if strictly below 2.5 percent.",
    "resolve_by": "2026-10-24",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-02T12:25:17Z",
@@ -9286,7 +9314,11 @@
      "source_url": "https://tradingeconomics.com/japan/inflation-cpi/news/594377"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:43Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261002-003",
@@ -9349,7 +9381,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-24, BLS publishes CPI-U September 2026 on bls.gov/news.release/cpi.nr0.htm; confirmed if the release is publicly posted on that URL by 2026-10-24 23:59 ET, disconfirmed if not posted by that time.",
    "resolve_by": "2026-10-25",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-04T12:22:50Z",
@@ -9378,7 +9410,11 @@
      "source_url": "https://eco3min.fr/en/next-us-cpi-release/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-10-29T14:09:43Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261004-002",
