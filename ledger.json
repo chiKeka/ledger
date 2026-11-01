@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-01",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -709,7 +709,14 @@
      "note": "Private annotation withheld from public export."
     }
    ],
-   "related_to": [],
+   "related_to": [
+    {
+     "id": "claim-20260610-014",
+     "relation": "shares-system",
+     "date": "2026-11-01T14:23:03Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
    "evidence": [
     {
      "date": "2026-06-10",
@@ -770,6 +777,12 @@
      "direction": "supports",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.undp.org/node/604946"
+    },
+    {
+     "date": "2026-11-01",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": null
     }
    ],
    "resolution": null
@@ -850,6 +863,12 @@
      "direction": "supports",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://arxiv.org/abs/2606.28404"
+    },
+    {
+     "date": "2026-11-01",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": null
     }
    ],
    "resolution": null
@@ -7472,7 +7491,7 @@
    ],
    "update_test": "By 2026-10-30 23:59 UTC, at least one identifiable public record (EU AI Office press release, EU Official Journal, Commission press release, or Executive VP public statement carried by Euractiv / CNBC / QZ / Bloomberg / FT) names a general-purpose AI model provider and describes a new enforcement action (subsequent RFI wave, formal notice, order, or fine) beyond the first-wave RFIs of 2026-08-29 that named OpenAI, Anthropic, and Google. A new fact from the same regulator, not a reprint of the first wave.",
    "resolve_by": "2026-10-30",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-08-31T12:38:13Z",
@@ -7530,9 +7549,25 @@
      "direction": "supports",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://techjacksolutions.com/ai-brief/eu-ai-office-inquiries-openai-anthropic-gpai-containment/"
+    },
+    {
+     "date": "2026-10-30",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-gpai-enforcement-20260829-csa-st/"
+    },
+    {
+     "date": "2026-10-31",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-11-01T14:20:56Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260831-002",
@@ -7761,7 +7796,7 @@
    ],
    "update_test": "By 2026-10-31 23:59 UTC, an identifiable public source on domyn.com, ec.europa.eu/digital-strategy, EuroHPC JU (eurohpc-ju.europa.eu), or an official Domyn communication channel confirms training has begun OR publishes an initial model card, interim checkpoint description, or dated training artifact tied to the EUROPA project. Confirmed if at least one such artifact surfaces; disconfirmed if none does by deadline.",
    "resolve_by": "2026-10-31",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-01T12:43:07Z",
@@ -7777,8 +7812,19 @@
      "note": "Private annotation withheld from public export."
     }
    ],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-31",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://cordis.europa.eu/project/id/101260370/fr"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:56Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260902-001",
@@ -7801,7 +7847,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-31 23:59 UTC, an identifiable public source (specialist African tech trade press or operator press release) names an anchor tenant with either (a) a stated MW commitment or (b) a named enterprise / government customer for one of the four specified 2026-commissioned campuses. Confirmed on first such announcement; disconfirmed if none by the deadline.",
    "resolve_by": "2026-10-31",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-02T12:29:56Z",
@@ -7831,7 +7877,11 @@
      "source_url": "https://af.net/realtime/africas-first-ai-dedicated-data-center-opens-in-nairobi-powered-by-100-renewables/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-11-01T14:20:56Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260902-002",
@@ -7854,7 +7904,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-31 23:59 UTC, a Meta SEC filing (10-Q, 10-K, 8-K), Meta investor relations page, Meta official blog, or on-the-record executive press interview publicly states any specific quantitative attribute of the Enterprise Solutions unit: a customer count, a dedicated headcount for the unit, a dedicated capital allocation, or a named partner. Confirmed on the first such disclosure; disconfirmed if none by the deadline.",
    "resolve_by": "2026-10-31",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-02T12:30:19Z",
@@ -7871,7 +7921,11 @@
     }
    ],
    "evidence": [],
-   "resolution": null
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260902-003",
@@ -8183,7 +8237,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-28, the Bank of Canada publishes at 10:00 ET on bankofcanada.ca the policy interest rate announcement stating the target for the overnight rate is 2.25 percent, unchanged. Confirmed if the announcement holds at 2.25 percent; disconfirmed if there is a cut or hike.",
    "resolve_by": "2026-10-30",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-05T12:13:45Z",
@@ -8192,8 +8246,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bl2020.com/misc_bl/index.cfm/fuseaction/shownewsroompage/newsid/4ba7a9a8-9205-4dbb-ad01-1dfea41dbbf4/slang/en"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:14Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260914-001",
@@ -8607,7 +8672,7 @@
    "frameworks": [],
    "update_test": "By 2026-11-01, the Council of Europe website at coe.int lists at least one state as a signatory to the Framework Convention on AI that was not on the signatory list as of 2026-09-19. Ratification without a new signature also counts. Confirmed via the CoE treaty office page snapshot.",
    "resolve_by": "2026-11-01",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-19T12:09:17Z",
@@ -8629,9 +8694,19 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.coe.int/web/artificial-intelligence/-/north-macedonia-signs-the-council-of-europe-s-framework-convention-on-artificial-intelligence"
+    },
+    {
+     "date": "2026-11-01",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence/-/signatures"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260919-003",
@@ -8894,7 +8969,7 @@
    "frameworks": [],
    "update_test": "On or before 2026-10-31, the Bank of Japan publishes on boj.or.jp its Statement on Monetary Policy from the October 2026 meeting stating the guideline for the uncollateralized overnight call rate. Confirmed if the guideline is around 1.0 percent (UNCHANGED). Disconfirmed if the guideline is raised or cut by any amount.",
    "resolve_by": "2026-10-31",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-22T12:11:18Z",
@@ -8921,9 +8996,19 @@
      "direction": "against",
      "note": "Private annotation withheld from public export.",
      "source_url": "https://www.mnimarkets.com/articles/mni-policy-bojs-tankan-raises-hike-odds-ueda-speech-eyed-1759294438444"
+    },
+    {
+     "date": "2026-10-31",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/"
     }
    ],
-   "resolution": null
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260922-002",
@@ -9122,7 +9207,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-30, the BLS Employment Cost Index news release for Q3 2026 reports the seasonally adjusted three-month percent change in wages and salaries for civilian workers on the official release page (bls.gov/eci/). Confirmed if that figure is at or below 0.9 percent. Disconfirmed if strictly greater than 0.9 percent.",
    "resolve_by": "2026-10-30",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-09-30T12:24:57Z",
@@ -9131,8 +9216,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bls.gov/news.release/archives/eci_07312026.htm"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20260930-002",
@@ -9192,7 +9288,7 @@
    "frameworks": [],
    "update_test": "By 2026-10-31 23:59 UTC, ecb.europa.eu publishes the Monetary policy decisions press release from the 2026-10-29/30 Governing Council meeting. Confirmed if the deposit facility rate is unchanged from the level set at the immediately prior Governing Council decision; disconfirmed if the deposit facility rate is cut or raised at this meeting.",
    "resolve_by": "2026-10-31",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-01T12:22:22Z",
@@ -9201,8 +9297,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-31",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.fxstreet.com/news/ecb-sets-to-leave-deposit-rate-unchanged-at-2-on-october-30-reuters-poll-202510221122"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261001-002",
@@ -9258,7 +9365,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-29 or shortly after, bea.gov publishes Personal Income and Outlays September 2026 showing core PCE price index y/y (12-month percent change) at or below 2.9 percent; confirmed if headline core y/y value is 2.9 percent or lower; disconfirmed if strictly greater than 2.9 percent.",
    "resolve_by": "2026-10-30",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-02T12:25:03Z",
@@ -9267,8 +9374,19 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261002-002",
@@ -9437,7 +9555,7 @@
    "frameworks": [],
    "update_test": "On 2026-10-29, BEA publishes GDP Advance Q3 2026 on bea.gov/data/gdp/gross-domestic-product; confirmed if the release is publicly posted on that URL by 2026-10-29 23:59 ET, disconfirmed if not posted by that time.",
    "resolve_by": "2026-10-30",
-   "status": "open",
+   "status": "unresolvable",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-04T12:23:08Z",
@@ -9453,8 +9571,19 @@
      "note": "Private annotation withheld from public export."
     }
    ],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-01T14:20:57Z",
+    "outcome": "unresolvable",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261013-001",
@@ -9742,6 +9871,232 @@
      "id": "claim-20260610-004",
      "relation": "shares-system",
      "date": "2026-10-24T12:18:37Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261031-001",
+   "date": "2026-10-31",
+   "registered_at": "2026-10-31T12:22:13Z",
+   "claim": "UK ONS Consumer Price Inflation release for October 2026 (release scheduled 2026-11-18 at 07:00 UTC on ons.gov.uk) reports the 12-month CPI All Items headline index y/y percent change at 2.4 percent or higher.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "ONS Consumer Price Inflation UK statistical bulletin, next release scheduled 2026-11-18 07:00 UTC on ons.gov.uk/releases/consumerpriceinflationukoctober2026; prior month (September 2026) release schedule confirmed via ons.gov.uk release calendar.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "base_rate_source": "ONS CPIH and CPI headline y/y prints Apr 2026 through Sep 2026 (via ons.gov.uk Consumer Price Inflation statistical bulletin series) tracked near the 2.0-2.6 percent range; conditional on recent prints near 2.3-2.5 percent, next-print at or above 2.4 percent base rate approximately 0.55. As-of 2026-10-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-11-18 23:59 UTC, ons.gov.uk publishes the Consumer Price Inflation UK October 2026 release stating the headline CPI All Items 12-month percent change. Confirmed if y/y figure is 2.4 percent or higher; disconfirmed if strictly below 2.4 percent.",
+   "resolve_by": "2026-11-19",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-31T12:22:13Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261031-002",
+   "date": "2026-10-31",
+   "registered_at": "2026-10-31T12:22:27Z",
+   "claim": "Reserve Bank of New Zealand at its scheduled 2026-12-09 Monetary Policy Statement keeps the Official Cash Rate unchanged from the level set at its 2026-10-28 Monetary Policy Review.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "RBNZ Monetary Policy Statement scheduled 2026-12-09 per rbnz.govt.nz Monetary Policy Statement calendar (secondary citations via babypips, squirrel.co.nz, centralbank.watch). Current OCR as of 2026-10-28 Monetary Policy Review per secondary sources (babypips, MNI); exact level and vote split not primary-verified in this sandbox.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.55,
+   "base_rate_source": "RBNZ Monetary Policy Decisions 2024-01 through 2026-10 (per rbnz.govt.nz Monetary Policy Statements and Reviews archive). Trailing eight meetings show mixed cutting and holding; conditional on an immediately-prior Monetary Policy Review hold, next MPS hold base rate approximately 0.55. Mixed outlook reporting (one source expects a further +25bp hike to 3.00 percent in December; MNI/babypips suggest 2026 hold likely). As-of 2026-10-31.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-09 23:59 UTC, rbnz.govt.nz publishes the Monetary Policy Statement from the 2026-12-09 decision stating the Official Cash Rate. Confirmed if the OCR is unchanged from the level set at the 2026-10-28 Monetary Policy Review; disconfirmed if the OCR is cut or raised at this meeting.",
+   "resolve_by": "2026-12-10",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-10-31T12:22:27Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20261013-001",
+     "relation": "shares-system",
+     "date": "2026-11-01T14:23:50Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261101-001",
+   "date": "2026-11-01",
+   "registered_at": "2026-11-01T12:16:10Z",
+   "claim": "By 2026-12-31 23:59 UTC, the European Commission AI Office publicly records (via commission.europa.eu, digital-strategy.ec.europa.eu, or official press release) at least one additional formal enforcement action under the AI Act for general-purpose AI providers beyond the first-wave 2026-08-29 Article 91 Requests for Information. The additional action can be a second-wave RFI batch to new providers, a formal measure or decision, a public evaluation finding, or an announced fine. First-wave RFI reiterations do not count.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "EU AI Office within DG CNECT, first-wave RFIs issued 2026-08-29 to 30+ GPAI providers per sota.io/csa coverage; Virkkunen VP press appearances (Dublin 2026-10-14) referencing enforcement priorities; outstanding question of Q4 action pace per Forkast report of 40-staff hiring push.",
+   "withdrawal": null,
+   "confidence": 0.47,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.35,
+   "base_rate_source": "Prior 60-day enforcement cadence: between 2026-08-29 first-wave RFIs and 2026-11-01, zero additional formal enforcement actions logged against calibration-tier claim-20260831-001 (6 evidence lines, 4 against, 2 supports of RFI-reiteration only). Virkkunen Dublin speech 2026-10-14 and reports of OpenAI/Anthropic investigation (via Euronews/TechJack 2026-10-14) indicate escalation path but no action logged. 2-month pacing suggests ~35 percent base rate for a next 60-day window. Anchor as of 2026-11-01.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-31 23:59 UTC, an announcement on commission.europa.eu, digital-strategy.ec.europa.eu, or an official EU press-corner release names a formal AI Act enforcement action (not a first-wave RFI reiteration) against a specific GPAI provider. Confirmed on dated primary-source announcement with provider name and action type; disconfirmed on absence through 2026-12-31.",
+   "resolve_by": "2026-12-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-01T12:16:10Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20260831-001",
+     "relation": "probes",
+     "date": "2026-11-01T12:17:28Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261101-002",
+   "date": "2026-11-01",
+   "registered_at": "2026-11-01T12:16:45Z",
+   "claim": "By 2026-11-30 23:59 UTC, at least two separate African governments (national-level, verifiable via ccTLD .gov domain OR official ministry site), between 2026-11-02 and 2026-11-26, publish a formal MoU, procurement notice, policy document, or ministerial statement that explicitly names AI infrastructure, sovereign compute, or AI-ready data centres AND is dated during or within 7 calendar days of the Africa Internet Governance Forum (Accra 2026-11-02 to 2026-11-05) OR the Africa Tech Festival (Cape Town 2026-11-17 to 2026-11-19). Both governments must be different; both publications must satisfy both the naming and the event-window-timing clause.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Africa Internet Governance Forum confirmed Accra 2026-11-02 to 2026-11-05 (foretiafoundation.org events listing November 2026); Africa Tech Festival confirmed Cape Town 2026-11-17 to 2026-11-19 (TechCentral/AF.NET 2026-10-27 analysis republished). Both events have historically produced government-level announcements.",
+   "withdrawal": null,
+   "confidence": 0.24,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.3,
+   "base_rate_source": "Prior calibration-tier claims probing African government AI announcements in similar windows: claim-20260914-001 (AU-level AI compute figure by 2026-11-13, confidence 26 percent), claim-20260915-003 (Nigerian compute figure by 2026-11-14, confidence 18 percent), claim-20260921-003 (Egypt sovereign AI data centre milestone by 2026-11-15, confidence 52 percent), claim-20261002-003 (national second-wave AU state publication by 2026-11-30, confidence 47 percent). Base rate for single-country AI infra publication tied to event = approx 35-55 percent per prior claims. The two-country-AND-event-window conjunction tightens the probability. Anchor as of 2026-11-01.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-07 23:59 UTC, two separate African governments publish on ccTLD .gov or official ministry sites a document meeting the specification. Confirmed on two independent dated primary-source announcements with event-window-timing and AI-infrastructure naming; disconfirmed on fewer than two meeting both tests by 2026-11-30 end-window.",
+   "resolve_by": "2026-11-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-01T12:16:45Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20261002-003",
+     "relation": "shares-system",
+     "date": "2026-11-01T12:17:29Z",
+     "note": "Private annotation withheld from public export."
+    }
+   ],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261101-003",
+   "date": "2026-11-01",
+   "registered_at": "2026-11-01T12:17:01Z",
+   "claim": "By 2026-12-01 23:59 UTC, the Organisation for Economic Co-operation and Development (OECD) publishes an Economic Outlook (expected November 2026 per biannual schedule, verifiable via oecd.org/economic-outlook) that includes an explicit named quantitative figure (percentage, GDP point, productivity-growth number, or capital-deepening estimate) for AI-driven productivity gains covering OECD-wide 2026 OR OECD-wide 2027 OR a specific OECD economy's 2026 OR 2027 forecast horizon. The figure must be a point estimate OR a bounded range, must be attributed to AI/AI-related investment, and must appear in the OECD Economic Outlook main volume (chapters or thematic sections), not only in a reference annex, blog post, or working paper.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "OECD Economic Outlook biannual publication schedule per oecd.org/economic-outlook; November 2026 edition expected. Prior Outlooks (June 2025, December 2024) contained AI productivity scenarios with named figures. OECD positioning AI as a 2026-27 central growth variable in staff speeches 2026-H1.",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.45,
+   "base_rate_source": "OECD Economic Outlook June 2025 contained AI productivity scenarios with 0.4-1.3 percentage-point GDP growth ranges; December 2024 Interim Outlook referenced AI capital-deepening as a growth factor. Biannual pattern: AI as a named productivity-growth variable appeared in the main Outlook ~3 of the prior 4 editions when searched (approx 0.65-0.75 raw base rate). Tightening to require named figure for 2026 OR 2027 point estimate reduces this to approx 0.45. Anchor as of 2026-11-01.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-12-01 23:59 UTC, OECD Economic Outlook November 2026 release contains an explicit named figure for AI-driven productivity gain in 2026 or 2027 at OECD-wide or specific-economy level. Confirmed on dated oecd.org Economic Outlook publication with named figure and attribution to AI; disconfirmed on absence through 2026-12-01.",
+   "resolve_by": "2026-12-01",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-01T12:17:01Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261101-004",
+   "date": "2026-11-01",
+   "registered_at": "2026-11-01T12:17:16Z",
+   "claim": "By 2026-11-30 23:59 UTC, OpenAI publishes on openai.com (newsroom, policy, global-affairs, research, or blog sections) a dated announcement that is either (a) a new African-country operational office or formal government-partnership MoU specifically with at least one named African government counterpart, OR (b) a new Africa-focused compute-access, research-grant, infrastructure-cofinancing, or sovereign-AI-partnership program with at least one named African country or African AU-level counterpart. Pre-existing Nigeria OpenAI Academy at UNILAG (announced August 2026), Kenya WildMango SMB partnership (April 2026), and South Africa ZAR local-pricing (ChatGPT subscription) do not count as new announcements; the claim requires a dated post-2026-11-01 announcement on openai.com directly, not a secondary report.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "OpenAI for Countries program launched May 2025, extended via Nigeria OpenAI Academy announcement August 2026 (innovation-village 2026-08-11) and Kenya WildMango partnership April 2026 (allafrica 2026-04-28). African president-level engagement precedent: Kenyan President Ruto G7 Altman meeting June 2026 (per standardmedia.co.ke).",
+   "withdrawal": null,
+   "confidence": 0.32,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": null,
+   "base_rate": 0.25,
+   "base_rate_source": "OpenAI cadence of Africa-specific announcements on openai.com: approximately 1 named Africa-country announcement per 90-day window since May 2025 OpenAI for Countries launch. 30-day forward window base rate approx 25 percent. Anchor as of 2026-11-01.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "On or before 2026-11-30 23:59 UTC, a dated post-2026-11-01 announcement on openai.com meeting the specification. Confirmed on dated openai.com direct publication with named African counterpart and new program/office/MoU; disconfirmed on absence through 2026-11-30.",
+   "resolve_by": "2026-11-30",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-01T12:17:16Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [
+    {
+     "id": "claim-20261101-002",
+     "relation": "probes",
+     "date": "2026-11-01T14:23:50Z",
      "note": "Private annotation withheld from public export."
     }
    ],
@@ -10285,7 +10640,13 @@
   "claim-20261024-001": 185,
   "claim-20261024-002": 186,
   "claim-20261024-003": 187,
-  "claim-20261024-004": 188
+  "claim-20261024-004": 188,
+  "claim-20261031-001": 189,
+  "claim-20261031-002": 190,
+  "claim-20261101-001": 191,
+  "claim-20261101-002": 192,
+  "claim-20261101-003": 193,
+  "claim-20261101-004": 194
  },
  "stats": {
   "committers": {
