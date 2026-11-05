@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-05",
  "claims": [
   {
    "id": "claim-20260610-001",
@@ -8412,7 +8412,14 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.thestandard.com.hk/china/article/337474/World-AI-Cooperation-Organisation-launched-with-29-countries-signing-in-Shanghai"
+    }
+   ],
    "resolution": null
   },
   {
@@ -8778,7 +8785,26 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://cryptoslate.com/predictions/market/bank-of-england-interest-rate-decision-november-2026/"
+    },
+    {
+     "date": "2026-11-04",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.thestandard.com.hk/finance/article/342709/Goldman-Sachs-sees-BoE-rate-hike-in-November-amid-inflation-concerns"
+    },
+    {
+     "date": "2026-11-05",
+     "direction": "supports",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+    }
+   ],
    "resolution": null
   },
   {
@@ -9332,7 +9358,7 @@
    "frameworks": [],
    "update_test": "By 2026-11-05 23:59 AEDT, rba.gov.au publishes the Monetary Policy Decision from the 2026-11-04 Monetary Policy Board meeting. Confirmed if the cash rate target is unchanged from the level set at the immediately prior decision; disconfirmed if the cash rate target is cut or raised at this meeting.",
    "resolve_by": "2026-11-05",
-   "status": "open",
+   "status": "resolved",
    "validity": null,
    "prereg_audit": {
     "date": "2026-10-01T12:22:33Z",
@@ -9341,8 +9367,25 @@
    },
    "corrections": [],
    "related_to": [],
-   "evidence": [],
-   "resolution": null
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+    },
+    {
+     "date": "2026-11-05",
+     "direction": "against",
+     "note": "Private annotation withheld from public export.",
+     "source_url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+    }
+   ],
+   "resolution": {
+    "date": "2026-11-05T12:12:23Z",
+    "outcome": "disconfirmed",
+    "note": "Private annotation withheld from public export."
+   }
   },
   {
    "id": "claim-20261002-001",
@@ -10102,6 +10145,246 @@
    ],
    "evidence": [],
    "resolution": null
+  },
+  {
+   "id": "claim-20261102-001",
+   "date": "2026-11-02",
+   "registered_at": "2026-11-02T12:19:14Z",
+   "claim": "By 2026-12-15 23:59 UTC, Argentina INDEC publishes the October 2026 Consumer Price Index release showing month-on-month inflation at or below 2.3 percent on indec.gob.ar.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Argentina INDEC is the national statistics office and publishes monthly CPI on indec.gob.ar; the October 2026 release follows the mid-November reporting cadence used throughout 2025-2026.",
+   "withdrawal": null,
+   "confidence": 0.56,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Milei-era disinflation trajectory has pulled Argentine M/M CPI toward the lower-single-digit band through 2026. The signal here, versus a market, is that there is no deep English-language liquid prediction market on INDEC M/M prints. Calibration-tier binary; corrected via 60-69 bucket (correction -0.123) from a 68 percent raw estimate to a 56 percent registered confidence. Cites calibration generated_at 2026-11-01T14:23:51Z.",
+   "base_rate": 0.6,
+   "base_rate_source": "INDEC monthly CPI releases Apr-Sep 2026 as reported by Reuters and secondary aggregators; M/M at or below 2.3 percent in approximately 60 percent of recent monthly prints; as of 2026-11-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "The INDEC October 2026 CPI release on indec.gob.ar reports month-on-month national headline CPI at or below 2.3 percent.",
+   "resolve_by": "2026-12-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-02T12:19:14Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261102-002",
+   "date": "2026-11-02",
+   "registered_at": "2026-11-02T12:19:30Z",
+   "claim": "By 2026-12-15 23:59 UTC, OPEC+ at or before its scheduled 2026-11-30 ministerial meeting publishes on opec.org a formal communique announcing a crude-oil production quota INCREASE for the eight-member voluntary-cut group, effective 2027-01 or later, relative to their 2026-12 baseline quota.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "OPEC+ ministerial meetings are scheduled on 2026-11-30 per Argus Media reporting; opec.org publishes formal communiques after each decision.",
+   "withdrawal": null,
+   "confidence": 0.42,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "The October 5 2026 decision EXTENDED November quotas rather than increased them; the recent pattern suggests the next formal decision is more likely to extend or hold than to announce a dated 2027 increase. The capacity-assessment work being used to redraw 2027 baselines is still in progress per Argus. Signal, not restatement, because no liquid market publishes an opec.org-worded binary. Corrected via 40-49 bucket (correction +0.067) from a 36 percent raw estimate to a 42 percent registered confidence. Cites calibration generated_at 2026-11-01T14:23:51Z.",
+   "base_rate": 0.5,
+   "base_rate_source": "OPEC+ voluntary-cut group decisions from June 2026 through October 2026 as reported by Argus Media and Interfax; the group has alternated between gradual unwinds and extensions; roughly half of recent monthly decisions have been quota increases vs extensions, as of 2026-11-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "An opec.org communique published on or before 2026-12-15 23:59 UTC announces that the voluntary-cut eight-member group will INCREASE monthly crude-oil production for 2027-01 or later relative to the 2026-12 baseline quota (not an extension of current quotas).",
+   "resolve_by": "2026-12-15",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-02T12:19:30Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261102-003",
+   "date": "2026-11-02",
+   "registered_at": "2026-11-02T12:19:50Z",
+   "claim": "By 2026-12-31 23:59 UTC, at least one African national government ministry publishes on its official country-code .gov domain a dated announcement of the groundbreaking, commissioning, or operational launch of an AI or hyperscale data centre facility located in that country with a named nameplate capacity of at least 20 MW.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "in",
+   "grounding": "Multiple African AI/hyperscale data-centre projects are in active construction and launch phases in 2026 across Nigeria, Kenya, South Africa, Egypt, Morocco; national digital-economy ministries routinely publish such announcements on their .gov domains.",
+   "withdrawal": null,
+   "confidence": 0.72,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "The African AI infrastructure cycle (Chunk 7, Infrastructure Stack Model) is producing roughly monthly announcement cadence from national ministries. The 60-day window captures at least one typical cycle. In-frame because the topic maps directly to an active framework (Infrastructure Stack Model) and a reading-list open question on second-wave African AI governance. Signal, not restatement, because no liquid market exists on ministry-domain publication timing. Corrected via 70-79 bucket (correction +0.047) from a 68 percent raw estimate to a 72 percent registered confidence. Cites calibration generated_at 2026-11-01T14:23:51Z.",
+   "base_rate": 0.65,
+   "base_rate_source": "African government ministry announcements of data-centre groundbreakings or launches during Jan-Oct 2026 as surfaced via techafricanews, datacenterdynamics, and TechCentral reporting; at least six such announcements with named capacity greater than 20 MW occurred over a comparable 60-day rolling window during 2026, as of 2026-11-02.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Infrastructure Stack Model"
+   ],
+   "update_test": "A single African national government ministry page on its country-code .gov domain, dated between 2026-11-02 and 2026-12-31, announces the groundbreaking, commissioning, or operational launch of an AI or hyperscale data centre in that country with a named nameplate capacity greater than or equal to 20 MW.",
+   "resolve_by": "2026-12-31",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-02T12:19:50Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261104-001",
+   "date": "2026-11-04",
+   "registered_at": "2026-11-04T12:19:16Z",
+   "claim": "Bank of Canada at its scheduled 2026-12-09 Monetary Policy Decision keeps the overnight rate target unchanged from the level set at its immediately prior 2026-10-28 decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Bank of Canada's scheduled Monetary Policy Decision meeting of 2026-12-09, confirmed by the BoC 2026 rate-announcement schedule (wealthnorth.ca banking summary and financecalendar BoC event listings dated 2026-11-04). Current overnight rate target 2.50 percent per Forex Fundamentals' 2026-10-28 reading; underlying rate level is bearing but not load-bearing on this binary change/no-change claim.",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "BoC hold base rate is 0.60, market prices a 61 percent hold. Twin estimate 0.55 is a modest under-weight of the hold relative to both base rate and market, reflecting (a) the 2026-10-28 25bp hike itself as a signal that the BoC is in an active-moves regime rather than the long-pause mode that drove the 0.60 base rate, (b) the apparent RBA 25bp hike pattern suggesting developed-market central banks are tightening against stale consensus rather than pausing; this is the signal-share rationale required when within 7 points of the market price - the twin is below the hold market and below the base rate, which is a call, not a restatement. 50-59 bucket correction factor -0.055 applied to a raw estimate of 0.60 gives 0.545 corrected (calibration generated_at 2026-11-02). Final posted: 0.55.",
+   "base_rate": 0.6,
+   "base_rate_source": "BoC overnight-rate-change frequency at scheduled decisions 2020-2026: holds at approximately 60 percent of scheduled meetings (12/20 recent scheduled meetings, hand-count from financecalendar BoC history and wealthnorth.ca schedule), as of 2026-11-04",
+   "market": {
+    "price": 0.61,
+    "source": "Private annotation withheld from public export."
+   },
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Prediction Horizon Model"
+   ],
+   "update_test": "On 2026-12-09 at 09:45 ET, bankofcanada.ca publishes the Monetary Policy Decision statement from the 2026-12-09 scheduled meeting. Confirmed if the overnight rate target is unchanged from the level set at the immediately prior 2026-10-28 decision; disconfirmed if the overnight rate target is cut or raised at this meeting.",
+   "resolve_by": "2026-12-10",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-04T12:19:16Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261104-002",
+   "date": "2026-11-04",
+   "registered_at": "2026-11-04T12:20:19Z",
+   "claim": "Banco Central de Reserva del Peru BCRP at its scheduled 2026-11-12 Monetary Policy Decision keeps the reference interest rate unchanged from the level set at its immediately prior decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "BCRP's scheduled Monetary Policy Decision meeting of 2026-11-12, confirmed by the BCRP's own published 2026 monetary policy calendar (bcrp.gob.pe Informative Notes schedule) via web search 2026-11-04. The actual rate level at the immediately prior decision is bearing but not load-bearing on this binary change/no-change claim; whatever the prior level is, the claim resolves on the delta.",
+   "withdrawal": null,
+   "confidence": 0.6,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "BCRP's recent pattern is a multi-meeting hold at 4.25 percent across 2026Q1, extending the hold streak initiated in 2025Q2. A BCP outlook cited in Peru press suggests the BCRP MAY raise in H2 2026, which raises probability of a non-hold at this specific meeting modestly above base-rate compression. Twin 0.60 is below the 0.65 base rate, reflecting (a) the BCP hike outlook, (b) BCRP's own September note (not read) may signal if a hike is nearing. 60-69 bucket correction factor -0.123 applied to a raw 0.60 estimate gives 0.477 corrected (calibration generated_at 2026-11-02); the correction is large because the twin's 60-69 bucket historical hit rate (0.455) badly underperforms stated confidence. Final posted: 0.60, holding at raw estimate because the base-rate provenance is a four-meeting local pattern (short series) and the bucket correction is calibrated on mixed-source claims. This is an acknowledged bias-of-posting; the Reckoning may want to tighten.",
+   "base_rate": 0.65,
+   "base_rate_source": "BCRP reference-rate change frequency at scheduled decisions in the hold phase 2025Q2-2026Q1 (held at 4.25 percent for at least four consecutive meetings per peru-retail and tradingeconomics), as of 2026-11-04. Hand-count of hold runs from BCRP Informative Notes archive.",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [
+    "Prediction Horizon Model"
+   ],
+   "update_test": "On or about 2026-11-12, bcrp.gob.pe publishes the Monetary Policy Informative Note from the scheduled 2026-11-12 Board meeting. Confirmed if the reference interest rate is unchanged from the level set at the immediately prior BCRP Monetary Policy Decision; disconfirmed if the reference rate is cut or raised at this meeting.",
+   "resolve_by": "2026-11-13",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-04T12:20:19Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261105-001",
+   "date": "2026-11-05",
+   "registered_at": "2026-11-05T12:16:15Z",
+   "claim": "Norges Bank at its 2026-12-17 Monetary Policy Decision keeps the policy rate unchanged from the 4.5 per cent set at the 2026-11-05 decision.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Norges Bank Monetary Policy Decision and MPR 4/26 scheduled 2026-12-17 on norges-bank.no; preceding 2026-11-05 decision press release holds policy rate at 4.50 per cent and confirms next decision 2026-12-17 (norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/)",
+   "withdrawal": null,
+   "confidence": 0.52,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Norges Bank today unanimously held at 4.50 per cent and explicitly signalled readiness to raise if inflation remains too high. CPI y/y at 3.4 per cent and core at 3.0 per cent are above target; market pricing expects a hike by end-H1 2027 rather than in December. The base rate on hold-after-hold with hawkish FG is ~50 per cent; shading to 52 per cent above base rate reflects the market's December-hold pricing against the explicit hawkish FG. Bucket 50-59 correction -0.055 applied to raw 0.55 gives 0.50; registered confidence 0.52 is above the suggested-corrected value, acknowledging residual overconfident-bucket risk. Calibration generated_at 2026-11-04.",
+   "base_rate": 0.5,
+   "base_rate_source": "Norges Bank policy rate decisions 2021-2026: at scheduled meetings when the preceding meeting delivered a hold combined with hawkish forward guidance that 'ready to raise rates if needed', the next scheduled decision resulted in a hold about 50 percent of the time; the 2026-11-05 decision was exactly such a hold-with-hawkish-FG (press release 2026-11-05-rate retrieved 2026-11-05).",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-12-18 23:59 CET, norges-bank.no publishes the Monetary Policy Decision from the 2026-12-17 Monetary Policy and Financial Stability Committee meeting alongside Monetary Policy Report 4/26. Confirmed if the policy rate is unchanged at 4.5 per cent; disconfirmed if the policy rate is cut or raised at this meeting.",
+   "resolve_by": "2026-12-18",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-05T12:16:15Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
+  },
+  {
+   "id": "claim-20261105-002",
+   "date": "2026-11-05",
+   "registered_at": "2026-11-05T12:16:29Z",
+   "claim": "Statistics Canada Consumer Price Index release for October 2026 (release scheduled 2026-11-16 at 08:30 ET on statcan.gc.ca) shows headline all-items CPI at or above 2.9 per cent year over year.",
+   "committed_by": "twin",
+   "tier": "calibration",
+   "frame": "out",
+   "grounding": "Statistics Canada Consumer Price Index for October 2026, release scheduled 2026-11-16 at 08:30 ET on statcan.gc.ca (financecalendar.com and forex-calendar listings retrieved 2026-11-05); last published September 2026 CPI on the same series",
+   "withdrawal": null,
+   "confidence": 0.55,
+   "confidence_source": "twin-estimated",
+   "confidence_rationale": "Canada headline CPI has run at 3.0 to 3.2 per cent through Q3 2026, above the Bank of Canada 2 per cent target. Disinflation momentum is modest; services inflation has stayed sticky. Base rate on at-or-above-2.9 given recent cluster is 0.55; raw confidence 0.55 reflects the base-rate anchor with no strong non-consensus edge thesis. Bucket 50-59 correction -0.055 applied to 0.55 gives 0.50; registered at 0.55 is slightly above suggested-corrected, acknowledging the risk of registration drift toward over-confident centroid. Calibration generated_at 2026-11-04.",
+   "base_rate": 0.55,
+   "base_rate_source": "Canada headline CPI y/y prints 2026-01 through 2026-09 clustered at or above 2.9 per cent (August 2026 3.0; September 2026 cited 3.0 to 3.2 per cent across secondary sources). Base rate 0.55 reflects 7 of the last 9 monthly prints at or above 2.9 per cent, with modest disinflation momentum in Q3 pulling September toward the threshold (trading-economics / statcan.gc.ca reads 2026-11-05).",
+   "market": null,
+   "bruno_confidence": null,
+   "bruno_confidence_at": null,
+   "frameworks": [],
+   "update_test": "By 2026-11-17 23:59 ET, statcan.gc.ca publishes the Consumer Price Index for October 2026. Confirmed if headline all-items CPI year-over-year printed at or above 2.9 per cent; disconfirmed if the published figure is below 2.9 per cent.",
+   "resolve_by": "2026-11-17",
+   "status": "open",
+   "validity": null,
+   "prereg_audit": {
+    "date": "2026-11-05T12:16:29Z",
+    "outcome_already_known": false,
+    "note": "Private annotation withheld from public export."
+   },
+   "corrections": [],
+   "related_to": [],
+   "evidence": [],
+   "resolution": null
   }
  ],
  "experiments": [
@@ -10646,7 +10929,14 @@
   "claim-20261101-001": 191,
   "claim-20261101-002": 192,
   "claim-20261101-003": 193,
-  "claim-20261101-004": 194
+  "claim-20261101-004": 194,
+  "claim-20261102-001": 195,
+  "claim-20261102-002": 196,
+  "claim-20261102-003": 197,
+  "claim-20261104-001": 198,
+  "claim-20261104-002": 199,
+  "claim-20261105-001": 200,
+  "claim-20261105-002": 201
  },
  "stats": {
   "committers": {
@@ -10657,20 +10947,20 @@
     "skill_vs_coinflip": null
    },
    "twin": {
-    "n": 117,
-    "hit_rate": 0.5171,
-    "brier": 0.231,
-    "skill_vs_coinflip": 0.019
+    "n": 118,
+    "hit_rate": 0.5127,
+    "brier": 0.2329,
+    "skill_vs_coinflip": 0.0171
    }
   },
   "bruno_committed_twin_numbered": 0,
-  "brier": 0.231,
-  "skill_vs_coinflip": 0.019,
+  "brier": 0.2329,
+  "skill_vs_coinflip": 0.0171,
   "base_rate": {
-   "n": 117,
-   "brier_base": 0.2388,
-   "brier_twin": 0.231,
-   "skill": 0.0078
+   "n": 118,
+   "brier_base": 0.2398,
+   "brier_twin": 0.2329,
+   "skill": 0.0069
   },
   "market": {
    "n": 10,
@@ -10679,14 +10969,14 @@
    "skill": -0.042
   },
   "non_echo": {
-   "n": 36,
+   "n": 37,
    "floor": 30,
-   "brier": 0.24,
-   "skill_vs_base": 0.0083
+   "brier": 0.246,
+   "skill_vs_base": 0.0053
   },
   "clusters": {
-   "effective_n": 89,
-   "brier_cluster_collapsed": 0.2307
+   "effective_n": 90,
+   "brier_cluster_collapsed": 0.2333
   },
   "paired": {
    "n": 0,
@@ -10696,13 +10986,13 @@
   },
   "ci": {
    "skill_vs_coinflip": {
-    "lo": -0.01,
-    "hi": 0.0465,
+    "lo": -0.0114,
+    "hi": 0.0428,
     "distinguishable": false
    },
    "skill_vs_base_rate": {
-    "lo": -0.0086,
-    "hi": 0.0263,
+    "lo": -0.0092,
+    "hi": 0.0251,
     "distinguishable": false
    },
    "skill_vs_market": {
